@@ -23,7 +23,21 @@ function loadRaw(): RawContent {
       if (Array.isArray(data)) data.forEach((d, i) => chapters.push({ file: `${f}[${i}]`, data: d }));
       else chapters.push({ file: f, data });
     }
-  return { trip: read("trip.json"), themes: read("themes.json"), sources: read("sources.json"), media: read("media.json"), home: read("home.json"), images: [], chapters };
+  const raw: RawContent = { trip: read("trip.json"), themes: read("themes.json"), sources: read("sources.json"), media: read("media.json"), home: read("home.json"), images: read("images.json"), chapters };
+  return raw;
+}
+/** Innehåll utan några kopplade bilder, som bas för fixtur-tester. */
+function loadRawWithoutImages(): RawContent {
+  const raw = structuredClone(loadRaw());
+  (raw.home as { hero: { imageId: string | null } }).hero.imageId = null;
+  for (const c of raw.chapters) {
+    const d = c.data as { status: string; hero?: { imageId: string | null }; sections?: { blocks: { type: string; imageId?: string | null }[] }[] };
+    if (d.status !== "published") continue;
+    d.hero!.imageId = null;
+    for (const sec of d.sections!) for (const b of sec.blocks) if (b.type === "photo") b.imageId = null;
+  }
+  raw.images = [];
+  return raw;
 }
 
 const validPhoto = (over: Partial<Record<string, unknown>> = {}) => ({
@@ -40,6 +54,7 @@ const validPhoto = (over: Partial<Record<string, unknown>> = {}) => ({
   license: { name: "Testlicens", url: "https://example.org/licens" },
   rightsCheckedOn: "2026-11-01",
   rightsCheckedBy: "Testgranskare",
+  licenseEvidence: "Licensruta på originalsidan lästes; villkoren medger vår användning.",
   requiredCredit: null,
   usageCleared: { webPublishing: true, offlinePackage: true, modification: true, publicRepoStorage: true },
   caption: "En testbild.",
@@ -52,15 +67,28 @@ const validPhoto = (over: Partial<Record<string, unknown>> = {}) => ({
 const files = (sizes: Record<string, number>): FileAccess => ({ size: (p) => sizes[p] });
 const okSizes = { "/images/testbild/testbild-640.webp": 40_000, "/images/testbild/testbild-1280.webp": 120_000 };
 function withPhoto(photo: unknown) {
-  const raw = loadRaw();
+  const raw = loadRawWithoutImages();
   raw.images = [photo];
   (raw.home as { hero: { imageId: string | null } }).hero.imageId = "testbild";
   return raw;
 }
 
 describe("bildkontroll", () => {
-  it("nuvarande innehåll: inga bilder, alla bildplatser planerade, giltigt", () => {
-    expect(validateContent(loadRaw(), files({})).errors).toEqual([]);
+  it("bildregistret utan kopplade bilder är giltigt (tomma bildplatser tillåts)", () => {
+    expect(validateContent(loadRawWithoutImages(), files({})).errors).toEqual([]);
+  });
+  it("det verkliga bildregistret: alla filer finns lokalt, med rätt storlek, och metadata är komplett", async () => {
+    const { publicFiles } = await import("@/lib/file-access");
+    const r = validateContent(loadRaw(), publicFiles());
+    expect(r.errors).toEqual([]);
+    expect(r.content!.photos.length).toBeGreaterThanOrEqual(15);
+    for (const p of r.content!.photos) {
+      expect(p.usageCleared).toEqual({ webPublishing: true, offlinePackage: true, modification: true, publicRepoStorage: true });
+      expect(p.license.url).toMatch(/^https:\/\//);
+      expect(p.sourceUrl).toMatch(/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/);
+      expect(p.licenseEvidence.length).toBeGreaterThan(40);
+      expect(p.variants.every((v) => v.path.startsWith("/images/"))).toBe(true);
+    }
   });
   it("en komplett bild med filer godkänns", () => {
     const r = validateContent(withPhoto(validPhoto()), files(okSizes));
@@ -81,7 +109,7 @@ describe("bildkontroll", () => {
     expect(r.errors).toEqual([]);
     expect(r.content!.warnings.length).toBe(1);
   });
-  for (const [name, field] of [["fotograf", "creator"], ["källänk", "sourceUrl"], ["licens", "license"], ["kontrolldatum", "rightsCheckedOn"], ["bildtext", "caption"], ["användning", "usedIn"], ["bearbetning", "modification"], ["rättighetsklarering", "usageCleared"]] as const) {
+  for (const [name, field] of [["fotograf", "creator"], ["källänk", "sourceUrl"], ["licens", "license"], ["kontrolldatum", "rightsCheckedOn"], ["bildtext", "caption"], ["användning", "usedIn"], ["bearbetning", "modification"], ["rättighetsklarering", "usageCleared"], ["licensunderlag", "licenseEvidence"]] as const) {
     it(`fångar saknad obligatorisk metadata: ${name}`, () => {
       const p = validPhoto() as Record<string, unknown>;
       delete p[field];
@@ -105,14 +133,14 @@ describe("bildkontroll", () => {
     expect(validateContent(withPhoto(validPhoto({ rightsCheckedOn: "2999-01-01" })), files(okSizes)).errors.some((e) => e.includes("framtiden"))).toBe(true);
   });
   it("fångar okänd bild på en bildplats och bild som inte används där usedIn säger", () => {
-    const raw = loadRaw();
+    const raw = loadRawWithoutImages();
     (raw.home as { hero: { imageId: string | null } }).hero.imageId = "finns-inte";
     expect(validateContent(raw, files({})).errors.some((e) => e.includes("okänd bild"))).toBe(true);
     const r2 = withPhoto(validPhoto({ usedIn: ["t01-k01"] }));
     expect(validateContent(r2, files(okSizes)).errors.some((e) => e.includes("saknar det i usedIn") || e.includes("används inte där"))).toBe(true);
   });
   it("fångar bild i registret som ingen plats använder", () => {
-    const raw = loadRaw();
+    const raw = loadRawWithoutImages();
     raw.images = [validPhoto()];
     expect(validateContent(raw, files(okSizes)).errors.some((e) => e.includes("används inte där"))).toBe(true);
   });
@@ -155,7 +183,10 @@ describe("bildoptimering (pipeline)", () => {
     const withMobile = await optimizeImage({ input: src, id: "syntet2", publicDir: out, widths: [480], mobile: true, focus: { x: 0.2, y: 0.5 } });
     const m = withMobile.variants.filter((v) => v.crop === "mobile");
     expect(m.length).toBeGreaterThan(0);
-    expect(m[0].height / m[0].width).toBeCloseTo(1.25, 1);
+    expect(m[0].height / m[0].width).toBeCloseTo(0.75, 2);
+    const pc = await optimizeImage({ input: src, id: "syntet3", publicDir: out, widths: [480], preCrop: { left: 0.1, right: 0.1, bottom: 0.2 } });
+    expect(pc.source.width).toBe(2400);
+    expect(pc.source.height).toBe(1600);
     expect(fs.existsSync(path.join(out, "images/syntet"))).toBe(true);
     fs.rmSync(dir, { recursive: true, force: true });
   });

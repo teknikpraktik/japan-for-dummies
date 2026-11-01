@@ -20,6 +20,8 @@
     "make:icons": "tsx scripts/make-icons.mts",
     "images:optimize": "tsx scripts/optimize-image.mts",
     "images:review": "tsx scripts/contact-sheet.mts",
+    "images:add": "tsx scripts/add-photo.mts",
+    "images:use": "tsx scripts/use-photo.mts",
     "check": "npm run validate:content && npm run lint && npm run typecheck && npm test"
   },
   "dependencies": {

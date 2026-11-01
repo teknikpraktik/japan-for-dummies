@@ -57,8 +57,8 @@
         {
           "type": "photo",
           "slotId": "t02-k02-svarta-skepp",
-          "imageId": null,
-          "brief": "Samtida japansk bildframställning av Perrys fartyg 1853–54 (historiskt original, t.ex. träsnitt). Bildtexten ska ange att det är en samtida tolkning."
+          "imageId": "perry-bildrulla",
+          "brief": "Samtida japansk bildframställning av Perrys expedition (historiskt original, t.ex. bildrulla eller träsnitt). Bildtexten ska ange att det är en samtida tolkning."
         }
       ]
     },
@@ -116,13 +116,13 @@
         {
           "type": "photo",
           "slotId": "t02-k02-meiji-miljo",
-          "imageId": null,
+          "imageId": "stillfried-yokohama-1881",
           "brief": "Historiskt original från Meijitiden som visar järnväg, station eller gatumiljö i Tokyo eller Yokohama."
         },
         {
           "type": "photo",
           "slotId": "t02-k02-nutida",
-          "imageId": null,
+          "imageId": "shimbashi-slplats-2019",
           "brief": "Nutida fotografi av en motsvarande miljö (station eller gata i Tokyo eller Yokohama), för jämförelse med Meijibilden."
         },
         {
@@ -399,7 +399,7 @@
   },
   "hero": {
     "slotId": "t02-k02-hero",
-    "imageId": null,
+    "imageId": "hiroshige-nihonbashi",
     "brief": "Historiskt original (fotografi eller träsnitt) från Edo- eller tidig Meijitid som visar en stad eller hamn. Ska märkas som historiskt original."
   }
 }

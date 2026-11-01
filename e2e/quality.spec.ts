@@ -25,6 +25,33 @@ test.describe("tillgänglighet (axe, WCAG 2.2 AA-regler) och layout", () => {
     });
   }
 
+  for (const c of pilots) {
+    test(`ingen störande layoutförskjutning när bilderna laddas: ${c.slug}`, async ({ page }) => {
+      await page.addInitScript(() => {
+        (window as unknown as { __cls: number }).__cls = 0;
+        new PerformanceObserver((list) => {
+          for (const e of list.getEntries() as unknown as { value: number; hadRecentInput: boolean }[]) if (!e.hadRecentInput) (window as unknown as { __cls: number }).__cls += e.value;
+        }).observe({ type: "layout-shift", buffered: true });
+      });
+      await page.goto(`/kapitel/${c.slug}/`);
+      await page.waitForLoadState("networkidle");
+      // Rulla igenom sidan så att lata bilder laddas, och vänta in dem.
+      await page.evaluate(async () => {
+        for (let y = 0; y < document.body.scrollHeight; y += 400) {
+          window.scrollTo(0, y);
+          await new Promise((r) => setTimeout(r, 60));
+        }
+        await Promise.all([...document.images].map((i) => (i.complete ? undefined : new Promise((r) => { i.onload = i.onerror = () => r(undefined); }))));
+      });
+      await page.waitForTimeout(400);
+      const cls = await page.evaluate(() => (window as unknown as { __cls: number }).__cls);
+      expect(cls, "CLS").toBeLessThan(0.02);
+      // Alla bilder har angivna mått (width/height) och alt-attribut.
+      const bad = await page.evaluate(() => [...document.images].filter((i) => !i.getAttribute("width") || !i.getAttribute("height") || i.getAttribute("alt") === null).map((i) => i.currentSrc));
+      expect(bad).toEqual([]);
+    });
+  }
+
   test("axe efter besvarat test och i resultatvy", async ({ page }) => {
     const c = pilots[0];
     await page.goto(`/kapitel/${c.slug}/`);

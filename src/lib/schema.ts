@@ -207,6 +207,9 @@ export type Source = z.infer<typeof sourceSchema>;
 export const mediaSchema = z.object({
   id,
   src: z.string().startsWith("/media/"),
+  /** Bildens egna mått (förhindrar layoutförskjutning). */
+  width: z.number().int().positive(),
+  height: z.number().int().positive(),
   alt: text,
   caption: text,
   rights: z.object({
@@ -248,6 +251,8 @@ export const photoSchema = z
     /** Datum då rättigheterna faktiskt kontrollerades på originalets sida. */
     rightsCheckedOn: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
     rightsCheckedBy: text,
+    /** Vad som faktiskt kontrollerades på originalsidan och hur licensvillkoren tillämpas på vår användning. */
+    licenseEvidence: text,
     /** Obligatorisk kreditering enligt licensen, annars null (fotografen erkänns ändå vid bilden). */
     requiredCredit: z.string().nullable(),
     /** Uttryckligen kontrollerat: webbpublicering, lokal lagring/offline, bearbetning och lagring i publikt repo. */

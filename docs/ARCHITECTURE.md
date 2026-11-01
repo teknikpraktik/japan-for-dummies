@@ -27,7 +27,7 @@
 
 ## Bilder och offline
 
-- Bildfiler ligger i `public/images/<id>/` (WebP, flera bredder, ev. stående mobilvarianter) och hamnar automatiskt i `out/` och därmed i `offline-manifest.json`. Manifestet innehåller även `imageFiles`/`imageBytes`, som visas i offlinepanelen (filantal och storlek, varav bilder).
+- Bildfiler ligger i `public/images/<id>/` (WebP, flera bredder, ev. 4:3-mobilvarianter) och hamnar automatiskt i `out/` och därmed i `offline-manifest.json`. Manifestet innehåller även `imageFiles`/`imageBytes`, som visas i offlinepanelen (filantal och storlek, varav bilder).
 - `scripts/build-sw.mts` avbryter bygget om en bildfil som bildregistret hänvisar till saknas i offlinelistan. Offlineberedskap bekräftas som tidigare först när alla filer i listan är sparade och verifierade.
 - `Photo.tsx`: `<picture>` med fasta `width`/`height` (ingen layoutförskjutning), `object-position` från fokuspunkt, `loading="lazy"` utom för öppningsbilder (`priority`: eager + `fetchpriority=high`), AVIF/WebP-källor och mobilbeskärning via `media`. Reservyta när `imageId` är null.
 - Redaktionsvyn `review/contact-sheet.html` skapas lokalt och ligger utanför `public/`, så den ingår aldrig i bygget eller offlinepaketet.

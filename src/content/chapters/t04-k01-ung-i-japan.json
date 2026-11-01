@@ -74,7 +74,7 @@
         {
           "type": "photo",
           "slotId": "t04-k01-skolgard",
-          "imageId": null,
+          "imageId": "tsukisamu-grind",
           "brief": "Skolgård eller idrottsplan utomhus, helst utan identifierbara personer."
         }
       ]
@@ -94,7 +94,7 @@
         {
           "type": "photo",
           "slotId": "t04-k01-konbini",
-          "imageId": null,
+          "imageId": "lawson-store100-yokohama",
           "brief": "Närbutik (konbini) sedd utifrån, som exempel på en vardagsplats, utan identifierbara personer."
         }
       ]
@@ -339,7 +339,7 @@
   },
   "hero": {
     "slotId": "t04-k01-hero",
-    "imageId": null,
+    "imageId": "maesawa-skolgard",
     "brief": "Skolväg eller skolmiljö utan identifierbara barn: elever sedda på avstånd eller bakifrån, eller en tom skolgård eller korridor."
   }
 }

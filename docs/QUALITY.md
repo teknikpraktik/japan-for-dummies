@@ -33,10 +33,18 @@ Kontrollerat:
 - **Otillräckligt lagringsutrymme** vid offlinenedladdning: logiken finns (förhandskontroll av kvot och fångst av `QuotaExceededError`), men har inte provocerats fram i test.
 - **Primärkällor**: kunde inte öppnas, se CONTENT.md. Faktainnehållet behöver granskas av en person.
 
-## Bilder (tillägg)
+## Bilder
 
-Inga fotografier är valda (se [IMAGE-LICENSES.md](IMAGE-LICENSES.md)), så produktionsbygget visar reservytor. Bildkomponenterna, registret, pipeline och kontrollerna är däremot testade:
+18 fotografier från Wikimedia Commons är valda och integrerade (19 av 20 bildplatser fyllda; en saknar bild, se [IMAGE-PLAN.md](IMAGE-PLAN.md)). Licensunderlag: [IMAGE-LICENSES.md](IMAGE-LICENSES.md).
 
-- Enhetstester: bildmetadata (saknade obligatoriska fält, ogiltiga sökvägar/externa länkar, tom/ifylld alt-text för dekorativa bilder, kontrolldatum i framtiden, `usageCleared`), **saknade lokala bildfiler**, felaktig filstorlek, storleksgränser, `usedIn`-konsistens, offlinelistan (`missingFromManifest`), bildoptimeringen (varianter, mått, storlek, mobilbeskärning) och komponenterna (fasta mått, lazy/eager, `fetchpriority`, srcset, fokuspunkt, kreditering och länkar, reservyta).
-- Layout- och offlinetest kördes en gång med **20 syntetiska testbilder** (tydligt märkta, inga fotografier, ej incheckade): 16:9-hero/3:2-kort/4:3-mobil, rätt mobilvariant vald, layoutförskjutning (CLS) 0, ingen horisontell rullning, axe utan avvikelser, och alla bilder laddades offline efter nedladdning och omladdning (436 filer, 5,6 MB, varav 74 bildfiler 508 kB för syntetiska bilder).
-- **Inte gjort:** granskning av verkliga fotografier (beskärning av ansikten och detaljer, bildtextens riktighet, rättigheter).
+Kontrollerat (2026-11-01):
+
+- **Rättigheter:** varje bilds Commons-filsida öppnades och licensrutan lästes (CC0, CC BY 2.0/3.0/4.0, public domain). Underlaget står i `licenseEvidence` per bild. Unsplash och Pexels kunde inte kontrolleras (bot-skydd respektive 403) och används inte.
+- **Automatiska kontroller:** `validate:content` och enhetstester fångar saknade lokala bildfiler, felaktig filstorlek, ofullständig metadata (fotograf, källa, licens, kontrolldatum, bildtext, bearbetning, användning, `usageCleared`), alt-text (tom för dekorativa, annars krävs text), externa bildlänkar, kontrolldatum i framtiden och `usedIn`-konsistens. Bygget misslyckas om en registrerad bildfil saknas i offlinelistan.
+- **Layout:** alla bilder har `width`/`height` och alt-attribut, och layoutförskjutning (CLS) < 0,02 på alla sex kapitelsidor (e2e, desktop och mobil). Ingen horisontell rullning och axe utan avvikelser på alla sidor inkl. Bildkällor.
+- **Mobilbeskärning:** öppningsbilder har en särskild 4:3-fil för mobil, och förklarande bilder beskärs med fokuspunkt. Beskärningen granskades visuellt på skärmdumpar (mobil och dator) för alla bilder. Inga ansikten syns. En bakgrundsperson (automaten i kapitel 6) och en backljus-silhuett (Shimbashi) är bortbeskurna.
+- **Offline:** efter nedladdning (430 filer, 10,9 MB, varav 68 bildfiler på 5,8 MB) och omladdning utan nätverk laddas alla bilder på startsidan och sex kapitelsidor (e2e).
+- **Prestanda:** största bildfil per bild är under 250 kB utom en (Shimbashi, 269 kB; gränsen för fel är 400 kB). Öppningsbilden prioriteras (`eager`, `fetchpriority=high`), övriga bilder laddas lazy.
+- Befintliga test, framsteg och export/import fungerar (alla tidigare e2e- och enhetstester passerar).
+
+**Inte gjort:** juridisk granskning av licenserna, manuell kontroll med skärmläsare av bildtexter och alt-texter, granskning av bildtexternas japanska av en person som kan japanska (texterna lästes av mig i bilderna och stämmer med det som syns, men en ofarlig tolkning av t.ex. 降りる人が優先です bör bekräftas), test på riktiga mobiler.

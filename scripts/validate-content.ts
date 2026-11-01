@@ -34,5 +34,10 @@ if (!content) {
 for (const w of content.warnings) console.warn("Varning: " + w);
 const published = content.chapters.filter((c) => c.status === "published").length;
 console.log(`Innehåll OK: ${content.themes.length} teman, ${content.chapters.length} kapitel (${published} publicerade, ${content.chapters.length - published} planerade), ${content.sources.length} källor.`);
-const slots = 1 + content.chapters.reduce((n, c) => n + (c.status === "published" ? 1 + c.sections.flatMap((s) => s.blocks).filter((b) => b.type === "photo").length : 0), 0);
-console.log(`Bilder: ${content.photos.length} verifierade fotografier i registret, ${slots} bildplatser planerade (${slots - content.photos.length} återstår att fylla).`);
+const filled: (string | null)[] = [content.home.hero.imageId];
+for (const c of content.chapters) {
+  if (c.status !== "published") continue;
+  filled.push(c.hero.imageId);
+  for (const sec of c.sections) for (const b of sec.blocks) if (b.type === "photo") filled.push(b.imageId);
+}
+console.log(`Bilder: ${content.photos.length} fotografier i registret, ${filled.filter(Boolean).length} av ${filled.length} bildplatser fyllda (${filled.filter((x) => !x).length} saknar bild).`);

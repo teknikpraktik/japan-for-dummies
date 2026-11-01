@@ -86,13 +86,13 @@
         {
           "type": "photo",
           "slotId": "t01-k01-bergsdal",
-          "imageId": null,
-          "brief": "Bebyggelse i en bergsdal eller på en smal kustslätt, för att visa att bergen styr var människor bor."
+          "imageId": "shirakawa-berg",
+          "brief": "Bergig terräng med skog, för att illustrera att berg täcker en stor del av landet. Helst en höstbild."
         },
         {
           "type": "photo",
           "slotId": "t01-k01-stad",
-          "imageId": null,
+          "imageId": "sakai-stadsbild",
           "brief": "Tätt bebyggd stadsdel sedd från höjd, för att visa hur tätt människor bor på slätterna."
         }
       ]
@@ -360,7 +360,7 @@
   },
   "hero": {
     "slotId": "t01-k01-hero",
-    "imageId": null,
+    "imageId": "seto-onomichi",
     "brief": "Landskap som visar variationen i Japan: en kustslätt eller dalgång där bebyggelse, åkrar och berg syns tillsammans. Vardagsmiljö hellre än ikonmotiv."
   }
 }

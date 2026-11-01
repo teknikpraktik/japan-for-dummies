@@ -49,14 +49,14 @@ ${m ? `<p class="meta">Mobilbeskärning:</p><img class="m" src="../public${m.pat
 <p><b>Bildtext:</b> ${esc(p.caption)}</p><p><b>Alt-text:</b> ${esc(p.alt || "(tom, dekorativ)")}</p>
 <p><b>Fotograf:</b> ${esc(p.creator)} · <a href="${esc(p.license.url)}">${esc(p.license.name)}</a> · <a href="${esc(p.sourceUrl)}">original</a></p>
 <p><b>Rättigheter kontrollerade:</b> ${esc(p.rightsCheckedOn)} av ${esc(p.rightsCheckedBy)} · krediteringskrav: ${esc(p.requiredCredit ?? "inget")}</p>
-<p><b>Bearbetning:</b> ${esc(p.modification)}</p>${p.peopleNote ? `<p><b>Personer:</b> ${esc(p.peopleNote)}</p>` : ""}
+<p><b>Licensunderlag:</b> ${esc(p.licenseEvidence)}</p><p><b>Bearbetning:</b> ${esc(p.modification)}</p>${p.peopleNote ? `<p><b>Personer:</b> ${esc(p.peopleNote)}</p>` : ""}
 <p class="meta">${p.variants.map((x) => `${x.path} (${(x.bytes / 1024).toFixed(0)} kB)`).join("<br>")}</p></article>`;
   })
   .join("\n");
 
 const html = `<!doctype html><html lang="sv"><meta charset="utf-8"><title>Bildgranskning</title>
 <style>body{font:15px/1.5 system-ui;margin:2rem;background:#fbf6ec;color:#1f1d1a}main{display:grid;grid-template-columns:repeat(auto-fill,minmax(22rem,1fr));gap:1rem}
-article{background:#fff;border:1px solid #d6cbb4;border-radius:10px;padding:1rem}article.pending{background:#f3ebd9;border-style:dashed}img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:6px}img.m{width:8rem;aspect-ratio:4/5}.ph{aspect-ratio:3/2;background:#e7eaf6;border-radius:6px;display:grid;place-items:center}.meta{color:#4a463f;font-size:13px}h3{margin:.2rem 0}</style>
+article{background:#fff;border:1px solid #d6cbb4;border-radius:10px;padding:1rem}article.pending{background:#f3ebd9;border-style:dashed}img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:6px}img.m{width:12rem;aspect-ratio:4/3}.ph{aspect-ratio:3/2;background:#e7eaf6;border-radius:6px;display:grid;place-items:center}.meta{color:#4a463f;font-size:13px}h3{margin:.2rem 0}</style>
 <h1>Bildgranskning (lokal, ingår inte i appen)</h1><p>${content.photos.length} bilder valda, ${slots.length - slots.filter((s) => s.imageId).length} bildplatser återstår.</p><main>${cards}</main></html>`;
 fs.mkdirSync("review", { recursive: true });
 fs.writeFileSync("review/contact-sheet.html", html);

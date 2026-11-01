@@ -29,7 +29,7 @@
         {
           "type": "photo",
           "slotId": "t06-k01-tagvagn",
-          "imageId": null,
+          "imageId": "tagvagn-jrwest-221",
           "brief": "Tågvagn eller perrong med prioriterade säten och skyltar, utan identifierbara personer."
         },
         {
@@ -363,7 +363,7 @@
   },
   "hero": {
     "slotId": "t06-k01-hero",
-    "imageId": null,
+    "imageId": "sapporo-perrong",
     "brief": "Perrong med golvmarkeringar för kö, helst utan identifierbara personer. Ska inte användas som belägg för hur människor beter sig."
   }
 }

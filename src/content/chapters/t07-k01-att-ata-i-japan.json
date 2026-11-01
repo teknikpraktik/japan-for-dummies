@@ -29,7 +29,7 @@
         {
           "type": "photo",
           "slotId": "t07-k01-automat",
-          "imageId": null,
+          "imageId": "matbiljett-shokkenki",
           "brief": "Biljettautomat vid ingången till en restaurang, med läsbara knappar och priser."
         },
         {
@@ -88,7 +88,7 @@
         {
           "type": "photo",
           "slotId": "t07-k01-set",
-          "imageId": null,
+          "imageId": "matsuya-teishoku",
           "brief": "Måltid med ris, soppa och tillbehör (t.ex. teishoku) där ätpinnarna vilar på ett pinnstöd. Maträtten ska identifieras korrekt."
         }
       ]
@@ -361,7 +361,7 @@
   },
   "hero": {
     "slotId": "t07-k01-hero",
-    "imageId": null,
+    "imageId": "yoshinoya-teishoku",
     "brief": "Vardagsmåltid: en skål nudlar eller en lunchrätt på en enkel restaurang, med korrekt identifierad maträtt."
   }
 }

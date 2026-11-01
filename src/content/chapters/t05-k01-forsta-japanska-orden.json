@@ -115,7 +115,7 @@
         {
           "type": "photo",
           "slotId": "t05-k01-automat",
-          "imageId": null,
+          "imageId": "matbiljett-shokkenki",
           "brief": "Dryckes- eller biljettautomat med läsbara japanska texter och priser, för att visa vardaglig skriftlig kommunikation."
         }
       ]
@@ -166,7 +166,7 @@
         {
           "type": "photo",
           "slotId": "t05-k01-skylt",
-          "imageId": null,
+          "imageId": "iwamotocho-utgangsskylt",
           "brief": "Stationsskylt eller utgångsskylt där japansk skrift är läsbar. Texten måste kontrolleras och stämma med bildtexten."
         },
         {
@@ -422,7 +422,7 @@
   },
   "hero": {
     "slotId": "t05-k01-hero",
-    "imageId": null,
+    "imageId": "iga-kambe-stationsskyltar",
     "brief": "Tydlig skylt på japanska (gärna med romaji eller engelska) på en gata eller station, där texten är läsbar och kan förklaras i bildtexten."
   }
 }

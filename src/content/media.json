@@ -8,6 +8,8 @@
       "creator": "Projektets egen bearbetning (skript scripts/make-map.mjs)",
       "license": "Källdata: Natural Earth, public domain, via npm-paketet world-atlas. Egen grafik släpps under projektets licens.",
       "note": "Stadsplaceringarna är beräknade ur stadens koordinater. Gränser och kustlinjer är generaliserade och ska inte användas för navigering."
-    }
+    },
+    "width": 640,
+    "height": 760
   }
 ]
