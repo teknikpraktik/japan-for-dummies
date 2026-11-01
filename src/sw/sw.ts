@@ -1,5 +1,6 @@
 /// <reference lib="webworker" />
 import { CacheFirst, NetworkOnly, Serwist } from "serwist";
+import { isPrivatePath } from "../lib/private-paths";
 
 declare const self: ServiceWorkerGlobalScope;
 // Ersätts av scripts/build-sw.ts vid bygget.
@@ -7,6 +8,7 @@ declare const __BUILD_ID__: string;
 
 const OFFLINE_CACHE = `japanresan-offline-${__BUILD_ID__}`;
 const OFFLINE_PAGE = "/offline.html";
+const OFFLINE_PRIVATE_PAGE = "/offline-privat.html";
 
 /** Kandidat-URL:er för en sida: exakt adress, samt med/utan avslutande snedstreck. */
 function candidates(request: Request): string[] {
@@ -36,12 +38,21 @@ async function fromOfflineCaches(request: Request): Promise<Response | undefined
 
 const serwist = new Serwist({
   // Endast reservsidan för offline förladdas automatiskt.
-  precacheEntries: [{ url: OFFLINE_PAGE, revision: __BUILD_ID__ }],
+  precacheEntries: [
+    { url: OFFLINE_PAGE, revision: __BUILD_ID__ },
+    { url: OFFLINE_PRIVATE_PAGE, revision: __BUILD_ID__ },
+  ],
   skipWaiting: false, // Ny version väntar tills användaren väljer att uppdatera, så att pågående test inte avbryts.
   clientsClaim: true,
   navigationPreload: false,
   disableDevLogs: true,
   runtimeCaching: [
+    {
+      // Skyddade och personliga vägar (API, inloggning, lärar-, konto- och elevsidor, inklusive Next.js data- och
+      // navigeringsanrop): alltid nätverk, aldrig cache. Inget lagras och inget läses ur cachen.
+      matcher: ({ url, sameOrigin }) => sameOrigin && isPrivatePath(url.pathname),
+      handler: new NetworkOnly(),
+    },
     {
       // Hashade, oföränderliga resurser: cache först.
       matcher: ({ url, sameOrigin }) => sameOrigin && url.pathname.startsWith("/_next/static/"),
@@ -56,6 +67,15 @@ const serwist = new Serwist({
 });
 
 serwist.setCatchHandler(async ({ request }) => {
+  const url = new URL(request.url);
+  if (isPrivatePath(url.pathname)) {
+    // Aldrig ur cachen. Sidor får ett begripligt meddelande; övriga anrop (API m.m.) får ett nätverksfel.
+    if (request.mode === "navigate" || request.destination === "document") {
+      const page = await caches.match(OFFLINE_PRIVATE_PAGE, { ignoreSearch: true, ignoreVary: true });
+      if (page) return page;
+    }
+    return Response.error();
+  }
   const cached = await fromOfflineCaches(request);
   if (cached) return cached;
   if (request.mode === "navigate" || request.destination === "document") {

@@ -1,4 +1,5 @@
 import { defineConfig, devices } from "@playwright/test";
+import { serverEnv } from "./e2e/env";
 
 const PORT = 4173;
 // I Anthropic-miljön används förinstallerad Chromium via CHROMIUM_PATH. Lokalt/CI används Playwrights egen.
@@ -7,6 +8,7 @@ const launchOptions = { executablePath, args: ["--no-sandbox"] };
 
 export default defineConfig({
   testDir: "./e2e",
+  globalSetup: "./e2e/global-setup.ts",
   timeout: 60_000,
   expect: { timeout: 10_000 },
   fullyParallel: false,
@@ -18,6 +20,6 @@ export default defineConfig({
     { name: "desktop", use: { ...devices["Desktop Chrome"], launchOptions } },
     { name: "mobil", use: { ...devices["Pixel 5"], launchOptions } },
   ],
-  // Testerna körs mot produktionsbygget (out/). Kör `npm run build` först.
-  webServer: { command: `npx serve out -l ${PORT} --no-clipboard`, url: `http://localhost:${PORT}`, reuseExistingServer: !process.env.CI, timeout: 30_000 },
+  // Testerna körs mot produktionsbygget (.next). Kör `npm run build` först. Servern använder den lokala e2e-databasen.
+  webServer: { command: `npx next start -p ${PORT}`, url: `http://localhost:${PORT}`, reuseExistingServer: false, timeout: 60_000, env: serverEnv(PORT) as Record<string, string> },
 });

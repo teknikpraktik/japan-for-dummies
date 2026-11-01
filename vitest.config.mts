@@ -10,5 +10,9 @@ export default defineConfig({
     globals: true,
     setupFiles: ["./tests/setup.ts"],
     include: ["tests/**/*.test.{ts,tsx}"],
+    // Serverrelaterade tester delar en lokal testdatabas och körs därför en fil i taget.
+    fileParallelism: false,
+    globalSetup: ["./tests/server/global-setup.ts"],
+    testTimeout: 30_000,
   },
 });

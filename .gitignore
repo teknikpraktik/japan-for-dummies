@@ -9,3 +9,8 @@ next-env.d.ts
 .env*
 .vercel
 review/
+.env
+.env.local
+.env.*.local
+public/sw.js
+public/offline-manifest.json

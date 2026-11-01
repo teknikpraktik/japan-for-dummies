@@ -187,3 +187,30 @@ export function mergeStates(current: ProgressState, incoming: Pick<ProgressState
 export function replaceState(current: ProgressState, incoming: Pick<ProgressState, "chapters" | "favorites">): ProgressState {
   return { ...current, chapters: incoming.chapters, favorites: [...new Set(incoming.favorites)], drafts: {} };
 }
+
+/* ---------- Central status (konto) ---------- */
+export interface ServerProgressRow {
+  chapterId: string;
+  status: "started" | "completed";
+  completedAt: string | null;
+  chapterVersion: number;
+  completedVersion: number | null;
+}
+
+/**
+ * Slår ihop serverns status in i lokala framsteg. Avklarat återgår aldrig till påbörjat. Lokala resultat
+ * (bästa/senaste poäng) rörs inte; de finns bara på enheten och kan saknas när man loggar in på en ny enhet.
+ */
+export function mergeServerRows(s: ProgressState, rows: ServerProgressRow[], now = new Date()): ProgressState {
+  let next = s;
+  for (const r of rows) {
+    const cur = next.chapters[r.chapterId];
+    if (!cur) next = { ...next, chapters: { ...next.chapters, [r.chapterId]: { startedAt: iso(now), contentVersion: r.chapterVersion } } };
+    if (r.status === "completed" && r.completedAt) {
+      const c = next.chapters[r.chapterId];
+      const completedAt = c.completedAt && Date.parse(c.completedAt) <= Date.parse(r.completedAt) ? c.completedAt : r.completedAt;
+      next = { ...next, chapters: { ...next.chapters, [r.chapterId]: { ...c, completedAt, contentVersion: Math.max(c.contentVersion, r.completedVersion ?? r.chapterVersion) } } };
+    }
+  }
+  return next;
+}

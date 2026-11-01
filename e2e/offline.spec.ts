@@ -1,51 +1,25 @@
 import { expect, test, type Page } from "@playwright/test";
-import { spawn, type ChildProcess } from "node:child_process";
 import fs from "node:fs";
-import os from "node:os";
 import path from "node:path";
+import { loginStudentOk } from "./auth-helpers";
+import { NextCopy } from "./next-server";
 import { pilots, takeQuiz } from "./helpers";
 
 /**
- * Offlinetesterna kör mot en egen kopia av produktionsbygget (out/) på en separat port.
- * Servern stoppas mitt i testet, så att nätverket verkligen är borta (även för service workern).
+ * Offlinetesterna kör mot en egen kopia av produktionsbygget på en separat port. Servern stoppas mitt i testet,
+ * så att nätverket verkligen är borta (även för service workern).
  */
 const PORT = 4174;
 const BASE = `http://localhost:${PORT}`;
-let server: ChildProcess | undefined;
-let dir = "";
-
-async function startServer(root: string) {
-  server = spawn("npx", ["serve", root, "-l", String(PORT), "--no-clipboard"], { stdio: "ignore", detached: true });
-  for (let i = 0; i < 50; i++) {
-    try {
-      const r = await fetch(`${BASE}/offline.html`);
-      if (r.ok) return;
-    } catch { /* inte uppe än */ }
-    await new Promise((r) => setTimeout(r, 200));
-  }
-  throw new Error("Servern startade inte");
-}
-function killServer() {
-  if (server?.pid) {
-    try { process.kill(-server.pid); } catch { /* redan stoppad */ }
-  }
-  server = undefined;
-}
-/** Stoppar servern och väntar tills den verkligen inte svarar längre. */
-async function stopServer() {
-  killServer();
-  await expect.poll(() => fetch(`${BASE}/offline.html`).then(() => true, () => false), { timeout: 10_000 }).toBe(false);
-}
+let copy: NextCopy;
 
 test.beforeEach(async () => {
-  dir = fs.mkdtempSync(path.join(os.tmpdir(), "japan-out-"));
-  fs.cpSync(path.join(process.cwd(), "out"), dir, { recursive: true });
-  await startServer(dir);
+  copy = new NextCopy(PORT);
+  await copy.start();
 });
-test.afterEach(() => {
-  killServer();
-  fs.rmSync(dir, { recursive: true, force: true });
-});
+test.afterEach(() => copy.cleanup());
+
+const stopServer = () => copy.stopAndWait();
 
 async function waitForController(page: Page) {
   await expect
@@ -114,6 +88,58 @@ test.describe("offline", () => {
     await expect(page.getByRole("heading", { name: "Den här sidan är inte sparad offline" })).toBeVisible();
   });
 
+  test("skyddat och personligt innehåll hamnar aldrig i offlinecachen och visas aldrig offline", async ({ page }) => {
+    await page.goto("/info/");
+    await waitForController(page);
+    await page.getByTestId("offline-download").click();
+    await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
+
+    // Offlinelistan innehåller inga skyddade sökvägar
+    const manifest = await (await fetch(`${BASE}/offline-manifest.json`)).json();
+    const bad = (manifest.files as { url: string }[]).map((f) => f.url).filter((u) => /^\/(api|logga-in|min-utbildning|lararen|konto|aktivera)(\/|$)/.test(u));
+    expect(bad).toEqual([]);
+
+    // Logga in som elev och besök skyddade sidor och API genom service workern
+    await loginStudentOk(page, 3);
+    await page.goto("/min-utbildning/");
+    await page.waitForLoadState("networkidle");
+    await page.evaluate(async () => {
+      await fetch("/api/me/");
+      await fetch("/api/framsteg/");
+    });
+    await page.goto("/konto/");
+    await page.waitForLoadState("networkidle");
+
+    const cached = await page.evaluate(async () => {
+      const out: string[] = [];
+      for (const name of await caches.keys()) {
+        const c = await caches.open(name);
+        for (const r of await c.keys()) out.push(new URL(r.url).pathname);
+      }
+      return out;
+    });
+    expect(cached.length).toBeGreaterThan(50);
+    expect(cached.filter((p) => /^\/(api|logga-in|min-utbildning|lararen|konto|aktivera)(\/|$)/.test(p))).toEqual([]);
+
+    await stopServer();
+    for (const url of ["/min-utbildning/", "/lararen/", "/konto/", "/logga-in/"]) {
+      await page.goto(url);
+      await expect(page.getByRole("heading", { name: "Den här sidan kräver internet" }), url).toBeVisible();
+    }
+    const apiResult = await page.evaluate(async () => {
+      try {
+        const r = await fetch("/api/me/");
+        return `status ${r.status}`;
+      } catch {
+        return "nätverksfel";
+      }
+    });
+    expect(apiResult).toBe("nätverksfel");
+    // Utbildningens kapitel går fortfarande att läsa offline
+    await page.goto("/kapitel/japan-pa-kartan/");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText(pilots[0].title);
+  });
+
   test("utan nedladdning visar offlinemeddelande", async ({ page }) => {
     await page.goto("/");
     await waitForController(page);
@@ -127,7 +153,9 @@ test.describe("offline", () => {
     await page.goto("/info/");
     await waitForController(page);
     // Låt en fil saknas på servern (svarar 404) så att nedladdningen avbryts.
-    const victim = path.join(dir, "kapitel", "att-ata-i-japan");
+    const chunks = path.join(copy.dir, ".next", "static", "chunks");
+    const chunk = fs.readdirSync(chunks).find((f) => f.endsWith(".js"))!;
+    const victim = path.join(chunks, chunk);
     fs.renameSync(victim, victim + ".bak");
     await page.getByTestId("offline-download").click();
     await expect(page.getByRole("alert").filter({ hasText: "inte klar" })).toBeVisible({ timeout: 60_000 });
@@ -159,15 +187,15 @@ test.describe("offline", () => {
     }
 
     // Simulera nytt bygge: byt bygg-id i sw.js och manifest, och ändra en fil.
-    const swPath = path.join(dir, "sw.js");
-    const manifestPath = path.join(dir, "offline-manifest.json");
+    const swPath = path.join(copy.dir, "public", "sw.js");
+    const manifestPath = path.join(copy.dir, "public", "offline-manifest.json");
     const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
     const oldId = manifest.buildId as string;
     const newId = "nyttbygge01";
     fs.writeFileSync(swPath, fs.readFileSync(swPath, "utf8").split(oldId).join(newId));
     manifest.buildId = newId;
     fs.writeFileSync(manifestPath, JSON.stringify(manifest));
-    fs.appendFileSync(path.join(dir, "offline.html"), "\n<!-- v2 -->");
+    fs.appendFileSync(path.join(copy.dir, "public", "offline.html"), "\n<!-- v2 -->");
 
     await page.evaluate(async () => { const reg = await navigator.serviceWorker.getRegistration(); await reg?.update(); });
     await expect(page.getByText("Det finns en ny version av utbildningen.")).toBeVisible({ timeout: 20_000 });

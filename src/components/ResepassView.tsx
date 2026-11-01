@@ -12,7 +12,7 @@ export interface ThemeLite {
   title: string;
 }
 
-export function ResepassView({ chapters, themes }: { chapters: ChapterLite[]; themes: ThemeLite[] }) {
+export function ResepassView({ chapters, themes, showTransfer = true }: { chapters: ChapterLite[]; themes: ThemeLite[]; showTransfer?: boolean }) {
   const { hydrated, state } = useProgress();
   const published = chapters.filter((c) => c.status === "published");
   const completed = published.filter((c) => chapterStatus(state, c.id) === "completed");
@@ -127,10 +127,10 @@ export function ResepassView({ chapters, themes }: { chapters: ChapterLite[]; th
         )}
       </section>
 
-      <TransferPanel />
+      {showTransfer && <TransferPanel />}
 
       <p className="text-sm text-ink-soft">
-        Framstegen sparas bara i den här webbläsaren. <Link href="/info/">Läs om hur lagringen fungerar.</Link>
+        {showTransfer ? "Framstegen sparas bara i den här webbläsaren." : "Din status sparas på ditt konto. Resultat och favoriter sparas bara på den här enheten."} <Link href="/info/">Läs om hur lagringen fungerar.</Link>
       </p>
     </div>
   );

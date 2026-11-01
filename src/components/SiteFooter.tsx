@@ -6,7 +6,7 @@ export function SiteFooter() {
       <div className="container-page flex flex-col gap-2 md:flex-row md:justify-between">
         <p>Japanresan 2027 – förberedelse inför skolresa. Piloten har 6 färdiga kapitel av 60 planerade.</p>
         <p>
-          <Link href="/kallor/">Källor</Link> · <Link href="/bildkallor/">Bildkällor</Link> · <Link href="/info/">Så sparas dina framsteg</Link>
+          <Link href="/integritet/">Integritet</Link> · <Link href="/kallor/">Källor</Link> · <Link href="/bildkallor/">Bildkällor</Link> · <Link href="/info/">Så sparas dina framsteg</Link>
         </p>
       </div>
     </footer>

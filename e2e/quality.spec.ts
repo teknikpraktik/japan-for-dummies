@@ -1,6 +1,7 @@
 import { expect, test } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import { pilots, takeQuiz } from "./helpers";
+import { loginStudentOk, loginTeacher } from "./auth-helpers";
 
 const pages = [
   "/",
@@ -11,6 +12,8 @@ const pages = [
   "/info/",
   "/kallor/",
   "/bildkallor/",
+  "/logga-in/",
+  "/integritet/",
 ];
 
 test.describe("tillgänglighet (axe, WCAG 2.2 AA-regler) och layout", () => {
@@ -24,6 +27,28 @@ test.describe("tillgänglighet (axe, WCAG 2.2 AA-regler) och layout", () => {
       expect(overflow, "horisontell rullning").toBeLessThanOrEqual(0);
     });
   }
+
+  test("axe och ingen horisontell rullning: elevens sidor", async ({ page }) => {
+    await loginStudentOk(page, 3);
+    for (const url of ["/min-utbildning/", "/konto/"]) {
+      await page.goto(url);
+      await page.waitForLoadState("networkidle");
+      const r = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"]).analyze();
+      expect(r.violations.map((v) => `${v.id}: ${v.nodes.map((n) => n.target.join(" ")).slice(0, 3).join(" | ")}`), url).toEqual([]);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth), url).toBeLessThanOrEqual(0);
+    }
+  });
+
+  test("axe och ingen horisontell rullning: lärarens sidor", async ({ page }) => {
+    await loginTeacher(page);
+    for (const url of ["/lararen/", "/lararen/elever/", "/lararen/larare/"]) {
+      await page.goto(url);
+      await page.waitForLoadState("networkidle");
+      const r = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"]).analyze();
+      expect(r.violations.map((v) => `${v.id}: ${v.nodes.map((n) => n.target.join(" ")).slice(0, 3).join(" | ")}`), url).toEqual([]);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth), url).toBeLessThanOrEqual(0);
+    }
+  });
 
   for (const c of pilots) {
     test(`ingen störande layoutförskjutning när bilderna laddas: ${c.slug}`, async ({ page }) => {

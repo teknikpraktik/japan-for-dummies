@@ -103,7 +103,7 @@ export default function Home() {
       <section aria-labelledby="sparas" className="card space-y-2">
         <h2 id="sparas">Dina framsteg sparas på din enhet</h2>
         <p>
-          Här finns inga konton. Framstegen sparas i webbläsaren på just den här enheten, kan försvinna om du rensar webbdata och synkas inte mellan enheter. Exportera dem då och då. <Link href="/info/">Läs mer, och hur du gör utbildningen tillgänglig offline.</Link>
+          Du kan använda utbildningen utan konto: då sparas framstegen i webbläsaren på just den här enheten och kan försvinna om du rensar webbdata. Elever med konto från sin lärare kan <Link href="/logga-in/">logga in</Link> för att synka kapitelstatus. Exportera framstegen då och då. <Link href="/info/">Läs mer, och hur du gör utbildningen tillgänglig offline.</Link>
         </p>
       </section>
     </div>
