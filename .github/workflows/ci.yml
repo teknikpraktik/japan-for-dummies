@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Installera (låst beroendefil)
+        run: npm ci
+      - name: Innehållsvalidering
+        run: npm run validate:content
+      - name: Lint
+        run: npm run lint
+      - name: Typkontroll
+        run: npm run typecheck
+      - name: Enhetstester
+        run: npm test
+      - name: Produktionsbygge (inkl. service worker)
+        run: npm run build
+      - name: Installera Chromium för e2e
+        run: npx playwright install --with-deps chromium
+      - name: E2E-tester mot produktionsbygget
+        run: npm run test:e2e
+        env:
+          CI: "true"
+      - name: Spara rapport vid fel
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-spår
+          path: test-results/
+          retention-days: 7

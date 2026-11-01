@@ -1,0 +1,62 @@
+[
+  {
+    "id": "t01-k02",
+    "slug": "berg-vulkaner-och-jordbavningar",
+    "themeId": "geografi",
+    "order": 2,
+    "title": "Berg, vulkaner och jordbävningar",
+    "summary": "Japan ligger där flera jordskorpeplattor möts. Kapitlet förklarar varför landet har så många vulkaner och jordbävningar och hur samhället har anpassat sig.",
+    "objectives": [
+      "Förklara kortfattat varför Japan har jordbävningar och vulkaner",
+      "Beskriva hur byggregler och vanor har anpassats till naturkrafterna",
+      "Veta vad du gör om en jordbävning inträffar under resan"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t01-k03",
+    "slug": "arstider-och-klimat",
+    "themeId": "geografi",
+    "order": 3,
+    "title": "Årstider och klimat från Hokkaido till Okinawa",
+    "summary": "Från snöiga vintrar i norr till subtropisk värme i söder. Kapitlet går igenom regnperiod, taifunsäsong och vad som är rimligt att förvänta sig i oktober.",
+    "objectives": [
+      "Jämföra klimatet i norra och södra Japan",
+      "Förklara regnperiod och taifunsäsong",
+      "Planera klädsel och dagar utifrån säsong och prognos"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t01-k04",
+    "slug": "stad-och-landsbygd",
+    "themeId": "geografi",
+    "order": 4,
+    "title": "Storstad och landsbygd",
+    "summary": "Stor-Tokyo är ett av världens största stadsområden, medan många landsbygdsområden krymper. Kapitlet visar hur olika livet kan vara beroende på var man bor.",
+    "objectives": [
+      "Beskriva skillnader mellan storstadsregioner och landsbygd",
+      "Förstå varför många orter tappar invånare",
+      "Ställa frågor om platsen du besöker snarare än att generalisera"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t01-k05",
+    "slug": "natur-och-nationalparker",
+    "themeId": "geografi",
+    "order": 5,
+    "title": "Natur, nationalparker och djurliv",
+    "summary": "Skogar, kuster, varma källor och unika arter. Kapitlet handlar om hur Japan skyddar och använder sin natur, och hur besökare kan röra sig i den med hänsyn.",
+    "objectives": [
+      "Namnge några naturtyper och vad som kännetecknar dem",
+      "Förklara vad en nationalpark i Japan kan innebära i praktiken",
+      "Visa hänsyn i naturen under resan"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  }
+]

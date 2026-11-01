@@ -1,0 +1,14 @@
+[
+  { "id": "geografi", "order": 1, "title": "Geografi, regioner, klimat och natur", "description": "Öar, landskap, årstider och naturkrafter som formar var och hur människor bor." },
+  { "id": "historia", "order": 2, "title": "Historia från tidiga Japan till vår tid", "description": "Från de första samhällena till dagens Japan, inklusive imperialism, andra världskriget och efterkrigstiden." },
+  { "id": "samhalle", "order": 3, "title": "Politik, befolkning, familj, jämställdhet och mångfald", "description": "Hur samhället styrs och förändras, och hur livsvillkoren skiljer sig mellan människor och regioner." },
+  { "id": "skola", "order": 4, "title": "Skola, ungdomsliv och fritid", "description": "Hur det är att vara ung: skolvardag, prov, klubbar, vänner och fritid." },
+  { "id": "sprak", "order": 5, "title": "Språk, skrift och kommunikation", "description": "Enkla fraser, skriftsystem och sätt att göra sig förstådd." },
+  { "id": "seder", "order": 6, "title": "Seder, hänsyn och vardagliga möten", "description": "Oskrivna regler i sitt sammanhang, och hur du visar hänsyn som besökare." },
+  { "id": "mat", "order": 7, "title": "Mat, restauranger och måltider", "description": "Matkultur, regionala skillnader och hur du beställer, betalar och äter med hänsyn." },
+  { "id": "religion", "order": 8, "title": "Religion, högtider och traditioner", "description": "Shinto, buddhism, årets högtider och hur religion märks i vardagen." },
+  { "id": "kultur", "order": 9, "title": "Kultur, populärkultur, arkitektur och skapande", "description": "Från trähus och trädgårdar till manga, spel och modern stadsbild." },
+  { "id": "teknik", "order": 10, "title": "Teknik, industri, ekonomi och arbetsliv", "description": "Tåg, tillverkning, robotar och hur arbetslivet ser ut." },
+  { "id": "miljo", "order": 11, "title": "Miljö, energi och framtidsfrågor", "description": "Energi, katastrofberedskap, avfall och hur Japan möter framtida utmaningar." },
+  { "id": "resa", "order": 12, "title": "Praktiska resekunskaper och reflektion", "description": "Förberedelser, betalning, orientering, säkerhet och att reflektera över sina egna förutfattade meningar." }
+]

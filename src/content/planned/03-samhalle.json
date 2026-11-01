@@ -1,0 +1,77 @@
+[
+  {
+    "id": "t03-k01",
+    "slug": "hur-styrs-japan",
+    "themeId": "samhalle",
+    "order": 1,
+    "title": "Hur styrs Japan?",
+    "summary": "Kejsare, parlament och premiärminister. Kapitlet förklarar den konstitutionella monarkin, hur val fungerar och vad prefekturer och kommuner ansvarar för.",
+    "objectives": [
+      "Beskriva kejsarens roll jämfört med regeringens",
+      "Förklara huvuddragen i valsystemet",
+      "Jämföra med hur Sverige styrs"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t03-k02",
+    "slug": "aldrande-samhalle-och-regioner",
+    "themeId": "samhalle",
+    "order": 2,
+    "title": "Ett åldrande samhälle och regionala skillnader",
+    "summary": "Befolkningen minskar och blir äldre, men inte likadant överallt. Kapitlet visar hur det märks i storstäder och på landsbygd.",
+    "objectives": [
+      "Förklara vad ett åldrande samhälle innebär",
+      "Beskriva regionala skillnader i befolkning och service",
+      "Diskutera möjliga lösningar utan att förenkla"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t03-k03",
+    "slug": "familj-och-hemmaliv",
+    "themeId": "samhalle",
+    "order": 3,
+    "title": "Familj och hemmaliv",
+    "summary": "Hur familjer ser ut och bor, och hur det förändras. Kapitlet tar upp olika familjeformer, boendekostnader och vardag för barn och äldre.",
+    "objectives": [
+      "Beskriva olika familjeformer i Japan",
+      "Förklara hur boende och arbete påverkar familjelivet",
+      "Undvika slutsatsen att alla familjer ser likadana ut"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t03-k04",
+    "slug": "jamstalldhet",
+    "themeId": "samhalle",
+    "order": 4,
+    "title": "Jämställdhet i hem, skola och arbetsliv",
+    "summary": "Hur ser jämställdheten ut i Japan jämfört med andra länder? Kapitlet går igenom utbildning, arbete, politik och pågående förändringar.",
+    "objectives": [
+      "Redogöra för hur jämställdhet mäts och vad siffrorna visar",
+      "Beskriva förändringar och diskussioner i Japan",
+      "Jämföra utan att döma"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t03-k05",
+    "slug": "minoriteter-och-mangfald",
+    "themeId": "samhalle",
+    "order": 5,
+    "title": "Minoriteter och mångfald",
+    "summary": "Ainu, människor från Okinawa och Ryukyuöarna, zainichi-koreaner, personer med utländsk bakgrund och människor med olika livsvillkor. Ett kapitel om att Japan är mer varierat än bilden utifrån.",
+    "objectives": [
+      "Namnge några minoritetsgrupper och deras historia",
+      "Förklara hur diskriminering och erkännande har förändrats",
+      "Reflektera över hur du själv talar om ”Japan” och ”japaner”"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  }
+]

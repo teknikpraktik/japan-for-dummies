@@ -1,0 +1,77 @@
+[
+  {
+    "id": "t10-k01",
+    "slug": "shinkansen-och-landet-i-rorelse",
+    "themeId": "teknik",
+    "order": 1,
+    "title": "Shinkansen och ett land i rörelse",
+    "summary": "Höghastighetståg, punktlighet och rutiner. Kapitlet förklarar hur järnvägen organiseras och hur du kan planera resor.",
+    "objectives": [
+      "Förklara hur shinkansen byggdes ut",
+      "Förstå hur biljetter och platser fungerar",
+      "Planera en sträcka med osäkerhet och marginal"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t10-k02",
+    "slug": "industri-och-tillverkning",
+    "themeId": "teknik",
+    "order": 2,
+    "title": "Från Meijis industrier till bil och elektronik",
+    "summary": "Hur Japan blev en industrination. Kapitlet följer textil, stål, bilar och elektronik och visar hur tillverkningen förändras idag.",
+    "objectives": [
+      "Beskriva industrins utveckling",
+      "Förklara japanska produktionsprinciper",
+      "Diskutera hur globalisering påverkar industrin"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t10-k03",
+    "slug": "robotar-och-vardagsteknik",
+    "themeId": "teknik",
+    "order": 3,
+    "title": "Robotar, automation och vardagsteknik",
+    "summary": "Från automatiska toaletter till industrirobotar. Kapitlet går igenom vad som är vanligt och vad som är marknadsföring.",
+    "objectives": [
+      "Skilja på vardagsteknik och bild i media",
+      "Förstå varför automation används",
+      "Diskutera teknik och arbetskraftsbrist"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t10-k04",
+    "slug": "arbetsliv",
+    "themeId": "teknik",
+    "order": 4,
+    "title": "Arbetsliv: heltid, deltid och överarbete",
+    "summary": "Hur arbetsmarknaden ser ut, vad överarbete innebär och hur arbetsvillkor förändras.",
+    "objectives": [
+      "Beskriva vanliga anställningsformer",
+      "Förklara begreppet överarbete och ansträngningar att minska det",
+      "Jämföra arbetsliv utan att moralisera"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t10-k05",
+    "slug": "ekonomi-och-handel",
+    "themeId": "teknik",
+    "order": 5,
+    "title": "Ekonomi, yen och handel",
+    "summary": "Yenens roll, handelspartner och hur ekonomin påverkas av ålder och globalisering. Kapitlet ger bakgrund till priser du möter.",
+    "objectives": [
+      "Förklara grundläggande ekonomiska begrepp i japansk kontext",
+      "Beskriva Japans roll i världshandeln",
+      "Förstå hur priser och växelkurser påverkar en resa"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  }
+]

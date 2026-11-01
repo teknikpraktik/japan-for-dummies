@@ -1,0 +1,172 @@
+{
+  "id": "t06-k01",
+  "slug": "hansyn-i-vardagen",
+  "themeId": "seder",
+  "order": 1,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Hänsyn i vardagen: tåg, köer och fotografering",
+  "summary": "Tåg, perronger och turistplatser är gemensamma utrymmen. Du får lära dig några vanliga förväntningar, varför de finns och hur du hanterar situationer när du är osäker.",
+  "objectives": [
+    "Beskriva vanliga förväntningar i tåg och köer och förklara varför de finns",
+    "Bedöma när och hur du kan fotografera med hänsyn",
+    "Hantera osäkerhet genom att observera, följa skyltar och fråga"
+  ],
+  "minutes": 7,
+  "hook": {
+    "kind": "situation",
+    "text": "Det är rusningstid på tåget. Det är trångt men tyst, och det enda ljudet är tågets rullande. Plötsligt ringer din telefon. Vad gör du, och vad tänker människorna omkring dig?"
+  },
+  "sections": [
+    {
+      "id": "tag",
+      "heading": "På tåget",
+      "blocks": [
+        { "type": "p", "text": "Tåg och tunnelbana är ett av de vanligaste sätten att resa i Japan. Många vill att det ska vara lugnt och ordnat, särskilt när det är trångt. Några vanliga förväntningar:" },
+        { "type": "list", "ordered": false, "items": [
+          "Sätt telefonen på ljudlöst och undvik att prata i den. Är det brådskande kan du gå av vid nästa station.",
+          "Prata dämpat med din grupp. Skratt och skrik hörs mer än du tror.",
+          "Ställ dig i kön på de markerade platserna på perrongen, och låt människor gå av först.",
+          "Håll ryggsäcken framför dig eller ställ ned den när det är trångt.",
+          "Reserverade platser (prioriterade säten) är till för äldre, gravida och personer med funktionsnedsättning.",
+          "Att äta är oftast okej på långa fjärrtåg som shinkansen, men många undviker det på korta lokalresor."
+        ] },
+        { "type": "p", "text": "Förväntningarna skiljer sig mellan människor, linjer och tider på dagen. Se dem som riktlinjer: observera och anpassa dig." },
+        { "type": "callout", "tone": "check", "title": "Bagage på shinkansen", "text": "På Tokaido-, Sanyo- och Kyushu-shinkansen finns särskilda regler för stora väskor (över 160 cm i summan av längd, bredd och höjd kräver reserverad plats med bagageutrymme). Reglerna ändras: kontrollera dem hos operatören inför resan." }
+      ]
+    },
+    {
+      "id": "koer",
+      "heading": "Köer och trängsel",
+      "blocks": [
+        { "type": "p", "text": "Köa vid markeringar på perrongen och vid hållplatser, och följ skyltarna. Vid rulltrappor finns ofta en vanlig sida att stå på och en att gå på, men det varierar mellan regioner och stationer. Titta på vad andra gör." },
+        { "type": "p", "text": "Trängsel kan vara stor på vissa linjer under rusningstid. Planera för att kunna hålla ihop gruppen, till exempel genom att bestämma en mötesplats i förväg." }
+      ]
+    },
+    {
+      "id": "foto",
+      "heading": "Fotografera med hänsyn",
+      "blocks": [
+        { "type": "p", "text": "Foto är en stor del av en resa, men det finns platser och situationer där det inte är lämpligt. Titta efter skyltar: fotoregler vid tempel och helgedomar anges ofta på japanska och engelska. I många byggnader är det förbjudet att fotografera inne." },
+        { "type": "list", "ordered": false, "items": [
+          "Fråga om lov innan du fotograferar människor, särskilt barn.",
+          "Fotografera inte på privat mark och följ lokala skyltar.",
+          "I vissa områden, till exempel de privata gränderna i Gion i Kyoto, har lokala fotoförbud och tillträdesförbud införts på grund av trängsel. Reglerna kan ha ändrats.",
+          "Blockera inte gångar när du tar bilder, och ta av dig ryggsäcken om du backar för att få med motivet."
+        ] },
+        { "type": "callout", "tone": "care", "title": "Se, men stör inte", "text": "Områden som många besöker är också andras hem och arbetsplatser. Fråga dig: skulle jag vilja bli fotograferad så här i min vardag?" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "scenario",
+      "id": "telefon-i-taget",
+      "title": "Telefonen ringer",
+      "situation": "Du står i ett tyst och fullt tåg när telefonen ringer. Det är en lärare i din grupp.",
+      "question": "Vad gör du?",
+      "options": [
+        { "id": "a", "text": "Svarar kort och dämpat att du ringer upp efter nästa station, eller går av vid stationen och ringer där.", "correct": true, "feedback": "Bra. I ett tyst tåg är det vanligt att undvika samtal. Ett kort besked och ett samtal på stationen fungerar väl." },
+        { "id": "b", "text": "Svarar högt och pratar klart.", "feedback": "Det kan störa andra, eftersom många förväntar sig ett tyst tåg. Det är inte farligt, men inte hänsynsfullt." },
+        { "id": "c", "text": "Stänger av telefonen helt och ringer aldrig tillbaka.", "feedback": "Då kan gruppen oroa sig. Ring tillbaka så snart det passar." }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "foto-gate",
+      "title": "Fotografering i en gränd",
+      "situation": "Ni går i en gammal gränd i en känd stadsdel. Du ser en person i traditionella kläder och vill ta en bild.",
+      "question": "Vad är mest hänsynsfullt?",
+      "options": [
+        { "id": "a", "text": "Titta efter skyltar om foto är tillåtet, fråga personen om du vill ta en bild, och acceptera ett nej.", "correct": true, "feedback": "Rätt. Både skyltar och personens samtycke spelar roll. Många som arbetar eller bor i populära områden har blivit trötta på oönskade foton." },
+        { "id": "b", "text": "Ta bilden snabbt utan att fråga, så att det inte blir pinsamt.", "feedback": "Det är just sådant som har lett till lokala förbud. Personen kanske inte vill bli fotograferad." },
+        { "id": "c", "text": "Följa efter personen för att få en bättre vinkel.", "feedback": "Det kan upplevas som obehagligt och trakasserande. Gör det inte." }
+      ]
+    },
+    {
+      "type": "ordering",
+      "id": "ga-pa-taget",
+      "title": "Stiga på tåget",
+      "prompt": "Ordna stegen när du ska åka tåg i rusningstid.",
+      "items": [
+        { "id": "a", "text": "Ställ dig i kön vid markeringen på perrongen" },
+        { "id": "b", "text": "Låt de som ska av gå ut först" },
+        { "id": "c", "text": "Stig på och gå längre in i vagnen" },
+        { "id": "d", "text": "Sätt telefonen på ljudlöst och håll ryggsäcken framför dig" }
+      ],
+      "explanation": "Kö vid markeringen, släpp av passagerare, stig på och flytta in i vagnen, och sätt sedan telefonen på ljudlöst och ryggsäcken framför dig så att du inte tar plats."
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur låter det i tåget: samtal, ljud från telefoner, tystnad? Skiljer det sig mellan olika tåg?",
+    "Hur står människor i kö på perrongen? Vad visar markeringarna?",
+    "Vilka skyltar om fotografering hittar du, och vilka symboler används?"
+  ],
+  "reflection": "Finns det oskrivna regler i din vardag som en besökare skulle ha svårt att veta om? Vad skulle hjälpa en besökare där?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad är en vanlig förväntning på tåget?",
+      "options": [
+        { "id": "a", "text": "Telefonen ljudlös och dämpade samtal.", "correct": true, "feedback": "Rätt. Många vill att tåget är lugnt." },
+        { "id": "b", "text": "Alla pratar högt i telefon.", "feedback": "Fel. Det upplevs ofta som störande." },
+        { "id": "c", "text": "Ingen får sitta.", "feedback": "Fel. Man får sitta, men prioriterade platser är för dem som behöver dem." },
+        { "id": "d", "text": "Man ska alltid stå i mitten av vagnen.", "feedback": "Fel. Det finns ingen sådan regel." }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad gör du när tåget stannar och människor ska av?",
+      "options": [
+        { "id": "a", "text": "Låter dem gå av först.", "correct": true, "feedback": "Rätt. Det gör det lättare för alla." },
+        { "id": "b", "text": "Går på direkt så att du får plats.", "feedback": "Det skapar trängsel i dörren." },
+        { "id": "c", "text": "Blockerar dörren för att hålla plats åt gruppen.", "feedback": "Det stör både dem som ska av och dem som ska på." },
+        { "id": "d", "text": "Går av och på hela tiden.", "feedback": "Det hjälper ingen." }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Du vill fotografera i ett tempel. Vad gör du först?",
+      "options": [
+        { "id": "a", "text": "Tittar efter skyltar om fotoregler.", "correct": true, "feedback": "Rätt. Reglerna står ofta på skyltar och varierar mellan platser." },
+        { "id": "b", "text": "Fotograferar överallt eftersom det är turistmål.", "feedback": "Fel. Många platser har restriktioner, särskilt inomhus." },
+        { "id": "c", "text": "Frågar ingen alls.", "feedback": "Fel. Skyltar eller personal kan visa vad som gäller." },
+        { "id": "d", "text": "Använder blixt för bästa bild.", "feedback": "Blixt är ofta förbjuden, och kan störa andra." }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Varför har vissa områden, till exempel Gion i Kyoto, infört lokala fotoförbud?",
+      "options": [
+        { "id": "a", "text": "Trängsel och att människor blev fotograferade och störda i sin vardag.", "correct": true, "feedback": "Rätt. Det rapporterades som en reaktion på besökares beteende. Reglerna kan ha ändrats, så läs skyltar." },
+        { "id": "b", "text": "Alla fotografier är förbjudna i Japan.", "feedback": "Fel. De flesta platser tillåter foto, med undantag." },
+        { "id": "c", "text": "För att kameror är olagliga.", "feedback": "Fel." },
+        { "id": "d", "text": "För att man inte tycker om turister.", "feedback": "Det är en förenkling. Det handlar om att skydda boende och människors arbete." }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en bra strategi om du är osäker på vad som gäller?",
+      "options": [
+        { "id": "a", "text": "Observera andra, följ skyltar och fråga artigt.", "correct": true, "feedback": "Rätt. Det fungerar nästan alltid." },
+        { "id": "b", "text": "Göra som hemma.", "feedback": "Det kan fungera, men reglerna skiljer sig åt." },
+        { "id": "c", "text": "Anta att det aldrig finns regler.", "feedback": "Fel. Det finns ofta oskrivna regler." },
+        { "id": "d", "text": "Låta bli att göra något alls hela resan.", "feedback": "Det är onödigt. Några enkla steg räcker." }
+      ]
+    }
+  ],
+  "sourceIds": ["visitkanagawa-manners", "timeout-gion-2019", "jrcentral-baggage"],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-01",
+    "method": "Fotoregler, Gion och bagageregel kontrollerades mot sammanfattade sökresultat. Övriga seder (tåg, kö) är allmän bakgrund som inte har bekräftats mot egen källa i detta arbete.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Förväntningarna på tåget (tystnad, kö, prioriterade säten, ätande) bygger på allmän kännedom och reseguider, inte på en myndighetskälla.",
+      "Gions regler: nyhetsrapporter från 2019 (lokalt fotoförbud på privata gator) och senare. Det är oklart om böterna är bindande, och reglerna kan ha ändrats.",
+      "Bagageregeln på shinkansen ändras och sökresultaten var delvis motstridiga om undantag för bagage under 160 cm.",
+      "Rulltrappor (sida att stå på) varierar; ingen källa bekräftades."
+    ],
+    "checkBeforeTravel": ["Bagageregler på shinkansen", "Lokala fotoregler, till exempel i Gion", "Aktuella trängsel- eller besöksregler på turistplatser"]
+  }
+}

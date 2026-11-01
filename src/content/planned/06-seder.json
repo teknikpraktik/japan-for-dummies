@@ -1,0 +1,62 @@
+[
+  {
+    "id": "t06-k02",
+    "slug": "skor-av-bad-och-hemmet",
+    "themeId": "seder",
+    "order": 2,
+    "title": "Skor av: hem, tempel och badhus",
+    "summary": "Var man tar av sig skorna, vad tofflor betyder och hur man badar i offentliga bad. Kapitlet förklarar varför, och vad som gäller om du har tatueringar eller är osäker.",
+    "objectives": [
+      "Veta var skor normalt tas av",
+      "Förklara grundreglerna för offentliga bad",
+      "Fråga artigt när du är osäker"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t06-k03",
+    "slug": "halsningar-bugningar-och-gavor",
+    "themeId": "seder",
+    "order": 3,
+    "title": "Hälsningar, bugningar och gåvor",
+    "summary": "Hur man hälsar, när man bugar och hur gåvor ges och tas emot. Kapitlet betonar att det är sammanhang som styr.",
+    "objectives": [
+      "Hälsa på olika sätt i olika situationer",
+      "Förstå betydelsen av gåvor och tack",
+      "Hantera situationer som en värdfamilj eller skolbesök"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t06-k04",
+    "slug": "offentligt-beteende",
+    "themeId": "seder",
+    "order": 4,
+    "title": "Offentligt beteende: skräp, ljud och kontanter",
+    "summary": "Varför det ofta saknas papperskorgar, hur man betalar vid kassan och vad som gäller i butiker och gatuliv.",
+    "objectives": [
+      "Hantera avfall som besökare",
+      "Förstå hur betalning vid kassa fungerar",
+      "Anpassa ljudnivå och uppförande efter plats"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t06-k05",
+    "slug": "mota-manniskor",
+    "themeId": "seder",
+    "order": 5,
+    "title": "Att möta människor: värdfamiljer, skolor och samtal",
+    "summary": "Hur man pratar med nya människor, ställer nyfikna frågor och undviker att peka ut någon som representant för ett helt land.",
+    "objectives": [
+      "Ställa respektfulla frågor",
+      "Undvika stereotypa antaganden i samtal",
+      "Bidra med egna erfarenheter utan att jämföra värderande"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  }
+]

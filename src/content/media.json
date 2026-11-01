@@ -1,0 +1,13 @@
+[
+  {
+    "id": "japan-karta",
+    "src": "/media/japan-karta.svg",
+    "alt": "Förenklad karta över Japans öar sedda ovanifrån. Sapporo ligger på Hokkaido längst upp till höger. Tokyo, Kyoto och Osaka ligger på den stora ön Honshu. Hiroshima ligger längst i väster på Honshu, Fukuoka på Kyushu och Naha på Okinawa långt ner till vänster.",
+    "caption": "Japans öar med sju städer markerade. Kartan är förenklad: avlägsna öar längst söderut och österut är utelämnade, och måttstocken är inte angiven.",
+    "rights": {
+      "creator": "Projektets egen bearbetning (skript scripts/make-map.mjs)",
+      "license": "Källdata: Natural Earth, public domain, via npm-paketet world-atlas. Egen grafik släpps under projektets licens.",
+      "note": "Stadsplaceringarna är beräknade ur stadens koordinater. Gränser och kustlinjer är generaliserade och ska inte användas för navigering."
+    }
+  }
+]

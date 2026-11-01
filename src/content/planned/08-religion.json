@@ -1,0 +1,77 @@
+[
+  {
+    "id": "t08-k01",
+    "slug": "shinto",
+    "themeId": "religion",
+    "order": 1,
+    "title": "Shinto: kami, helgedomar och torii",
+    "summary": "Introduktion till shinto, kami och torii-portar, med fokus på hur religionen ofta märks som tradition och plats snarare än som lära.",
+    "objectives": [
+      "Förklara vad kami och shinto kan betyda",
+      "Känna igen en helgedom och dess delar",
+      "Förstå varför shinto ofta beskrivs som en livsstil snarare än en tro"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t08-k02",
+    "slug": "buddhism-i-japan",
+    "themeId": "religion",
+    "order": 2,
+    "title": "Buddhism i Japan",
+    "summary": "Hur buddhismen kom till Japan, vilka riktningar som finns och hur tempel används i vardag, begravning och turism.",
+    "objectives": [
+      "Beskriva hur buddhismen kom till Japan",
+      "Skilja på helgedom och tempel",
+      "Förstå hur buddhism används i begravningar och minnesriter"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t08-k03",
+    "slug": "besoka-helgedom-och-tempel",
+    "themeId": "religion",
+    "order": 3,
+    "title": "Besöka helgedom och tempel",
+    "summary": "Steg för steg: vad du gör vid ingången, vid vattenbassängen och vid bönen, och när du ska låta kameran vila.",
+    "objectives": [
+      "Följa vanliga steg vid ett besök",
+      "Förstå skyltar och fotoregler",
+      "Visa respekt oavsett egen tro"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t08-k04",
+    "slug": "hogtider-och-matsuri",
+    "themeId": "religion",
+    "order": 4,
+    "title": "Årets högtider och matsuri",
+    "summary": "Nyår, obon, blomningsfester och lokala matsuri. Kapitlet förklarar kalendern och vad du kan vara med om i oktober, utan att utlova något specifikt.",
+    "objectives": [
+      "Namnge några viktiga högtider",
+      "Förklara vad en matsuri är",
+      "Förstå att höstfestivaler varierar mellan platser och år"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t08-k05",
+    "slug": "religion-i-vardagen",
+    "themeId": "religion",
+    "order": 5,
+    "title": "Religion i vardagen: blandade traditioner",
+    "summary": "Många japaner firar både shinto- och buddhistiska ritualer. Kapitlet tar upp sekularisering, nya religioner och hur man undviker enkla svar.",
+    "objectives": [
+      "Beskriva hur olika traditioner blandas",
+      "Diskutera begreppet religion i japansk kontext",
+      "Formulera frågor till människor du möter"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  }
+]

@@ -1,0 +1,411 @@
+{
+  "id": "t05-k01",
+  "slug": "forsta-japanska-orden",
+  "themeId": "sprak",
+  "order": 1,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Dina första japanska ord: hälsa, tacka och be om hjälp",
+  "summary": "Tolv enkla uttryck som tar dig långt: hälsa, tacka, ursäkta dig och be om hjälp. Med japansk skrift, romaji, svensk betydelse och uttalstips.",
+  "objectives": [
+    "Hälsa och tacka med några vanliga uttryck",
+    "Fånga någons uppmärksamhet och be om hjälp artigt",
+    "Veta hur romaji, uttal och långa vokaler hänger ihop"
+  ],
+  "minutes": 7,
+  "hook": {
+    "kind": "situation",
+    "text": "Du står på en tågstation och har tappat bort gruppen. Skyltarna är på japanska, och personen vid informationsdisken hör dig inte. Vilket är det första ord du vill ha med dig?"
+  },
+  "sections": [
+    {
+      "id": "uttal",
+      "heading": "Så läser du romaji",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japanska skrivs med egna tecken, men här skrivs orden också med **romaji**, alltså latinska bokstäver. Romaji är ett hjälpmedel, och uttalet ligger ofta nära svenskans."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Vokalerna **a, i, u, e, o** uttalas ganska rent, ungefär som i svenskan. Varje vokal uttalas för sig.",
+            "En sträck över en vokal (**ō, ū**) betyder att vokalen hålls ungefär dubbelt så länge.",
+            "**r** är ett snabbt tungslag, någonstans mellan r och l.",
+            "Tecknet **は** läses som **wa** när det är ett litet ord i en mening (som i *konnichiwa*).",
+            "Betoningen är jämn, varje stavelse får ungefär lika mycket tid."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Inget ljud i piloten",
+          "text": "Den här versionen har inga ljudfiler. Be gärna en lärare eller någon som kan japanska läsa fraserna högt, eller lyssna på inspelningar från en pålitlig språkkälla."
+        }
+      ]
+    },
+    {
+      "id": "halsa",
+      "heading": "Hälsa och presentera dig",
+      "blocks": [
+        {
+          "type": "phrases",
+          "items": [
+            {
+              "jp": "こんにちは",
+              "romaji": "konnichiwa",
+              "sv": "God dag, hej (dagtid)",
+              "tip": "Sista tecknet は läses wa."
+            },
+            {
+              "jp": "おはようございます",
+              "romaji": "ohayō gozaimasu",
+              "sv": "God morgon (artigt)",
+              "tip": "ō hålls lite längre."
+            },
+            {
+              "jp": "こんばんは",
+              "romaji": "konbanwa",
+              "sv": "God kväll",
+              "tip": "Även här läses は som wa."
+            },
+            {
+              "jp": "はじめまして",
+              "romaji": "hajimemashite",
+              "sv": "Trevligt att träffas (första gången)",
+              "tip": "Sägs när man möts för första gången."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tacka",
+      "heading": "Tacka och ursäkta dig",
+      "blocks": [
+        {
+          "type": "phrases",
+          "items": [
+            {
+              "jp": "ありがとうございます",
+              "romaji": "arigatō gozaimasu",
+              "sv": "Tack (artigt)",
+              "tip": "Kortare och vänskapligare: arigatō."
+            },
+            {
+              "jp": "どういたしまして",
+              "romaji": "dō itashimashite",
+              "sv": "Varsågod, ingen orsak"
+            },
+            {
+              "jp": "すみません",
+              "romaji": "sumimasen",
+              "sv": "Ursäkta mig / förlåt / tack för besväret",
+              "tip": "Ett av de mest användbara orden: du kan använda det för att fånga uppmärksamhet, be om ursäkt och tacka."
+            },
+            {
+              "jp": "お願いします",
+              "romaji": "onegaishimasu",
+              "sv": "Snälla, jag ber om det, tack (när du ber om något)",
+              "tip": "Läggs på efter en förfrågan, till exempel när du pekar på något: ”Det här, tack.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hjalp",
+      "heading": "Be om hjälp",
+      "blocks": [
+        {
+          "type": "phrases",
+          "items": [
+            {
+              "jp": "英語を話せますか",
+              "romaji": "Eigo o hanasemasu ka?",
+              "sv": "Kan du tala engelska?",
+              "tip": "Ka i slutet gör meningen till en fråga."
+            },
+            {
+              "jp": "わかりません",
+              "romaji": "wakarimasen",
+              "sv": "Jag förstår inte"
+            },
+            {
+              "jp": "もう一度お願いします",
+              "romaji": "mō ichido onegaishimasu",
+              "sv": "En gång till, tack"
+            },
+            {
+              "jp": "トイレはどこですか",
+              "romaji": "Toire wa doko desu ka?",
+              "sv": "Var finns toaletten?",
+              "tip": "wa är här ett litet ord som markerar ämnet."
+            },
+            {
+              "jp": "助けてください",
+              "romaji": "Tasukete kudasai",
+              "sv": "Hjälp mig, snälla",
+              "tip": "Används i nödsituationer. Säg det tydligt."
+            },
+            {
+              "jp": "大丈夫です",
+              "romaji": "daijōbu desu",
+              "sv": "Det är okej / Jag klarar mig",
+              "tip": "Kan även betyda ”nej tack” beroende på situation, så lyssna på tonfall och sammanhang."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "check",
+          "title": "Kontrollera nödnummer före avresa",
+          "text": "I Japan brukar 110 gälla polis och 119 räddningstjänst och ambulans. Det är uppgifter som ska bekräftas av resans ledare nära avresa, tillsammans med gruppens egen nödplan."
+        },
+        {
+          "type": "p",
+          "text": "Fraserna ovan är i en artig men neutral stil. Du behöver inte kunna mer för att göra ett gott intryck. Ett försök och ett leende betyder mycket."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "ordering",
+      "id": "fraga-om-vagen",
+      "title": "Fråga efter toaletten",
+      "prompt": "Sätt stegen i en artig ordning, från första till sista.",
+      "items": [
+        {
+          "id": "a",
+          "text": "Fånga uppmärksamhet: Sumimasen",
+          "note": "すみません"
+        },
+        {
+          "id": "b",
+          "text": "Fråga: Toire wa doko desu ka?",
+          "note": "トイレはどこですか"
+        },
+        {
+          "id": "c",
+          "text": "Lyssna på svaret, och säg om du inte förstår: Mō ichido onegaishimasu",
+          "note": "もう一度お願いします"
+        },
+        {
+          "id": "d",
+          "text": "Tacka: Arigatō gozaimasu",
+          "note": "ありがとうございます"
+        }
+      ],
+      "explanation": "Fånga först uppmärksamheten, ställ sedan frågan, be om upprepning om du behöver och avsluta med ett tack."
+    },
+    {
+      "type": "scenario",
+      "id": "bortkommen",
+      "title": "Bortkommen på stationen",
+      "situation": "Du har tappat bort gruppen på en stor tågstation. En stationsanställd står i närheten och tittar åt ett annat håll.",
+      "question": "Vad säger du först?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sumimasen! (すみません)",
+          "correct": true,
+          "feedback": "Bra. Sumimasen är det vanliga sättet att fånga någons uppmärksamhet artigt. Därefter kan du fråga om engelska och förklara."
+        },
+        {
+          "id": "b",
+          "text": "Wakarimasen (わかりません)",
+          "feedback": "Det betyder ”jag förstår inte”, och personen har ännu inte sagt något. Börja med att fånga uppmärksamheten."
+        },
+        {
+          "id": "c",
+          "text": "Arigatō gozaimasu (ありがとうございます)",
+          "feedback": "Det är ”tack”. Du har inte fått någon hjälp ännu, så det är för tidigt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "hjalp-uttryck",
+      "title": "Vilket uttryck passar?",
+      "prompt": "Någon svarar snabbt på japanska och du hann inte förstå. Vilket uttryck passar bäst?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mō ichido onegaishimasu (もう一度お願いします)",
+          "correct": true,
+          "feedback": "Rätt. Det betyder ”en gång till, tack”."
+        },
+        {
+          "id": "b",
+          "text": "Konbanwa (こんばんは)",
+          "feedback": "Det är en kvällshälsning och passar inte här."
+        },
+        {
+          "id": "c",
+          "text": "Dō itashimashite (どういたしまして)",
+          "feedback": "Det betyder ”varsågod” och sägs när någon tackar dig."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka fraser hör du ofta, till exempel i butiker och på stationer? Kan du känna igen dem?",
+    "Hur reagerar människor när du försöker säga några ord på japanska?",
+    "Vilka tecken eller ord ser du upprepade gånger på skyltar? Skriv ned ett eller två och ta reda på vad de betyder."
+  ],
+  "reflection": "Hur känns det att kommunicera på ett språk du knappt kan? Vad kan du göra för att mötet blir behagligt trots att orden är få?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad betyder sumimasen (すみません)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ursäkta mig, förlåt och tack för besväret, beroende på sammanhang",
+          "correct": true,
+          "feedback": "Rätt. Ordet används för att fånga uppmärksamhet, be om ursäkt och tacka."
+        },
+        {
+          "id": "b",
+          "text": "Godnatt",
+          "feedback": "Fel. Godnatt är oyasumi nasai."
+        },
+        {
+          "id": "c",
+          "text": "Hej då",
+          "feedback": "Fel. Det finns andra ord för att säga hej då."
+        },
+        {
+          "id": "d",
+          "text": "Jag älskar dig",
+          "feedback": "Fel, och inte vad du vill säga på en perrong."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad säger du för att tacka artigt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arigatō gozaimasu (ありがとうございます)",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Konnichiwa (こんにちは)",
+          "feedback": "Det är en dagshälsning."
+        },
+        {
+          "id": "c",
+          "text": "Wakarimasen (わかりません)",
+          "feedback": "Det betyder ”jag förstår inte”."
+        },
+        {
+          "id": "d",
+          "text": "Tasukete kudasai (助けてください)",
+          "feedback": "Det betyder ”hjälp mig” och används vid behov av hjälp."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad betyder wakarimasen (わかりません)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jag förstår inte",
+          "correct": true,
+          "feedback": "Rätt. Praktiskt när du inte hänger med."
+        },
+        {
+          "id": "b",
+          "text": "Var är toaletten?",
+          "feedback": "Det är Toire wa doko desu ka?"
+        },
+        {
+          "id": "c",
+          "text": "God morgon",
+          "feedback": "Det är ohayō gozaimasu."
+        },
+        {
+          "id": "d",
+          "text": "Snälla",
+          "feedback": "Det är onegaishimasu."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad innebär strecket över o i ”ohayō”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vokalen hålls ungefär dubbelt så länge",
+          "correct": true,
+          "feedback": "Rätt. Det är en lång vokal."
+        },
+        {
+          "id": "b",
+          "text": "Man ska uttala o som å",
+          "feedback": "Fel. Längden skiljer, inte ljudet."
+        },
+        {
+          "id": "c",
+          "text": "Ordet är en fråga",
+          "feedback": "Fel. Frågor markeras med ka."
+        },
+        {
+          "id": "d",
+          "text": "Det ska inte uttalas alls",
+          "feedback": "Fel. Vokalen uttalas, och den är lång."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Du behöver akut hjälp. Vilket uttryck passar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Konnichiwa (こんにちは)",
+          "feedback": "Det är en vanlig hälsning och gör inte klart att du behöver hjälp."
+        },
+        {
+          "id": "b",
+          "text": "Dō itashimashite (どういたしまして)",
+          "feedback": "Det betyder ”varsågod”."
+        },
+        {
+          "id": "c",
+          "text": "Tasukete kudasai (助けてください)",
+          "correct": true,
+          "feedback": "Rätt: ”hjälp mig, snälla”. Säg det tydligt och kontakta gruppens ledare när det går."
+        },
+        {
+          "id": "d",
+          "text": "Hajimemashite (はじめまして)",
+          "feedback": "Det är ”trevligt att träffas” och passar inte i en nödsituation."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-01",
+    "method": "Frasernas japanska skrift, romaji och betydelser är standarduttryck som skrivits utifrån allmän kunskap. Ingen språkkälla har kunnat öppnas eller kontrolleras i detta arbete, därför listas inga källor för kapitlet.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Alla fraser och uttalstips bör läsas igenom av någon som kan japanska innan kapitlet används i undervisning.",
+      "Svenska uttalshjälp är förenklade och inte exakta.",
+      "Nödnumren 110 och 119 är allmän kännedom och har inte kontrollerats i denna körning."
+    ],
+    "checkBeforeTravel": [
+      "Nödnummer och gruppens nödplan"
+    ]
+  }
+}

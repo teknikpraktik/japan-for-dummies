@@ -1,0 +1,349 @@
+{
+  "id": "t01-k01",
+  "slug": "japan-pa-kartan",
+  "themeId": "geografi",
+  "order": 1,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Japan på kartan: öar, regioner och avstånd",
+  "summary": "Hitta på kartan: fyra huvudöar, tusentals mindre öar och åtta regioner. Du lär dig läsa avstånd och förstå vad som är rimligt att räkna med i oktober.",
+  "objectives": [
+    "Peka ut de fyra huvudöarna och några viktiga städer på en karta",
+    "Namnge Japans åtta regioner och placera dem ungefär",
+    "Bedöma avstånd och restider, och veta vad som ändras med årstiden"
+  ],
+  "minutes": 7,
+  "hook": {
+    "kind": "question",
+    "text": "Japan är mindre än Sverige till ytan, men har mer än tio gånger fler invånare. Hur kan ett land vara så glest på kartan och ändå så tätt befolkat?"
+  },
+  "sections": [
+    {
+      "id": "oar",
+      "heading": "Ett land av öar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan är en önation i Östasien. Landet består av fyra stora huvudöar: **Hokkaido**, **Honshu**, **Shikoku** och **Kyushu**. Honshu är den största och där ligger Tokyo, Kyoto och Osaka. Dessutom finns den långa ökedjan Okinawa i söder."
+        },
+        {
+          "type": "p",
+          "text": "Hur många öar finns det? År 2023 räknade Japans kartverk om öarna med digitala kartor och kom fram till **14 125**. Det tidigare talet, 6 852, hade använts sedan 1987. Skillnaden beror främst på bättre kartor och mätmetoder, inte på att landet har vuxit. Kriteriet är detsamma: naturlig mark med minst 100 meters omkrets."
+        },
+        {
+          "type": "figure",
+          "mediaId": "japan-karta"
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Yta",
+              "value": "cirka 378 000 km²"
+            },
+            {
+              "label": "Bergigt",
+              "value": "ungefär tre fjärdedelar av landet (cirka 73 procent enligt vanliga uppgifter)"
+            },
+            {
+              "label": "Högsta berg",
+              "value": "Fuji, 3 776 meter"
+            },
+            {
+              "label": "Antal öar",
+              "value": "14 125 (omräkning 2023, minst 100 m omkrets)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regioner",
+      "heading": "Åtta regioner",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan delas ofta in i åtta regioner. Indelningen är praktisk men inte officiell förvaltningsnivå. Under dem finns 47 prefekturer. Okinawa räknas ofta till Kyushu-regionen."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Hokkaido**: den nordligaste ön, långa vintrar, stor stad: Sapporo.",
+            "**Tohoku**: norra Honshu, stor stad: Sendai.",
+            "**Kanto**: kring Tokyo, landets största slätt och tätaste område.",
+            "**Chubu**: mitten av Honshu, bland annat Nagoya och Fuji.",
+            "**Kansai**: Osaka, Kyoto och Kobe.",
+            "**Chugoku**: västra Honshu, bland annat Hiroshima.",
+            "**Shikoku**: den minsta huvudön, bergig.",
+            "**Kyushu**: sydligaste huvudön, aktiva vulkaner och varma källor, stor stad: Fukuoka."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Eftersom bergen tar så stor plats bor de flesta människor på smala kustslätter. Därför blir storstadsområdena täta, även om landet i sin helhet är stort."
+        }
+      ]
+    },
+    {
+      "id": "avstand",
+      "heading": "Avstånd och restid",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan sträcker sig långt i nord–sydlig riktning. Sapporo och Naha ligger ungefär 2 250 km från varandra fågelvägen, längre än Stockholm–Rom. Tokyo och Osaka ligger ungefär 400 km från varandra, alltså kortare än Stockholm–Malmö. (Avstånden är egna beräkningar ur stadens koordinater.)"
+        },
+        {
+          "type": "p",
+          "text": "På räls är sträckan Tokyo–Osaka drygt 500 km. Med de snabbaste shinkansentågen tar den ungefär två och en halv timme. Tidtabeller, tågtyper och priser ändras, så kontrollera dem när resan planeras."
+        },
+        {
+          "type": "callout",
+          "tone": "check",
+          "title": "Kontrollera inför avresa",
+          "text": "Restider och biljettregler ska kontrolleras hos operatören nära resan. Siffrorna här är bakgrund, inte reseplan."
+        }
+      ]
+    },
+    {
+      "id": "klimat",
+      "heading": "Klimat och oktober",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Norra Japan har kallt klimat med långa vintrar, medan söder är subtropiskt. Större delen av Honshu, Shikoku och Kyushu har fyra tydliga årstider. Tyfoner (taifuner) förekommer oftast sommar till tidig höst. I oktober är det vanligtvis redan mildare, men oväder kan fortfarande förekomma, särskilt i söder."
+        },
+        {
+          "type": "p",
+          "text": "Räkna med att det är varmare i söder än i norr: Sapporo är betydligt svalare än Osaka eller Naha. Klimatdata varierar mellan år, så titta på prognosen strax före avresa."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "ordering",
+      "id": "norr-till-soder",
+      "title": "Från norr till söder",
+      "prompt": "Ordna städerna från norr till söder. Titta på kartan ovan om du behöver.",
+      "items": [
+        {
+          "id": "sapporo",
+          "text": "Sapporo (Hokkaido)"
+        },
+        {
+          "id": "tokyo",
+          "text": "Tokyo (Honshu)"
+        },
+        {
+          "id": "hiroshima",
+          "text": "Hiroshima (Honshu, västra delen)"
+        },
+        {
+          "id": "fukuoka",
+          "text": "Fukuoka (Kyushu)"
+        },
+        {
+          "id": "naha",
+          "text": "Naha (Okinawa)"
+        }
+      ],
+      "explanation": "Sapporo ligger längst norrut (cirka 43° nord), därefter Tokyo, Hiroshima, Fukuoka och Naha längst söderut (cirka 26° nord). Att Tokyo ligger norr om Hiroshima och Fukuoka är lätt att glömma, eftersom Honshu böjer av västerut."
+    },
+    {
+      "type": "scenario",
+      "id": "dagsutflykt",
+      "title": "Planera en fri dag",
+      "situation": "Gruppen har en fri dag i Osaka. En klasskamrat vill åka till Tokyo på morgonen och vara tillbaka till middagen: ”Det är ju bara en kort bit på kartan!”",
+      "question": "Vad är det klokaste att göra?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kolla restid och biljettregler först, och väga resan mot allt annat som du vill hinna med.",
+          "correct": true,
+          "feedback": "Rätt. Sträckan är drygt 500 km på räls. Det går att åka, men tåget tar flera timmar enkel väg, och biljetter, regler och tider ska kontrolleras. En dagsresa tar mycket av dagen."
+        },
+        {
+          "id": "b",
+          "text": "Åka direkt, det kan inte vara långt.",
+          "correct": false,
+          "feedback": "Inte riktigt. Japan ser litet ut på kartan men avstånden är ändå stora. Du riskerar att tillbringa dagen på tåget eller missa avtalade tider."
+        },
+        {
+          "id": "c",
+          "text": "Avfärda idén eftersom Tokyo ligger på en annan ö.",
+          "correct": false,
+          "feedback": "Det stämmer inte: Tokyo och Osaka ligger på samma ö, Honshu, och är sammanbundna av järnväg. Det handlar om tid, inte om hav."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur ser landskapet ut från tågfönstret: berg, slätter, hav? Passar det med kartans bild?",
+    "Hur förändras bebyggelsen när du lämnar en storstad?",
+    "Vilken temperatur och vilket väder möter du jämfört med prognosen?"
+  ],
+  "reflection": "Vad trodde du om Japans storlek och täthet innan det här kapitlet? Vilken uppgift förvånade dig mest?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Hur många huvudöar har Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tre",
+          "feedback": "Fel. Det är fyra huvudöar: Hokkaido, Honshu, Shikoku och Kyushu."
+        },
+        {
+          "id": "b",
+          "text": "Fyra",
+          "correct": true,
+          "feedback": "Rätt: Hokkaido, Honshu, Shikoku och Kyushu."
+        },
+        {
+          "id": "c",
+          "text": "Sex",
+          "feedback": "Fel. Sex tusen är en gammal siffra för alla öar (6 852). Huvudöarna är fyra."
+        },
+        {
+          "id": "d",
+          "text": "Fjorton",
+          "feedback": "Fel. Siffran 14 125 gäller alla öar, stora som små, inte huvudöarna."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vilken ö är störst och rymmer Tokyo, Kyoto och Osaka?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kyushu",
+          "feedback": "Fel. Kyushu är den sydligaste huvudön, med bland annat Fukuoka."
+        },
+        {
+          "id": "b",
+          "text": "Shikoku",
+          "feedback": "Fel. Shikoku är den minsta huvudön."
+        },
+        {
+          "id": "c",
+          "text": "Honshu",
+          "correct": true,
+          "feedback": "Rätt. Honshu är störst och rymmer landets största städer."
+        },
+        {
+          "id": "d",
+          "text": "Hokkaido",
+          "feedback": "Fel. Hokkaido är den nordligaste ön och har Sapporo som största stad."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Antalet öar uppgavs 2023 öka från 6 852 till 14 125. Vad förklarar det bäst?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nya öar har bildats av vulkanutbrott.",
+          "feedback": "Fel. Enstaka öar kan bildas, men ökningen kommer inte därifrån."
+        },
+        {
+          "id": "b",
+          "text": "Man mätte om med bättre digitala kartor, med samma storlekskriterium som förut.",
+          "correct": true,
+          "feedback": "Rätt. Bättre kartor visade öar som tidigare räknats ihop med land eller varandra. Landets yta förändrades inte."
+        },
+        {
+          "id": "c",
+          "text": "Japan har utökat sitt område.",
+          "feedback": "Fel. Omräkningen ändrade inte landets yta."
+        },
+        {
+          "id": "d",
+          "text": "Man började räkna även konstgjorda öar.",
+          "feedback": "Fel. Uppgiften gäller naturlig mark. Konstgjord mark ingår inte."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Ungefär hur stor del av Japan är bergigt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ungefär en fjärdedel",
+          "feedback": "Fel. Det är tvärtom: berg är den vanligaste terrängen."
+        },
+        {
+          "id": "b",
+          "text": "Ungefär hälften",
+          "feedback": "Nära, men för lågt. Vanliga uppgifter är omkring 70–75 procent."
+        },
+        {
+          "id": "c",
+          "text": "Ungefär tre fjärdedelar",
+          "correct": true,
+          "feedback": "Rätt. Vanligen anges cirka 73 procent. Därför bor de flesta på kustslätter."
+        },
+        {
+          "id": "d",
+          "text": "Nästan allt",
+          "feedback": "För högt. Det finns viktiga slätter, till exempel Kanto."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är mest rimligt att räkna med om vädret i oktober?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Samma väder över hela landet.",
+          "feedback": "Fel. Skillnaderna mellan norr och söder är stora."
+        },
+        {
+          "id": "b",
+          "text": "Oftast milt, svalare i norr, och tyfoner kan fortfarande förekomma. Kolla prognosen före avresa.",
+          "correct": true,
+          "feedback": "Rätt. Det är bakgrundskunskap, inte en garanti. Prognoser avgör."
+        },
+        {
+          "id": "c",
+          "text": "Regnperiod över hela landet hela månaden.",
+          "feedback": "Fel. Den stora regnperioden infaller tidigare, på försommaren."
+        },
+        {
+          "id": "d",
+          "text": "Snö i hela Honshu.",
+          "feedback": "Fel. I oktober är snö ovanligt i låglandet."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "nippon-islands-2023",
+    "webjapan-regions",
+    "wikipedia-geography-japan",
+    "natural-earth"
+  ],
+  "mediaIds": [
+    "japan-karta"
+  ],
+  "review": {
+    "reviewedOn": "2026-11-01",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön. Avstånd är egna beräkningar ur koordinater.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Andelen berg (cirka 73 procent) och ytan varierar något mellan källor.",
+      "Okinawas indelning i region varierar; många räknar det till Kyushu.",
+      "Påståenden om väder i oktober och regnperiod är allmän bakgrundskunskap som inte kontrollerats mot SMHI-motsvarigheten JMA.",
+      "Restiden Tokyo–Osaka (cirka 2,5 timmar) bygger på allmän kännedom och har inte kontrollerats mot aktuell tidtabell.",
+      "Jämförelsen med Sverige (yta och befolkning: Japan drygt 120 miljoner invånare, Sverige cirka 10,5 miljoner) är allmän kännedom och inte kontrollerad mot källa i detta arbete."
+    ],
+    "checkBeforeTravel": [
+      "Tidtabeller och biljettregler",
+      "Väderprognos och eventuella tyfonvarningar"
+    ]
+  }
+}

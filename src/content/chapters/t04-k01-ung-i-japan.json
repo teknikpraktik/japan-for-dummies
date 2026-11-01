@@ -1,0 +1,163 @@
+{
+  "id": "t04-k01",
+  "slug": "ung-i-japan",
+  "themeId": "skola",
+  "order": 1,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Ung i Japan: skola och fritid",
+  "summary": "Hur är en skolvecka för jämnåriga i Japan? Vi tittar på skolans uppbyggnad, städning, lunch, klubbar och fritid, och på hur mycket det varierar.",
+  "objectives": [
+    "Beskriva hur det japanska skolsystemet är uppbyggt",
+    "Ge exempel på vardagsdrag i skolan, till exempel städning, skolmåltid och klubbar",
+    "Undvika att generalisera: förklara varför ungdomars vardag skiljer sig åt"
+  ],
+  "minutes": 7,
+  "hook": {
+    "kind": "situation",
+    "text": "Föreställ dig att du kommer in i ett japanskt klassrum efter sista lektionen. Eleverna ställer upp stolarna, tar fram borstar och trasor och städar klassrummet själva. Vad säger det om skolan, och hur skulle det kännas hemma hos dig?"
+  },
+  "sections": [
+    {
+      "id": "system",
+      "heading": "Skolsystemet i korthet",
+      "blocks": [
+        { "type": "p", "text": "Efter andra världskriget fick Japan ett skolsystem som ofta beskrivs som **6–3–3–4**: sex år i grundskola, tre år i högstadium, tre år i gymnasium och fyra år i universitet. De första nio åren är obligatoriska. Gymnasiet är inte obligatoriskt, men de allra flesta går dit. Siffran som ofta anges är över 95 procent." },
+        { "type": "p", "text": "Skolåret börjar 1 april. Det delas oftast in i tre terminer: april–juli, september–december och januari–mars. Vissa skolor har två terminer. Sommarlovet ligger alltså mitt i skolåret, inte i slutet." },
+        { "type": "timeline", "items": [
+          { "when": "Ålder 6–12", "text": "Grundskola, sex år (obligatorisk)" },
+          { "when": "Ålder 12–15", "text": "Högstadium, tre år (obligatoriskt)" },
+          { "when": "Ålder 15–18", "text": "Gymnasium, tre år (inte obligatoriskt)" },
+          { "when": "Från 18", "text": "Universitet, vanligen fyra år, eller annan utbildning" }
+        ] }
+      ]
+    },
+    {
+      "id": "vardag",
+      "heading": "Skolans vardag",
+      "blocks": [
+        { "type": "p", "text": "I Japan är skolan inte bara lektioner. I många skolor städar eleverna själva klassrum, korridorer och skolgård i grupper, som en del av utbildningen. Skolmåltiden (**kyushoku**) ses också som något att lära sig av: i många skolor delar eleverna ut maten i klassrummet och städar efter måltiden." },
+        { "type": "p", "text": "Många skolor har enhetliga skoluniformer. Efter lektionerna går många elever på **bukatsu**, skolklubbar inom idrott, musik, konst eller andra intressen. Klubbarna kan ta mycket tid. Vissa elever går dessutom på **juku**, kvällsskolor som förbereder inför inträdesprov." },
+        { "type": "callout", "tone": "care", "title": "Det varierar", "text": "Beskrivningen gäller vanliga mönster, men det är inte samma sak som att alla ungdomar lever så. Vardagen skiljer sig mellan stad och land, mellan skolor och mellan personer. Vissa gillar klubbarna, andra tycker att de tar för mycket tid." }
+      ]
+    },
+    {
+      "id": "fritid",
+      "heading": "Fritid och vänner",
+      "blocks": [
+        { "type": "p", "text": "På fritiden umgås ungdomar som överallt: pratar, spelar, tittar på videor, går på närbutik (**konbini**) eller sjunger karaoke. Hur mycket tid som finns beror på läxor, klubbar, juku och på hur långt det är till skolan. Många reser själva med tåg eller buss." },
+        { "type": "p", "text": "Det finns också påfrestningar: press inför prov, mobbning och skolfrånvaro förekommer i Japan, som i många länder. Det är ett eget tema som tas upp senare. Här räcker det att veta att ungdomars erfarenheter är olika." }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "ordering",
+      "id": "skolsteg",
+      "title": "Från grundskola till universitet",
+      "prompt": "Ordna skolstegen i den ordning man går dem.",
+      "items": [
+        { "id": "grund", "text": "Grundskola (sex år)" },
+        { "id": "hogstadium", "text": "Högstadium (tre år)" },
+        { "id": "gymnasium", "text": "Gymnasium (tre år)" },
+        { "id": "univ", "text": "Universitet (vanligen fyra år)" }
+      ],
+      "explanation": "Strukturen 6–3–3–4 följer just den här ordningen. De första nio åren är obligatoriska."
+    },
+    {
+      "type": "scenario",
+      "id": "stadning",
+      "title": "Besök på en skola",
+      "situation": "Ni besöker en skola. Efter lunchen börjar eleverna städa klassrummet. En elev ger dig en trasa och frågar något på engelska: ”Do you want to help?”",
+      "question": "Vad gör du?",
+      "options": [
+        { "id": "a", "text": "Tackar, tar trasan och hjälper till, och frågar gärna läraren eller eleverna hur det brukar gå till.", "correct": true, "feedback": "Bra val. Städningen är en del av skolans vardag, och att delta visar nyfikenhet. Fråga gärna om hur det brukar gå till." },
+        { "id": "b", "text": "Säger att det är skolans jobb att städa.", "feedback": "Det kan upplevas som oförskämt. I många japanska skolor ingår städning i utbildningen. I Sverige kan det vara annorlunda, vilket är ett bra samtalsämne." },
+        { "id": "c", "text": "Går undan och tittar på mobilen.", "feedback": "Det är inte olämpligt i sig, men du missar chansen att lära känna eleverna och förstå deras vardag." }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "generalisera",
+      "title": "Bild eller verklighet?",
+      "prompt": "En klasskamrat säger: ”Alla japanska ungdomar bär uniform, går i klubb och på juku varje dag.” Vad är bästa svaret?",
+      "options": [
+        { "id": "a", "text": "Många gör det, men det varierar. Vi bör ställa frågor snarare än anta.", "correct": true, "feedback": "Rätt. Mönstren är vanliga men inte allmängiltiga." },
+        { "id": "b", "text": "Ja, det stämmer för alla.", "feedback": "Alla är en generalisering som sällan stämmer. Det finns skolor utan uniform och elever som inte går i klubb eller juku." },
+        { "id": "c", "text": "Nej, det gör ingen.", "feedback": "Motsatsen är lika överdriven. Många gör det." }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vad har ungdomar på sig: uniform, vardagskläder, kläder för klubben?",
+    "Vilka tider på dagen ser du elever på tåg och i staden? Vad kan det säga om deras vardag?",
+    "Vad gör ungdomar på fritiden där du är? Vad liknar ditt liv och vad skiljer sig?"
+  ],
+  "reflection": "Vilken del av skolvardagen i Japan skulle du helst prova, och vilken skulle du ha svårt för? Vad säger det om vad du är van vid?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Hur många år är skolgången obligatorisk i Japan?",
+      "options": [
+        { "id": "a", "text": "Sex år", "feedback": "Det är bara grundskolan. Högstadiet är också obligatoriskt." },
+        { "id": "b", "text": "Nio år", "correct": true, "feedback": "Rätt: sex år grundskola och tre år högstadium." },
+        { "id": "c", "text": "Tolv år", "feedback": "Gymnasiet är inte obligatoriskt, även om de flesta går." },
+        { "id": "d", "text": "Sexton år", "feedback": "Det inkluderar universitet, vilket inte är obligatoriskt." }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "När börjar skolåret vanligtvis i Japan?",
+      "options": [
+        { "id": "a", "text": "1 januari", "feedback": "Fel, januari är mitt i det japanska skolåret." },
+        { "id": "b", "text": "1 april", "correct": true, "feedback": "Rätt. Skolåret börjar i april." },
+        { "id": "c", "text": "Mitten av augusti", "feedback": "Det stämmer för många svenska skolor, inte för Japan." },
+        { "id": "d", "text": "1 oktober", "feedback": "Fel. Det är i april." }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad innebär det att eleverna ofta städar skolan själva?",
+      "options": [
+        { "id": "a", "text": "Det är en del av skolans uppfostran och gemenskap, och inte bara ett sätt att spara pengar.", "correct": true, "feedback": "Rätt. Städning och skolmåltid ses som något eleverna lär sig av." },
+        { "id": "b", "text": "Skolan har inga vaktmästare.", "feedback": "Det går inte att säga utifrån den här informationen, och poängen är pedagogisk." },
+        { "id": "c", "text": "Det är ett straff.", "feedback": "Nej, det ses som en del av vardagen och inte som ett straff." },
+        { "id": "d", "text": "Det sker bara i Tokyo.", "feedback": "Det är en vanlig praxis i många skolor, inte bara i Tokyo." }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är juku?",
+      "options": [
+        { "id": "a", "text": "En sorts skoluniform", "feedback": "Fel. Uniform har ett annat ord (seifuku)." },
+        { "id": "b", "text": "Ett sommarlov", "feedback": "Fel. Sommarlovet ligger mitt i skolåret, men heter inte juku." },
+        { "id": "c", "text": "Kvälls- och helgskolor som många går på för att förbereda prov", "correct": true, "feedback": "Rätt. Många går på juku för extra undervisning inför inträdesprov." },
+        { "id": "d", "text": "Skolans matsal", "feedback": "Fel. Många äter i klassrummet." }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vilken formulering är mest försiktig och korrekt?",
+      "options": [
+        { "id": "a", "text": "Alla japanska elever går i klubb.", "feedback": "Fel: det är en generalisering." },
+        { "id": "b", "text": "Många elever går i skolklubb, men det varierar mellan skolor och personer.", "correct": true, "feedback": "Rätt. Den uttrycker ett mönster utan att göra det till en regel för alla." },
+        { "id": "c", "text": "Ingen japansk elev har fritid.", "feedback": "Fel, och för kategoriskt. Fritiden varierar." },
+        { "id": "d", "text": "Japanska elever är alla likadana.", "feedback": "Fel, och exakt den sortens påstående vi vill undvika." }
+      ]
+    }
+  ],
+  "sourceIds": ["emb-japan-education", "emb-bd-education", "mext-whitepaper-lunch"],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-01",
+    "method": "Uppgifter kontrollerades mot sammanfattade sökresultat från ambassader och MEXT (sidorna kunde inte öppnas direkt). Delar av texten är allmän bakgrund utan egen källa.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Andelen som går på gymnasiet (”över 95 procent”) kommer från sekundära sammanfattningar och bör kontrolleras mot aktuell MEXT-statistik.",
+      "Uppgiften att eleverna delar ut skolmåltiden i klassrummet bygger på ett äldre MEXT-dokument; praxis varierar mellan skolor och kommuner.",
+      "Påståenden om uniformer, klubbar (bukatsu), juku, fritid och påfrestningar är allmän bakgrundskunskap utan egen källa i detta arbete.",
+      "Tidsplanen för terminer varierar mellan skolor."
+    ],
+    "checkBeforeTravel": []
+  }
+}

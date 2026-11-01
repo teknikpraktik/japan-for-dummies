@@ -1,0 +1,62 @@
+[
+  {
+    "id": "t05-k02",
+    "slug": "tre-skriftsystem",
+    "themeId": "sprak",
+    "order": 2,
+    "title": "Tre skriftsystem: hiragana, katakana och kanji",
+    "summary": "Japanska skrivs med tre system på en gång. Kapitlet visar hur de fungerar tillsammans och hur du kan känna igen några tecken på skyltar.",
+    "objectives": [
+      "Förklara vad de tre skriftsystemen används till",
+      "Känna igen några vanliga tecken",
+      "Förstå varför kanji kan läsas på flera sätt"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t05-k03",
+    "slug": "artighet-och-tilltal",
+    "themeId": "sprak",
+    "order": 3,
+    "title": "Artighet, namn och tilltal",
+    "summary": "Språket har olika nivåer av artighet. Kapitlet handlar om -san, efternamn först, bugningar och hur du låter vänlig utan att behöva kunna allt.",
+    "objectives": [
+      "Använda -san på rätt sätt",
+      "Förstå skillnaden mellan vänligt och formellt språk",
+      "Presentera dig själv med några enkla fraser"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t05-k04",
+    "slug": "skyltar-och-menyer",
+    "themeId": "sprak",
+    "order": 4,
+    "title": "Läsa skyltar och menyer",
+    "summary": "Perrongskyltar, toalettsymboler och menyer. Kapitlet lär dig känna igen några ord och tecken som du faktiskt kommer att möta.",
+    "objectives": [
+      "Tolka vanliga symboler och skyltar",
+      "Känna igen några ord på menyer och biljettautomater",
+      "Använda översättningsstöd smart"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t05-k05",
+    "slug": "kommunicera-utan-gemensamt-sprak",
+    "themeId": "sprak",
+    "order": 5,
+    "title": "Kommunicera utan gemensamt språk",
+    "summary": "Gester, bilder, översättningsappar och tålamod. Kapitlet visar hur man klarar situationer när orden inte räcker, och hur man ber om hjälp artigt.",
+    "objectives": [
+      "Välja strategi när språket inte räcker",
+      "Använda översättningsappar med eftertanke",
+      "Förstå vanliga missförstånd kring ja och nej"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  }
+]

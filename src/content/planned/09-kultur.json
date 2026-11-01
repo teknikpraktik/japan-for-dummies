@@ -1,0 +1,77 @@
+[
+  {
+    "id": "t09-k01",
+    "slug": "traditionell-arkitektur",
+    "themeId": "kultur",
+    "order": 1,
+    "title": "Slott, trähus och trädgårdar",
+    "summary": "Hur traditionella byggnader är konstruerade, varför trä dominerar och hur trädgårdar planeras. Kapitlet visar också hur byggnader återuppbyggs.",
+    "objectives": [
+      "Beskriva typiska delar av traditionell arkitektur",
+      "Förklara varför trä och återuppbyggnad är vanligt",
+      "Betrakta en byggnad aktivt på resan"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t09-k02",
+    "slug": "konst-och-hantverk",
+    "themeId": "kultur",
+    "order": 2,
+    "title": "Konst och hantverk",
+    "summary": "Från ukiyo-e och keramik till textil och lack. Kapitlet visar hur hantverk lever kvar och hur det möter samtiden.",
+    "objectives": [
+      "Känna igen några konstformer",
+      "Förstå hantverkets sammanhang och dess utmaningar",
+      "Ställa frågor på museum och verkstäder"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t09-k03",
+    "slug": "manga-och-anime",
+    "themeId": "kultur",
+    "order": 3,
+    "title": "Manga och anime",
+    "summary": "Hur manga och anime uppstod, hur de görs och hur de används som kultur och industri. Kapitlet visar att det finns många genrer.",
+    "objectives": [
+      "Beskriva manga och anime som kulturformer",
+      "Förstå hur industrin är organiserad",
+      "Reflektera över bilden av Japan i populärkultur"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t09-k04",
+    "slug": "spel-musik-och-modern-popularkultur",
+    "themeId": "kultur",
+    "order": 4,
+    "title": "Spel, musik och modern populärkultur",
+    "summary": "Datorspel, idolkultur, indie, karaoke och nätkultur. Kapitlet handlar om vad ungdomar lyssnar på, spelar och delar.",
+    "objectives": [
+      "Ge exempel på modern japansk populärkultur",
+      "Förklara hur idolkultur fungerar",
+      "Skilja mellan stereotyp och verklighet"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t09-k05",
+    "slug": "modern-arkitektur-och-stadsbild",
+    "themeId": "kultur",
+    "order": 5,
+    "title": "Modern arkitektur och stadsbild",
+    "summary": "Skyskrapor, små hus och glesa gränder. Kapitlet förklarar hur städer byggs och förändras, och hur rum utnyttjas i täta städer.",
+    "objectives": [
+      "Beskriva hur moderna städer bygger ut",
+      "Förstå varför små hus och kompakta lösningar är vanliga",
+      "Läsa av en stadsbild"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  }
+]

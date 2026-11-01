@@ -1,0 +1,62 @@
+[
+  {
+    "id": "t07-k02",
+    "slug": "det-japanska-koket",
+    "themeId": "mat",
+    "order": 2,
+    "title": "Det japanska köket: ris, fisk, sojabönor och dashi",
+    "summary": "Basen i hemlagad mat och restaurangmat, från ris och misosoppa till dashi. Kapitlet förklarar smaker, ingredienser och vad en vanlig måltid kan bestå av.",
+    "objectives": [
+      "Namnge grundingredienser i japansk matlagning",
+      "Förklara vad dashi är och varför det spelar roll",
+      "Beskriva hur en traditionell måltid kan vara uppbyggd"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t07-k03",
+    "slug": "regionala-ratter",
+    "themeId": "mat",
+    "order": 3,
+    "title": "Regionala rätter och matkultur",
+    "summary": "Hokkaidos skaldjur, Osakas gatumat och Kyushus nudlar. Kapitlet visar att det inte finns ett enda japanskt kök.",
+    "objectives": [
+      "Ge exempel på regionala rätter",
+      "Förklara varför mat skiljer sig mellan regioner",
+      "Smaka nyfiket utan att jämföra med ”rätt” mat"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t07-k04",
+    "slug": "konbini-gatumat-och-marknader",
+    "themeId": "mat",
+    "order": 4,
+    "title": "Närbutiken, gatumat och marknader",
+    "summary": "Konbini, matmarknader och festivalbodar. Kapitlet handlar om praktiska måltider, vad man kan köpa och hur man äter på språng utan att bli oartig.",
+    "objectives": [
+      "Välja mat i närbutik eller på marknad",
+      "Förstå normer kring att äta på gatan",
+      "Hantera sopor och förpackningar"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  },
+  {
+    "id": "t07-k05",
+    "slug": "allergier-vegetariskt-och-sarskilda-behov",
+    "themeId": "mat",
+    "order": 5,
+    "title": "Allergier, vegetariskt och särskilda behov",
+    "summary": "Hur man berättar om allergier, vegetariskt och religiösa matregler, och varför dashi och fisk ofta gömmer sig i rätter.",
+    "objectives": [
+      "Kommunicera allergier tydligt",
+      "Förstå var fisk och animaliska ingredienser ofta finns",
+      "Planera måltider om du har särskilda behov"
+    ],
+    "contentVersion": 0,
+    "status": "planned"
+  }
+]
