@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import fs from "node:fs";
 import path from "node:path";
 import { validateContent, type RawContent } from "@/lib/content-validate";
+import { publicFiles } from "@/lib/file-access";
 
 const root = path.join(process.cwd(), "src", "content");
 const read = (rel: string) => JSON.parse(fs.readFileSync(path.join(root, rel), "utf8"));
@@ -15,7 +16,7 @@ function loadRaw(): RawContent {
       else chapters.push({ file: f, data });
     }
   }
-  return { trip: read("trip.json"), themes: read("themes.json"), sources: read("sources.json"), media: read("media.json"), chapters };
+  return { trip: read("trip.json"), themes: read("themes.json"), sources: read("sources.json"), media: read("media.json"), home: read("home.json"), images: read("images.json"), chapters };
 }
 const clone = <T,>(x: T): T => structuredClone(x);
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -23,7 +24,7 @@ const pilot = (raw: RawContent) => raw.chapters.find((c) => (c.data as any).stat
 
 describe("innehållsvalidering", () => {
   it("det riktiga innehållet är giltigt: 12 teman, 60 kapitel, 6 publicerade", () => {
-    const { errors, content } = validateContent(loadRaw());
+    const { errors, content } = validateContent(loadRaw(), publicFiles());
     expect(errors).toEqual([]);
     expect(content!.themes).toHaveLength(12);
     expect(content!.chapters).toHaveLength(60);

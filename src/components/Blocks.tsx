@@ -1,5 +1,6 @@
 import type { Block, Media } from "@/lib/schema";
 import { RichText } from "./RichText";
+import { PhotoSlot } from "./Photo";
 
 const toneLabel = { info: "Bra att veta", care: "Visa hänsyn", check: "Kontrollera" } as const;
 
@@ -82,6 +83,32 @@ export function Blocks({ blocks, media }: { blocks: Block[]; media: Media[] }) {
                   </li>
                 ))}
               </ol>
+            );
+          case "photo":
+            return <PhotoSlot key={i} role="figure" slotId={b.slotId} imageId={b.imageId} brief={b.brief} />;
+          case "observe":
+            return (
+              <aside key={i} className="card space-y-3 !bg-indigo-soft" aria-label={`Observationsuppgift: ${b.title}`} data-testid="observe">
+                <div>
+                  <p className="text-sm font-bold uppercase tracking-wide text-ink-soft">Observationsuppgift</p>
+                  <h3>{b.title}</h3>
+                </div>
+                <p>
+                  <RichText text={b.prompt} />
+                </p>
+                <ol className="list-decimal space-y-1 pl-6">
+                  {b.steps.map((st, j) => (
+                    <li key={j}>
+                      <RichText text={st} />
+                    </li>
+                  ))}
+                </ol>
+                <p className="callout">
+                  <strong>Utan bild: </strong>
+                  {b.textAlternative}
+                </p>
+                <p className="text-sm text-ink-soft">Uppgiften poängsätts inte och sparas inte. Den påverkar inte ditt resultat eller om kapitlet är klart.</p>
+              </aside>
             );
           case "figure": {
             const m = media.find((x) => x.id === b.mediaId);

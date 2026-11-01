@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getContent } from "@/lib/content";
 import { chapterPath } from "@/lib/chapters";
 import { StatusBadge } from "@/components/ChapterClient";
+import { CardThumb } from "@/components/Photo";
 import { OverviewStats } from "@/components/OverviewStats";
 
 export const metadata: Metadata = { title: "Utbildningsöversikt" };
@@ -51,6 +52,7 @@ export default function Overview() {
                       <StatusBadge chapterId={c.id} />
                       <span className="text-sm text-ink-soft">Kapitel {c.order} · ca {c.minutes} min</span>
                     </div>
+                    <CardThumb imageId={c.hero.imageId} />
                     <h3>
                       <Link href={chapterPath(c)}>{c.title}</Link>
                     </h3>

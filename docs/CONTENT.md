@@ -47,4 +47,6 @@ Reglerna:
 
 ## Bilder
 
-Endast lokala medier med kända rättigheter. Kartan är egen grafik ur Natural Earth-data. **Bekräfta Natural Earths villkor** (`natural-earth` i `sources.json` har `access: "not-checked"`). Lägg nya bilder i `public/media/`, registrera dem i `media.json` med alt-text, upphov och licens, och avstå om rättigheterna inte kan fastställas.
+Fotografier hanteras i bildregistret `src/content/images.json` och beskrivs i [IMAGE-LICENSES.md](IMAGE-LICENSES.md) och [IMAGE-PLAN.md](IMAGE-PLAN.md). Varje färdigt kapitel har en `hero` (öppningsbild) och `photo`-block (förklarande bilder); `imageId: null` betyder att bilden ännu inte är vald (reservyta). `observe`-block är observationsuppgifter som alltid har en textuppgift.
+
+Egen grafik (kartan): endast lokala medier med kända rättigheter. Kartan är egen grafik ur Natural Earth-data. **Bekräfta Natural Earths villkor** (`natural-earth` i `sources.json` har `access: "not-checked"`). Lägg nya bilder i `public/media/`, registrera dem i `media.json` med alt-text, upphov och licens, och avstå om rättigheterna inte kan fastställas.

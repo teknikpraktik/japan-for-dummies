@@ -7,6 +7,7 @@ import type { PublishedChapter } from "@/lib/schema";
 import { Blocks } from "@/components/Blocks";
 import { ExerciseRenderer } from "@/components/exercises/ExerciseRenderer";
 import { Quiz } from "@/components/Quiz";
+import { PhotoSlot } from "@/components/Photo";
 import { FavoriteButton, MarkStarted, StatusBadge } from "@/components/ChapterClient";
 
 export function generateStaticParams() {
@@ -75,6 +76,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
     <article className="container-page space-y-10 pt-8">
       <MarkStarted chapterId={ch.id} contentVersion={ch.contentVersion} />
       {header}
+      <PhotoSlot role="hero" priority slotId={ch.hero.slotId} imageId={ch.hero.imageId} brief={ch.hero.brief} />
       <div className="flex flex-wrap items-center gap-3">
         <StatusBadge chapterId={ch.id} />
         <span className="text-sm text-ink-soft">Cirka {ch.minutes} minuter inklusive test · innehållsversion {ch.contentVersion}</span>

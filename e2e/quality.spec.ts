@@ -10,6 +10,7 @@ const pages = [
   "/resepass/",
   "/info/",
   "/kallor/",
+  "/bildkallor/",
 ];
 
 test.describe("tillgänglighet (axe, WCAG 2.2 AA-regler) och layout", () => {

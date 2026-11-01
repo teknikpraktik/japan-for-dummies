@@ -111,6 +111,12 @@
               "tip": "Läggs på efter en förfrågan, till exempel när du pekar på något: ”Det här, tack.”"
             }
           ]
+        },
+        {
+          "type": "photo",
+          "slotId": "t05-k01-automat",
+          "imageId": null,
+          "brief": "Dryckes- eller biljettautomat med läsbara japanska texter och priser, för att visa vardaglig skriftlig kommunikation."
         }
       ]
     },
@@ -156,6 +162,12 @@
               "tip": "Kan även betyda ”nej tack” beroende på situation, så lyssna på tonfall och sammanhang."
             }
           ]
+        },
+        {
+          "type": "photo",
+          "slotId": "t05-k01-skylt",
+          "imageId": null,
+          "brief": "Stationsskylt eller utgångsskylt där japansk skrift är läsbar. Texten måste kontrolleras och stämma med bildtexten."
         },
         {
           "type": "callout",
@@ -407,5 +419,10 @@
     "checkBeforeTravel": [
       "Nödnummer och gruppens nödplan"
     ]
+  },
+  "hero": {
+    "slotId": "t05-k01-hero",
+    "imageId": null,
+    "brief": "Tydlig skylt på japanska (gärna med romaji eller engelska) på en gata eller station, där texten är läsbar och kan förklaras i bildtexten."
   }
 }

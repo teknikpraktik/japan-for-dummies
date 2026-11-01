@@ -2,6 +2,7 @@ import "server-only";
 import fs from "node:fs";
 import path from "node:path";
 import { validateContent, type ValidContent } from "./content-validate";
+import { publicFiles } from "./file-access";
 
 const root = path.join(process.cwd(), "src", "content");
 
@@ -23,6 +24,8 @@ export function readRawContent() {
     themes: readJson("themes.json"),
     sources: readJson("sources.json"),
     media: readJson("media.json"),
+    home: readJson("home.json"),
+    images: readJson("images.json"),
     chapters,
   };
 }
@@ -32,7 +35,7 @@ let cached: ValidContent | undefined;
 /** Läser och validerar allt innehåll. Kastar vid fel så att bygget misslyckas. */
 export function getContent(): ValidContent {
   if (cached) return cached;
-  const { errors, content } = validateContent(readRawContent());
+  const { errors, content } = validateContent(readRawContent(), publicFiles());
   if (!content) throw new Error("Ogiltigt innehåll:\n" + errors.map((e) => " - " + e).join("\n"));
   cached = content;
   return content;

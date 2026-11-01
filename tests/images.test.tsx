@@ -1,0 +1,208 @@
+import { describe, expect, it, vi } from "vitest";
+import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
+import { render, screen } from "@testing-library/react";
+import sharp from "sharp";
+import { validateContent, type FileAccess, type RawContent } from "@/lib/content-validate";
+import { missingFromManifest, imageStats } from "@/lib/image-manifest";
+import { optimizeImage } from "../scripts/optimize-image-lib";
+import type { Photo } from "@/lib/schema";
+
+vi.mock("server-only", () => ({}));
+const state: { photos: Photo[] } = { photos: [] };
+vi.mock("@/lib/content", () => ({ getContent: () => ({ photos: state.photos }) }));
+
+const root = path.join(process.cwd(), "src", "content");
+const read = (rel: string) => JSON.parse(fs.readFileSync(path.join(root, rel), "utf8"));
+function loadRaw(): RawContent {
+  const chapters: RawContent["chapters"] = [];
+  for (const dir of ["chapters", "planned"])
+    for (const f of fs.readdirSync(path.join(root, dir)).filter((n) => n.endsWith(".json"))) {
+      const data = read(`${dir}/${f}`);
+      if (Array.isArray(data)) data.forEach((d, i) => chapters.push({ file: `${f}[${i}]`, data: d }));
+      else chapters.push({ file: f, data });
+    }
+  return { trip: read("trip.json"), themes: read("themes.json"), sources: read("sources.json"), media: read("media.json"), home: read("home.json"), images: [], chapters };
+}
+
+const validPhoto = (over: Partial<Record<string, unknown>> = {}) => ({
+  id: "testbild",
+  kind: "contemporary-photo",
+  variants: [
+    { path: "/images/testbild/testbild-640.webp", width: 640, height: 427, bytes: 40_000, format: "webp", crop: "default" },
+    { path: "/images/testbild/testbild-1280.webp", width: 1280, height: 853, bytes: 120_000, format: "webp", crop: "default" },
+  ],
+  focus: { x: 0.4, y: 0.6 },
+  creator: "Testperson",
+  sourcePlatform: "other",
+  sourceUrl: "https://example.org/foto/1",
+  license: { name: "Testlicens", url: "https://example.org/licens" },
+  rightsCheckedOn: "2026-11-01",
+  rightsCheckedBy: "Testgranskare",
+  requiredCredit: null,
+  usageCleared: { webPublishing: true, offlinePackage: true, modification: true, publicRepoStorage: true },
+  caption: "En testbild.",
+  alt: "En beskrivande alternativtext för testbilden.",
+  decorative: false,
+  modification: "Beskuren och nedskalad.",
+  usedIn: ["home"],
+  ...over,
+});
+const files = (sizes: Record<string, number>): FileAccess => ({ size: (p) => sizes[p] });
+const okSizes = { "/images/testbild/testbild-640.webp": 40_000, "/images/testbild/testbild-1280.webp": 120_000 };
+function withPhoto(photo: unknown) {
+  const raw = loadRaw();
+  raw.images = [photo];
+  (raw.home as { hero: { imageId: string | null } }).hero.imageId = "testbild";
+  return raw;
+}
+
+describe("bildkontroll", () => {
+  it("nuvarande innehåll: inga bilder, alla bildplatser planerade, giltigt", () => {
+    expect(validateContent(loadRaw(), files({})).errors).toEqual([]);
+  });
+  it("en komplett bild med filer godkänns", () => {
+    const r = validateContent(withPhoto(validPhoto()), files(okSizes));
+    expect(r.errors).toEqual([]);
+  });
+  it("fångar saknad lokal bildfil", () => {
+    const r = validateContent(withPhoto(validPhoto()), files({ "/images/testbild/testbild-640.webp": 40_000 }));
+    expect(r.errors.some((e) => e.includes("filen saknas lokalt"))).toBe(true);
+  });
+  it("fångar felaktig filstorlek i registret och för stora filer", () => {
+    expect(validateContent(withPhoto(validPhoto()), files({ ...okSizes, "/images/testbild/testbild-640.webp": 41_000 })).errors.some((e) => e.includes("stämmer inte"))).toBe(true);
+    const big = validPhoto({ variants: [{ path: "/images/testbild/stor.webp", width: 2000, height: 1000, bytes: 500_000, format: "webp", crop: "default" }] });
+    expect(validateContent(withPhoto(big), files({ "/images/testbild/stor.webp": 500_000 })).errors.some((e) => e.includes("för stor"))).toBe(true);
+  });
+  it("varnar för bilder över rekommenderad storlek men godkänner dem", () => {
+    const mid = validPhoto({ variants: [{ path: "/images/testbild/mellan.webp", width: 1600, height: 900, bytes: 300_000, format: "webp", crop: "default" }] });
+    const r = validateContent(withPhoto(mid), files({ "/images/testbild/mellan.webp": 300_000 }));
+    expect(r.errors).toEqual([]);
+    expect(r.content!.warnings.length).toBe(1);
+  });
+  for (const [name, field] of [["fotograf", "creator"], ["källänk", "sourceUrl"], ["licens", "license"], ["kontrolldatum", "rightsCheckedOn"], ["bildtext", "caption"], ["användning", "usedIn"], ["bearbetning", "modification"], ["rättighetsklarering", "usageCleared"]] as const) {
+    it(`fångar saknad obligatorisk metadata: ${name}`, () => {
+      const p = validPhoto() as Record<string, unknown>;
+      delete p[field];
+      expect(validateContent(withPhoto(p), files(okSizes)).errors.length).toBeGreaterThan(0);
+    });
+  }
+  it("kräver att alla fyra användningsklareringar är uttryckligen sanna", () => {
+    const p = validPhoto({ usageCleared: { webPublishing: true, offlinePackage: true, modification: true, publicRepoStorage: false } });
+    expect(validateContent(withPhoto(p), files(okSizes)).errors.length).toBeGreaterThan(0);
+  });
+  it("kräver alternativtext, men tom alternativtext för dekorativa bilder", () => {
+    expect(validateContent(withPhoto(validPhoto({ alt: "" })), files(okSizes)).errors.some((e) => e.includes("Alternativtext"))).toBe(true);
+    expect(validateContent(withPhoto(validPhoto({ decorative: true, alt: "något" })), files(okSizes)).errors.some((e) => e.includes("Dekorativ"))).toBe(true);
+    expect(validateContent(withPhoto(validPhoto({ decorative: true, alt: "" })), files(okSizes)).errors).toEqual([]);
+  });
+  it("avvisar externa bildlänkar och ogiltiga sökvägar", () => {
+    const p = validPhoto({ variants: [{ path: "https://images.example.com/x.webp", width: 10, height: 10, bytes: 10, format: "webp", crop: "default" }] });
+    expect(validateContent(withPhoto(p), files(okSizes)).errors.length).toBeGreaterThan(0);
+  });
+  it("avvisar kontrolldatum i framtiden", () => {
+    expect(validateContent(withPhoto(validPhoto({ rightsCheckedOn: "2999-01-01" })), files(okSizes)).errors.some((e) => e.includes("framtiden"))).toBe(true);
+  });
+  it("fångar okänd bild på en bildplats och bild som inte används där usedIn säger", () => {
+    const raw = loadRaw();
+    (raw.home as { hero: { imageId: string | null } }).hero.imageId = "finns-inte";
+    expect(validateContent(raw, files({})).errors.some((e) => e.includes("okänd bild"))).toBe(true);
+    const r2 = withPhoto(validPhoto({ usedIn: ["t01-k01"] }));
+    expect(validateContent(r2, files(okSizes)).errors.some((e) => e.includes("saknar det i usedIn") || e.includes("används inte där"))).toBe(true);
+  });
+  it("fångar bild i registret som ingen plats använder", () => {
+    const raw = loadRaw();
+    raw.images = [validPhoto()];
+    expect(validateContent(raw, files(okSizes)).errors.some((e) => e.includes("används inte där"))).toBe(true);
+  });
+});
+
+describe("offlinelista och bildpaket", () => {
+  it("hittar bildfiler som saknas i offlinelistan", () => {
+    const photos = [validPhoto() as unknown as Photo];
+    const manifest = { files: [{ url: "/images/testbild/testbild-640.webp", size: 40_000 }] };
+    expect(missingFromManifest(photos, manifest)).toEqual(["/images/testbild/testbild-1280.webp"]);
+    const full = { files: [...manifest.files, { url: "/images/testbild/testbild-1280.webp", size: 120_000 }, { url: "/index.html", size: 1 }] };
+    expect(missingFromManifest(photos, full)).toEqual([]);
+    expect(imageStats(full)).toEqual({ count: 2, bytes: 160_000 });
+  });
+});
+
+describe("bildoptimering (pipeline)", () => {
+  it("skapar WebP-varianter, mäter dem och respekterar storleksgränsen", async () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "img-"));
+    const src = path.join(dir, "kamera.jpg");
+    // Syntetisk testbild (inte ett fotografi): brusig gradient så att komprimering är realistisk.
+    const raw = Buffer.alloc(3000 * 2000 * 3);
+    for (let y = 0; y < 2000; y++)
+      for (let x = 0; x < 3000; x++) {
+        const i = (y * 3000 + x) * 3;
+        raw[i] = (x / 3000) * 255;
+        raw[i + 1] = (y / 2000) * 255;
+        raw[i + 2] = ((x + y) / 5000) * 255;
+      }
+    await sharp(raw, { raw: { width: 3000, height: 2000, channels: 3 } }).jpeg().toFile(src);
+    const out = path.join(dir, "public");
+    const res = await optimizeImage({ input: src, id: "syntet", publicDir: out, widths: [480, 960, 1440], quality: 60 });
+    expect(res.variants.map((v) => v.width)).toEqual([480, 960, 1440]);
+    for (const v of res.variants) {
+      expect(fs.statSync(path.join(out, v.path)).size).toBe(v.bytes);
+      expect(v.height).toBe(Math.round((v.width * 2000) / 3000));
+      expect(v.format).toBe("webp");
+    }
+    expect(res.variants.at(-1)!.bytes).toBeLessThanOrEqual(250 * 1024);
+    const withMobile = await optimizeImage({ input: src, id: "syntet2", publicDir: out, widths: [480], mobile: true, focus: { x: 0.2, y: 0.5 } });
+    const m = withMobile.variants.filter((v) => v.crop === "mobile");
+    expect(m.length).toBeGreaterThan(0);
+    expect(m[0].height / m[0].width).toBeCloseTo(1.25, 1);
+    expect(fs.existsSync(path.join(out, "images/syntet"))).toBe(true);
+    fs.rmSync(dir, { recursive: true, force: true });
+  });
+});
+
+describe("bildkomponenter", () => {
+  it("visar fotografi med fasta mått, bildtext, kreditering, licens- och källänk", async () => {
+    const { PhotoSlot } = await import("@/components/Photo");
+    state.photos = [validPhoto({ requiredCredit: "Foto: Testperson / Testplattform" }) as unknown as Photo];
+    render(<PhotoSlot role="figure" slotId="s" imageId="testbild" brief="x" />);
+    const img = screen.getByRole("img");
+    expect(img).toHaveAttribute("width", "1280");
+    expect(img).toHaveAttribute("height", "853");
+    expect(img).toHaveAttribute("loading", "lazy");
+    expect(img).toHaveAttribute("alt", "En beskrivande alternativtext för testbilden.");
+    expect(img.getAttribute("srcset")).toContain("640w");
+    expect(img).toHaveStyle({ objectPosition: "40% 60%" });
+    expect(screen.getByText("En testbild.")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Testlicens" })).toHaveAttribute("href", "https://example.org/licens");
+    expect(screen.getByRole("link", { name: "Originalet" })).toHaveAttribute("href", "https://example.org/foto/1");
+    expect(screen.getByTestId("photo-credit")).toHaveTextContent("Foto: Testperson / Testplattform");
+  });
+  it("prioriterad bild laddas direkt; dekorativ bild har tom alt", async () => {
+    const { PhotoSlot } = await import("@/components/Photo");
+    state.photos = [validPhoto({ decorative: true, alt: "" }) as unknown as Photo];
+    const { container } = render(<PhotoSlot role="hero" priority slotId="s" imageId="testbild" brief="x" />);
+    const img = container.querySelector("img")!;
+    expect(img).toHaveAttribute("loading", "eager");
+    expect(img).toHaveAttribute("fetchpriority", "high");
+    expect(img).toHaveAttribute("alt", "");
+  });
+  it("reservyta: ärlig om att fotografi saknas och visar planerat motiv", async () => {
+    const { PhotoSlot } = await import("@/components/Photo");
+    state.photos = [];
+    render(<PhotoSlot role="hero" slotId="min-plats" imageId={null} brief="Ett lugnt landskap." />);
+    expect(screen.getByTestId("photo-placeholder")).toHaveAttribute("data-slot", "min-plats");
+    expect(screen.getByText(/Fotografi väljs/)).toBeInTheDocument();
+    expect(screen.getByText(/Planerat motiv: Ett lugnt landskap\./)).toBeInTheDocument();
+    expect(screen.queryByRole("img")).toBeNull();
+  });
+  it("mobilbeskärning ger egen <source> för smala skärmar", async () => {
+    const { PhotoSlot } = await import("@/components/Photo");
+    const p = validPhoto();
+    (p.variants as unknown[]).push({ path: "/images/testbild/testbild-m480.webp", width: 480, height: 600, bytes: 30_000, format: "webp", crop: "mobile" });
+    state.photos = [p as unknown as Photo];
+    const { container } = render(<PhotoSlot role="hero" slotId="s" imageId="testbild" brief="x" />);
+    const src = container.querySelector('source[media="(max-width: 639px)"]');
+    expect(src?.getAttribute("srcset")).toContain("testbild-m480.webp 480w");
+  });
+});

@@ -78,12 +78,24 @@ test.describe("offline", () => {
       await page.goto(`/kapitel/${c.slug}/`);
       await expect(page.getByRole("heading", { level: 1 })).toHaveText(c.title);
     }
+    // Alla bilder på alla pilotsidor (och startsidan) ska laddas från den lokala cachen. Tomt om inga bilder är valda än.
+    for (const url of ["/", ...pilots.map((x) => `/kapitel/${x.slug}/`)]) {
+      await page.goto(url);
+      await page.waitForLoadState("load");
+      // Tvinga in lata bilder (loading=lazy) och vänta tills alla är färdigladdade.
+      await page.evaluate(async () => {
+        document.querySelectorAll("img").forEach((i) => (i.loading = "eager"));
+        await Promise.all([...document.images].map((i) => (i.complete ? undefined : new Promise((r) => { i.onload = i.onerror = () => r(undefined); }))));
+      });
+      const broken = await page.evaluate(() => [...document.images].filter((i) => i.currentSrc && i.naturalWidth === 0).map((i) => i.currentSrc));
+      expect(broken, `trasiga bilder offline på ${url}`).toEqual([]);
+    }
     // Hela kapitlet inklusive test och sparade framsteg offline
     const c = pilots[0];
     await page.goto(`/kapitel/${c.slug}/`);
     await page.waitForLoadState("domcontentloaded");
     await expect(page.locator("img[alt^='Förenklad karta']")).toBeVisible();
-    await expect.poll(() => page.evaluate(() => (document.querySelector("img") as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+    await expect.poll(() => page.evaluate(() => (document.querySelector("img[alt^='Förenklad karta']") as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
     await takeQuiz(page, c, 0);
     await expect(page.getByTestId("quiz-result")).toContainText("Klar");
 
@@ -162,8 +174,8 @@ test.describe("offline", () => {
     // Sidan laddas inte om av sig själv: testet pågår fortfarande
     await expect(page.getByTestId("quiz-position")).toHaveText("Fråga 3 av 5");
 
-    await page.getByRole("button", { name: "Uppdatera nu" }).click();
-    await page.waitForLoadState("load");
+    // Användaren väljer att uppdatera: sidan laddas om först nu.
+    await Promise.all([page.waitForEvent("load"), page.getByRole("button", { name: "Uppdatera nu" }).click()]);
     await expect(page.getByTestId("quiz-position")).toHaveText("Fråga 3 av 5"); // svar kvar efter uppdatering
 
     // Offlineinnehållet kan uppdateras; framstegen finns kvar

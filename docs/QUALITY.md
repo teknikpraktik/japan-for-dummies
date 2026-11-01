@@ -32,3 +32,11 @@ Kontrollerat:
 - **Installation som app** (installationsprompt, hemskärm, iOS): kod och instruktioner finns, men installationen är inte testad på riktiga enheter. Manifest och ikoner finns.
 - **Otillräckligt lagringsutrymme** vid offlinenedladdning: logiken finns (förhandskontroll av kvot och fångst av `QuotaExceededError`), men har inte provocerats fram i test.
 - **Primärkällor**: kunde inte öppnas, se CONTENT.md. Faktainnehållet behöver granskas av en person.
+
+## Bilder (tillägg)
+
+Inga fotografier är valda (se [IMAGE-LICENSES.md](IMAGE-LICENSES.md)), så produktionsbygget visar reservytor. Bildkomponenterna, registret, pipeline och kontrollerna är däremot testade:
+
+- Enhetstester: bildmetadata (saknade obligatoriska fält, ogiltiga sökvägar/externa länkar, tom/ifylld alt-text för dekorativa bilder, kontrolldatum i framtiden, `usageCleared`), **saknade lokala bildfiler**, felaktig filstorlek, storleksgränser, `usedIn`-konsistens, offlinelistan (`missingFromManifest`), bildoptimeringen (varianter, mått, storlek, mobilbeskärning) och komponenterna (fasta mått, lazy/eager, `fetchpriority`, srcset, fokuspunkt, kreditering och länkar, reservyta).
+- Layout- och offlinetest kördes en gång med **20 syntetiska testbilder** (tydligt märkta, inga fotografier, ej incheckade): 16:9-hero/3:2-kort/4:3-mobil, rätt mobilvariant vald, layoutförskjutning (CLS) 0, ingen horisontell rullning, axe utan avvikelser, och alla bilder laddades offline efter nedladdning och omladdning (436 filer, 5,6 MB, varav 74 bildfiler 508 kB för syntetiska bilder).
+- **Inte gjort:** granskning av verkliga fotografier (beskärning av ansikten och detaljer, bildtextens riktighet, rättigheter).

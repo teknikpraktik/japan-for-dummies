@@ -33,9 +33,13 @@ npm start
 | `npm run test:e2e` | Playwright mot `out/` (bygg först). Sätt `CHROMIUM_PATH` om du vill använda en befintlig Chromium |
 | `npm run make:map` | Genererar kartbilden ur Natural Earth-data |
 | `npm run make:icons` | Genererar appikonerna |
+| `npm run images:optimize -- <fil> <id>` | Optimerar ett fotografi till lokala WebP-varianter (se docs/IMAGE-LICENSES.md) |
+| `npm run images:review` | Skapar lokal granskningsvy `review/contact-sheet.html` (ingår inte i bygget) |
 
 ## Teknik
 
 Next.js 16 (App Router, statisk export), React 19, TypeScript 6, Tailwind CSS 4, Zod, Serwist (service worker), Vitest och Playwright. Beroenden är låsta i `package-lock.json`.
+
+**Bilder:** fotografiernas licens är separat från kodens, och inga fotografier är valda än (reservytor visas). Se [bildlicenser](docs/IMAGE-LICENSES.md) och [bildplan](docs/IMAGE-PLAN.md).
 
 Läs mer: [innehållsarbete](docs/CONTENT.md) · [GitHub och Vercel](docs/DEPLOY.md) · [arkitektur och PWA](docs/ARCHITECTURE.md) · [tillgänglighet och kontroller](docs/QUALITY.md) · [antaganden](docs/ASSUMPTIONS.md)

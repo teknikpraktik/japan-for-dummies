@@ -24,3 +24,10 @@
 - `scripts/build-sw.mts` skapar `out/offline-manifest.json` (alla filer + storlekar + bygg-id). Knappen ”Gör utbildningen tillgänglig offline” (`OfflinePanel`) hämtar alla filer till cachen `japanresan-offline-<bygg-id>`, visar förlopp, kontrollerar att varje fil finns och först därefter markeras utbildningen som offlineklar. Avbruten nedladdning kan fortsättas; otillräckligt utrymme rapporteras. Nedladdningen omfattar hela webbplatsen (cirka 4,5 MB), alltså alla sex pilotkapitel med test och karta, samt översikterna.
 - Uppdatering: nya versioner väntar (`skipWaiting: false`). En ruta erbjuder ”Uppdatera nu”; sidan laddas aldrig om av sig själv. Framsteg ligger i `localStorage` och påverkas inte; pågående test sparas. Offlineinnehållet uppdateras via knapp, och äldre cachar tas bort först när den nya är komplett.
 - **Avvägning:** Serwists färdiga Next-integrationer (`@serwist/next`, `@serwist/turbopack`) förutsätter förladdning vid installation eller en serverrutt. Här behövs en användarstyrd nedladdning med förlopp och verifiering, och projektet är en ren statisk export. Därför används Serwists kärnbibliotek i en liten egen service worker.
+
+## Bilder och offline
+
+- Bildfiler ligger i `public/images/<id>/` (WebP, flera bredder, ev. stående mobilvarianter) och hamnar automatiskt i `out/` och därmed i `offline-manifest.json`. Manifestet innehåller även `imageFiles`/`imageBytes`, som visas i offlinepanelen (filantal och storlek, varav bilder).
+- `scripts/build-sw.mts` avbryter bygget om en bildfil som bildregistret hänvisar till saknas i offlinelistan. Offlineberedskap bekräftas som tidigare först när alla filer i listan är sparade och verifierade.
+- `Photo.tsx`: `<picture>` med fasta `width`/`height` (ingen layoutförskjutning), `object-position` från fokuspunkt, `loading="lazy"` utom för öppningsbilder (`priority`: eager + `fetchpriority=high`), AVIF/WebP-källor och mobilbeskärning via `media`. Reservyta när `imageId` är null.
+- Redaktionsvyn `review/contact-sheet.html` skapas lokalt och ligger utanför `public/`, så den ingår aldrig i bygget eller offlinepaketet.

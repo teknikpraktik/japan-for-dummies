@@ -22,43 +22,135 @@
       "id": "edo",
       "heading": "Edotiden: fred under shogunen",
       "blocks": [
-        { "type": "p", "text": "Efter perioder av inbördeskrig enades landet under familjen Tokugawa. Från 1603 till 1867 styrde en **shogun** (militär härskare) från staden **Edo**, som idag heter Tokyo. Kejsaren fanns kvar i Kyoto med hög status men liten politisk makt." },
-        { "type": "p", "text": "Det var en lång period av fred. Städer växte, handel och hantverk blomstrade och många lärde sig läsa. Samhället var uppdelat i grupper med olika ställning, med samurajer högst upp. Men bilden av fyra stela klasser är en förenkling. Verkligheten var mer blandad." },
-        { "type": "p", "text": "Japan beskrivs ofta som ”stängt”. Men det var snarare begränsat öppet. Handel och kontakter fördes via fyra ”portar”: Nagasaki (med holländare och kineser), Tsushima (kontakt med Korea), Satsuma (Ryukyu) och Matsumae (norr, mot Ezo/Hokkaido)." },
-        { "type": "callout", "tone": "info", "title": "Begrepp", "text": "Shogun = militär ledare som i praktiken styrde. Domän (han) = område styrt av en lokal herre. Samuraj = krigarklass som under Edotiden ofta blev ämbetsmän." }
+        {
+          "type": "p",
+          "text": "Efter perioder av inbördeskrig enades landet under familjen Tokugawa. Från 1603 till 1867 styrde en **shogun** (militär härskare) från staden **Edo**, som idag heter Tokyo. Kejsaren fanns kvar i Kyoto med hög status men liten politisk makt."
+        },
+        {
+          "type": "p",
+          "text": "Det var en lång period av fred. Städer växte, handel och hantverk blomstrade och många lärde sig läsa. Samhället var uppdelat i grupper med olika ställning, med samurajer högst upp. Men bilden av fyra stela klasser är en förenkling. Verkligheten var mer blandad."
+        },
+        {
+          "type": "p",
+          "text": "Japan beskrivs ofta som ”stängt”. Men det var snarare begränsat öppet. Handel och kontakter fördes via fyra ”portar”: Nagasaki (med holländare och kineser), Tsushima (kontakt med Korea), Satsuma (Ryukyu) och Matsumae (norr, mot Ezo/Hokkaido)."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Begrepp",
+          "text": "Shogun = militär ledare som i praktiken styrde. Domän (han) = område styrt av en lokal herre. Samuraj = krigarklass som under Edotiden ofta blev ämbetsmän."
+        }
       ]
     },
     {
       "id": "perry",
       "heading": "Svarta skepp och tryck utifrån",
       "blocks": [
-        { "type": "p", "text": "År 1853 anlände en amerikansk flotta under Matthew Perry till Uraga nära Edo. USA ville ha hamnar där fartyg kunde få förnödenheter. 1854 undertecknades ett fördrag som öppnade hamnar för amerikanska fartyg. Fler stater följde och de avtal som slöts blev senare omtvistade eftersom de gynnade utländska makter." },
-        { "type": "p", "text": "I Japan blev frågan om hur landet skulle möta omvärlden akut. Många motsatte sig shogunatets hantering. Konflikten gällde både utrikespolitik och vem som skulle styra." }
+        {
+          "type": "p",
+          "text": "År 1853 anlände en amerikansk flotta under Matthew Perry till Uraga nära Edo. USA ville ha hamnar där fartyg kunde få förnödenheter. 1854 undertecknades ett fördrag som öppnade hamnar för amerikanska fartyg. Fler stater följde och de avtal som slöts blev senare omtvistade eftersom de gynnade utländska makter."
+        },
+        {
+          "type": "p",
+          "text": "I Japan blev frågan om hur landet skulle möta omvärlden akut. Många motsatte sig shogunatets hantering. Konflikten gällde både utrikespolitik och vem som skulle styra."
+        },
+        {
+          "type": "photo",
+          "slotId": "t02-k02-svarta-skepp",
+          "imageId": null,
+          "brief": "Samtida japansk bildframställning av Perrys fartyg 1853–54 (historiskt original, t.ex. träsnitt). Bildtexten ska ange att det är en samtida tolkning."
+        }
       ]
     },
     {
       "id": "meiji",
       "heading": "1868: Meijirestaurationen",
       "blocks": [
-        { "type": "p", "text": "Shogunatet föll. 1867–1868 överfördes makten till kejsaren, och 1868 började **Meijiperioden** (”upplyst styre”). Daterna för själva händelsen varierar något mellan historiker. Huvudstaden flyttades till Edo, som döptes om till Tokyo, ”östra huvudstaden”." },
-        { "type": "timeline", "items": [
-          { "when": "1853", "text": "Perrys flotta kommer till Uraga." },
-          { "when": "1854", "text": "Fördrag med USA öppnar hamnar." },
-          { "when": "1867–68", "text": "Shogunatet upphör, kejsarmakt återupprättas, Meijiperioden börjar." },
-          { "when": "1871", "text": "De gamla domänerna ersätts av prefekturer." },
-          { "when": "1872", "text": "Första järnvägen mellan Tokyo och Yokohama." },
-          { "when": "1873", "text": "Värnpliktsförordning införs." },
-          { "when": "1889", "text": "Konstitutionen proklameras." }
-        ] }
+        {
+          "type": "p",
+          "text": "Shogunatet föll. 1867–1868 överfördes makten till kejsaren, och 1868 började **Meijiperioden** (”upplyst styre”). Daterna för själva händelsen varierar något mellan historiker. Huvudstaden flyttades till Edo, som döptes om till Tokyo, ”östra huvudstaden”."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "when": "1853",
+              "text": "Perrys flotta kommer till Uraga."
+            },
+            {
+              "when": "1854",
+              "text": "Fördrag med USA öppnar hamnar."
+            },
+            {
+              "when": "1867–68",
+              "text": "Shogunatet upphör, kejsarmakt återupprättas, Meijiperioden börjar."
+            },
+            {
+              "when": "1871",
+              "text": "De gamla domänerna ersätts av prefekturer."
+            },
+            {
+              "when": "1872",
+              "text": "Första järnvägen mellan Tokyo och Yokohama."
+            },
+            {
+              "when": "1873",
+              "text": "Värnpliktsförordning införs."
+            },
+            {
+              "when": "1889",
+              "text": "Konstitutionen proklameras."
+            }
+          ]
+        }
       ]
     },
     {
       "id": "reformer",
       "heading": "Vad förändrades – och för vem?",
       "blocks": [
-        { "type": "p", "text": "Regeringen ville göra Japan starkt och jämbördigt med västmakterna. Staten ersatte lokala herrar med prefekturer, byggde järnvägar och började bygga ett skolsystem. En armé av värnpliktiga ersatte samurajernas monopol på krigföring. 1889 kom en konstitution med ett parlament." },
-        { "type": "p", "text": "Förändringarna drabbade människor olika. Många samurajer förlorade status och inkomster. Bönder fick nya skatter och krav på värnplikt, och det förekom protester och uppror. För andra öppnades nya möjligheter i städer, industri och utbildning. Områden som Hokkaido och Ryukyuöarna införlivades närmare staten, med stora följder för de människor som bodde där, bland annat ainu." },
-        { "type": "callout", "tone": "care", "title": "Flera perspektiv", "text": "Meijiperioden brukar kallas Japans modernisering. Det är en berättelse som lyfter fram framsteg. En annan berättelse lyfter fram kostnaderna för dem som drabbades. Båda behövs för att förstå perioden, och den senare utvecklingen mot imperialism behandlas i ett senare kapitel." }
+        {
+          "type": "p",
+          "text": "Regeringen ville göra Japan starkt och jämbördigt med västmakterna. Staten ersatte lokala herrar med prefekturer, byggde järnvägar och började bygga ett skolsystem. En armé av värnpliktiga ersatte samurajernas monopol på krigföring. 1889 kom en konstitution med ett parlament."
+        },
+        {
+          "type": "photo",
+          "slotId": "t02-k02-meiji-miljo",
+          "imageId": null,
+          "brief": "Historiskt original från Meijitiden som visar järnväg, station eller gatumiljö i Tokyo eller Yokohama."
+        },
+        {
+          "type": "photo",
+          "slotId": "t02-k02-nutida",
+          "imageId": null,
+          "brief": "Nutida fotografi av en motsvarande miljö (station eller gata i Tokyo eller Yokohama), för jämförelse med Meijibilden."
+        },
+        {
+          "type": "p",
+          "text": "Förändringarna drabbade människor olika. Många samurajer förlorade status och inkomster. Bönder fick nya skatter och krav på värnplikt, och det förekom protester och uppror. För andra öppnades nya möjligheter i städer, industri och utbildning. Områden som Hokkaido och Ryukyuöarna införlivades närmare staten, med stora följder för de människor som bodde där, bland annat ainu."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Flera perspektiv",
+          "text": "Meijiperioden brukar kallas Japans modernisering. Det är en berättelse som lyfter fram framsteg. En annan berättelse lyfter fram kostnaderna för dem som drabbades. Båda behövs för att förstå perioden, och den senare utvecklingen mot imperialism behandlas i ett senare kapitel."
+        },
+        {
+          "type": "observe",
+          "title": "Jämför då och nu",
+          "prompt": "Jämför en historisk bild från Meijitiden med ett nutida fotografi av en liknande plats, eller använd textuppgiften nedan.",
+          "steps": [
+            "Vilka byggnader, material och höjder syns i varje bild?",
+            "Vilka transportsätt syns?",
+            "Vad ser likadant ut, och vad är helt nytt?",
+            "Vem gjorde bilden och varför? Vad kan den inte visa?"
+          ],
+          "textAlternative": "Utan bild: tänk på en plats nära dig. Lista tre saker som har förändrats sedan 1870-talet och två saker som kan ha funnits kvar, och fundera över vem som kunde ha dokumenterat platsen då och vad som aldrig hamnade på bild.",
+          "imageSlotIds": [
+            "t02-k02-meiji-miljo",
+            "t02-k02-nutida"
+          ]
+        }
       ]
     }
   ],
@@ -69,11 +161,26 @@
       "title": "Ordna händelserna",
       "prompt": "Sätt händelserna i kronologisk ordning, med den tidigaste först.",
       "items": [
-        { "id": "perry", "text": "Perrys flotta kommer till Uraga" },
-        { "id": "fordrag", "text": "Fördrag med USA 1854 öppnar hamnar" },
-        { "id": "meiji", "text": "Meijiperioden börjar och huvudstaden flyttas till Tokyo" },
-        { "id": "prefekturer", "text": "Domänerna ersätts av prefekturer" },
-        { "id": "konstitution", "text": "Konstitutionen proklameras" }
+        {
+          "id": "perry",
+          "text": "Perrys flotta kommer till Uraga"
+        },
+        {
+          "id": "fordrag",
+          "text": "Fördrag med USA 1854 öppnar hamnar"
+        },
+        {
+          "id": "meiji",
+          "text": "Meijiperioden börjar och huvudstaden flyttas till Tokyo"
+        },
+        {
+          "id": "prefekturer",
+          "text": "Domänerna ersätts av prefekturer"
+        },
+        {
+          "id": "konstitution",
+          "text": "Konstitutionen proklameras"
+        }
       ],
       "explanation": "Perry anlände 1853, fördraget kom 1854, Meiji började 1868, prefekturerna infördes 1871 och konstitutionen kom 1889."
     },
@@ -83,9 +190,22 @@
       "title": "Kejsare och shogun",
       "prompt": "Under Edotiden: var fanns kejsaren, och vem styrde i praktiken?",
       "options": [
-        { "id": "a", "text": "Kejsaren fanns i Kyoto, shogunen styrde från Edo.", "correct": true, "feedback": "Rätt. Kejsaren hade hög status men liten politisk makt." },
-        { "id": "b", "text": "Kejsaren styrde från Edo och shogunen bodde i Kyoto.", "feedback": "Tvärtom: shogunen styrde från Edo, kejsaren var kvar i Kyoto." },
-        { "id": "c", "text": "Det fanns ingen kejsare under Edotiden.", "feedback": "Fel. Kejsaren fanns hela tiden, men utan stor politisk makt." }
+        {
+          "id": "a",
+          "text": "Kejsaren fanns i Kyoto, shogunen styrde från Edo.",
+          "correct": true,
+          "feedback": "Rätt. Kejsaren hade hög status men liten politisk makt."
+        },
+        {
+          "id": "b",
+          "text": "Kejsaren styrde från Edo och shogunen bodde i Kyoto.",
+          "feedback": "Tvärtom: shogunen styrde från Edo, kejsaren var kvar i Kyoto."
+        },
+        {
+          "id": "c",
+          "text": "Det fanns ingen kejsare under Edotiden.",
+          "feedback": "Fel. Kejsaren fanns hela tiden, men utan stor politisk makt."
+        }
       ]
     },
     {
@@ -95,9 +215,22 @@
       "situation": "På ett museum i Tokyo säger en guide: ”Japan var helt stängt för världen i 200 år, tills Perry kom och öppnade landet.”",
       "question": "Vad är en bra, nyfiken reaktion?",
       "options": [
-        { "id": "a", "text": "Fråga hur kontakterna såg ut via Nagasaki och andra platser, och hur historiker ser på ordet ”stängt”.", "correct": true, "feedback": "Bra. Det finns forskning som visar att Japan hade begränsade men viktiga kontakter, och bilden av totalt stängt har nyanserats." },
-        { "id": "b", "text": "Avbryta och säga att guiden har fel.", "feedback": "Det vore onödigt konfronterande. Guiden förenklar kanske av tidsskäl, och det finns en poäng i att Perry betydde mycket. Ställ hellre en fråga." },
-        { "id": "c", "text": "Skriva ned det som en fakta, utan fråga.", "feedback": "Då missar du nyansen. Hela bilden är mer sammansatt än så." }
+        {
+          "id": "a",
+          "text": "Fråga hur kontakterna såg ut via Nagasaki och andra platser, och hur historiker ser på ordet ”stängt”.",
+          "correct": true,
+          "feedback": "Bra. Det finns forskning som visar att Japan hade begränsade men viktiga kontakter, och bilden av totalt stängt har nyanserats."
+        },
+        {
+          "id": "b",
+          "text": "Avbryta och säga att guiden har fel.",
+          "feedback": "Det vore onödigt konfronterande. Guiden förenklar kanske av tidsskäl, och det finns en poäng i att Perry betydde mycket. Ställ hellre en fråga."
+        },
+        {
+          "id": "c",
+          "text": "Skriva ned det som en fakta, utan fråga.",
+          "feedback": "Då missar du nyansen. Hela bilden är mer sammansatt än så."
+        }
       ]
     }
   ],
@@ -112,54 +245,144 @@
       "id": "q1",
       "prompt": "Vilka år brukar Edotiden dateras till?",
       "options": [
-        { "id": "a", "text": "Cirka 1603–1867", "correct": true, "feedback": "Rätt. Edotiden varade från Tokugawas maktövertagande till 1867." },
-        { "id": "b", "text": "Cirka 1100–1300", "feedback": "Fel. Det är medeltida samurajtid." },
-        { "id": "c", "text": "Cirka 1868–1912", "feedback": "Fel. Det är Meijiperioden, alltså efter Edotiden." },
-        { "id": "d", "text": "Cirka 1945–1989", "feedback": "Fel. Det ligger efter andra världskriget." }
+        {
+          "id": "a",
+          "text": "Cirka 1603–1867",
+          "correct": true,
+          "feedback": "Rätt. Edotiden varade från Tokugawas maktövertagande till 1867."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 1100–1300",
+          "feedback": "Fel. Det är medeltida samurajtid."
+        },
+        {
+          "id": "c",
+          "text": "Cirka 1868–1912",
+          "feedback": "Fel. Det är Meijiperioden, alltså efter Edotiden."
+        },
+        {
+          "id": "d",
+          "text": "Cirka 1945–1989",
+          "feedback": "Fel. Det ligger efter andra världskriget."
+        }
       ]
     },
     {
       "id": "q2",
       "prompt": "Vad kallades ledaren som styrde i praktiken under Edotiden?",
       "options": [
-        { "id": "a", "text": "Shogun", "correct": true, "feedback": "Rätt. Shogunen var militär ledare." },
-        { "id": "b", "text": "Premiärminister", "feedback": "Fel. Premiärminister blev en post först senare." },
-        { "id": "c", "text": "Daimyo", "feedback": "Daimyo var lokala herrar, inte landets ledare." },
-        { "id": "d", "text": "Kejsare", "feedback": "Kejsaren hade hög status men liten politisk makt." }
+        {
+          "id": "a",
+          "text": "Shogun",
+          "correct": true,
+          "feedback": "Rätt. Shogunen var militär ledare."
+        },
+        {
+          "id": "b",
+          "text": "Premiärminister",
+          "feedback": "Fel. Premiärminister blev en post först senare."
+        },
+        {
+          "id": "c",
+          "text": "Daimyo",
+          "feedback": "Daimyo var lokala herrar, inte landets ledare."
+        },
+        {
+          "id": "d",
+          "text": "Kejsare",
+          "feedback": "Kejsaren hade hög status men liten politisk makt."
+        }
       ]
     },
     {
       "id": "q3",
       "prompt": "Vad hände 1853?",
       "options": [
-        { "id": "a", "text": "En amerikansk flotta under Perry kom till Uraga.", "correct": true, "feedback": "Rätt. Det ledde till fördraget 1854." },
-        { "id": "b", "text": "Meijiperioden började.", "feedback": "Fel. Den började 1868." },
-        { "id": "c", "text": "Konstitutionen proklamerades.", "feedback": "Fel. Den kom 1889." },
-        { "id": "d", "text": "Tokyo blev huvudstad.", "feedback": "Fel. Det skedde i samband med Meiji, 1868." }
+        {
+          "id": "a",
+          "text": "En amerikansk flotta under Perry kom till Uraga.",
+          "correct": true,
+          "feedback": "Rätt. Det ledde till fördraget 1854."
+        },
+        {
+          "id": "b",
+          "text": "Meijiperioden började.",
+          "feedback": "Fel. Den började 1868."
+        },
+        {
+          "id": "c",
+          "text": "Konstitutionen proklamerades.",
+          "feedback": "Fel. Den kom 1889."
+        },
+        {
+          "id": "d",
+          "text": "Tokyo blev huvudstad.",
+          "feedback": "Fel. Det skedde i samband med Meiji, 1868."
+        }
       ]
     },
     {
       "id": "q4",
       "prompt": "Vilken av dessa var INTE en förändring under Meijiperioden?",
       "options": [
-        { "id": "a", "text": "Domänerna ersattes av prefekturer.", "feedback": "Det hände (1871), så det är inte rätt svar." },
-        { "id": "b", "text": "En järnväg mellan Tokyo och Yokohama öppnades.", "feedback": "Det hände (1872), så det är inte rätt svar." },
-        { "id": "c", "text": "Japan blev en republik utan kejsare.", "correct": true, "feedback": "Rätt: tvärtom stärktes kejsarens ställning, och konstitutionen 1889 byggde på en kejsare." },
-        { "id": "d", "text": "En konstitution med parlament infördes.", "feedback": "Det hände (1889), så det är inte rätt svar." }
+        {
+          "id": "a",
+          "text": "Domänerna ersattes av prefekturer.",
+          "feedback": "Det hände (1871), så det är inte rätt svar."
+        },
+        {
+          "id": "b",
+          "text": "En järnväg mellan Tokyo och Yokohama öppnades.",
+          "feedback": "Det hände (1872), så det är inte rätt svar."
+        },
+        {
+          "id": "c",
+          "text": "Japan blev en republik utan kejsare.",
+          "correct": true,
+          "feedback": "Rätt: tvärtom stärktes kejsarens ställning, och konstitutionen 1889 byggde på en kejsare."
+        },
+        {
+          "id": "d",
+          "text": "En konstitution med parlament infördes.",
+          "feedback": "Det hände (1889), så det är inte rätt svar."
+        }
       ]
     },
     {
       "id": "q5",
       "prompt": "Varför ifrågasätter många historiker uttrycket ”Japan var helt stängt” under Edotiden?",
       "options": [
-        { "id": "a", "text": "För att kontakter fanns via Nagasaki, Tsushima, Satsuma och Matsumae.", "correct": true, "feedback": "Rätt. Landet hade begränsade men viktiga kontakter, så ”helt stängt” är en förenkling." },
-        { "id": "b", "text": "För att utlänningar kunde bo var de ville.", "feedback": "Fel. Kontakterna var strikt reglerade." },
-        { "id": "c", "text": "För att landet inte hade någon handel alls.", "feedback": "Fel, det fanns handel, men reglerad." },
-        { "id": "d", "text": "För att Perry kom redan 1603.", "feedback": "Fel. Perry kom 1853." }
+        {
+          "id": "a",
+          "text": "För att kontakter fanns via Nagasaki, Tsushima, Satsuma och Matsumae.",
+          "correct": true,
+          "feedback": "Rätt. Landet hade begränsade men viktiga kontakter, så ”helt stängt” är en förenkling."
+        },
+        {
+          "id": "b",
+          "text": "För att utlänningar kunde bo var de ville.",
+          "feedback": "Fel. Kontakterna var strikt reglerade."
+        },
+        {
+          "id": "c",
+          "text": "För att landet inte hade någon handel alls.",
+          "feedback": "Fel, det fanns handel, men reglerad."
+        },
+        {
+          "id": "d",
+          "text": "För att Perry kom redan 1603.",
+          "feedback": "Fel. Perry kom 1853."
+        }
       ]
     }
   ],
-  "sourceIds": ["britannica-meiji", "japansociety-timeline", "nippon-sakoku", "yokohama-perry"],
+  "sourceIds": [
+    "britannica-meiji",
+    "japansociety-timeline",
+    "nippon-sakoku",
+    "yokohama-perry"
+  ],
   "mediaIds": [],
   "review": {
     "reviewedOn": "2026-11-01",
@@ -173,5 +396,10 @@
       "Beskrivningen av förloraren och vinnarna är förenklad och bör granskas av en historielärare."
     ],
     "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t02-k02-hero",
+    "imageId": null,
+    "brief": "Historiskt original (fotografi eller träsnitt) från Edo- eller tidig Meijitid som visar en stad eller hamn. Ska märkas som historiskt original."
   }
 }

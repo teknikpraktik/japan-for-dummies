@@ -128,7 +128,8 @@ export function OfflinePanel() {
       {view.kind === "ready" && (
         <div className="space-y-3">
           <p role="status" className="feedback feedback-ok" data-testid="offline-ready">
-            <strong>Klart för offline.</strong> {view.meta.fileCount} filer ({formatBytes(view.meta.bytes)}) är sparade och kontrollerade {new Date(view.meta.readyAt).toLocaleString("sv-SE")}.
+            <strong>Klart för offline.</strong> {view.meta.fileCount} filer ({formatBytes(view.meta.bytes)}
+            {view.meta.imageFiles !== undefined ? `, varav ${view.meta.imageFiles} bildfiler på ${formatBytes(view.meta.imageBytes ?? 0)}` : ""}) är sparade och kontrollerade {new Date(view.meta.readyAt).toLocaleString("sv-SE")}.
           </p>
           {view.updateAvailable && (
             <div className="callout callout-check space-y-2">

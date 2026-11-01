@@ -33,12 +33,21 @@ const buildId = createHash("sha1").update(files.map((f) => f.url + f.hash).join(
 // Sidor ska också kunna hittas via adressen utan filnamn (/kapitel/x/ → /kapitel/x/index.html).
 const urls = files.map((f) => ({ url: f.url.endsWith("/index.html") ? f.url.slice(0, -"index.html".length) : f.url, size: f.size }));
 
+const imageFiles = files.filter((f) => f.url.startsWith("/images/"));
 const manifest = {
   buildId,
   generatedAt: new Date().toISOString(),
   totalBytes: files.reduce((n, f) => n + f.size, 0),
+  imageFiles: imageFiles.length,
+  imageBytes: imageFiles.reduce((n, f) => n + f.size, 0),
   files: urls,
 };
+
+// Offlinepaketet får inte sakna bildfiler som bildregistret hänvisar till.
+const registry = JSON.parse(fs.readFileSync(path.join(process.cwd(), "src/content/images.json"), "utf8")) as { variants: { path: string }[] }[];
+const have = new Set(urls.map((u) => u.url));
+const missing = registry.flatMap((p) => p.variants.map((v) => v.path)).filter((p) => !have.has(p));
+if (missing.length) throw new Error("Bildfiler saknas i bygget/offlinelistan:\n" + missing.map((m) => " - " + m).join("\n"));
 fs.writeFileSync(path.join(out, "offline-manifest.json"), JSON.stringify(manifest));
 
 await build({
@@ -52,4 +61,4 @@ await build({
   logLevel: "warning",
 });
 
-console.log(`Service worker byggd: build ${buildId}, ${files.length} filer, ${(manifest.totalBytes / 1024).toFixed(0)} kB att ladda ned offline.`);
+console.log(`Service worker byggd: build ${buildId}, ${files.length} filer, ${(manifest.totalBytes / 1024).toFixed(0)} kB att ladda ned offline (varav ${manifest.imageFiles} bildfiler, ${(manifest.imageBytes / 1024).toFixed(0)} kB).`);

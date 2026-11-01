@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { getContent } from "@/lib/content";
+import { CardThumb, PhotoSlot } from "@/components/Photo";
+import { chapterPath } from "@/lib/chapters";
 import { ContinueCard, type ChapterLite } from "@/components/ContinueCard";
 
 const monthNames = ["januari", "februari", "mars", "april", "maj", "juni", "juli", "augusti", "september", "oktober", "november", "december"];
 
 export default function Home() {
-  const { trip, chapters, themes } = getContent();
+  const { trip, chapters, themes, home } = getContent();
   const [y, m] = trip.departureMonth.split("-").map(Number);
   const published = chapters.filter((c) => c.status === "published");
   const first = published[0];
@@ -40,6 +42,8 @@ export default function Home() {
         </dl>
       </section>
 
+      <PhotoSlot role="hero" priority slotId={home.hero.slotId} imageId={home.hero.imageId} brief={home.hero.brief} />
+
       <div className="grid gap-4 md:grid-cols-2">
         <section aria-labelledby="borja" className="card flex flex-col gap-3">
           <h2 id="borja">Börja här</h2>
@@ -50,6 +54,23 @@ export default function Home() {
         </section>
         <ContinueCard chapters={lite} />
       </div>
+
+      <section aria-labelledby="pilotkapitel" className="space-y-3">
+        <h2 id="pilotkapitel">De sex färdiga kapitlen</h2>
+        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {published.map((c) =>
+            c.status === "published" ? (
+              <li key={c.id} className="card flex flex-col gap-2">
+                <CardThumb imageId={c.hero.imageId} />
+                <h3>
+                  <Link href={chapterPath(c)}>{c.title}</Link>
+                </h3>
+                <p className="text-sm text-ink-soft">Cirka {c.minutes} min</p>
+              </li>
+            ) : null,
+          )}
+        </ul>
+      </section>
 
       <section aria-labelledby="sa-funkar" className="space-y-3">
         <h2 id="sa-funkar">Så fungerar det</h2>

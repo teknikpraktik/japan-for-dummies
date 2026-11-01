@@ -11,6 +11,9 @@ export interface ManifestFile {
 export interface OfflineManifest {
   buildId: string;
   totalBytes: number;
+  /** Antal och storlek för bildfiler i paketet (ingår i totalen). */
+  imageFiles?: number;
+  imageBytes?: number;
   files: ManifestFile[];
 }
 export interface OfflineMeta {
@@ -18,6 +21,8 @@ export interface OfflineMeta {
   readyAt: string;
   bytes: number;
   fileCount: number;
+  imageFiles?: number;
+  imageBytes?: number;
 }
 
 export type DownloadErrorKind = "unsupported" | "insufficient-storage" | "interrupted" | "incomplete" | "cancelled";
@@ -145,7 +150,7 @@ export async function downloadOffline(onProgress: (p: DownloadProgress) => void,
 
   // Först nu är utbildningen offlineklar. Ta bort cachar från äldre versioner.
   for (const name of await caches.keys()) if (name.startsWith(OFFLINE_CACHE_PREFIX) && name !== cacheNameFor(manifest.buildId)) await caches.delete(name);
-  const meta: OfflineMeta = { buildId: manifest.buildId, readyAt: new Date().toISOString(), bytes: manifest.totalBytes, fileCount: total };
+  const meta: OfflineMeta = { buildId: manifest.buildId, readyAt: new Date().toISOString(), bytes: manifest.totalBytes, fileCount: total, imageFiles: manifest.imageFiles, imageBytes: manifest.imageBytes };
   writeMeta(meta);
   return meta;
 }

@@ -22,6 +22,18 @@ export const blockSchema = z.discriminatedUnion("type", [
       .min(1),
   }),
   z.object({ type: z.literal("figure"), mediaId: id }),
+  /** Fotografi ur bildregistret. imageId = null betyder att bilden ännu inte är vald (visar reservyta med motivbeskrivning). */
+  z.object({ type: z.literal("photo"), slotId: id, imageId: id.nullable(), brief: text }),
+  /** Enkel observationsuppgift. Poängsätts inte och sparas inte. Ska fungera även utan bild (textalternativet). */
+  z.object({
+    type: z.literal("observe"),
+    title: text,
+    prompt: text,
+    steps: z.array(text).min(2).max(5),
+    /** Likvärdig uppgift för den som inte ser bilden, eller när bild saknas. */
+    textAlternative: text,
+    imageSlotIds: z.array(id).default([]),
+  }),
   z.object({
     type: z.literal("facts"),
     items: z.array(z.object({ label: text, value: text })).min(1),
@@ -145,6 +157,8 @@ export const publishedChapterSchema = z.object({
   sourceIds: z.array(id),
   review: reviewSchema,
   mediaIds: z.array(id).default([]),
+  /** Öppningsbild. imageId = null tills ett rättighetskontrollerat fotografi är valt. */
+  hero: z.object({ slotId: id, imageId: id.nullable(), brief: text }),
 });
 export type PublishedChapter = z.infer<typeof publishedChapterSchema>;
 export type PlannedChapter = z.infer<typeof plannedChapterSchema>;
@@ -202,3 +216,68 @@ export const mediaSchema = z.object({
   }),
 });
 export type Media = z.infer<typeof mediaSchema>;
+
+/* ---------- Fotografier (bildregister) ---------- */
+export const imageVariantSchema = z.object({
+  /** Lokal sökväg under /images/. Inga externa bildlänkar vid visning. */
+  path: z.string().regex(/^\/images\/[a-z0-9][a-z0-9/_.-]*\.(webp|avif)$/, "Sökvägen ska ligga under /images/ och sluta på .webp eller .avif"),
+  width: z.number().int().positive(),
+  height: z.number().int().positive(),
+  bytes: z.number().int().positive(),
+  format: z.enum(["webp", "avif"]),
+  /** "default" gäller alla skärmar; "mobile" är en särskild beskärning för smala skärmar. */
+  crop: z.enum(["default", "mobile"]).default("default"),
+});
+export type ImageVariant = z.infer<typeof imageVariantSchema>;
+
+const verifiedFact = z.object({ value: text, verifiedBy: text });
+
+export const photoSchema = z
+  .object({
+    id,
+    /** Skiljer historiskt original, rekonstruktion och nutida fotografi. */
+    kind: z.enum(["contemporary-photo", "historical-original", "reconstruction", "object-photo"]),
+    variants: z.array(imageVariantSchema).min(1),
+    /** Fokuspunkt (0–1) som bevaras vid responsiv beskärning. */
+    focus: z.object({ x: z.number().min(0).max(1), y: z.number().min(0).max(1) }).default({ x: 0.5, y: 0.5 }),
+    creator: text,
+    sourcePlatform: z.enum(["unsplash", "pexels", "wikimedia-commons", "official-japan", "other"]),
+    /** Originalets informationssida. */
+    sourceUrl: z.url(),
+    license: z.object({ name: text, url: z.url() }),
+    /** Datum då rättigheterna faktiskt kontrollerades på originalets sida. */
+    rightsCheckedOn: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    rightsCheckedBy: text,
+    /** Obligatorisk kreditering enligt licensen, annars null (fotografen erkänns ändå vid bilden). */
+    requiredCredit: z.string().nullable(),
+    /** Uttryckligen kontrollerat: webbpublicering, lokal lagring/offline, bearbetning och lagring i publikt repo. */
+    usageCleared: z.object({
+      webPublishing: z.literal(true),
+      offlinePackage: z.literal(true),
+      modification: z.literal(true),
+      publicRepoStorage: z.literal(true),
+    }),
+    location: verifiedFact.optional(),
+    year: verifiedFact.optional(),
+    caption: text,
+    alt: z.string(),
+    /** Dekorativa bilder har tom alternativtext. */
+    decorative: z.boolean().default(false),
+    modification: text,
+    peopleNote: z.string().optional(),
+    usedIn: z.array(id).min(1),
+  })
+  .superRefine((p, ctx) => {
+    if (p.decorative && p.alt !== "") ctx.addIssue({ code: "custom", path: ["alt"], message: "Dekorativ bild ska ha tom alternativtext" });
+    if (!p.decorative && p.alt.trim().length < 15) ctx.addIssue({ code: "custom", path: ["alt"], message: "Alternativtext saknas eller är för kort (minst 15 tecken)" });
+    if (!p.variants.some((v) => v.crop === "default")) ctx.addIssue({ code: "custom", path: ["variants"], message: "Minst en variant med crop=default krävs" });
+    const checked = Date.parse(p.rightsCheckedOn);
+    if (Number.isNaN(checked) || checked > Date.now() + 86_400_000) ctx.addIssue({ code: "custom", path: ["rightsCheckedOn"], message: "Kontrolldatum ogiltigt eller i framtiden" });
+  });
+export type Photo = z.infer<typeof photoSchema>;
+
+export const homeSchema = z.object({
+  /** Startsidans öppningsbild. */
+  hero: z.object({ slotId: id, imageId: id.nullable(), brief: text }),
+});
+export type Home = z.infer<typeof homeSchema>;

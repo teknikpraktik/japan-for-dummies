@@ -22,37 +22,95 @@
       "id": "bestalla",
       "heading": "Beställa",
       "blocks": [
-        { "type": "p", "text": "Det finns flera sätt att beställa. På många ramenställen väljer och betalar du vid en **biljettautomat** (shokkenki) vid ingången, och lämnar biljetten till personalen. På andra ställen sätter du dig, får en meny (ofta med bilder) och beställer från personalen." },
-        { "type": "p", "text": "Vill du ha personalens uppmärksamhet säger du **sumimasen** (すみません). På vissa bord finns en ringknapp. När du ska säga vad du vill ha kan du peka på menyn och säga **kore o kudasai** (これをください), ”det här, tack”." },
-        { "type": "phrases", "items": [
-          { "jp": "これをください", "romaji": "kore o kudasai", "sv": "Det här, tack", "tip": "Peka på bilden eller texten." },
-          { "jp": "おすすめは何ですか", "romaji": "osusume wa nan desu ka?", "sv": "Vad rekommenderar ni?" },
-          { "jp": "アレルギーがあります", "romaji": "arerugī ga arimasu", "sv": "Jag har allergi", "tip": "Säg vilken allergi du har, till exempel med bild eller översättningsapp." }
-        ] },
-        { "type": "callout", "tone": "care", "title": "Allergier", "text": "Fisk och fiskbuljong (dashi) finns i många rätter, även sådana som ser vegetariska ut. Berätta om allergier tydligt, och ha helst en skriven förklaring på japanska med dig. Fråga läraren hur gruppen hanterar allergier." }
+        {
+          "type": "p",
+          "text": "Det finns flera sätt att beställa. På många ramenställen väljer och betalar du vid en **biljettautomat** (shokkenki) vid ingången, och lämnar biljetten till personalen. På andra ställen sätter du dig, får en meny (ofta med bilder) och beställer från personalen."
+        },
+        {
+          "type": "photo",
+          "slotId": "t07-k01-automat",
+          "imageId": null,
+          "brief": "Biljettautomat vid ingången till en restaurang, med läsbara knappar och priser."
+        },
+        {
+          "type": "p",
+          "text": "Vill du ha personalens uppmärksamhet säger du **sumimasen** (すみません). På vissa bord finns en ringknapp. När du ska säga vad du vill ha kan du peka på menyn och säga **kore o kudasai** (これをください), ”det här, tack”."
+        },
+        {
+          "type": "phrases",
+          "items": [
+            {
+              "jp": "これをください",
+              "romaji": "kore o kudasai",
+              "sv": "Det här, tack",
+              "tip": "Peka på bilden eller texten."
+            },
+            {
+              "jp": "おすすめは何ですか",
+              "romaji": "osusume wa nan desu ka?",
+              "sv": "Vad rekommenderar ni?"
+            },
+            {
+              "jp": "アレルギーがあります",
+              "romaji": "arerugī ga arimasu",
+              "sv": "Jag har allergi",
+              "tip": "Säg vilken allergi du har, till exempel med bild eller översättningsapp."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Allergier",
+          "text": "Fisk och fiskbuljong (dashi) finns i många rätter, även sådana som ser vegetariska ut. Berätta om allergier tydligt, och ha helst en skriven förklaring på japanska med dig. Fråga läraren hur gruppen hanterar allergier."
+        }
       ]
     },
     {
       "id": "ata",
       "heading": "Äta med hänsyn",
       "blocks": [
-        { "type": "p", "text": "Före måltiden brukar man säga **itadakimasu** (いただきます), ungefär ”jag tar emot med tacksamhet”. Efter måltiden säger man **gochisōsama deshita** (ごちそうさまでした), ”tack för maten”. Du behöver inte, men det uppskattas ofta." },
-        { "type": "list", "ordered": false, "items": [
-          "Sätt inte ätpinnarna lodrätt ner i riset, och skicka inte mat från pinnar till pinnar. Båda associeras med begravningsriter.",
-          "Peka inte med ätpinnarna och rör inte i maten på delade fat.",
-          "Det är vanligt och accepterat att slurpa nudlar.",
-          "Många tycker att det är ovanligt att äta när man går på trånga gator, så ät gärna vid försäljningsstället.",
-          "Ta med dig sopor eller lämna dem där personalen har anvisat. Papperskorgar kan saknas."
-        ] }
+        {
+          "type": "p",
+          "text": "Före måltiden brukar man säga **itadakimasu** (いただきます), ungefär ”jag tar emot med tacksamhet”. Efter måltiden säger man **gochisōsama deshita** (ごちそうさまでした), ”tack för maten”. Du behöver inte, men det uppskattas ofta."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sätt inte ätpinnarna lodrätt ner i riset, och skicka inte mat från pinnar till pinnar. Båda associeras med begravningsriter.",
+            "Peka inte med ätpinnarna och rör inte i maten på delade fat.",
+            "Det är vanligt och accepterat att slurpa nudlar.",
+            "Många tycker att det är ovanligt att äta när man går på trånga gator, så ät gärna vid försäljningsstället.",
+            "Ta med dig sopor eller lämna dem där personalen har anvisat. Papperskorgar kan saknas."
+          ]
+        },
+        {
+          "type": "photo",
+          "slotId": "t07-k01-set",
+          "imageId": null,
+          "brief": "Måltid med ris, soppa och tillbehör (t.ex. teishoku) där ätpinnarna vilar på ett pinnstöd. Maträtten ska identifieras korrekt."
+        }
       ]
     },
     {
       "id": "betala",
       "heading": "Betala",
       "blocks": [
-        { "type": "p", "text": "På ställen med biljettautomat har du redan betalat. På många andra restauranger får du en nota på bordet eller vid slutet, som du tar med till kassan vid utgången. Dricks förväntas normalt inte, och att lämna pengar på bordet kan skapa förvirring." },
-        { "type": "p", "text": "Kontanter och kort: många ställen tar kort, men små restauranger kan kräva kontanter. Ha därför alltid lite kontanter och fråga i förväg om du är osäker." },
-        { "type": "callout", "tone": "check", "title": "Kontrollera nära avresa", "text": "Betalningsmetoder, priser och regler kan ha ändrats till oktober 2027. Resans ledare bör bekräfta nuläget. Siffror och exempel här är bakgrund, inte garantier." }
+        {
+          "type": "p",
+          "text": "På ställen med biljettautomat har du redan betalat. På många andra restauranger får du en nota på bordet eller vid slutet, som du tar med till kassan vid utgången. Dricks förväntas normalt inte, och att lämna pengar på bordet kan skapa förvirring."
+        },
+        {
+          "type": "p",
+          "text": "Kontanter och kort: många ställen tar kort, men små restauranger kan kräva kontanter. Ha därför alltid lite kontanter och fråga i förväg om du är osäker."
+        },
+        {
+          "type": "callout",
+          "tone": "check",
+          "title": "Kontrollera nära avresa",
+          "text": "Betalningsmetoder, priser och regler kan ha ändrats till oktober 2027. Resans ledare bör bekräfta nuläget. Siffror och exempel här är bakgrund, inte garantier."
+        }
       ]
     }
   ],
@@ -63,11 +121,26 @@
       "title": "Ett restaurangbesök",
       "prompt": "Ordna stegen i ett vanligt restaurangbesök, där du betalar vid kassan.",
       "items": [
-        { "id": "a", "text": "Gå in och bli visad till ett bord" },
-        { "id": "b", "text": "Beställ från menyn, till exempel ”kore o kudasai”" },
-        { "id": "c", "text": "Säg ”itadakimasu” och ät" },
-        { "id": "d", "text": "Ta notan till kassan vid utgången och betala" },
-        { "id": "e", "text": "Säg ”gochisōsama deshita” på väg ut" }
+        {
+          "id": "a",
+          "text": "Gå in och bli visad till ett bord"
+        },
+        {
+          "id": "b",
+          "text": "Beställ från menyn, till exempel ”kore o kudasai”"
+        },
+        {
+          "id": "c",
+          "text": "Säg ”itadakimasu” och ät"
+        },
+        {
+          "id": "d",
+          "text": "Ta notan till kassan vid utgången och betala"
+        },
+        {
+          "id": "e",
+          "text": "Säg ”gochisōsama deshita” på väg ut"
+        }
       ],
       "explanation": "Ordningen är gå in, beställ, ät, betala och tacka. Detaljerna varierar: på ställen med biljettautomat betalar du redan innan du sätter dig."
     },
@@ -78,9 +151,22 @@
       "situation": "Du står framför en biljettautomat där alla knappar är på japanska. Det står folk bakom dig. Du förstår inte vad som är vad.",
       "question": "Vad är en bra lösning?",
       "options": [
-        { "id": "a", "text": "Ta fram översättningsappen eller fråga personalen med ”sumimasen”, och släpp förbi dem som väntar om du behöver tid.", "correct": true, "feedback": "Bra. Många ställen har bilder, och personalen hjälper ofta till. Att släppa förbi kunder är ett hänsynsfullt sätt att få mer tid." },
-        { "id": "b", "text": "Trycka på slumpmässiga knappar för att gå fortare.", "feedback": "Du riskerar att få något du inte vill ha, och det är svårt att ändra." },
-        { "id": "c", "text": "Gå därifrån direkt.", "feedback": "Det behövs inte. Det går oftast bra att få hjälp." }
+        {
+          "id": "a",
+          "text": "Ta fram översättningsappen eller fråga personalen med ”sumimasen”, och släpp förbi dem som väntar om du behöver tid.",
+          "correct": true,
+          "feedback": "Bra. Många ställen har bilder, och personalen hjälper ofta till. Att släppa förbi kunder är ett hänsynsfullt sätt att få mer tid."
+        },
+        {
+          "id": "b",
+          "text": "Trycka på slumpmässiga knappar för att gå fortare.",
+          "feedback": "Du riskerar att få något du inte vill ha, och det är svårt att ändra."
+        },
+        {
+          "id": "c",
+          "text": "Gå därifrån direkt.",
+          "feedback": "Det behövs inte. Det går oftast bra att få hjälp."
+        }
       ]
     },
     {
@@ -89,9 +175,22 @@
       "title": "Ätpinnar",
       "prompt": "Du är klar med riset och vill vila ätpinnarna. Vad gör du?",
       "options": [
-        { "id": "a", "text": "Lägger dem på pinnstödet eller på tallriken, snyggt tillsammans.", "correct": true, "feedback": "Rätt. Lägg dem ned, inte lodrätt i riset." },
-        { "id": "b", "text": "Sticker dem lodrätt ned i riset.", "feedback": "Det associeras med begravningsriter och undviks." },
-        { "id": "c", "text": "Räcker över maten pinne mot pinne till en vän.", "feedback": "Det associeras också med begravningsriter. Lägg maten på en tallrik i stället." }
+        {
+          "id": "a",
+          "text": "Lägger dem på pinnstödet eller på tallriken, snyggt tillsammans.",
+          "correct": true,
+          "feedback": "Rätt. Lägg dem ned, inte lodrätt i riset."
+        },
+        {
+          "id": "b",
+          "text": "Sticker dem lodrätt ned i riset.",
+          "feedback": "Det associeras med begravningsriter och undviks."
+        },
+        {
+          "id": "c",
+          "text": "Räcker över maten pinne mot pinne till en vän.",
+          "feedback": "Det associeras också med begravningsriter. Lägg maten på en tallrik i stället."
+        }
       ]
     }
   ],
@@ -106,54 +205,143 @@
       "id": "q1",
       "prompt": "Vad är en biljettautomat på en restaurang?",
       "options": [
-        { "id": "a", "text": "En maskin där du väljer och betalar innan du beställer.", "correct": true, "feedback": "Rätt. Du lämnar biljetten till personalen." },
-        { "id": "b", "text": "En automat som lagar maten.", "feedback": "Fel. Den tar bara emot din beställning och betalning." },
-        { "id": "c", "text": "En maskin som visar menyn på svenska.", "feedback": "Fel. Texten är ofta på japanska, ibland med bilder." },
-        { "id": "d", "text": "En kassa för drycker.", "feedback": "Fel." }
+        {
+          "id": "a",
+          "text": "En maskin där du väljer och betalar innan du beställer.",
+          "correct": true,
+          "feedback": "Rätt. Du lämnar biljetten till personalen."
+        },
+        {
+          "id": "b",
+          "text": "En automat som lagar maten.",
+          "feedback": "Fel. Den tar bara emot din beställning och betalning."
+        },
+        {
+          "id": "c",
+          "text": "En maskin som visar menyn på svenska.",
+          "feedback": "Fel. Texten är ofta på japanska, ibland med bilder."
+        },
+        {
+          "id": "d",
+          "text": "En kassa för drycker.",
+          "feedback": "Fel."
+        }
       ]
     },
     {
       "id": "q2",
       "prompt": "Vad säger du före måltiden?",
       "options": [
-        { "id": "a", "text": "Itadakimasu", "correct": true, "feedback": "Rätt. Det uttrycker tacksamhet inför maten." },
-        { "id": "b", "text": "Gochisōsama deshita", "feedback": "Det säger man efter måltiden." },
-        { "id": "c", "text": "Sumimasen", "feedback": "Det används för att fånga uppmärksamhet eller be om ursäkt." },
-        { "id": "d", "text": "Wakarimasen", "feedback": "Det betyder ”jag förstår inte”." }
+        {
+          "id": "a",
+          "text": "Itadakimasu",
+          "correct": true,
+          "feedback": "Rätt. Det uttrycker tacksamhet inför maten."
+        },
+        {
+          "id": "b",
+          "text": "Gochisōsama deshita",
+          "feedback": "Det säger man efter måltiden."
+        },
+        {
+          "id": "c",
+          "text": "Sumimasen",
+          "feedback": "Det används för att fånga uppmärksamhet eller be om ursäkt."
+        },
+        {
+          "id": "d",
+          "text": "Wakarimasen",
+          "feedback": "Det betyder ”jag förstår inte”."
+        }
       ]
     },
     {
       "id": "q3",
       "prompt": "Hur är det med dricks i Japan?",
       "options": [
-        { "id": "a", "text": "Förväntas normalt inte, och kan skapa förvirring.", "correct": true, "feedback": "Rätt. Lämna ingen dricks om du inte får veta något annat." },
-        { "id": "b", "text": "Förväntas alltid, minst 20 procent.", "feedback": "Fel. Det är inte normalt." },
-        { "id": "c", "text": "Det är olagligt.", "feedback": "Det är inte olagligt, men ovanligt och kan skapa förvirring." },
-        { "id": "d", "text": "Man ska lämna pengar på bordet.", "feedback": "Det är just det som kan skapa förvirring." }
+        {
+          "id": "a",
+          "text": "Förväntas normalt inte, och kan skapa förvirring.",
+          "correct": true,
+          "feedback": "Rätt. Lämna ingen dricks om du inte får veta något annat."
+        },
+        {
+          "id": "b",
+          "text": "Förväntas alltid, minst 20 procent.",
+          "feedback": "Fel. Det är inte normalt."
+        },
+        {
+          "id": "c",
+          "text": "Det är olagligt.",
+          "feedback": "Det är inte olagligt, men ovanligt och kan skapa förvirring."
+        },
+        {
+          "id": "d",
+          "text": "Man ska lämna pengar på bordet.",
+          "feedback": "Det är just det som kan skapa förvirring."
+        }
       ]
     },
     {
       "id": "q4",
       "prompt": "Vad bör du göra med ätpinnarna?",
       "options": [
-        { "id": "a", "text": "Inte sticka dem lodrätt i riset.", "correct": true, "feedback": "Rätt. Det associeras med begravningsriter." },
-        { "id": "b", "text": "Alltid sticka dem i riset.", "feedback": "Fel, och ett stort faux pas." },
-        { "id": "c", "text": "Aldrig använda dem.", "feedback": "Fel. Ätpinnar är normalt, men ofta finns gaffel som alternativ." },
-        { "id": "d", "text": "Peka med dem på personalen.", "feedback": "Fel. Att peka med ätpinnar anses ohövligt." }
+        {
+          "id": "a",
+          "text": "Inte sticka dem lodrätt i riset.",
+          "correct": true,
+          "feedback": "Rätt. Det associeras med begravningsriter."
+        },
+        {
+          "id": "b",
+          "text": "Alltid sticka dem i riset.",
+          "feedback": "Fel, och ett stort faux pas."
+        },
+        {
+          "id": "c",
+          "text": "Aldrig använda dem.",
+          "feedback": "Fel. Ätpinnar är normalt, men ofta finns gaffel som alternativ."
+        },
+        {
+          "id": "d",
+          "text": "Peka med dem på personalen.",
+          "feedback": "Fel. Att peka med ätpinnar anses ohövligt."
+        }
       ]
     },
     {
       "id": "q5",
       "prompt": "Du har en fiskallergi. Vad är viktigast?",
       "options": [
-        { "id": "a", "text": "Berätta om allergin tydligt, gärna med skriven förklaring, och räkna med att fisk/dashi kan finnas i många rätter.", "correct": true, "feedback": "Rätt. Det går inte att se allt på ytan." },
-        { "id": "b", "text": "Anta att allt är säkert om det ser vegetariskt ut.", "feedback": "Fel. Fiskbuljong används i många rätter." },
-        { "id": "c", "text": "Äta något och se vad som händer.", "feedback": "Det är farligt. Fråga alltid före." },
-        { "id": "d", "text": "Aldrig äta ute.", "feedback": "Det är onödigt, men planera och kommunicera." }
+        {
+          "id": "a",
+          "text": "Berätta om allergin tydligt, gärna med skriven förklaring, och räkna med att fisk/dashi kan finnas i många rätter.",
+          "correct": true,
+          "feedback": "Rätt. Det går inte att se allt på ytan."
+        },
+        {
+          "id": "b",
+          "text": "Anta att allt är säkert om det ser vegetariskt ut.",
+          "feedback": "Fel. Fiskbuljong används i många rätter."
+        },
+        {
+          "id": "c",
+          "text": "Äta något och se vad som händer.",
+          "feedback": "Det är farligt. Fråga alltid före."
+        },
+        {
+          "id": "d",
+          "text": "Aldrig äta ute.",
+          "feedback": "Det är onödigt, men planera och kommunicera."
+        }
       ]
     }
   ],
-  "sourceIds": ["voyapon-ticket-machines", "wikipedia-dining-etiquette", "jnto-manners"],
+  "sourceIds": [
+    "voyapon-ticket-machines",
+    "wikipedia-dining-etiquette",
+    "jnto-manners"
+  ],
   "mediaIds": [],
   "review": {
     "reviewedOn": "2026-11-01",
@@ -165,6 +353,15 @@
       "Japanska fraser (inklusive allergifrasen) bör granskas av någon som kan japanska.",
       "Normer för att äta på gatan varierar mellan platser."
     ],
-    "checkBeforeTravel": ["Betalningsmetoder", "Priser och öppettider", "Hur gruppen hanterar allergier"]
+    "checkBeforeTravel": [
+      "Betalningsmetoder",
+      "Priser och öppettider",
+      "Hur gruppen hanterar allergier"
+    ]
+  },
+  "hero": {
+    "slotId": "t07-k01-hero",
+    "imageId": null,
+    "brief": "Vardagsmåltid: en skål nudlar eller en lunchrätt på en enkel restaurang, med korrekt identifierad maträtt."
   }
 }
