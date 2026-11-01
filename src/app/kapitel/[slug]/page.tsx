@@ -126,18 +126,8 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
 
       <Quiz chapterId={ch.id} contentVersion={ch.contentVersion} questions={ch.quiz} nextHref={nextHref} />
 
-      <section aria-labelledby="kallor" className="space-y-4 prose-col">
-        <h2 id="kallor">Källor, granskning och osäkerhet</h2>
-        <div className="callout callout-check space-y-2">
-          <p>
-            <strong>Granskningsstatus:</strong>{" "}
-            {ch.review.status === "human-reviewed" ? "Granskad av person." : "Behöver granskas av en person innan den används som facit."}
-          </p>
-          <p>
-            <strong>Kontrolldatum:</strong> {ch.review.reviewedOn}. <strong>Metod:</strong> {ch.review.method}
-          </p>
-        </div>
-        <h3>Osäkerhet och begränsningar</h3>
+      <section className="space-y-4 prose-col">
+        <h2>Osäkerhet och begränsningar</h2>
         <ul className="list-disc space-y-1 pl-6">
           {ch.review.uncertainty.map((u) => (
             <li key={u}>{u}</li>
@@ -145,7 +135,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
         </ul>
         {ch.review.checkBeforeTravel.length > 0 && (
           <>
-            <h3>Kontrollera nära avresa</h3>
+            <h2>Kontrollera nära avresa</h2>
             <ul className="list-disc space-y-1 pl-6">
               {ch.review.checkBeforeTravel.map((u) => (
                 <li key={u}>{u}</li>
@@ -153,7 +143,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
             </ul>
           </>
         )}
-        <h3>Källor</h3>
+        <h2>Källor</h2>
         {usedSources.length === 0 ? (
           <p>Inga externa källor är angivna för det här kapitlet (se metodbeskrivningen ovan).</p>
         ) : (
@@ -170,7 +160,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
         )}
         {usedMedia.length > 0 && (
           <>
-            <h3>Bilder och rättigheter</h3>
+            <h2>Bilder och rättigheter</h2>
             <ul className="space-y-2">
               {usedMedia.map((m) => (
                 <li key={m.id}>
