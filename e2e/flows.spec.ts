@@ -37,7 +37,9 @@ test.describe("pilotkapitel och direktlänkar", () => {
 
   test("opublicerade kapitel visas som Kommer senare, utan test", async ({ page }) => {
     await page.goto("/utbildning/");
-    await expect(page.getByText("Kommer senare", { exact: true })).toHaveCount(54);
+    // Alla 54 planerade kapitel finns kvar i strukturen (vänsterspalten), men som text, inte länkar.
+    await expect(page.locator("[data-testid^='nav-planned-']")).toHaveCount(54);
+    await expect(page.locator("[data-testid^='nav-chapter-']")).toHaveCount(6); // publicerade är länkar
     // Vänta tills service workern har tagit över, annars kan den avbryta nästa navigering.
     await page.evaluate(async () => { await navigator.serviceWorker.ready; });
     await page.goto("/kapitel/skogs-och-hav-finns-inte/");
@@ -100,7 +102,8 @@ test.describe("poäng, gräns och omförsök", () => {
     await page.reload();
     await expect(page.getByTestId("quiz-position")).toHaveText("Fråga 3 av 5");
     await page.goto("/utbildning/");
-    await expect(page.locator("li", { hasText: c.title }).getByText(/Påbörjad/)).toBeVisible();
+    await page.goto(`/utbildning/${(c as unknown as { themeId: string }).themeId}/`);
+    await expect(page.getByTestId(`chapter-card-${c.id}`).getByText(/Påbörjad/)).toBeVisible();
   });
 
   test("favoriter sparas", async ({ page }) => {

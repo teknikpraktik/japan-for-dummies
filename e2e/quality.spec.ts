@@ -6,6 +6,8 @@ import { loginStudentOk, loginTeacher } from "./auth-helpers";
 const pages = [
   "/",
   "/utbildning/",
+  "/utbildning/historia/",
+  "/utbildning/resa/",
   ...pilots.map((c) => `/kapitel/${c.slug}/`),
   "/kapitel/shinto/",
   "/resepass/",

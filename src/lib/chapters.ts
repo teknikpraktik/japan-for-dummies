@@ -17,3 +17,7 @@ export function positionOf(chapters: Chapter[], c: Chapter) {
     next: index < chapters.length - 1 ? chapters[index + 1] : undefined,
   };
 }
+
+export function themePath(themeId: string): string {
+  return `/utbildning/${themeId}/`;
+}
