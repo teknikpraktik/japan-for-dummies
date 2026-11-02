@@ -62,7 +62,7 @@ export function StudentHome({ chapters, themes }: { chapters: ChapterLite[]; the
           {published.map((c) => (
             <li key={c.id} className="card !p-3 flex flex-wrap items-center justify-between gap-2" data-testid={`chapter-row-${c.id}`}>
               <Link href={`/kapitel/${c.slug}/`}>{c.title}</Link>
-              <StatusBadge chapterId={c.id} />
+              <StatusBadge chapterId={c.id} showUntouched />
             </li>
           ))}
         </ul>

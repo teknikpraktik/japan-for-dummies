@@ -65,7 +65,7 @@ test.describe("framsteg och synkning", () => {
     await expect(page.getByTestId("quiz-result")).toContainText("Klar");
     await page.goto("/min-utbildning/");
     await expect(page.getByTestId("sync-status")).toContainText("Allt är synkat", { timeout: 15_000 });
-    await expect(page.getByTestId(`chapter-row-${ch.id}`)).toContainText("Klar");
+    await expect(page.getByTestId(`chapter-row-${ch.id}`)).toContainText("Slutfört");
 
     const tctx = await browser.newContext();
     const tp = await teacherPage(tctx);
@@ -225,7 +225,7 @@ test.describe("delade enheter, utloggning och kontobyte", () => {
     await loginStudentOk(page, 14);
     await page.goto("/min-utbildning/");
     await expect(page.locator("[data-testid^='chapter-row-']")).toHaveCount(PUBLISHED);
-    for (const row of await page.locator("[data-testid^='chapter-row-']").all()) await expect(row).toContainText("Ej påbörjad");
+    for (const row of await page.locator("[data-testid^='chapter-row-']").all()) await expect(row).toContainText("Ej påbörjat");
     await page.getByTestId("sync-now").click();
     await page.waitForTimeout(500);
     expect(sent.join("")).not.toContain(ch.id); // A:s köade framsteg skickas aldrig som B

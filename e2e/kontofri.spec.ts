@@ -64,7 +64,7 @@ test.describe("kontofri tjänst", () => {
     if (!(await page.getByTestId("education-nav").isVisible())) await page.getByTestId("nav-open").click();
     await expect(page.getByTestId(`nav-done-${chapter.id}`)).toContainText("Slutfört");
     await page.goto("/");
-    await expect(page.getByTestId("theme-card-geografi")).toContainText("1 av");
+    await expect(page.getByTestId("theme-card-geografi")).toContainText(/kapitel tillgängliga · 1 slutfört/);
     await page.goto("/offline/");
     await expect(page.getByTestId("stat-completed")).toHaveText(/^1 \//);
     await expect(page.getByTestId("local-notice")).toContainText("Dina framsteg sparas i den här webbläsaren");
@@ -137,5 +137,94 @@ test.describe("kontofri tjänst", () => {
     expect(text).toContain("Per Björkman");
     expect(text).toMatch(/Vercel/);
     for (const t of [/TOTP/i, /tvåfaktor/i, /lärare/i, /Ej fastställt av skolan/, /@gmail/]) expect(text, String(t)).not.toMatch(t);
+  });
+
+  test("huvudknappen: första besöket, återbesök med påbörjat kapitel, reserv och ogiltiga värden", async ({ page }) => {
+    const cta = page.getByTestId("start-cta");
+    // Första besöket
+    await page.goto("/");
+    await expect(cta).toHaveText("Börja utbildningen");
+    await expect(cta).toHaveAttribute("href", /\/utbildning\/geografi\/$/);
+    await expect(page.getByTestId("start-cta-chapter")).toHaveCount(0);
+    // Påbörjat kapitel ger ”Fortsätt” med kapitlet och dess titel
+    await page.goto(`/kapitel/${chapter.slug}/`);
+    await page.waitForFunction((id) => localStorage.getItem("japanresan:v1:last-chapter") === id, chapter.id);
+    await page.goto("/");
+    await expect(cta).toHaveText("Fortsätt utbildningen");
+    await expect(cta).toHaveAttribute("href", new RegExp(`/kapitel/${chapter.slug}/$`));
+    await expect(page.getByTestId("start-cta-chapter")).toHaveText(chapter.title);
+    // Slutfört kapitel är inte längre ”påbörjat”: reserv är senast valda tema
+    await page.goto(`/kapitel/${chapter.slug}/`);
+    await takeQuiz(page, chapter, 0);
+    await page.goto("/");
+    await expect(cta).toHaveText("Fortsätt utbildningen");
+    await expect(cta).toHaveAttribute("href", /\/utbildning\/geografi\/$/);
+    await expect(page.getByTestId("start-cta-chapter")).toHaveCount(0);
+    // Ogiltigt sparat kapitel och tema ignoreras utan fel
+    await page.evaluate(() => {
+      localStorage.setItem("japanresan:v1:last-chapter", "finns-inte");
+      localStorage.setItem("japanresan:v1:last-theme", "finns-inte");
+    });
+    await page.reload();
+    await expect(cta).toBeVisible();
+    await expect(cta).toHaveAttribute("href", /\/utbildning\/geografi\/$/);
+  });
+
+  test("huvudknappen byter inte text under laddning (osynlig tills lokal lagring lästs)", async ({ page }) => {
+    await page.addInitScript(() => localStorage.setItem("japanresan:v1:last-theme", "historia"));
+    const texts: string[] = [];
+    await page.exposeFunction("__cta", (t: string) => texts.push(t));
+    await page.addInitScript(() => {
+      new MutationObserver(() => {
+        const el = document.querySelector("[data-testid=start-cta]");
+        if (el) (window as unknown as { __cta: (t: string) => void }).__cta(el.textContent ?? "");
+      }).observe(document, { childList: true, subtree: true, characterData: true });
+    });
+    await page.goto("/");
+    await expect(page.getByTestId("start-cta")).toHaveText("Fortsätt utbildningen");
+    expect(new Set(texts)).toEqual(new Set(["Fortsätt utbildningen"]));
+  });
+
+  test("temakort: tillgängligt innehåll och slutförda hålls isär; kommande teman är märkta och går att öppna", async ({ page }) => {
+    await page.goto("/");
+    const geo = page.getByTestId("theme-card-count-geografi");
+    await expect(geo).toHaveText(/^\d+ kapitel tillgängliga · 0 slutförda$/);
+    // singular: ett tema med exakt ett tillgängligt kapitel
+    const singular = page.locator("[data-testid^='theme-card-count-']", { hasText: /^1 kapitel tillgängligt · 0 slutförda$/ });
+    expect(await singular.count()).toBeGreaterThan(0);
+    // kommande tema: etikett, ingen framstegsindikator, men öppningsbart med kapitelöversikt
+    const upcoming = page.getByTestId("theme-card-religion");
+    await expect(upcoming).toContainText("Kommer senare");
+    await expect(upcoming.getByRole("progressbar")).toHaveCount(0);
+    await upcoming.getByRole("link").click();
+    await expect(page).toHaveURL(/\/utbildning\/religion\/$/);
+    await expect(page.locator("[data-testid^='chapter-card-']").first()).toBeVisible();
+  });
+
+  test("kapitelkort: ingen ”Ej påbörjad”; Påbörjat och Slutfört med symbol och text", async ({ page }) => {
+    await page.goto(`/utbildning/${(chapter as unknown as { themeId: string }).themeId}/`);
+    await expect(page.getByText("Ej påbörjad")).toHaveCount(0);
+    await expect(page.getByTestId(`chapter-card-${chapter.id}`).getByTestId(/^status-/)).toHaveCount(0);
+    await page.goto(`/kapitel/${chapter.slug}/`);
+    await page.waitForFunction((id) => JSON.parse(localStorage.getItem("japanresan:v1:state") ?? "{}").chapters?.[id], chapter.id);
+    await page.goto(`/utbildning/${(chapter as unknown as { themeId: string }).themeId}/`);
+    await expect(page.getByTestId(`chapter-card-${chapter.id}`).getByTestId("status-started")).toHaveText(/◐ Påbörjat/);
+    await page.goto(`/kapitel/${chapter.slug}/`);
+    await takeQuiz(page, chapter, 0);
+    await page.goto(`/utbildning/${(chapter as unknown as { themeId: string }).themeId}/`);
+    await expect(page.getByTestId(`chapter-card-${chapter.id}`).getByTestId("status-completed")).toHaveText(/✓ Slutfört/);
+  });
+
+  test("startsidan: tre kompakta steg, kort bildtext och kompakt kreditering utan upprepad motivbeskrivning", async ({ page }) => {
+    await page.goto("/");
+    const steps = page.locator("section[aria-labelledby=sa-funkar] li");
+    await expect(steps).toHaveCount(3);
+    await expect(steps).toHaveText([/Välj tema/, /Läs och öva/, /Testa dig/]);
+    await expect(page.locator("figure figcaption").first()).toHaveText("Anbo på ön Yakushima.");
+    const rights = page.getByTestId("photo-rights");
+    await expect(rights).not.toContainText("Anbo på ön Yakushima");
+    await expect(rights.getByRole("link", { name: "Wikimedia Commons" })).toBeVisible();
+    await expect(rights.getByRole("link", { name: /CC0/ })).toBeVisible();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)).toBeLessThanOrEqual(0);
   });
 });

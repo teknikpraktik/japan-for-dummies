@@ -1,10 +1,10 @@
-import Link from "next/link";
 import { getContent } from "@/lib/content";
 import { PhotoRights, PhotoSlot, photosFor } from "@/components/Photo";
 import { themePath } from "@/lib/chapters";
 import { StartCta, type ChapterLite } from "@/components/StartCta";
 import { ThemeCards } from "@/components/ThemeCards";
 import { LocalNotice } from "@/components/LocalNotice";
+import { OfflineIntro } from "@/components/OfflineIntro";
 
 export default function Home() {
   const { trip, chapters, themes, home } = getContent();
@@ -21,32 +21,30 @@ export default function Home() {
           <p className="prose-col text-lg">
             En kurs i korta kapitel som ger dig en grund att stå på: landet och naturen, historia, vardag, språk, hänsyn och mat. Du läser, övar och gör ett kort test, i din egen takt på mobil, surfplatta eller dator.
           </p>
-          <StartCta chapters={lite} />
+          <StartCta chapters={lite} firstThemeId={cards[0].id} />
+          <OfflineIntro />
         </div>
         <PhotoSlot role="card" slotId={home.hero.slotId} imageId={home.hero.imageId} brief={home.hero.brief} />
       </section>
 
       <section aria-labelledby="sa-funkar" className="space-y-3">
         <h2 id="sa-funkar">Så fungerar utbildningen</h2>
-        <ol className="grid gap-3 md:grid-cols-4">
-          <li className="card">
-            <h3>1. Välj ett tema</h3>
-            <p>Utbildningen är indelad i {themes.length} teman. Börja med tema 1 eller hoppa till det som intresserar dig mest.</p>
-          </li>
-          <li className="card">
-            <h3>2. Läs och öva</h3>
-            <p>Varje kapitel tar cirka 5–8 minuter: kort text, bilder, övningar och något att lägga märke till på resan.</p>
-          </li>
-          <li className="card">
-            <h3>3. Gör testet</h3>
-            <p>Fem frågor med förklaringar. Fyra rätt ger ”Klar”, och du kan försöka igen hur många gånger du vill.</p>
-          </li>
-          <li className="card">
-            <h3>4. Följ dina framsteg</h3>
-            <p>
-              Inget konto behövs. Framstegen sparas i den här webbläsaren, och du kan <Link href="/offline/">ladda ned utbildningen</Link> för att använda den utan internet.
-            </p>
-          </li>
+        <ol className="grid gap-x-6 gap-y-3 md:grid-cols-3">
+          {[
+            ["Välj tema", "Börja från början eller välj det som intresserar dig."],
+            ["Läs och öva", "Korta kapitel med text, bilder och övningar."],
+            ["Testa dig", "Svara på frågor och få förklaringar till svaren."],
+          ].map(([t, d], i) => (
+            <li key={t} className="flex gap-3">
+              <span aria-hidden="true" className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-indigo-soft font-bold text-indigo-dark">
+                {i + 1}
+              </span>
+              <p>
+                <strong className="block">{t}</strong>
+                {d}
+              </p>
+            </li>
+          ))}
         </ol>
       </section>
 

@@ -20,3 +20,15 @@ export function readLastTheme(validIds: readonly string[]): string | null {
 export function writeLastTheme(id: string): void {
   store()?.set(LAST_THEME_KEY, id);
 }
+
+/** Senast öppnade kapitel. Används för att välja rätt kapitel på startsidans huvudknapp. */
+export const LAST_CHAPTER_KEY = "japanresan:v1:last-chapter";
+
+export function readLastChapter(validIds: readonly string[]): string | null {
+  const v = store()?.get(LAST_CHAPTER_KEY) ?? null;
+  return v && validIds.includes(v) ? v : null;
+}
+
+export function writeLastChapter(id: string): void {
+  store()?.set(LAST_CHAPTER_KEY, id);
+}

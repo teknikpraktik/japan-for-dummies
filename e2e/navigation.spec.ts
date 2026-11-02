@@ -351,4 +351,17 @@ test.describe("utbildningens navigation", () => {
     const vw = page.viewportSize()!.width;
     expect(box!.x + box!.width).toBeLessThanOrEqual(vw);
   });
+
+  test("sidospalten: bara aktivt tema är utfällt vid direktnavigering, och manuella utfällningar består", async ({ page }) => {
+    await page.goto("/utbildning/historia/");
+    await ensureNavVisible(page);
+    await expect(page.locator("[data-testid^='nav-toggle-'][aria-expanded='true']")).toHaveCount(1);
+    await expect(page.getByTestId("nav-toggle-historia")).toHaveAttribute("aria-expanded", "true");
+    await page.getByTestId("nav-toggle-geografi").click();
+    await page.getByTestId("nav-toggle-mat").click();
+    await expect(page.locator("[data-testid^='nav-toggle-'][aria-expanded='true']")).toHaveCount(3);
+    await page.getByTestId("nav-toggle-mat").click();
+    await expect(page.getByTestId("nav-toggle-geografi")).toHaveAttribute("aria-expanded", "true");
+    await expect(page.getByTestId("nav-toggle-historia")).toHaveAttribute("aria-expanded", "true");
+  });
 });
