@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { ACCOUNTS_ENABLED } from "@/lib/features";
 import { LoginForm } from "@/components/LoginForm";
 
 export const metadata: Metadata = { title: "Logga in", robots: { index: false } };
 
 export default function LoginPage() {
+  if (!ACCOUNTS_ENABLED) notFound();
   return (
     <div className="container-page space-y-6 pt-8">
       <header className="space-y-2">

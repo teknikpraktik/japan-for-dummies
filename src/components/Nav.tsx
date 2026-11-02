@@ -4,12 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useAccount } from "./AccountProvider";
 import { AccountMenu } from "./AccountMenu";
+import { ACCOUNTS_ENABLED } from "@/lib/features";
 
 const links = [
-  { href: "/", label: "Start", icon: "⌂" },
+  { href: "/", label: "Startsida", icon: "⌂" },
   { href: "/utbildning/", label: "Utbildning", icon: "☰" },
-  { href: "/resepass/", label: "Resepass", icon: "★" },
-  { href: "/info/", label: "Info", icon: "ⓘ" },
 ] as const;
 
 function isActive(pathname: string, href: string) {
@@ -41,7 +40,17 @@ export function SiteHeader() {
             ))}
           </ul>
         </nav>
-        <AccountMenu />
+        <div className="flex items-center gap-1">
+          <Link
+            href="/offline/"
+            aria-current={pathname.startsWith("/offline") ? "page" : undefined}
+            className="inline-flex min-h-11 items-center gap-1.5 rounded-lg px-3 text-[0.95rem] font-semibold no-underline hover:bg-indigo-soft aria-[current=page]:bg-indigo-soft"
+            data-testid="offline-link"
+          >
+            <span aria-hidden="true">⇩</span> Ladda ned offline
+          </Link>
+          {ACCOUNTS_ENABLED && <AccountMenu />}
+        </div>
       </div>
     </header>
   );
@@ -52,10 +61,10 @@ export function BottomNav() {
   const pathname = usePathname();
   const { user } = useAccount();
   const mine = !user ? { href: "/logga-in/", label: "Logga in", icon: "⎆" } : user.role === "teacher" ? { href: "/lararen/", label: "Lärare", icon: "☑" } : { href: "/min-utbildning/", label: "Min sida", icon: "★" };
-  const items = [links[0], links[1], mine, links[3]];
+  const items = ACCOUNTS_ENABLED ? [links[0], links[1], mine] : [links[0], links[1]];
   return (
     <nav aria-label="Snabbmeny" className="no-print fixed inset-x-0 bottom-0 z-40 border-t border-line bg-card md:hidden" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
-      <ul className="grid grid-cols-4">
+      <ul className={ACCOUNTS_ENABLED ? "grid grid-cols-3" : "grid grid-cols-2"}>
         {items.map((l) => (
           <li key={l.href}>
             <Link

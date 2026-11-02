@@ -1,7 +1,7 @@
 import { expect, test, type Page, type BrowserContext } from "@playwright/test";
-import { loginStudent, loginStudentOk, loginTeacher, SYN } from "./auth-helpers";
-import { pilots, takeQuiz, PUBLISHED } from "./helpers";
-import { totp } from "./totp";
+import { loginStudent, loginStudentOk, loginTeacher, SYN } from "../auth-helpers";
+import { pilots, takeQuiz, PUBLISHED } from "../helpers";
+import { totp } from "../totp";
 
 test.skip(({ isMobile }) => isMobile, "Inloggningsflödena körs på desktop (mobil täcks av layoutkontrollerna i quality.spec)");
 

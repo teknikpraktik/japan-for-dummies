@@ -8,7 +8,7 @@ const launchOptions = { executablePath, args: ["--no-sandbox"] };
 
 export default defineConfig({
   testDir: "./e2e",
-  globalSetup: "./e2e/global-setup.ts",
+  testIgnore: "**/konton/**",
   timeout: 60_000,
   expect: { timeout: 10_000 },
   fullyParallel: false,
@@ -20,6 +20,7 @@ export default defineConfig({
     { name: "desktop", use: { ...devices["Desktop Chrome"], launchOptions } },
     { name: "mobil", use: { ...devices["Pixel 5"], launchOptions } },
   ],
-  // Testerna körs mot produktionsbygget (.next). Kör `npm run build` först. Servern använder den lokala e2e-databasen.
+  // Kontofritt läge (standard): testerna körs mot produktionsbygget (.next) utan databas och utan autentiseringsvariabler. Kör `npm run build` först.
+  // Kontoläget testas separat: `npm run build:konton && npm run test:e2e:konton`.
   webServer: { command: `npx next start -p ${PORT}`, url: `http://localhost:${PORT}`, reuseExistingServer: false, timeout: 60_000, env: serverEnv(PORT) as Record<string, string> },
 });

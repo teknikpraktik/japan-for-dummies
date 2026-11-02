@@ -1,5 +1,7 @@
 # Lärarguide
 
+> **Obs:** Det här dokumentet beskriver kontoläget (inloggning, läraradministration), som är **avstängt som standard**. Den kontofria tjänstens integritetsinformation finns på sidan `/integritet/` i appen. Se [OPERATIONS.md](OPERATIONS.md).
+
 Logga in på `/logga-in/` och välj **Lärare**: e-postadress (används bara som inloggningsnamn, inga e-postmeddelanden skickas), och lösenord. Tvåfaktor med en autentiseringsapp är valfritt och kan aktiveras under Konto; är det aktiverat krävs en kod vid inloggning.
 
 ## Elever

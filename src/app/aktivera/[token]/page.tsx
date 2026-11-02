@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { ACCOUNTS_ENABLED } from "@/lib/features";
 import { ActivateForm } from "@/components/ActivateForm";
 
 export const metadata: Metadata = { title: "Aktivera lärarkonto", robots: { index: false } };
 
 export default function Activate() {
+  if (!ACCOUNTS_ENABLED) notFound();
   return (
     <div className="container-page space-y-6 pt-8">
       <header className="space-y-2">

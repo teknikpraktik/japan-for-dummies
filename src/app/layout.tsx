@@ -6,10 +6,11 @@ import { ServiceWorker } from "@/components/ServiceWorker";
 import { StorageBanner } from "@/components/StorageBanner";
 import { AccountProvider } from "@/components/AccountProvider";
 import { AccountBanner } from "@/components/AccountBanner";
+import { ACCOUNTS_ENABLED } from "@/lib/features";
 
 export const metadata: Metadata = {
   title: { default: "Japan for Dummies", template: "%s – Japan for Dummies" },
-  description: "Interaktiv förberedelse inför skolresan till Japan i oktober 2027: korta kapitel, övningar och test.",
+  description: "Utbildning om Japan i korta kapitel med övningar och test. Fungerar utan konto och offline.",
   applicationName: "Japan for Dummies",
   manifest: "/manifest.webmanifest",
   icons: { icon: "/icons/icon-192.png", apple: "/icons/apple-touch-icon.png" },
@@ -27,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         <SiteHeader />
         <StorageBanner />
-        <AccountBanner />
+        {ACCOUNTS_ENABLED && <AccountBanner />}
         <main id="innehall" tabIndex={-1} className="flex-1 pb-28 md:pb-12 outline-none">
           {children}
         </main>

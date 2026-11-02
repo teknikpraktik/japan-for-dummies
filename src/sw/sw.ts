@@ -1,6 +1,7 @@
 /// <reference lib="webworker" />
 import { CacheFirst, NetworkOnly, Serwist } from "serwist";
 import { isPrivatePath } from "../lib/private-paths";
+import { cleanupOldPrivateData } from "./cleanup";
 
 declare const self: ServiceWorkerGlobalScope;
 // Ersätts av scripts/build-sw.ts vid bygget.
@@ -89,5 +90,7 @@ self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") void self.skipWaiting();
   if (event.data && event.data.type === "GET_BUILD_ID") event.ports[0]?.postMessage({ buildId: __BUILD_ID__ });
 });
+
+self.addEventListener("activate", (event) => event.waitUntil(cleanupOldPrivateData(caches)));
 
 serwist.addEventListeners();

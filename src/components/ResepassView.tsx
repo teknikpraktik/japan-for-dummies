@@ -104,9 +104,6 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
 
       {showTransfer && <TransferPanel />}
 
-      <p className="text-sm text-ink-soft">
-        {showTransfer ? "Framstegen sparas bara i den här webbläsaren." : "Din status sparas på ditt konto. Resultat sparas bara på den här enheten."} <Link href="/info/">Läs om hur lagringen fungerar.</Link>
-      </p>
     </div>
   );
 }

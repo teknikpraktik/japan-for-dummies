@@ -4,6 +4,7 @@ import Link from "next/link";
 import { chapterStatus, suggestNext, type ChapterRef } from "@/lib/progress";
 import { useProgress } from "@/lib/store";
 import { useAccount } from "./AccountProvider";
+import { ACCOUNTS_ENABLED } from "@/lib/features";
 
 export interface ChapterLite extends ChapterRef {
   slug: string;
@@ -34,15 +35,19 @@ export function StartCta({ chapters }: { chapters: ChapterLite[] }) {
           Alla teman
         </Link>
       )}
-      {user ? (
-        <Link className="btn" href={user.role === "teacher" ? "/lararen/" : "/min-utbildning/"}>
-          {student ? "Min utbildning" : "Till lärarsidan"}
-        </Link>
-      ) : (
-        <Link className="btn" href="/logga-in/">
-          Logga in
-        </Link>
-      )}
+      {ACCOUNTS_ENABLED &&
+        (user ? (
+          <Link className="btn" href={user.role === "teacher" ? "/lararen/" : "/min-utbildning/"}>
+            {student ? "Min utbildning" : "Till lärarsidan"}
+          </Link>
+        ) : (
+          <Link className="btn" href="/logga-in/">
+            Logga in
+          </Link>
+        ))}
+      <Link className="btn" href="/offline/">
+        Ladda ned offline
+      </Link>
     </div>
   );
 }

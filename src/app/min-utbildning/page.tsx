@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { ACCOUNTS_ENABLED } from "@/lib/features";
 import { getContent } from "@/lib/content";
 import { StudentHome } from "@/components/StudentHome";
 
 export const metadata: Metadata = { title: "Min utbildning", robots: { index: false } };
 
 export default function MyEducation() {
+  if (!ACCOUNTS_ENABLED) notFound();
   const { chapters, themes } = getContent();
   return (
     <div className="container-page space-y-6 pt-8">

@@ -31,7 +31,7 @@ test.describe("pilotkapitel och direktlänkar", () => {
     await takeQuiz(page, pilots[0], 0);
     await page.goto("/utbildning/");
     await expect(page.getByText(/Du har klarat \d+ av \d+ färdiga kapitel/)).toHaveCount(0);
-    await page.goto("/resepass/");
+    await page.goto("/offline/");
     await expect(page.getByTestId("stat-completed")).toHaveText("1 / " + PUBLISHED);
   });
 
@@ -59,7 +59,7 @@ test.describe("poäng, gräns och omförsök", () => {
     await takeQuiz(page, c, 2); // 3 rätt
     await expect(page.getByTestId("quiz-result")).toContainText("Du fick 3 av 5 rätt");
     await expect(page.getByTestId("quiz-result")).toContainText("Fyra rätt krävs");
-    await page.goto("/resepass/");
+    await page.goto("/offline/");
     await expect(page.getByTestId("stat-completed")).toHaveText("0 / " + PUBLISHED);
 
     await page.goto(`/kapitel/${c.slug}/`);
@@ -84,7 +84,7 @@ test.describe("poäng, gräns och omförsök", () => {
       await page.getByTestId("next-question").click();
     }
     await expect(page.getByTestId("quiz-result")).toContainText("Du fick 0 av 5 rätt");
-    await page.goto("/resepass/");
+    await page.goto("/offline/");
     await expect(page.getByTestId("stat-completed")).toHaveText("1 / " + PUBLISHED);
     await expect(page.getByRole("row", { name: new RegExp(c.title.slice(0, 20)) })).toContainText("4/5");
   });
@@ -128,7 +128,7 @@ test.describe("export och import", () => {
     const c = pilots[0];
     await page.goto(`/kapitel/${c.slug}/`);
     await takeQuiz(page, c, 0);
-    await page.goto("/resepass/");
+    await page.goto("/offline/");
     await expect(page.getByTestId("last-export")).toHaveText("aldrig");
 
     const [download] = await Promise.all([page.waitForEvent("download"), page.getByTestId("export").click()]);
@@ -225,7 +225,7 @@ test.describe("bilder", () => {
     await expect(page.getByTestId("observe")).toHaveCount(1);
     await expect(page.getByTestId("observe")).toContainText("Utan bild:");
     // Chapter is still "not started → started" only by opening, not by the observation task.
-    await page.goto("/resepass/");
+    await page.goto("/offline/");
     await expect(page.getByTestId("stat-completed")).toHaveText("0 / " + PUBLISHED);
   });
 

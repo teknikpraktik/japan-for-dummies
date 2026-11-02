@@ -12,7 +12,7 @@ import path from "node:path";
 import { isPrivatePath } from "../src/lib/private-paths";
 
 const root = process.cwd();
-const nextDir = path.join(root, ".next");
+const nextDir = path.join(root, process.env.NEXT_DIST_DIR || ".next");
 if (!fs.existsSync(path.join(nextDir, "server", "app"))) throw new Error(".next saknas. Kör next build först.");
 
 interface Entry { url: string; size: number; hash: string }

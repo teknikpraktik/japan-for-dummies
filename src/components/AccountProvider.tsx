@@ -2,6 +2,7 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import { authClient } from "@/lib/auth-client";
+import { ACCOUNTS_ENABLED } from "@/lib/features";
 import { acctPrefix, LAST_ACCOUNT_KEY } from "@/lib/storage";
 import { progressStore } from "@/lib/store";
 import { clearAccountLocalData, pendingCount, flush, startSync, stopSync } from "@/lib/sync";
@@ -43,8 +44,28 @@ function readPersist(id: string): boolean {
   }
 }
 
+/** Tar bort nycklar som tillhörde inloggade konton (japanresan:v2:*). Gästframstegen (japanresan:v1:state) rörs inte. */
+function removeLegacyAccountData() {
+  try {
+    const keys: string[] = [];
+    for (let i = 0; i < window.localStorage.length; i++) {
+      const k = window.localStorage.key(i);
+      if (k && k.startsWith("japanresan:v2:")) keys.push(k);
+    }
+    keys.forEach((k) => window.localStorage.removeItem(k));
+    const sk: string[] = [];
+    for (let i = 0; i < window.sessionStorage.length; i++) {
+      const k = window.sessionStorage.key(i);
+      if (k && k.startsWith("japanresan:v2:")) sk.push(k);
+    }
+    sk.forEach((k) => window.sessionStorage.removeItem(k));
+  } catch {
+    /* lagring otillgänglig: inget att rensa */
+  }
+}
+
 export function AccountProvider({ children }: { children: React.ReactNode }) {
-  const [status, setStatus] = useState<AccountStatus>("loading");
+  const [status, setStatus] = useState<AccountStatus>(ACCOUNTS_ENABLED ? "loading" : "anonymous");
   const [user, setUser] = useState<Me | null>(null);
   const [unverified, setUnverified] = useState(false);
   const [persist, setPersistState] = useState(false);
@@ -99,6 +120,12 @@ export function AccountProvider({ children }: { children: React.ReactNode }) {
   }, [apply]);
 
   useEffect(() => {
+    if (!ACCOUNTS_ENABLED) {
+      // Kontofri tjänst: inga anrop om session eller synk. Rensa kvarglömda kontokopplade uppgifter från
+      // tidigare versioner så att de aldrig blandas med gästframstegen.
+      removeLegacyAccountData();
+      return;
+    }
     // eslint-disable-next-line react-hooks/set-state-in-effect -- datahämtning vid montering
     void refresh();
     const onFocus = () => void refresh();

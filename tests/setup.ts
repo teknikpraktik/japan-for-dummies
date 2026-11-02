@@ -16,3 +16,5 @@ process.env.BETTER_AUTH_SECRET = "test-only-secret-0123456789-0123456789-abcdefg
 process.env.BETTER_AUTH_URL = "http://localhost:3000";
 process.env.AUTH_RATE_LIMIT_ENABLED = "false";
 process.env.DATABASE_POOL_MAX = "10";
+// De befintliga server- och kontotesterna kör i kontoläge. Det kontofria läget testas separat (tests/konton-avstangda.test.ts).
+process.env.NEXT_PUBLIC_ACCOUNTS_ENABLED = "true";
