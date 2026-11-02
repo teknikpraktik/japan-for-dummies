@@ -13,6 +13,7 @@ export function AccountPage() {
   const [pw2, setPw2] = useState("");
   const [msg, setMsg] = useState<{ ok: boolean; text: string } | null>(null);
   const [bcPw, setBcPw] = useState("");
+  const [offPw, setOffPw] = useState("");
   const [codes, setCodes] = useState<string[] | null>(null);
   const [other, setOther] = useState<string | null>(null);
 
@@ -49,6 +50,14 @@ export function AccountPage() {
     }
   }
 
+  async function turnOff(e: React.FormEvent) {
+    e.preventDefault();
+    setMsg(null);
+    const r = await authClient.twoFactor.disable({ password: offPw });
+    if (r.error) return setMsg({ ok: false, text: "Det gick inte att stänga av tvåfaktor. Kontrollera lösenordet." });
+    window.location.reload();
+  }
+
   const teacher = user.role === "teacher";
   return (
     <div className="space-y-6 prose-col">
@@ -81,6 +90,16 @@ export function AccountPage() {
                   <ul className="mt-2 grid grid-cols-2 gap-1 font-mono">{codes.map((c) => <li key={c}>{c}</li>)}</ul>
                 </div>
               )}
+            </form>
+          )}
+
+          {user.twoFactorEnabled && (
+            <form onSubmit={turnOff} className="card space-y-2" aria-labelledby="off">
+              <h2 id="off" className="!text-xl">Stäng av tvåfaktor</h2>
+              <p className="text-sm">Därefter räcker e-postadress och lösenord vid inloggning. Du kan aktivera tvåfaktor igen när som helst.</p>
+              <label htmlFor="offpw" className="block font-semibold">Ditt lösenord</label>
+              <input id="offpw" type="password" autoComplete="current-password" required value={offPw} onChange={(e) => setOffPw(e.target.value)} className="w-full rounded-lg border-2 border-line bg-white p-3" data-testid="tf-off-password" />
+              <button className="btn" data-testid="tf-off">Stäng av tvåfaktor</button>
             </form>
           )}
 

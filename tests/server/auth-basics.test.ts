@@ -142,6 +142,27 @@ describe("lärarinloggning med tvåfaktor", () => {
     expect(ok.status).toBe(200);
   });
 
+  it("tvåfaktor kan stängas av med lösenordet; därefter räcker lösenordet vid inloggning", async () => {
+    const g = await makeGroup();
+    const t = await makeTeacher(g, { twoFactor: false });
+    const login = await signInTeacher(t.email);
+    const enable = await authPost("/two-factor/enable", { password: t.password }, login.cookie);
+    const secret = new URL(String(enable.body!.totpURI)).searchParams.get("secret")!;
+    const { totp } = await import("./helpers");
+    await authPost("/two-factor/verify-totp", { code: totp(secret) }, login.cookie);
+    const withTf = await authPost("/sign-in/email", { email: t.email, password: t.password });
+    expect(withTf.body).toMatchObject({ twoFactorRedirect: true });
+    const full = await authPost("/two-factor/verify-totp", { code: totp(secret) }, withTf.cookie); // loggar in med TOTP
+    expect(full.res.status).toBe(200);
+    const wrong = await authPost("/two-factor/disable", { password: "fel-losenord-123" }, full.cookie || withTf.cookie);
+    expect(wrong.res.status).not.toBe(200);
+    const off = await authPost("/two-factor/disable", { password: t.password }, full.cookie || withTf.cookie);
+    expect(off.res.status).toBe(200);
+    const after = await authPost("/sign-in/email", { email: t.email, password: t.password });
+    expect(after.body).not.toMatchObject({ twoFactorRedirect: true });
+    expect(after.res.status).toBe(200);
+  });
+
   it("återställningskod fungerar som andra faktor och förbrukas", async () => {
     const g = await makeGroup();
     const t = await makeTeacher(g, { twoFactor: false });
