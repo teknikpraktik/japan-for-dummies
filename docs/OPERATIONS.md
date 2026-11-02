@@ -14,7 +14,8 @@ Det här dokumentet är för den som driftsätter tjänsten. Inga hemligheter st
 | `BETTER_AUTH_URL` | produktion | Publik bas-URL (exakt, utan jokertecken). På preview används Vercels egna URL:er. |
 | `AUTH_RATE_LIMIT_ENABLED` | nej | `false` bara i automatiska tester. |
 | `PRIVACY_CONTROLLER_NAME`, `PRIVACY_CONTACT`, `PRIVACY_DPO_CONTACT`, `PRIVACY_RETENTION_POLICY` | nej | Skolan fastställer. Läses vid bygget och visas på `/integritet/`. Tomma värden visas som "Ej fastställt av skolan än". Bygg om efter ändring. |
-| `CONFIRM_OPERATOR_ACTION=yes` | vid operatörskommandon mot produktion | Extra bekräftelse. |
+| `CONFIRM_OPERATOR_ACTION=yes` | vid operatörskommandon mot produktion | Extra bekräftelse för `admin:bootstrap` och `admin:recover`. |
+| `CONFIRM_PRODUCTION_MIGRATION=yes` | vid `db:migrate` mot produktion | Extra bekräftelse; ta först en återställningspunkt (Neon-branch från production). |
 
 ## Miljöseparation
 
@@ -39,7 +40,7 @@ npm run db:generate          # efter schemaändring: skapar ny SQL-fil i drizzle
 DATABASE_URL=<sträng> DB_TARGET=preview npm run db:migrate
 ```
 
-Kör migreringen mot preview först, sedan produktion. Migreringar körs inte automatiskt vid Vercel-bygget. Migreringar är additiva; granska SQL innan produktion. Sätt strängen i miljön för kommandot utan att skriva den i skalhistoriken (till exempel `read -rs DATABASE_URL; export DATABASE_URL`).
+Kör migreringen mot preview först, sedan produktion (`DB_TARGET=production CONFIRM_PRODUCTION_MIGRATION=yes`, efter att du skapat en Neon-branch av production som återställningspunkt). Migreringar körs inte automatiskt vid Vercel-bygget. Migreringar är additiva; granska SQL innan produktion. Sätt strängen i miljön för kommandot utan att skriva den i skalhistoriken (till exempel `read -rs DATABASE_URL; export DATABASE_URL`).
 
 ## Skapa första läraren
 
