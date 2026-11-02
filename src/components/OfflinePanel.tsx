@@ -78,7 +78,7 @@ export function OfflinePanel() {
     <section aria-labelledby="offline" id="offline" className="card space-y-3">
       <h2 id="offline">Gör utbildningen tillgänglig offline</h2>
       <p>
-        Ladda ned alla sidor, övningar och test (inklusive de sex pilotkapitlen) till enheten så att de går att öppna utan internet. Dina framsteg sparas ändå lokalt som vanligt.
+        Ladda ned alla sidor, övningar och test (inklusive alla färdiga kapitel) till enheten så att de går att öppna utan internet. Dina framsteg sparas ändå lokalt som vanligt.
       </p>
       <p aria-live="polite" className="text-sm text-ink-soft" data-testid="online-state">
         Just nu: {online ? "du är online" : "du är offline"}.

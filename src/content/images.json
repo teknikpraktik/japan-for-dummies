@@ -873,7 +873,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, beskuren så att en backljus-silhuett av en person till vänster inte syns, och visas därefter beskuren (efter fokuspunkt) till 3:2 på dator och 4:3 på mobil, omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "En person i silhuett till vänster i originalet är bortbeskuren; på torget syns bara små, oidentifierbara figurer på långt håll.",
     "usedIn": [
-      "t02-k02"
+      "t02-k02",
+      "t01-k04"
     ]
   },
   {
@@ -1212,7 +1213,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
-      "home"
+      "home",
+      "t01-k05"
     ]
   },
   {

@@ -1,19 +1,312 @@
 [
-  { "id": "nippon-islands-2023", "title": "Japan's Islands Double to 14,125 Following New Survey", "publisher": "nippon.com (Nippon Communications Foundation)", "url": "https://www.nippon.com/en/japan-data/h01615/", "kind": "news-or-reference", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Antalet öar (14 125) efter Japans kartverks omräkning 2023, tidigare 6 852, och att samma storlekskriterium (minst 100 meter omkrets) användes." },
-  { "id": "webjapan-regions", "title": "Regions of Japan (Japan Fact Sheet)", "publisher": "Web Japan (Japans utrikesdepartement)", "url": "https://web-japan.org/factsheet/en/pdf/02RegionsofJap.pdf", "kind": "official", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "De fyra huvudöarna (Hokkaido, Honshu, Shikoku, Kyushu), Honshu som störst och huvudsaklig plats för Tokyo, Osaka och Kyoto." },
-  { "id": "wikipedia-geography-japan", "title": "Geography of Japan", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Geography_of_Japan", "kind": "news-or-reference", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Total yta cirka 378 000 km², bergig terräng (cirka 73 procent enligt vanliga uppgifter) och Fuji 3 776 meter. Sekundärkälla; uppgifter varierar något mellan källor." },
-  { "id": "britannica-meiji", "title": "Meiji Restoration", "publisher": "Encyclopaedia Britannica", "url": "https://britannica.com/event/Meiji-Restoration/Introduction", "kind": "news-or-reference", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Meijirestaurationen 1868 som slutet för Tokugawa-shogunatet; Edoperioden brukar dateras 1603–1867. Händelsen och dess slut dateras något olika av olika historiker." },
-  { "id": "japansociety-timeline", "title": "Timeline of Modern Japan (1868–1945)", "publisher": "Japan Society (aboutjapan.japansociety.org)", "url": "https://aboutjapan.japansociety.org/timeline_modern", "kind": "institution", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Domäner ersätts av prefekturer 1871, järnvägen Tokyo–Yokohama 1872, värnpliktsförordning 1873, konstitutionen 1889." },
-  { "id": "nippon-sakoku", "title": "Foreign Relations in Early Modern Japan: Exploding the Myth of National Seclusion", "publisher": "nippon.com", "url": "https://www.nippon.com/en/features/c00104/foreign-relations-in-early-modern-japan-exploding-the-myth-of-national-seclusion.html", "kind": "news-or-reference", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Edotidens kontakter via Nagasaki, Tsushima, Satsuma och Matsumae: Japan var begränsat öppet snarare än helt stängt." },
-  { "id": "yokohama-perry", "title": "Perry and the opening of Japan", "publisher": "Staden Yokohama", "url": "https://en.city.yokohama.lg.jp/kurashi/kyodo-manabi/library/shiru/sakoku/perry.html", "kind": "official", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Perrys ankomst 1853 och fördraget 1854. Källorna anger dagen för ankomsten något olika, därför anges bara år i kapitlet." },
-  { "id": "emb-japan-education", "title": "Education System in Japan", "publisher": "Japans ambassad i USA", "url": "https://www.us.emb-japan.go.jp/itpr_en/education-system-in-japan.html", "kind": "official", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Sex år grundskola plus tre år högstadium (nio obligatoriska år); elever städar tillsammans klassrum, korridorer och skolgård." },
-  { "id": "emb-bd-education", "title": "Educational System (Japan Info)", "publisher": "Japans ambassad i Bangladesh", "url": "https://www.bd.emb-japan.go.jp/en/japanInfo/educationSystem.html", "kind": "official", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Skolåret börjar 1 april och är oftast uppdelat i tre terminer; vissa skolor har två terminer. Gymnasiet är inte obligatoriskt." },
-  { "id": "mext-whitepaper-lunch", "title": "Vitbok om utbildning, avsnitt om skolmåltider (hpae199201)", "publisher": "MEXT (Japans utbildningsdepartement)", "url": "https://www.mext.go.jp/b_menu/hakusho/html/hpae199201/hpae199201_2_019.html", "kind": "official", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Skolmåltiden som lärotillfälle där eleverna deltar i förberedelse, servering och uppstädning. Äldre dokument: dagens praxis kan skilja sig." },
-  { "id": "jnto-manners", "title": "Japanese manners: dos and don'ts", "publisher": "JNTO (Japan National Tourism Organization)", "url": "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/", "kind": "official", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Fraserna itadakimasu före och gochisosama efter måltid. Sidans övriga innehåll har inte kunnat läsas i sin helhet." },
-  { "id": "visitkanagawa-manners", "title": "Sightseeing manners", "publisher": "Kanagawa Prefecture (visitkanagawa.jp)", "url": "https://visitkanagawa.jp/feature/japanese-customs-and-manners/sightseeing-manners", "kind": "official", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Fotoregler vid tempel och helgedomar anges ofta på skyltar på japanska och engelska; var hänsynsfull när du fotograferar människor och privat egendom." },
-  { "id": "timeout-gion-2019", "title": "Kyoto's Gion geisha district bans photos on private streets and introduces ¥10,000 fine", "publisher": "Time Out Tokyo", "url": "https://www.timeout.com/tokyo/news/kyotos-gion-geisha-district-bans-photos-on-private-streets-and-introduces-10-000-fine-102919", "kind": "news-or-reference", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Lokala fotoförbud på privata gator i Gion (2019). Om böterna är juridiskt bindande är oklart enligt rapporteringen. Nyhetskälla, regler kan ha ändrats." },
-  { "id": "jrcentral-baggage", "title": "Oversized baggage (Tokaido, Sanyo and Kyushu Shinkansen)", "publisher": "JR Central", "url": "https://global.jr-central.co.jp/en/info/oversized-baggage", "kind": "official", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Bagage över 160 cm (summan av längd, bredd och höjd) kräver reservation av plats med bagageutrymme på Tokaido-, Sanyo- och Kyushu-Shinkansen. Reglerna ändras: kontrollera inför avresa." },
-  { "id": "voyapon-ticket-machines", "title": "Order ticket vending machine", "publisher": "Voyapon", "url": "https://voyapon.com/order-ticket-vending-machine/", "kind": "travel-guide", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "På många ramenställen väljer och betalar man vid en biljettautomat vid ingången och lämnar biljetten till personalen. Reseguide, inte myndighetskälla." },
-  { "id": "wikipedia-dining-etiquette", "title": "Customs and etiquette in Japanese dining", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Customs_and_etiquette_in_Japanese_dining", "kind": "news-or-reference", "checkedOn": "2026-11-01", "access": "search-result-summary", "supports": "Allmän bakgrund om bordsskick, ätpinnar och att dricks normalt inte förväntas. Sekundärkälla." },
-  { "id": "natural-earth", "title": "Natural Earth – free vector and raster map data", "publisher": "Natural Earth", "url": "https://www.naturalearthdata.com/about/terms-of-use/", "kind": "institution", "checkedOn": "2026-11-01", "access": "not-checked", "supports": "Kartdata som används för kartbilden. Natural Earth är allmänt känt som public domain, men villkorssidan har varken öppnats eller sökts upp i detta arbete och måste bekräftas innan publicering." }
+  {
+    "id": "nippon-islands-2023",
+    "title": "Japan's Islands Double to 14,125 Following New Survey",
+    "publisher": "nippon.com (Nippon Communications Foundation)",
+    "url": "https://www.nippon.com/en/japan-data/h01615/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Antalet öar (14 125) efter Japans kartverks omräkning 2023, tidigare 6 852, och att samma storlekskriterium (minst 100 meter omkrets) användes."
+  },
+  {
+    "id": "webjapan-regions",
+    "title": "Regions of Japan (Japan Fact Sheet)",
+    "publisher": "Web Japan (Japans utrikesdepartement)",
+    "url": "https://web-japan.org/factsheet/en/pdf/02RegionsofJap.pdf",
+    "kind": "official",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "De fyra huvudöarna (Hokkaido, Honshu, Shikoku, Kyushu), Honshu som störst och huvudsaklig plats för Tokyo, Osaka och Kyoto."
+  },
+  {
+    "id": "wikipedia-geography-japan",
+    "title": "Geography of Japan",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Geography_of_Japan",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Total yta cirka 378 000 km², bergig terräng (cirka 73 procent enligt vanliga uppgifter) och Fuji 3 776 meter. Sekundärkälla; uppgifter varierar något mellan källor."
+  },
+  {
+    "id": "britannica-meiji",
+    "title": "Meiji Restoration",
+    "publisher": "Encyclopaedia Britannica",
+    "url": "https://britannica.com/event/Meiji-Restoration/Introduction",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Meijirestaurationen 1868 som slutet för Tokugawa-shogunatet; Edoperioden brukar dateras 1603–1867. Händelsen och dess slut dateras något olika av olika historiker."
+  },
+  {
+    "id": "japansociety-timeline",
+    "title": "Timeline of Modern Japan (1868–1945)",
+    "publisher": "Japan Society (aboutjapan.japansociety.org)",
+    "url": "https://aboutjapan.japansociety.org/timeline_modern",
+    "kind": "institution",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Domäner ersätts av prefekturer 1871, järnvägen Tokyo–Yokohama 1872, värnpliktsförordning 1873, konstitutionen 1889."
+  },
+  {
+    "id": "nippon-sakoku",
+    "title": "Foreign Relations in Early Modern Japan: Exploding the Myth of National Seclusion",
+    "publisher": "nippon.com",
+    "url": "https://www.nippon.com/en/features/c00104/foreign-relations-in-early-modern-japan-exploding-the-myth-of-national-seclusion.html",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Edotidens kontakter via Nagasaki, Tsushima, Satsuma och Matsumae: Japan var begränsat öppet snarare än helt stängt."
+  },
+  {
+    "id": "yokohama-perry",
+    "title": "Perry and the opening of Japan",
+    "publisher": "Staden Yokohama",
+    "url": "https://en.city.yokohama.lg.jp/kurashi/kyodo-manabi/library/shiru/sakoku/perry.html",
+    "kind": "official",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Perrys ankomst 1853 och fördraget 1854. Källorna anger dagen för ankomsten något olika, därför anges bara år i kapitlet."
+  },
+  {
+    "id": "emb-japan-education",
+    "title": "Education System in Japan",
+    "publisher": "Japans ambassad i USA",
+    "url": "https://www.us.emb-japan.go.jp/itpr_en/education-system-in-japan.html",
+    "kind": "official",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Sex år grundskola plus tre år högstadium (nio obligatoriska år); elever städar tillsammans klassrum, korridorer och skolgård."
+  },
+  {
+    "id": "emb-bd-education",
+    "title": "Educational System (Japan Info)",
+    "publisher": "Japans ambassad i Bangladesh",
+    "url": "https://www.bd.emb-japan.go.jp/en/japanInfo/educationSystem.html",
+    "kind": "official",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Skolåret börjar 1 april och är oftast uppdelat i tre terminer; vissa skolor har två terminer. Gymnasiet är inte obligatoriskt."
+  },
+  {
+    "id": "mext-whitepaper-lunch",
+    "title": "Vitbok om utbildning, avsnitt om skolmåltider (hpae199201)",
+    "publisher": "MEXT (Japans utbildningsdepartement)",
+    "url": "https://www.mext.go.jp/b_menu/hakusho/html/hpae199201/hpae199201_2_019.html",
+    "kind": "official",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Skolmåltiden som lärotillfälle där eleverna deltar i förberedelse, servering och uppstädning. Äldre dokument: dagens praxis kan skilja sig."
+  },
+  {
+    "id": "jnto-manners",
+    "title": "Japanese manners: dos and don'ts",
+    "publisher": "JNTO (Japan National Tourism Organization)",
+    "url": "https://www.japan.travel/en/guide/japanese-manners-dos-and-donts/",
+    "kind": "official",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Fraserna itadakimasu före och gochisosama efter måltid. Sidans övriga innehåll har inte kunnat läsas i sin helhet."
+  },
+  {
+    "id": "visitkanagawa-manners",
+    "title": "Sightseeing manners",
+    "publisher": "Kanagawa Prefecture (visitkanagawa.jp)",
+    "url": "https://visitkanagawa.jp/feature/japanese-customs-and-manners/sightseeing-manners",
+    "kind": "official",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Fotoregler vid tempel och helgedomar anges ofta på skyltar på japanska och engelska; var hänsynsfull när du fotograferar människor och privat egendom."
+  },
+  {
+    "id": "timeout-gion-2019",
+    "title": "Kyoto's Gion geisha district bans photos on private streets and introduces ¥10,000 fine",
+    "publisher": "Time Out Tokyo",
+    "url": "https://www.timeout.com/tokyo/news/kyotos-gion-geisha-district-bans-photos-on-private-streets-and-introduces-10-000-fine-102919",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Lokala fotoförbud på privata gator i Gion (2019). Om böterna är juridiskt bindande är oklart enligt rapporteringen. Nyhetskälla, regler kan ha ändrats."
+  },
+  {
+    "id": "jrcentral-baggage",
+    "title": "Oversized baggage (Tokaido, Sanyo and Kyushu Shinkansen)",
+    "publisher": "JR Central",
+    "url": "https://global.jr-central.co.jp/en/info/oversized-baggage",
+    "kind": "official",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Bagage över 160 cm (summan av längd, bredd och höjd) kräver reservation av plats med bagageutrymme på Tokaido-, Sanyo- och Kyushu-Shinkansen. Reglerna ändras: kontrollera inför avresa."
+  },
+  {
+    "id": "voyapon-ticket-machines",
+    "title": "Order ticket vending machine",
+    "publisher": "Voyapon",
+    "url": "https://voyapon.com/order-ticket-vending-machine/",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "På många ramenställen väljer och betalar man vid en biljettautomat vid ingången och lämnar biljetten till personalen. Reseguide, inte myndighetskälla."
+  },
+  {
+    "id": "wikipedia-dining-etiquette",
+    "title": "Customs and etiquette in Japanese dining",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Customs_and_etiquette_in_Japanese_dining",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-01",
+    "access": "search-result-summary",
+    "supports": "Allmän bakgrund om bordsskick, ätpinnar och att dricks normalt inte förväntas. Sekundärkälla."
+  },
+  {
+    "id": "natural-earth",
+    "title": "Natural Earth – free vector and raster map data",
+    "publisher": "Natural Earth",
+    "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "kind": "institution",
+    "checkedOn": "2026-11-01",
+    "access": "not-checked",
+    "supports": "Kartdata som används för kartbilden. Natural Earth är allmänt känt som public domain, men villkorssidan har varken öppnats eller sökts upp i detta arbete och måste bekräftas innan publicering."
+  },
+  {
+    "id": "mlit-active-volcanoes",
+    "title": "Active Volcanoes in Japan",
+    "publisher": "Japans transportministerium MLIT (flerspråkig databas)",
+    "url": "https://www.mlit.go.jp/tagengo-db/en/R1-02677.html",
+    "kind": "official",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Att det officiella antalet aktiva vulkaner var 111 år 2017, att siffran ändras med ny forskning och nya kriterier, och kopplingen till plattornas rörelser."
+  },
+  {
+    "id": "jnto-safety-tips",
+    "title": "Safety tips for travelers",
+    "publisher": "Japan National Tourism Organization (JNTO)",
+    "url": "https://www.jnto.go.jp/safety-tips/eng/index.html",
+    "kind": "official",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Att appen Safety tips ger varningar om jordbävning, tsunami och väder på flera språk."
+  },
+  {
+    "id": "japantravel-tsunami",
+    "title": "Japan Safe Travel: Tsunami",
+    "publisher": "Japan National Tourism Organization (japan.travel)",
+    "url": "https://www.japan.travel/en/japan-safe-travel-information/tsunami/",
+    "kind": "official",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Råd vid tsunami: gå till högre mark utan att vänta på varning, en tsunami kan komma i flera vågor, gå inte nära stranden förrän varningen hävts."
+  },
+  {
+    "id": "wikipedia-jma-intensity",
+    "title": "Japan Meteorological Agency seismic intensity scale",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Japan_Meteorological_Agency_seismic_intensity_scale",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Att JMA:s skala för seismisk intensitet (shindo) anges i nivåer från 0 till 7."
+  },
+  {
+    "id": "gfdrr-japan-earthquake",
+    "title": "Knowledge Note: Japan Earthquake",
+    "publisher": "GFDRR (Global Facility for Disaster Reduction and Recovery, Världsbanken)",
+    "url": "https://www.gfdrr.org/sites/default/files/publication/knowledge-note-japan-earthquake-1-2.pdf",
+    "kind": "institution",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Att byggreglerna före 1981 var lägre än efter, och att byggnaders sårbarhet i hög grad bestäms av jordbävningsreglerna från 1981."
+  },
+  {
+    "id": "jma-normals",
+    "title": "Tables of Climatological Normals (1991–2020)",
+    "publisher": "Japan Meteorological Agency (JMA)",
+    "url": "https://www.data.jma.go.jp/stats/data/en/normal/normal.html",
+    "kind": "official",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Medeltemperatur i Naha i oktober: 25,5 °C (normalvärden 1991–2020)."
+  },
+  {
+    "id": "japan-guide-tsuyu",
+    "title": "Rainy Season (Tsuyu)",
+    "publisher": "japan-guide.com",
+    "url": "https://www.japan-guide.com/e/e2277.html",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Tsuyu infaller ungefär juni–mitten av juli, tidigare i Okinawa, och Hokkaido saknar tydlig regnperiod."
+  },
+  {
+    "id": "jrpass-typhoon-season",
+    "title": "Traveling During Japan's Rainy and Typhoon Seasons",
+    "publisher": "JRPass (blogg)",
+    "url": "https://www.jrpass.com/blog/traveling-during-japan-s-rainy-and-typhoon-seasons-what-to-expect",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Taifunsäsongen maj–oktober med flest stormar i augusti–september, och att transporter kan påverkas."
+  },
+  {
+    "id": "tbs-akiya",
+    "title": "Akiya houses: Why Japan has nine million empty homes",
+    "publisher": "TBS News",
+    "url": "https://www.tbsnews.net/world/akiya-houses-why-japan-has-nine-million-empty-homes-842111",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Att en statlig undersökning från 2023 räknade cirka 9 miljoner tomma bostäder (13,8 procent), och att antalet har fördubblats sedan 1993."
+  },
+  {
+    "id": "asianews-vacant-homes",
+    "title": "Japan's demographic winter weighs heavily, as 1 in 7 houses empty",
+    "publisher": "AsiaNews",
+    "url": "https://www.asianews.it/en/east-asia/japan/japan-s-demographic-winter-weighs-heavily-as-1-in-7-houses-empty",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Att ungefär var sjunde bostad i Japan stod tom enligt undersökningen från 2023, och sambandet med minskande befolkning."
+  },
+  {
+    "id": "env-national-parks",
+    "title": "National Parks of Japan (informationsblad, januari 2025)",
+    "publisher": "Japans miljöministerium",
+    "url": "https://www.env.go.jp/content/900492579.pdf",
+    "kind": "official",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Att Japan har 35 nationalparker som täcker cirka 2,44 miljoner hektar, alltså 6,5 procent av landytan."
+  },
+  {
+    "id": "env-yakushima",
+    "title": "Yakushima World Heritage Site",
+    "publisher": "Japans miljöministerium",
+    "url": "https://www.env.go.jp/en/park/yakushima/ywhcc/wh/toroku.html",
+    "kind": "official",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Att Yakushima är ett världsarv och att området till stor del är statlig skog."
+  },
+  {
+    "id": "timeout-onsen",
+    "title": "Onsen etiquette",
+    "publisher": "Time Out Tokyo",
+    "url": "https://www.timeout.com/tokyo/things-to-do/onsen-etiquette",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Onsenetikett: tvätta dig först, simma inte, fotografera inte, och många anläggningar tillåter inte tatueringar."
+  },
+  {
+    "id": "nippon-bear-sightings",
+    "title": "Bear sightings surge in Japan",
+    "publisher": "nippon.com (Japan Data)",
+    "url": "https://www.nippon.com/en/japan-data/h02777/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-02",
+    "access": "search-result-summary",
+    "supports": "Att björnobservationer och olyckor ökat kraftigt, att de oftast är flest på hösten, och råd som att kontrollera rapporter, undvika att gå ensam och ha björnklocka."
+  }
 ]

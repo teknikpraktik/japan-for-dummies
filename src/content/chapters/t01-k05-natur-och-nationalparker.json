@@ -1,0 +1,373 @@
+{
+  "id": "t01-k05",
+  "slug": "natur-och-nationalparker",
+  "themeId": "geografi",
+  "order": 5,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Natur, nationalparker och djurliv",
+  "summary": "Skogar, kuster, varma källor och unika arter. Kapitlet handlar om hur Japan skyddar och använder sin natur, och hur besökare kan röra sig i den med hänsyn.",
+  "objectives": [
+    "Namnge några naturtyper och vad som kännetecknar dem",
+    "Förklara vad en nationalpark i Japan kan innebära i praktiken",
+    "Visa hänsyn i naturen under resan"
+  ],
+  "minutes": 7,
+  "hook": {
+    "kind": "question",
+    "text": "I en japansk nationalpark kan du gå på en skogsstig på förmiddagen, passera ett värdshus och en by, och sedan sitta i ett varmt bad ute i naturen. Är det verkligen en ”nationalpark”?"
+  },
+  "sections": [
+    {
+      "id": "naturtyper",
+      "heading": "Skogar, berg och kuster",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Eftersom en stor del av landet är berg (se kapitel 1) är mycket av Japans natur **skogklädda berg**. Landet har också en lång kust med klippor, vikar och öar, och vulkaniska landskap med varma källor och kratersjöar. Naturen förändras med årstiderna, från snö i norr till subtropiska skogar i söder."
+        },
+        {
+          "type": "p",
+          "text": "**Yakushima**, en ö i söder, är känd för sina urgamla skogar med mycket gamla cedrar och mycket regn. Området är med på Unescos världsarvslista."
+        }
+      ]
+    },
+    {
+      "id": "nationalparker",
+      "heading": "Nationalparker: skyddade, men inte tomma",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan har **35 nationalparker**, som tillsammans täcker ungefär 6,5 procent av landets yta (Miljöministeriet, 2025). I många parker finns även byar, jordbruksmark och värdshus. Skyddet fungerar genom regler för vad som får byggas och göras i olika zoner, inte genom att området är avstängt för människor."
+        },
+        {
+          "type": "p",
+          "text": "Som besökare betyder det att du ofta rör dig i ett landskap där människor bor och arbetar. Håll dig till stigar och vägar, släpp inte ut skräp, och följ skyltar och lokala regler. Reglerna finns både för att skydda naturen och för att människorna på platsen ska kunna fortsätta sin vardag."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Nationalparker",
+              "value": "35 stycken, cirka 6,5 procent av landets yta"
+            },
+            {
+              "label": "Ansvarig myndighet",
+              "value": "Miljöministeriet"
+            },
+            {
+              "label": "Yakushima",
+              "value": "En av platserna som är världsarv, känd för urgamla skogar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "djur",
+      "heading": "Djurliv och hänsyn",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan har ett rikt djurliv. **Japanmakaker** lever i bergsskogar, och vid Jigokudani i Nagano har de blivit kända för att bada i varma källor på vintern. **Sikahjortar** går fritt på vissa platser, som i Nara. På Hokkaido finns **brunbjörn** och på Honshu finns **asiatisk svartbjörn**."
+        },
+        {
+          "type": "p",
+          "text": "Matar du eller närmar dig djur riskerar du dem och dig själv. Håll avstånd, mata inte, och ta inte med mat ut i skogen som lockar djur."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Björn",
+          "text": "Björnar rör sig oftare nära människor på hösten, och det har rapporterats många observationer de senaste åren. Läs lokala anslagsskyltar, vandra inte ensam, gör ljud på stigar (till exempel med en björnklocka) och följ gruppens ledare och lokala anvisningar. Om du ser en björn: backa lugnt och gå inte mot den."
+        },
+        {
+          "type": "photo",
+          "slotId": "t01-k05-djur",
+          "imageId": null,
+          "brief": "Ett vilt djur i japansk natur, till exempel japanmakaker i ett varmt bad eller en hjort, fotograferad på avstånd."
+        }
+      ]
+    },
+    {
+      "id": "onsen",
+      "heading": "Varma källor (onsen)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Eftersom Japan är vulkaniskt finns det många **varma källor**, **onsen**. Att bada i dem är en gammal vana som många uppskattar. Det finns tydliga regler som visar hänsyn till andra badare:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Tvätta dig noga** vid duschplatserna innan du går i badet.",
+            "Håll **handduken utanför** badvattnet.",
+            "**Simma eller dyk inte**, och tala lågt.",
+            "Fotografera inte i badområdet.",
+            "Många anläggningar tillåter inte **tatueringar**. Fråga i förväg, och försök inte dölja en tatuering för att komma in."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Onsen är ofta könsseparerade, och man badar utan kläder. Det kan kännas ovant, och det är helt okej att hoppa över det om du inte vill. Fråga gruppens ledare om du är osäker."
+        },
+        {
+          "type": "photo",
+          "slotId": "t01-k05-onsen",
+          "imageId": null,
+          "brief": "Ett utomhusbad (rotenburo) eller en varm källa i naturen i Japan, helst utan identifierbara personer."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "ordering",
+      "id": "onsen-steg",
+      "title": "Ordningen i ett onsenbesök",
+      "prompt": "Ordna stegen i ett onsenbesök, från första till sista.",
+      "items": [
+        {
+          "id": "klader",
+          "text": "Lägg dina kläder i ett skåp i omklädningsrummet"
+        },
+        {
+          "id": "tvatta",
+          "text": "Tvätta dig noga vid duschplatsen"
+        },
+        {
+          "id": "bad",
+          "text": "Gå ner i badet, med handduken utanför vattnet"
+        },
+        {
+          "id": "torka",
+          "text": "Torka dig innan du går tillbaka till omklädningsrummet"
+        }
+      ],
+      "explanation": "Man tvättar sig innan man går i det delade badet, och handduken ligger utanför vattnet. Man torkar sig innan man går tillbaka in."
+    },
+    {
+      "type": "scenario",
+      "id": "tatuering",
+      "title": "Tatuering och onsen",
+      "situation": "Du har en liten tatuering och vill besöka ett onsen. Vid entrén står en skylt om att tatueringar inte är tillåtna.",
+      "question": "Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Respekterar regeln: frågar om det finns ett alternativ, till exempel ett privat bad, eller väljer en annan plats.",
+          "correct": true,
+          "feedback": "Rätt. Regeln gäller på platsen. Det går att fråga efter alternativ."
+        },
+        {
+          "id": "b",
+          "text": "Döljer tatueringen och går in ändå.",
+          "correct": false,
+          "feedback": "Fel. Det är att kringgå en regel, och kan skapa problem för dig och platsen."
+        },
+        {
+          "id": "c",
+          "text": "Argumenterar med personalen tills de ger efter.",
+          "correct": false,
+          "feedback": "Fel. Regeln är platsens, och det är oartigt att argumentera."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "nationalpark",
+      "title": "Vad är en nationalpark i Japan?",
+      "prompt": "Vad är en nationalpark i Japan ofta i praktiken?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ett skyddat område där det också kan finnas byar, jordbruk och värdshus, med regler om vad som får göras.",
+          "correct": true,
+          "feedback": "Rätt. Skyddet bygger på regler och zoner, inte på att området är folktomt."
+        },
+        {
+          "id": "b",
+          "text": "Ett stängt område där inga människor får vara.",
+          "correct": false,
+          "feedback": "Fel. Många nationalparker har både besökare och bofasta."
+        },
+        {
+          "id": "c",
+          "text": "Ett område utan några regler.",
+          "correct": false,
+          "feedback": "Fel. Det finns regler för vad som får byggas och göras."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka skyltar och regler ser du i naturen, och vad säger de om hänsyn?",
+    "Hur märks det att människor bor i eller nära ett skyddat område?",
+    "Hur gör du för att inte lämna spår efter dig?"
+  ],
+  "reflection": "Vad innebär det att skydda naturen och samtidigt låta människor använda den? Vad är din egen gräns för hänsyn när du är gäst?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Ungefär hur många nationalparker har Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cirka 35.",
+          "correct": true,
+          "feedback": "Rätt. De täcker ungefär 6,5 procent av landets yta."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 3.",
+          "feedback": "Fel. Det finns omkring 35."
+        },
+        {
+          "id": "c",
+          "text": "Cirka 300.",
+          "feedback": "Fel. Det finns omkring 35."
+        },
+        {
+          "id": "d",
+          "text": "Inga.",
+          "feedback": "Fel. Japan har omkring 35 nationalparker."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad kan en japansk nationalpark ofta innehålla?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Både natur och byar, jordbruk och värdshus.",
+          "correct": true,
+          "feedback": "Rätt. Skyddet bygger på regler, inte på att området är tomt."
+        },
+        {
+          "id": "b",
+          "text": "Bara ödemark.",
+          "feedback": "Fel. Det finns ofta bebyggelse."
+        },
+        {
+          "id": "c",
+          "text": "Bara stora städer.",
+          "feedback": "Fel. Det är skyddade områden."
+        },
+        {
+          "id": "d",
+          "text": "Bara havet.",
+          "feedback": "Fel. Det är land."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad gör du först i ett onsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tvättar mig noga innan jag går i badet.",
+          "correct": true,
+          "feedback": "Rätt. Badet delas med andra."
+        },
+        {
+          "id": "b",
+          "text": "Hoppar rakt ut i badet.",
+          "feedback": "Fel. Tvätta dig först."
+        },
+        {
+          "id": "c",
+          "text": "Simmar en sväng.",
+          "feedback": "Fel. Man simmar inte i onsen."
+        },
+        {
+          "id": "d",
+          "text": "Tar med mobilen och fotograferar.",
+          "feedback": "Fel. Fotografering är oftast inte tillåten."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Du ser en björn på långt håll på en stig. Vad är klokast?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Backa lugnt, gå inte närmare och följ lokala anvisningar.",
+          "correct": true,
+          "feedback": "Rätt. Håll avstånd och gå inte mot djuret."
+        },
+        {
+          "id": "b",
+          "text": "Gå närmare för en bättre bild.",
+          "feedback": "Fel. Det är farligt."
+        },
+        {
+          "id": "c",
+          "text": "Mata den.",
+          "feedback": "Fel. Det är farligt och förbjudet."
+        },
+        {
+          "id": "d",
+          "text": "Springa rakt mot den.",
+          "feedback": "Fel. Det är farligt."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är rimligt när det gäller tatueringar och onsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Respektera platsens regler, fråga i förväg och välj annan plats vid behov.",
+          "correct": true,
+          "feedback": "Rätt. Många anläggningar tillåter inte tatueringar."
+        },
+        {
+          "id": "b",
+          "text": "Alla onsen tillåter alltid tatueringar.",
+          "feedback": "Fel. Många gör det inte."
+        },
+        {
+          "id": "c",
+          "text": "Dölj tatueringen och gå in.",
+          "feedback": "Fel. Det är att kringgå regeln."
+        },
+        {
+          "id": "d",
+          "text": "Skriva klagomål på plats.",
+          "feedback": "Fel. Det är oartigt."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "env-national-parks",
+    "env-yakushima",
+    "timeout-onsen",
+    "nippon-bear-sightings",
+    "jnto-manners"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-02",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Antalet nationalparker (35) och andelen av landytan (6,5 procent) kommer från ett informationsblad från Miljöministeriet (januari 2025). Äldre sidor anger något annan numrering.",
+      "Beskrivningen av hur nationalparkerna fungerar (byar och jordbruk inom parker, zoner) är förenklad och inte kontrollerad mot lagtexten.",
+      "Uppgifter om Yakushima (urgamla cedrar, mycket regn) bygger på allmän kännedom, inte på den öppnade källan.",
+      "Djurlivet (makaker, sikahjort, björnar) är allmän kännedom. Björnuppgifterna bygger på nyhetsrapporter och varierar mellan år och regioner.",
+      "Onsenetiketten kommer från resesidor och kan skilja mellan anläggningar."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t01-k05-hero",
+    "imageId": "yakushima-anbo",
+    "brief": "Natur och skog i Japan, till exempel en nationalpark eller världsarv som Yakushima eller Kamikochi."
+  }
+}

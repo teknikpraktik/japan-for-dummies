@@ -41,7 +41,7 @@ export default function Home() {
       </div>
 
       <section aria-labelledby="pilotkapitel" className="space-y-3">
-        <h2 id="pilotkapitel">De sex färdiga kapitlen</h2>
+        <h2 id="pilotkapitel">De färdiga kapitlen</h2>
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {published.map((c) =>
             c.status === "published" ? (

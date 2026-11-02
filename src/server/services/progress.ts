@@ -6,7 +6,7 @@ import type { PublishedChapter } from "@/lib/schema";
 import { getDb, schema } from "../db";
 import { audit } from "./audit";
 
-/** Publicerade kapitel. De 54 planerade kapitlen räknas aldrig som uppgifter. */
+/** Publicerade kapitel. De planerade kapitlen räknas aldrig som uppgifter. */
 export function publishedChapters(): PublishedChapter[] {
   return getContent().chapters.filter((c): c is PublishedChapter => c.status === "published");
 }

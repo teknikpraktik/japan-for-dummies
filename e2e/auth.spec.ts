@@ -1,6 +1,6 @@
 import { expect, test, type Page, type BrowserContext } from "@playwright/test";
 import { loginStudent, loginStudentOk, loginTeacher, SYN } from "./auth-helpers";
-import { pilots, takeQuiz } from "./helpers";
+import { pilots, takeQuiz, PUBLISHED } from "./helpers";
 import { totp } from "./totp";
 
 test.skip(({ isMobile }) => isMobile, "Inloggningsflödena körs på desktop (mobil täcks av layoutkontrollerna i quality.spec)");
@@ -14,7 +14,7 @@ async function teacherPage(context: BrowserContext): Promise<Page> {
 }
 
 test.describe("inloggning", () => {
-  test("elev: fel kod ger generellt fel, rätt kod ger Min utbildning med de sex kapitlen", async ({ page }) => {
+  test("elev: fel kod ger generellt fel, rätt kod ger Min utbildning med alla publicerade kapitel", async ({ page }) => {
     await loginStudent(page, 1, { code: "FELKODFELKOD12" });
     await expect(page.getByTestId("login-error")).toHaveText(/Fel användarnamn eller kod/);
     await page.getByTestId("identity").fill("okantkonto123");
@@ -22,7 +22,7 @@ test.describe("inloggning", () => {
     await expect(page.getByTestId("login-error")).toHaveText(/Fel användarnamn eller kod/); // samma fel för okänt konto
     await loginStudentOk(page, 1);
     await expect(page.getByRole("heading", { name: /Hej/ })).toBeVisible();
-    await expect(page.locator("[data-testid^='chapter-row-']")).toHaveCount(6);
+    await expect(page.locator("[data-testid^='chapter-row-']")).toHaveCount(PUBLISHED);
   });
 
   test("elev kan skriva koden med små bokstäver och bindestreck", async ({ page }) => {
@@ -44,8 +44,8 @@ test.describe("inloggning", () => {
     await loginTeacher(page);
     await expect(page.getByRole("heading", { name: "Läraröversikt" })).toBeVisible();
     await expect(page.getByTestId("matrix")).toBeVisible();
-    // Kolumner: en per publicerat kapitel (de 54 kommande räknas inte)
-    await expect(page.getByTestId("matrix").locator("thead th")).toHaveCount(1 + 6 + 2);
+    // Kolumner: en per publicerat kapitel (de kommande räknas inte)
+    await expect(page.getByTestId("matrix").locator("thead th")).toHaveCount(1 + PUBLISHED + 2);
   });
 
   test("registrering finns inte i gränssnittet och publik registrering är stängd", async ({ page }) => {
@@ -70,7 +70,7 @@ test.describe("framsteg och synkning", () => {
     const tctx = await browser.newContext();
     const tp = await teacherPage(tctx);
     const row = tp.getByTestId("row-Elev 5");
-    await expect(row.getByTestId("count")).toHaveText("1 av 6");
+    await expect(row.getByTestId("count")).toHaveText(`1 av ${PUBLISHED}`);
     await expect(row.locator("td[data-status='completed']")).toHaveCount(1);
     await expect(row).toContainText(/\d{4}/); // tidpunkt för senaste synk
     await tctx.close();
@@ -224,7 +224,7 @@ test.describe("delade enheter, utloggning och kontobyte", () => {
     await context.clearCookies();
     await loginStudentOk(page, 14);
     await page.goto("/min-utbildning/");
-    await expect(page.locator("[data-testid^='chapter-row-']")).toHaveCount(6);
+    await expect(page.locator("[data-testid^='chapter-row-']")).toHaveCount(PUBLISHED);
     for (const row of await page.locator("[data-testid^='chapter-row-']").all()) await expect(row).toContainText("Ej påbörjad");
     await page.getByTestId("sync-now").click();
     await page.waitForTimeout(500);
