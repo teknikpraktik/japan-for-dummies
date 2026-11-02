@@ -81,6 +81,8 @@ const haveRoutes = new Set(entries.map((e) => e.url));
 const missingRoutes = [...expectedRoutes].filter((r) => !haveRoutes.has(r));
 if (missingRoutes.length) {
   const where = pageDirs.map((d) => path.relative(root, d)).join(", ") || "(inga kataloger)";
+  const ls = (d: string) => (fs.existsSync(d) ? fs.readdirSync(d).slice(0, 40).join(" ") : "(saknas)");
+  console.error(`Felsökning: .next: ${ls(nextDir)}\n.next/server: ${ls(path.join(nextDir, "server"))}\n.next/server/app: ${ls(appDir)}\n.vercel: ${ls(path.join(root, ".vercel"))}\n.vercel/output: ${ls(path.join(root, ".vercel", "output"))}\nrot: ${ls(root)}`);
   throw new Error(`Offlinelistan saknar ${missingRoutes.length} förväntade sidor (sökte i ${where}), t.ex.:\n` + missingRoutes.slice(0, 8).map((m) => " - " + m).join("\n"));
 }
 
