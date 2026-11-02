@@ -11,7 +11,7 @@ export type BootstrapResult = { status: "created" | "exists" | "refused"; reason
 /**
  * Engångskommando (körs av en operatör med databasåtkomst, aldrig via HTTP).
  * - Skapar gruppen om den saknas.
- * - Skapar läraren om e-postadressen är ny. Kontot ges INTE administratörsåtkomst förrän tvåfaktor är verifierad.
+ * - Skapar läraren om e-postadressen är ny. Läraren kan logga in direkt; tvåfaktor är valfritt.
  * - Om kontot redan finns: ändrar ingenting (inget nytt lösenord, ingen rolländring, ingen befordran).
  * - Vägrar skapa ytterligare en lärare i en grupp som redan har lärare, om inte allowAdditional anges.
  */

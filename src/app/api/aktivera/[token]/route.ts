@@ -15,7 +15,7 @@ export const GET = route(async (_request, { params }) => {
 
 const body = z.object({ password: z.string().min(12).max(128) }).strict();
 
-/** Engångsflöde: läraren sätter eget lösenord. Ger ingen administratörsåtkomst innan tvåfaktor är registrerad. */
+/** Engångsflöde: läraren sätter eget lösenord. Läraren kan därefter logga in. */
 export const POST = route(async (request, { params }) => {
   const t = tokenSchema.safeParse((await params).token);
   if (!t.success) return json({ error: "invalid", message: "Länken är ogiltig eller har gått ut." }, 400);

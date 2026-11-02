@@ -8,7 +8,7 @@ export interface MemberRow {
   /** Elevens användarnamn (pseudonym). Lärares inloggningsnamn är e-postadressen. */
   loginName: string | null;
   active: boolean;
-  /** Lärare som ännu inte aktiverat sig / registrerat tvåfaktor. */
+  /** Lärare som ännu inte aktiverat sig (inte satt eget lösenord). */
   setupPending: boolean;
   createdAt: string;
 }
@@ -21,7 +21,7 @@ export async function listMembers(groupId: string): Promise<MemberRow[]> {
       email: schema.user.email,
       username: schema.user.username,
       deactivatedAt: schema.user.deactivatedAt,
-      twoFactorEnabled: schema.user.twoFactorEnabled,
+      pending: sql<boolean>`EXISTS (SELECT 1 FROM teacher_activations a WHERE a.user_id = ${schema.user.id} AND a.used_at IS NULL)`,
       role: schema.memberships.role,
       createdAt: schema.user.createdAt,
     })
@@ -35,7 +35,7 @@ export async function listMembers(groupId: string): Promise<MemberRow[]> {
     role: r.role as "student" | "teacher",
     loginName: r.role === "student" ? r.username : r.email,
     active: !r.deactivatedAt,
-    setupPending: r.role === "teacher" && !r.twoFactorEnabled,
+    setupPending: r.role === "teacher" && Boolean(r.pending),
     createdAt: r.createdAt.toISOString(),
   }));
 }

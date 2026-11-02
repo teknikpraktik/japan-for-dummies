@@ -1,6 +1,6 @@
 # Lärarguide
 
-Logga in på `/logga-in/` och välj **Lärare**: e-postadress (används bara som inloggningsnamn, inga e-postmeddelanden skickas), lösenord och engångskod från autentiseringsappen. Första gången registrerar du appen och sparar återställningskoderna; administration är spärrad tills det är gjort.
+Logga in på `/logga-in/` och välj **Lärare**: e-postadress (används bara som inloggningsnamn, inga e-postmeddelanden skickas), och lösenord. Tvåfaktor med en autentiseringsapp är valfritt och kan aktiveras under Konto; är det aktiverat krävs en kod vid inloggning.
 
 ## Elever
 
@@ -20,6 +20,6 @@ Framsteg som sparats offline är inte manipulationssäkra; en elev kan med tekni
 
 ## Lärare
 
-Under Lärare → Lärare bjuder du in en kollega: en engångslänk (giltig 72 timmar) där hen sätter eget lösenord och registrerar tvåfaktor. Du kan ändra roll och avaktivera lärare. Den sista användbara läraren (aktiv och med tvåfaktor) kan aldrig avaktiveras, raderas eller nedgraderas. Känsliga ändringar kräver ditt lösenord.
+Under Lärare → Lärare bjuder du in en kollega: en engångslänk (giltig 72 timmar) där hen sätter eget lösenord. Du kan ändra roll och avaktivera lärare. Den sista användbara läraren (aktiv och aktiverad) kan aldrig avaktiveras, raderas eller nedgraderas. Känsliga ändringar kräver ditt lösenord.
 
 Lärare ser bara sin egen grupp.

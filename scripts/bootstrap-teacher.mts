@@ -37,7 +37,7 @@ if (process.env.DB_TARGET === "production" && process.env.CONFIRM_OPERATOR_ACTIO
 const password = await readSecret("Nytt lösenord för läraren (minst 12 tecken, visas inte): ", { fromStdin: flag("password-stdin"), envVar: "BOOTSTRAP_TEACHER_PASSWORD" });
 const res = await bootstrapFirstTeacher({ email, password, displayName: value("name"), allowAdditional: flag("allow-additional") });
 await getPool().end();
-if (res.status === "created") console.log("Läraren skapades. Logga in och registrera tvåfaktor (TOTP) för att få administratörsåtkomst.");
+if (res.status === "created") console.log("Läraren skapades. Logga in med e-postadressen och lösenordet.");
 else if (res.status === "exists") console.log("Kontot finns redan. Inget ändrades (lösenord och roller är orörda).");
 else {
   console.error(`Avbröt: ${res.reason}`);

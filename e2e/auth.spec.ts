@@ -346,7 +346,7 @@ test.describe("läraradministration (gränssnitt)", () => {
     await expect(page.getByTestId("member-Raderas")).toHaveCount(0);
   });
 
-  test("ny lärare: engångslänk, eget lösenord, tvåfaktor krävs innan administratörsåtkomst; sista läraren skyddas", async ({ page, browser }) => {
+  test("ny lärare: engångslänk, eget lösenord, direkt adminåtkomst; tvåfaktor är valfritt", async ({ page, browser }) => {
     await loginTeacher(page);
     await page.goto("/lararen/larare/");
     await page.getByTestId("create-teacher").click();
@@ -367,17 +367,16 @@ test.describe("läraradministration (gränssnitt)", () => {
     // Länken kan inte återanvändas
     await np.goto(url);
     await expect(np.getByText(/ogiltig eller har gått ut/)).toBeVisible();
-    // Inloggning utan tvåfaktor: ingen administratörsåtkomst
+    // Inloggning med bara lösenord ger administratörsåtkomst direkt
     await np.goto("/logga-in/");
     await np.getByLabel("Lärare").check({ force: true });
     await np.getByTestId("identity").fill("ny.larare.e2e@example.org");
     await np.getByTestId("secret").fill("Nya-larares-losenord-1");
     await np.getByTestId("login-submit").click();
-    await expect(np).toHaveURL(/\/konto\/tvafaktor\/$/);
-    expect((await np.request.get("/api/lararen/oversikt/")).status()).toBe(403);
-    await np.goto("/lararen/");
-    await expect(np.getByTestId("enroll-needed")).toBeVisible();
-    // Registrera TOTP via gränssnittet
+    await expect(np).toHaveURL(/\/lararen\/$/);
+    expect((await np.request.get("/api/lararen/oversikt/")).status()).toBe(200);
+    await expect(np.getByTestId("enroll-needed")).toHaveCount(0);
+    // Frivillig registrering av TOTP via gränssnittet
     await np.goto("/konto/tvafaktor/");
     await np.getByTestId("tf-password").fill("Nya-larares-losenord-1");
     await np.getByTestId("tf-start").click();

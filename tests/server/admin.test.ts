@@ -127,7 +127,8 @@ describe("den sista läraren skyddas", () => {
   it("enda läraren kan inte avaktiveras, raderas eller göras till elev", async () => {
     const g = await makeGroup();
     const t = await makeTeacher(g);
-    const other = await makeTeacher(g, { twoFactor: false }); // väntande lärare räknas inte som användbar
+    const inv = await inviteTeacher(actor(t.userId, g), "Väntande", "vantande@example.org"); // väntande (ej aktiverad) lärare räknas inte som användbar
+    const other = { userId: inv.userId };
     await expect(deactivateUser(actor(other.userId, g), t.userId)).rejects.toMatchObject({ code: "last-teacher" });
     await expect(changeRole(actor(other.userId, g), t.userId, "student")).rejects.toMatchObject({ code: "last-teacher" });
     await expect(deleteMember(actor(other.userId, g), t.userId)).rejects.toMatchObject({ code: "last-teacher" });
@@ -170,7 +171,7 @@ describe("den sista läraren skyddas", () => {
     expect(teachers.length).toBe(1);
   });
 
-  it("rolländring elev -> lärare kräver inloggningsnamn och ger aktiveringsflöde utan adminåtkomst", async () => {
+  it("rolländring elev -> lärare kräver inloggningsnamn och ger aktiveringsflöde; adminåtkomst efter aktivering", async () => {
     const g = await makeGroup();
     const t = await makeTeacher(g);
     const s = await createStudent(actor(t.userId, g), "Maja");
@@ -181,7 +182,7 @@ describe("den sista läraren skyddas", () => {
     const login = await signInTeacher("maja.lararen@example.org", "Majas-nya-losenord-1");
     expect(login.res.status).toBe(200);
     const { GET: overview } = await import("@/app/api/lararen/oversikt/route");
-    expect((await call(overview, "/x", { cookie: login.cookie })).status).toBe(403);
+    expect((await call(overview, "/x", { cookie: login.cookie })).status).toBe(200);
   });
 
   it("lärare -> elev ger ny kod och elev-inloggning", async () => {
@@ -194,18 +195,21 @@ describe("den sista läraren skyddas", () => {
     expect((await signInTeacher(b.email)).res.status).not.toBe(200);
   });
 
-  it("ny lärare utan slutförd tvåfaktor hindrar inte skyddet (väntande lärare räknas inte som användbar)", async () => {
+  it("inbjuden lärare räknas som användbar först när hen aktiverat sig (tvåfaktor krävs inte)", async () => {
     const g = await makeGroup();
     const a = await makeTeacher(g);
     const inv = await inviteTeacher(actor(a.userId, g), "Ny", "ny@example.org");
-    await activateTeacher(inv.token, "Nytt-starkt-losenord-1");
-    // Den inbjudna har ännu inte registrerat tvåfaktor: a är fortfarande den enda användbara
+    // Före aktivering är a fortfarande den enda användbara
     await expect(deactivateUser(actor(inv.userId, g), a.userId)).rejects.toMatchObject({ code: "last-teacher" });
+    await activateTeacher(inv.token, "Nytt-starkt-losenord-1");
+    await deactivateUser(actor(inv.userId, g), a.userId); // nu finns en annan användbar lärare
+    // och då är den nya i sin tur den sista
+    await expect(deactivateUser(actor(a.userId, g), inv.userId)).rejects.toMatchObject({ code: "last-teacher" });
   });
 });
 
 describe("operatörens engångskommando och återställning", () => {
-  it("skapar första läraren utan admin före tvåfaktor, och är säkert att köra igen", async () => {
+  it("skapar första läraren (tvåfaktor valfritt), och är säkert att köra igen", async () => {
     await getDb().execute(sql`TRUNCATE groups CASCADE`);
     const first = await bootstrapFirstTeacher({ email: "per.a.bjorkman@gmail.com", password: "Forsta-losenordet-12", displayName: "Per" });
     expect(first.status).toBe("created");
@@ -218,11 +222,11 @@ describe("operatörens engångskommando och återställning", () => {
     expect(hashAfter).toBe(hashBefore);
     expect((await getDb().select().from(schema.groups))).toHaveLength(1);
     expect((await getDb().select().from(schema.memberships))).toHaveLength(1);
-    // Kan logga in med originallösenordet men har ingen adminåtkomst (tvåfaktor saknas)
+    // Kan logga in med originallösenordet och administrera direkt (tvåfaktor är valfritt)
     const login = await signInTeacher("per.a.bjorkman@gmail.com", "Forsta-losenordet-12");
     expect(login.res.status).toBe(200);
     const { GET: overview } = await import("@/app/api/lararen/oversikt/route");
-    expect((await call(overview, "/x", { cookie: login.cookie })).status).toBe(403);
+    expect((await call(overview, "/x", { cookie: login.cookie })).status).toBe(200);
   });
 
   it("samtidiga körningar skapar exakt ett konto", async () => {
@@ -255,7 +259,7 @@ describe("operatörens engångskommando och återställning", () => {
     expect((await call(meGET, "/x", { cookie: l.cookie })).data).toEqual({ user: null });
     const again = await signInTeacher(t.email, "Nytt-operatorlosenord-1");
     expect(again.res.status).toBe(200);
-    expect((await call(meGET, "/x", { cookie: again.cookie })).data).toMatchObject({ user: { adminAccess: false, enrollmentRequired: true } });
+    expect((await call(meGET, "/x", { cookie: again.cookie })).data).toMatchObject({ user: { adminAccess: true, enrollmentRequired: false } });
     const log = JSON.stringify(await getDb().select().from(schema.auditLog));
     expect(log).toContain("operator.reset-2fa");
     expect(log).not.toContain("Nytt-operatorlosenord-1");

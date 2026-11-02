@@ -8,7 +8,7 @@ export default function Activate() {
     <div className="container-page space-y-6 pt-8">
       <header className="space-y-2">
         <h1>Aktivera ditt lärarkonto</h1>
-        <p className="prose-col">Välj ett eget lösenord. Därefter loggar du in och registrerar tvåfaktorsinloggning med en autentiseringsapp. Först då får du tillgång till administrationen. Länken fungerar bara en gång.</p>
+        <p className="prose-col">Välj ett eget lösenord. Därefter loggar du in. Länken fungerar bara en gång.</p>
       </header>
       <ActivateForm />
     </div>

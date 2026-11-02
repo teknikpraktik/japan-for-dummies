@@ -14,9 +14,8 @@ export const GET = route(async (request) => {
       role: p.role,
       groupName: p.groupName,
       twoFactorEnabled: p.twoFactorEnabled,
-      // Lärare utan registrerad tvåfaktor får ingen administratörsåtkomst.
-      adminAccess: p.role === "teacher" && p.twoFactorEnabled,
-      enrollmentRequired: p.role === "teacher" && !p.twoFactorEnabled,
+      adminAccess: p.role === "teacher",
+      enrollmentRequired: false,
     },
   });
 });

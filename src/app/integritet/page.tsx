@@ -41,7 +41,7 @@ export default function Privacy() {
             <strong>Säkerhetslogg:</strong> när konton skapas, koder byts eller roller ändras, utan namn och koder. Den behövs för att kunna reda ut fel och missbruk.
           </li>
           <li>
-            <strong>Lärare:</strong> en e-postadress som används som inloggningsnamn (ingen e-post skickas), ett lösenord och tvåfaktorsinloggning.
+            <strong>Lärare:</strong> en e-postadress som används som inloggningsnamn (ingen e-post skickas), ett lösenord (tvåfaktor är valfritt).
           </li>
         </ul>
         <p>
