@@ -82,7 +82,10 @@ const missingRoutes = [...expectedRoutes].filter((r) => !haveRoutes.has(r));
 if (missingRoutes.length) {
   const where = pageDirs.map((d) => path.relative(root, d)).join(", ") || "(inga kataloger)";
   const ls = (d: string) => (fs.existsSync(d) ? fs.readdirSync(d).slice(0, 40).join(" ") : "(saknas)");
-  console.error(`Felsökning: .next: ${ls(nextDir)}\n.next/server: ${ls(path.join(nextDir, "server"))}\n.next/server/app: ${ls(appDir)}\n.vercel: ${ls(path.join(root, ".vercel"))}\n.vercel/output: ${ls(path.join(root, ".vercel", "output"))}\nrot: ${ls(root)}`);
+  console.error(`Felsökning: .next: ${ls(nextDir)}\n.next/server: ${ls(path.join(nextDir, "server"))}\n.next/server/app: ${ls(appDir)}\n.vercel: ${ls(path.join(root, ".vercel"))}\n.next/output: ${ls(path.join(nextDir, "output"))}\n.next/adapter: ${ls(path.join(nextDir, "adapter"))}`);
+  const found: string[] = [];
+  walk(nextDir, (_f, rel) => { if (rel.endsWith("/index.html") || /^(output|adapter)\//.test(rel)) { if (rel.endsWith(".html") && found.length < 12) found.push(rel); } });
+  console.error("HTML under .next (urval): " + found.join(" | "));
   throw new Error(`Offlinelistan saknar ${missingRoutes.length} förväntade sidor (sökte i ${where}), t.ex.:\n` + missingRoutes.slice(0, 8).map((m) => " - " + m).join("\n"));
 }
 
