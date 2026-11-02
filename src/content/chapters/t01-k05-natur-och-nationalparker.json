@@ -84,7 +84,7 @@
         {
           "type": "photo",
           "slotId": "t01-k05-djur",
-          "imageId": null,
+          "imageId": "makaker-onsen",
           "brief": "Ett vilt djur i japansk natur, till exempel japanmakaker i ett varmt bad eller en hjort, fotograferad på avstånd."
         }
       ]
@@ -111,12 +111,6 @@
         {
           "type": "p",
           "text": "Onsen är ofta könsseparerade, och man badar utan kläder. Det kan kännas ovant, och det är helt okej att hoppa över det om du inte vill. Fråga gruppens ledare om du är osäker."
-        },
-        {
-          "type": "photo",
-          "slotId": "t01-k05-onsen",
-          "imageId": null,
-          "brief": "Ett utomhusbad (rotenburo) eller en varm källa i naturen i Japan, helst utan identifierbara personer."
         }
       ]
     }

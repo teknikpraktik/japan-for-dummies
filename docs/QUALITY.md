@@ -6,7 +6,7 @@ Mål: WCAG 2.2 AA. Nedan redovisas vad som **faktiskt kontrollerats** och vad so
 
 | Kontroll | Resultat |
 |---|---|
-| Innehållsvalidering (`npm run validate:content`) | OK: 12 teman, 60 kapitel (6 publicerade, 54 planerade) |
+| Innehållsvalidering (`npm run validate:content`) | OK: 12 teman, 60 kapitel (10 publicerade, 50 planerade) |
 | Lint, typkontroll | OK |
 | Enhetstester (52 st) | OK: poäng och gräns 4/5, framsteg, sammanslagning/ersättning, lagring (skadad/blockerad/full), export/import inkl. ogiltiga filer, innehållsvalidering (dubbla ID, felaktiga test, saknade fält, okänd blocktyp), övningar och testflöde |
 | Produktionsbygge | OK (statisk export + service worker, 357 filer) |

@@ -50,7 +50,7 @@
         {
           "type": "photo",
           "slotId": "t01-k03-sno",
-          "imageId": null,
+          "imageId": "hokkaido-universitet-vinter",
           "brief": "Vinter i norra Japan, till exempel snö i Sapporo eller på Hokkaido, för att visa kontrasten mot söder."
         }
       ]
@@ -74,7 +74,7 @@
         {
           "type": "photo",
           "slotId": "t01-k03-sodra",
-          "imageId": null,
+          "imageId": "yamabare-strand",
           "brief": "Subtropisk kust i södra Japan, till exempel en strand eller kust på Okinawa, för att visa kontrasten mot norr."
         }
       ]
@@ -373,7 +373,7 @@
   },
   "hero": {
     "slotId": "t01-k03-hero",
-    "imageId": null,
+    "imageId": "bishamondo-hostlov",
     "brief": "Höstlöv i Japan, till exempel lönn vid ett tempel eller i en park, i oktober eller november."
   }
 }
