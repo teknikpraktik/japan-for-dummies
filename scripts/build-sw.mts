@@ -31,15 +31,24 @@ function walk(dir: string, fn: (file: string, rel: string) => void, base = dir) 
 }
 
 // 1. Förrenderade sidor (statisk HTML). Dynamiska/personliga sidor har ingen HTML-fil och kommer därför aldrig med.
+//    Lokalt ligger HTML i .next/server/app. På Vercel flyttar bygget (onBuildComplete) de förrenderade sidorna till
+//    .vercel/output/static innan det här steget körs, så båda platserna söks.
 const appDir = path.join(nextDir, "server", "app");
-walk(appDir, (file, rel) => {
-  if (!rel.endsWith(".html")) return;
-  if (rel.startsWith("api/") || rel.includes("[") || rel.startsWith("_")) return;
-  const route = rel === "index.html" ? "/" : `/${rel.slice(0, -".html".length)}/`;
-  // Skyddade sidor har bara ett tomt skal, men ingår ändå aldrig i den delade offlinecachen.
-  if (isPrivatePath(route)) return;
-  add(route, file);
-});
+const pageDirs = [appDir, path.join(root, ".vercel", "output", "static")].filter((d) => fs.existsSync(d));
+const seenPages = new Set<string>();
+for (const dir of pageDirs) {
+  walk(dir, (file, rel) => {
+    if (!rel.endsWith(".html")) return;
+    if (rel.startsWith("api/") || rel.includes("[") || rel.startsWith("_") || rel.startsWith("images/") || rel.startsWith("icons/")) return;
+    const noExt = rel.slice(0, -".html".length);
+    const route = noExt === "index" ? "/" : `/${noExt.replace(/\/index$/, "")}/`;
+    if (seenPages.has(route)) return;
+    // Skyddade sidor har bara ett tomt skal, men ingår ändå aldrig i den delade offlinecachen.
+    if (isPrivatePath(route)) return;
+    seenPages.add(route);
+    add(route, file);
+  });
+}
 const manifestBody = path.join(appDir, "manifest.webmanifest.body");
 if (fs.existsSync(manifestBody)) add("/manifest.webmanifest", manifestBody);
 
@@ -56,6 +65,24 @@ walk(publicDir, (file, rel) => {
   if (EXCLUDE.has(rel)) return;
   add(`/${rel}`, file);
 });
+
+
+// Offlinepaketet ska innehålla alla förväntade offentliga sidor. Annars avbryts bygget i stället för att leverera ett ofullständigt paket.
+const readJson = (rel: string) => JSON.parse(fs.readFileSync(path.join(root, "src/content", rel), "utf8"));
+const expectedRoutes = new Set<string>(["/", "/utbildning/", "/offline/", "/integritet/", "/kallor/", "/bildkallor/"]);
+for (const t of readJson("themes.json") as { id: string }[]) expectedRoutes.add(`/utbildning/${t.id}/`);
+for (const dir of ["chapters", "planned"]) {
+  for (const f of fs.readdirSync(path.join(root, "src/content", dir)).filter((n) => n.endsWith(".json"))) {
+    const d = readJson(`${dir}/${f}`);
+    for (const c of Array.isArray(d) ? d : [d]) expectedRoutes.add(`/kapitel/${(c as { slug: string }).slug}/`);
+  }
+}
+const haveRoutes = new Set(entries.map((e) => e.url));
+const missingRoutes = [...expectedRoutes].filter((r) => !haveRoutes.has(r));
+if (missingRoutes.length) {
+  const where = pageDirs.map((d) => path.relative(root, d)).join(", ") || "(inga kataloger)";
+  throw new Error(`Offlinelistan saknar ${missingRoutes.length} förväntade sidor (sökte i ${where}), t.ex.:\n` + missingRoutes.slice(0, 8).map((m) => " - " + m).join("\n"));
+}
 
 entries.sort((a, b) => a.url.localeCompare(b.url));
 
