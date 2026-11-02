@@ -52,7 +52,7 @@ read -rs DATABASE_URL && export DATABASE_URL
 npm run admin:bootstrap -- --email per.a.bjorkman@gmail.com --name "Per"
 ```
 
-Lösenordet frågas dolt (alternativt via stdin eller `BOOTSTRAP_TEACHER_PASSWORD`; aldrig som parameter), minst 12 tecken. Kommandot är säkert att köra om: ett befintligt konto ändras eller återställs inte. Kontot får administratörsåtkomst först när TOTP har registrerats och verifierats vid första inloggningen (spara återställningskoderna). Gruppen "Japanresan 2027" skapas om den saknas. Om gruppen redan har lärare vägrar kommandot lägga till fler utan `--allow-additional`; ytterligare lärare bjuds in i gränssnittet.
+Lösenordet frågas dolt (alternativt via stdin eller `BOOTSTRAP_TEACHER_PASSWORD`; aldrig som parameter), minst 12 tecken. Kommandot är säkert att köra om: ett befintligt konto ändras eller återställs inte. Läraren kan logga in direkt med e-postadress och lösenord. Tvåfaktor (TOTP) är valfritt och kan aktiveras under Konto. Gruppen "Japanresan 2027" skapas om den saknas. Om gruppen redan har lärare vägrar kommandot lägga till fler utan `--allow-additional`; ytterligare lärare bjuds in i gränssnittet.
 
 ## Kontoåterställning (operatör)
 
@@ -64,7 +64,7 @@ read -rs DATABASE_URL && export DATABASE_URL
 npm run admin:recover -- --email <adress> --new-password --reset-2fa --yes
 ```
 
-Alla sessioner avslutas, tvåfaktor tas bort och läraren registrerar en ny vid nästa inloggning. Åtgärden syns i säkerhetsloggen. Det finns ingen permanent bakdörr: kräver databasåtkomst, som bara operatören har. Elevers koder återställs av lärare i gränssnittet.
+Alla sessioner avslutas, en eventuell tvåfaktor tas bort (läraren kan aktivera en ny under Konto). Åtgärden syns i säkerhetsloggen. Det finns ingen permanent bakdörr: kräver databasåtkomst, som bara operatören har. Elevers koder återställs av lärare i gränssnittet.
 
 ## Säkerhetskopior och återställning
 

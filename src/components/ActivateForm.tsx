@@ -35,7 +35,7 @@ export function ActivateForm() {
   if (done !== null)
     return (
       <div className="card prose-col space-y-3" data-testid="activated">
-        <p>Lösenordet är sparat. Logga in med <strong>{done}</strong> och ditt nya lösenord. Därefter registrerar du tvåfaktor.</p>
+        <p>Lösenordet är sparat. Logga in med <strong>{done}</strong> och ditt nya lösenord.</p>
         <Link className="btn btn-primary" href="/logga-in/">Till inloggningen</Link>
       </div>
     );

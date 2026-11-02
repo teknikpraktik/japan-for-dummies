@@ -28,7 +28,7 @@ export function LoginForm() {
     const res = await fetch("/api/me/", { credentials: "same-origin", cache: "no-store" });
     const me = (await res.json()) as { user: { role: "student" | "teacher"; enrollmentRequired: boolean } | null };
     if (!me.user) return setError(GENERIC);
-    if (me.user.role === "teacher") router.push(me.user.enrollmentRequired ? "/konto/tvafaktor/" : "/lararen/");
+    if (me.user.role === "teacher") router.push("/lararen/");
     else router.push("/min-utbildning/");
   }
 

@@ -116,7 +116,7 @@ export function MemberAdmin({ mode }: { mode: "students" | "teachers" }) {
                   {m.userId === list?.selfId && <span className="badge badge-progress ml-2">Du</span>}
                 </p>
                 <p className="text-sm">
-                  {!m.active ? <span className="badge badge-planned">Avaktiverad</span> : m.setupPending ? <span className="badge badge-progress">Väntar på aktivering/tvåfaktor</span> : <span className="badge badge-ok">Aktiv</span>}
+                  {!m.active ? <span className="badge badge-planned">Avaktiverad</span> : m.setupPending ? <span className="badge badge-progress">Väntar på aktivering</span> : <span className="badge badge-ok">Aktiv</span>}
                 </p>
               </div>
               <div className="flex flex-wrap gap-2">
@@ -201,8 +201,8 @@ function ConfirmPanel({ pending, selfName, onCancel, onDone }: { pending: Pendin
     "avaktivera-lararen": "Läraren förlorar all åtkomst direkt och loggas ut. Den sista aktiva läraren kan inte avaktiveras.",
     aktiveringslank: "En ny engångslänk skapas. Äldre länkar slutar fungera.",
     "roll-elev": "Läraren blir elev: förlorar all administratörsåtkomst direkt och får en ny elevkod. Den sista läraren kan inte göras till elev.",
-    "roll-lararen": "Eleven blir lärare och får tillgång till gruppens administration först efter att ha satt eget lösenord och registrerat tvåfaktor.",
-    "skapa-lararen": "Läraren får en engångslänk för att sätta eget lösenord och registrera tvåfaktor. Utan det får kontot ingen administratörsåtkomst.",
+    "roll-lararen": "Eleven blir lärare och får tillgång till gruppens administration först efter att ha satt eget lösenord.",
+    "skapa-lararen": "Läraren får en engångslänk för att sätta eget lösenord. Utan det får kontot ingen administratörsåtkomst.",
   };
 
   async function run(e: React.FormEvent) {

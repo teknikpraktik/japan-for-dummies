@@ -110,20 +110,19 @@ describe("lärarinloggning med tvåfaktor", () => {
     expect((await call(meGET, "/api/me", { cookie: bad.cookie })).data).toEqual({ user: null });
   });
 
-  it("lärare utan registrerad tvåfaktor får session men ingen administratörsåtkomst", async () => {
+  it("tvåfaktor är valfritt: lärare med bara lösenord får session och adminåtkomst", async () => {
     const { GET: overview } = await import("@/app/api/lararen/oversikt/route");
     const g = await makeGroup();
     const t = await makeTeacher(g, { twoFactor: false });
     const login = await signInTeacher(t.email);
     expect(login.res.status).toBe(200);
     const me = await call(meGET, "/api/me", { cookie: login.cookie });
-    expect(me.data).toMatchObject({ user: { role: "teacher", adminAccess: false, enrollmentRequired: true } });
+    expect(me.data).toMatchObject({ user: { role: "teacher", adminAccess: true, enrollmentRequired: false } });
     const r = await call(overview, "/api/lararen/oversikt", { cookie: login.cookie });
-    expect(r.status).toBe(403);
-    expect(r.data).toMatchObject({ error: "two-factor-required" });
+    expect(r.status).toBe(200);
   });
 
-  it("registrering av tvåfaktor (TOTP) verifieras innan administratörsåtkomst ges, med återställningskoder", async () => {
+  it("frivillig registrering av tvåfaktor (TOTP) ger återställningskoder och kräver kod vid nästa inloggning", async () => {
     const { GET: overview } = await import("@/app/api/lararen/oversikt/route");
     const g = await makeGroup();
     const t = await makeTeacher(g, { twoFactor: false });
@@ -134,8 +133,8 @@ describe("lärarinloggning med tvåfaktor", () => {
     const secret = new URL(uri).searchParams.get("secret")!;
     const codes = enable.body!.backupCodes as string[];
     expect(codes.length).toBe(10);
-    // Innan verifiering: fortfarande ingen adminåtkomst
-    expect((await call(overview, "/api/lararen/oversikt", { cookie: login.cookie })).status).toBe(403);
+    // Tvåfaktor är valfritt: administration fungerar även före verifiering
+    expect((await call(overview, "/api/lararen/oversikt", { cookie: login.cookie })).status).toBe(200);
     const { totp } = await import("./helpers");
     const verify = await authPost("/two-factor/verify-totp", { code: totp(secret) }, login.cookie);
     expect(verify.res.status).toBe(200);

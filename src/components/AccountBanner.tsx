@@ -28,17 +28,6 @@ export function AccountBanner() {
       ),
     });
   }
-  if (user && !unverified && user.role === "teacher" && user.enrollmentRequired) {
-    items.push({
-      key: "enroll",
-      tone: "warn",
-      node: (
-        <>
-          Du måste registrera tvåfaktorsinloggning innan du får administratörsåtkomst. <Link href="/konto/tvafaktor/">Registrera nu</Link>.
-        </>
-      ),
-    });
-  }
   if (user?.role === "student" && sync.notices.length > 0) {
     items.push({
       key: "notices",

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useAccount } from "./AccountProvider";
 
-/** Visar innehåll endast för lärare med slutförd tvåfaktor. (Servern kontrollerar alltid; det här är bara gränssnittet.) */
+/** Visar innehåll endast för lärare. (Servern kontrollerar alltid; det här är bara gränssnittet.) */
 export function TeacherGate({ children }: { children: React.ReactNode }) {
   const { status, user, unverified } = useAccount();
   if (status === "loading") return <p aria-busy="true">Hämtar…</p>;
@@ -16,13 +16,6 @@ export function TeacherGate({ children }: { children: React.ReactNode }) {
       </div>
     );
   if (user.role !== "teacher") return <p className="feedback feedback-wrong prose-col" role="alert" data-testid="not-teacher">Den här sidan är bara för lärare.</p>;
-  if (!user.adminAccess)
-    return (
-      <div className="card prose-col space-y-3" data-testid="enroll-needed">
-        <p>Du får tillgång till administrationen först när du har registrerat tvåfaktorsinloggning.</p>
-        <Link className="btn btn-primary" href="/konto/tvafaktor/">Registrera tvåfaktor</Link>
-      </div>
-    );
   return <>{children}</>;
 }
 

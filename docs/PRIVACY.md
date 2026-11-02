@@ -6,7 +6,7 @@ Tjänsten är byggd för dataminimering. Uppgifterna är **pseudonymiserade, int
 
 - Elev: användarnamn (slumpat), visningsnamn (förnamn/alias som läraren angett), intern identifierare, lösenordshash av inloggningskoden, sessioner, gruppmedlemskap, aktiv/avaktiverad.
 - Framsteg: elev, kapitel-ID och version, status (påbörjat/avklarat), avklarad-tid, källa (test eller importerad egenrapport), senaste synk.
-- Lärare: inloggningsadress, namn, lösenordshash, TOTP-hemlighet och återställningskoder (hanteras av Better Auth).
+- Lärare: inloggningsadress, namn, lösenordshash och, om läraren själv aktiverat tvåfaktor, TOTP-hemlighet och återställningskoder (hanteras av Better Auth).
 - Begränsad säkerhetslogg (konto-, roll- och kodändringar; inga hemligheter) och tekniska uppgifter för spärr mot gissning av inloggning (IP-baserad nyckel och räknare, kortlivade).
 
 Lagras **inte**: e-post, personnummer, födelsedatum, telefon, efternamn, felaktiga svar, klick, lästid, reflektioner, försökshistorik, hälsa/allergi/stödbehov/skyddad identitet. Inga annonser, spårare, publika profiler eller topplistor.

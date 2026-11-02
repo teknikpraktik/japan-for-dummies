@@ -67,7 +67,7 @@ export function TwoFactorSetup() {
   if (step === "done")
     return (
       <div className="card prose-col space-y-3" role="status" data-testid="enrolled">
-        <p className="feedback feedback-ok">Tvåfaktor är registrerad och verifierad. Du har nu administratörsåtkomst.</p>
+        <p className="feedback feedback-ok">Tvåfaktor är registrerad och verifierad. Från nu krävs en kod från appen vid inloggning.</p>
         <button className="btn btn-primary" onClick={() => router.push("/lararen/")}>Till läraröversikten</button>
       </div>
     );

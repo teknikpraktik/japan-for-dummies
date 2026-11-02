@@ -64,8 +64,8 @@ export function AccountPage() {
         <>
           <section className="card space-y-2" aria-labelledby="tf">
             <h2 id="tf" className="!text-xl">Tvåfaktorsinloggning</h2>
-            <p>{user.twoFactorEnabled ? "Tvåfaktor är aktiv." : "Tvåfaktor är inte registrerad. Du har ingen administratörsåtkomst förrän den är klar."}</p>
-            {!user.twoFactorEnabled && <Link className="btn btn-primary" href="/konto/tvafaktor/">Registrera tvåfaktor</Link>}
+            <p>{user.twoFactorEnabled ? "Tvåfaktor är aktiv." : "Tvåfaktor är valfritt och inte aktiverat. Du kan lägga till det för extra skydd av kontot."}</p>
+            {!user.twoFactorEnabled && <Link className="btn btn-primary" href="/konto/tvafaktor/">Aktivera tvåfaktor (valfritt)</Link>}
           </section>
 
           {user.twoFactorEnabled && (

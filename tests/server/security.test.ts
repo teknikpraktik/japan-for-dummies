@@ -238,7 +238,7 @@ describe("miljöseparation", () => {
 });
 
 describe("nya lärare: engångsflöde", () => {
-  it("inbjuden lärare sätter eget lösenord via engångslänk men får inte adminåtkomst före tvåfaktor", async () => {
+  it("inbjuden lärare sätter eget lösenord via engångslänk men får adminåtkomst direkt när hen aktiverat sig (tvåfaktor valfritt)", async () => {
     const { GET: overview } = await import("@/app/api/lararen/oversikt/route");
     const g = await makeGroup();
     const t = await makeTeacher(g);
@@ -250,8 +250,8 @@ describe("nya lärare: engångsflöde", () => {
     const login = await signInTeacher("ny.larare@example.org", "Eget-starkt-losenord-1");
     expect(login.res.status).toBe(200);
     const me = await call(meGET, "/api/me", { cookie: login.cookie });
-    expect(me.data).toMatchObject({ user: { role: "teacher", adminAccess: false, enrollmentRequired: true } });
-    expect((await call(overview, "/api/lararen/oversikt", { cookie: login.cookie })).status).toBe(403);
+    expect(me.data).toMatchObject({ user: { role: "teacher", adminAccess: true, enrollmentRequired: false } });
+    expect((await call(overview, "/api/lararen/oversikt", { cookie: login.cookie })).status).toBe(200);
   });
 
   it("engångslänken kan bara användas en gång, även vid samtidiga anrop", async () => {

@@ -52,12 +52,13 @@ async function getMember(tx: Tx, groupId: string, userId: string) {
   return rows[0];
 }
 
-/** Antal andra aktiva lärare med slutförd tvåfaktor (de som faktiskt kan administrera). */
+/** Antal andra aktiva, aktiverade lärare (de som faktiskt kan logga in och administrera). Inbjudna som inte satt lösenord räknas inte. */
 async function otherUsableTeachers(tx: Tx, groupId: string, excludeUserId: string): Promise<number> {
   const r = await tx.execute(sql`
     SELECT count(*)::int AS n FROM memberships m JOIN "user" u ON u.id = m.user_id
     WHERE m.group_id = ${groupId} AND m.role = 'teacher' AND u.deactivated_at IS NULL
-      AND u.two_factor_enabled = true AND u.id <> ${excludeUserId}`);
+      AND NOT EXISTS (SELECT 1 FROM teacher_activations a WHERE a.user_id = u.id AND a.used_at IS NULL)
+      AND u.id <> ${excludeUserId}`);
   return Number((r.rows[0] as { n: number }).n);
 }
 
@@ -199,8 +200,9 @@ export async function reissueTeacherActivation(actor: { userId: string; groupId:
     await lockGroup(tx, actor.groupId);
     const m = await getMember(tx, actor.groupId, targetId);
     if (!m || m.role !== "teacher") throw new AdminError("not-found", "Läraren finns inte i gruppen.");
-    // Den som har avslutad tvåfaktor och aktivt konto ska inte kunna få sitt lösenord ersatt utan avaktivering: använd avaktivera + återaktivera.
-    if (!m.deactivatedAt && m.twoFactorEnabled) throw new AdminError("conflict", "Läraren är redan aktiverad. Avaktivera kontot först om åtkomsten ska återställas.");
+    // Ett aktivt, aktiverat konto ska inte kunna få sitt lösenord ersatt utan avaktivering: använd avaktivera + återaktivera.
+    const pending = await tx.select({ id: schema.teacherActivations.id }).from(schema.teacherActivations).where(and(eq(schema.teacherActivations.userId, targetId), isNull(schema.teacherActivations.usedAt))).limit(1);
+    if (!m.deactivatedAt && pending.length === 0) throw new AdminError("conflict", "Läraren är redan aktiverad. Avaktivera kontot först om åtkomsten ska återställas.");
     await tx.update(schema.teacherActivations).set({ usedAt: new Date() }).where(and(eq(schema.teacherActivations.userId, targetId), isNull(schema.teacherActivations.usedAt)));
     await tx.insert(schema.teacherActivations).values({ id: newId(), userId: targetId, groupId: actor.groupId, tokenHash: hashToken(token), createdBy: actor.userId, expiresAt });
     await tx.update(schema.account).set({ password: unusable }).where(and(eq(schema.account.userId, targetId), eq(schema.account.providerId, "credential")));
@@ -224,7 +226,7 @@ export async function checkActivationToken(token: string): Promise<{ valid: bool
   return { valid: true, displayName: r.name, loginName: r.email };
 }
 
-/** Läraren sätter eget lösenord via engångslänk. Ger INTE administratörsåtkomst förrän tvåfaktor är registrerad och verifierad. */
+/** Läraren sätter eget lösenord via engångslänk. Efter detta kan läraren logga in. */
 export async function activateTeacher(token: string, newPassword: string): Promise<{ loginName: string }> {
   if (newPassword.length < 12 || newPassword.length > 128) throw new AdminError("invalid", "Lösenordet ska vara 12–128 tecken.");
   const hash = await hashPassword(newPassword);
@@ -250,7 +252,7 @@ export async function activateTeacher(token: string, newPassword: string): Promi
 
 /**
  * Ändrar roll inom gruppen. Lärare -> elev ger ny kod (användarnamn skapas vid behov, e-post blir intern).
- * Elev -> lärare kräver ett inloggningsnamn och ger ett aktiveringsflöde (eget lösenord + tvåfaktor).
+ * Elev -> lärare kräver ett inloggningsnamn och ger ett aktiveringsflöde (eget lösenord).
  */
 export async function changeRole(
   actor: { userId: string; groupId: string },

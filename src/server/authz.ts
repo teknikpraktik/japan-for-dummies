@@ -74,14 +74,10 @@ export async function requireStudent(request: Request): Promise<Principal> {
   return p;
 }
 
-/**
- * Lärare med verifierad tvåfaktor. En lärare som loggat in med bara lösenord (tvåfaktor ännu inte
- * registrerad) får ingen administratörsåtkomst.
- */
+/** Aktiv lärare. Tvåfaktor är valfritt: har läraren registrerat det krävs det vid inloggning, men det krävs inte för administration. */
 export async function requireTeacher(request: Request): Promise<Principal> {
   const p = await requireUser(request);
   if (p.role !== "teacher") throw new HttpError(403, "forbidden", "Åtgärden kräver lärarbehörighet.");
-  if (!p.twoFactorEnabled) throw new HttpError(403, "two-factor-required", "Registrera tvåfaktorsinloggning innan du kan administrera.");
   return p;
 }
 
