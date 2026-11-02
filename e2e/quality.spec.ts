@@ -41,6 +41,20 @@ test.describe("tillgänglighet (axe, WCAG 2.2 AA-regler) och layout", () => {
     }
   });
 
+  test("kontomenyn: namn, Konto och Logga ut ligger på samma linje, även med långt namn och på mobil", async ({ page }) => {
+    await loginStudentOk(page, 4);
+    for (const longName of [false, true]) {
+      if (longName) await page.getByTestId("account-name").evaluate((el) => (el.querySelector("span.truncate")!.textContent = "Alexandra-Maria Långnamnsson-Stenbock von Hohenzollern"));
+      const boxes = await Promise.all([page.getByTestId("account-name"), page.getByRole("link", { name: "Konto", exact: true }), page.getByTestId("logout")].map((l) => l.boundingBox()));
+      const centers = boxes.map((b) => b!.y + b!.height / 2);
+      expect(Math.max(...centers) - Math.min(...centers), `mitten ${centers}`).toBeLessThanOrEqual(1);
+      for (const b of boxes) expect(b!.height).toBeGreaterThanOrEqual(40);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)).toBeLessThanOrEqual(0);
+      const right = Math.max(...boxes.map((b) => b!.x + b!.width));
+      expect(right).toBeLessThanOrEqual(page.viewportSize()!.width);
+    }
+  });
+
   test("axe och ingen horisontell rullning: lärarens sidor", async ({ page }) => {
     await loginTeacher(page);
     for (const url of ["/lararen/", "/lararen/elever/", "/lararen/larare/"]) {

@@ -5,7 +5,7 @@ export function LoginCard({ group, name, username, code, onClose }: { group: str
   return (
     <section aria-labelledby="card-title" className="card space-y-3 border-2 border-red" data-testid="login-card">
       <div className="print-area space-y-2 rounded-lg border-2 border-ink p-4 bg-white text-black">
-        <p className="text-xs font-bold uppercase tracking-wide">Japanresan 2027 · {group}</p>
+        <p className="text-xs font-bold uppercase tracking-wide">Japan for Dummies · {group}</p>
         <h2 id="card-title" className="!text-xl !text-black">Inloggningskort: {name}</h2>
         <dl className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
           <dt className="font-semibold">Webbadress</dt>
@@ -26,7 +26,7 @@ export function LoginCard({ group, name, username, code, onClose }: { group: str
         <button className="btn btn-primary" onClick={() => window.print()} data-testid="card-print">Skriv ut kortet</button>
         <button
           className="btn"
-          onClick={() => void navigator.clipboard?.writeText(`Japanresan 2027 – ${name}\nWebbadress: ${window.location.origin}/logga-in/\nAnvändarnamn: ${username}\nInloggningskod: ${code}`)}
+          onClick={() => void navigator.clipboard?.writeText(`Japan for Dummies – ${name}\nWebbadress: ${window.location.origin}/logga-in/\nAnvändarnamn: ${username}\nInloggningskod: ${code}`)}
           data-testid="card-copy"
         >
           Kopiera uppgifterna

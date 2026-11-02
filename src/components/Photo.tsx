@@ -120,9 +120,6 @@ export function PhotoSlot({
     return (
       <figure className="space-y-2" data-slot-state="pending">
         <PhotoPlaceholder role={role} slotId={slotId} brief={brief} />
-        <figcaption className="text-sm text-ink-soft">
-          <strong>Fotografi väljs.</strong> Planerat motiv: {brief}
-        </figcaption>
       </figure>
     );
   }
@@ -131,10 +128,7 @@ export function PhotoSlot({
       <div className={`${frame[role]} overflow-hidden rounded-xl bg-paper-2`}>
         <PhotoPicture photo={photo} role={role} priority={priority} />
       </div>
-      <figcaption className="space-y-1">
-        <span className="block text-sm">{photo.caption}</span>
-        <PhotoCredit photo={photo} />
-      </figcaption>
+      <figcaption className="text-sm text-ink-soft">{photo.caption}</figcaption>
     </figure>
   );
 }
@@ -164,5 +158,68 @@ export function ChapterThumb({ imageId, label }: { imageId: string | null; label
     <div className={box} data-testid="card-thumb">
       <PhotoPicture photo={{ ...photo, decorative: true }} role="thumb" />
     </div>
+  );
+}
+
+const platformName: Record<Photo["sourcePlatform"], string> = {
+  unsplash: "Unsplash",
+  pexels: "Pexels",
+  "wikimedia-commons": "Wikimedia Commons",
+  "official-japan": "Officiell källa",
+  other: "Källa",
+};
+
+const firstSentence = (t: string) => t.split(/(?<=\.)\s/)[0];
+
+/** Fotografier som används på en sida, i den ordning de förekommer (utan dubbletter). */
+export function photosFor(ids: (string | null | undefined)[]): Photo[] {
+  const seen = new Set<string>();
+  const out: Photo[] = [];
+  for (const id of ids) {
+    if (!id || seen.has(id)) continue;
+    const p = findPhoto(id);
+    if (p) {
+      seen.add(id);
+      out.push(p);
+    }
+  }
+  return out;
+}
+
+/**
+ * Kompakt rättighetsavsnitt för en sida: motiv, sedan ”Fotograf · Källa · Licens” med länkar.
+ * Licensernas krav på namn, licens och länk till licensen uppfylls här i stället för under varje bild.
+ */
+export function PhotoRights({ photos, media = [] }: { photos: Photo[]; media?: { id: string; caption: string; rights: { creator: string; license: string } }[] }) {
+  if (photos.length === 0 && media.length === 0) return null;
+  return (
+    <section aria-labelledby="bilder-rattigheter" className="prose-col space-y-2" data-testid="photo-rights">
+      <h2 id="bilder-rattigheter" className="!text-lg">
+        Bilder och rättigheter
+      </h2>
+      <ul className="space-y-1.5 text-sm text-ink-soft">
+        {photos.map((p) => (
+          <li key={p.id} data-testid={`rights-${p.id}`}>
+            <span className="text-ink">{firstSentence(p.caption)}</span>
+            <br />
+            {p.creator} ·{" "}
+            <a href={p.sourceUrl} target="_blank" rel="noopener noreferrer">
+              {platformName[p.sourcePlatform]}
+            </a>{" "}
+            ·{" "}
+            <a href={p.license.url} target="_blank" rel="noopener noreferrer">
+              {p.license.name}
+            </a>
+          </li>
+        ))}
+        {media.map((m) => (
+          <li key={m.id}>
+            <span className="text-ink">{firstSentence(m.caption)}</span>
+            <br />
+            {m.rights.creator} · {m.rights.license}
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }

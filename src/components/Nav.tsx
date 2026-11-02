@@ -21,10 +21,10 @@ export function SiteHeader() {
   const pathname = usePathname();
   return (
     <header className="border-b border-line bg-card">
-      <div className="container-page flex flex-wrap items-center justify-between gap-x-4 gap-y-2 py-3">
+      <div className="container-page flex flex-wrap items-center justify-between gap-x-4 gap-y-1 py-2">
         <Link href="/" className="flex items-center gap-2 no-underline" style={{ color: "var(--color-indigo-dark)" }}>
           <span aria-hidden="true" className="inline-block h-4 w-4 rounded-full bg-red" />
-          <span className="font-serif text-xl font-bold">Japanresan 2027</span>
+          <span className="font-serif text-xl font-bold">Japan for Dummies</span>
         </Link>
         <nav aria-label="Huvudmeny" className="hidden md:block">
           <ul className="flex gap-1">

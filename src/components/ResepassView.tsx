@@ -18,7 +18,6 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
   const completed = published.filter((c) => chapterStatus(state, c.id) === "completed");
   const started = published.filter((c) => chapterStatus(state, c.id) === "in-progress");
   const next = suggestNext(state, chapters) as ChapterLite | undefined;
-  const favs = state.favorites.map((id) => chapters.find((c) => c.id === id)).filter((c): c is ChapterLite => Boolean(c));
   const tp = themeProgress(state, chapters);
   const unexported = completedSinceExport(state);
 
@@ -26,7 +25,7 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
 
   return (
     <div className="space-y-8">
-      <section aria-labelledby="oversikt" className="grid gap-4 md:grid-cols-3">
+      <section aria-labelledby="oversikt" className="grid gap-4 sm:grid-cols-2">
         <h2 id="oversikt" className="sr-only">Sammanfattning</h2>
         <div className="card">
           <p className="text-3xl font-bold text-indigo-dark" data-testid="stat-completed">{completed.length} / {published.length}</p>
@@ -35,10 +34,6 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
         <div className="card">
           <p className="text-3xl font-bold text-indigo-dark" data-testid="stat-started">{started.length}</p>
           <p>påbörjade, inte klara</p>
-        </div>
-        <div className="card">
-          <p className="text-3xl font-bold text-indigo-dark">{state.favorites.length}</p>
-          <p>favoriter</p>
         </div>
       </section>
 
@@ -114,23 +109,10 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
         </div>
       </section>
 
-      <section aria-labelledby="favoriter" className="space-y-2">
-        <h2 id="favoriter">Favoriter</h2>
-        {favs.length === 0 ? (
-          <p>Du har inga favoriter än. Öppna ett kapitel och välj ”Favoritmarkera”.</p>
-        ) : (
-          <ul className="list-disc space-y-1 pl-6">
-            {favs.map((c) => (
-              <li key={c.id}><Link href={`/kapitel/${c.slug}/`}>{c.title}</Link></li>
-            ))}
-          </ul>
-        )}
-      </section>
-
       {showTransfer && <TransferPanel />}
 
       <p className="text-sm text-ink-soft">
-        {showTransfer ? "Framstegen sparas bara i den här webbläsaren." : "Din status sparas på ditt konto. Resultat och favoriter sparas bara på den här enheten."} <Link href="/info/">Läs om hur lagringen fungerar.</Link>
+        {showTransfer ? "Framstegen sparas bara i den här webbläsaren." : "Din status sparas på ditt konto. Resultat sparas bara på den här enheten."} <Link href="/info/">Läs om hur lagringen fungerar.</Link>
       </p>
     </div>
   );

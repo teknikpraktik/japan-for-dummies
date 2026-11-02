@@ -37,12 +37,12 @@ export function AccountMenu() {
   }
 
   return (
-    <div className="relative flex flex-wrap items-center gap-2" data-testid="account-menu">
-      <Link href={home} className="font-semibold" data-testid="account-name">
-        {user.displayName}
+    <div className="relative flex min-w-0 items-center gap-1 text-[0.95rem] leading-6" data-testid="account-menu">
+      <Link href={home} className="inline-flex min-h-11 min-w-0 max-w-[8rem] items-center rounded-lg px-2 font-semibold sm:max-w-[14rem]" title={user.displayName} data-testid="account-name">
+        <span className="truncate">{user.displayName}</span>
         {unverified && <span className="sr-only"> (inloggningen är inte bekräftad, du är offline)</span>}
       </Link>
-      <Link href="/konto/" className="text-sm">
+      <Link href="/konto/" className="inline-flex min-h-11 items-center rounded-lg px-2">
         Konto
       </Link>
       <button className="btn btn-small" onClick={() => void doLogout(false)} disabled={busy || unverified} data-testid="logout">

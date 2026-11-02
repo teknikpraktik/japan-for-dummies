@@ -118,7 +118,7 @@ export function Blocks({ blocks, media }: { blocks: Block[]; media: Media[] }) {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={m.src} alt={m.alt} width={m.width} height={m.height} className="mx-auto h-auto max-h-[28rem] w-full max-w-md rounded-lg" loading="lazy" />
                 <figcaption className="mt-2 text-sm text-ink-soft">
-                  {m.caption} <span className="whitespace-nowrap">Rättigheter: se Källor och bilder nedan.</span>
+                  {m.caption}
                 </figcaption>
               </figure>
             );

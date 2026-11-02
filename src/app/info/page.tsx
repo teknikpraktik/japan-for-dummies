@@ -19,7 +19,7 @@ export default function Info() {
           <li>Som gäst <strong>synkas de inte</strong> mellan din telefon, surfplatta och dator. Med konto följer kapitelstatus med dig. På delade datorer sparas inget personligt kvar efter utloggning om du inte själv väljer det.</li>
           <li>De kan <strong>försvinna</strong> om du rensar webbdata eller historik, byter webbläsare, använder privat läge eller om enheten rensar utrymme.</li>
           <li><strong>Exportera</strong> framstegen då och då under <Link href="/resepass/#export">Resepass</Link>. Filen kan importeras igen, även på en annan enhet.</li>
-          <li>Det som sparas: vilka kapitel du öppnat, bästa och senaste testresultat, favoriter, samt ditt pågående test så att svar inte försvinner om sidan laddas om. Inga namn eller personuppgifter.</li>
+          <li>Det som sparas: vilka kapitel du öppnat, bästa och senaste testresultat, samt ditt pågående test så att svar inte försvinner om sidan laddas om. Inga namn eller personuppgifter.</li>
           <li>Som gäst skickas ingenting till någon annan. Med konto ser lärarna i din grupp vilka kapitel du påbörjat och avklarat, inte dina felaktiga svar. Offlineframsteg är en bekvämlighet och inte manipulationssäkert. Det finns ingen topplista.</li>
           <li>Inloggning och lärarsidor kräver internet och sparas aldrig för offlineanvändning.</li>
         </ul>

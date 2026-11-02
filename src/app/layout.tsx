@@ -8,12 +8,12 @@ import { AccountProvider } from "@/components/AccountProvider";
 import { AccountBanner } from "@/components/AccountBanner";
 
 export const metadata: Metadata = {
-  title: { default: "Japanresan 2027", template: "%s – Japanresan 2027" },
+  title: { default: "Japan for Dummies", template: "%s – Japan for Dummies" },
   description: "Interaktiv förberedelse inför skolresan till Japan i oktober 2027: korta kapitel, övningar och test.",
-  applicationName: "Japanresan 2027",
+  applicationName: "Japan for Dummies",
   manifest: "/manifest.webmanifest",
   icons: { icon: "/icons/icon-192.png", apple: "/icons/apple-touch-icon.png" },
-  appleWebApp: { capable: true, title: "Japanresan", statusBarStyle: "default" },
+  appleWebApp: { capable: true, title: "Japan for Dummies", statusBarStyle: "default" },
 };
 export const viewport: Viewport = { themeColor: "#28356b", width: "device-width", initialScale: 1 };
 

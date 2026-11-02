@@ -205,9 +205,39 @@ describe("bildkomponenter", () => {
     expect(img.getAttribute("srcset")).toContain("640w");
     expect(img).toHaveStyle({ objectPosition: "40% 60%" });
     expect(screen.getByText("En testbild.")).toBeInTheDocument();
+    // Bildtexten är bara en kort beskrivning: inga länkar, ID:n eller attribution.
+    const fig = screen.getByRole("figure");
+    expect(fig.querySelectorAll("a")).toHaveLength(0);
+    expect(fig).not.toHaveTextContent(/Foto:|Testlicens|Originalet/);
+  });
+  it("rättighetsavsnittet har fotograf · källa · licens med länkar, och krediteringen finns kvar", async () => {
+    const { PhotoRights } = await import("@/components/Photo");
+    const p = validPhoto({ requiredCredit: "Foto: Testperson / Testplattform" }) as unknown as Photo;
+    render(<PhotoRights photos={[p]} />);
+    const li = screen.getByTestId("rights-testbild");
+    expect(li).toHaveTextContent(p.creator);
+    expect(li).toHaveTextContent(/·.*·/);
     expect(screen.getByRole("link", { name: "Testlicens" })).toHaveAttribute("href", "https://example.org/licens");
-    expect(screen.getByRole("link", { name: "Originalet" })).toHaveAttribute("href", "https://example.org/foto/1");
-    expect(screen.getByTestId("photo-credit")).toHaveTextContent("Foto: Testperson / Testplattform");
+    expect(screen.getByRole("link", { name: "Källa" }).getAttribute("href")).toBe(p.sourceUrl);
+    expect(screen.getByRole("heading", { name: "Bilder och rättigheter" })).toBeInTheDocument();
+  });
+  it("alla fotografier i registret: kreditkravet uppfylls av fotograf, licensnamn och länkar i rättighetsavsnittet", async () => {
+    const { PhotoRights } = await import("@/components/Photo");
+    const { default: images } = await import("@/content/images.json");
+    for (const raw of images as unknown as Photo[]) {
+      const { container, unmount } = render(<PhotoRights photos={[raw]} />);
+      const text = container.textContent ?? "";
+      expect(text, raw.id).toContain(raw.creator);
+      expect(text, raw.id).toContain(raw.license.name);
+      const hrefs = [...container.querySelectorAll("a")].map((a) => a.getAttribute("href"));
+      expect(hrefs, raw.id).toEqual(expect.arrayContaining([raw.sourceUrl, raw.license.url]));
+      if (raw.requiredCredit) {
+        // ”Foto: X, LICENS, via Wikimedia Commons”: alla delar finns i avsnittet
+        expect(raw.requiredCredit).toContain(raw.license.name);
+        expect(text, raw.id).toContain("Wikimedia Commons");
+      }
+      unmount();
+    }
   });
   it("prioriterad bild laddas direkt; dekorativ bild har tom alt", async () => {
     const { PhotoSlot } = await import("@/components/Photo");
@@ -218,13 +248,13 @@ describe("bildkomponenter", () => {
     expect(img).toHaveAttribute("fetchpriority", "high");
     expect(img).toHaveAttribute("alt", "");
   });
-  it("reservyta: ärlig om att fotografi saknas och visar planerat motiv", async () => {
+  it("reservyta utan synlig produktionstext", async () => {
     const { PhotoSlot } = await import("@/components/Photo");
     state.photos = [];
     render(<PhotoSlot role="hero" slotId="min-plats" imageId={null} brief="Ett lugnt landskap." />);
     expect(screen.getByTestId("photo-placeholder")).toHaveAttribute("data-slot", "min-plats");
-    expect(screen.getByText(/Fotografi väljs/)).toBeInTheDocument();
-    expect(screen.getByText(/Planerat motiv: Ett lugnt landskap\./)).toBeInTheDocument();
+    expect(screen.queryByText(/Fotografi väljs/)).toBeNull();
+    expect(screen.getByText("Ett lugnt landskap.")).toHaveClass("sr-only"); // motivet finns bara som dold text
     expect(screen.queryByRole("img")).toBeNull();
   });
   it("mobilbeskärning ger egen <source> för smala skärmar", async () => {
