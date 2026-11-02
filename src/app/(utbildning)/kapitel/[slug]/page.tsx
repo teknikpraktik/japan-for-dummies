@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getContent } from "@/lib/content";
-import { chapterPath, positionOf, themeOf } from "@/lib/chapters";
+import { chapterPath, positionOf, themeOf, themePath } from "@/lib/chapters";
 import type { PublishedChapter } from "@/lib/schema";
 import { Blocks } from "@/components/Blocks";
 import { ExerciseRenderer } from "@/components/exercises/ExerciseRenderer";
@@ -34,7 +34,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
   const header = (
     <header className="space-y-3">
       <nav aria-label="Brödsmula" className="flex flex-wrap items-center gap-x-2 text-sm">
-        <Link href="/utbildning/" className="btn btn-small">
+        <Link href={themePath(chapter.themeId)} className="btn btn-small">
           <span aria-hidden="true">←</span> Till översikten
         </Link>
         <span className="text-ink-soft">
@@ -48,7 +48,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
 
   if (chapter.status === "planned") {
     return (
-      <article className="container-page space-y-6 pt-8">
+      <article className="min-w-0 space-y-6">
         {header}
         <div className="card !bg-paper-2 space-y-3 prose-col">
           <p>
@@ -62,7 +62,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
             ))}
           </ul>
         </div>
-        <ChapterNav prev={pos.prev} next={pos.next} />
+        <ChapterNav prev={pos.prev} next={pos.next} themeHref={themePath(chapter.themeId)} />
       </article>
     );
   }
@@ -73,7 +73,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
   const nextHref = nextPublished ? { href: chapterPath(nextPublished), label: `Nästa färdiga kapitel: ${nextPublished.title}` } : undefined;
 
   return (
-    <article className="container-page space-y-10 pt-8">
+    <article className="min-w-0 space-y-10">
       <MarkStarted chapterId={ch.id} contentVersion={ch.contentVersion} />
       {header}
       <PhotoSlot role="hero" priority slotId={ch.hero.slotId} imageId={ch.hero.imageId} brief={ch.hero.brief} />
@@ -126,7 +126,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
         <p className="text-sm text-ink-soft">Den här frågan poängsätts inte och sparas inte. Skriv gärna ned dina tankar på annat håll eller prata med någon.</p>
       </section>
 
-      <Quiz chapterId={ch.id} contentVersion={ch.contentVersion} questions={ch.quiz} nextHref={nextHref} />
+      <Quiz chapterId={ch.id} contentVersion={ch.contentVersion} questions={ch.quiz} nextHref={nextHref} overviewHref={themePath(ch.themeId)} />
 
       <section className="space-y-4 prose-col">
         <h2>Osäkerhet och begränsningar</h2>
@@ -179,12 +179,12 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
         </p>
       </section>
 
-      <ChapterNav prev={pos.prev} next={pos.next} />
+      <ChapterNav prev={pos.prev} next={pos.next} themeHref={themePath(chapter.themeId)} />
     </article>
   );
 }
 
-function ChapterNav({ prev, next }: { prev?: { slug: string; title: string; status: string }; next?: { slug: string; title: string; status: string } }) {
+function ChapterNav({ prev, next, themeHref }: { themeHref: string; prev?: { slug: string; title: string; status: string }; next?: { slug: string; title: string; status: string } }) {
   return (
     <nav aria-label="Kapitelnavigering" className="flex flex-col gap-3 border-t border-line pt-6 sm:flex-row sm:justify-between">
       {prev ? (
@@ -195,7 +195,7 @@ function ChapterNav({ prev, next }: { prev?: { slug: string; title: string; stat
       ) : (
         <span />
       )}
-      <Link className="btn" href="/utbildning/">
+      <Link className="btn" href={themeHref}>
         Till översikten
       </Link>
       {next ? (

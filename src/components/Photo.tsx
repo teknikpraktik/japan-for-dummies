@@ -9,18 +9,20 @@ const kindLabel: Record<Photo["kind"], string> = {
   "object-photo": "Föremål (fotografi)",
 };
 
-export type PhotoRole = "hero" | "figure" | "card";
+export type PhotoRole = "hero" | "figure" | "card" | "thumb";
 
 const frame: Record<PhotoRole, string> = {
   hero: "aspect-[4/3] sm:aspect-[16/9]",
   figure: "aspect-[4/3] sm:aspect-[3/2]",
   card: "aspect-[3/2]",
+  thumb: "aspect-[4/3] sm:aspect-[3/2]",
 };
 /** Hur bredden används, så att webbläsaren väljer lagom stor fil. */
 const sizes: Record<PhotoRole, string> = {
   hero: "(min-width: 1024px) 992px, 100vw",
   figure: "(min-width: 768px) 672px, 100vw",
   card: "(min-width: 768px) 320px, 100vw",
+  thumb: "(min-width: 640px) 176px, 112px",
 };
 
 const srcSet = (vs: ImageVariant[]) => vs.map((v) => `${v.path} ${v.width}w`).join(", ");
@@ -41,8 +43,8 @@ export function PhotoPicture({ photo, role, priority = false }: { photo: Photo; 
   const fp = `${Math.round(photo.focus.x * 100)}% ${Math.round(photo.focus.y * 100)}%`;
   return (
     <picture>
-      {byCrop("mobile", "avif").length > 0 && <source media="(max-width: 639px)" type="image/avif" srcSet={srcSet(byCrop("mobile", "avif"))} sizes="100vw" />}
-      {byCrop("mobile", "webp").length > 0 && <source media="(max-width: 639px)" type="image/webp" srcSet={srcSet(byCrop("mobile", "webp"))} sizes="100vw" />}
+      {byCrop("mobile", "avif").length > 0 && <source media="(max-width: 639px)" type="image/avif" srcSet={srcSet(byCrop("mobile", "avif"))} sizes={role === "thumb" ? sizes.thumb : "100vw"} />}
+      {byCrop("mobile", "webp").length > 0 && <source media="(max-width: 639px)" type="image/webp" srcSet={srcSet(byCrop("mobile", "webp"))} sizes={role === "thumb" ? sizes.thumb : "100vw"} />}
       {avif.length > 0 && <source type="image/avif" srcSet={srcSet(avif)} sizes={sizes[role]} />}
       <img
         src={largest.path}
@@ -144,6 +146,23 @@ export function CardThumb({ imageId }: { imageId: string | null }) {
   return (
     <div className={`${frame.card} overflow-hidden rounded-lg bg-paper-2`} data-testid="card-thumb">
       <PhotoPicture photo={{ ...photo, decorative: true }} role="card" />
+    </div>
+  );
+}
+
+/** Liten bild för kompakta kapitelkort: fast bildformat, beskärning med fokuspunkt, aldrig förvrängd. */
+export function ChapterThumb({ imageId, label }: { imageId: string | null; label: string }) {
+  const photo = findPhoto(imageId);
+  const box = `${frame.thumb} w-28 shrink-0 overflow-hidden rounded-lg bg-paper-2 sm:w-44`;
+  if (!photo)
+    return (
+      <div className={`${box} flex items-center justify-center border border-dashed border-line text-ink-soft`} data-testid="thumb-placeholder" aria-hidden="true">
+        <span className="text-lg font-bold">{label}</span>
+      </div>
+    );
+  return (
+    <div className={box} data-testid="card-thumb">
+      <PhotoPicture photo={{ ...photo, decorative: true }} role="thumb" />
     </div>
   );
 }

@@ -75,7 +75,9 @@ test.describe("offline", () => {
 
     // Navigering via länkar, och planerat kapitel, översikt, resepass, källor offline
     await page.getByRole("link", { name: "Till översikten" }).first().click();
-    await expect(page.getByRole("heading", { level: 1, name: "Utbildningsöversikt" })).toBeVisible();
+    await expect(page.getByRole("heading", { level: 1, name: "Geografi, regioner, klimat och natur" })).toBeVisible();
+    await page.goto("/utbildning/resa/"); // temasidorna finns också offline
+    await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
     await page.goto("/kapitel/shinto/");
     await expect(page.getByText("planerat men inte skrivet än")).toBeVisible();
     await page.goto("/resepass/");
