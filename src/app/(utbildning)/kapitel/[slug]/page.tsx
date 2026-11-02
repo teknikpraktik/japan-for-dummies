@@ -48,7 +48,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
 
   if (chapter.status === "planned") {
     return (
-      <article className="container-page space-y-6 pt-8">
+      <article className="min-w-0 space-y-6">
         {header}
         <div className="card !bg-paper-2 space-y-3 prose-col">
           <p>
@@ -73,7 +73,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
   const nextHref = nextPublished ? { href: chapterPath(nextPublished), label: `Nästa färdiga kapitel: ${nextPublished.title}` } : undefined;
 
   return (
-    <article className="container-page space-y-10 pt-8">
+    <article className="min-w-0 space-y-10">
       <MarkStarted chapterId={ch.id} contentVersion={ch.contentVersion} />
       {header}
       <PhotoSlot role="hero" priority slotId={ch.hero.slotId} imageId={ch.hero.imageId} brief={ch.hero.brief} />

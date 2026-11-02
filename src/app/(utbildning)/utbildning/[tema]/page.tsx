@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getContent } from "@/lib/content";
-import { EducationShell } from "@/components/EducationShell";
+import { ThemeView } from "@/components/ThemeView";
 
 export const dynamicParams = false;
 
@@ -18,5 +18,5 @@ export async function generateMetadata({ params }: { params: Promise<{ tema: str
 export default async function ThemePage({ params }: { params: Promise<{ tema: string }> }) {
   const { tema } = await params;
   if (!getContent().themes.some((t) => t.id === tema)) notFound();
-  return <EducationShell themeId={tema} />;
+  return <ThemeView themeId={tema} />;
 }

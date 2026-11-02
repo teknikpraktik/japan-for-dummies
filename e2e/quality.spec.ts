@@ -52,6 +52,16 @@ test.describe("tillgänglighet (axe, WCAG 2.2 AA-regler) och layout", () => {
     }
   });
 
+  test("axe: kapitelsida med gemensam navigation, alla teman utfällda och mobilpanel öppen", async ({ page }) => {
+    await page.goto(`/kapitel/${pilots[1].slug}/`);
+    await page.waitForLoadState("networkidle");
+    const wide = (page.viewportSize()?.width ?? 1200) >= 1024;
+    if (!wide) await page.getByTestId("nav-open").click();
+    for (const b of await page.locator("[data-testid^='nav-toggle-']").all()) if ((await b.getAttribute("aria-expanded")) === "false") await b.click();
+    const r = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"]).analyze();
+    expect(r.violations.map((v) => `${v.id}: ${v.nodes.map((n) => n.target.join(" ")).slice(0, 3).join(" | ")}`)).toEqual([]);
+  });
+
   for (const c of pilots) {
     test(`ingen störande layoutförskjutning när bilderna laddas: ${c.slug}`, async ({ page }) => {
       await page.addInitScript(() => {

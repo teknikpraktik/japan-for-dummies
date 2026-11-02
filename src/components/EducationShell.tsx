@@ -1,9 +1,8 @@
 import { getContent } from "@/lib/content";
 import { chapterPath, themePath } from "@/lib/chapters";
 import { EducationNav, type NavTheme } from "./EducationNav";
-import { ThemeView } from "./ThemeView";
 
-function navThemes(): NavTheme[] {
+export function navThemes(): NavTheme[] {
   const { themes, chapters } = getContent();
   return themes
     .slice()
@@ -20,14 +19,12 @@ function navThemes(): NavTheme[] {
     }));
 }
 
-/** Vänsterspalt (eller panel på mobil) plus huvudvy för ett tema. Allt härleds ur innehållet. */
-export function EducationShell({ themeId }: { themeId: string }) {
+/** Gemensam layout för temaöversikter och kapitelsidor: navigationen (spalt/panel) plus innehållet. */
+export function EducationShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="mx-auto grid w-full max-w-[78rem] gap-4 px-4 pt-6 sm:px-6 lg:grid-cols-[17.5rem_minmax(0,1fr)] lg:gap-8 lg:pt-8">
-      <EducationNav themes={navThemes()} activeThemeId={themeId} />
-      <div className="min-w-0">
-        <ThemeView themeId={themeId} />
-      </div>
+      <EducationNav themes={navThemes()} />
+      <div className="min-w-0">{children}</div>
     </div>
   );
 }
