@@ -32,15 +32,16 @@ function walk(dir: string, fn: (file: string, rel: string) => void, base = dir) 
 
 // 1. Förrenderade sidor (statisk HTML). Dynamiska/personliga sidor har ingen HTML-fil och kommer därför aldrig med.
 //    Lokalt ligger HTML i .next/server/app. På Vercel flyttar bygget (onBuildComplete) de förrenderade sidorna till
-//    .vercel/output/static innan det här steget körs, så båda platserna söks.
+//    .next/output (functions/*.prerender-fallback.html och static) innan det här steget körs, så alla platser söks.
 const appDir = path.join(nextDir, "server", "app");
-const pageDirs = [appDir, path.join(root, ".vercel", "output", "static")].filter((d) => fs.existsSync(d));
+const pageDirs = [appDir, path.join(nextDir, "output", "functions"), path.join(nextDir, "output", "static"), path.join(root, ".vercel", "output", "static")].filter((d) => fs.existsSync(d));
 const seenPages = new Set<string>();
 for (const dir of pageDirs) {
   walk(dir, (file, rel) => {
     if (!rel.endsWith(".html")) return;
+    const stripped = rel.replace(/\.prerender-fallback\.html$/, ".html");
     if (rel.startsWith("api/") || rel.includes("[") || rel.startsWith("_") || rel.startsWith("images/") || rel.startsWith("icons/")) return;
-    const noExt = rel.slice(0, -".html".length);
+    const noExt = stripped.slice(0, -".html".length);
     const route = noExt === "index" ? "/" : `/${noExt.replace(/\/index$/, "")}/`;
     if (seenPages.has(route)) return;
     // Skyddade sidor har bara ett tomt skal, men ingår ändå aldrig i den delade offlinecachen.
