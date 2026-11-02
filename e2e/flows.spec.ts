@@ -16,7 +16,7 @@ test.describe("pilotkapitel och direktlänkar", () => {
       await expect(page.getByRole("heading", { level: 1 })).toHaveText(c.title);
       // Kapitelposition och väg tillbaka
       await expect(page.getByRole("link", { name: /Till översikten/ }).first()).toBeVisible();
-      await expect(page.getByText(/kapitel \d av 5 i temat/)).toBeVisible();
+      await expect(page.getByText(/kapitel \d av \d+ i temat|\d+ av 60 totalt/)).toHaveCount(0);
       // Minst en övning finns och kan användas
       await expect(page.getByRole("heading", { name: "Öva" })).toBeVisible();
       // Gör testet med alla rätt
@@ -221,7 +221,6 @@ test.describe("bilder", () => {
     const obs = page.getByTestId("observe");
     await expect(obs).toHaveCount(1);
     await expect(obs).toContainText("Utan bild:");
-    await expect(obs).toContainText("poängsätts inte");
     await page.goto("/kapitel/hansyn-i-vardagen/");
     await expect(page.getByTestId("observe")).toHaveCount(1);
     await expect(page.getByTestId("observe")).toContainText("Utan bild:");

@@ -28,7 +28,6 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
   if (!chapter) notFound();
   const theme = themeOf(themes, chapter);
   const pos = positionOf(chapters, chapter);
-  const inTheme = chapters.filter((c) => c.themeId === chapter.themeId);
   const nextPublished = chapters.slice(pos.overall).find((c) => c.status === "published");
 
   const header = (
@@ -38,7 +37,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
           <span aria-hidden="true">←</span> Till översikten
         </Link>
         <span className="text-ink-soft">
-          {theme.title} · kapitel {chapter.order} av {inTheme.length} i temat · {pos.overall} av {pos.total} totalt
+          {theme.title}
         </span>
       </nav>
       <h1>{chapter.title}</h1>
@@ -123,7 +122,6 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
       <section aria-labelledby="reflektion" className="card prose-col space-y-2">
         <h2 id="reflektion">Reflektera</h2>
         <p>{ch.reflection}</p>
-        <p className="text-sm text-ink-soft">Den här frågan poängsätts inte och sparas inte. Skriv gärna ned dina tankar på annat håll eller prata med någon.</p>
       </section>
 
       <Quiz chapterId={ch.id} contentVersion={ch.contentVersion} questions={ch.quiz} nextHref={nextHref} overviewHref={themePath(ch.themeId)} />

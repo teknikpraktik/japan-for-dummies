@@ -6,7 +6,7 @@ import type { QuizQuestion } from "@/lib/schema";
 import { isFullyAnswered, isPassed, PASS_MARK, quizSignature, scoreQuiz } from "@/lib/scoring";
 import { hashString, seededShuffle } from "@/lib/shuffle";
 import { progressStore, useProgress } from "@/lib/store";
-import { completedSinceExport, type QuizDraft } from "@/lib/progress";
+import type { QuizDraft } from "@/lib/progress";
 import { OptionList } from "./exercises/OptionList";
 
 interface Props {
@@ -89,7 +89,6 @@ function ActiveQuiz({ chapterId, contentVersion, questions, draft, nextHref, ove
         nextHref={nextHref}
         overviewHref={overviewHref}
         onRestart={onRestart}
-        showExportNudge={isPassed(score) && completedSinceExport(state) > 0}
       />
     );
   }
@@ -163,7 +162,6 @@ function Results({
   nextHref,
   overviewHref,
   onRestart,
-  showExportNudge,
 }: {
   ordered: QuizQuestion[];
   answers: Record<string, string>;
@@ -172,7 +170,6 @@ function Results({
   nextHref?: { href: string; label: string };
   overviewHref?: string;
   onRestart: () => void;
-  showExportNudge: boolean;
 }) {
   const passed = isPassed(score);
   return (
@@ -210,11 +207,6 @@ function Results({
           );
         })}
       </ol>
-      {showExportNudge && (
-        <p className="callout callout-check">
-          Du har framsteg som inte är exporterade. <Link href="/resepass/#export">Exportera dem under Resepass</Link> så att de inte försvinner om webbdata rensas.
-        </p>
-      )}
       <div className="flex flex-wrap gap-2">
         <button className="btn btn-primary" onClick={onRestart} data-testid="retry">
           Försök igen
