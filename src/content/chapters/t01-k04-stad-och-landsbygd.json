@@ -1,0 +1,336 @@
+{
+  "id": "t01-k04",
+  "slug": "stad-och-landsbygd",
+  "themeId": "geografi",
+  "order": 4,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Storstad och landsbygd",
+  "summary": "Stor-Tokyo är ett av världens största stadsområden, medan många landsbygdsområden krymper. Kapitlet visar hur olika livet kan vara beroende på var man bor.",
+  "objectives": [
+    "Beskriva skillnader mellan storstadsregioner och landsbygd",
+    "Förstå varför många orter tappar invånare",
+    "Ställa frågor om platsen du besöker snarare än att generalisera"
+  ],
+  "minutes": 7,
+  "hook": {
+    "kind": "situation",
+    "text": "På morgonen går du genom en av världens största tågstationer, där tusentals människor passerar varje minut. På eftermiddagen sitter du på en buss som går en gång i timmen genom en by där nästan alla hus verkar tomma. Är båda platserna ”Japan”?"
+  },
+  "sections": [
+    {
+      "id": "tokyo",
+      "heading": "Tokyo-regionen: ett av världens största stadsområden",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Området kring Tokyo, ofta kallat **Stor-Tokyo**, är ett av världens största stadsområden. Siffran beror på hur man drar gränserna, men det rör sig om mer än 30 miljoner människor, alltså en stor del av Japans befolkning på en liten yta."
+        },
+        {
+          "type": "p",
+          "text": "Hur kan så många bo så tätt? Mycket av landet är berg (se kapitel 1), så människor samlas på de smala slätterna vid kusten. I storstäderna går vardagen på **tåg och tunnelbana**, och många behöver ingen bil. Bostäderna är ofta små, och butiker, kaféer och automater finns överallt."
+        }
+      ]
+    },
+    {
+      "id": "landsbygd",
+      "heading": "Landsbygd som krymper",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Samtidigt har många landsbygdsområden färre invånare för varje år. Japans befolkning nådde sin topp för mer än ett decennium sedan, runt 128 miljoner, och har sedan dess minskat. Många unga flyttar till städer för studier och arbete, och de som blir kvar är i högre grad äldre."
+        },
+        {
+          "type": "p",
+          "text": "Ett tecken på det är **akiya**, tomma hus. Enligt en statlig undersökning från 2023 var cirka 9 miljoner bostäder tomma, ungefär var sjunde bostad. De flesta är inte till salu, och många ligger på landsbygden."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Befolkningstopp",
+              "value": "Cirka 128 miljoner, för mer än ett decennium sedan (uppgifterna varierar något mellan källor)"
+            },
+            {
+              "label": "Tomma bostäder (akiya)",
+              "value": "Cirka 9 miljoner år 2023, ungefär 13,8 procent av alla bostäder"
+            },
+            {
+              "label": "Stor-Tokyo",
+              "value": "Mer än 30 miljoner invånare, beroende på hur området avgränsas"
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "slotId": "t01-k04-landsbygd",
+          "imageId": "hirado-risterrasser",
+          "brief": "Japansk landsbygd, till exempel en by med risfält eller ett jordbruksområde med berg bakom, helst med hus som visar vardagen."
+        }
+      ]
+    },
+    {
+      "id": "bilden",
+      "heading": "Bilden är mer sammansatt än så",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Det är lätt att göra en enkel berättelse: stad är full och landsbygd är tom. Men verkligheten har fler delar. Många mindre städer klarar sig bra, vissa byar får nya invånare som flyttar dit för lugnet eller för att driva en gård eller ett företag, och många kommuner arbetar aktivt med att behålla unga och locka besökare."
+        },
+        {
+          "type": "p",
+          "text": "Därför är det bättre att **fråga** än att dra slutsatser. När du besöker en plats: vad lever människor av här? Hur tar man sig dit utan bil? Vad gör att unga stannar eller flyttar?"
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Hänsyn på landsbygden",
+          "text": "Tomma hus och gårdar tillhör ofta någon. Gå inte in, fotografera inte privata trädgårdar utan lov, och ta med dig dina sopor. I små samhällen märks en gäst mer."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "akiya",
+      "title": "Vad är akiya?",
+      "prompt": "Vad betyder ordet akiya i den här sammanhanget?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ett tomt hus eller en tom bostad.",
+          "correct": true,
+          "feedback": "Rätt. Akiya är tomma bostäder, och de är vanligast utanför storstäderna."
+        },
+        {
+          "id": "b",
+          "text": "Ett gammalt tempel.",
+          "correct": false,
+          "feedback": "Fel. Det handlar om tomma bostäder, inte om tempel."
+        },
+        {
+          "id": "c",
+          "text": "En typ av tåg.",
+          "correct": false,
+          "feedback": "Fel. Akiya är bostäder som står tomma."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "fotografera",
+      "title": "Det tomma huset",
+      "situation": "Du går genom en liten by och ser ett förfallet hus med en övervuxen trädgård. Du vill fotografera det för att visa vänner hemma ”hur tomt det är på landsbygden”.",
+      "question": "Vad är mest respektfullt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fråga dig själv om huset och trädgården är privata, fotografera bara från vägen om det är okej, och undvik att göra byn till ett exempel på förfall.",
+          "correct": true,
+          "feedback": "Rätt. Huset tillhör någon, och en by är mer än sina tomma hus. Visa hänsyn och fråga om du är osäker."
+        },
+        {
+          "id": "b",
+          "text": "Gå in i trädgården för en bättre bild.",
+          "correct": false,
+          "feedback": "Fel. Det är privat mark, och det är inte tillåtet att gå in."
+        },
+        {
+          "id": "c",
+          "text": "Skriva att hela landsbygden i Japan är tom.",
+          "correct": false,
+          "feedback": "Fel. Det är en förenkling. Många platser fungerar väl."
+        }
+      ]
+    },
+    {
+      "type": "ordering",
+      "id": "tata-lugna",
+      "title": "Från tätast till lugnast",
+      "prompt": "Ordna miljöerna efter hur tätt det brukar vara mellan människor, från tätast till glesast.",
+      "items": [
+        {
+          "id": "storstad",
+          "text": "Stor-Tokyo, en tågstation i rusningstid"
+        },
+        {
+          "id": "mellanstad",
+          "text": "En medelstor stad med bussar och några köpcentrum"
+        },
+        {
+          "id": "by",
+          "text": "En liten by i bergen med några få hus och en buss per timme"
+        }
+      ],
+      "explanation": "Storstadsregionerna är tätast, medelstora städer har mer luft, och bergsbyar är glesast. Men det finns undantag, och en generalisering säger aldrig allt."
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur förändras bebyggelsen när du åker från en stor stad ut på landsbygden?",
+    "Hur ofta går tåg och bussar på platsen du befinner dig?",
+    "Vilka tecken ser du på både liv och förändring: nya butiker, tomma hus, skolor, äldre och unga?"
+  ],
+  "reflection": "Vad tänker du själv om att bo i en stad jämfört med en liten ort? Vad skulle du sakna och vad skulle du uppskatta?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Varför bor så många människor i Tokyo-området?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eftersom en stor del av landet är berg och människor samlas på slätterna.",
+          "correct": true,
+          "feedback": "Rätt. Slätterna är få, så många bor tätt."
+        },
+        {
+          "id": "b",
+          "text": "Eftersom hela Japan är en stor stad.",
+          "feedback": "Fel. Stora delar är bergigt och glesbefolkat."
+        },
+        {
+          "id": "c",
+          "text": "Eftersom det är förbjudet att bo på landsbygden.",
+          "feedback": "Fel. Det finns inget sådant förbud."
+        },
+        {
+          "id": "d",
+          "text": "Eftersom Tokyo ligger på en egen ö.",
+          "feedback": "Fel. Tokyo ligger på Honshu."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad har hänt med Japans folkmängd de senaste åren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den har minskat sedan toppen.",
+          "correct": true,
+          "feedback": "Rätt. Befolkningen har minskat och blir äldre."
+        },
+        {
+          "id": "b",
+          "text": "Den har fördubblats.",
+          "feedback": "Fel. Den har minskat."
+        },
+        {
+          "id": "c",
+          "text": "Den är exakt oförändrad.",
+          "feedback": "Fel. Den minskar."
+        },
+        {
+          "id": "d",
+          "text": "Den har bara ökat på landsbygden.",
+          "feedback": "Fel. Många unga flyttar till städerna."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad är akiya?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tomma bostäder.",
+          "correct": true,
+          "feedback": "Rätt. Cirka 9 miljoner bostäder stod tomma 2023."
+        },
+        {
+          "id": "b",
+          "text": "En sorts mat.",
+          "feedback": "Fel. Det handlar om bostäder."
+        },
+        {
+          "id": "c",
+          "text": "Ett tempel.",
+          "feedback": "Fel. Det är tomma hus."
+        },
+        {
+          "id": "d",
+          "text": "En tågstation.",
+          "feedback": "Fel. Det är tomma bostäder."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Hur ska du tänka på bilden av landsbygden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att det finns variation, och att man hellre frågar än generaliserar.",
+          "correct": true,
+          "feedback": "Rätt. Verkligheten har många sidor."
+        },
+        {
+          "id": "b",
+          "text": "Att alla byar är tomma.",
+          "feedback": "Fel. Det är en förenkling."
+        },
+        {
+          "id": "c",
+          "text": "Att alla byar är rika.",
+          "feedback": "Fel. Det är också en förenkling."
+        },
+        {
+          "id": "d",
+          "text": "Att det inte finns några byar.",
+          "feedback": "Fel. Det finns många."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Du ser ett tomt hus. Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Visar hänsyn: går inte in och fotograferar bara om det är okej.",
+          "correct": true,
+          "feedback": "Rätt. Huset är privat egendom."
+        },
+        {
+          "id": "b",
+          "text": "Går in och tittar.",
+          "feedback": "Fel. Det är privat mark."
+        },
+        {
+          "id": "c",
+          "text": "Tar med dig något som minne.",
+          "feedback": "Fel. Det är stöld."
+        },
+        {
+          "id": "d",
+          "text": "Lämnar skräp i trädgården.",
+          "feedback": "Fel. Ta alltid med dig dina sopor."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "tbs-akiya",
+    "asianews-vacant-homes",
+    "wikipedia-geography-japan"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-02",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön. Siffrorna om tomma bostäder bygger på sekundära rapporter om en statlig undersökning från 2023.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Siffran för Stor-Tokyo (mer än 30 miljoner) kommer från en icke-officiell sammanställning och beror på hur området avgränsas.",
+      "Befolkningstoppen (cirka 128 miljoner) och uppgiften att den minskat är allmän kännedom och en enstaka källa, inte kontrollerad mot officiell statistik i detta arbete.",
+      "Andelen tomma bostäder (13,8 procent) och antalet (cirka 9 miljoner) bygger på sekundära källor, inte på den statliga rapporten.",
+      "Uppgiften att de flesta tomma bostäder inte är till salu och att många ligger på landsbygden är förenklad.",
+      "Beskrivningen av nyinflyttning och kommunala insatser är allmän bakgrund utan egen källa."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t01-k04-hero",
+    "imageId": "shimbashi-slplats-2019",
+    "brief": "Storstadsmiljö i Tokyo, till exempel ett tätt gatuliv eller en station."
+  }
+}

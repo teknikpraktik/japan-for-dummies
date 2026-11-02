@@ -1,6 +1,6 @@
 # Bildplan och status
 
-Status (kontrollerat 2026-11-01): **19 av 20 bildplatser är fyllda** med rättighetskontrollerade fotografier från Wikimedia Commons (**18 unika bilder**, några återanvänds). Bildplatser utan bild visar en reservyta med planerat motiv. Arbetsgång och licensunderlag: [IMAGE-LICENSES.md](IMAGE-LICENSES.md). Aktuell lista med fullständiga uppgifter finns på sidan Bildkällor och i `src/content/images.json`.
+Status (kontrollerat 2026-11-01): **19 av 20 bildplatser var fyllda 2026-11-01; tema 1 (kapitel 2–5) har tillkommit 2026-11-02 med 7 nya fotografier och 28 av 29 platser är nu fyllda** med rättighetskontrollerade fotografier från Wikimedia Commons (25 unika bilder, några återanvänds). Bildplatser utan bild visar en reservyta med planerat motiv. Arbetsgång och licensunderlag: [IMAGE-LICENSES.md](IMAGE-LICENSES.md). Aktuell lista med fullständiga uppgifter finns på sidan Bildkällor och i `src/content/images.json`.
 
 | Plats-ID | Sida | Roll | Bild | Licens | Fotograf/upphov | Original / återstår |
 |---|---|---|---|---|---|---|

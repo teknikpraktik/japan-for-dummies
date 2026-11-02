@@ -14,9 +14,9 @@ export default function ImageSources() {
     (home.hero.imageId ? 0 : 1) +
     chapters.reduce((n, c) => n + (c.status === "published" ? (c.hero.imageId ? 0 : 1) + c.sections.flatMap((s) => s.blocks).filter((b) => b.type === "photo" && !b.imageId).length : 0), 0);
   const where = (id: string) => {
-    if (id === "home") return <Link href="/">Startsidan</Link>;
+    if (id === "home") return <Link href="/" className="inline-block py-1">Startsidan</Link>;
     const c = chapters.find((x) => x.id === id);
-    return c ? <Link href={chapterPath(c)}>{c.title}</Link> : id;
+    return c ? <Link href={chapterPath(c)} className="inline-block py-1">{c.title}</Link> : id;
   };
   return (
     <div className="container-page space-y-8 pt-8">
@@ -36,7 +36,7 @@ export default function ImageSources() {
         <section className="card prose-col space-y-2" data-testid="no-photos">
           <h2 className="!text-xl">Inga fotografier är valda än</h2>
           <p>
-            Utbildningen har {slotCount} bildplatser (startsidan och de sex färdiga kapitlen), men inget fotografi har ännu valts och rättighetskontrollerats. Tills vidare visas reservytor med planerat motiv. Inga bilder används utan fullständigt licensunderlag.
+            Utbildningen har {slotCount} bildplatser (startsidan och de färdiga kapitlen), men inget fotografi har ännu valts och rättighetskontrollerats. Tills vidare visas reservytor med planerat motiv. Inga bilder används utan fullständigt licensunderlag.
           </p>
           <p className="text-sm text-ink-soft">Startsidans bildplats: {home.hero.brief}</p>
         </section>

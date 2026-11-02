@@ -2,7 +2,7 @@
 
 Svenskspråkig, interaktiv förberedelse inför en skolresa till Japan i oktober 2027 (16 elever, 3 lärare). Responsiv webbplats och installerbar PWA. Utbildningen kan användas som gäst utan konto; elever och lärare kan logga in (inga publika registreringar) så att läraren ser framsteg per elev. Data lagras i PostgreSQL (Neon). Inga annonser, spårare eller AI-anrop.
 
-**Status: pilot.** 12 teman och 60 planerade kapitel finns i planen. **6 kapitel är färdiga**; de övriga 54 har titel, lärandemål och beskrivning och visas som *Kommer senare*. De sex pilotkapitlen är skrivna och kontrollerade men **behöver granskas av en person** innan de används som facit (se [docs/CONTENT.md](docs/CONTENT.md#faktagranskning)).
+**Status: pilot.** 12 teman och 60 planerade kapitel finns i planen. **10 kapitel är färdiga** (hela tema 1 och fem kapitel i andra teman); de övriga 50 har titel, lärandemål och beskrivning och visas som *Kommer senare*. De färdiga kapitlen är skrivna och kontrollerade men **behöver granskas av en person** innan de används som facit (se [docs/CONTENT.md](docs/CONTENT.md#faktagranskning)).
 
 ## Starta lokalt
 
@@ -47,6 +47,6 @@ npm start
 
 Next.js 16 (App Router, servläge med statiskt genererat offentligt innehåll), Better Auth, Drizzle och PostgreSQL, React 19, TypeScript 6, Tailwind CSS 4, Zod, Serwist (service worker), Vitest och Playwright. Beroenden är låsta i `package-lock.json`.
 
-**Bilder:** 18 fotografier från Wikimedia Commons (CC0, CC BY, public domain). Fotografiernas licens är separat från kodens. Se sidan Bildkällor i appen, [bildlicenser](docs/IMAGE-LICENSES.md) och [bildplan](docs/IMAGE-PLAN.md).
+**Bilder:** 25 fotografier från Wikimedia Commons (CC0, CC BY, public domain). Fotografiernas licens är separat från kodens. Se sidan Bildkällor i appen, [bildlicenser](docs/IMAGE-LICENSES.md) och [bildplan](docs/IMAGE-PLAN.md).
 
 Läs mer: [innehållsarbete](docs/CONTENT.md) · [GitHub och Vercel](docs/DEPLOY.md) · [arkitektur och PWA](docs/ARCHITECTURE.md) · [tillgänglighet och kontroller](docs/QUALITY.md) · [antaganden](docs/ASSUMPTIONS.md) · [drift och Neon](docs/OPERATIONS.md) · [lärarguide](docs/TEACHERS.md) · [personuppgifter](docs/PRIVACY.md)

@@ -34,3 +34,7 @@ export async function takeQuiz(page: Page, chapter: Chapter, wrong = 0) {
     await page.getByTestId("next-question").click();
   }
 }
+
+/** Antal publicerade kapitel (härleds ur innehållet så att testerna inte hårdkodar siffran). */
+export const PUBLISHED = pilots.length;
+export const PLANNED = 60 - pilots.length;

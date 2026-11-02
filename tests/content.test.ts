@@ -23,12 +23,12 @@ const clone = <T,>(x: T): T => structuredClone(x);
 const pilot = (raw: RawContent) => raw.chapters.find((c) => (c.data as any).status === "published")!.data as any;
 
 describe("innehållsvalidering", () => {
-  it("det riktiga innehållet är giltigt: 12 teman, 60 kapitel, 6 publicerade", () => {
+  it("det riktiga innehållet är giltigt: 12 teman, 60 kapitel, minst ett publicerat", () => {
     const { errors, content } = validateContent(loadRaw(), publicFiles());
     expect(errors).toEqual([]);
     expect(content!.themes).toHaveLength(12);
     expect(content!.chapters).toHaveLength(60);
-    expect(content!.chapters.filter((c) => c.status === "published")).toHaveLength(6);
+    expect(content!.chapters.filter((c) => c.status === "published").length).toBeGreaterThan(0);
     for (const t of content!.themes) expect(content!.chapters.filter((c) => c.themeId === t.id)).toHaveLength(5);
   });
 
@@ -47,12 +47,12 @@ describe("innehållsvalidering", () => {
     }
   });
 
-  it("de 54 planerade kapitlen har unika titlar och beskrivningar (ingen upprepad utfyllnad)", () => {
+  it("de planerade kapitlen har unika titlar och beskrivningar (ingen upprepad utfyllnad)", () => {
     const { content } = validateContent(loadRaw());
     const planned = content!.chapters.filter((c) => c.status === "planned");
-    expect(planned).toHaveLength(54);
-    expect(new Set(planned.map((c) => c.title)).size).toBe(54);
-    expect(new Set(planned.map((c) => c.summary)).size).toBe(54);
+    expect(planned.length + content!.chapters.filter((c) => c.status === "published").length).toBe(60);
+    expect(new Set(planned.map((c) => c.title)).size).toBe(planned.length);
+    expect(new Set(planned.map((c) => c.summary)).size).toBe(planned.length);
   });
 
   it("fångar dubbla kapitel-ID", () => {

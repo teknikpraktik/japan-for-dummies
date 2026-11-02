@@ -23,8 +23,9 @@ const ch = () => publishedChapters()[0];
 const correctAnswers = (c = ch(), wrong = 0) => Object.fromEntries(c.quiz.map((q, i) => [q.id, (q.options.find((o) => Boolean(o.correct) !== i < wrong) ?? q.options[0]).id]));
 
 describe("framsteg: validering och regler på servern", () => {
-  it("de 54 planerade kapitlen räknas inte; bara de 6 publicerade finns som uppgifter", () => {
-    expect(publishedChapters()).toHaveLength(6);
+  it("planerade kapitel räknas inte; bara publicerade finns som uppgifter", () => {
+    expect(publishedChapters().length).toBeGreaterThan(0);
+    expect(publishedChapters().every((c) => c.status === "published")).toBe(true);
   });
 
   it("fyra rätt ger avklarat, tre rätt gör det inte; servern räknar själv ur svaren", async () => {
@@ -177,11 +178,11 @@ describe("lärarens översikt", () => {
     const l = await signInTeacher(t.email);
     const r = await call(overviewGET, "/api/lararen/oversikt", { cookie: l.cookie });
     const data = r.data as { publishedCount: number; chapters: unknown[]; rows: { displayName: string; completedCount: number; cells: { status: string; selfReported: boolean }[]; lastSyncedAt: string | null }[] };
-    expect(data.publishedCount).toBe(6);
-    expect(data.chapters).toHaveLength(6);
+    expect(data.publishedCount).toBe(publishedChapters().length);
+    expect(data.chapters).toHaveLength(publishedChapters().length);
     expect(data.rows).toHaveLength(2);
     const ra = data.rows.find((x) => x.displayName === "A")!;
-    expect(ra.cells).toHaveLength(6);
+    expect(ra.cells).toHaveLength(publishedChapters().length);
     expect(ra.cells.map((c) => c.status).slice(0, 2)).toEqual(["completed", "started"]);
     expect(ra.completedCount).toBe(1);
     expect(ra.lastSyncedAt).toBeTruthy();

@@ -1,0 +1,398 @@
+{
+  "id": "t01-k02",
+  "slug": "berg-vulkaner-och-jordbavningar",
+  "themeId": "geografi",
+  "order": 2,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Berg, vulkaner och jordbävningar",
+  "summary": "Japan ligger där flera jordskorpeplattor möts. Kapitlet förklarar varför landet har så många vulkaner och jordbävningar och hur samhället har anpassat sig.",
+  "objectives": [
+    "Förklara kortfattat varför Japan har jordbävningar och vulkaner",
+    "Beskriva hur byggregler och vanor har anpassats till naturkrafterna",
+    "Veta vad du gör om en jordbävning inträffar under resan"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "situation",
+    "text": "Du står på en perrong i Tokyo när alla telefoner runt dig plötsligt ger ifrån sig ett högt varningsljud. Några sekunder senare börjar marken skaka. Hur kan ett land leva med det här, och vad ska du göra?"
+  },
+  "sections": [
+    {
+      "id": "plattor",
+      "heading": "Där plattorna möts",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jordens yta består av stora plattor som rör sig mycket långsamt, några centimeter om året. Japan ligger där flera plattor möts. Oftast nämns fyra: den **eurasiska**, den **nordamerikanska**, **Stillahavsplattan** och den **Filippinska havsplattan**."
+        },
+        {
+          "type": "p",
+          "text": "Stillahavsplattan och Filippinska havsplattan pressas in under landet. Det bygger upp spänningar i berggrunden. När de släpper blir det en jordbävning. Där plattorna sjunker ner kan berg smälta, och det smälta berget stiger upp och bildar **vulkaner**."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Plattor",
+              "value": "Fyra stora plattor möts vid Japan"
+            },
+            {
+              "label": "Aktiva vulkaner",
+              "value": "111 enligt en officiell räkning från 2017. Siffran ändras när forskare ändrar vilka vulkaner som räknas som aktiva"
+            },
+            {
+              "label": "Högsta berg",
+              "value": "Fuji, 3 776 meter, en vulkan"
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "slotId": "t01-k02-vulkan",
+          "imageId": "sakurajima-utsikt",
+          "brief": "En aktiv vulkan i Japan, helst med bebyggelse eller väg i förgrunden så att man ser att människor bor nära. Sakurajima eller Fuji är exempel."
+        }
+      ]
+    },
+    {
+      "id": "vulkaner",
+      "heading": "Vulkaner: både risk och resurs",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Många av Japans mest kända berg är vulkaner. **Fuji** är en vulkan som är aktiv men har varit lugn länge. Andra, som **Sakurajima** i Kagoshima, har små utbrott ofta, och asken är en del av vardagen för människor som bor i närheten."
+        },
+        {
+          "type": "p",
+          "text": "Vulkanerna ger också något tillbaka: **varma källor (onsen)**, bördig jord och vackra landskap som lockar besökare. Japans meteorologiska myndighet (JMA) övervakar många vulkaner och utfärdar varningar. Om ett område är avspärrat eller har besöksförbud gäller det alltid, även om det ser lugnt ut."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Respektera avspärrningar",
+          "text": "Gå aldrig förbi stängsel eller skyltar vid ett vulkanområde, och följ anvisningar från gruppens ledare och lokal personal. Vulkanaktivitet kan ändras snabbt."
+        }
+      ]
+    },
+    {
+      "id": "jordbavningar",
+      "heading": "Jordbävningar: skalan, varningen och byggreglerna",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jordbävningar är vanliga i Japan, och de allra flesta är så svaga att man knappt märker dem. I Japan beskrivs en jordbävning ofta med skalan **shindo (0–7)**. Den visar hur starkt skakningen känns på en viss plats, alltså inte hur stor jordbävningen var vid källan. En och samma jordbävning kan därför ge olika shindo på olika platser."
+        },
+        {
+          "type": "p",
+          "text": "Många mobiltelefoner och tv-kanaler kan ge ett **tidigt varningslarm** några sekunder innan skakningen kommer fram. Sekunderna räcker för att ta skydd. Därför hör du ibland ett larm utan att känna något själv, eller tvärtom."
+        },
+        {
+          "type": "p",
+          "text": "Den stora jordbävningen och tsunamin i Tohoku i mars 2011 var en av de kraftigaste som uppmätts och orsakade en jättelik tsunami som tog många tusen människors liv. Sedan dess har Japan förstärkt både varningar, evakueringsvägar och övningar."
+        },
+        {
+          "type": "p",
+          "text": "Byggreglerna har skärpts efter hand. Efter 1981 skärptes kraven för nya hus (den så kallade nya jordbävningsstandarden), och höga byggnader kan ha **dämpning** eller **fjädrande fundament** som tar upp skakningarna. Äldre byggnader är mer sårbara. Därför tittar man särskilt på hur gamla hus står emot."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Det du märker som besökare",
+          "text": "Du kommer troligen inte att märka en stor jordbävning. Men nödutgångar, skyltar om evakuering och övningar i skolor och på arbetsplatser är en del av vardagen, och de finns där av en anledning."
+        }
+      ]
+    },
+    {
+      "id": "agera",
+      "heading": "Om det skakar: vad gör du?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Samma råd gäller i princip överallt: **Gå ner, skydda, håll i.** Håll dig lugn och ta skydd tills skakningen är över."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Gå ner** på knä eller huka dig, så att du inte ramlar.",
+            "**Skydda** huvudet och nacken med armar, väska eller under ett stadigt bord.",
+            "**Håll i** något stadigt tills det slutar skaka.",
+            "Spring **inte** ut under skakningen. Där kan föremål falla ner.",
+            "När skakningen avtagit: ta reda på utgången och följ personal och gruppens ledare. Räkna med efterskalv."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Är du vid kusten gäller en särskild regel: om det skakar kraftigt eller länge, gå **direkt till högre mark** eller en särskild evakueringsbyggnad. Vänta inte på en officiell varning. En tsunami kan komma i flera vågor, och en senare våg kan vara större än den första. Gå inte ner till stranden eller hamnen igen förrän varningen hävts."
+        },
+        {
+          "type": "p",
+          "text": "JNTO:s app **Safety tips** ger varningar om jordbävning, tsunami och väder på flera språk. Ladda ner den före resan och fråga gruppens ledare vilken nödplan gruppen har."
+        },
+        {
+          "type": "observe",
+          "title": "Hitta tryggheten",
+          "prompt": "Under resan: titta efter hur platsen du befinner dig på förbereder sig.",
+          "steps": [
+            "Hitta utgångsvägen från ditt rum eller din plats.",
+            "Leta efter skyltar som visar var man ska ta skydd eller evakuera.",
+            "Notera om det finns en plan eller anvisning för vad som gäller vid jordbävning."
+          ],
+          "textAlternative": "Utan bild: tänk på en byggnad du ofta är i. Var finns utgången, och vet du vad du skulle göra om det började skaka?",
+          "imageSlotIds": [
+            "t01-k02-vulkan"
+          ]
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "ordering",
+      "id": "skydda-dig",
+      "title": "Rätt ordning vid skakning",
+      "prompt": "Ordna det du gör när det börjar skaka kraftigt medan du är inomhus, från första till sista steget.",
+      "items": [
+        {
+          "id": "ned",
+          "text": "Gå ner på knä så att du inte ramlar"
+        },
+        {
+          "id": "skydda",
+          "text": "Skydda huvud och nacke, helst under ett stadigt bord"
+        },
+        {
+          "id": "halla",
+          "text": "Håll i något stadigt tills skakningen är över"
+        },
+        {
+          "id": "utgang",
+          "text": "När det är över: ta reda på utgången och följ personalens anvisningar"
+        }
+      ],
+      "explanation": "Först tar du skydd (gå ner, skydda, håll i). Först när skakningen är över tittar du efter utgången. Att springa ut under skakningen är farligare än att stanna."
+    },
+    {
+      "type": "scenario",
+      "id": "vid-kusten",
+      "title": "Vid havet",
+      "situation": "Du är på en strandpromenad vid havet. Marken skakar kraftigt och länge. Ingen varning har kommit ännu, och havet ser lugnt ut.",
+      "question": "Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Går snabbt till högre mark eller en evakueringsbyggnad, utan att vänta på varning.",
+          "correct": true,
+          "feedback": "Rätt. Vid kraftig eller lång skakning vid kusten går man direkt till högre mark. En tsunami kan komma innan en varning hunnit gå ut."
+        },
+        {
+          "id": "b",
+          "text": "Väntar på en officiell varning innan du rör dig.",
+          "correct": false,
+          "feedback": "Inte riktigt. En tsunami kan anlända före varningen. Om du är vid kusten och det skakat kraftigt eller länge går du till högre mark direkt."
+        },
+        {
+          "id": "c",
+          "text": "Går ner till vattnet för att se om havet drar sig tillbaka.",
+          "correct": false,
+          "feedback": "Nej, det är mycket farligt. Gå aldrig mot vattnet för att titta. Många vågor kan följa efter varandra."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "shindo",
+      "title": "Vad mäter shindo?",
+      "prompt": "Vad visar skalan shindo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hur starkt skakningen känns på en viss plats.",
+          "correct": true,
+          "feedback": "Rätt. Shindo (0–7) beskriver skakningens styrka där du är, och kan skilja sig mellan platser vid samma jordbävning."
+        },
+        {
+          "id": "b",
+          "text": "Hur stor energi jordbävningen frigjorde vid källan.",
+          "correct": false,
+          "feedback": "Det är något annat, som kallas magnitud. Shindo mäter hur kraftigt det känns på en viss plats."
+        },
+        {
+          "id": "c",
+          "text": "Hur högt en tsunami blir.",
+          "correct": false,
+          "feedback": "Nej. Shindo säger inget om tsunamins höjd."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Var finns utgångar och evakueringsskyltar där ni bor och där ni besöker?",
+    "Ser du skyltar om tsunami eller högre mark när du är vid kusten?",
+    "Hur ser vulkaner, berg och bebyggelse ut tillsammans från tågfönstret?"
+  ],
+  "reflection": "Vad är skillnaden mellan att känna oro för något och att vara förberedd på det? Vad i japanskt vardagsliv visar förberedelse utan att skapa rädsla?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Ungefär hur många stora jordskorpeplattor nämns oftast som möts vid Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Två",
+          "feedback": "Fel. Fyra nämns oftast: den eurasiska, nordamerikanska, Stillahavsplattan och Filippinska havsplattan."
+        },
+        {
+          "id": "b",
+          "text": "Fyra",
+          "correct": true,
+          "feedback": "Rätt: den eurasiska, nordamerikanska, Stillahavsplattan och Filippinska havsplattan."
+        },
+        {
+          "id": "c",
+          "text": "Tio",
+          "feedback": "Fel. Det är fyra stora plattor som oftast nämns."
+        },
+        {
+          "id": "d",
+          "text": "Tjugo",
+          "feedback": "Fel. Det är fyra stora plattor som oftast nämns."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Varför finns det så många vulkaner i Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Därför att plattor pressas in under landet och berg smälter och stiger upp.",
+          "correct": true,
+          "feedback": "Rätt. Där plattor sjunker ner kan berg smälta och bilda vulkaner."
+        },
+        {
+          "id": "b",
+          "text": "Därför att landet är stort och platt.",
+          "feedback": "Fel. Landet är i stället mycket bergigt, och orsaken är platttektoniken."
+        },
+        {
+          "id": "c",
+          "text": "Därför att det regnar mycket.",
+          "feedback": "Nej. Regn gör inga vulkaner."
+        },
+        {
+          "id": "d",
+          "text": "Därför att människor har byggt dem.",
+          "feedback": "Nej. Vulkaner bildas naturligt."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad mäter skalan shindo (0–7)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hur långt från källan jordbävningen var.",
+          "feedback": "Fel. Shindo mäter styrkan på skakningen på en viss plats."
+        },
+        {
+          "id": "b",
+          "text": "Hur starkt skakningen känns på en viss plats.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "c",
+          "text": "Hur lång tid skakningen tar.",
+          "feedback": "Fel. Det är styrkan på en plats, inte tiden."
+        },
+        {
+          "id": "d",
+          "text": "Hur mycket skada som skett i hela landet.",
+          "feedback": "Fel. Shindo gäller en plats åt gången."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Du är vid kusten och det skakar kraftigt eller länge. Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Går direkt till högre mark eller en evakueringsbyggnad.",
+          "correct": true,
+          "feedback": "Rätt. Vänta inte på en varning, och gå inte ner till havet igen förrän den hävts."
+        },
+        {
+          "id": "b",
+          "text": "Väntar på varning på stranden.",
+          "feedback": "Fel. En tsunami kan komma före varningen."
+        },
+        {
+          "id": "c",
+          "text": "Går ner till hamnen för att se.",
+          "feedback": "Fel och farligt. Håll dig borta från vattnet."
+        },
+        {
+          "id": "d",
+          "text": "Springer in i en liten källare.",
+          "feedback": "Fel. Gå uppåt, inte ner i lågt belägna utrymmen."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Inomhus under en kraftig skakning: vad gäller?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Springa ut direkt.",
+          "feedback": "Fel. Föremål kan falla ner utanför."
+        },
+        {
+          "id": "b",
+          "text": "Gå ner, skydda huvudet och hålla i något stadigt.",
+          "correct": true,
+          "feedback": "Rätt. Först efter skakningen letar man efter utgången."
+        },
+        {
+          "id": "c",
+          "text": "Ställa sig i dörröppningen och vänta.",
+          "feedback": "Fel. Gå ner och skydda huvudet i stället."
+        },
+        {
+          "id": "d",
+          "text": "Ta hissen ner.",
+          "feedback": "Fel. Använd inte hiss under eller direkt efter en jordbävning."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "mlit-active-volcanoes",
+    "jnto-safety-tips",
+    "japantravel-tsunami",
+    "wikipedia-jma-intensity",
+    "gfdrr-japan-earthquake"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-02",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön. Allmänna råd (gå ner, skydda, håll i) bygger på flera resesidor och bör jämföras med japanska myndigheters anvisningar.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Antalet aktiva vulkaner (111) är från 2017 och ändras när kriterier ändras.",
+      "Jordbävningen i Tohoku 2011 (magnituden omkring 9) och uppgiften om tsunamins dödsoffer bygger på allmän kännedom, inte på en källa som öppnades i detta arbete.",
+      "Förenklad beskrivning av byggreglerna efter 1981; källorna är sammanfattande och skiljer sig i detaljer.",
+      "Råden vid kusten och i byggnader bör jämföras med JNTO:s och Cabinet Offices aktuella anvisningar och gruppens egen nödplan."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t01-k02-hero",
+    "imageId": "fuji-solnedgang-2025",
+    "brief": "Berg eller vulkan i Japanskt landskap, gärna med bebyggelse i förgrunden. Fuji eller Aso."
+  }
+}

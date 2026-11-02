@@ -1,6 +1,5 @@
 import { getContent } from "@/lib/content";
 import { ChapterCard } from "./ChapterCard";
-import { OverviewStats } from "./OverviewStats";
 
 /** Huvudvyn: sammanfattning av elevens progression och det valda temat med alla dess kapitel. */
 export function ThemeView({ themeId }: { themeId: string }) {
@@ -9,7 +8,6 @@ export function ThemeView({ themeId }: { themeId: string }) {
   const inTheme = chapters.filter((c) => c.themeId === themeId).sort((a, b) => a.order - b.order);
   return (
     <div className="space-y-5">
-      <OverviewStats chapters={chapters.map((c) => ({ id: c.id, themeId: c.themeId, status: c.status }))} />
       <section aria-labelledby="tema-rubrik" className="space-y-4">
         <header className="space-y-1">
           <p className="text-sm font-bold uppercase tracking-wide text-ink-soft">

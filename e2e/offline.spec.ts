@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { loginStudentOk } from "./auth-helpers";
 import { NextCopy } from "./next-server";
-import { pilots, takeQuiz } from "./helpers";
+import { pilots, takeQuiz, PUBLISHED } from "./helpers";
 
 /**
  * Offlinetesterna kör mot en egen kopia av produktionsbygget på en separat port. Servern stoppas mitt i testet,
@@ -81,7 +81,7 @@ test.describe("offline", () => {
     await page.goto("/kapitel/shinto/");
     await expect(page.getByText("planerat men inte skrivet än")).toBeVisible();
     await page.goto("/resepass/");
-    await expect(page.getByTestId("stat-completed")).toHaveText("1 / 6");
+    await expect(page.getByTestId("stat-completed")).toHaveText("1 / " + PUBLISHED);
     await page.goto("/kallor/");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Källor och rättigheter");
 
