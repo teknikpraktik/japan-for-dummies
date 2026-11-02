@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { chapterStatus, suggestNext, themeProgress } from "@/lib/progress";
 import { useProgress } from "@/lib/store";
-import type { ChapterLite } from "./ContinueCard";
+import type { ChapterLite } from "./StartCta";
 import { TransferPanel } from "./TransferPanel";
 
 export interface ThemeLite {
