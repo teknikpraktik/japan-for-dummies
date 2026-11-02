@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useAccount } from "./AccountProvider";
+import { AccountMenu } from "./AccountMenu";
 
 const links = [
   { href: "/", label: "Start", icon: "⌂" },
@@ -19,10 +21,10 @@ export function SiteHeader() {
   const pathname = usePathname();
   return (
     <header className="border-b border-line bg-card">
-      <div className="container-page flex items-center justify-between gap-4 py-3">
+      <div className="container-page flex flex-wrap items-center justify-between gap-x-4 gap-y-1 py-2">
         <Link href="/" className="flex items-center gap-2 no-underline" style={{ color: "var(--color-indigo-dark)" }}>
           <span aria-hidden="true" className="inline-block h-4 w-4 rounded-full bg-red" />
-          <span className="font-serif text-xl font-bold">Japanresan 2027</span>
+          <span className="font-serif text-xl font-bold">Japan for Dummies</span>
         </Link>
         <nav aria-label="Huvudmeny" className="hidden md:block">
           <ul className="flex gap-1">
@@ -39,6 +41,7 @@ export function SiteHeader() {
             ))}
           </ul>
         </nav>
+        <AccountMenu />
       </div>
     </header>
   );
@@ -47,10 +50,13 @@ export function SiteHeader() {
 /** Nedre menyn på mobil, nåbar med tummen. */
 export function BottomNav() {
   const pathname = usePathname();
+  const { user } = useAccount();
+  const mine = !user ? { href: "/logga-in/", label: "Logga in", icon: "⎆" } : user.role === "teacher" ? { href: "/lararen/", label: "Lärare", icon: "☑" } : { href: "/min-utbildning/", label: "Min sida", icon: "★" };
+  const items = [links[0], links[1], mine, links[3]];
   return (
     <nav aria-label="Snabbmeny" className="no-print fixed inset-x-0 bottom-0 z-40 border-t border-line bg-card md:hidden" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
       <ul className="grid grid-cols-4">
-        {links.map((l) => (
+        {items.map((l) => (
           <li key={l.href}>
             <Link
               href={l.href}

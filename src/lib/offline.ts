@@ -80,7 +80,7 @@ export async function verifyCache(manifest: OfflineManifest): Promise<{ ok: bool
   if (!(await caches.has(cacheNameFor(manifest.buildId)))) return { ok: false, missing: manifest.files.length };
   const cache = await caches.open(cacheNameFor(manifest.buildId));
   let missing = 0;
-  for (const f of manifest.files) if (!(await cache.match(f.url, { ignoreSearch: false }))) missing++;
+  for (const f of manifest.files) if (!(await cache.match(f.url, { ignoreVary: true }))) missing++;
   return { ok: missing === 0, missing };
 }
 
@@ -115,7 +115,7 @@ export async function downloadOffline(onProgress: (p: DownloadProgress) => void,
       if (signal?.aborted) throw new DownloadError("cancelled", "Nedladdningen avbröts.");
       const f = queue.shift();
       if (!f) return;
-      if (!(await cache.match(f.url))) {
+      if (!(await cache.match(f.url, { ignoreVary: true }))) {
         let res: Response;
         try {
           res = await fetch(f.url, { cache: "reload", signal });
@@ -124,6 +124,10 @@ export async function downloadOffline(onProgress: (p: DownloadProgress) => void,
           throw new DownloadError("interrupted", "Nedladdningen avbröts, troligen på grund av nätverket. Det som redan hämtats är sparat, så du kan fortsätta.");
         }
         if (!res.ok) throw new DownloadError("interrupted", `Servern svarade ${res.status} för ${f.url}.`);
+        // Personliga svar får aldrig hamna i den delade offlinecachen.
+        if (res.headers.has("set-cookie") || /\b(private|no-store)\b/i.test(res.headers.get("cache-control") ?? "")) {
+          throw new DownloadError("incomplete", `Svaret för ${f.url} är personligt eller ocachebart och sparas inte offline.`);
+        }
         try {
           await cache.put(f.url, res);
         } catch (e) {

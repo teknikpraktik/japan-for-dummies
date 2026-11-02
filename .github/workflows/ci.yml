@@ -8,7 +8,20 @@ on:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
+    # Lokal engångs-PostgreSQL för server- och e2e-tester. Aldrig Neon och aldrig produktionsdata.
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: japan_app
+          POSTGRES_PASSWORD: devonly_local_password
+          POSTGRES_DB: japanresan_test
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U japan_app" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      PGPASSWORD: devonly_local_password
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -23,10 +36,14 @@ jobs:
         run: npm run lint
       - name: Typkontroll
         run: npm run typecheck
-      - name: Enhetstester
+      - name: Skapa e2e-databas (lokal)
+        run: psql -h localhost -U japan_app -d japanresan_test -c "CREATE DATABASE japanresan_e2e"
+      - name: Enhets- och servertester (mot lokal PostgreSQL)
         run: npm test
-      - name: Produktionsbygge (inkl. service worker)
+      - name: Produktionsbygge (inkl. service worker, utan databas)
         run: npm run build
+        env:
+          DB_TARGET: test
       - name: Installera Chromium för e2e
         run: npx playwright install --with-deps chromium
       - name: E2E-tester mot produktionsbygget

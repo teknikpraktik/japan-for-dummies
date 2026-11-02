@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getContent } from "@/lib/content";
-import { chapterPath, positionOf, themeOf } from "@/lib/chapters";
+import { chapterPath, positionOf, themeOf, themePath } from "@/lib/chapters";
 import type { PublishedChapter } from "@/lib/schema";
 import { Blocks } from "@/components/Blocks";
 import { ExerciseRenderer } from "@/components/exercises/ExerciseRenderer";
 import { Quiz } from "@/components/Quiz";
-import { PhotoSlot } from "@/components/Photo";
-import { FavoriteButton, MarkStarted, StatusBadge } from "@/components/ChapterClient";
+import { PhotoRights, PhotoSlot, photosFor } from "@/components/Photo";
+import { MarkStarted, StatusBadge } from "@/components/ChapterClient";
 
 export function generateStaticParams() {
   return getContent().chapters.map((c) => ({ slug: c.slug }));
@@ -34,7 +34,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
   const header = (
     <header className="space-y-3">
       <nav aria-label="Brödsmula" className="flex flex-wrap items-center gap-x-2 text-sm">
-        <Link href="/utbildning/" className="btn btn-small">
+        <Link href={themePath(chapter.themeId)} className="btn btn-small">
           <span aria-hidden="true">←</span> Till översikten
         </Link>
         <span className="text-ink-soft">
@@ -48,7 +48,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
 
   if (chapter.status === "planned") {
     return (
-      <article className="container-page space-y-6 pt-8">
+      <article className="min-w-0 space-y-6">
         {header}
         <div className="card !bg-paper-2 space-y-3 prose-col">
           <p>
@@ -70,17 +70,17 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
   const ch: PublishedChapter = chapter;
   const usedSources = ch.sourceIds.map((id) => sources.find((s) => s.id === id)!);
   const usedMedia = ch.mediaIds.map((id) => media.find((m) => m.id === id)!);
+  const chapterPhotos = photosFor([ch.hero.imageId, ...ch.sections.flatMap((x) => x.blocks).map((b) => (b.type === "photo" ? b.imageId : null))]);
   const nextHref = nextPublished ? { href: chapterPath(nextPublished), label: `Nästa färdiga kapitel: ${nextPublished.title}` } : undefined;
 
   return (
-    <article className="container-page space-y-10 pt-8">
+    <article className="min-w-0 space-y-10">
       <MarkStarted chapterId={ch.id} contentVersion={ch.contentVersion} />
       {header}
       <PhotoSlot role="hero" priority slotId={ch.hero.slotId} imageId={ch.hero.imageId} brief={ch.hero.brief} />
       <div className="flex flex-wrap items-center gap-3">
         <StatusBadge chapterId={ch.id} />
-        <span className="text-sm text-ink-soft">Cirka {ch.minutes} minuter inklusive test · innehållsversion {ch.contentVersion}</span>
-        <FavoriteButton chapterId={ch.id} title={ch.title} />
+        <span className="text-sm text-ink-soft">Cirka {ch.minutes} minuter inklusive test</span>
       </div>
 
       <section aria-labelledby="inledning" className="card !bg-indigo-soft prose-col space-y-2">
@@ -126,28 +126,12 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
         <p className="text-sm text-ink-soft">Den här frågan poängsätts inte och sparas inte. Skriv gärna ned dina tankar på annat håll eller prata med någon.</p>
       </section>
 
-      <Quiz chapterId={ch.id} contentVersion={ch.contentVersion} questions={ch.quiz} nextHref={nextHref} />
+      <Quiz chapterId={ch.id} contentVersion={ch.contentVersion} questions={ch.quiz} nextHref={nextHref} overviewHref={themePath(ch.themeId)} />
 
       <section className="space-y-4 prose-col">
-        <h2>Osäkerhet och begränsningar</h2>
-        <ul className="list-disc space-y-1 pl-6">
-          {ch.review.uncertainty.map((u) => (
-            <li key={u}>{u}</li>
-          ))}
-        </ul>
-        {ch.review.checkBeforeTravel.length > 0 && (
-          <>
-            <h2>Kontrollera nära avresa</h2>
-            <ul className="list-disc space-y-1 pl-6">
-              {ch.review.checkBeforeTravel.map((u) => (
-                <li key={u}>{u}</li>
-              ))}
-            </ul>
-          </>
-        )}
         <h2>Källor</h2>
         {usedSources.length === 0 ? (
-          <p>Inga externa källor är angivna för det här kapitlet (se metodbeskrivningen ovan).</p>
+          <p>Kapitlet bygger på allmän kunskap och har inga externa källor.</p>
         ) : (
           <ul className="space-y-2">
             {usedSources.map((s) => (
@@ -160,24 +144,12 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
             ))}
           </ul>
         )}
-        {usedMedia.length > 0 && (
-          <>
-            <h2>Bilder och rättigheter</h2>
-            <ul className="space-y-2">
-              {usedMedia.map((m) => (
-                <li key={m.id}>
-                  <strong>{m.id}</strong>: {m.alt}
-                  <br />
-                  Upphov: {m.rights.creator}. Licens: {m.rights.license}. {m.rights.note}
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
         <p>
           <Link href="/kallor/">Se alla källor i projektet</Link>
         </p>
       </section>
+
+      <PhotoRights photos={chapterPhotos} media={usedMedia} />
 
       <ChapterNav prev={pos.prev} next={pos.next} />
     </article>
@@ -195,9 +167,6 @@ function ChapterNav({ prev, next }: { prev?: { slug: string; title: string; stat
       ) : (
         <span />
       )}
-      <Link className="btn" href="/utbildning/">
-        Till översikten
-      </Link>
       {next ? (
         <Link className="btn" href={chapterPath(next)}>
           {next.title}

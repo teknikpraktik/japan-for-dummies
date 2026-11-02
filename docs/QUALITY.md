@@ -14,6 +14,12 @@ Mål: WCAG 2.2 AA. Nedan redovisas vad som **faktiskt kontrollerats** och vad so
 
 E2E täcker: alla sex pilotkapitel från direktlänk till avklarat test; 3/5 ger inte Klar, 4/5 ger Klar, omförsök bevarar bästa resultat; framsteg och pågående test överlever omladdning; favoriter; export, import av ogiltig fil/fel struktur, sammanslagning och ersättning med bekräftelse; planerade kapitel visas som ”Kommer senare”; tangentbordsstyrning; **offline** (servern stängs av på riktigt): nedladdning med förlopp och verifiering, omladdning, direktlänkar, genomfört test och sparade framsteg offline, offlinemeddelande för sida som inte laddats ned, avbruten nedladdning (ej ”klar”, kan fortsättas), uppdateringsflöde med bevarat pågående test.
 
+## Konton, behörighet och offline (server-läge)
+
+- Servertester (Vitest mot lokal PostgreSQL): elev A kan inte läsa/ändra B (även direkta API-anrop), elever kan inte skapa konton/ändra roller/använda admin, lärare når inte annan grupp, publik registrering stängd, första läraren kan inte kapas via e-post, 2FA och återställning, ny kod och avaktivering stoppar gamla inloggningar, sista läraren skyddas (även samtidigt), idempotent synk och import, Origin/CSRF.
+- E2E (Playwright, produktionsbygge, lokal e2e-databas): inloggning, matris, synk och köad synk utan dubbletter, ingen automatisk import, delade enheter och kontobyte utan läckage, lärarflöden, privata svar och sidor hamnar aldrig i offlinecachen, axe på inloggnings-, elev- och lärarsidor.
+- Kör `npm run check` och sedan `npm run build && npm run test:e2e` (desktop och mobil).
+
 ## Tillgänglighet
 
 Kontrollerat:
@@ -29,6 +35,8 @@ Kontrollerat:
 ## Övrigt som inte har kunnat testas
 
 - **Publicering på Vercel**: inte genomförd eller verifierad (se DEPLOY.md).
+- **Neon**: ingen anslutning har gjorts från utvecklingsmiljön (nätverksbegränsning); allt är testat mot lokal PostgreSQL. Migreringar, pooled-anslutning, preview/produktion-separation och återställning av säkerhetskopia är inte verifierade mot Neon (se OPERATIONS.md).
+- **Verklig användning**: skärmläsare i inloggnings- och adminvyer, riktiga mobila enheter, Safari/iOS, och TOTP med riktig autentiseringsapp är inte testade (e2e använder genererade koder).
 - **Installation som app** (installationsprompt, hemskärm, iOS): kod och instruktioner finns, men installationen är inte testad på riktiga enheter. Manifest och ikoner finns.
 - **Otillräckligt lagringsutrymme** vid offlinenedladdning: logiken finns (förhandskontroll av kvot och fångst av `QuotaExceededError`), men har inte provocerats fram i test.
 - **Primärkällor**: kunde inte öppnas, se CONTENT.md. Faktainnehållet behöver granskas av en person.

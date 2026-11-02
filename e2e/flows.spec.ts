@@ -37,7 +37,9 @@ test.describe("pilotkapitel och direktlänkar", () => {
 
   test("opublicerade kapitel visas som Kommer senare, utan test", async ({ page }) => {
     await page.goto("/utbildning/");
-    await expect(page.getByText("Kommer senare", { exact: true })).toHaveCount(54);
+    // Alla 54 planerade kapitel finns kvar i strukturen (vänsterspalten), men som text, inte länkar.
+    await expect(page.locator("[data-testid^='nav-planned-']")).toHaveCount(54);
+    await expect(page.locator("[data-testid^='nav-chapter-']")).toHaveCount(6); // publicerade är länkar
     // Vänta tills service workern har tagit över, annars kan den avbryta nästa navigering.
     await page.evaluate(async () => { await navigator.serviceWorker.ready; });
     await page.goto("/kapitel/skogs-och-hav-finns-inte/");
@@ -100,16 +102,24 @@ test.describe("poäng, gräns och omförsök", () => {
     await page.reload();
     await expect(page.getByTestId("quiz-position")).toHaveText("Fråga 3 av 5");
     await page.goto("/utbildning/");
-    await expect(page.locator("li", { hasText: c.title }).getByText(/Påbörjad/)).toBeVisible();
+    await page.goto(`/utbildning/${(c as unknown as { themeId: string }).themeId}/`);
+    await expect(page.getByTestId(`chapter-card-${c.id}`).getByText(/Påbörjad/)).toBeVisible();
   });
 
-  test("favoriter sparas", async ({ page }) => {
+  test("inga favoritknappar, redaktionella rutor eller extra navigering längst ned", async ({ page }) => {
     await page.goto(`/kapitel/${c.slug}/`);
-    await page.getByRole("button", { name: /Favoritmarkera/ }).click();
-    await page.reload();
-    await expect(page.getByRole("button", { name: /Ta bort favorit/ })).toHaveAttribute("aria-pressed", "true");
-    await page.goto("/resepass/");
-    await expect(page.getByRole("heading", { name: "Favoriter" }).locator("..").getByRole("link", { name: c.title })).toBeVisible();
+    await expect(page.getByRole("button", { name: /Favorit/ })).toHaveCount(0);
+    for (const t of [/innehållsversion/i, /Osäkerhet och begränsningar/, /Kontrollera nära avresa/, /Granskningsstatus/]) await expect(page.getByText(t)).toHaveCount(0);
+    await expect(page.getByRole("heading", { name: "Källor" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Bilder och rättigheter" })).toBeVisible();
+    await expect(page.getByRole("navigation", { name: "Kapitelnavigering" }).getByRole("link", { name: "Till översikten" })).toHaveCount(0);
+  });
+
+  test("startsidan och sidfoten saknar pilottexten, reseuppgiftsrutan och pilotöversikten", async ({ page }) => {
+    await page.goto("/");
+    await expect(page.getByText(/Piloten har/)).toHaveCount(0);
+    for (const t of ["Resmål", "Avresa", "Vad finns i piloten?"]) await expect(page.getByText(t, { exact: true })).toHaveCount(0);
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Japan for Dummies");
   });
 });
 
@@ -189,13 +199,17 @@ test.describe("bilder", () => {
       const full = readJson(`chapters/${fs.readdirSync(path.join(process.cwd(), "src/content/chapters")).find((f) => f.includes(c.slug))!}`);
       await page.goto(`/kapitel/${c.slug}/`);
       await expect(page.getByTestId("photo-placeholder")).toHaveCount(pendingSlots(full));
-      // Varje bildplats har en synlig bildtext (planerat motiv eller riktig bildtext + kreditering)
+      // Ifylld bildplats: kort bildtext utan attribution; kreditering samlas under Bilder och rättigheter
+      const used = new Set<string>([full.hero.imageId, ...full.sections.flatMap((x: { blocks: { type: string; imageId?: string }[] }) => x.blocks).filter((b: { type: string }) => b.type === "photo").map((b: { imageId?: string }) => b.imageId)].filter(Boolean));
+      await expect(page.locator("[data-testid^='rights-']")).toHaveCount(used.size);
       const figs = page.locator("figure[data-slot-state]");
       for (let i = 0; i < (await figs.count()); i++) {
         const state = await figs.nth(i).getAttribute("data-slot-state");
-        if (state === "pending") await expect(figs.nth(i).locator("figcaption")).toContainText("Planerat motiv");
+        if (state === "pending") await expect(figs.nth(i).locator("figcaption")).toHaveCount(0);
         else {
-          await expect(figs.nth(i).getByTestId("photo-credit")).toBeVisible();
+          await expect(figs.nth(i).locator("figcaption")).toBeVisible();
+          await expect(figs.nth(i).locator("figcaption a")).toHaveCount(0);
+          await expect(figs.nth(i).getByTestId("photo-credit")).toHaveCount(0);
           await expect(figs.nth(i).locator("img")).toHaveAttribute("alt", /.*/);
         }
       }

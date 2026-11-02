@@ -53,7 +53,7 @@ export function TransferPanel() {
     <section aria-labelledby="export" id="export" className="card space-y-4">
       <h2 id="export">Spara och flytta dina framsteg</h2>
       <p>
-        Framstegen finns bara i den här webbläsaren på den här enheten. Exportera en fil för att göra en säkerhetskopia eller flytta dem till en annan enhet. Filen innehåller bara dina kapitelframsteg och favoriter, inga personuppgifter.
+        Framstegen finns bara i den här webbläsaren på den här enheten. Exportera en fil för att göra en säkerhetskopia eller flytta dem till en annan enhet. Filen innehåller bara dina kapitelframsteg, inga personuppgifter.
       </p>
       <p>
         Senaste export: <strong data-testid="last-export">{hydrated ? (state.lastExportAt ? new Date(state.lastExportAt).toLocaleString("sv-SE") : "aldrig") : "…"}</strong>

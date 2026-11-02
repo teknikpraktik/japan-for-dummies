@@ -107,13 +107,7 @@
         },
         {
           "type": "p",
-          "text": "På räls är sträckan Tokyo–Osaka drygt 500 km. Med de snabbaste shinkansentågen tar den ungefär två och en halv timme. Tidtabeller, tågtyper och priser ändras, så kontrollera dem när resan planeras."
-        },
-        {
-          "type": "callout",
-          "tone": "check",
-          "title": "Kontrollera inför avresa",
-          "text": "Restider och biljettregler ska kontrolleras hos operatören nära resan. Siffrorna här är bakgrund, inte reseplan."
+          "text": "På räls är sträckan Tokyo–Osaka drygt 500 km. Med de snabbaste shinkansentågen tar den ungefär två och en halv timme. Tidtabeller, tågtyper och priser ändras med tiden. Siffrorna här är bakgrund, inte en reseplan."
         }
       ]
     },

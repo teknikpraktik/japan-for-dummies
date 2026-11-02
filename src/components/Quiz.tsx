@@ -14,6 +14,7 @@ interface Props {
   contentVersion: number;
   questions: QuizQuestion[];
   nextHref?: { href: string; label: string };
+  overviewHref?: string;
 }
 
 /** Ordning: seed 0 = författarens ordning, annars blandad (omförsök). */
@@ -22,7 +23,7 @@ function arrange(questions: QuizQuestion[], seed: number): QuizQuestion[] {
   return seededShuffle(questions, seed).map((q) => ({ ...q, options: seededShuffle(q.options, seed + hashString(q.id)) }));
 }
 
-export function Quiz({ chapterId, contentVersion, questions, nextHref }: Props) {
+export function Quiz({ chapterId, contentVersion, questions, nextHref, overviewHref }: Props) {
   const { hydrated, state } = useProgress();
   const signature = useMemo(() => quizSignature(questions), [questions]);
   const stored = state.drafts[chapterId];
@@ -49,7 +50,7 @@ export function Quiz({ chapterId, contentVersion, questions, nextHref }: Props) 
           </button>
         </div>
       ) : (
-        <ActiveQuiz chapterId={chapterId} contentVersion={contentVersion} questions={questions} draft={draft} nextHref={nextHref} onRestart={start} />
+        <ActiveQuiz chapterId={chapterId} contentVersion={contentVersion} questions={questions} draft={draft} nextHref={nextHref} overviewHref={overviewHref} onRestart={start} />
       )}
     </section>
   );
@@ -65,7 +66,7 @@ function ResultSummary({ best, last }: { best: number; last?: number }) {
   );
 }
 
-function ActiveQuiz({ chapterId, contentVersion, questions, draft, nextHref, onRestart }: Props & { draft: QuizDraft; onRestart: () => void }) {
+function ActiveQuiz({ chapterId, contentVersion, questions, draft, nextHref, overviewHref, onRestart }: Props & { draft: QuizDraft; onRestart: () => void }) {
   const ordered = useMemo(() => arrange(questions, draft.seed), [questions, draft.seed]);
   const [selected, setSelected] = useState<string | null>(null);
   /** Frågan vars återkoppling just visas (så att man hinner läsa innan nästa). */
@@ -86,6 +87,7 @@ function ActiveQuiz({ chapterId, contentVersion, questions, draft, nextHref, onR
         score={score}
         best={prog?.best?.score ?? score}
         nextHref={nextHref}
+        overviewHref={overviewHref}
         onRestart={onRestart}
         showExportNudge={isPassed(score) && completedSinceExport(state) > 0}
       />
@@ -159,6 +161,7 @@ function Results({
   score,
   best,
   nextHref,
+  overviewHref,
   onRestart,
   showExportNudge,
 }: {
@@ -167,6 +170,7 @@ function Results({
   score: number;
   best: number;
   nextHref?: { href: string; label: string };
+  overviewHref?: string;
   onRestart: () => void;
   showExportNudge: boolean;
 }) {
@@ -215,7 +219,7 @@ function Results({
         <button className="btn btn-primary" onClick={onRestart} data-testid="retry">
           Försök igen
         </button>
-        <Link className="btn" href="/utbildning/">
+        <Link className="btn" href={overviewHref ?? "/utbildning/"}>
           Till översikten
         </Link>
         {nextHref && (

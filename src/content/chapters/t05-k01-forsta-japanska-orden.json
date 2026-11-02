@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japanska skrivs med egna tecken, men här skrivs orden också med **romaji**, alltså latinska bokstäver. Romaji är ett hjälpmedel, och uttalet ligger ofta nära svenskans."
+          "text": "Japanska skrivs med egna tecken, men här skrivs orden också med **romaji**, alltså latinska bokstäver. Romaji är ett hjälpmedel, och uttalet ligger ofta nära svenskans. Uttalshjälpen här är förenklad och inte exakt."
         },
         {
           "type": "list",
@@ -40,8 +40,8 @@
         {
           "type": "callout",
           "tone": "info",
-          "title": "Inget ljud i piloten",
-          "text": "Den här versionen har inga ljudfiler. Be gärna en lärare eller någon som kan japanska läsa fraserna högt, eller lyssna på inspelningar från en pålitlig språkkälla."
+          "title": "Inga ljudfiler",
+          "text": "Kapitlet har inga ljudfiler. Be gärna en lärare eller någon som kan japanska läsa fraserna högt, eller lyssna på inspelningar från en pålitlig språkkälla."
         }
       ]
     },
@@ -170,10 +170,8 @@
           "brief": "Stationsskylt eller utgångsskylt där japansk skrift är läsbar. Texten måste kontrolleras och stämma med bildtexten."
         },
         {
-          "type": "callout",
-          "tone": "check",
-          "title": "Kontrollera nödnummer före avresa",
-          "text": "I Japan brukar 110 gälla polis och 119 räddningstjänst och ambulans. Det är uppgifter som ska bekräftas av resans ledare nära avresa, tillsammans med gruppens egen nödplan."
+          "type": "p",
+          "text": "I Japan brukar 110 gälla polis och 119 räddningstjänst och ambulans."
         },
         {
           "type": "p",

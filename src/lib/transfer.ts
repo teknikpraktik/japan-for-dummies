@@ -26,7 +26,7 @@ export function exportFilename(now = new Date()): string {
 }
 
 const envelope = z.object({
-  app: z.literal(APP_ID, { error: "Filen kommer inte från Japanresan 2027." }),
+  app: z.literal(APP_ID, { error: "Filen kommer inte från Japan for Dummies." }),
   dataVersion: z.number().int(),
   exportedAt: z.string().max(40),
   data: z.unknown(),
@@ -44,7 +44,7 @@ export function parseImport(text: string, sizeBytes: number = new Blob([text]).s
   try {
     json = JSON.parse(text);
   } catch {
-    return { ok: false, error: "Filen är inte giltig JSON. Välj en fil som exporterats från Japanresan 2027." };
+    return { ok: false, error: "Filen är inte giltig JSON. Välj en fil som exporterats från Japan for Dummies." };
   }
   const env = envelope.safeParse(json);
   if (!env.success) return { ok: false, error: env.error.issues[0]?.message ?? "Filens struktur är fel." };

@@ -9,18 +9,20 @@ const kindLabel: Record<Photo["kind"], string> = {
   "object-photo": "Föremål (fotografi)",
 };
 
-export type PhotoRole = "hero" | "figure" | "card";
+export type PhotoRole = "hero" | "figure" | "card" | "thumb";
 
 const frame: Record<PhotoRole, string> = {
   hero: "aspect-[4/3] sm:aspect-[16/9]",
   figure: "aspect-[4/3] sm:aspect-[3/2]",
   card: "aspect-[3/2]",
+  thumb: "aspect-[4/3] sm:aspect-[3/2]",
 };
 /** Hur bredden används, så att webbläsaren väljer lagom stor fil. */
 const sizes: Record<PhotoRole, string> = {
   hero: "(min-width: 1024px) 992px, 100vw",
   figure: "(min-width: 768px) 672px, 100vw",
   card: "(min-width: 768px) 320px, 100vw",
+  thumb: "(min-width: 640px) 176px, 112px",
 };
 
 const srcSet = (vs: ImageVariant[]) => vs.map((v) => `${v.path} ${v.width}w`).join(", ");
@@ -41,8 +43,8 @@ export function PhotoPicture({ photo, role, priority = false }: { photo: Photo; 
   const fp = `${Math.round(photo.focus.x * 100)}% ${Math.round(photo.focus.y * 100)}%`;
   return (
     <picture>
-      {byCrop("mobile", "avif").length > 0 && <source media="(max-width: 639px)" type="image/avif" srcSet={srcSet(byCrop("mobile", "avif"))} sizes="100vw" />}
-      {byCrop("mobile", "webp").length > 0 && <source media="(max-width: 639px)" type="image/webp" srcSet={srcSet(byCrop("mobile", "webp"))} sizes="100vw" />}
+      {byCrop("mobile", "avif").length > 0 && <source media="(max-width: 639px)" type="image/avif" srcSet={srcSet(byCrop("mobile", "avif"))} sizes={role === "thumb" ? sizes.thumb : "100vw"} />}
+      {byCrop("mobile", "webp").length > 0 && <source media="(max-width: 639px)" type="image/webp" srcSet={srcSet(byCrop("mobile", "webp"))} sizes={role === "thumb" ? sizes.thumb : "100vw"} />}
       {avif.length > 0 && <source type="image/avif" srcSet={srcSet(avif)} sizes={sizes[role]} />}
       <img
         src={largest.path}
@@ -118,9 +120,6 @@ export function PhotoSlot({
     return (
       <figure className="space-y-2" data-slot-state="pending">
         <PhotoPlaceholder role={role} slotId={slotId} brief={brief} />
-        <figcaption className="text-sm text-ink-soft">
-          <strong>Fotografi väljs.</strong> Planerat motiv: {brief}
-        </figcaption>
       </figure>
     );
   }
@@ -129,10 +128,7 @@ export function PhotoSlot({
       <div className={`${frame[role]} overflow-hidden rounded-xl bg-paper-2`}>
         <PhotoPicture photo={photo} role={role} priority={priority} />
       </div>
-      <figcaption className="space-y-1">
-        <span className="block text-sm">{photo.caption}</span>
-        <PhotoCredit photo={photo} />
-      </figcaption>
+      <figcaption className="text-sm text-ink-soft">{photo.caption}</figcaption>
     </figure>
   );
 }
@@ -145,5 +141,85 @@ export function CardThumb({ imageId }: { imageId: string | null }) {
     <div className={`${frame.card} overflow-hidden rounded-lg bg-paper-2`} data-testid="card-thumb">
       <PhotoPicture photo={{ ...photo, decorative: true }} role="card" />
     </div>
+  );
+}
+
+/** Liten bild för kompakta kapitelkort: fast bildformat, beskärning med fokuspunkt, aldrig förvrängd. */
+export function ChapterThumb({ imageId, label }: { imageId: string | null; label: string }) {
+  const photo = findPhoto(imageId);
+  const box = `${frame.thumb} w-28 shrink-0 overflow-hidden rounded-lg bg-paper-2 sm:w-44`;
+  if (!photo)
+    return (
+      <div className={`${box} flex items-center justify-center border border-dashed border-line text-ink-soft`} data-testid="thumb-placeholder" aria-hidden="true">
+        <span className="text-lg font-bold">{label}</span>
+      </div>
+    );
+  return (
+    <div className={box} data-testid="card-thumb">
+      <PhotoPicture photo={{ ...photo, decorative: true }} role="thumb" />
+    </div>
+  );
+}
+
+const platformName: Record<Photo["sourcePlatform"], string> = {
+  unsplash: "Unsplash",
+  pexels: "Pexels",
+  "wikimedia-commons": "Wikimedia Commons",
+  "official-japan": "Officiell källa",
+  other: "Källa",
+};
+
+const firstSentence = (t: string) => t.split(/(?<=\.)\s/)[0];
+
+/** Fotografier som används på en sida, i den ordning de förekommer (utan dubbletter). */
+export function photosFor(ids: (string | null | undefined)[]): Photo[] {
+  const seen = new Set<string>();
+  const out: Photo[] = [];
+  for (const id of ids) {
+    if (!id || seen.has(id)) continue;
+    const p = findPhoto(id);
+    if (p) {
+      seen.add(id);
+      out.push(p);
+    }
+  }
+  return out;
+}
+
+/**
+ * Kompakt rättighetsavsnitt för en sida: motiv, sedan ”Fotograf · Källa · Licens” med länkar.
+ * Licensernas krav på namn, licens och länk till licensen uppfylls här i stället för under varje bild.
+ */
+export function PhotoRights({ photos, media = [] }: { photos: Photo[]; media?: { id: string; caption: string; rights: { creator: string; license: string } }[] }) {
+  if (photos.length === 0 && media.length === 0) return null;
+  return (
+    <section aria-labelledby="bilder-rattigheter" className="prose-col space-y-2" data-testid="photo-rights">
+      <h2 id="bilder-rattigheter" className="!text-lg">
+        Bilder och rättigheter
+      </h2>
+      <ul className="space-y-1.5 text-sm text-ink-soft">
+        {photos.map((p) => (
+          <li key={p.id} data-testid={`rights-${p.id}`}>
+            <span className="text-ink">{firstSentence(p.caption)}</span>
+            <br />
+            {p.creator} ·{" "}
+            <a href={p.sourceUrl} target="_blank" rel="noopener noreferrer">
+              {platformName[p.sourcePlatform]}
+            </a>{" "}
+            ·{" "}
+            <a href={p.license.url} target="_blank" rel="noopener noreferrer">
+              {p.license.name}
+            </a>
+          </li>
+        ))}
+        {media.map((m) => (
+          <li key={m.id}>
+            <span className="text-ink">{firstSentence(m.caption)}</span>
+            <br />
+            {m.rights.creator} · {m.rights.license}
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }

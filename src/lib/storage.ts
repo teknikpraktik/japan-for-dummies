@@ -1,5 +1,11 @@
 /** Säker åtkomst till localStorage. Kastar aldrig. */
+/** Äldre/gäst-nyckel (före inloggning). Importeras aldrig automatiskt till ett konto. */
 export const STORAGE_KEY = "japanresan:v1:state";
+export const LEGACY_STORAGE_KEY = STORAGE_KEY;
+
+/** Kontoisolerade nycklar: allt personligt lagras under en prefix som innehåller kontots ID. */
+export const acctPrefix = (userId: string) => `japanresan:v2:acct:${userId}:`;
+export const LAST_ACCOUNT_KEY = "japanresan:v2:last-acct";
 export const CORRUPT_BACKUP_KEY = "japanresan:v1:corrupt-backup";
 
 export interface SafeStorage {
