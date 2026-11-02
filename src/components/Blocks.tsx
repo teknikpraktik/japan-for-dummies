@@ -107,7 +107,6 @@ export function Blocks({ blocks, media }: { blocks: Block[]; media: Media[] }) {
                   <strong>Utan bild: </strong>
                   {b.textAlternative}
                 </p>
-                <p className="text-sm text-ink-soft">Uppgiften poängsätts inte och sparas inte. Den påverkar inte ditt resultat eller om kapitlet är klart.</p>
               </aside>
             );
           case "figure": {

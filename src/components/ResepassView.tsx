@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { chapterStatus, completedSinceExport, suggestNext, themeProgress } from "@/lib/progress";
+import { chapterStatus, suggestNext, themeProgress } from "@/lib/progress";
 import { useProgress } from "@/lib/store";
 import type { ChapterLite } from "./ContinueCard";
 import { TransferPanel } from "./TransferPanel";
@@ -19,7 +19,6 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
   const started = published.filter((c) => chapterStatus(state, c.id) === "in-progress");
   const next = suggestNext(state, chapters) as ChapterLite | undefined;
   const tp = themeProgress(state, chapters);
-  const unexported = completedSinceExport(state);
 
   if (!hydrated) return <p aria-busy="true">Hämtar ditt resepass…</p>;
 
@@ -48,12 +47,6 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
           <p>Du har klarat alla färdiga kapitel. Fler kommer senare.</p>
         )}
       </section>
-
-      {unexported > 0 && (
-        <p className="callout callout-check" role="status">
-          Du har {unexported} {unexported === 1 ? "klart kapitel" : "klara kapitel"} sedan senaste export. <a href="#export">Exportera dina framsteg</a> så att de inte försvinner om webbdata rensas.
-        </p>
-      )}
 
       <section aria-labelledby="teman" className="space-y-3">
         <h2 id="teman">Framsteg per tema</h2>
