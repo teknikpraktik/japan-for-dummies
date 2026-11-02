@@ -4,8 +4,8 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Japanresan 2027",
-    short_name: "Japanresan",
+    name: "Japan for Dummies",
+    short_name: "Japan for Dummies",
     description: "Interaktiv förberedelse inför skolresan till Japan i oktober 2027.",
     lang: "sv",
     start_url: "/?source=pwa",

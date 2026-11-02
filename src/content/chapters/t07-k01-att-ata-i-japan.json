@@ -106,10 +106,8 @@
           "text": "Kontanter och kort: många ställen tar kort, men små restauranger kan kräva kontanter. Ha därför alltid lite kontanter och fråga i förväg om du är osäker."
         },
         {
-          "type": "callout",
-          "tone": "check",
-          "title": "Kontrollera nära avresa",
-          "text": "Betalningsmetoder, priser och regler kan ha ändrats till oktober 2027. Resans ledare bör bekräfta nuläget. Siffror och exempel här är bakgrund, inte garantier."
+          "type": "p",
+          "text": "Betalningsmetoder, priser och regler ändras med tiden. Siffror och exempel här är bakgrund, inte garantier."
         }
       ]
     }

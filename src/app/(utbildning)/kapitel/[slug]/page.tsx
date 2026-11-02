@@ -7,8 +7,8 @@ import type { PublishedChapter } from "@/lib/schema";
 import { Blocks } from "@/components/Blocks";
 import { ExerciseRenderer } from "@/components/exercises/ExerciseRenderer";
 import { Quiz } from "@/components/Quiz";
-import { PhotoSlot } from "@/components/Photo";
-import { FavoriteButton, MarkStarted, StatusBadge } from "@/components/ChapterClient";
+import { PhotoRights, PhotoSlot, photosFor } from "@/components/Photo";
+import { MarkStarted, StatusBadge } from "@/components/ChapterClient";
 
 export function generateStaticParams() {
   return getContent().chapters.map((c) => ({ slug: c.slug }));
@@ -62,7 +62,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
             ))}
           </ul>
         </div>
-        <ChapterNav prev={pos.prev} next={pos.next} themeHref={themePath(chapter.themeId)} />
+        <ChapterNav prev={pos.prev} next={pos.next} />
       </article>
     );
   }
@@ -70,6 +70,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
   const ch: PublishedChapter = chapter;
   const usedSources = ch.sourceIds.map((id) => sources.find((s) => s.id === id)!);
   const usedMedia = ch.mediaIds.map((id) => media.find((m) => m.id === id)!);
+  const chapterPhotos = photosFor([ch.hero.imageId, ...ch.sections.flatMap((x) => x.blocks).map((b) => (b.type === "photo" ? b.imageId : null))]);
   const nextHref = nextPublished ? { href: chapterPath(nextPublished), label: `Nästa färdiga kapitel: ${nextPublished.title}` } : undefined;
 
   return (
@@ -79,8 +80,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
       <PhotoSlot role="hero" priority slotId={ch.hero.slotId} imageId={ch.hero.imageId} brief={ch.hero.brief} />
       <div className="flex flex-wrap items-center gap-3">
         <StatusBadge chapterId={ch.id} />
-        <span className="text-sm text-ink-soft">Cirka {ch.minutes} minuter inklusive test · innehållsversion {ch.contentVersion}</span>
-        <FavoriteButton chapterId={ch.id} title={ch.title} />
+        <span className="text-sm text-ink-soft">Cirka {ch.minutes} minuter inklusive test</span>
       </div>
 
       <section aria-labelledby="inledning" className="card !bg-indigo-soft prose-col space-y-2">
@@ -129,25 +129,9 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
       <Quiz chapterId={ch.id} contentVersion={ch.contentVersion} questions={ch.quiz} nextHref={nextHref} overviewHref={themePath(ch.themeId)} />
 
       <section className="space-y-4 prose-col">
-        <h2>Osäkerhet och begränsningar</h2>
-        <ul className="list-disc space-y-1 pl-6">
-          {ch.review.uncertainty.map((u) => (
-            <li key={u}>{u}</li>
-          ))}
-        </ul>
-        {ch.review.checkBeforeTravel.length > 0 && (
-          <>
-            <h2>Kontrollera nära avresa</h2>
-            <ul className="list-disc space-y-1 pl-6">
-              {ch.review.checkBeforeTravel.map((u) => (
-                <li key={u}>{u}</li>
-              ))}
-            </ul>
-          </>
-        )}
         <h2>Källor</h2>
         {usedSources.length === 0 ? (
-          <p>Inga externa källor är angivna för det här kapitlet (se metodbeskrivningen ovan).</p>
+          <p>Kapitlet bygger på allmän kunskap och har inga externa källor.</p>
         ) : (
           <ul className="space-y-2">
             {usedSources.map((s) => (
@@ -160,31 +144,19 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
             ))}
           </ul>
         )}
-        {usedMedia.length > 0 && (
-          <>
-            <h2>Bilder och rättigheter</h2>
-            <ul className="space-y-2">
-              {usedMedia.map((m) => (
-                <li key={m.id}>
-                  <strong>{m.id}</strong>: {m.alt}
-                  <br />
-                  Upphov: {m.rights.creator}. Licens: {m.rights.license}. {m.rights.note}
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
         <p>
           <Link href="/kallor/">Se alla källor i projektet</Link>
         </p>
       </section>
 
-      <ChapterNav prev={pos.prev} next={pos.next} themeHref={themePath(chapter.themeId)} />
+      <PhotoRights photos={chapterPhotos} media={usedMedia} />
+
+      <ChapterNav prev={pos.prev} next={pos.next} />
     </article>
   );
 }
 
-function ChapterNav({ prev, next, themeHref }: { themeHref: string; prev?: { slug: string; title: string; status: string }; next?: { slug: string; title: string; status: string } }) {
+function ChapterNav({ prev, next }: { prev?: { slug: string; title: string; status: string }; next?: { slug: string; title: string; status: string } }) {
   return (
     <nav aria-label="Kapitelnavigering" className="flex flex-col gap-3 border-t border-line pt-6 sm:flex-row sm:justify-between">
       {prev ? (
@@ -195,9 +167,6 @@ function ChapterNav({ prev, next, themeHref }: { themeHref: string; prev?: { slu
       ) : (
         <span />
       )}
-      <Link className="btn" href={themeHref}>
-        Till översikten
-      </Link>
       {next ? (
         <Link className="btn" href={chapterPath(next)}>
           {next.title}

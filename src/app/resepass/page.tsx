@@ -10,7 +10,7 @@ export default function Resepass() {
     <div className="container-page space-y-6 pt-8">
       <header className="space-y-2">
         <h1>Ditt resepass</h1>
-        <p className="prose-col">Dina framsteg, bästa resultat och favoriter. Allt sparas lokalt på din enhet.</p>
+        <p className="prose-col">Dina framsteg och bästa resultat. Allt sparas lokalt på din enhet.</p>
       </header>
       <ResepassView
         themes={themes.map((t) => ({ id: t.id, order: t.order, title: t.title }))}
