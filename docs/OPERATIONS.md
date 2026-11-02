@@ -2,9 +2,22 @@
 
 Det här dokumentet är för den som driftsätter tjänsten. Inga hemligheter står här. Alla värden läggs i Vercels skyddade miljövariabler eller i en lokal `.env.local` som aldrig checkas in (`.env*` är ignorerat av git).
 
-> **Status:** koden är byggd mot vanlig PostgreSQL och har körts mot lokal PostgreSQL. Den har **inte** kopplats mot Neon-projektet "japan-for-dummies" och **inte** publicerats. Stegen nedan är det som återstår.
+> **Standardläget är kontofritt.** Tjänsten byggs och körs utan databas och utan autentiseringsvariabler: ingen inloggning, ingen läraradministration och ingen synkning. Framsteg sparas lokalt i webbläsaren. Resten av det här dokumentet gäller bara om kontofunktionerna **slås på igen** (se nästa avsnitt). Befintliga Neon-projekt, tabeller och uppgifter är orörda men används inte av den kontofria appen; vad som ska hända med dem är en separat förvaltningsfråga.
 
-## Miljövariabler
+## Kontofunktioner: avstängda som standard
+
+En enda inställning styr: `NEXT_PUBLIC_ACCOUNTS_ENABLED` (se `src/lib/features.ts`). Den är avstängd om den saknas eller har något annat värde än `true`. Eftersom Next.js bäddar in `NEXT_PUBLIC_`-variabler vid bygget gäller värdet **vid bygget**, så servern och klienten alltid är överens; ändra den och bygg om.
+
+När den är avstängd:
+
+- `src/proxy.ts` svarar `404` på `/api/*` och på kontosidorna (`/logga-in`, `/min-utbildning`, `/lararen`, `/konto`, `/aktivera`) innan någon kod körs. Ingen autentisering eller databas initieras och inga kakor sätts, även om webbläsaren skickar en gammal sessionskaka.
+- Sidorna och API-rutterna har dessutom egna spärrar (404), som skydd i flera led.
+- Webbläsaren gör inga anrop om session, användare eller synkning, och kontomeny, inloggningslänkar och lärarlänkar visas inte.
+- `DATABASE_URL`, `DB_TARGET` och `BETTER_AUTH_SECRET` krävs inte.
+
+Återaktivering: sätt `NEXT_PUBLIC_ACCOUNTS_ENABLED=true` och variablerna i tabellen nedan, och bygg om. Tester för båda lägena: `npm run test:e2e` (kontofritt, standard) och `npm run build:konton && npm run test:e2e:konton` (kontoläge, lokal PostgreSQL).
+
+## Miljövariabler (gäller kontoläget)
 
 | Variabel | Krävs | Beskrivning |
 |---|---|---|
@@ -13,7 +26,7 @@ Det här dokumentet är för den som driftsätter tjänsten. Inga hemligheter st
 | `BETTER_AUTH_SECRET` | ja | Minst 32 slumpade tecken (`openssl rand -base64 48`). Olika värde per miljö. Byte loggar ut alla. |
 | `BETTER_AUTH_URL` | produktion | Publik bas-URL (exakt, utan jokertecken). På preview används Vercels egna URL:er. |
 | `AUTH_RATE_LIMIT_ENABLED` | nej | `false` bara i automatiska tester. |
-| `PRIVACY_CONTROLLER_NAME`, `PRIVACY_CONTACT`, `PRIVACY_DPO_CONTACT`, `PRIVACY_RETENTION_POLICY` | nej | Skolan fastställer. Läses vid bygget och visas på `/integritet/`. Tomma värden visas som "Ej fastställt av skolan än". Bygg om efter ändring. |
+| `PRIVACY_CONTACT` | nej | Kontaktuppgift som visas på `/integritet/` (kontofritt läge). Läses vid bygget. Saknas den visas "Kontaktuppgift är inte angiven än". Övriga `PRIVACY_*` används bara i kontoläget. |
 | `CONFIRM_OPERATOR_ACTION=yes` | vid operatörskommandon mot produktion | Extra bekräftelse för `admin:bootstrap` och `admin:recover`. |
 | `CONFIRM_PRODUCTION_MIGRATION=yes` | vid `db:migrate` mot produktion | Extra bekräftelse; ta först en återställningspunkt (Neon-branch från production). |
 

@@ -1,3 +1,4 @@
+import { ACCOUNTS_ENABLED } from "@/lib/features";
 import { toNextJsHandler } from "better-auth/next-js";
 import { getAuth } from "@/server/auth";
 import { assertAllowedOrigin, HttpError } from "@/server/authz";
@@ -12,6 +13,7 @@ export const dynamic = "force-dynamic";
 const BLOCKED_PREFIXES = ["/api/auth/reset-password", "/api/auth/callback", "/api/auth/delete-user"];
 
 function guard(request: Request): Response | null {
+  if (!ACCOUNTS_ENABLED) return deny(404, "not-found");
   const path = new URL(request.url).pathname.replace(/\/+$/, "");
   if (BLOCKED_PREFIXES.some((p) => path === p || path.startsWith(`${p}/`))) return deny(404, "not-found");
   if (request.method === "POST") {

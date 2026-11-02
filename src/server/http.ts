@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { AdminError } from "./services/accounts";
 import { assertSameOrigin, HttpError } from "./authz";
+import { ACCOUNTS_ENABLED } from "@/lib/features";
 
 const NO_STORE = {
   "Cache-Control": "private, no-store, max-age=0",
@@ -30,6 +31,8 @@ export async function readJson<S extends z.ZodType>(request: Request, schema: S)
 /** Gemensam felhantering. Detaljer och interna fel exponeras aldrig. */
 export function route(handler: (request: Request, ctx: { params: Promise<Record<string, string>> }) => Promise<Response>) {
   return async (request: Request, ctx: { params: Promise<Record<string, string>> }): Promise<Response> => {
+    // Kontofunktionerna avstängda: 404 utan att autentisering eller databas initieras.
+    if (!ACCOUNTS_ENABLED) return json({ error: "not-found" }, 404);
     try {
       assertSameOrigin(request);
       return await handler(request, ctx);

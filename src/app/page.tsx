@@ -4,6 +4,7 @@ import { PhotoRights, PhotoSlot, photosFor } from "@/components/Photo";
 import { themePath } from "@/lib/chapters";
 import { StartCta, type ChapterLite } from "@/components/StartCta";
 import { ThemeCards } from "@/components/ThemeCards";
+import { LocalNotice } from "@/components/LocalNotice";
 
 export default function Home() {
   const { trip, chapters, themes, home } = getContent();
@@ -43,7 +44,7 @@ export default function Home() {
           <li className="card">
             <h3>4. Följ dina framsteg</h3>
             <p>
-              Utan konto sparas de på din enhet. Med konto från din lärare synkas kapitelstatus. <Link href="/info/">Läs mer</Link>
+              Inget konto behövs. Framstegen sparas i den här webbläsaren, och du kan <Link href="/offline/">ladda ned utbildningen</Link> för att använda den utan internet.
             </p>
           </li>
         </ol>
@@ -52,6 +53,7 @@ export default function Home() {
       <section aria-labelledby="teman" className="space-y-3">
         <h2 id="teman">Teman</h2>
         <ThemeCards themes={cards} chapters={refs} />
+        <LocalNotice />
       </section>
 
       <PhotoRights photos={photosFor([home.hero.imageId])} />

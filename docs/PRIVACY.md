@@ -1,5 +1,7 @@
 # Personuppgifter och dataskydd
 
+> **Obs:** Det här dokumentet beskriver kontoläget (inloggning, läraradministration), som är **avstängt som standard**. Den kontofria tjänstens integritetsinformation finns på sidan `/integritet/` i appen. Se [OPERATIONS.md](OPERATIONS.md).
+
 Tjänsten är byggd för dataminimering. Uppgifterna är **pseudonymiserade, inte anonyma**: en lärare kan koppla ett användarnamn till en elev. Dokumentet är ingen juridisk bedömning och ersätter inte skolans egna beslut.
 
 ## Vad som lagras centralt
@@ -34,3 +36,13 @@ Som gäst sparas framsteg i enheten (localStorage). För inloggade sparas inget 
 ## Offline och manipulation
 
 Offlineframsteg är en bekvämlighet och inte manipulationssäkert. Servern kontrollerar kapitel, testversion och rättade svar vid synk online; avklarat kan aldrig gå tillbaka. Äldre lokala framsteg importeras aldrig automatiskt, utan efter förhandsvisning och bekräftelse, märkta som egenrapporterade.
+
+## Kontofri tjänst (nuvarande läge)
+
+- Inget konto behövs. Framsteg (påbörjade och klara kapitel, testresultat, pågående test), senast valt tema och uppgift om offlinenedladdning sparas lokalt i webbläsaren (localStorage). Inget av det skickas till servern.
+- Offlinenedladdning lagrar utbildningsmaterial i webbläsarens cache (inga personuppgifter).
+- Rensning: knappen på `/offline/`, eller webbläsarens inställningar.
+- Driftleverantören Vercel kan logga tekniska uppgifter om anrop; detta är inte närmare kontrollerat.
+- Appen sätter inga kakor (kontrolleras i e2e-testerna och mot produktionen).
+- Ansvarig: Per Björkman, för den behandling han bestämmer över i den fristående tjänsten. Kontaktuppgift saknas och visas som ej angiven tills `PRIVACY_CONTACT` sätts.
+- Befintliga uppgifter från den tidigare kontoversionen (om några) ligger kvar i databasen men används inte av appen. Radering eller gallring är en separat förvaltningsfråga.

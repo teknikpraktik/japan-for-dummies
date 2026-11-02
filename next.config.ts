@@ -18,6 +18,8 @@ const noStore = [
 
 const nextConfig: NextConfig = {
   // Serverdrift (Vercel) för inloggning och skyddade funktioner. Offentligt utbildningsinnehåll genereras statiskt.
+  // Ett separat byggkatalognamn gör att kontoläget (NEXT_PUBLIC_ACCOUNTS_ENABLED=true) kan testas bredvid det kontofria bygget.
+  distDir: process.env.NEXT_DIST_DIR || ".next",
   trailingSlash: true,
   // Tillåt API-anrop med och utan avslutande snedstreck utan omdirigering (POST-anrop får inte omdirigeras).
   skipTrailingSlashRedirect: true,
@@ -25,6 +27,13 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   // Innehållet (JSON) läses från disk av API-rutterna (validering av prov); se till att det följer med i funktionspaketet.
   outputFileTracingIncludes: { "/api/**": ["./src/content/**/*"] },
+  /** Gamla adresser från Resepass och Info leder till den sammanslagna sidan Offline och framsteg. */
+  async redirects() {
+    return ["/resepass", "/info"].flatMap((from) => [
+      { source: from, destination: "/offline/", permanent: false },
+      { source: `${from}/`, destination: "/offline/", permanent: false },
+    ]);
+  },
   async headers() {
     return [
       { source: "/:path*", headers: securityHeaders },

@@ -1,7 +1,6 @@
 import { expect, test, type Page } from "@playwright/test";
 import fs from "node:fs";
 import path from "node:path";
-import { loginStudentOk } from "./auth-helpers";
 import { NextCopy } from "./next-server";
 import { pilots, takeQuiz, PUBLISHED } from "./helpers";
 
@@ -33,7 +32,7 @@ test.describe("offline", () => {
   test.skip(({ isMobile }) => isMobile, "Körs på desktop; samma kod används på mobil");
 
   test("efter nedladdning: omladdning, direktlänkar och test fungerar utan nätverk", async ({ page }) => {
-    await page.goto("/info/");
+    await page.goto("/offline/");
     await waitForController(page);
 
     await page.getByTestId("offline-download").click();
@@ -44,7 +43,7 @@ test.describe("offline", () => {
 
     // Omladdning offline
     await page.reload();
-    await expect(page.getByRole("heading", { level: 1, name: /Info: lagring/ })).toBeVisible();
+    await expect(page.getByRole("heading", { level: 1, name: "Offline och framsteg" })).toBeVisible();
     await expect(page.getByTestId("offline-ready")).toBeVisible();
 
     // Direktlänk till alla sex pilotkapitel offline
@@ -80,7 +79,7 @@ test.describe("offline", () => {
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
     await page.goto("/kapitel/shinto/");
     await expect(page.getByText("planerat men inte skrivet än")).toBeVisible();
-    await page.goto("/resepass/");
+    await page.goto("/offline/");
     await expect(page.getByTestId("stat-completed")).toHaveText("1 / " + PUBLISHED);
     await page.goto("/kallor/");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Källor och rättigheter");
@@ -90,28 +89,19 @@ test.describe("offline", () => {
     await expect(page.getByRole("heading", { name: "Den här sidan är inte sparad offline" })).toBeVisible();
   });
 
-  test("skyddat och personligt innehåll hamnar aldrig i offlinecachen och visas aldrig offline", async ({ page }) => {
-    await page.goto("/info/");
+  test("kontofritt: inga konto- eller privata sökvägar i offlinelistan eller cachen, och inga serveranrop efter nedladdning", async ({ page }) => {
+    const calls: string[] = [];
+    page.on("request", (r) => {
+      const u = new URL(r.url());
+      if (u.origin === BASE && /^\/api(\/|$)/.test(u.pathname)) calls.push(u.pathname);
+    });
+    await page.goto("/offline/");
     await waitForController(page);
     await page.getByTestId("offline-download").click();
     await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
-
-    // Offlinelistan innehåller inga skyddade sökvägar
     const manifest = await (await fetch(`${BASE}/offline-manifest.json`)).json();
     const bad = (manifest.files as { url: string }[]).map((f) => f.url).filter((u) => /^\/(api|logga-in|min-utbildning|lararen|konto|aktivera)(\/|$)/.test(u));
     expect(bad).toEqual([]);
-
-    // Logga in som elev och besök skyddade sidor och API genom service workern
-    await loginStudentOk(page, 3);
-    await page.goto("/min-utbildning/");
-    await page.waitForLoadState("networkidle");
-    await page.evaluate(async () => {
-      await fetch("/api/me/");
-      await fetch("/api/framsteg/");
-    });
-    await page.goto("/konto/");
-    await page.waitForLoadState("networkidle");
-
     const cached = await page.evaluate(async () => {
       const out: string[] = [];
       for (const name of await caches.keys()) {
@@ -122,24 +112,7 @@ test.describe("offline", () => {
     });
     expect(cached.length).toBeGreaterThan(50);
     expect(cached.filter((p) => /^\/(api|logga-in|min-utbildning|lararen|konto|aktivera)(\/|$)/.test(p))).toEqual([]);
-
-    await stopServer();
-    for (const url of ["/min-utbildning/", "/lararen/", "/konto/", "/logga-in/"]) {
-      await page.goto(url);
-      await expect(page.getByRole("heading", { name: "Den här sidan kräver internet" }), url).toBeVisible();
-    }
-    const apiResult = await page.evaluate(async () => {
-      try {
-        const r = await fetch("/api/me/");
-        return `status ${r.status}`;
-      } catch {
-        return "nätverksfel";
-      }
-    });
-    expect(apiResult).toBe("nätverksfel");
-    // Utbildningens kapitel går fortfarande att läsa offline
-    await page.goto("/kapitel/japan-pa-kartan/");
-    await expect(page.getByRole("heading", { level: 1 })).toHaveText(pilots[0].title);
+    expect(calls).toEqual([]);
   });
 
   test("utan nedladdning visar offlinemeddelande", async ({ page }) => {
@@ -152,7 +125,7 @@ test.describe("offline", () => {
   });
 
   test("avbruten nedladdning markeras inte som klar och kan fortsättas", async ({ page }) => {
-    await page.goto("/info/");
+    await page.goto("/offline/");
     await waitForController(page);
     // Låt en fil saknas på servern (svarar 404) så att nedladdningen avbryts.
     const chunks = path.join(copy.dir, ".next", "static", "chunks");
@@ -170,7 +143,7 @@ test.describe("offline", () => {
   });
 
   test("ny version: uppdatering erbjuds, pågående test och framsteg bevaras", async ({ page }) => {
-    await page.goto("/info/");
+    await page.goto("/offline/");
     await waitForController(page);
     await page.getByTestId("offline-download").click();
     await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
@@ -209,7 +182,7 @@ test.describe("offline", () => {
     await expect(page.getByTestId("quiz-position")).toHaveText("Fråga 3 av 5"); // svar kvar efter uppdatering
 
     // Offlineinnehållet kan uppdateras; framstegen finns kvar
-    await page.goto("/info/");
+    await page.goto("/offline/");
     await expect(page.getByText("Det finns ett nyare innehåll")).toBeVisible({ timeout: 20_000 });
     await page.getByRole("button", { name: "Uppdatera offlineinnehållet" }).click();
     await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });

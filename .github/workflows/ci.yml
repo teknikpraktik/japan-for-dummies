@@ -40,14 +40,18 @@ jobs:
         run: psql -h localhost -U japan_app -d japanresan_test -c "CREATE DATABASE japanresan_e2e"
       - name: Enhets- och servertester (mot lokal PostgreSQL)
         run: npm test
-      - name: Produktionsbygge (inkl. service worker, utan databas)
+      - name: Produktionsbygge, kontofritt (utan databas- och autentiseringsvariabler)
         run: npm run build
-        env:
-          DB_TARGET: test
       - name: Installera Chromium för e2e
         run: npx playwright install --with-deps chromium
-      - name: E2E-tester mot produktionsbygget
+      - name: E2E-tester, kontofritt läge (standard)
         run: npm run test:e2e
+        env:
+          CI: "true"
+      - name: Bygge i kontoläge (NEXT_PUBLIC_ACCOUNTS_ENABLED=true) för återaktivering
+        run: npm run build:konton
+      - name: E2E-tester, kontoläge (lokal PostgreSQL)
+        run: npm run test:e2e:konton
         env:
           CI: "true"
       - name: Spara rapport vid fel

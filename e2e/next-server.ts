@@ -18,7 +18,8 @@ export class NextCopy {
   async start() {
     const root = process.cwd();
     this.dir = fs.mkdtempSync(path.join(os.tmpdir(), "japan-next-"));
-    fs.cpSync(path.join(root, ".next"), path.join(this.dir, ".next"), { recursive: true, filter: (src) => !/\.next[\\/](cache|dev)/.test(src) });
+    const dist = process.env.NEXT_DIST_DIR || ".next";
+    fs.cpSync(path.join(root, dist), path.join(this.dir, dist), { recursive: true, filter: (src) => !/\.next[^\\/]*[\\/](cache|dev)/.test(src) });
     fs.cpSync(path.join(root, "public"), path.join(this.dir, "public"), { recursive: true });
     fs.mkdirSync(path.join(this.dir, "src"), { recursive: true });
     fs.cpSync(path.join(root, "src/content"), path.join(this.dir, "src/content"), { recursive: true });
