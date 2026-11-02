@@ -169,8 +169,6 @@ const platformName: Record<Photo["sourcePlatform"], string> = {
   other: "Källa",
 };
 
-const firstSentence = (t: string) => t.split(/(?<=\.)\s/)[0];
-
 /** Fotografier som används på en sida, i den ordning de förekommer (utan dubbletter). */
 export function photosFor(ids: (string | null | undefined)[]): Photo[] {
   const seen = new Set<string>();
@@ -200,8 +198,6 @@ export function PhotoRights({ photos, media = [] }: { photos: Photo[]; media?: {
       <ul className="space-y-1.5 text-sm text-ink-soft">
         {photos.map((p) => (
           <li key={p.id} data-testid={`rights-${p.id}`}>
-            <span className="text-ink">{firstSentence(p.caption)}</span>
-            <br />
             {p.creator} ·{" "}
             <a href={p.sourceUrl} target="_blank" rel="noopener noreferrer">
               {platformName[p.sourcePlatform]}
@@ -214,9 +210,7 @@ export function PhotoRights({ photos, media = [] }: { photos: Photo[]; media?: {
         ))}
         {media.map((m) => (
           <li key={m.id}>
-            <span className="text-ink">{firstSentence(m.caption)}</span>
-            <br />
-            {m.rights.creator} · {m.rights.license}
+            Karta: {m.rights.creator} · {m.rights.license}
           </li>
         ))}
       </ul>

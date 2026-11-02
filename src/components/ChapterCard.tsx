@@ -19,7 +19,7 @@ export function ChapterCard({ chapter: c }: { chapter: Chapter }) {
         </div>
         <h3 className="text-base leading-snug sm:text-lg">
           {published ? (
-            <Link href={chapterPath(c)} className="no-underline after:absolute after:inset-0 after:content-[''] focus-visible:after:rounded-xl" style={{ color: "var(--color-indigo-dark)" }}>
+            <Link href={chapterPath(c)} className="no-underline after:absolute after:inset-0 after:content-['']" style={{ color: "var(--color-indigo-dark)" }}>
               {c.title}
             </Link>
           ) : (
@@ -42,9 +42,7 @@ export function ChapterCard({ chapter: c }: { chapter: Chapter }) {
   );
   return (
     <li
-      className={`relative flex gap-3 rounded-xl border p-2.5 sm:gap-4 sm:p-3 ${
-        published ? "border-indigo/40 bg-card transition-colors hover:border-indigo hover:bg-paper-2 focus-within:border-indigo focus-within:outline focus-within:outline-2 focus-within:outline-indigo" : "border-dashed border-line bg-paper-2"
-      }`}
+      className={`tile flex gap-3 sm:gap-4 ${published ? "tile-link" : "tile-upcoming"}`}
       data-testid={`chapter-card-${c.id}`}
     >
       {inner}

@@ -103,7 +103,7 @@ test.describe("poäng, gräns och omförsök", () => {
     await expect(page.getByTestId("quiz-position")).toHaveText("Fråga 3 av 5");
     await page.goto("/utbildning/");
     await page.goto(`/utbildning/${(c as unknown as { themeId: string }).themeId}/`);
-    await expect(page.getByTestId(`chapter-card-${c.id}`).getByText(/Påbörjad/)).toBeVisible();
+    await expect(page.getByTestId(`chapter-card-${c.id}`).getByText(/Påbörjat/)).toBeVisible();
   });
 
   test("inga favoritknappar, redaktionella rutor eller extra navigering längst ned", async ({ page }) => {

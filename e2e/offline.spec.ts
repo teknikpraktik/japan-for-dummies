@@ -142,6 +142,30 @@ test.describe("offline", () => {
     await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
   });
 
+  test("samma status i sidhuvudet, på startsidan och på Offline och framsteg; ”Tillgänglig offline ✓” först efter verifiering", async ({ page }) => {
+    await page.goto("/");
+    await waitForController(page);
+    const header = page.getByTestId("offline-link");
+    await expect(header).toHaveText("Ladda ned offline");
+    await expect(page.getByTestId("offline-intro")).toContainText("Hela utbildningen");
+    // Fel: en fil saknas -> ofullständig, och ingenstans sägs att materialet är tillgängligt offline
+    const chunks = path.join(copy.dir, ".next", "static", "chunks");
+    const victim = path.join(chunks, fs.readdirSync(chunks).find((f) => f.endsWith(".js"))!);
+    fs.renameSync(victim, victim + ".bak");
+    await page.getByTestId("intro-download").click();
+    await expect(page.getByRole("alert").filter({ hasText: "inte klar" })).toBeVisible({ timeout: 60_000 });
+    await expect(header).toHaveText("Försök ladda ned igen");
+    await expect(page.getByText("Tillgänglig offline ✓")).toHaveCount(0);
+    // Försök igen
+    fs.renameSync(victim + ".bak", victim);
+    await page.getByRole("button", { name: "Försök igen" }).click();
+    await expect(page.getByTestId("intro-ready")).toHaveText("Tillgänglig offline ✓", { timeout: 90_000 });
+    await expect(header).toHaveText("Tillgänglig offline ✓");
+    await header.click();
+    await expect(page.getByTestId("offline-ready")).toBeVisible();
+    await expect(header).toHaveText("Tillgänglig offline ✓");
+  });
+
   test("ny version: uppdatering erbjuds, pågående test och framsteg bevaras", async ({ page }) => {
     await page.goto("/offline/");
     await waitForController(page);

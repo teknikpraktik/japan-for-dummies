@@ -1,30 +1,12 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
-import {
-  checkReady,
-  downloadOffline,
-  DownloadError,
-  fetchManifest,
-  formatBytes,
-  offlineSupported,
-  readMeta,
-  removeOffline,
-  type DownloadProgress,
-  type OfflineMeta,
-} from "@/lib/offline";
-
-type View =
-  | { kind: "loading" }
-  | { kind: "unsupported" }
-  | { kind: "idle"; hadBefore: boolean }
-  | { kind: "downloading"; progress: DownloadProgress }
-  | { kind: "ready"; meta: OfflineMeta; updateAvailable: boolean }
-  | { kind: "error"; message: string; errorKind: string };
+import { useEffect, useState } from "react";
+import { formatBytes } from "@/lib/offline";
+import { offlineStore, useOfflineStatus } from "@/lib/offline-store";
 
 export function OfflinePanel() {
-  const [view, setView] = useState<View>({ kind: "loading" });
-  const abortRef = useRef<AbortController | null>(null);
+  const view = useOfflineStatus();
+  const start = () => void offlineStore.start();
   const [online, setOnline] = useState(true);
 
   useEffect(() => {
@@ -38,48 +20,18 @@ export function OfflinePanel() {
     };
   }, []);
 
-  useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      if (!offlineSupported() || process.env.NODE_ENV !== "production") {
-        if (!cancelled) setView({ kind: offlineSupported() ? "idle" : "unsupported", hadBefore: false });
-        return;
-      }
-      const meta = readMeta();
-      if (meta && (await checkReady(meta))) {
-        let updateAvailable = false;
-        try {
-          if (navigator.onLine) updateAvailable = (await fetchManifest()).buildId !== meta.buildId;
-        } catch {
-          /* ingen koll möjlig just nu */
-        }
-        if (!cancelled) setView({ kind: "ready", meta, updateAvailable });
-      } else if (!cancelled) setView({ kind: "idle", hadBefore: Boolean(meta) });
-    })();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  const start = useCallback(async () => {
-    const ctl = new AbortController();
-    abortRef.current = ctl;
-    setView({ kind: "downloading", progress: { phase: "preparing", done: 0, total: 0, bytesDone: 0, bytesTotal: 0 } });
-    try {
-      const meta = await downloadOffline((progress) => setView({ kind: "downloading", progress }), ctl.signal);
-      setView({ kind: "ready", meta, updateAvailable: false });
-    } catch (e) {
-      const err = e instanceof DownloadError ? e : new DownloadError("interrupted", "Något gick fel under nedladdningen.");
-      setView({ kind: "error", message: err.message, errorKind: err.kind });
-    }
-  }, []);
-
   return (
     <section aria-labelledby="offline" id="offline" className="card space-y-3">
       <h2 id="offline">Gör utbildningen tillgänglig offline</h2>
       <p>
-        Ladda ned alla sidor, övningar och test (inklusive alla färdiga kapitel) till enheten så att de går att öppna utan internet. Dina framsteg sparas ändå lokalt som vanligt.
+        Ladda ned hela utbildningen till enheten så att den går att öppna utan internet: alla teman, kapitel, övningar, test och bilder. Dina framsteg sparas lokalt som vanligt, med eller utan nedladdning.
       </p>
+      {(view.kind === "idle" || view.kind === "error") && view.info && (
+        <p className="text-sm text-ink-soft" data-testid="offline-size">
+          Ingår: {view.info.files} filer, cirka {formatBytes(view.info.bytes)}
+          {view.info.imageBytes ? ` (varav bilder ${formatBytes(view.info.imageBytes)})` : ""}.
+        </p>
+      )}
       <p aria-live="polite" className="text-sm text-ink-soft" data-testid="online-state">
         Just nu: {online ? "du är online" : "du är offline"}.
       </p>
@@ -119,7 +71,7 @@ export function OfflinePanel() {
           >
             <div className="progress-fill" style={{ width: `${view.progress.total ? (view.progress.done / view.progress.total) * 100 : 0}%` }} />
           </div>
-          <button className="btn btn-small" onClick={() => abortRef.current?.abort()}>
+          <button className="btn btn-small" onClick={() => offlineStore.cancel()}>
             Avbryt
           </button>
         </div>
@@ -142,8 +94,7 @@ export function OfflinePanel() {
           <button
             className="btn btn-small"
             onClick={async () => {
-              await removeOffline();
-              setView({ kind: "idle", hadBefore: false });
+              await offlineStore.remove();
             }}
           >
             Ta bort offlineinnehållet från enheten
