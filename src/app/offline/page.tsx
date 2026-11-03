@@ -6,18 +6,20 @@ import { InstallHelp } from "@/components/InstallHelp";
 import { ResepassView } from "@/components/ResepassView";
 import { ClearLocalData } from "@/components/ClearLocalData";
 import { LocalNotice } from "@/components/LocalNotice";
+import { UpdatePanel } from "@/components/UpdatePanel";
 
-export const metadata: Metadata = { title: "Offline och framsteg" };
+export const metadata: Metadata = { title: "Min utbildning" };
 
 export default function OfflineAndProgress() {
   const { chapters, themes } = getContent();
   return (
     <div className="container-page space-y-8 pt-8">
       <header className="space-y-2">
-        <h1>Offline och framsteg</h1>
+        <h1>Min utbildning</h1>
         <p className="prose-col">Här laddar du ned utbildningen så att den fungerar utan internet, ser hur långt du har kommit och sparar eller rensar dina framsteg. Inget konto behövs.</p>
       </header>
 
+      <UpdatePanel />
       <OfflinePanel />
       <InstallHelp />
 

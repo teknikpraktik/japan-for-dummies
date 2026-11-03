@@ -26,14 +26,14 @@ export default function Privacy() {
 
       <section aria-labelledby="offline" className="prose-col space-y-2">
         <h2 id="offline">Offlinenedladdning</h2>
-        <p>Om du väljer att ladda ned utbildningen sparas sidor, bilder och övningar i webbläsarens cache på din enhet, så att de fungerar utan internet. Det är bara utbildningsmaterial och innehåller inga uppgifter om dig. Storleken visas på sidan <Link href="/offline/">Offline och framsteg</Link>.</p>
+        <p>Om du väljer att ladda ned utbildningen sparas sidor, bilder och övningar i webbläsarens cache på din enhet, så att de fungerar utan internet. Det är bara utbildningsmaterial och innehåller inga uppgifter om dig. Storleken visas på sidan <Link href="/offline/">Min utbildning</Link>.</p>
       </section>
 
       <section aria-labelledby="rensa" className="prose-col space-y-2">
         <h2 id="rensa">Så rensar du</h2>
         <ul className="list-disc space-y-1 pl-6">
           <li>
-            På <Link href="/offline/">Offline och framsteg</Link> kan du rensa dina lokala framsteg och ta bort offlinenedladdningen.
+            På <Link href="/offline/">Min utbildning</Link> kan du rensa dina lokala framsteg och ta bort offlinenedladdningen.
           </li>
           <li>Du kan också rensa webbplatsdata för den här adressen i webbläsarens inställningar.</li>
           <li>En exportfil som du själv sparat ligger kvar tills du tar bort den.</li>

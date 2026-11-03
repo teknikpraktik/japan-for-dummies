@@ -4,12 +4,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useAccount } from "./AccountProvider";
 import { AccountMenu } from "./AccountMenu";
-import { OfflineStatusLink } from "./OfflineStatusLink";
 import { ACCOUNTS_ENABLED } from "@/lib/features";
 
 const links = [
   { href: "/", label: "Startsida", icon: "⌂" },
   { href: "/utbildning/", label: "Utbildning", icon: "☰" },
+  { href: "/offline/", label: "Min utbildning", icon: "★" },
 ] as const;
 
 function isActive(pathname: string, href: string) {
@@ -41,10 +41,11 @@ export function SiteHeader() {
             ))}
           </ul>
         </nav>
-        <div className="flex items-center gap-1">
-          <OfflineStatusLink />
-          {ACCOUNTS_ENABLED && <AccountMenu />}
-        </div>
+        {ACCOUNTS_ENABLED && (
+          <div className="flex items-center gap-1">
+            <AccountMenu />
+          </div>
+        )}
       </div>
     </header>
   );
@@ -55,10 +56,10 @@ export function BottomNav() {
   const pathname = usePathname();
   const { user } = useAccount();
   const mine = !user ? { href: "/logga-in/", label: "Logga in", icon: "⎆" } : user.role === "teacher" ? { href: "/lararen/", label: "Lärare", icon: "☑" } : { href: "/min-utbildning/", label: "Min sida", icon: "★" };
-  const items = ACCOUNTS_ENABLED ? [links[0], links[1], mine] : [links[0], links[1]];
+  const items = ACCOUNTS_ENABLED ? [...links, mine] : [...links];
   return (
     <nav aria-label="Snabbmeny" className="no-print fixed inset-x-0 bottom-0 z-40 border-t border-line bg-card md:hidden" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
-      <ul className={ACCOUNTS_ENABLED ? "grid grid-cols-3" : "grid grid-cols-2"}>
+      <ul className={ACCOUNTS_ENABLED ? "grid grid-cols-4" : "grid grid-cols-3"}>
         {items.map((l) => (
           <li key={l.href}>
             <Link

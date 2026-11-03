@@ -14,8 +14,8 @@ import {
 } from "./offline";
 
 /**
- * Gemensamt tillstånd för offlinenedladdningen. Sidhuvudet, startsidans introduktion och sidan Offline och framsteg
- * använder samma funktion och samma status. ”Klar” betyder alltid att nedladdningen är verifierad (alla filer finns).
+ * Gemensamt tillstånd för offlinenedladdningen. Sidan Min utbildning
+ * visar statusen; all status och alla uppdateringar visas bara där, aldrig i sidhuvudet. ”Klar” betyder alltid att nedladdningen är verifierad (alla filer finns).
  */
 export interface PackageInfo {
   bytes: number;
@@ -110,18 +110,4 @@ export function useOfflineStatus(): OfflineView {
     () => view,
     () => ({ kind: "loading" }) as OfflineView,
   );
-}
-
-/** Kort statusetikett för sidhuvudet. */
-export function offlineLabel(v: OfflineView): string {
-  switch (v.kind) {
-    case "downloading":
-      return v.progress.total > 0 ? `Laddar ned ${Math.round((v.progress.done / v.progress.total) * 100)} %` : "Förbereder nedladdning";
-    case "ready":
-      return v.updateAvailable ? "Uppdatering finns" : "Tillgänglig offline ✓";
-    case "error":
-      return "Försök ladda ned igen";
-    default:
-      return "Ladda ned offline";
-  }
 }

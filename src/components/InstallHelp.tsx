@@ -25,7 +25,7 @@ const steps: Record<Env, { title: string; text: string }> = {
   "android-chrome": { title: "Android (Chrome, Edge m.fl.)", text: "Öppna webbläsarens meny (⋮) och välj ”Installera app” eller ”Lägg till på startskärmen”. Ibland visas en ruta av sig själv, men räkna inte med det." },
   "android-firefox": { title: "Android (Firefox)", text: "Öppna menyn och välj ”Installera” eller ”Lägg till på startskärmen”, om alternativet visas." },
   "desktop-safari": { title: "Mac (Safari 17 eller senare)", text: "Välj Arkiv → ”Lägg till i Dock”. I äldre versioner av Safari finns inte installation, men sidan fungerar som vanligt i webbläsaren." },
-  "desktop-chromium": { title: "Dator (Chrome eller Edge)", text: "Leta efter installationsikonen i adressfältet, eller välj menyn → ”Installera Japanresan” (Chrome: ”Cast, spara och dela” → ”Installera sida som app”)." },
+  "desktop-chromium": { title: "Dator (Chrome eller Edge)", text: "Leta efter installationsikonen i adressfältet, eller välj menyn → ”Installera Japan for Dummies” (Chrome: ”Cast, spara och dela” → ”Installera sida som app”)." },
   "desktop-firefox": { title: "Dator (Firefox)", text: "Firefox på dator kan inte installera webbappar. Du kan fortfarande använda sidan i webbläsaren, och göra den tillgänglig offline nedan." },
   other: { title: "Din webbläsare", text: "Leta efter ”Installera” eller ”Lägg till på startskärmen/hemskärmen” i webbläsarens meny. Alla webbläsare erbjuder det inte." },
 };
