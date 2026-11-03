@@ -34,7 +34,7 @@ export default function Privacy() {
           Offlinematerial och framsteg lagras separat. Du kan ta bort utbildningsmaterialet utan att radera dina framsteg och tvärtom. Innehållsuppdateringar raderar inte dina framsteg.
         </p>
         <p>
-          På Mina framsteg ser du vad som är nedladdat, hur mycket plats det tar och om en uppdatering finns. All information om nya versioner och uppdateringar visas där. Du väljer själv när du vill uppdatera.
+          På Mina framsteg ser du om utbildningen är nedladdad och om en uppdatering finns. All information om nya versioner och uppdateringar visas där. Du väljer själv när du vill uppdatera.
         </p>
       </section>
 

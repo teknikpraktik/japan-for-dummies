@@ -50,14 +50,13 @@ export function TransferPanel() {
   }
 
   return (
-    <section aria-labelledby="export" id="export" className="card space-y-4">
-      <h2 id="export">Spara och flytta dina framsteg</h2>
-      <p>
-        Framstegen finns bara i den här webbläsaren på den här enheten. Exportera en fil för att göra en säkerhetskopia eller flytta dem till en annan enhet. Filen innehåller bara dina kapitelframsteg, inga personuppgifter.
-      </p>
-      <p>
-        Senaste export: <strong data-testid="last-export">{hydrated ? (state.lastExportAt ? new Date(state.lastExportAt).toLocaleString("sv-SE") : "aldrig") : "…"}</strong>
-      </p>
+    <div className="space-y-3">
+      <p className="text-sm">Exportera en fil som säkerhetskopia eller för att flytta framstegen till en annan webbläsare eller enhet. Filen innehåller bara dina kapitelframsteg.</p>
+      {hydrated && state.lastExportAt && (
+        <p className="text-sm text-ink-soft">
+          Senaste export: <span data-testid="last-export">{new Date(state.lastExportAt).toLocaleString("sv-SE")}</span>
+        </p>
+      )}
       <div className="flex flex-wrap gap-2">
         <button className="btn btn-primary" onClick={doExport} disabled={!hydrated} data-testid="export">
           Exportera framsteg
@@ -125,6 +124,6 @@ export function TransferPanel() {
           </div>
         </div>
       )}
-    </section>
+    </div>
   );
 }

@@ -1,43 +1,51 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { getContent } from "@/lib/content";
 import { OfflinePanel } from "@/components/OfflinePanel";
 import { InstallHelp } from "@/components/InstallHelp";
-import { ResepassView } from "@/components/ResepassView";
-import { ClearLocalData } from "@/components/ClearLocalData";
-import { LocalNotice } from "@/components/LocalNotice";
+import { MyProgress } from "@/components/MyProgress";
+import { ManageStorage } from "@/components/ClearLocalData";
+import { TransferPanel } from "@/components/TransferPanel";
 import { UpdatePanel } from "@/components/UpdatePanel";
 
 export const metadata: Metadata = { title: "Mina framsteg" };
 
-export default function OfflineAndProgress() {
+export default function MyProgressPage() {
   const { chapters, themes } = getContent();
   return (
-    <div className="container-page space-y-8 pt-8">
-      <header className="space-y-2">
+    <div className="container-page space-y-6 pt-8">
+      <header className="space-y-1">
         <h1>Mina framsteg</h1>
-        <p className="prose-col">Här laddar du ned utbildningen så att den fungerar utan internet, ser hur långt du har kommit och sparar eller rensar dina framsteg. Inget konto behövs.</p>
+        <p className="prose-col">Här ser du dina framsteg och fortsätter där du slutade.</p>
       </header>
 
       <UpdatePanel />
+
+      <MyProgress
+        themes={themes.slice().sort((a, b) => a.order - b.order).map((t) => ({ id: t.id, order: t.order, title: t.title }))}
+        chapters={chapters.map((c) => ({ id: c.id, slug: c.slug, themeId: c.themeId, status: c.status, title: c.title, minutes: c.status === "published" ? c.minutes : undefined }))}
+      />
+
       <OfflinePanel />
-      <InstallHelp />
 
-      <section aria-labelledby="framsteg" className="space-y-4">
-        <h2 id="framsteg">Dina framsteg</h2>
-        <LocalNotice />
-        <ResepassView
-          themes={themes.map((t) => ({ id: t.id, order: t.order, title: t.title }))}
-          chapters={chapters.map((c) => ({ id: c.id, slug: c.slug, themeId: c.themeId, status: c.status, title: c.title, minutes: c.status === "published" ? c.minutes : undefined }))}
-        />
-      </section>
+      <div className="space-y-2">
+        <InstallHelp />
+        <details className="tool" id="export">
+          <summary>Säkerhetskopiera eller flytta framsteg</summary>
+          <div className="pt-2">
+            <TransferPanel />
+          </div>
+        </details>
+        <details className="tool" id="lagring">
+          <summary>Hantera lagring</summary>
+          <div className="pt-2">
+            <ManageStorage />
+          </div>
+        </details>
+      </div>
 
-      <ClearLocalData />
-
-      <section aria-labelledby="uppdatering" className="card prose-col space-y-2">
-        <h2 id="uppdatering">Uppdateringar</h2>
-        <p>När nytt innehåll finns visas en ruta där du själv väljer när du vill uppdatera. Sidan laddas aldrig om av sig själv, och uppdateringar raderar inte dina framsteg. Läs mer under <Link href="/integritet/">Integritet</Link>.</p>
-      </section>
+      <p className="text-sm text-ink-soft" data-testid="local-notice">
+        Dina framsteg sparas i den här webbläsaren. Exportera dem om du vill spara en kopia eller flytta dem till en annan enhet.
+      </p>
     </div>
   );
 }

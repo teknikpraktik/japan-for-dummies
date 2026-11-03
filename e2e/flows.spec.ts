@@ -32,7 +32,7 @@ test.describe("pilotkapitel och direktlänkar", () => {
     await page.goto("/utbildning/");
     await expect(page.getByText(/Du har klarat \d+ av \d+ färdiga kapitel/)).toHaveCount(0);
     await page.goto("/offline/");
-    await expect(page.getByTestId("stat-completed")).toHaveText("1 / " + PUBLISHED);
+    await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${PUBLISHED} tillgängliga kapitel klara`);
   });
 
   test("opublicerade kapitel visas som Kommer senare, utan test", async ({ page }) => {
@@ -60,7 +60,7 @@ test.describe("poäng, gräns och omförsök", () => {
     await expect(page.getByTestId("quiz-result")).toContainText("Du fick 3 av 5 rätt");
     await expect(page.getByTestId("quiz-result")).toContainText("Fyra rätt krävs");
     await page.goto("/offline/");
-    await expect(page.getByTestId("stat-completed")).toHaveText("0 / " + PUBLISHED);
+    await expect(page.getByTestId("progress-summary")).toHaveText(`0 av ${PUBLISHED} tillgängliga kapitel klara`);
 
     await page.goto(`/kapitel/${c.slug}/`);
     await page.getByTestId("retry").click(); // färdigt test visas igen efter omladdning
@@ -85,7 +85,8 @@ test.describe("poäng, gräns och omförsök", () => {
     }
     await expect(page.getByTestId("quiz-result")).toContainText("Du fick 0 av 5 rätt");
     await page.goto("/offline/");
-    await expect(page.getByTestId("stat-completed")).toHaveText("1 / " + PUBLISHED);
+    await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${PUBLISHED} tillgängliga kapitel klara`);
+    await page.getByText("Visa testresultat").click();
     await expect(page.getByRole("row", { name: new RegExp(c.title.slice(0, 20)) })).toContainText("4/5");
   });
 
@@ -129,7 +130,8 @@ test.describe("export och import", () => {
     await page.goto(`/kapitel/${c.slug}/`);
     await takeQuiz(page, c, 0);
     await page.goto("/offline/");
-    await expect(page.getByTestId("last-export")).toHaveText("aldrig");
+    await page.getByText("Säkerhetskopiera eller flytta framsteg").click();
+    await expect(page.getByTestId("last-export")).toHaveCount(0); // ingen "senaste export" före första exporten
 
     const [download] = await Promise.all([page.waitForEvent("download"), page.getByTestId("export").click()]);
     const file = testInfo.outputPath("framsteg.json");
@@ -138,7 +140,7 @@ test.describe("export och import", () => {
     const exported = JSON.parse(fs.readFileSync(file, "utf8"));
     expect(exported.dataVersion).toBe(1);
     expect(exported.data.chapters[c.id].best.score).toBe(5);
-    await expect(page.getByTestId("last-export")).not.toHaveText("aldrig");
+    await expect(page.getByTestId("last-export")).toBeVisible();
 
     // Ogiltig fil
     // Filer skickas som minnesbuffertar (Playwright hanterar inte alla tecken i sökvägar, t.ex. å/ä/ö, i den här miljön).
@@ -146,7 +148,7 @@ test.describe("export och import", () => {
     await page.getByTestId("import-input").setInputFiles(asFile("ogiltig.json", "detta är inte json"));
     await expect(page.getByTestId("transfer-message")).toContainText("inte giltig JSON");
     await expect(page.getByTestId("transfer-message")).toContainText("Inget har ändrats");
-    await expect(page.getByTestId("stat-completed")).toHaveText("1 / " + PUBLISHED);
+    await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${PUBLISHED} tillgängliga kapitel klara`);
 
     // Fel struktur
     await page.getByTestId("import-input").setInputFiles(asFile("fel.json", JSON.stringify({ app: "japanresan-2027", dataVersion: 1, exportedAt: "x", data: { chapters: { a: 1 }, favorites: [] } })));
@@ -156,14 +158,14 @@ test.describe("export och import", () => {
     await page.getByTestId("import-input").setInputFiles(asFile("tom.json", JSON.stringify({ app: "japanresan-2027", dataVersion: 1, exportedAt: "2026-11-01T00:00:00Z", data: { chapters: {}, favorites: [] } })));
     await page.getByTestId("import-replace").click();
     await expect(page.getByText(/Det går inte att ångra/)).toBeVisible();
-    await expect(page.getByTestId("stat-completed")).toHaveText("1 / " + PUBLISHED); // inget ändrat före bekräftelse
+    await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${PUBLISHED} tillgängliga kapitel klara`); // inget ändrat före bekräftelse
     await page.getByTestId("import-replace-confirm").click();
-    await expect(page.getByTestId("stat-completed")).toHaveText("0 / " + PUBLISHED);
+    await expect(page.getByTestId("progress-summary")).toHaveText(`0 av ${PUBLISHED} tillgängliga kapitel klara`);
 
     // Slå samman den tidigare exporten
     await page.getByTestId("import-input").setInputFiles(asFile("framsteg.json", fs.readFileSync(file)));
     await page.getByTestId("import-merge").click();
-    await expect(page.getByTestId("stat-completed")).toHaveText("1 / " + PUBLISHED);
+    await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${PUBLISHED} tillgängliga kapitel klara`);
   });
 });
 
@@ -226,7 +228,7 @@ test.describe("bilder", () => {
     await expect(page.getByTestId("observe")).toContainText("Utan bild:");
     // Chapter is still "not started → started" only by opening, not by the observation task.
     await page.goto("/offline/");
-    await expect(page.getByTestId("stat-completed")).toHaveText("0 / " + PUBLISHED);
+    await expect(page.getByTestId("progress-summary")).toHaveText(`0 av ${PUBLISHED} tillgängliga kapitel klara`);
   });
 
   test("sidan Bildkällor visar bilder med licens eller ärligt tomt läge", async ({ page }) => {
