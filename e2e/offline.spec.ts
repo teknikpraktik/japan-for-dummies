@@ -142,27 +142,28 @@ test.describe("offline", () => {
     await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
   });
 
-  test("samma status i sidhuvudet, på startsidan och på Offline och framsteg; ”Tillgänglig offline ✓” först efter verifiering", async ({ page }) => {
-    await page.goto("/");
+  test("sidhuvudet och Offline och framsteg visar samma status; ”Tillgänglig offline ✓” först efter verifiering", async ({ page }) => {
+    await page.goto("/offline/");
     await waitForController(page);
     const header = page.getByTestId("offline-link");
     await expect(header).toHaveText("Ladda ned offline");
-    await expect(page.getByTestId("offline-intro")).toContainText("Hela utbildningen");
+    await expect(page.getByTestId("offline-size")).toContainText("Ingår:");
     // Fel: en fil saknas -> ofullständig, och ingenstans sägs att materialet är tillgängligt offline
     const chunks = path.join(copy.dir, ".next", "static", "chunks");
     const victim = path.join(chunks, fs.readdirSync(chunks).find((f) => f.endsWith(".js"))!);
     fs.renameSync(victim, victim + ".bak");
-    await page.getByTestId("intro-download").click();
+    await page.getByTestId("offline-download").click();
     await expect(page.getByRole("alert").filter({ hasText: "inte klar" })).toBeVisible({ timeout: 60_000 });
     await expect(header).toHaveText("Försök ladda ned igen");
     await expect(page.getByText("Tillgänglig offline ✓")).toHaveCount(0);
     // Försök igen
     fs.renameSync(victim + ".bak", victim);
-    await page.getByRole("button", { name: "Försök igen" }).click();
-    await expect(page.getByTestId("intro-ready")).toHaveText("Tillgänglig offline ✓", { timeout: 90_000 });
+    await page.getByRole("button", { name: /Försök igen|Fortsätt nedladdningen/ }).click();
+    await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
     await expect(header).toHaveText("Tillgänglig offline ✓");
-    await header.click();
-    await expect(page.getByTestId("offline-ready")).toBeVisible();
+    // Startsidan har ingen egen offlinerad
+    await page.goto("/");
+    await expect(page.getByTestId("offline-intro")).toHaveCount(0);
     await expect(header).toHaveText("Tillgänglig offline ✓");
   });
 

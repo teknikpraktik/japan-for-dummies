@@ -21,7 +21,7 @@ const frame: Record<PhotoRole, string> = {
 const sizes: Record<PhotoRole, string> = {
   hero: "(min-width: 1024px) 992px, 100vw",
   figure: "(min-width: 768px) 672px, 100vw",
-  card: "(min-width: 768px) 320px, 100vw",
+  card: "(min-width: 768px) 384px, 100vw",
   thumb: "(min-width: 640px) 176px, 112px",
 };
 
@@ -192,7 +192,7 @@ export function PhotoRights({ photos, media = [] }: { photos: Photo[]; media?: {
   if (photos.length === 0 && media.length === 0) return null;
   return (
     <section aria-labelledby="bilder-rattigheter" className="prose-col space-y-2" data-testid="photo-rights">
-      <h2 id="bilder-rattigheter" className="!text-lg">
+      <h2 id="bilder-rattigheter" className="!text-sm !font-semibold text-ink-soft">
         Bilder och rättigheter
       </h2>
       <ul className="space-y-1.5 text-sm text-ink-soft">
