@@ -15,7 +15,7 @@ export default function Home() {
     <div className="container-page space-y-8 pt-8">
       <section className="grid items-center gap-6 md:grid-cols-[minmax(0,1fr)_24rem]">
         <div className="space-y-4">
-          <h1>Förstå Japan, ett kapitel i taget</h1>
+          <h1>Japan börjar här</h1>
           <p className="prose-col text-lg">
             En kurs i korta kapitel som ger dig en grund att stå på: landet och naturen, historia, vardag, språk, hänsyn och mat. Du läser, övar och gör ett kort test, i din egen takt på mobil, surfplatta eller dator.
           </p>
