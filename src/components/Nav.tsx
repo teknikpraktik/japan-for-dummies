@@ -9,7 +9,7 @@ import { ACCOUNTS_ENABLED } from "@/lib/features";
 const links = [
   { href: "/", label: "Startsida", icon: "⌂" },
   { href: "/utbildning/", label: "Utbildning", icon: "☰" },
-  { href: "/offline/", label: "Min utbildning", icon: "★" },
+  { href: "/offline/", label: "Mina framsteg", icon: "★" },
 ] as const;
 
 function isActive(pathname: string, href: string) {

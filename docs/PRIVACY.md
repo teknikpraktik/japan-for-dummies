@@ -44,5 +44,5 @@ Offlineframsteg är en bekvämlighet och inte manipulationssäkert. Servern kont
 - Rensning: knappen på `/offline/`, eller webbläsarens inställningar.
 - Driftleverantören Vercel kan logga tekniska uppgifter om anrop; detta är inte närmare kontrollerat.
 - Appen sätter inga kakor (kontrolleras i e2e-testerna och mot produktionen).
-- Ansvarig: Per Björkman, för den behandling han bestämmer över i den fristående tjänsten. Kontaktuppgift saknas och visas som ej angiven tills `PRIVACY_CONTACT` sätts.
+- Integritetssidan `/integritet/` har en fast text och anger varken ansvarig eller kontaktuppgift (enligt ägarens text). Lägg till dem om en kontaktväg behövs.
 - Befintliga uppgifter från den tidigare kontoversionen (om några) ligger kvar i databasen men används inte av appen. Radering eller gallring är en separat förvaltningsfråga.

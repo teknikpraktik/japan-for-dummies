@@ -2,7 +2,7 @@
 
 import { swUpdate, useSwUpdateAvailable } from "@/lib/sw-update-store";
 
-/** Ny version av utbildningen: visas bara på Min utbildning, och genomförs bara på användarens initiativ. */
+/** Ny version av utbildningen: visas bara på Mina framsteg, och genomförs bara på användarens initiativ. */
 export function UpdatePanel() {
   const available = useSwUpdateAvailable();
   if (!available) return null;

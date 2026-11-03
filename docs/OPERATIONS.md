@@ -26,7 +26,7 @@ När den är avstängd:
 | `BETTER_AUTH_SECRET` | ja | Minst 32 slumpade tecken (`openssl rand -base64 48`). Olika värde per miljö. Byte loggar ut alla. |
 | `BETTER_AUTH_URL` | produktion | Publik bas-URL (exakt, utan jokertecken). På preview används Vercels egna URL:er. |
 | `AUTH_RATE_LIMIT_ENABLED` | nej | `false` bara i automatiska tester. |
-| `PRIVACY_CONTACT` | nej | Kontaktuppgift som visas på `/integritet/` (kontofritt läge). Läses vid bygget. Saknas den visas "Kontaktuppgift är inte angiven än". Övriga `PRIVACY_*` används bara i kontoläget. |
+| `PRIVACY_*` | nej | Används inte längre av den kontofria integritetssidan; sidans text är fast. De fanns för kontoläget. |
 | `CONFIRM_OPERATOR_ACTION=yes` | vid operatörskommandon mot produktion | Extra bekräftelse för `admin:bootstrap` och `admin:recover`. |
 | `CONFIRM_PRODUCTION_MIGRATION=yes` | vid `db:migrate` mot produktion | Extra bekräftelse; ta först en återställningspunkt (Neon-branch från production). |
 

@@ -14,7 +14,7 @@ import {
 } from "./offline";
 
 /**
- * Gemensamt tillstånd för offlinenedladdningen. Sidan Min utbildning
+ * Gemensamt tillstånd för offlinenedladdningen. Sidan Mina framsteg
  * visar statusen; all status och alla uppdateringar visas bara där, aldrig i sidhuvudet. ”Klar” betyder alltid att nedladdningen är verifierad (alla filer finns).
  */
 export interface PackageInfo {
