@@ -43,7 +43,7 @@ test.describe("offline", () => {
 
     // Omladdning offline
     await page.reload();
-    await expect(page.getByRole("heading", { level: 1, name: "Offline och framsteg" })).toBeVisible();
+    await expect(page.getByRole("heading", { level: 1, name: "Min utbildning" })).toBeVisible();
     await expect(page.getByTestId("offline-ready")).toBeVisible();
 
     // Direktlänk till alla sex pilotkapitel offline
@@ -142,11 +142,9 @@ test.describe("offline", () => {
     await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
   });
 
-  test("sidhuvudet och Offline och framsteg visar samma status; ”Tillgänglig offline ✓” först efter verifiering", async ({ page }) => {
+  test("Min utbildning visar offlinestatus; ”Tillgänglig offline ✓” först efter verifiering, och sidhuvudet visar aldrig status", async ({ page }) => {
     await page.goto("/offline/");
     await waitForController(page);
-    const header = page.getByTestId("offline-link");
-    await expect(header).toHaveText("Ladda ned offline");
     await expect(page.getByTestId("offline-size")).toContainText("Ingår:");
     // Fel: en fil saknas -> ofullständig, och ingenstans sägs att materialet är tillgängligt offline
     const chunks = path.join(copy.dir, ".next", "static", "chunks");
@@ -154,17 +152,15 @@ test.describe("offline", () => {
     fs.renameSync(victim, victim + ".bak");
     await page.getByTestId("offline-download").click();
     await expect(page.getByRole("alert").filter({ hasText: "inte klar" })).toBeVisible({ timeout: 60_000 });
-    await expect(header).toHaveText("Försök ladda ned igen");
     await expect(page.getByText("Tillgänglig offline ✓")).toHaveCount(0);
+    await expect(page.getByRole("banner")).not.toContainText(/offline|ladda ned|försök/i);
     // Försök igen
     fs.renameSync(victim + ".bak", victim);
     await page.getByRole("button", { name: /Försök igen|Fortsätt nedladdningen/ }).click();
     await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
-    await expect(header).toHaveText("Tillgänglig offline ✓");
-    // Startsidan har ingen egen offlinerad
     await page.goto("/");
+    await expect(page.getByRole("banner")).not.toContainText(/offline|ladda ned|✓/i);
     await expect(page.getByTestId("offline-intro")).toHaveCount(0);
-    await expect(header).toHaveText("Tillgänglig offline ✓");
   });
 
   test("ny version: uppdatering erbjuds, pågående test och framsteg bevaras", async ({ page }) => {
@@ -198,12 +194,22 @@ test.describe("offline", () => {
     fs.appendFileSync(path.join(copy.dir, "public", "offline.html"), "\n<!-- v2 -->");
 
     await page.evaluate(async () => { const reg = await navigator.serviceWorker.getRegistration(); await reg?.update(); });
-    await expect(page.getByText("Det finns en ny version av utbildningen.")).toBeVisible({ timeout: 20_000 });
-    // Sidan laddas inte om av sig själv: testet pågår fortfarande
+    // Ingen avisering och inget i sidhuvudet på andra sidor, och sidan laddas inte om av sig själv: testet pågår fortfarande
+    await page.waitForTimeout(3000);
+    await expect(page.getByText("Det finns en ny version av utbildningen")).toHaveCount(0);
+    await expect(page.getByTestId("update-available")).toHaveCount(0);
+    await expect(page.getByRole("banner")).not.toContainText(/uppdater|ny version|offline/i);
     await expect(page.getByTestId("quiz-position")).toHaveText("Fråga 3 av 5");
 
+    // Informationen visas bara på Min utbildning (klientnavigering, utan omladdning)
+    await page.getByRole("navigation", { name: "Huvudmeny" }).getByRole("link", { name: "Min utbildning" }).click();
+    await expect(page).toHaveURL(/\/offline\/$/);
+    await expect(page.getByTestId("update-available")).toBeVisible({ timeout: 20_000 });
+    await expect(page.getByRole("banner")).not.toContainText(/uppdater|ny version|offline/i);
+
     // Användaren väljer att uppdatera: sidan laddas om först nu.
-    await Promise.all([page.waitForEvent("load"), page.getByRole("button", { name: "Uppdatera nu" }).click()]);
+    await Promise.all([page.waitForEvent("load"), page.getByTestId("update-now").click()]);
+    await page.goto(`/kapitel/${c.slug}/`);
     await expect(page.getByTestId("quiz-position")).toHaveText("Fråga 3 av 5"); // svar kvar efter uppdatering
 
     // Offlineinnehållet kan uppdateras; framstegen finns kvar

@@ -14,11 +14,12 @@ function trackApi(page: Page) {
 }
 
 test.describe("kontofri tjänst", () => {
-  test("primär navigation är bara Startsida och Utbildning; inga konto- eller lärarlänkar någonstans", async ({ page, isMobile }) => {
+  test("primär navigation är Startsida, Utbildning och Min utbildning med samma form och markering; inga konto- eller lärarlänkar någonstans", async ({ page, isMobile }) => {
     await page.goto("/");
     const main = isMobile ? page.getByRole("navigation", { name: "Snabbmeny" }) : page.getByRole("navigation", { name: "Huvudmeny" });
-    await expect(main.getByRole("link")).toHaveText([/Startsida$/, /Utbildning$/]);
-    await expect(page.getByTestId("offline-link")).toBeVisible();
+    await expect(main.getByRole("link")).toHaveText([/Startsida$/, /^\W*Utbildning$/, /Min utbildning$/]);
+    // Sidhuvudet visar aldrig offline- eller uppdateringsstatus
+    await expect(page.getByRole("banner")).not.toContainText(/offline|uppdater|ny version|✓/i);
     for (const t of [/Logga in/, /Logga ut/, /Konto/, /Lärare/, /Resepass/, /Min sida/]) await expect(page.getByRole("link", { name: t }), String(t)).toHaveCount(0);
     for (const url of ["/", "/utbildning/geografi/", `/kapitel/${chapter.slug}/`, "/offline/", "/integritet/"]) {
       await page.goto(url);
@@ -26,7 +27,7 @@ test.describe("kontofri tjänst", () => {
       expect(hrefs.filter((h) => /^\/(logga-in|min-utbildning|lararen|konto|aktivera|api|resepass|info)(\/|$)/.test(h)), url).toEqual([]);
     }
     const footer = page.getByRole("contentinfo").getByRole("link");
-    await expect(footer).toHaveText(["Integritet", "Källor", "Bilder och rättigheter", "Offline och framsteg"]);
+    await expect(footer).toHaveText(["Integritet", "Källor", "Bilder och rättigheter", "Min utbildning"]);
   });
 
   test("konto-, aktiverings-, inloggnings- och lärarsidor samt API ger 404, även med en gammal sessionskaka, och sätter inga kakor", async ({ page, context, baseURL }) => {
@@ -126,7 +127,7 @@ test.describe("kontofri tjänst", () => {
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(chapter.title);
     await expect(page.getByRole("alert").filter({ hasText: "lokal lagring" })).toBeVisible();
     await page.goto("/offline/");
-    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Offline och framsteg");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Min utbildning");
     expect(errors).toEqual([]);
   });
 
@@ -269,5 +270,22 @@ test.describe("kontofri tjänst", () => {
     await page.keyboard.press("Tab");
     const focused = await style(card);
     expect(focused.outline).toBe("solid");
+  });
+
+  test("Min utbildning: aktiv menymarkering (samma som övriga), dokumenttitel och inga statusmärken i menyn", async ({ page, isMobile }) => {
+    await page.goto("/offline/");
+    await expect(page).toHaveTitle("Min utbildning – Japan for Dummies");
+    const nav = isMobile ? page.getByRole("navigation", { name: "Snabbmeny" }) : page.getByRole("navigation", { name: "Huvudmeny" });
+    const mine = nav.getByRole("link", { name: /Min utbildning/ });
+    await expect(mine).toHaveAttribute("aria-current", "page");
+    await expect(nav.locator("[aria-current='page']")).toHaveCount(1);
+    await expect(mine).toHaveText(/Min utbildning$/);
+    await page.goto("/");
+    await expect(nav.getByRole("link", { name: /Min utbildning/ })).not.toHaveAttribute("aria-current", "page");
+    // samma typografi, höjd och form som övriga menyval
+    const style = (l: ReturnType<typeof nav.getByRole>) => l.evaluate((el) => { const s = getComputedStyle(el); return { font: s.fontWeight + s.fontSize, h: Math.round(el.getBoundingClientRect().height), r: s.borderRadius }; });
+    const a = await style(nav.getByRole("link", { name: /Utbildning$/ }).first());
+    const b = await style(nav.getByRole("link", { name: /Min utbildning/ }));
+    expect(b).toEqual(a);
   });
 });
