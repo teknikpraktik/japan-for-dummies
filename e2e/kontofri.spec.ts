@@ -67,7 +67,7 @@ test.describe("kontofri tjänst", () => {
     await page.goto("/");
     await expect(page.getByTestId("theme-card-geografi")).toContainText(/kapitel tillgängliga · 1 slutfört/);
     await page.goto("/offline/");
-    await expect(page.getByTestId("stat-completed")).toHaveText(/^1 \//);
+    await expect(page.getByTestId("progress-summary")).toHaveText(/^1 av /);
     await expect(page.getByTestId("local-notice")).toContainText("Dina framsteg sparas i den här webbläsaren");
     expect(calls).toEqual([]);
     expect(await context.cookies()).toEqual([]);
@@ -96,7 +96,7 @@ test.describe("kontofri tjänst", () => {
       );
     });
     await page.goto("/offline/");
-    await expect(page.getByTestId("stat-completed")).toHaveText(/^1 \//);
+    await expect(page.getByTestId("progress-summary")).toHaveText(/^1 av /);
     await page.waitForFunction(() => !Object.keys(localStorage).some((k) => k.startsWith("japanresan:v2:")));
     expect(await page.evaluate(() => localStorage.getItem("japanresan:v1:state"))).toContain("t01-k01");
   });
@@ -105,14 +105,17 @@ test.describe("kontofri tjänst", () => {
     await page.goto(`/kapitel/${chapter.slug}/`);
     await takeQuiz(page, chapter, 0);
     await page.goto("/offline/");
-    await expect(page.getByTestId("stat-completed")).toHaveText(/^1 \//);
+    await expect(page.getByTestId("progress-summary")).toHaveText(/^1 av /);
+    await page.getByText("Hantera lagring").click();
     await page.getByTestId("clear-start").click();
     await page.getByRole("button", { name: "Avbryt" }).click();
-    await expect(page.getByTestId("stat-completed")).toHaveText(/^1 \//);
+    await expect(page.getByTestId("progress-summary")).toHaveText(/^1 av /);
     await page.getByTestId("clear-start").click();
     await page.getByTestId("clear-confirm").click();
     await expect(page.getByTestId("cleared")).toBeVisible();
-    await expect(page.getByTestId("stat-completed")).toHaveText(/^0 \//);
+    await expect(page.getByTestId("progress-summary")).toHaveText(/^0 av /);
+    await expect(page.getByTestId("offline-remove")).toHaveCount(0);
+    await expect(page.getByText("Inget offlinematerial är nedladdat.")).toBeVisible();
   });
 
   test("blockerad lokal lagring: utbildningen fungerar och en varning visas", async ({ page }) => {
@@ -299,5 +302,92 @@ test.describe("kontofri tjänst", () => {
     const a = await style(nav.getByRole("link", { name: /Utbildning$/ }).first());
     const b = await style(nav.getByRole("link", { name: /Mina framsteg/ }));
     expect(b).toEqual(a);
+  });
+
+  test("Mina framsteg, första besöket: sammanfattning, ”Börja utbildningen”, bara teman med innehåll, inga tomma resultat", async ({ page }) => {
+    await page.goto("/offline/");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Mina framsteg");
+    await expect(page.getByText("Här ser du dina framsteg och fortsätter där du slutade.")).toBeVisible();
+    await expect(page.getByTestId("progress-summary")).toHaveText(`0 av ${pilots.length} tillgängliga kapitel klara`);
+    await expect(page.getByRole("progressbar", { name: "Klara kapitel", exact: true })).toBeVisible();
+    // Nästa steg direkt under sammanfattningen
+    const summary = (await page.getByTestId("progress-summary").boundingBox())!;
+    const next = (await page.getByTestId("next-step").boundingBox())!;
+    expect(next.y).toBeGreaterThan(summary.y);
+    await expect(page.getByTestId("continue")).toHaveText("Börja utbildningen");
+    // Bara teman med publicerade kapitel, utan ”Kommer senare”; även orörda teman visas
+    const themesWithContent = new Set(pilots.map((c) => (c as unknown as { themeId: string }).themeId));
+    await expect(page.locator("[data-testid^='progress-theme-']")).toHaveCount(themesWithContent.size);
+    await expect(page.getByText("Kommer senare")).toHaveCount(0);
+    await expect(page.getByText(/färdiga klara/)).toHaveCount(0);
+    // Inga testresultat: avsnittet utelämnas. Ingen stor ruta för antal påbörjade.
+    await expect(page.getByTestId("results")).toHaveCount(0);
+    await expect(page.getByText("påbörjade, inte klara")).toHaveCount(0);
+    // Offlinesektion och verktyg ligger längre ned, hopfällda
+    const offline = (await page.locator("#offline").boundingBox())!;
+    expect(offline.y).toBeGreaterThan(next.y);
+    for (const name of ["Installera som app", "Säkerhetskopiera eller flytta framsteg", "Hantera lagring"]) {
+      const d = page.locator("details.tool", { hasText: name }).first();
+      if ((await d.count()) === 0) continue; // t.ex. installationsavsnittet döljs i installerad app
+      await expect(d).not.toHaveAttribute("open", "");
+    }
+    await expect(page.getByTestId("local-notice")).toHaveText("Dina framsteg sparas i den här webbläsaren. Exportera dem om du vill spara en kopia eller flytta dem till en annan enhet.");
+    await expect(page.getByText("Uppdateringar", { exact: true })).toHaveCount(0);
+    await expect(page.getByText(/filer|bildfiler/)).toHaveCount(0);
+  });
+
+  test("Mina framsteg, delvis genomförd: fortsätt, per tema och hopfällbara testresultat utan kolumnen Senaste", async ({ page }) => {
+    await page.goto(`/kapitel/${chapter.slug}/`);
+    await takeQuiz(page, chapter, 0);
+    await page.goto("/offline/");
+    await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${pilots.length} tillgängliga kapitel klara`);
+    await expect(page.getByTestId("continue")).toHaveText("Fortsätt");
+    await expect(page.getByTestId("next-step")).not.toContainText(chapter.title); // föreslår ett annat kapitel än det klara
+    await expect(page.getByTestId("progress-theme-geografi")).toContainText(/1 av \d+ klara/);
+    const results = page.getByTestId("results");
+    await expect(results).not.toHaveAttribute("open", "");
+    await results.getByText("Visa testresultat").click();
+    await expect(results.getByRole("row")).toHaveCount(2); // rubrik + det enda kapitlet med resultat
+    await expect(results.getByRole("columnheader")).toHaveText(["Kapitel", "Status", "Bästa"]);
+    await expect(results).toContainText("✓ Slutfört");
+    await expect(results).toContainText("5/5");
+    await expect(results).not.toContainText("Senaste");
+    // Tangentbord: sammanfattningen öppnas med Enter
+    await results.locator("summary").focus();
+    await page.keyboard.press("Enter");
+    await expect(results).not.toHaveAttribute("open", "");
+    // Den lagrade informationen om senaste resultat finns kvar
+    const last = await page.evaluate((id) => JSON.parse(localStorage.getItem("japanresan:v1:state")!).chapters[id].last?.score, chapter.id);
+    expect(last).toBe(5);
+  });
+
+  test("Mina framsteg, allt klart: relevant åtgärd i stället för en missvisande fortsättningsknapp", async ({ page }) => {
+    const done = Object.fromEntries(
+      pilots.map((c) => [c.id, { startedAt: "2026-01-01T00:00:00.000Z", contentVersion: (c as unknown as { contentVersion: number }).contentVersion, best: { score: 5, at: "2026-01-01T00:00:00.000Z" }, last: { score: 5, at: "2026-01-01T00:00:00.000Z" }, completedAt: "2026-01-01T00:00:00.000Z" }]),
+    );
+    await page.addInitScript((chapters) => {
+      if (sessionStorage.getItem("seeded")) return;
+      sessionStorage.setItem("seeded", "1");
+      localStorage.setItem("japanresan:v1:state", JSON.stringify({ version: 1, chapters, favorites: [], drafts: {} }));
+    }, done);
+    await page.goto("/offline/");
+    await expect(page.getByTestId("progress-summary")).toHaveText(`${pilots.length} av ${pilots.length} tillgängliga kapitel klara`);
+    await expect(page.getByTestId("continue")).toHaveCount(0);
+    await expect(page.getByTestId("next-step")).toContainText("Du har klarat alla tillgängliga kapitel");
+    await expect(page.getByTestId("see-all")).toHaveAttribute("href", "/utbildning/");
+    await page.getByTestId("results").getByText("Visa testresultat").click();
+    await expect(page.getByTestId("results").getByRole("row")).toHaveCount(pilots.length + 1);
+  });
+
+  test("Mina framsteg: verktygen går att använda med tangentbord, och installationsavsnittet har ett tydligt namn", async ({ page }) => {
+    await page.goto("/offline/");
+    const summary = page.locator("details.tool > summary", { hasText: "Säkerhetskopiera eller flytta framsteg" });
+    await summary.focus();
+    await page.keyboard.press("Enter");
+    await expect(page.getByTestId("export")).toBeVisible();
+    await expect(page.getByTestId("last-export")).toHaveCount(0);
+    await page.keyboard.press("Enter");
+    await expect(page.getByTestId("export")).toBeHidden();
+    await expect(page.locator("details.tool > summary", { hasText: "Hantera lagring" })).toBeVisible();
   });
 });

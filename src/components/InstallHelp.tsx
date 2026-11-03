@@ -46,42 +46,45 @@ export function InstallHelp() {
     return () => window.removeEventListener("beforeinstallprompt", onPrompt);
   }, []);
 
+  // Redan installerad (kan avgöras säkert via display-mode): ingen installationsåtgärd behövs.
+  if (standalone) return null;
+
   return (
-    <section aria-labelledby="installera" id="installera" className="card space-y-3">
-      <h2 id="installera">Installera som app</h2>
-      <p>Du kan lägga utbildningen på hemskärmen eller i dockan så att den öppnas som en app. Det är valfritt, och ser olika ut i olika webbläsare.</p>
-      {standalone && <p className="feedback feedback-ok">Du använder redan utbildningen som installerad app.</p>}
-      {prompt && (
-        <button
-          className="btn btn-primary"
-          onClick={async () => {
-            await prompt.prompt();
-            await prompt.userChoice;
-            setPrompt(null);
-          }}
-        >
-          Installera appen
-        </button>
-      )}
-      {env && (
-        <div>
-          <h3>{steps[env].title}</h3>
-          <p>{steps[env].text}</p>
-        </div>
-      )}
-      <details>
-        <summary className="cursor-pointer font-semibold">Instruktioner för andra webbläsare</summary>
-        <ul className="mt-2 space-y-2">
-          {(Object.keys(steps) as Env[])
-            .filter((k) => k !== env && k !== "other")
-            .map((k) => (
-              <li key={k}>
-                <strong>{steps[k].title}:</strong> {steps[k].text}
-              </li>
-            ))}
-        </ul>
-      </details>
-      <p className="text-sm text-ink-soft">Menynamn kan ha ändrats i din version av webbläsaren. Det finns ingen garanti för att en installationsknapp visas.</p>
-    </section>
+    <details className="tool" id="installera">
+      <summary>Installera som app</summary>
+      <div className="space-y-3 pt-2 text-sm">
+        <p>Du kan lägga utbildningen på hemskärmen eller i dockan så att den öppnas som en app. Det är valfritt.</p>
+        {prompt && (
+          <button
+            className="btn btn-primary btn-small"
+            onClick={async () => {
+              await prompt.prompt();
+              await prompt.userChoice;
+              setPrompt(null);
+            }}
+          >
+            Installera appen
+          </button>
+        )}
+        {env && (
+          <div>
+            <p className="font-semibold">{steps[env].title}</p>
+            <p>{steps[env].text}</p>
+          </div>
+        )}
+        <details>
+          <summary className="cursor-pointer font-semibold">Instruktioner för andra webbläsare</summary>
+          <ul className="mt-2 space-y-2">
+            {(Object.keys(steps) as Env[])
+              .filter((k) => k !== env && k !== "other")
+              .map((k) => (
+                <li key={k}>
+                  <strong>{steps[k].title}:</strong> {steps[k].text}
+                </li>
+              ))}
+          </ul>
+        </details>
+      </div>
+    </details>
   );
 }

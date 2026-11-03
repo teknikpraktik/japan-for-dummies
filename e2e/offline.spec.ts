@@ -37,7 +37,7 @@ test.describe("offline", () => {
 
     await page.getByTestId("offline-download").click();
     await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
-    await expect(page.getByTestId("offline-ready")).toContainText("Klart för offline");
+    await expect(page.getByTestId("offline-ready")).toContainText("Tillgänglig offline ✓");
 
     await stopServer(); // nätverket är nu borta
 
@@ -80,7 +80,7 @@ test.describe("offline", () => {
     await page.goto("/kapitel/shinto/");
     await expect(page.getByText("planerat men inte skrivet än")).toBeVisible();
     await page.goto("/offline/");
-    await expect(page.getByTestId("stat-completed")).toHaveText("1 / " + PUBLISHED);
+    await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${PUBLISHED} tillgängliga kapitel klara`);
     await page.goto("/kallor/");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Källor och rättigheter");
 
@@ -138,14 +138,14 @@ test.describe("offline", () => {
     expect(await page.evaluate(() => localStorage.getItem("japanresan:v1:offline"))).toBeNull();
     // Fortsätt
     fs.renameSync(victim + ".bak", victim);
-    await page.getByRole("button", { name: "Fortsätt nedladdningen" }).click();
+    await page.getByRole("button", { name: "Försök igen" }).click();
     await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
   });
 
   test("Mina framsteg visar offlinestatus; ”Tillgänglig offline ✓” först efter verifiering, och sidhuvudet visar aldrig status", async ({ page }) => {
     await page.goto("/offline/");
     await waitForController(page);
-    await expect(page.getByTestId("offline-size")).toContainText("Ingår:");
+    await expect(page.getByTestId("offline-size")).toContainText("cirka");
     // Fel: en fil saknas -> ofullständig, och ingenstans sägs att materialet är tillgängligt offline
     const chunks = path.join(copy.dir, ".next", "static", "chunks");
     const victim = path.join(chunks, fs.readdirSync(chunks).find((f) => f.endsWith(".js"))!);
@@ -156,7 +156,7 @@ test.describe("offline", () => {
     await expect(page.getByRole("banner")).not.toContainText(/offline|ladda ned|försök/i);
     // Försök igen
     fs.renameSync(victim + ".bak", victim);
-    await page.getByRole("button", { name: /Försök igen|Fortsätt nedladdningen/ }).click();
+    await page.getByRole("button", { name: "Försök igen" }).click();
     await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
     await page.goto("/");
     await expect(page.getByRole("banner")).not.toContainText(/offline|ladda ned|✓/i);
@@ -214,10 +214,10 @@ test.describe("offline", () => {
 
     // Offlineinnehållet kan uppdateras; framstegen finns kvar
     await page.goto("/offline/");
-    await expect(page.getByText("Det finns ett nyare innehåll")).toBeVisible({ timeout: 20_000 });
-    await page.getByRole("button", { name: "Uppdatera offlineinnehållet" }).click();
+    await expect(page.getByText("Det finns nytt innehåll")).toBeVisible({ timeout: 20_000 });
+    await page.getByRole("button", { name: "Uppdatera", exact: true }).click();
     await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
-    await expect(page.getByText("Det finns ett nyare innehåll")).toHaveCount(0);
+    await expect(page.getByText("Det finns nytt innehåll")).toHaveCount(0);
     const caches = await page.evaluate(async () => (await window.caches.keys()).filter((k) => k.startsWith("japanresan-offline-")));
     expect(caches).toEqual([`japanresan-offline-${newId}`]);
     await page.goto(`/kapitel/${c.slug}/`);

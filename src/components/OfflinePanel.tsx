@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { formatBytes } from "@/lib/offline";
 import { offlineStore, useOfflineStatus } from "@/lib/offline-store";
 
+/** Kompakt offlinesektion. Visar bara det som är relevant för nuvarande status; detaljer behålls internt för verifiering. */
 export function OfflinePanel() {
   const view = useOfflineStatus();
   const start = () => void offlineStore.start();
@@ -21,34 +22,26 @@ export function OfflinePanel() {
   }, []);
 
   return (
-    <section aria-labelledby="offline" id="offline" className="card space-y-3">
-      <h2 id="offline">Gör utbildningen tillgänglig offline</h2>
-      <p>
-        Ladda ned hela utbildningen till enheten så att den går att öppna utan internet: alla teman, kapitel, övningar, test och bilder. Dina framsteg sparas lokalt som vanligt, med eller utan nedladdning.
-      </p>
-      {(view.kind === "idle" || view.kind === "error") && view.info && (
-        <p className="text-sm text-ink-soft" data-testid="offline-size">
-          Ingår: {view.info.files} filer, cirka {formatBytes(view.info.bytes)}
-          {view.info.imageBytes ? ` (varav bilder ${formatBytes(view.info.imageBytes)})` : ""}.
-        </p>
-      )}
-      <p aria-live="polite" className="text-sm text-ink-soft" data-testid="online-state">
-        Just nu: {online ? "du är online" : "du är offline"}.
-      </p>
+    <section aria-labelledby="offline-rubrik" id="offline" className="card space-y-2">
+      <h2 id="offline-rubrik" className="!text-xl">Offline</h2>
 
-      {view.kind === "loading" && <p aria-busy="true">Kontrollerar…</p>}
+      {view.kind === "loading" && <p aria-busy="true" className="text-sm text-ink-soft">Kontrollerar…</p>}
 
       {view.kind === "unsupported" && (
-        <p role="status" className="feedback feedback-wrong">
-          Din webbläsare stöder inte offlineläge (cache och service worker saknas eller är avstängda, till exempel i privat läge). Utbildningen fungerar fortfarande online.
+        <p role="status" className="text-sm">
+          Din webbläsare stöder inte offlineläge (till exempel i privat läge). Utbildningen fungerar fortfarande online.
         </p>
       )}
 
       {view.kind === "idle" && (
         <>
           {view.hadBefore && <p className="feedback feedback-wrong">Tidigare nedladdning hittades inte längre (webbläsaren kan ha rensat den). Ladda ned igen.</p>}
+          <p>
+            Ladda ned utbildningen för att kunna använda den utan internet.
+            {view.info ? <span data-testid="offline-size"> Nedladdningen är cirka {formatBytes(view.info.bytes)}.</span> : null}
+          </p>
           <button className="btn btn-primary" onClick={start} data-testid="offline-download" disabled={!online}>
-            Gör utbildningen tillgänglig offline
+            Ladda ned utbildningen
           </button>
           {!online && <p className="text-sm">Du behöver vara online för att ladda ned.</p>}
         </>
@@ -58,7 +51,7 @@ export function OfflinePanel() {
         <div className="space-y-2" data-testid="offline-progress">
           <p role="status">
             {view.progress.phase === "preparing" && "Förbereder nedladdning…"}
-            {view.progress.phase === "downloading" && `Laddar ned: ${view.progress.done} av ${view.progress.total} filer (${formatBytes(view.progress.bytesDone)} av ${formatBytes(view.progress.bytesTotal)})`}
+            {view.progress.phase === "downloading" && `Laddar ned ${view.progress.total ? Math.round((view.progress.done / view.progress.total) * 100) : 0} % (${formatBytes(view.progress.bytesDone)} av ${formatBytes(view.progress.bytesTotal)})`}
             {view.progress.phase === "verifying" && "Kontrollerar att allt är sparat…"}
           </p>
           <div
@@ -78,27 +71,20 @@ export function OfflinePanel() {
       )}
 
       {view.kind === "ready" && (
-        <div className="space-y-3">
-          <p role="status" className="feedback feedback-ok" data-testid="offline-ready">
-            <strong>Klart för offline.</strong> {view.meta.fileCount} filer ({formatBytes(view.meta.bytes)}
-            {view.meta.imageFiles !== undefined ? `, varav ${view.meta.imageFiles} bildfiler på ${formatBytes(view.meta.imageBytes ?? 0)}` : ""}) är sparade och kontrollerade {new Date(view.meta.readyAt).toLocaleString("sv-SE")}.
+        <div className="space-y-2">
+          <p role="status" data-testid="offline-ready">
+            <strong className="text-ok">Tillgänglig offline ✓</strong>
+            <br />
+            Du kan använda det nedladdade materialet utan internet.
           </p>
           {view.updateAvailable && (
             <div className="callout callout-check space-y-2">
-              <p>Det finns ett nyare innehåll. Dina framsteg påverkas inte.</p>
+              <p>Det finns nytt innehåll. Dina framsteg påverkas inte.</p>
               <button className="btn btn-primary btn-small" onClick={start}>
-                Uppdatera offlineinnehållet
+                Uppdatera
               </button>
             </div>
           )}
-          <button
-            className="btn btn-small"
-            onClick={async () => {
-              await offlineStore.remove();
-            }}
-          >
-            Ta bort offlineinnehållet från enheten
-          </button>
         </div>
       )}
 
@@ -110,14 +96,14 @@ export function OfflinePanel() {
                 ? "Otillräckligt lagringsutrymme."
                 : view.errorKind === "cancelled"
                   ? "Nedladdningen avbröts."
-                  : "Offlinenedladdningen blev inte klar."}
+                  : "Nedladdningen blev inte klar."}
             </strong>{" "}
             {view.message}
             {view.errorKind === "insufficient-storage" && " Frigör utrymme på enheten och försök igen."}
           </p>
-          <p className="text-sm">Utbildningen räknas inte som offlineklar förrän alla filer är sparade. Det som redan hämtats behålls, så nästa försök går snabbare.</p>
+          <p className="text-sm">Det som redan hämtats behålls, så nästa försök går snabbare. Materialet räknas inte som nedladdat förrän allt är sparat.</p>
           <button className="btn btn-primary" onClick={start} disabled={!online}>
-            {view.errorKind === "cancelled" || view.errorKind === "interrupted" ? "Fortsätt nedladdningen" : "Försök igen"}
+            Försök igen
           </button>
         </div>
       )}

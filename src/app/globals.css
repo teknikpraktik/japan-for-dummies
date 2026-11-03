@@ -55,6 +55,9 @@ a:hover { color: var(--color-red); }
 .tile-upcoming { background: var(--color-paper-2); border-style: dashed; }
 @media (hover: hover) { .tile-link:hover { border-color: var(--color-indigo); } .tile-link:not(.tile-upcoming):hover { background: var(--color-paper-2); } }
 .tile:has(a:focus-visible) { outline: 3px solid var(--color-indigo); outline-offset: 2px; }
+/* Små utfällbara avsnitt (verktyg på Mina framsteg). */
+.tool { border: 1px solid var(--color-line); border-radius: 0.75rem; background: var(--color-card); padding: 0.4rem 0.9rem; }
+.tool > summary { cursor: pointer; font-weight: 600; min-height: 2.5rem; display: flex; align-items: center; }
 .container-page { width: 100%; max-width: 62rem; margin-inline: auto; padding-inline: 1rem; }
 @media (min-width: 640px) { .container-page { padding-inline: 1.5rem; } }
 .prose-col { max-width: 42rem; }
