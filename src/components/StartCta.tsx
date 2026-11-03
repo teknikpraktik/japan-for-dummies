@@ -82,7 +82,7 @@ export function StartCta({ chapters, firstThemeId }: { chapters: ChapterLite[]; 
       )}
       {target?.chapterTitle && (
         <span className="text-sm text-ink-soft" data-testid="start-cta-chapter">
-          {target.chapterTitle}
+          Fortsätt med: {target.chapterTitle}
         </span>
       )}
       {ACCOUNTS_ENABLED &&

@@ -119,7 +119,7 @@ test.describe("poäng, gräns och omförsök", () => {
     await page.goto("/");
     await expect(page.getByText(/Piloten har/)).toHaveCount(0);
     for (const t of ["Resmål", "Avresa", "Vad finns i piloten?"]) await expect(page.getByText(t, { exact: true })).toHaveCount(0);
-    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Japan for Dummies");
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Förstå Japan, ett kapitel i taget");
   });
 });
 

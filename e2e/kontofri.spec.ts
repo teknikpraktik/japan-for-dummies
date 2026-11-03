@@ -152,7 +152,7 @@ test.describe("kontofri tjänst", () => {
     await page.goto("/");
     await expect(cta).toHaveText("Fortsätt utbildningen");
     await expect(cta).toHaveAttribute("href", new RegExp(`/kapitel/${chapter.slug}/$`));
-    await expect(page.getByTestId("start-cta-chapter")).toHaveText(chapter.title);
+    await expect(page.getByTestId("start-cta-chapter")).toHaveText(`Fortsätt med: ${chapter.title}`);
     // Slutfört kapitel är inte längre ”påbörjat”: reserv är senast valda tema
     await page.goto(`/kapitel/${chapter.slug}/`);
     await takeQuiz(page, chapter, 0);
@@ -220,11 +220,54 @@ test.describe("kontofri tjänst", () => {
     const steps = page.locator("section[aria-labelledby=sa-funkar] li");
     await expect(steps).toHaveCount(3);
     await expect(steps).toHaveText([/Välj tema/, /Läs och öva/, /Testa dig/]);
-    await expect(page.locator("figure figcaption").first()).toHaveText("Anbo på ön Yakushima.");
+    await expect(page.locator("figure figcaption").first()).toHaveText("Anbo på ön Yakushima i södra Japan. Bebyggelsen ligger längs vattnet, med öns skogsklädda berg i bakgrunden.");
     const rights = page.getByTestId("photo-rights");
     await expect(rights).not.toContainText("Anbo på ön Yakushima");
     await expect(rights.getByRole("link", { name: "Wikimedia Commons" })).toBeVisible();
     await expect(rights.getByRole("link", { name: /CC0/ })).toBeVisible();
     expect(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)).toBeLessThanOrEqual(0);
+  });
+
+  test("introduktionsbilden är bredare på desktop utan att trycka undan texten, och följer skärmbredden på mobil", async ({ page, isMobile }) => {
+    await page.goto("/");
+    await page.waitForLoadState("networkidle");
+    const fig = (await page.locator("figure").first().boundingBox())!;
+    const text = (await page.locator("h1").boundingBox())!;
+    const cta = (await page.getByTestId("start-cta").boundingBox())!;
+    const vw = page.viewportSize()!.width;
+    if (isMobile) {
+      expect(fig.width).toBeLessThanOrEqual(vw);
+      expect(fig.width).toBeGreaterThan(vw - 64);
+    } else {
+      expect(fig.width).toBeGreaterThanOrEqual(370);
+      expect(fig.width).toBeLessThanOrEqual(400);
+      expect(text.width).toBeGreaterThan(480);
+      expect(cta.x + cta.width).toBeLessThanOrEqual(fig.x);
+    }
+    expect(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)).toBeLessThanOrEqual(0);
+    await expect(page.getByTestId("offline-intro")).toHaveCount(0);
+    await expect(page.getByText("Mer om offline")).toHaveCount(0);
+  });
+
+  test("temakort: markering uttrycker bara hover eller tangentbordsfokus, och försvinner när musen lämnar", async ({ page, isMobile }) => {
+    test.skip(isMobile, "hover och tangentbord testas på desktop");
+    await page.goto("/");
+    const card = page.getByTestId("theme-card-geografi");
+    const other = page.getByTestId("theme-card-historia");
+    const style = (l: typeof card) => l.evaluate((el) => { const s = getComputedStyle(el); return { border: s.borderTopColor, bg: s.backgroundColor, outline: s.outlineStyle }; });
+    const rest = await style(card);
+    expect(await style(other)).toEqual(rest); // jämförbara kort ser likadana ut i grundläget
+    await card.hover();
+    const hover = await style(card);
+    expect(hover.border).not.toBe(rest.border);
+    expect(await style(other)).toEqual(rest);
+    await page.mouse.move(2, 2);
+    expect(await style(card)).toEqual(rest);
+    await page.keyboard.press("Tab");
+    await card.getByRole("link").focus();
+    await page.keyboard.press("Shift+Tab");
+    await page.keyboard.press("Tab");
+    const focused = await style(card);
+    expect(focused.outline).toBe("solid");
   });
 });
