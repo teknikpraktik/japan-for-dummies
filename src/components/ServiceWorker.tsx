@@ -5,7 +5,7 @@ import { swUpdate } from "@/lib/sw-update-store";
 
 /**
  * Registrerar service workern och kontrollerar i bakgrunden om det finns en ny version. Visar ingenting själv:
- * resultatet visas bara på sidan Min utbildning (UpdatePanel). Laddar aldrig om sidan av sig själv.
+ * resultatet visas bara på sidan Mina framsteg (UpdatePanel). Laddar aldrig om sidan av sig själv.
  */
 export function ServiceWorker() {
   useEffect(() => {

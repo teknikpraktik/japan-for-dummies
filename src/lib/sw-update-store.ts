@@ -3,7 +3,7 @@
 import { useSyncExternalStore } from "react";
 
 /**
- * Tillstånd för att en ny version av appen väntar (service worker i väntläge). Det visas bara på sidan Min utbildning,
+ * Tillstånd för att en ny version av appen väntar (service worker i väntläge). Det visas bara på sidan Mina framsteg,
  * aldrig globalt. Uppdateringen sker alltid på användarens initiativ och laddar om sidan; framstegen ligger i
  * webbläsarens lokala lagring och påverkas inte.
  */

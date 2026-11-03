@@ -43,7 +43,7 @@ test.describe("offline", () => {
 
     // Omladdning offline
     await page.reload();
-    await expect(page.getByRole("heading", { level: 1, name: "Min utbildning" })).toBeVisible();
+    await expect(page.getByRole("heading", { level: 1, name: "Mina framsteg" })).toBeVisible();
     await expect(page.getByTestId("offline-ready")).toBeVisible();
 
     // Direktlänk till alla sex pilotkapitel offline
@@ -142,7 +142,7 @@ test.describe("offline", () => {
     await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
   });
 
-  test("Min utbildning visar offlinestatus; ”Tillgänglig offline ✓” först efter verifiering, och sidhuvudet visar aldrig status", async ({ page }) => {
+  test("Mina framsteg visar offlinestatus; ”Tillgänglig offline ✓” först efter verifiering, och sidhuvudet visar aldrig status", async ({ page }) => {
     await page.goto("/offline/");
     await waitForController(page);
     await expect(page.getByTestId("offline-size")).toContainText("Ingår:");
@@ -201,8 +201,8 @@ test.describe("offline", () => {
     await expect(page.getByRole("banner")).not.toContainText(/uppdater|ny version|offline/i);
     await expect(page.getByTestId("quiz-position")).toHaveText("Fråga 3 av 5");
 
-    // Informationen visas bara på Min utbildning (klientnavigering, utan omladdning)
-    await page.getByRole("navigation", { name: "Huvudmeny" }).getByRole("link", { name: "Min utbildning" }).click();
+    // Informationen visas bara på Mina framsteg (klientnavigering, utan omladdning)
+    await page.getByRole("navigation", { name: "Huvudmeny" }).getByRole("link", { name: "Mina framsteg" }).click();
     await expect(page).toHaveURL(/\/offline\/$/);
     await expect(page.getByTestId("update-available")).toBeVisible({ timeout: 20_000 });
     await expect(page.getByRole("banner")).not.toContainText(/uppdater|ny version|offline/i);

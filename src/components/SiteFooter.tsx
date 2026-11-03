@@ -5,7 +5,7 @@ export function SiteFooter() {
     <footer className="border-t border-line bg-paper-2 py-6 text-sm text-ink-soft">
       <div className="container-page flex flex-col gap-2">
         <p>
-          <Link href="/integritet/">Integritet</Link> · <Link href="/kallor/">Källor</Link> · <Link href="/bildkallor/">Bilder och rättigheter</Link> · <Link href="/offline/">Min utbildning</Link>
+          <Link href="/integritet/">Integritet</Link> · <Link href="/kallor/">Källor</Link> · <Link href="/bildkallor/">Bilder och rättigheter</Link> · <Link href="/offline/">Mina framsteg</Link>
         </p>
       </div>
     </footer>
