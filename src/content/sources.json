@@ -628,5 +628,75 @@
     "checkedOn": "2026-11-06",
     "access": "search-result-summary",
     "supports": "En resenärs erfarenhet: ladda ned språkpaket i förväg, och offlineläget fungerade sämre på menyer. Enskild upplevelse, inte en kontrollerad källa."
+  },
+  {
+    "id": "japanguide-indoor-manners",
+    "title": "Indoor Manners",
+    "publisher": "Japan Guide",
+    "url": "https://japan-guide.com/e/e2001.html",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att man tar av skorna i hem och många andra inomhusmiljöer, byter till tofflor och att särskilda regler gäller för tatami och toalett."
+  },
+  {
+    "id": "japanexperience-slipper-culture",
+    "title": "Japanese Slipper Culture",
+    "publisher": "Japan Experience",
+    "url": "https://www.japan-experience.com/plan-your-trip/to-know/understanding-japan/japanese-slipper-culture",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Genkan och tofflor: skorna av i entrén, tofflor inomhus, tofflorna av före tatami och särskilda toalettofflor."
+  },
+  {
+    "id": "cnn-trash-cans",
+    "title": "Japan trash cans explainer",
+    "publisher": "CNN Travel",
+    "url": "https://cnn.com/travel/japan-trash-cans-explainer-intl-hnk",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att det finns få offentliga papperskorgar i Japan och att besökare ofta behöver ta med sitt skräp."
+  },
+  {
+    "id": "ctv-trash-cans",
+    "title": "Japan is a model of cleanliness: so where are all the trash cans?",
+    "publisher": "CTV News",
+    "url": "https://www.ctvnews.ca/world/article/japan-is-a-model-of-cleanliness-so-where-are-all-the-trash-cans/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att offentliga papperskorgar togs bort efter sarinattacken 1995, att besökare uppmanas ta med sitt skräp och att några korgar börjat återvända."
+  },
+  {
+    "id": "wikipedia-bowing-in-japan",
+    "title": "Bowing in Japan",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bowing_in_Japan",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att bugning (ojigi) är en central del av japansk etikett, att djup och längd varierar och att bugningar kan kombineras med handslag."
+  },
+  {
+    "id": "cotoacademy-bowing",
+    "title": "Guide to Bowing in Japan (Ojigi)",
+    "publisher": "Coto Academy",
+    "url": "https://cotoacademy.com/bowing-japan-etiquette/",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att man bugar olika djupt beroende på situation, och att man som besökare kan följa den andres exempel."
+  },
+  {
+    "id": "japantimes-tattoo-survey-2015",
+    "title": "Survey says half of Japan's hotels refuse tattooed visitors entry to bathing areas",
+    "publisher": "The Japan Times",
+    "url": "https://japantimes.co.jp/news/2015/10/22/national/survey-says-half-of-japans-hotels-refuse-tattooed-visitors-entry-to-bathing-areas",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att en undersökning från Japans turistmyndighet 2015 visade att drygt hälften av hotell och värdshus inte tillät tatuerade i allmänna badutrymmen, och att reglerna bestäms av varje anläggning."
   }
 ]
