@@ -1,0 +1,324 @@
+{
+  "id": "t08-k03",
+  "slug": "besoka-helgedom-och-tempel",
+  "themeId": "religion",
+  "order": 3,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Besöka helgedom och tempel",
+  "summary": "Steg för steg: vad du gör vid ingången, vid vattenbassängen och vid bönen, och när du ska låta kameran vila.",
+  "objectives": [
+    "Följa vanliga steg vid ett besök",
+    "Förstå skyltar och fotoregler",
+    "Visa respekt oavsett egen tro"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Du kommer till en helgedom för första gången. Torii, vatten, offerlåda, rep. Vad ska du göra, och vad bör du låta bli?"
+  },
+  "sections": [
+    {
+      "id": "steg",
+      "heading": "Steg för steg vid en helgedom",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Torii:** böj huvudet lätt vid porten och gå helst vid sidan av mitten, eftersom mitten ofta anses tillhöra kami.",
+            "**Rening:** vid vattenpaviljongen (temizuya) tar du vatten med skopan, sköljer först den ena handen och sedan den andra och därefter munnen med vatten från handen (skölj inte direkt från skopan). Följ skyltarna eller andra besökare.",
+            "**Offer och bön:** lägg ett mynt i lådan (ett femyenmynt anses ge lycka, eftersom ordet *go-en* också betyder ”lycka”) och ring eventuellt klockan. Den vanliga sekvensen är **två bugningar, två klappar och en bugning**.",
+            "**Därefter:** tacka i tankarna och gå ut. Vid torii kan du vända dig om och böja huvudet igen."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Det finns undantag: vissa helgedomar, till exempel Izumo Taisha, har fyra klappar i stället för två. Följ i första hand skyltarna och vad människor på platsen gör. Det är helt okej att bara stå tyst och respektfullt om du inte vill delta i ritualen."
+        }
+      ]
+    },
+    {
+      "id": "tempel",
+      "heading": "Vid ett tempel",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "På ett tempel är reglerna delvis annorlunda. Man **klappar inte** utan sätter ihop händerna och bugar. Man kan tända rökelse och lägga ett mynt i offerlådan. Ta av hatten innan du går in. I vissa tempel tar man av skorna innan man går in i hallar (se kapitlet om skor och bad)."
+        },
+        {
+          "type": "p",
+          "text": "Många platser har **omikuji** (lyckospådomar), **ema** (plaketter att skriva önskningar på) och **goshuin** (stämplar i en särskild bok). Om du drar ett dåligt omikuji kan du knyta fast det på en särskild plats, så ”lämnar” oturen dig. Priset ligger ofta på 100–500 yen."
+        }
+      ]
+    },
+    {
+      "id": "foto",
+      "heading": "Foto, mat och respekt",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Du får oftast fotografera **området utomhus**, men inte inne i byggnaderna eller hallarna. Titta efter skyltar eller fråga personalen. Undvik att fotografera människor som ber eller utför ritualer utan att fråga. Ät och drick inte på området, utom på anvisade platser. Tala lugnt och låt andra be i fred."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Du behöver inte dela tron",
+          "text": "Respekt handlar om beteende, inte om tro. Du kan delta i den utsträckning du är bekväm med, eller bara titta."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "ordering",
+      "id": "steg",
+      "title": "Ordna stegen",
+      "prompt": "Sätt stegen vid en helgedom i ordning.",
+      "items": [
+        {
+          "id": "torii",
+          "text": "Böj huvudet vid torii"
+        },
+        {
+          "id": "rening",
+          "text": "Rena händer och mun vid temizuya"
+        },
+        {
+          "id": "offer",
+          "text": "Lägg ett mynt i offerlådan"
+        },
+        {
+          "id": "bon",
+          "text": "Två bugningar, två klappar, en bugning"
+        },
+        {
+          "id": "ut",
+          "text": "Lämna området"
+        }
+      ],
+      "explanation": "Torii, rening, offer, bön och sedan utgång. Följ alltid skyltar och andra besökare."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "klappar",
+      "title": "Vid ett tempel",
+      "prompt": "Vad gäller oftast vid ett buddhistiskt tempel?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Man sätter ihop händerna och klappar inte.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Man klappar två gånger.",
+          "correct": false,
+          "feedback": "Det gäller helgedomar."
+        },
+        {
+          "id": "c",
+          "text": "Man dansar.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "foto",
+      "title": "Fotoregeln",
+      "situation": "Du står i en tempelhall och vill fotografera Buddhastatyn. Det finns en skylt med en genomstruken kamera.",
+      "question": "Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Låter bli och tar bild utanför i stället.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Fotograferar ändå, ingen ser.",
+          "correct": false,
+          "feedback": "Respektera skylten."
+        },
+        {
+          "id": "c",
+          "text": "Fotograferar med blixt.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka skyltar finns om rening, bön och foto?",
+    "Hur gör människor vid vattnet och vid offerlådan?",
+    "Vilka platser känns som att de bör lämnas i fred?"
+  ],
+  "reflection": "Hur skulle du vilja att besökare uppförde sig vid en plats som är viktig för dig?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilken är den vanliga bönesekvensen vid en helgedom?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Två bugningar, två klappar, en bugning",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En klapp",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Tre klappar",
+          "feedback": "Det varierar mellan platser, men inte vanligtvis."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad gör man vid temizuya?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Renar händer och mun",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Tvättar skor",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Dricker direkt från skopan",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Fotograferar andra",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vilket mynt anses ge lycka?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Femyen",
+          "correct": true,
+          "feedback": "Rätt. Go-en låter som ”lycka”."
+        },
+        {
+          "id": "b",
+          "text": "Hundrayen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Tusenyen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Var får man oftast fotografera?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Området utomhus, men oftast inte inne i hallarna.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Överallt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingenstans.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara människor.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Måste du dela tron för att besöka en helgedom?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nej, men du bör visa respekt.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ja.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Det är förbjudet att besöka.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara japaner får besöka.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "jnto-two-bows-two-claps",
+    "jal-temple-shrine",
+    "justonecookbook-shrine-etiquette",
+    "kanagawa-shrines-temples"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Stegen och reglerna bygger på sammanfattade reseguider och en turistmyndighets sida. Vissa detaljer (hur man tvättar händerna, om man går vid sidan av mitten) varierar mellan källor och platser.",
+      "Reglerna för tempel (inte klappa) och priset på omikuji är delvis allmän bakgrund.",
+      "Beskrivningen av goshuin är allmän bakgrund.",
+      "Fotoregler varierar mellan platser. Följ alltid lokala skyltar.",
+      "Bildtexten om helgedomsbyggnaden (Tamayama Inarisha) bygger på Commons-kategorin."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t08-k03-hero",
+    "imageId": "fushimi-inari-helgedomshall",
+    "brief": "Besökare vid en helgedom eller ett tempel, utan identifierbara personer."
+  }
+}

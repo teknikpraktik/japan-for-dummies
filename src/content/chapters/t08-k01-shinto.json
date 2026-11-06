@@ -1,0 +1,340 @@
+{
+  "id": "t08-k01",
+  "slug": "shinto",
+  "themeId": "religion",
+  "order": 1,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Shinto: kami, helgedomar och torii",
+  "summary": "Introduktion till shinto, kami och torii-portar, med fokus på hur religionen ofta märks som tradition och plats snarare än som lära.",
+  "objectives": [
+    "Förklara vad kami och shinto kan betyda",
+    "Känna igen en helgedom och dess delar",
+    "Förstå varför shinto ofta beskrivs som en livsstil snarare än en tro"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Du går igenom en röd port och hamnar på en plats där träden är heliga. Är det religion, tradition eller något mitt emellan?"
+  },
+  "sections": [
+    {
+      "id": "kami",
+      "heading": "Kami och shinto",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Shinto** (”gudarnas väg”) är en religiös tradition med rötter i Japans forntid. Centralt är **kami**, ett ord som ofta översätts som ”gudar” eller ”andar” men som kan syfta på mycket: naturföreteelser som berg, träd, vattenfall och stenar, förfäder, människor med särskild betydelse och skyddsandar för en plats eller ett yrke. Det finns inte en enda grundare, en enda helig bok eller en enda lära."
+        },
+        {
+          "type": "p",
+          "text": "Shinto handlar därför mindre om att tro på något bestämt och mer om **ritualer, platser, högtider och respekt för det som anses heligt**. Många japaner besöker en helgedom för att tacka, be om lycka eller markera ett tillfälle, utan att se sig som ”troende” i västerländsk mening."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Shinto och buddhism",
+          "text": "Shinto och buddhism har levt sida vid sida i över tusen år och blandas i många människors liv (se kapitlet om religion i vardagen)."
+        }
+      ]
+    },
+    {
+      "id": "helgedom",
+      "heading": "En helgedom och dess delar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "En shintohelgedom (**jinja**) känns ofta igen på en **torii**, en port med två pelare och tvärbjälkar som markerar gränsen mot helig mark. Efter porten finns ofta en gång genom skog, en **vattenpaviljong** (temizuya) där man renar sig, **stenlyktor**, en **offerhall** och bakom den den inre byggnaden där kami anses vistas. Vid offerhallen finns en offerlåda och ofta ett rep med klocka."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Torii",
+              "value": "Port in till helgedomens område"
+            },
+            {
+              "label": "Temizuya",
+              "value": "Vattenbassäng för rening av händer och mun"
+            },
+            {
+              "label": "Offerhall",
+              "value": "Plats för bön och offer"
+            },
+            {
+              "label": "Shimenawa",
+              "value": "Flätat rep som markerar att något är heligt"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Många helgedomar har också små stånd där man kan köpa **omamori** (amuletter), **ema** (träplaketter att skriva en önskan på) och **omikuji** (lyckospådomar)."
+        },
+        {
+          "type": "photo",
+          "slotId": "t08-k01-torii",
+          "imageId": "fushimi-inari-torii",
+          "brief": "En torii eller en helgedomsentré."
+        }
+      ]
+    },
+    {
+      "id": "liv",
+      "heading": "Tradition och livsstil",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Shinto märks i livets stora tillfällen: nyårsbesök, bröllop, välsignelse av nyfödda och barn (**Shichi-go-san**) och många lokala fester. För många är det **tradition och plats** snarare än en tro man bekänner sig till. Vissa beskriver det som en livsstil, andra som religion, andra som kultur. Som besökare behöver du inte lösa frågan: du behöver bara visa respekt för platsen."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "kami",
+      "title": "Kami",
+      "prompt": "Vad kan kami syfta på?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Naturföreteelser, förfäder och andra heliga väsen.",
+          "correct": true,
+          "feedback": "Rätt. Ordet är brett."
+        },
+        {
+          "id": "b",
+          "text": "Bara en enda gud.",
+          "correct": false,
+          "feedback": "Fel. Det finns många."
+        },
+        {
+          "id": "c",
+          "text": "Ett slags ris.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "torii",
+      "title": "Torii",
+      "prompt": "Vad markerar en torii?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ingången till helig mark vid en helgedom.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ett tempels ingång.",
+          "correct": false,
+          "feedback": "Tempel har oftast en annan sorts port."
+        },
+        {
+          "id": "c",
+          "text": "En marknad.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "tro",
+      "title": "I samtal",
+      "situation": "En kamrat säger: ”Japanerna tror på tusentals gudar, så det är en religion som vår.”",
+      "question": "Vad är en mer nyanserad bild?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shinto är mer ritualer, platser och tradition än en enhetlig lära, och många ser det som kultur.",
+          "correct": true,
+          "feedback": "Bra."
+        },
+        {
+          "id": "b",
+          "text": "Alla japaner är troende shintoister.",
+          "correct": false,
+          "feedback": "En förenkling."
+        },
+        {
+          "id": "c",
+          "text": "Shinto är inte en religion alls.",
+          "correct": false,
+          "feedback": "Det är omdiskuterat, och många kallar det en religion."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka torii och helgedomar ser du, och var ligger de?",
+    "Vilka delar känner du igen: temizuya, offerhall, rep med klocka?",
+    "Hur uppträder människor där?"
+  ],
+  "reflection": "Vad är skillnaden mellan att respektera en plats och att dela dess tro? Hur visar du respekt utan att behöva tro?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad betyder shinto ungefär?",
+      "options": [
+        {
+          "id": "a",
+          "text": "”Gudarnas väg”",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "”Buddhas lära”",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "”Kejsarens hus”",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "”Ris”",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad är en torii?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En port som markerar helig mark",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En maträtt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En skola",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ett tåg",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad är temizuya?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En vattenpaviljong för rening",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En mat",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En bugning",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ett rep",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är omikuji?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En lyckospådom på papper",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En port",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En present",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En klocka",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Varför beskrivs shinto ofta som livsstil snarare än tro?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det handlar mycket om ritualer, platser och tradition.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det finns ingen tradition.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Det är förbjudet att tro.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Det finns bara en bok.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "jnto-two-bows-two-claps",
+    "jal-temple-shrine",
+    "eurekalert-japan-religiosity"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Definitionen av kami och shinto samt beskrivningen av helgedomens delar, omamori, ema och Shichi-go-san är allmän bakgrund som inte kontrollerades separat. Källorna täcker främst torii, temizuya och bönesekvensen.",
+      "Frågan om shinto är en religion, tradition eller livsstil är omdiskuterad. Kapitlet ger en förenklad bild.",
+      "Ämnet är känsligt: kapitlet bör granskas av någon med religionsvetenskaplig kompetens.",
+      "Bildtexterna om Fushimi Inari-taisha och torii bygger på Commons-beskrivningarna och allmän kännedom."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t08-k01-hero",
+    "imageId": "fushimi-inari-stig",
+    "brief": "Torii eller helgedom i Japan."
+  }
+}

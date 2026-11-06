@@ -1,0 +1,347 @@
+{
+  "id": "t08-k04",
+  "slug": "hogtider-och-matsuri",
+  "themeId": "religion",
+  "order": 4,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Årets högtider och matsuri",
+  "summary": "Nyår, obon, blomningsfester och lokala matsuri. Kapitlet förklarar kalendern och vad du kan vara med om i oktober, utan att utlova något specifikt.",
+  "objectives": [
+    "Namnge några viktiga högtider",
+    "Förklara vad en matsuri är",
+    "Förstå att höstfestivaler varierar mellan platser och år"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Japan firar tusentals festivaler varje år. Men vilka är de stora, och vad händer i oktober, när du kanske reser?"
+  },
+  "sections": [
+    {
+      "id": "kalender",
+      "heading": "Årets rytm",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Några viktiga högtider och traditioner: **Nyår** (shōgatsu) är den största, då många besöker en helgedom (hatsumōde). I våren firas **hanami**, att titta på körsbärsblom, vanligen från senare delen av mars och framåt. **Tanabata** (7 juli, men ibland andra datum) är en stjärnfestival där man hänger önskningar på bambu. **Obon** i juli eller augusti hedrar de döda, med lyktor och dans, och mycket av landet reser då. I november firas **Shichi-go-san** (15 november), då barn av vissa åldrar välsignas på en helgedom."
+        },
+        {
+          "type": "p",
+          "text": "På hösten finns **momijigari**, att titta på höstlöv, som är höstens motsvarighet till hanami, och många lokala skördefester i september och oktober."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "when": "Januari",
+              "text": "Nyår: besök vid helgedom"
+            },
+            {
+              "when": "Mars–april",
+              "text": "Hanami: körsbärsblom"
+            },
+            {
+              "when": "7 juli",
+              "text": "Tanabata (datum varierar)"
+            },
+            {
+              "when": "Juli/aug",
+              "text": "Obon: minne av de döda"
+            },
+            {
+              "when": "Oktober",
+              "text": "Lokala höstfestivaler"
+            },
+            {
+              "when": "15 november",
+              "text": "Shichi-go-san"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matsuri",
+      "heading": "Vad är en matsuri?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Matsuri** betyder festival eller högtid och är en lokal fest, ofta knuten till en helgedom eller ett tempel. Det kan finnas processioner med bärbara helgedomar (**mikoshi**), prydda vagnar, dans, musik, matstånd och spel. Det finns tiotusentals matsuri i Japan varje år, stora och små."
+        },
+        {
+          "type": "photo",
+          "slotId": "t08-k04-matsuri",
+          "imageId": "mikoshi-yokosuka",
+          "brief": "Matsuri, till exempel en mikoshi eller en festivalgata, utan identifierbara personer."
+        },
+        {
+          "type": "p",
+          "text": "Som besökare: titta, njut och håll avstånd från ritualer, ta inga bilder av människor utan att fråga och följ regler om trängsel och avspärrningar."
+        }
+      ]
+    },
+    {
+      "id": "oktober",
+      "heading": "Om du reser i oktober",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Höstfestivaler varierar mycket mellan orter och år, och datum kan ändras. Ett exempel: Takayama höstfest hålls vanligen 9–10 oktober. Räkna inte med något specifikt: kontrollera datum hos den lokala turistbyrån eller på festivalens egen sida innan du planerar. Det händer ofta små lokala fester som inte syns i guideböcker."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Utlova inget",
+          "text": "En festival kan vara inställd, flyttad eller kortare än väntat. Ha en plan B och se det som en bonus om du råkar hamna på en."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "hanami",
+      "title": "Hanami",
+      "prompt": "Vad är hanami?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att titta på körsbärsblom",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ett bad",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En skolklubb",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "matsuri",
+      "title": "Matsuri",
+      "prompt": "Vad är en matsuri?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En festival, ofta knuten till en helgedom eller ett tempel.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En matrutt.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En port.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "plan",
+      "title": "Planera",
+      "situation": "Du vill uppleva en höstfestival under din resa i oktober.",
+      "question": "Hur planerar du bäst?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kontrollera datum lokalt och ha en plan B.",
+          "correct": true,
+          "feedback": "Rätt. Datum varierar."
+        },
+        {
+          "id": "b",
+          "text": "Utgå från att den hålls samma datum varje år.",
+          "correct": false,
+          "feedback": "Det kan ändras."
+        },
+        {
+          "id": "c",
+          "text": "Anta att det inte finns några.",
+          "correct": false,
+          "feedback": "Det finns många lokala fester."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka tecken på högtider ser du: lyktor, dekorationer, mikoshi?",
+    "Hur beter sig människor vid festivaler?",
+    "Vilka lokala fester nämns i din närhet?"
+  ],
+  "reflection": "Vilka högtider firar du, och hur skulle du förklara dem för någon som aldrig upplevt dem?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilken högtid hedrar de döda?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obon",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Hanami",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Tanabata",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Shichi-go-san",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad är mikoshi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En bärbar helgedom",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En maträtt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tåg",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En skola",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "När firas Shichi-go-san?",
+      "options": [
+        {
+          "id": "a",
+          "text": "15 november",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "1 januari",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "7 juli",
+          "feedback": "Det är Tanabata."
+        },
+        {
+          "id": "d",
+          "text": "Hela året",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Varför bör man vara försiktig när man planerar en festival?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Datum och program kan variera.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "De är alltid på samma datum.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "De finns inte.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "De är alltid inställda.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är momijigari?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att titta på höstlöv",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Att titta på snö",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tåg",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Att äta ris",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "justonecookbook-holidays",
+    "allabout-festivals"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Datum för högtider varierar. Källorna skiljer sig åt, bland annat om Obon (juli eller augusti) och vilka åldrar Shichi-go-san gäller. Kapitlet anger inga åldrar.",
+      "Hatsumōde, mikoshi och matsuri-beskrivningen är allmän bakgrund som inte kontrollerades separat. Antalet matsuri är en grov uppgift (källa anger omkring 30 000).",
+      "Takayamas höstfest (9–10 oktober) anges av sökresultaten men bör kontrolleras mot festivalens egen sida.",
+      "Bildtexterna om bon odori (Osaka, 2014) och mikoshi (Yokosuka, 2007, amerikanska flottans bild) bygger på Commons-beskrivningarna. Mikoshibilden visar festivaldeltagare bakifrån."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t08-k04-hero",
+    "imageId": "bon-odori-lyktor",
+    "brief": "Festival (matsuri) i Japan, till exempel en mikoshi eller lyktor."
+  }
+}

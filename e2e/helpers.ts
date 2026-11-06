@@ -38,3 +38,22 @@ export async function takeQuiz(page: Page, chapter: Chapter, wrong = 0) {
 /** Antal publicerade kapitel (härleds ur innehållet så att testerna inte hårdkodar siffran). */
 export const PUBLISHED = pilots.length;
 export const PLANNED = 60 - pilots.length;
+
+/** Ett planerat (ännu inte skrivet) kapitel, härlett ur innehållet, för tester av planerade kapitelsidor. */
+export const PLANNED_SAMPLE: { slug: string; title: string } = (() => {
+  const pdir = path.join(process.cwd(), "src", "content", "planned");
+  for (const f of fs.readdirSync(pdir).sort()) {
+    const items = JSON.parse(fs.readFileSync(path.join(pdir, f), "utf8")) as { slug: string; title: string }[];
+    if (items.length) return { slug: items[0].slug, title: items[0].title };
+  }
+  throw new Error("Inga planerade kapitel kvar att använda i testerna.");
+})();
+
+/** Första temat utan publicerade kapitel (kommande tema), härlett ur innehållet. */
+export const UPCOMING_THEME: string = (() => {
+  const themes = JSON.parse(fs.readFileSync(path.join(process.cwd(), "src", "content", "themes.json"), "utf8")) as { id: string; order: number }[];
+  const published = new Set((pilots as unknown as { themeId: string }[]).map((c) => c.themeId));
+  const t = themes.sort((a, b) => a.order - b.order).find((x) => !published.has(x.id));
+  if (!t) throw new Error("Alla teman har publicerade kapitel.");
+  return t.id;
+})();

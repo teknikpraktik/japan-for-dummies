@@ -67,7 +67,83 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Några besökare syns på avstånd och bakifrån; inga ansikten är urskiljbara.",
     "usedIn": [
-      "t01-k03"
+      "t01-k03",
+      "t08-k05"
+    ]
+  },
+  {
+    "id": "bon-odori-lyktor",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/bon-odori-lyktor/bon-odori-lyktor-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 22256,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/bon-odori-lyktor/bon-odori-lyktor-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 67438,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/bon-odori-lyktor/bon-odori-lyktor-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 22256,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/bon-odori-lyktor/bon-odori-lyktor-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 51218,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.4,
+      "y": 0.35
+    },
+    "creator": "jinkemoole",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bon_Odori,_a_style_of_dancing_performed_during_Obon,_Japan%3B_August_2014_(04).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: jinkemoole, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Nishi-ku, Osaka",
+      "verifiedBy": "Commons-filsidans kategorier (Bon odori; Nishi-ku, Osaka; Lanterns in Japan)"
+    },
+    "year": {
+      "value": "2014",
+      "verifiedBy": "Commons-filsidans datumfält (19 augusti 2014)"
+    },
+    "caption": "Färgglada lyktor vid en bon odori, dansen under Obon, i Osaka, augusti 2014. Bon odori är en folklig dans som enligt Commons-beskrivningen har en historia på nästan 600 år.",
+    "alt": "Rader av upplysta pappershyktor i rött, blått, vitt och grönt som hänger på snören mot en mörk kvällshimmel.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t08-k04"
     ]
   },
   {
@@ -139,6 +215,231 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t01-k02"
+    ]
+  },
+  {
+    "id": "fushimi-inari-helgedomshall",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/fushimi-inari-helgedomshall/fushimi-inari-helgedomshall-480.webp",
+        "width": 480,
+        "height": 411,
+        "bytes": 50300,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/fushimi-inari-helgedomshall/fushimi-inari-helgedomshall-960.webp",
+        "width": 960,
+        "height": 821,
+        "bytes": 193288,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/fushimi-inari-helgedomshall/fushimi-inari-helgedomshall-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 43572,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/fushimi-inari-helgedomshall/fushimi-inari-helgedomshall-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 116714,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Balon Greyjoy",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20181110_Fushimi_Inari_Torii_2.jpg",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Fushimi Inari-taisha, Kyoto",
+      "verifiedBy": "Commons-filsidans beskrivning och kategori (Tamayama Inarisha, Fushimi Inari-taisha)"
+    },
+    "year": {
+      "value": "2018",
+      "verifiedBy": "Commons-filsidans datumfält (10 november 2018)"
+    },
+    "caption": "En liten helgedomsbyggnad (Tamayama Inarisha) vid Fushimi Inari-taisha i Kyoto, november 2018, med offerlåda, lyktor och stenlyktor framför.",
+    "alt": "Röd och vit helgedomsbyggnad med böjt tak och hängande lyktor, med en offerlåda framför och stenlyktor på varje sida.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t08-k03"
+    ]
+  },
+  {
+    "id": "fushimi-inari-stig",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/fushimi-inari-stig/fushimi-inari-stig-480.webp",
+        "width": 480,
+        "height": 311,
+        "bytes": 50514,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/fushimi-inari-stig/fushimi-inari-stig-960.webp",
+        "width": 960,
+        "height": 623,
+        "bytes": 203768,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/fushimi-inari-stig/fushimi-inari-stig-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 57256,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/fushimi-inari-stig/fushimi-inari-stig-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 160884,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.6,
+      "y": 0.45
+    },
+    "creator": "Balon Greyjoy",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20181110_Fushimi_Inari_Torii_12.jpg",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Fushimi Inari-taisha, Kyoto",
+      "verifiedBy": "Commons-filsidans beskrivning och kategori (Oyama-sandō Torii, Fushimi Inari-taisha)"
+    },
+    "year": {
+      "value": "2018",
+      "verifiedBy": "Commons-filsidans datumfält (10 november 2018)"
+    },
+    "caption": "En stig genom torii-portar vid Fushimi Inari-taisha, en shintohelgedom i Kyoto, november 2018. Torii markerar gränsen mot helig mark.",
+    "alt": "En stenlagd stig som leder genom täta, orangeröda torii-portar i en grön skog.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t08-k01"
+    ]
+  },
+  {
+    "id": "fushimi-inari-torii",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/fushimi-inari-torii/fushimi-inari-torii-480.webp",
+        "width": 480,
+        "height": 284,
+        "bytes": 13042,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/fushimi-inari-torii/fushimi-inari-torii-960.webp",
+        "width": 960,
+        "height": 569,
+        "bytes": 39368,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/fushimi-inari-torii/fushimi-inari-torii-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 15508,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/fushimi-inari-torii/fushimi-inari-torii-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 36096,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.35,
+      "y": 0.4
+    },
+    "creator": "Balon Greyjoy",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20181110_Fushimi_Inari_Torii_1.jpg",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Fushimi Inari-taisha, Kyoto",
+      "verifiedBy": "Commons-filsidans beskrivning och kategori (Niban Torii, Fushimi Inari-taisha)"
+    },
+    "year": {
+      "value": "2018",
+      "verifiedBy": "Commons-filsidans datumfält (10 november 2018)"
+    },
+    "caption": "En torii vid Fushimi Inari-taisha i Kyoto, november 2018. Den orangeröda färgen och formen med två pelare och tvärbjälkar är typisk för torii.",
+    "alt": "En orangeröd torii med svart tak sedd underifrån mot blå himmel, med en helgedomsbyggnad bakom.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t08-k01"
     ]
   },
   {
@@ -1414,6 +1715,81 @@
     ]
   },
   {
+    "id": "mikoshi-yokosuka",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/mikoshi-yokosuka/mikoshi-yokosuka-480.webp",
+        "width": 480,
+        "height": 343,
+        "bytes": 36732,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/mikoshi-yokosuka/mikoshi-yokosuka-960.webp",
+        "width": 960,
+        "height": 686,
+        "bytes": 118324,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/mikoshi-yokosuka/mikoshi-yokosuka-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 38588,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/mikoshi-yokosuka/mikoshi-yokosuka-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 91786,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.4
+    },
+    "creator": "U.S. Navy photo by Mass Communication Specialist 2nd Class Derek J. Hurder",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_Navy_071021-N-7446H-007_Sailors_carry_a_Mikoshi_through_the_streets_of_Yokosuka_during_the_31st_Yokosuka_Mikoshi_Parade.jpg",
+    "license": {
+      "name": "Public domain (amerikanskt statligt verk, U.S. Navy)",
+      "url": "https://commons.wikimedia.org/wiki/File:US_Navy_071021-N-7446H-007_Sailors_carry_a_Mikoshi_through_the_streets_of_Yokosuka_during_the_31st_Yokosuka_Mikoshi_Parade.jpg#Licensing"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) anger licensen Public domain och att bilden släppts av amerikanska flottan (U.S. Navy-ID 071021-N-7446H-007; kategori PD US Navy). Verk av amerikanska federala myndigheters personal i tjänsten är offentliga. Bildkälla och fotograf anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Yokosuka",
+      "verifiedBy": "Commons-filsidans beskrivning (Yokosuka, Japan, 31st Yokosuka Mikoshi Parade)"
+    },
+    "year": {
+      "value": "2007",
+      "verifiedBy": "Commons-filsidans datumfält (21 oktober 2007)"
+    },
+    "caption": "Deltagare, bland annat volontärer från amerikanska flottan, bär en mikoshi, en bärbar shintohelgedom, genom Yokosuka under en festivalparad, oktober 2007.",
+    "alt": "Ryggar av personer i röda festivaljackor som bär en stor, rikt dekorerad bärbar helgedom på axlarna längs en gata, med byggnader i bakgrunden.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Deltagarna syns från sidan och bakifrån, huvudsakligen utan tydliga ansikten. Ingen identifieras.",
+    "usedIn": [
+      "t08-k04"
+    ]
+  },
+  {
     "id": "nanjing-minnesmarke",
     "kind": "contemporary-photo",
     "variants": [
@@ -1486,6 +1862,81 @@
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
       "t02-k04"
+    ]
+  },
+  {
+    "id": "nanzenji-hostlov",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/nanzenji-hostlov/nanzenji-hostlov-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 39766,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/nanzenji-hostlov/nanzenji-hostlov-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 167724,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/nanzenji-hostlov/nanzenji-hostlov-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 44934,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/nanzenji-hostlov/nanzenji-hostlov-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 129286,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "雷太",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanzen-ji,_a_Zen_Buddhist_temple,_and_its_surroundings,_Kyoto%3B_November_2016_(02).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: 雷太, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Nanzen-ji, Kyoto",
+      "verifiedBy": "Commons-filsidans beskrivning och kategorier (November 2016 in Kyoto prefecture; Nanzen-ji)"
+    },
+    "year": {
+      "value": "2016",
+      "verifiedBy": "Commons-filsidans datumfält (18 november 2016)"
+    },
+    "caption": "Utsikt över Nanzen-ji, ett zenbuddhistiskt tempel i Kyoto, med höstlöv i november 2016. Templet grundades enligt Commons-beskrivningen 1291.",
+    "alt": "Utsikt över ett tempelområde med traditionella byggnader och tak omgivna av träd i röda och gula höstfärger, med bergen och staden i bakgrunden.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns tydligt.",
+    "usedIn": [
+      "t08-k02"
     ]
   },
   {

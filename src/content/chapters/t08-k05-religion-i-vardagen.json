@@ -1,0 +1,313 @@
+{
+  "id": "t08-k05",
+  "slug": "religion-i-vardagen",
+  "themeId": "religion",
+  "order": 5,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Religion i vardagen: blandade traditioner",
+  "summary": "Många japaner firar både shinto- och buddhistiska ritualer. Kapitlet tar upp sekularisering, nya religioner och hur man undviker enkla svar.",
+  "objectives": [
+    "Beskriva hur olika traditioner blandas",
+    "Diskutera begreppet religion i japansk kontext",
+    "Formulera frågor till människor du möter"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "På en enkät kallar sig många japaner ”icke-religiösa”. Samtidigt besöker de en helgedom på nyår och ett tempel vid en begravning. Hur går det ihop?"
+  },
+  "sections": [
+    {
+      "id": "blandning",
+      "heading": "Både och",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Många japaner deltar i **både** shintoistiska och buddhistiska ritualer, utan att se det som en motsättning. Nyår firas ofta vid en helgedom, bröllop kan hållas i en shintohelgedom, och begravningar följer oftast buddhistiska riter. Man kan också uppleva kristna bröllopsceremonier utan att vara kristen. Att välja ritual efter tillfälle är vanligt."
+        },
+        {
+          "type": "p",
+          "text": "Därför blir religiösa siffror svåra att tolka. Officiella siffror från kulturmyndigheten räknar omkring 87 miljoner shintoanhängare och 84 miljoner buddhister, fler än Japans befolkning, eftersom samma person kan räknas i flera grupper (och i tempelförsamlingar utan aktiv tro). Samtidigt anger många i enkäter att de inte är religiösa."
+        }
+      ]
+    },
+    {
+      "id": "fraga",
+      "heading": "Vad menas med religion?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "En studie från 2024 visade att svaren på hur religiösa japaner är **ändras kraftigt med hur frågan ställs**. Många som kallar sig icke-religiösa deltar ändå i buddhistiska och shintoistiska ritualer. Ordet ”religion” (shūkyō) kan i japansk kontext uppfattas som något organiserat, som en lära eller en sekt, medan ritualer och traditioner uppfattas som en del av vardagen och kulturen."
+        },
+        {
+          "type": "p",
+          "text": "Det finns också **nya religioner** och rörelser som uppstod främst under 1800- och 1900-talen, och religionsfrihet garanteras av konstitutionen från 1947. Ämnet är känsligt för vissa: vissa grupper har varit omstridda, och det är bäst att inte dra slutsatser om enskilda människor."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Undvik enkla svar",
+          "text": "”Japanerna är inte religiösa” och ”japanerna är djupt andliga” är båda förenklingar. Verkligheten rymmer både och, och mycket däremellan."
+        }
+      ]
+    },
+    {
+      "id": "moten",
+      "heading": "Frågor du kan ställa",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Om du pratar med människor om religion: ställ öppna, vänliga frågor. Till exempel: ”Vad brukar din familj göra på nyår?” eller ”Vad betyder den här platsen för dig?”. Undvik frågor som ”Är du religiös?” som kan kännas laddade eller svåra att svara på. Låt personen själv bestämma hur mycket hen vill berätta, och dela gärna något från din egen bakgrund."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "bada",
+      "title": "Både och",
+      "prompt": "Vad är vanligt när det gäller ritualer i Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Många deltar i både shintoistiska och buddhistiska ritualer.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alla väljer en enda religion.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ritualer förbjuds.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "siffror",
+      "title": "Siffrorna",
+      "prompt": "Varför kan officiella religionssiffror vara större än befolkningen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Samma person kan räknas i flera grupper.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det bor fler människor än statistiken säger.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Det är ett skrivfel.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "fraga",
+      "title": "I samtal",
+      "situation": "Du vill fråga en jämnårig om religion.",
+      "question": "Vilken fråga fungerar bäst?",
+      "options": [
+        {
+          "id": "a",
+          "text": "”Vad brukar din familj göra på nyår?”",
+          "correct": true,
+          "feedback": "Rätt. Öppen och inte laddad."
+        },
+        {
+          "id": "b",
+          "text": "”Tror du på gud?”",
+          "correct": false,
+          "feedback": "Den kan kännas laddad."
+        },
+        {
+          "id": "c",
+          "text": "”Är du en riktig buddhist?”",
+          "correct": false,
+          "feedback": "Det dömer."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka religiösa inslag syns i vardagen: små helgedomar, amuletter, alter?",
+    "Vilka ord använder människor om sina traditioner?",
+    "Hur kan du ställa frågor utan att döma?"
+  ],
+  "reflection": "Vilka traditioner firar du utan att vara troende? Vad skulle det betyda för en besökare att få veta det?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad är vanligt vid begravningar i Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Buddhistiska riter",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Shintoriter alltid",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Inga riter",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Kristna riter alltid",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad visar studier om frågor om religion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Svaren beror mycket på hur frågan ställs.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alla svarar likadant.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Frågor har ingen betydelse.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen vet något.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad är en bra fråga vid ett samtal om tro?",
+      "options": [
+        {
+          "id": "a",
+          "text": "”Vad brukar din familj göra på nyår?”",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "”Vad är det för fel på din tro?”",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "”Varför är ni inte religiösa?”",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen fråga alls.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är en fara med att säga ”japanerna är inte religiösa”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det är en förenkling.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det är alltid sant.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Det är olagligt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Det är obegripligt.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad garanteras av konstitutionen från 1947 vad gäller religion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Religionsfrihet",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Förbud mot religion",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En statsreligion",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inget",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "eurekalert-japan-religiosity",
+    "wikipedia-buddhism-in-japan",
+    "britannica-japan-since-1945"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Siffrorna (cirka 87 respektive 84 miljoner) kommer från sekundära webbsidor som citerar kulturmyndighetens årsbok och bör kontrolleras mot källan.",
+      "Studien från 2024 om hur formuleringen påverkar svaren kommer från en nyhetssammanfattning.",
+      "Beskrivningen av nya religioner, ordet shūkyō, bröllop och religionsfrihet är allmän bakgrund som inte kontrollerades separat.",
+      "Ämnet är känsligt och bör granskas av någon med religionsvetenskaplig kompetens."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t08-k05-hero",
+    "imageId": "bishamondo-hostlov",
+    "brief": "Vardagsmiljö med religiösa inslag, till exempel en liten helgedom."
+  }
+}

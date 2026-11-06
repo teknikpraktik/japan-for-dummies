@@ -2,7 +2,7 @@ import { expect, test, type Page } from "@playwright/test";
 import fs from "node:fs";
 import path from "node:path";
 import { NextCopy } from "./next-server";
-import { pilots, takeQuiz, PUBLISHED } from "./helpers";
+import { pilots, takeQuiz, PUBLISHED, PLANNED_SAMPLE } from "./helpers";
 
 /**
  * Offlinetesterna kör mot en egen kopia av produktionsbygget på en separat port. Servern stoppas mitt i testet,
@@ -77,7 +77,7 @@ test.describe("offline", () => {
     await expect(page.getByRole("heading", { level: 1, name: "Geografi, regioner, klimat och natur" })).toBeVisible();
     await page.goto("/utbildning/resa/"); // temasidorna finns också offline
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
-    await page.goto("/kapitel/shinto/");
+    await page.goto(`/kapitel/${PLANNED_SAMPLE.slug}/`);
     await expect(page.getByText("planerat men inte skrivet än")).toBeVisible();
     await page.goto("/offline/");
     await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${PUBLISHED} tillgängliga kapitel klara`);
