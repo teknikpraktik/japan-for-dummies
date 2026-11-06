@@ -601,7 +601,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t05-k01"
+      "t05-k01",
+      "t05-k02"
     ]
   },
   {
@@ -668,7 +669,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 3:2 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering. Bilden har ett HDR-liknande utseende i originalet.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t05-k01"
+      "t05-k01",
+      "t05-k04"
     ]
   },
   {
@@ -1186,7 +1188,83 @@
     "peopleNote": "En person syntes i bakgrunden till höger i originalet; den delen är bortbeskuren.",
     "usedIn": [
       "t07-k01",
-      "t05-k01"
+      "t05-k01",
+      "t05-k04"
+    ]
+  },
+  {
+    "id": "matmodeller-ramen",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/matmodeller-ramen/matmodeller-ramen-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 24402,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/matmodeller-ramen/matmodeller-ramen-960.webp",
+        "width": 960,
+        "height": 641,
+        "bytes": 90850,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/matmodeller-ramen/matmodeller-ramen-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28272,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/matmodeller-ramen/matmodeller-ramen-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 74616,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.45
+    },
+    "creator": "shankar s.",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%8F%A1%E3%81%AE%E6%B4%BB%E7%94%A8_(48624671211).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: shankar s., CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning (Tokyo, Japan, Apr/May 2019) och kategorier (Ramen restaurants in Tokyo; Food samples in Japan)"
+    },
+    "year": {
+      "value": "2019",
+      "verifiedBy": "Commons-filsidans datumfält (14 april 2019)"
+    },
+    "caption": "Plastmodeller av rätter i en monter utanför en ramenrestaurang i Tokyo, april 2019, med lappar med namn och priser. Modellerna visar vad man kan beställa.",
+    "alt": "Röd monter med flera hyllor av färgglada plastmodeller av maträtter med prislappar, på en gata bredvid en pelare.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns tydligt.",
+    "usedIn": [
+      "t05-k04"
     ]
   },
   {
@@ -1692,7 +1770,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, beskuren till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t06-k01"
+      "t06-k01",
+      "t05-k05"
     ]
   },
   {

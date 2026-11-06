@@ -1,0 +1,327 @@
+{
+  "id": "t05-k03",
+  "slug": "artighet-och-tilltal",
+  "themeId": "sprak",
+  "order": 3,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Artighet, namn och tilltal",
+  "summary": "Språket har olika nivåer av artighet. Kapitlet handlar om -san, efternamn först, bugningar och hur du låter vänlig utan att behöva kunna allt.",
+  "objectives": [
+    "Använda -san på rätt sätt",
+    "Förstå skillnaden mellan vänligt och formellt språk",
+    "Presentera dig själv med några enkla fraser"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Vad ska du kalla din värd, din lärare eller en jämnårig du precis träffat? I Sverige är det ofta förnamn. Hur gör man i Japan?"
+  },
+  "sections": [
+    {
+      "id": "san",
+      "heading": "Namn och -san",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Det japanska namnet skrivs och uttalas oftast med **efternamnet först**: Tanaka Hiroshi är Hiroshi av familjen Tanaka. I samtal kallar man ofta någon vid efternamnet plus en titel, som **-san**. Tanaka-san fungerar för män och kvinnor, unga och gamla."
+        },
+        {
+          "type": "p",
+          "text": "Några andra suffix: **-sama** är mer formellt, **-kun** används ofta om pojkar och yngre och **-chan** om barn eller nära vänner. Som besökare är **-san** det säkraste valet. Du använder aldrig -san om dig själv."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "-san",
+              "value": "Neutral och artig. Tanaka-san"
+            },
+            {
+              "label": "-sama",
+              "value": "Mer formell, till exempel i brev"
+            },
+            {
+              "label": "-kun / -chan",
+              "value": "Används ofta mellan vänner, till barn eller yngre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "niva",
+      "heading": "Olika nivåer av artighet",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japanskan har olika **nivåer av artighet**. Det vänliga, vanliga artiga språket (teineigo) slutar ofta på **-masu** eller **desu**. Vardagsspråk mellan vänner är mer rakt (”plain form”). Dessutom finns det mycket artiga former, **sonkeigo** (att visa respekt för den man talar med) och **kenjōgo** (att vara ödmjuk om sig själv). Det är medvetet mycket att lära sig, och japaner förväntar sig inte att du kan det."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Som besökare",
+          "text": "Använd den vänliga, artiga nivån när du kan och byt inte till slang. Ett leende, ett litet nick och ett ”tack” gör mer än en perfekt grammatik."
+        }
+      ]
+    },
+    {
+      "id": "presentera",
+      "heading": "Presentera dig",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Några enkla fraser: **Hajimemashite** (”Trevligt att träffas”), **Watashi wa [namn] desu** (”Jag är [namn]”), **Suēden kara kimashita** (”Jag kommer från Sverige”) och **Yoroshiku onegaishimasu** (en artig fras som används i början av ett möte eller en relation, ungefär ”jag ser fram emot att lära känna dig”). Det är vanligt att man nickar eller bugar lätt när man hälsar, och du kan göra detsamma. Ett handslag är också möjligt om den andra tar initiativ."
+        },
+        {
+          "type": "p",
+          "text": "Fråga hellre hur någon vill bli kallad än att gissa. Och om du glömmer: ett vänligt ”sumimasen” (ursäkta) hjälper i många lägen."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "san",
+      "title": "Vad betyder -san?",
+      "prompt": "Vad är -san?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En neutral, artig titel efter ett namn.",
+          "correct": true,
+          "feedback": "Rätt. Den fungerar för de flesta personer."
+        },
+        {
+          "id": "b",
+          "text": "En typ av mat.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tåg.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "ordning",
+      "title": "Namnordning",
+      "prompt": "Hur skrivs japanska namn oftast?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Efternamn först.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Förnamn först alltid.",
+          "correct": false,
+          "feedback": "Fel. Det är vanligast med efternamn först."
+        },
+        {
+          "id": "c",
+          "text": "Bara förnamn.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "jag",
+      "title": "Hälsa på din värd",
+      "situation": "Du ska presentera dig för din värd, Tanaka-san.",
+      "question": "Vad är en bra första fras?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hajimemashite. Watashi wa [ditt namn] desu. Yoroshiku onegaishimasu.",
+          "correct": true,
+          "feedback": "Bra. Det är en vänlig och artig inledning."
+        },
+        {
+          "id": "b",
+          "text": "Hej Tanaka!",
+          "correct": false,
+          "feedback": "Det är direkt. Lägg gärna till -san."
+        },
+        {
+          "id": "c",
+          "text": "Jag är Emil-san.",
+          "correct": false,
+          "feedback": "Man använder inte -san om sig själv."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur tilltalar människor varandra, till exempel i butiker, på skolor, på tåg?",
+    "Hör du -san, -sama, -kun eller -chan?",
+    "Hur hälsar människor: nick, bugning eller handslag?"
+  ],
+  "reflection": "Hur tilltalar du människor i ditt eget språk, och när byter du sätt? Hur gör det ett samtal vänligare?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilken ordning har japanska namn oftast?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Efternamn först",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Förnamn först",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Slumpvis",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara initialer",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vilket suffix är det säkraste valet som besökare?",
+      "options": [
+        {
+          "id": "a",
+          "text": "-san",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "-chan",
+          "feedback": "Det är för barn eller nära vänner."
+        },
+        {
+          "id": "c",
+          "text": "-kun",
+          "feedback": "Det är för pojkar eller yngre."
+        },
+        {
+          "id": "d",
+          "text": "Inget",
+          "feedback": "Det är oartigt att ta bort alla titlar."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad betyder ”Hajimemashite”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trevligt att träffas",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Hej då",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Tack",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ursäkta",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är teineigo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det vanliga artiga språket med -masu och desu",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Slang",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tecken",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En maträtt",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Får man använda -san om sig själv?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nej",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ja alltid",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara på måndagar",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara på tåg",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "wikipedia-japanese-honorifics"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Att namn oftast skrivs och uttalas med efternamn först samt de föreslagna fraserna (Hajimemashite, Yoroshiku onegaishimasu, Suēden kara kimashita) och råden om att nicka eller buga är allmän kunskap som inte kontrollerades mot en källa.",
+      "Användningen av -kun och -chan varierar mellan källor och situationer. Beskrivningen är förenklad.",
+      "Artighetsnivåerna är starkt förenklade och bör granskas av en japansklärare."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t05-k03-hero",
+    "imageId": null,
+    "brief": "Hälsning eller presentation, till exempel ett namnkort eller en skylt."
+  }
+}

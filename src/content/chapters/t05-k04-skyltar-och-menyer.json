@@ -1,0 +1,333 @@
+{
+  "id": "t05-k04",
+  "slug": "skyltar-och-menyer",
+  "themeId": "sprak",
+  "order": 4,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Läsa skyltar och menyer",
+  "summary": "Perrongskyltar, toalettsymboler och menyer. Kapitlet lär dig känna igen några ord och tecken som du faktiskt kommer att möta.",
+  "objectives": [
+    "Tolka vanliga symboler och skyltar",
+    "Känna igen några ord på menyer och biljettautomater",
+    "Använda översättningsstöd smart"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Du står framför en biljettautomat där alla knappar är på japanska. Vilka tecken behöver du egentligen känna igen?"
+  },
+  "sections": [
+    {
+      "id": "skyltar",
+      "heading": "Stationer och skyltar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Stationsnamn visas ofta i kanji, hiragana, romaji och ibland engelska. Några tecken du får nytta av: **駅** (eki, station), **出口** (deguchi, utgång), **入口** (iriguchi, ingång) och väderstreckskanji som **北口** (kitaguchi, norra utgången). Ofta finns en stor karta utanför stationen."
+        },
+        {
+          "type": "p",
+          "text": "De skyltar som oftast bara har kanji är biljettautomater, priser och meddelanden på perronger. Då hjälper det att känna igen siffror och tecknet **円** (yen)."
+        },
+        {
+          "type": "photo",
+          "slotId": "t05-k04-skylt",
+          "imageId": "iwamotocho-utgangsskylt",
+          "brief": "En skylt i en miljö med blandad japansk och engelsk text, till exempel en stationsskylt."
+        }
+      ]
+    },
+    {
+      "id": "toalett",
+      "heading": "Toaletter och symboler",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Toaletter markeras ofta med **男** (man) och **女** (kvinna), förutom piktogram. Dessa tecken är användbara även för att inte stiga på fel vagn (se kapitlet om jämställdhet). Toaletter som tillverkats sedan 2017 använder samma standardiserade symboler på kontrollpanelen, så de ser likadana ut även om texten är på japanska."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Symboler hjälper",
+          "text": "Piktogram är ofta standardiserade. Stanna upp, titta på bilden och jämför med dina tecken innan du trycker på något."
+        }
+      ]
+    },
+    {
+      "id": "meny",
+      "heading": "Menyer och biljettautomater",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "På många restauranger finns **plastmodeller** av maten i fönstret, eller bilder på menyn. Att peka är helt okej. En **定食** (teishoku) är en måltid som serveras som set med ris och soppa, och på vissa ramenställen väljer och betalar du vid en **biljettautomat** vid ingången och lämnar biljetten till personalen."
+        },
+        {
+          "type": "photo",
+          "slotId": "t05-k04-meny",
+          "imageId": "matmodeller-ramen",
+          "brief": "Biljettautomat för mat i Japan, där man väljer rätt och betalar vid ingången."
+        },
+        {
+          "type": "p",
+          "text": "**Översättningsappar** kan hjälpa: många kan översätta text via kameran. Ladda ned japanskan för offline-läge i förväg och testa hemma, eftersom kameraläget kan fungera sämre med vertikal eller handskriven text och på menyer. En resenär beskrev just att offlineläget fungerade sämre på menyer."
+        },
+        {
+          "type": "p",
+          "text": "Om du har **allergier** eller kostrestriktioner: skriv ner dem på ett kort på japanska, och visa kortet i förväg. En app räcker inte alltid för att förklara allergier säkert."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "eki",
+      "title": "Vad betyder 駅?",
+      "prompt": "Vad betyder 駅?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Station",
+          "correct": true,
+          "feedback": "Rätt (eki)."
+        },
+        {
+          "id": "b",
+          "text": "Utgång",
+          "correct": false,
+          "feedback": "Utgång är 出口."
+        },
+        {
+          "id": "c",
+          "text": "Man",
+          "correct": false,
+          "feedback": "Man är 男."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "meny",
+      "title": "Plastmodeller",
+      "prompt": "Varför har många restauranger plastmodeller av maten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "För att visa vad rätterna ser ut som, så man kan peka.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "För att man ska äta dem.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "För att dekorera.",
+          "correct": false,
+          "feedback": "Det är inte huvudsyftet."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "allergi",
+      "title": "Allergi",
+      "situation": "Du har en matallergi och ska äta på en restaurang utan engelsk meny.",
+      "question": "Vad är bäst?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Visa ett förberett kort på japanska, och fråga personalen.",
+          "correct": true,
+          "feedback": "Bra. Förberedelse är säkrast."
+        },
+        {
+          "id": "b",
+          "text": "Gissa vilken rätt som är säker.",
+          "correct": false,
+          "feedback": "Det är riskabelt."
+        },
+        {
+          "id": "c",
+          "text": "Förlita dig bara på kameraöversättning.",
+          "correct": false,
+          "feedback": "Appar kan göra fel, och du bör inte bara lita på dem vid allergier."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka skyltar saknar romaji eller engelska, och vad gör du då?",
+    "Hur ser menyerna ut: bilder, plastmodeller eller bara text?",
+    "Hur fungerar biljettautomaterna: vad trycker du på först?"
+  ],
+  "reflection": "Hur kan du förbereda dig för att förstå en meny du inte kan läsa? Vad skulle du göra om appen inte fungerade?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilket tecken betyder utgång?",
+      "options": [
+        {
+          "id": "a",
+          "text": "出口",
+          "correct": true,
+          "feedback": "Rätt (deguchi)."
+        },
+        {
+          "id": "b",
+          "text": "入口",
+          "feedback": "Det är ingång."
+        },
+        {
+          "id": "c",
+          "text": "駅",
+          "feedback": "Det är station."
+        },
+        {
+          "id": "d",
+          "text": "円",
+          "feedback": "Det är yen."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad betyder 円?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yen",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Kvinna",
+          "feedback": "Det är 女."
+        },
+        {
+          "id": "c",
+          "text": "Man",
+          "feedback": "Det är 男."
+        },
+        {
+          "id": "d",
+          "text": "Station",
+          "feedback": "Det är 駅."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad bör du göra med översättningsappar inför resan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ladda ned japanska i förväg och testa dem.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Vänta tills du är på plats.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Aldrig använda dem.",
+          "feedback": "De är användbara."
+        },
+        {
+          "id": "d",
+          "text": "Bara använda dem för tecken.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är ett bra sätt att hantera allergier?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skriva ner dem på japanska på ett kort.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Gissa.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Äta ändå.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Aldrig äta ute.",
+          "feedback": "Onödigt."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är 定食?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En måltid som serveras som set",
+          "correct": true,
+          "feedback": "Rätt (teishoku)."
+        },
+        {
+          "id": "b",
+          "text": "En typ av tåg",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En toalett",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ett tecken",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "japanexperience-kanji-travel",
+    "japantoday-toilet-symbols",
+    "nippon-toilet-signage",
+    "voyapon-ticket-machines",
+    "insidekyoto-translation-apps",
+    "tourradar-translate-offline"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Råden om översättningsappar bygger på en oberoende reseguide och en enskild resenärs erfarenhet, inte på tester. Appar förändras snabbt.",
+      "Beskrivningen av plastmodeller, att peka på maten och 定食 är allmän kunskap som inte kontrollerades mot en källa.",
+      "Rådet om allergikort är allmänt. Allergier är ett säkerhetsärende: kontrollera med läkare och personal.",
+      "Att toaletter från 2017 har standardiserade symboler hämtades från en nyhetssammanfattning.",
+      "Bildtexten om plastmodeller bygger på Commons-beskrivningen och allmän kännedom."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t05-k04-hero",
+    "imageId": "matbiljett-shokkenki",
+    "brief": "Skyltar och menyer i Japan, till exempel utgångsskyltar eller biljettautomater."
+  }
+}

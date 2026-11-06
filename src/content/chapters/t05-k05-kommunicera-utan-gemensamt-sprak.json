@@ -1,0 +1,322 @@
+{
+  "id": "t05-k05",
+  "slug": "kommunicera-utan-gemensamt-sprak",
+  "themeId": "sprak",
+  "order": 5,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Kommunicera utan gemensamt språk",
+  "summary": "Gester, bilder, översättningsappar och tålamod. Kapitlet visar hur man klarar situationer när orden inte räcker, och hur man ber om hjälp artigt.",
+  "objectives": [
+    "Välja strategi när språket inte räcker",
+    "Använda översättningsappar med eftertanke",
+    "Förstå vanliga missförstånd kring ja och nej"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Du försöker förklara något, men ingen av er delar ett språk. Vad gör du först: pekar, ritar, översätter eller ger upp?"
+  },
+  "sections": [
+    {
+      "id": "strategi",
+      "heading": "När orden inte räcker",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Du behöver inte kunna japanska för att göra dig förstådd. Några strategier som ofta fungerar: **visa** i stället för att berätta (en bild, ett foto, en adress på mobilen), **peka** på kartan, **skriva** siffror, **tala långsamt** med enkla ord och **gesta** tydligt. Ha viktiga uppgifter, till exempel hotellets adress, sparade i telefonen."
+        },
+        {
+          "type": "p",
+          "text": "Börja med att be om ursäkt och hjälp: **Sumimasen** (”ursäkta”) för att fånga uppmärksamhet, sedan **Eigo wa hanasemasu ka?** (”Talar ni engelska?”) eller **Onegaishimasu** (”snälla”) när du pekar på något. Ett leende hjälper alltid."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Tålamod går åt båda hållen",
+          "text": "Den du pratar med kanske också är osäker på engelska. Ge tid, upprepa lugnt och tacka (**Arigatō gozaimasu**)."
+        }
+      ]
+    },
+    {
+      "id": "appar",
+      "heading": "Översättningsappar med eftertanke",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "En översättningsapp kan vara ett bra stöd, men den är inte perfekt. Skriv korta, enkla meningar, undvik slang och kontrollera översättningen genom att läsa tillbaka den. Ladda ned japanska i förväg för att fungera utan internet, och testa hemma. Kamerafunktionen kan ha svårt med vertikal eller handskriven text."
+        },
+        {
+          "type": "p",
+          "text": "Använd inte appen ensam för viktiga saker, som allergier eller säkerhet. Där är det bättre att visa ett förberett kort, bild eller fråga en person på plats som du litar på, till exempel personal på hotellet."
+        }
+      ]
+    },
+    {
+      "id": "ja",
+      "heading": "Ja, nej och missförstånd",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ordet **hai** brukar översättas som ”ja”, men det kan också betyda ”jag lyssnar” eller ”jag förstår”, utan att det betyder att personen håller med. Likaså kan ett mjukt ”**chotto…**” (”lite…”) eller en tvekan vara ett artigt sätt att säga nej. Missförstånd kan alltså handla om hur man säger nej och ja, inte bara om ord."
+        },
+        {
+          "type": "p",
+          "text": "Det betyder inte att alla gör så. Det är en tendens, och folk är olika. Ett bra sätt att undvika missförstånd är att ställa konkreta frågor (”Vilket tåg ska jag ta?”) i stället för ja/nej-frågor, och att be någon visa med en gest eller på kartan."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Om det blir fel",
+          "text": "Ett missförstånd är ingen katastrof. Skratta, be om ursäkt och försök igen. Människor förstår att det är svårt att kommunicera över språkgränser."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "strategi",
+      "title": "Första strategi",
+      "prompt": "Du behöver fråga efter vägen till stationen och kan inte japanska. Vad är ett bra första steg?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Säga sumimasen och visa stationens namn på mobilen eller kartan.",
+          "correct": true,
+          "feedback": "Bra. Du fångar uppmärksamhet och visar tydligt."
+        },
+        {
+          "id": "b",
+          "text": "Prata snabbt och högt på svenska.",
+          "correct": false,
+          "feedback": "Det hjälper inte."
+        },
+        {
+          "id": "c",
+          "text": "Gå därifrån.",
+          "correct": false,
+          "feedback": "Du klarar det med enkla medel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "hai",
+      "title": "Vad betyder hai?",
+      "prompt": "Vad kan hai betyda förutom ”ja”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "”Jag lyssnar” eller ”jag förstår”.",
+          "correct": true,
+          "feedback": "Rätt. Det betyder inte alltid att personen håller med."
+        },
+        {
+          "id": "b",
+          "text": "”Nej”.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "”Hej då”.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "allergi",
+      "title": "Viktigt budskap",
+      "situation": "Du måste förklara en allergi för personalen på en restaurang.",
+      "question": "Vad är säkrast?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Visa ett förberett kort på japanska och be om bekräftelse.",
+          "correct": true,
+          "feedback": "Bra. Viktiga saker bör inte bero på en enskild app."
+        },
+        {
+          "id": "b",
+          "text": "Förlita dig bara på en app.",
+          "correct": false,
+          "feedback": "Appar kan göra fel."
+        },
+        {
+          "id": "c",
+          "text": "Säga ”allergi” snabbt och hoppas.",
+          "correct": false,
+          "feedback": "Det räcker inte."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur gör människor sig förstådda när språk inte räcker: gester, bilder, appar?",
+    "Vilka tillfällen märker du att ja och nej uttrycks försiktigt?",
+    "Vilka fraser eller kort har du förberett?"
+  ],
+  "reflection": "Tänk på en gång när du inte förstod någon, eller inte blev förstådd. Vad hjälpte, och vad skulle du göra annorlunda?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad säger du för att fånga någons uppmärksamhet artigt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sumimasen",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Arigatō",
+          "feedback": "Det är tack."
+        },
+        {
+          "id": "c",
+          "text": "Hajimemashite",
+          "feedback": "Det är en hälsning."
+        },
+        {
+          "id": "d",
+          "text": "Itadakimasu",
+          "feedback": "Det säger man före maten."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad är en bra strategi när språket inte räcker?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Visa, peka, skriv och tala långsamt.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Prata högt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ge upp.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Anta att alla förstår engelska.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad kan hai betyda?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ja, jag lyssnar eller jag förstår",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alltid ja",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Alltid nej",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Hej då",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad bör du undvika vid översättningsappar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Förlita dig bara på dem för viktiga saker som allergier.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Använda dem alls.",
+          "feedback": "De kan vara till stor nytta."
+        },
+        {
+          "id": "c",
+          "text": "Ladda ned språk i förväg.",
+          "feedback": "Det är bra."
+        },
+        {
+          "id": "d",
+          "text": "Testa dem hemma.",
+          "feedback": "Det är bra."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vilken typ av fråga minskar risken för missförstånd?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Konkreta frågor som ”Vilket tåg ska jag ta?”",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Långa frågor med slang",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara ja/nej-frågor",
+          "feedback": "Dessa kan missförstås."
+        },
+        {
+          "id": "d",
+          "text": "Inga frågor",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "insidekyoto-translation-apps",
+    "tourradar-translate-offline"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Förklaringen av hai och chotto… bygger på allmän kunskap och sökningen gav ingen källa om detta. Den bör granskas av en japansklärare eller kulturkunnig.",
+      "De föreslagna fraserna (Sumimasen, Eigo wa hanasemasu ka?, Onegaishimasu, Arigatō gozaimasu) är allmän kunskap.",
+      "Råden om översättningsappar bygger på en oberoende reseguide och en enskild resenärs erfarenhet.",
+      "Beskrivningen av ett indirekt sätt att säga nej är en generalisering som bör nyanseras."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t05-k05-hero",
+    "imageId": "sapporo-perrong",
+    "brief": "Möte eller situation där människor försöker förstå varandra, till exempel en skylt eller en karta."
+  }
+}
