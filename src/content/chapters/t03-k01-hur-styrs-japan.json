@@ -1,0 +1,323 @@
+{
+  "id": "t03-k01",
+  "slug": "hur-styrs-japan",
+  "themeId": "samhalle",
+  "order": 1,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Hur styrs Japan?",
+  "summary": "Kejsare, parlament och premiärminister. Kapitlet förklarar den konstitutionella monarkin, hur val fungerar och vad prefekturer och kommuner ansvarar för.",
+  "objectives": [
+    "Beskriva kejsarens roll jämfört med regeringens",
+    "Förklara huvuddragen i valsystemet",
+    "Jämföra med hur Sverige styrs"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Japan har en kejsare, men det är inte kejsaren som bestämmer vem som leder landet. Vem gör det, och hur skiljer det sig från Sverige?"
+  },
+  "sections": [
+    {
+      "id": "monarki",
+      "heading": "Kejsare utan politisk makt",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan är en **konstitutionell monarki**, ungefär som Sverige. Efter 1947 års konstitution (se kapitlet om efterkrigstiden) är kejsaren en symbol för staten och folkets enhet. Han utför ceremoniella uppgifter, till exempel att formellt utse premiärministern, men har ingen politisk makt."
+        },
+        {
+          "type": "p",
+          "text": "Den verkliga makten ligger hos **regeringen** med **premiärministern** i spetsen. Premiärministern utses av parlamentet och leder ett kabinett av ministrar."
+        }
+      ]
+    },
+    {
+      "id": "riksdag",
+      "heading": "Parlament och val",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Parlamentet kallas **the Diet** (Kokkai) och har två kamrar: **representanthuset** (nedre kammaren, 465 ledamöter som väljs på fyra år) och **rådmannahuset** (övre kammaren, 248 ledamöter). Representanthuset är den starkare kammaren. Ledamöterna väljs genom en blandning av valkretsar och listval (ett så kallat parallellt system)."
+        },
+        {
+          "type": "p",
+          "text": "Rösträttsåldern är **18 år** sedan 2016, tidigare 20. Många partier finns, men ett parti, det liberaldemokratiska partiet (LDP), har under större delen av efterkrigstiden suttit vid makten ensamt eller i koalition."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Jämförelse med Sverige",
+          "text": "Båda länderna har en monarki utan politisk makt, en regering ledd av en premiärminister (i Sverige statsminister) och rösträtt från 18 år. Sverige har en kammare i riksdagen. Japan har två."
+        }
+      ]
+    },
+    {
+      "id": "lokalt",
+      "heading": "Prefekturer och kommuner",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan är indelat i **47 prefekturer**, med egna parlament och en vald guvernör. Under dem finns städer, stadsdelar och byar. Lokala myndigheter ansvarar för mycket av vardagen, till exempel sophämtning, lokala skolor och socialtjänst. Hur mycket pengar och makt de har fördelas mellan staten och de lokala nivåerna, och det är en pågående diskussion."
+        },
+        {
+          "type": "p",
+          "text": "På resa märker du lokalpolitik på valaffischer på särskilda anslagstavlor, på informationstavlor och i skillnader mellan kommuner när det gäller till exempel sophantering."
+        },
+        {
+          "type": "photo",
+          "slotId": "t03-k01-val",
+          "imageId": "valtavlor-nagano",
+          "brief": "Valaffischer på en anslagstavla i Japan. Bildtexten ska inte visa eller gynna något parti."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "ordering",
+      "id": "styre",
+      "title": "Från väljare till regering",
+      "prompt": "Sätt stegen i ordning, med det första först.",
+      "items": [
+        {
+          "id": "val",
+          "text": "Väljarna röstar i parlamentsval"
+        },
+        {
+          "id": "diet",
+          "text": "Parlamentet samlas"
+        },
+        {
+          "id": "pm",
+          "text": "Parlamentet utser premiärministern"
+        },
+        {
+          "id": "kabinett",
+          "text": "Premiärministern bildar kabinett"
+        }
+      ],
+      "explanation": "Folket väljer parlamentet, parlamentet utser premiärministern och premiärministern bildar sitt kabinett. Kejsaren utnämner formellt, men utan politisk makt."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "kejsare",
+      "title": "Kejsarens roll",
+      "prompt": "Vad är kejsarens roll idag?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En symbol för staten med ceremoniella uppgifter men utan politisk makt.",
+          "correct": true,
+          "feedback": "Rätt, enligt konstitutionen från 1947."
+        },
+        {
+          "id": "b",
+          "text": "Han leder regeringen.",
+          "correct": false,
+          "feedback": "Fel. Det gör premiärministern."
+        },
+        {
+          "id": "c",
+          "text": "Han är överbefälhavare med full makt.",
+          "correct": false,
+          "feedback": "Fel. Han har ingen politisk makt."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "jamfor",
+      "title": "Vid en middag",
+      "situation": "En vän från Sverige säger: ”Japan måste ha en diktatur eftersom de har en kejsare.” ",
+      "question": "Vad är ett bra svar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kejsaren är en symbol. Japan har ett parlament, val och en premiärminister, ungefär som en konstitutionell monarki som Sverige.",
+          "correct": true,
+          "feedback": "Rätt. Det är ett vanligt missförstånd som är lätt att reda ut."
+        },
+        {
+          "id": "b",
+          "text": "Ja, det stämmer.",
+          "correct": false,
+          "feedback": "Fel. Japan är en demokrati med val."
+        },
+        {
+          "id": "c",
+          "text": "Man kan inte jämföra länderna alls.",
+          "correct": false,
+          "feedback": "Det går att jämföra, men man bör vara försiktig med detaljer."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur märker du politiken i vardagen: valaffischer, informationstavlor, kommunala skyltar?",
+    "Vilka skillnader ser du mellan stad och landsbygd?",
+    "Vilka frågor tycks vara viktiga lokalt?"
+  ],
+  "reflection": "Vad är fördelen med att ha en symbolisk statschef vid sidan av en regering? Vilka nackdelar kan du tänka dig?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vem leder regeringen i Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Premiärministern",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Kejsaren",
+          "feedback": "Fel. Kejsaren är en symbol."
+        },
+        {
+          "id": "c",
+          "text": "Shogunen",
+          "feedback": "Fel. Shogunen avskaffades 1868."
+        },
+        {
+          "id": "d",
+          "text": "Guvernören i Tokyo",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Hur många kamrar har Japans parlament?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Två",
+          "correct": true,
+          "feedback": "Rätt: representanthuset och rådmannahuset."
+        },
+        {
+          "id": "b",
+          "text": "En",
+          "feedback": "Fel. Det är Sverige."
+        },
+        {
+          "id": "c",
+          "text": "Tre",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Fem",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Från vilken ålder får man rösta i Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "18 år",
+          "correct": true,
+          "feedback": "Rätt, sedan 2016."
+        },
+        {
+          "id": "b",
+          "text": "16 år",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "20 år",
+          "feedback": "Det var den tidigare gränsen."
+        },
+        {
+          "id": "d",
+          "text": "25 år",
+          "feedback": "Fel. Det är en ålder för att kunna ställa upp i representanthuset."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Hur många prefekturer har Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "47",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "12",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "100",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "5",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad har Japan och Sverige gemensamt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Båda är konstitutionella monarkier.",
+          "correct": true,
+          "feedback": "Rätt. Statschefen har ceremoniella uppgifter."
+        },
+        {
+          "id": "b",
+          "text": "Båda har en shogun.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Båda har två parlamentskamrar.",
+          "feedback": "Fel. Sverige har en."
+        },
+        {
+          "id": "d",
+          "text": "Båda har förbjudit val.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "wikipedia-national-diet",
+    "shugiin-structure",
+    "britannica-japan-since-1945"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Att kejsaren formellt utser premiärministern, att premiärministern utses av parlamentet, antalet prefekturer (47) och vilka uppgifter lokala myndigheter har är allmän bakgrund som inte kontrollerades separat.",
+      "Antalet ledamöter (465 och 248) varierar något mellan källor och kan ändras. Kontrollera mot parlamentets egen sida.",
+      "LDP:s långa dominans och beskrivningen av valsystemet är förenklade.",
+      "Jämförelsen med Sverige är grov.",
+      "Bildtexten om valtavlorna bygger på Commons-beskrivningen och allmän kännedom om hur affischtavlor används."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t03-k01-hero",
+    "imageId": "riksdagshuset-tokyo",
+    "brief": "Parlamentsbyggnaden i Tokyo eller en annan miljö som visar hur Japan styrs."
+  }
+}

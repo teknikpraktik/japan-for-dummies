@@ -1,0 +1,335 @@
+{
+  "id": "t03-k03",
+  "slug": "familj-och-hemmaliv",
+  "themeId": "samhalle",
+  "order": 3,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Familj och hemmaliv",
+  "summary": "Hur familjer ser ut och bor, och hur det förändras. Kapitlet tar upp olika familjeformer, boendekostnader och vardag för barn och äldre.",
+  "objectives": [
+    "Beskriva olika familjeformer i Japan",
+    "Förklara hur boende och arbete påverkar familjelivet",
+    "Undvika slutsatsen att alla familjer ser likadana ut"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Många föreställer sig en japansk familj som tre generationer under ett tak. Stämmer det, och har det någonsin gjort det?"
+  },
+  "sections": [
+    {
+      "id": "former",
+      "heading": "Hur hushållen ser ut",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Den typiska hushållsformen i Japan har förändrats över tid. Kärnfamiljer (par, med eller utan barn, eller en förälder med barn) är den största gruppen, drygt hälften av hushållen enligt Statistikbyrån. **Enpersonshushåll** är den snabbast växande: de var 34,6 procent av hushållen 2015, jämfört med cirka 23 procent 1990."
+        },
+        {
+          "type": "p",
+          "text": "Hushållen har också blivit mindre: i genomsnitt 2,33 personer 2015, jämfört med 2,98 år 1990. Fler par saknar barn, och fler äldre bor ensamma. Hushåll med flera generationer finns kvar men är en minoritet."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Enpersonshushåll 2015",
+              "value": "34,6 procent"
+            },
+            {
+              "label": "Genomsnittlig hushållsstorlek",
+              "value": "2,33 personer (2015), 2,98 (1990)"
+            },
+            {
+              "label": "Kärnfamiljer",
+              "value": "Största gruppen, drygt hälften"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boende",
+      "heading": "Boende, arbete och vardag",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hur man bor hänger ihop med arbetet. I storstäderna är bostäderna ofta små och dyra, och många pendlar långt. Långa arbetsdagar kan göra det svårt att kombinera arbete och familjeliv. Många äldre bor kvar i egna hem på landsbygden, medan barnen flyttat till städer."
+        },
+        {
+          "type": "p",
+          "text": "Dessa mönster varierar. Det finns familjer med två yrkesarbetande föräldrar, ensamstående föräldrar, familjer som bor nära släkt och familjer som bor långt ifrån. Samma person kan ha olika vardag beroende på var hen bor."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "En rad bilder, inte en",
+          "text": "Ord som ”den japanska familjen” döljer att familjeformerna varierar. Bilden av tre generationer under ett tak var inte allmän ens förr, och passar idag bara en minoritet."
+        }
+      ]
+    },
+    {
+      "id": "regler",
+      "heading": "Namn, äktenskap och förändring",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Lagen kräver att gifta par har **samma efternamn**. I praktiken byter i de flesta fall kvinnan namn. Högsta domstolen godkände kravet 2015 och igen 2021, men uppmanade parlamentet att diskutera frågan. Opinionen och debatten har förändrats över tid, och frågan är fortfarande omdiskuterad."
+        },
+        {
+          "type": "p",
+          "text": "Diskussionerna om familjens form, till exempel namnlagar och vilka par som kan gifta sig, visar att samhället är i rörelse. Du behöver inte ha en åsikt för att förstå att frågorna finns."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "hushall",
+      "title": "Hushållsformer",
+      "prompt": "Vilken hushållsform har vuxit snabbast?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enpersonshushåll",
+          "correct": true,
+          "feedback": "Rätt. De var 34,6 procent 2015."
+        },
+        {
+          "id": "b",
+          "text": "Hushåll med tre generationer",
+          "correct": false,
+          "feedback": "Fel. De är en minoritet."
+        },
+        {
+          "id": "c",
+          "text": "Hushåll med tio personer",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "namn",
+      "title": "Efternamn",
+      "prompt": "Vad säger lagen om efternamn för gifta par?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paret måste välja ett gemensamt efternamn.",
+          "correct": true,
+          "feedback": "Rätt. I praktiken byter oftast kvinnan namn."
+        },
+        {
+          "id": "b",
+          "text": "Paret måste ha olika efternamn.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Det finns inga regler.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "generalisera",
+      "title": "I samtalet",
+      "situation": "Du hör någon säga: ”Alla japanska familjer bor tillsammans med mor- och farföräldrar.”",
+      "question": "Vad är en rimlig kommentar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det finns sådana familjer, men det vanligaste är kärnfamiljer och enpersonshushåll.",
+          "correct": true,
+          "feedback": "Bra. Du nyanserar med statistik."
+        },
+        {
+          "id": "b",
+          "text": "Det är helt sant.",
+          "correct": false,
+          "feedback": "Fel. De är en minoritet."
+        },
+        {
+          "id": "c",
+          "text": "Det är helt falskt.",
+          "correct": false,
+          "feedback": "Det finns sådana familjer, men de är inte typiska."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka olika boendeformer ser du, till exempel höghus, småhus och bostadsområden?",
+    "Hur ser vardagen ut för barn och äldre på platser du besöker?",
+    "Vad tyder bebyggelsen på om hur människor bor?"
+  ],
+  "reflection": "Vilka antaganden gör du om ”familjen” i ditt eget land? Vad skulle en besökare lätt missa?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilken andel av hushållen var enpersonshushåll 2015?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cirka 35 procent",
+          "correct": true,
+          "feedback": "Rätt: 34,6 procent."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 5 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Cirka 80 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Cirka 50 procent",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Hur stor var den genomsnittliga hushållsstorleken 2015?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2,33 personer",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "6 personer",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "1 person",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "10 personer",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad kräver lagen av gifta par?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ett gemensamt efternamn",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Olika efternamn",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Dubbla efternamn",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inga namn",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är en viktig slutsats av kapitlet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Familjerna varierar och förändras.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alla familjer ser likadana ut.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Familjer finns inte längre.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara tre generationer bor tillsammans.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vilka grupper har blivit vanligare enligt kapitlet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Par utan barn och enpersonshushåll",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Hushåll med tio personer",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingen grupp",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara barnfamiljer",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "stat-households-2015",
+    "japantimes-surname-2021"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Siffrorna om hushåll avser folkräkningen 2015. Nyare siffror finns och bör kontrolleras mot Statistikbyrån.",
+      "Påståendet att kärnfamiljer är drygt hälften bygger på en sammanfattning av Statistikbyråns data (2020).",
+      "Att kvinnan i de flesta fall byter namn bygger på rapporter (över 90 procent) som inte kontrollerades mot en officiell källa.",
+      "Beskrivningar av boende, pendling, arbetstider och äldres liv är allmän bakgrund som inte kontrollerades mot en källa.",
+      "Påståendet att tregenerationshushåll var ovanliga även förr är en förenkling som bör granskas.",
+      "Bildtexten om att danchi byggdes i stor skala under tillväxtåren bygger på allmän kännedom."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t03-k03-hero",
+    "imageId": "hirado-danchi",
+    "brief": "Ett bostadsområde eller en gata med hus och lägenheter i Japan."
+  }
+}

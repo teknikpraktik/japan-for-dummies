@@ -1,0 +1,333 @@
+{
+  "id": "t03-k05",
+  "slug": "minoriteter-och-mangfald",
+  "themeId": "samhalle",
+  "order": 5,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Minoriteter och mångfald",
+  "summary": "Ainu, människor från Okinawa och Ryukyuöarna, zainichi-koreaner, personer med utländsk bakgrund och människor med olika livsvillkor. Ett kapitel om att Japan är mer varierat än bilden utifrån.",
+  "objectives": [
+    "Namnge några minoritetsgrupper och deras historia",
+    "Förklara hur diskriminering och erkännande har förändrats",
+    "Reflektera över hur du själv talar om ”Japan” och ”japaner”"
+  ],
+  "minutes": 9,
+  "hook": {
+    "kind": "question",
+    "text": "”Japanerna är ett homogent folk”, säger man ofta. Men vilka räknas då som ”japaner”, och vilka syns inte i bilden?"
+  },
+  "sections": [
+    {
+      "id": "ainu",
+      "heading": "Ainu och Ryukyu",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Ainu** är ett urfolk med egen kultur och eget språk som historiskt bott på Hokkaido och i norr. Under Meijiperioden införlivades Hokkaido närmare staten (se kapitlet om Edo till Meiji), och många ainu utsattes för assimilering. Först **2019** erkände en lag ainu som urfolk. Lagen stöder kulturen, men kritiker anser att den inte ger tillräckliga rättigheter, till exempel till mark."
+        },
+        {
+          "type": "p",
+          "text": "**Ryukyuöarna**, med Okinawa som största ö, var tidigare ett eget kungarike med egen kultur. Området införlivades med Japan på 1870-talet. Många människor på Okinawa har egen identitet och egna språk, och regionen bär än idag på minnen av kriget och en omfattande amerikansk militär närvaro."
+        }
+      ]
+    },
+    {
+      "id": "zainichi",
+      "heading": "Zainichi-koreaner och andra",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Zainichi-koreaner** är koreaner och deras ättlingar som bor i Japan, många sedan kolonialtiden (se kapitlet om imperialism). Många har fötts och vuxit upp i Japan men har inte japanskt medborgarskap. 1991 infördes en särskild permanent uppehållsstatus, och antalet i den kategorin anges olika i källor, ungefär 290 000 till 310 000. Zainichi har mött diskriminering."
+        },
+        {
+          "type": "p",
+          "text": "Antalet **utländska invånare** har ökat kraftigt, och uppgick vid slutet av 2025 till rekordhöga cirka 4,1 miljoner, bland annat från Kina, Vietnam, Korea och Filippinerna. Det är drygt tre procent av befolkningen. Dessutom finns människor med funktionsnedsättning, olika bakgrunder och livsvillkor som sällan syns i bilden utifrån."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Utländska invånare, slutet av 2025",
+              "value": "4 125 395 (rekord)"
+            },
+            {
+              "label": "Särskilda permanenta invånare (zainichi m.fl.)",
+              "value": "Ca 290 000–310 000, beroende på källa och år"
+            },
+            {
+              "label": "Ainu erkänt som urfolk",
+              "value": "2019"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sprak",
+      "heading": "Hur talar vi om ”Japan”?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Uttrycket ”japanerna” kan dölja variationen. Människor kan ha japanskt medborgarskap och olika bakgrund, eller bo i Japan utan att vara medborgare, eller ha japansk kultur utan att passa i bilden. När du pratar om ”japaner” kan du fråga dig vem du menar."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Respekt i praktiken",
+          "text": "Fråga hellre än att anta. Undvik att fråga människor ”var de kommer ifrån” som om de inte hörde hemma. Lyssna på hur människor själva beskriver sig."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "ainu",
+      "title": "Ainu",
+      "prompt": "Vad innebar lagen från 2019?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ainu erkändes för första gången som urfolk.",
+          "correct": true,
+          "feedback": "Rätt, men kritiker anser att rättigheterna är begränsade."
+        },
+        {
+          "id": "b",
+          "text": "Ainu förbjöds.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Hokkaido blev ett eget land.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "zainichi",
+      "title": "Zainichi",
+      "prompt": "Vilka kallas zainichi-koreaner?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Koreaner och deras ättlingar som bor i Japan, många sedan kolonialtiden.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Japaner som bor i Korea.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Turister i Seoul.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "homogent",
+      "title": "I ett samtal",
+      "situation": "En kamrat säger: ”Japan är ett helt homogent land, alla är japaner.”",
+      "question": "Vad är en bra, nyfiken reaktion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det finns minoriteter som ainu, människor från Okinawa, zainichi-koreaner och många utländska invånare. Det är mer varierat än bilden.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det stämmer helt.",
+          "correct": false,
+          "feedback": "Fel. Det är en förenkling."
+        },
+        {
+          "id": "c",
+          "text": "Det finns bara en grupp.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka grupper syns eller nämns på museer, skyltar och i media?",
+    "Vilka språk ser du på skyltar, förutom japanska?",
+    "Hur beskriver platser du besöker sin egen historia och sina olika grupper?"
+  ],
+  "reflection": "Hur skulle det kännas att höra ”Var kommer du egentligen ifrån?” i ditt eget land? Vad kan du göra annorlunda som besökare?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilket år erkändes ainu som urfolk i lag?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2019",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "1603",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "1868",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "1947",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Var har ainu historiskt bott?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Framför allt på Hokkaido och i norr",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "På Okinawa",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "I Kyoto",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "I Osaka",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad var Ryukyu tidigare?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ett eget kungarike",
+          "correct": true,
+          "feedback": "Rätt. Det införlivades med Japan på 1870-talet."
+        },
+        {
+          "id": "b",
+          "text": "En stad",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tempel",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En shogun",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Ungefär hur många utländska invånare hade Japan i slutet av 2025?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cirka 4,1 miljoner",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 4 tusen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Cirka 400 miljoner",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inga",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en bra princip när du talar om ”japaner”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tänk på vem du menar och undvik generaliseringar.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Anta att alla är likadana.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Fråga alla var de ”egentligen” kommer ifrån.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Aldrig prata om människor.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "japantimes-ainu-law",
+    "wikipedia-koreans-in-japan",
+    "nippon-foreign-residents-2025",
+    "wikipedia-japanese-colonial-empire"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Ryukyukungarikets historia, att området införlivades på 1870-talet, ryukyuspråken och beskrivningen av Okinawa är allmän bakgrund som inte kontrollerades separat mot en källa.",
+      "Beskrivningen av ainu som historiskt bosatta på Hokkaido och i norr samt assimilering är allmän bakgrund.",
+      "Antalet särskilda permanenta invånare varierar mellan källor (cirka 289 000–309 000). Kontrollera mot Justitiedepartementet.",
+      "Andelen ”drygt tre procent” är en egen beräkning och bör kontrolleras. Fördelningen på nationaliteter och påståendet om diskriminering mot zainichi bygger på allmän bakgrund.",
+      "Ämnet är känsligt. Kapitlet bör granskas av en sakkunnig, helst med erfarenhet av minoritetsfrågor.",
+      "Upopoy-bilden föreställer ett återskapat hus (rekonstruktion)."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t03-k05-hero",
+    "imageId": "upopoy-ainuhus",
+    "brief": "Ainukultur eller en miljö som visar Japans variation, till exempel ett museum."
+  }
+}

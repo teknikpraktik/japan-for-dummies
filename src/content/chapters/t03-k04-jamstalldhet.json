@@ -1,0 +1,334 @@
+{
+  "id": "t03-k04",
+  "slug": "jamstalldhet",
+  "themeId": "samhalle",
+  "order": 4,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Jämställdhet i hem, skola och arbetsliv",
+  "summary": "Hur ser jämställdheten ut i Japan jämfört med andra länder? Kapitlet går igenom utbildning, arbete, politik och pågående förändringar.",
+  "objectives": [
+    "Redogöra för hur jämställdhet mäts och vad siffrorna visar",
+    "Beskriva förändringar och diskussioner i Japan",
+    "Jämföra utan att döma"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "I en internationell jämförelse hamnar Japan långt ner när det gäller jämställdhet, men i utbildning nära toppen. Hur går det ihop?"
+  },
+  "sections": [
+    {
+      "id": "matt",
+      "heading": "Hur mäts jämställdhet?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ett vanligt mått är Världsekonomiskt forums (WEF) **Global Gender Gap Index**. Det jämför kvinnors och mäns ställning inom fyra områden: ekonomiskt deltagande, utbildning, hälsa och politiskt inflytande. Indexet mäter **skillnader**, inte hur bra livet är."
+        },
+        {
+          "type": "p",
+          "text": "I 2025 års rapport hamnade Japan på plats **118 av 148 länder**, samma plats som året innan och den lägsta bland G7-länderna. Poängen var 0,666, att jämföra med ett globalt snitt på 0,688. Mest haltar det i **politik** (plats 125) och **ekonomi** (plats 112). I utbildning och hälsa är skillnaderna små."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Japans placering 2025",
+              "value": "118 av 148"
+            },
+            {
+              "label": "Politik",
+              "value": "Plats 125"
+            },
+            {
+              "label": "Ekonomi",
+              "value": "Plats 112"
+            },
+            {
+              "label": "Utbildning och hälsa",
+              "value": "Små skillnader"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forandring",
+      "heading": "Vad diskuteras?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Diskussionerna i Japan gäller bland annat hur få kvinnor som sitter i parlament och på ledande poster, vem som tar ansvar för hem och barn, och hur arbetslivet kan bli mer flexibelt. Kvinnor fick rösträtt 1946, och sedan dess har lagar och attityder förändrats, men olika grupper har olika uppfattningar om takten."
+        },
+        {
+          "type": "p",
+          "text": "Flera pågående frågor kopplas till jämställdhet, till exempel lagen om gemensamt efternamn (se kapitlet om familj). Diskussionerna förs av politiker, företag, forskare och människor i vardagen, och de är inte enhetliga."
+        }
+      ]
+    },
+    {
+      "id": "jamfor",
+      "heading": "Jämföra utan att döma",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Det är lätt att jämföra Japan med Sverige och dra slutsatsen att ”Japan ligger efter”. Siffror kan vara användbara, men de visar inte allt: de mäter vissa saker och inte andra, och de säger inget om människors egna erfarenheter. Samtidigt är det rimligt att ta siffrorna på allvar."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Tre frågor att ställa",
+          "text": "1. Vad mäter siffran, och vad mäter den inte? 2. Vem har sagt det, och vilka perspektiv saknas? 3. Hur ser det ut hemma hos oss, mätt på samma sätt?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "index",
+      "title": "Vad mäter indexet?",
+      "prompt": "Vad mäter Global Gender Gap Index?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skillnader mellan kvinnor och män inom ekonomi, utbildning, hälsa och politik.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Hur lyckliga människor är.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Hur mycket människor tjänar i genomsnitt.",
+          "correct": false,
+          "feedback": "Fel. Det mäter skillnader, inte nivåer."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "omrade",
+      "title": "Svagaste området",
+      "prompt": "Vilket område drar ner Japans placering mest enligt 2025 års siffror?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Politik",
+          "correct": true,
+          "feedback": "Rätt. Plats 125."
+        },
+        {
+          "id": "b",
+          "text": "Utbildning",
+          "correct": false,
+          "feedback": "Fel. Där är skillnaderna små."
+        },
+        {
+          "id": "c",
+          "text": "Hälsa",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "jamforelse",
+      "title": "I en diskussion",
+      "situation": "Någon säger: ”Japan är 118:e i jämställdhet, alltså är alla japanska kvinnor förtryckta.”",
+      "question": "Hur svarar du bäst?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Indexet visar skillnader i grupper. Det säger inget om varje människas liv, och det finns stor variation.",
+          "correct": true,
+          "feedback": "Rätt. Statistik beskriver mönster, inte individer."
+        },
+        {
+          "id": "b",
+          "text": "Ja, det stämmer.",
+          "correct": false,
+          "feedback": "En förenkling."
+        },
+        {
+          "id": "c",
+          "text": "Nej, siffrorna betyder ingenting.",
+          "correct": false,
+          "feedback": "Siffrorna betyder något, men har begränsningar."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur ser du kvinnor och män i olika yrken och roller på platser du besöker?",
+    "Vilka skyltar eller tjänster är riktade till kvinnor eller män, och varför tror du att de finns?",
+    "Hur pratar människor du möter om arbete och familj?"
+  ],
+  "reflection": "Vad skulle du vilja veta mer om innan du jämför jämställdheten i Japan och i ditt eget land?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilken plats hade Japan i 2025 års jämställdhetsindex?",
+      "options": [
+        {
+          "id": "a",
+          "text": "118 av 148",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "1 av 148",
+          "feedback": "Fel. Det är Island."
+        },
+        {
+          "id": "c",
+          "text": "50 av 148",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "148 av 148",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vilket område är svagast för Japan enligt 2025 års siffror?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Politik",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Utbildning",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Hälsa",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad mäter indexet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skillnader mellan kvinnor och män",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Människors lycka",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Lönernas storlek",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Antalet skolor",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "När fick kvinnor rösträtt i Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1946",
+          "correct": true,
+          "feedback": "Rätt, i samband med efterkrigstidens reformer."
+        },
+        {
+          "id": "b",
+          "text": "1868",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "2016",
+          "feedback": "Fel. Då sänktes rösträttsåldern."
+        },
+        {
+          "id": "d",
+          "text": "1603",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en bra princip när man jämför länder?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fråga vad siffrorna mäter och inte mäter.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Lita blint på en siffra.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ignorera all statistik.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Dömma snabbt.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "nippon-gender-gap-2025",
+    "japantimes-surname-2021"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Att indexet har fyra delområden och beskrivningen av vad det mäter är allmän bakgrund.",
+      "Siffrorna avser 2025 års rapport. Nyare utgåvor kan finnas.",
+      "Beskrivningen av diskussionerna (kvinnor i parlament och ledande poster, ansvar för hem och barn, arbetsliv) och att kvinnor fick rösträtt 1946 är allmän bakgrund som inte kontrollerades separat.",
+      "Ämnet är laddat. En sakkunnig bör granska ordval och balans.",
+      "Bildtexten om kvinnovagnar bygger på texten på skylten och allmän kännedom. Reglerna varierar mellan bolag och tider."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t03-k04-hero",
+    "imageId": "kvinnovagn-skylt",
+    "brief": "Ett neutralt vardagsmotiv, till exempel en skylt eller en miljö som visar hur kön och vardagsliv hänger ihop."
+  }
+}
