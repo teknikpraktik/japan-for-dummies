@@ -217,6 +217,81 @@
     ]
   },
   {
+    "id": "hirado-danchi",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/hirado-danchi/hirado-danchi-480.webp",
+        "width": 480,
+        "height": 271,
+        "bytes": 18994,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/hirado-danchi/hirado-danchi-960.webp",
+        "width": 960,
+        "height": 542,
+        "bytes": 60678,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/hirado-danchi/hirado-danchi-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 23372,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/hirado-danchi/hirado-danchi-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 53372,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.6,
+      "y": 0.4
+    },
+    "creator": "E217",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HiradoDanchi.JPG",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Hirado, Totsuka, Yokohama",
+      "verifiedBy": "Commons-filsidans beskrivning (Hirado-cho, Totsuka Ward, Yokohama)"
+    },
+    "year": {
+      "value": "2011",
+      "verifiedBy": "Commons-filsidans datumfält (1 maj 2011)"
+    },
+    "caption": "Ett flervåningshus i ett danchi, ett större bostadsområde med hyreshus, i Hirado i Yokohama, 2011. Danchi byggdes i stor skala under efterkrigstidens tillväxtår.",
+    "alt": "Ett långt, ljust flervåningshus med balkonger sett nerifrån, med kraftledningar framför och grönska till vänster.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t03-k03"
+    ]
+  },
+  {
     "id": "hirado-risterrasser",
     "kind": "contemporary-photo",
     "variants": [
@@ -593,6 +668,81 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t05-k01"
+    ]
+  },
+  {
+    "id": "kvinnovagn-skylt",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/kvinnovagn-skylt/kvinnovagn-skylt-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 17538,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/kvinnovagn-skylt/kvinnovagn-skylt-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 47380,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/kvinnovagn-skylt/kvinnovagn-skylt-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 19744,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/kvinnovagn-skylt/kvinnovagn-skylt-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 39074,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.55
+    },
+    "creator": "Cale Bruckner",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Women_Only.jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Cale Bruckner, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Japan (pendeltågsperrong)",
+      "verifiedBy": "Commons-filsidans beskrivning (Sign at boarding area for women-only passenger car on Japanese commuter rail)"
+    },
+    "year": {
+      "value": "2005",
+      "verifiedBy": "Commons-filsidans datumfält (1 december 2005)"
+    },
+    "caption": "Skylt på en perrong som visar var en kvinnovagn stannar. På vardagar är en vagn på vissa tåg reserverad för kvinnor. Fotografi från 2005.",
+    "alt": "Röd golvskylt med vita blommor och texten Women Only på japanska och engelska på en perrong, med en gul ledstråkslist ovanför.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t03-k04"
     ]
   },
   {
@@ -1165,7 +1315,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t02-k05"
+      "t02-k05",
+      "t03-k01"
     ]
   },
   {
@@ -1542,6 +1693,81 @@
     "usedIn": [
       "t02-k02",
       "t01-k04"
+    ]
+  },
+  {
+    "id": "shinjuku-parktower",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/shinjuku-parktower/shinjuku-parktower-480.webp",
+        "width": 480,
+        "height": 271,
+        "bytes": 30410,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/shinjuku-parktower/shinjuku-parktower-960.webp",
+        "width": 960,
+        "height": 542,
+        "bytes": 134308,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/shinjuku-parktower/shinjuku-parktower-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 42472,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/shinjuku-parktower/shinjuku-parktower-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 122982,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.4,
+      "y": 0.45
+    },
+    "creator": "Jason Goh",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shinjuku_Park_Tower,_NTT_East,_and_Tokyo_Opera_City,_view_from_the_Tokyo_Metropolitan_Government_Building_No.2_(2013-06-07_by_Jason_Goh_%40Pixabay_217878).jpg",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Shinjuku, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning och kategorier (June 2013 in Tokyo)"
+    },
+    "year": {
+      "value": "2013",
+      "verifiedBy": "Commons-filsidans datumfält (7 juni 2013)"
+    },
+    "caption": "Utsikt över Shinjuku i Tokyo från Tokyos stadshus, juni 2013. I storstadsregionen Tokyo bor en stor del av Japans befolkning.",
+    "alt": "Utsikt från hög höjd över tät bebyggelse i Tokyo med några höga skyskrapor och mindre byggnader i förgrunden, under en molnig himmel.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t03-k02"
     ]
   },
   {
@@ -2102,6 +2328,156 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t04-k01"
+    ]
+  },
+  {
+    "id": "upopoy-ainuhus",
+    "kind": "reconstruction",
+    "variants": [
+      {
+        "path": "/images/upopoy-ainuhus/upopoy-ainuhus-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 42342,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/upopoy-ainuhus/upopoy-ainuhus-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 206508,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/upopoy-ainuhus/upopoy-ainuhus-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 42342,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/upopoy-ainuhus/upopoy-ainuhus-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 136762,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.35,
+      "y": 0.5
+    },
+    "creator": "Higa4",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shiraoi-upopoy_14.jpg",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Upopoy, Shiraoi, Hokkaido",
+      "verifiedBy": "Commons-filsidans beskrivning (Upopoy / National Ainu Museum, Shiraoi) och kategori Kotan, Upopoy"
+    },
+    "year": {
+      "value": "2020",
+      "verifiedBy": "Commons-filsidans datumfält (15 november 2020)"
+    },
+    "caption": "Ett återskapat ainuhus (chise) vid Upopoy, den nationella ainumuseet och parken i Shiraoi på Hokkaido, 2020. Det är en rekonstruktion och inte ett originalhus.",
+    "alt": "Ett långt hus med tjockt halmtak och små fönster bredvid ett staket och en informationsskylt, med kala träd bakom.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t03-k05"
+    ]
+  },
+  {
+    "id": "valtavlor-nagano",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/valtavlor-nagano/valtavlor-nagano-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22208,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/valtavlor-nagano/valtavlor-nagano-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 82802,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/valtavlor-nagano/valtavlor-nagano-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 25664,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/valtavlor-nagano/valtavlor-nagano-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 67026,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.6,
+      "y": 0.4
+    },
+    "creator": "Ryo FUKAsawa",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%82%E8%AD%B0%E9%99%A2%E9%95%B7%E9%87%8E%E7%9C%8C%E9%81%B8%E5%87%BA%E8%AD%B0%E5%93%A1%E9%81%B8%E6%8C%99%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC%E6%8E%B2%E7%A4%BA%E6%9D%BF_Jun_5,_2025.jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Ryo FUKAsawa, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Nagano, Nagano prefektur",
+      "verifiedBy": "Commons-filsidans beskrivning och kategorier (Nagano, Nagano; Empty election bulletin boards in Japan)"
+    },
+    "year": {
+      "value": "2025",
+      "verifiedBy": "Commons-filsidans datumfält (5 juni 2025)"
+    },
+    "caption": "Tomma anslagstavlor för valaffischer vid ett val till rådmannahuset i Nagano, juni 2025. Varje ruta är numrerad för en kandidat.",
+    "alt": "Två rader numrerade, vita anslagstavlor på en vägg bredvid ett staket och ett hus, utan affischer.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t03-k01"
     ]
   },
   {

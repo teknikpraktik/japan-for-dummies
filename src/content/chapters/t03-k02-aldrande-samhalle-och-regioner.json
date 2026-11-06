@@ -1,0 +1,337 @@
+{
+  "id": "t03-k02",
+  "slug": "aldrande-samhalle-och-regioner",
+  "themeId": "samhalle",
+  "order": 2,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Ett åldrande samhälle och regionala skillnader",
+  "summary": "Befolkningen minskar och blir äldre, men inte likadant överallt. Kapitlet visar hur det märks i storstäder och på landsbygd.",
+  "objectives": [
+    "Förklara vad ett åldrande samhälle innebär",
+    "Beskriva regionala skillnader i befolkning och service",
+    "Diskutera möjliga lösningar utan att förenkla"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Nästan var tredje person i Japan är över 65 år. Hur märks det i en storstad, och hur märks det i en by?"
+  },
+  "sections": [
+    {
+      "id": "siffror",
+      "heading": "Äldre och färre",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ett åldrande samhälle betyder att andelen äldre ökar medan andelen unga och personer i arbetsför ålder minskar. I Japan är det tydligt: andelen över 65 år nådde 2025 rekordhöga **29,4 procent**, den högsta bland länder med över 40 miljoner invånare. Samtidigt föds färre barn: preliminära siffror visar **705 809** födda 2025, tionde året i rad med minskning."
+        },
+        {
+          "type": "p",
+          "text": "Eftersom fler dör än föds minskar befolkningen sedan över femton år. Gruppen i arbetsför ålder (15–64 år) utgör ungefär 60 procent av befolkningen."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Andel över 65 år",
+              "value": "29,4 procent (2025)"
+            },
+            {
+              "label": "Födda 2025",
+              "value": "705 809 (preliminärt, −2,1 % från 2024)"
+            },
+            {
+              "label": "Befolkning",
+              "value": "Minskar sedan flera år"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regioner",
+      "heading": "Stad och landsbygd",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Befolkningsminskningen är inte jämnt fördelad. Enligt rapporter är Tokyo den enda prefektur som fortsatt växer, och koncentrationen till Tokyoområdet har inte minskat. Många små orter förlorar unga människor som flyttar för studier och arbete."
+        },
+        {
+          "type": "p",
+          "text": "På landsbygden kan det betyda färre barn i skolor, färre butiker och mindre kollektivtrafik, och att sjukhus och service ligger längre bort. Landet har också ungefär **9 miljoner tomma bostäder** (cirka 13,8 procent enligt en undersökning från 2023). Många av dem finns på landsbygden och kallas **akiya**."
+        }
+      ]
+    },
+    {
+      "id": "losningar",
+      "heading": "Vad görs, och vad är svårt?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Det finns inga enkla lösningar. Diskussioner gäller bland annat stöd till familjer, att fler kan arbeta längre, ökad användning av teknik och robotar i vården, stöd till orter som vill locka nya invånare, och **invandring**: antalet utländska invånare nådde vid slutet av 2025 en rekordnivå på cirka 4,1 miljoner."
+        },
+        {
+          "type": "p",
+          "text": "Alla förslag har för- och nackdelar, och det råder oenighet om vad som fungerar bäst. Det som också är viktigt är att inte betrakta äldre bara som en ”börda”: många är aktiva, arbetar, ideellt eller med familj, och bidrar mycket."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Undvik förenklingar",
+          "text": "”Japan dör ut” är en sorglig rubrik men en förenkling. Befolkningen är fortfarande över 120 miljoner. Förändringen är långsam, ojämn och påverkar olika platser olika."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "aldrande",
+      "title": "Vad menas med ett åldrande samhälle?",
+      "prompt": "Välj den bästa förklaringen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "En växande andel äldre och en minskande andel unga och personer i arbetsför ålder.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Att alla människor blir äldre samtidigt.",
+          "correct": false,
+          "feedback": "Fel. Det handlar om andelar i befolkningen."
+        },
+        {
+          "id": "c",
+          "text": "Att barn inte längre går i skolan.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "akiya",
+      "title": "Vad är akiya?",
+      "prompt": "Vad betyder ordet akiya?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tomma hus, ofta på landsbygden.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En typ av tåg.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett högtidsmål.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "by",
+      "title": "I en by",
+      "situation": "Du besöker en liten by där skolan har bara ett fåtal elever. En lokal berättar att många unga flyttat till storstäder.",
+      "question": "Hur ser du på det?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det är en del av ett större mönster, och lösningar diskuteras. Jag frågar vad byn själv gör.",
+          "correct": true,
+          "feedback": "Bra. Du kopplar till helheten utan att dömma."
+        },
+        {
+          "id": "b",
+          "text": "Det är hopplöst, byn dör ut.",
+          "correct": false,
+          "feedback": "Det är en förenkling. Det finns också initiativ för att locka nya invånare."
+        },
+        {
+          "id": "c",
+          "text": "Det beror bara på att byborna inte vill ha förändring.",
+          "correct": false,
+          "feedback": "Det är en orättvis förenkling."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Märker du tomma hus, stängda butiker eller färre turer i kollektivtrafiken utanför storstäderna?",
+    "Hur anpassas samhället för äldre: skyltar, hissar, bänkar?",
+    "Vad gör orter för att locka besökare eller nya invånare?"
+  ],
+  "reflection": "Hur skulle ditt eget samhälle förändras om andelen äldre ökade snabbt? Vad skulle du prioritera?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Ungefär hur stor andel av befolkningen i Japan var över 65 år 2025?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cirka 29 procent",
+          "correct": true,
+          "feedback": "Rätt: 29,4 procent."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 5 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Cirka 50 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Cirka 10 procent",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad händer med födelsetalen enligt kapitlet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den har minskat flera år i rad.",
+          "correct": true,
+          "feedback": "Rätt. Tionde året i rad enligt preliminära siffror för 2025."
+        },
+        {
+          "id": "b",
+          "text": "Den har ökat kraftigt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Den är oförändrad.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen vet.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vilken prefektur växer fortfarande enligt rapporter?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tokyo",
+          "correct": true,
+          "feedback": "Rätt, enligt Japan Times."
+        },
+        {
+          "id": "b",
+          "text": "Hokkaido",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Shimane",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Okinawa",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad kallas tomma hus på japanska?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Akiya",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Onsen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Sushi",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Shinto",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Varför bör man vara försiktig med rubriken ”Japan dör ut”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Befolkningen är fortfarande över 120 miljoner och förändringen är långsam och ojämn.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "För att befolkningen ökar snabbt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "För att inga äldre bor i Japan.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "För att det inte finns någon statistik.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "thestar-65-share",
+    "dawn-births-2025",
+    "japantimes-tokyo-overconcentration",
+    "tbs-akiya",
+    "asianews-vacant-homes",
+    "nippon-foreign-residents-2025"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Antalet födda 2025 är preliminära siffror.",
+      "Påståendet att befolkningen är över 120 miljoner och att gruppen 15–64 år utgör cirka 60 procent bygger på sökresultat från mindre pålitliga sammanställningar och bör kontrolleras mot Statistikbyrån.",
+      "Beskrivningen av konsekvenser på landsbygden (skolor, butiker, kollektivtrafik, sjukvård) och av möjliga lösningar är allmän bakgrund.",
+      "Siffrorna om tomma bostäder avser undersökningen från 2023."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t03-k02-hero",
+    "imageId": "shinjuku-parktower",
+    "brief": "Ett motiv som visar stad eller landsbygd i Japan, till exempel en by eller en storstadsgata."
+  }
+}

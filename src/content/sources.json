@@ -378,5 +378,115 @@
     "checkedOn": "2026-11-06",
     "access": "search-result-summary",
     "supports": "Ockupationspolitikens inriktning och vändningen 1947–48 mot ekonomisk återuppbyggnad."
+  },
+  {
+    "id": "wikipedia-national-diet",
+    "title": "National Diet",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/National_Diet",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att parlamentet har två kamrar, representanthuset (465 ledamöter, fyra år) och rådmannahuset (248), att representanthuset är den starkare kammaren och att rösträttsåldern sänktes från 20 till 18 år 2016."
+  },
+  {
+    "id": "shugiin-structure",
+    "title": "Structure of the National Diet",
+    "publisher": "House of Representatives of Japan",
+    "url": "https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/guide/structure.htm",
+    "kind": "official",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Riksdagens uppbyggnad med två kamrar vars ledamöter väljs av folket."
+  },
+  {
+    "id": "thestar-65-share",
+    "title": "Japan's share of population aged 65 or older hits record high of 29.4 per cent",
+    "publisher": "The Star (Kyodo)",
+    "url": "https://thestar.com.my/aseanplus/aseanplus-news/2025/09/14/japan039s-share-of-population-aged-65-or-older-hits-record-high-of-294-per-cent",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att andelen över 65 år i Japan nått rekordhöga 29,4 procent, högst bland länder med över 40 miljoner invånare."
+  },
+  {
+    "id": "dawn-births-2025",
+    "title": "Japan births fall for 10th straight year",
+    "publisher": "Dawn (AFP)",
+    "url": "https://www.dawn.com/news/amp/1975888",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att födelsetalen enligt preliminära uppgifter var 705 809 år 2025, en nedgång på 2,1 procent och tionde året i rad."
+  },
+  {
+    "id": "nippon-gender-gap-2025",
+    "title": "No Improvement for Japan in 2025 Gender Gap Ranking",
+    "publisher": "nippon.com",
+    "url": "https://www.nippon.com/en/japan-data/h02444/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att Japan 2025 rankades 118:e av 148 länder i WEF:s jämställdhetsindex, samma plats som året före, och att politik är den svagaste delen (125:e)."
+  },
+  {
+    "id": "stat-households-2015",
+    "title": "Population of Japan: Households (2015 census)",
+    "publisher": "Statistics Bureau of Japan",
+    "url": "https://www.stat.go.jp/english/data/kokusei/2015/poj/pdf/2015ch08.pdf",
+    "kind": "official",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att enpersonshushåll stod för 34,6 procent av hushållen 2015 och att hushållens genomsnittsstorlek föll från 2,98 (1990) till 2,33 (2015)."
+  },
+  {
+    "id": "japantimes-surname-2021",
+    "title": "Top court surname ruling",
+    "publisher": "The Japan Times",
+    "url": "https://www.japantimes.co.jp/news/2021/06/23/national/crime-legal/top-court-surname-ruling/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att högsta domstolen 2015 och 2021 godkände kravet att gifta par har samma efternamn, med en uppmaning att riksdagen tar upp frågan."
+  },
+  {
+    "id": "japantimes-ainu-law",
+    "title": "Japan enacts law to recognize Ainu as indigenous despite criticism",
+    "publisher": "The Japan Times",
+    "url": "https://www.japantimes.co.jp/news/2019/04/19/national/japan-enacts-law-recognize-ainu-indigenous-despite-criticism-ethnic-group",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att lagen från 2019 för första gången erkänner ainu som ett urfolk, och att kritiker anser att den saknar rättigheter, till exempel till mark."
+  },
+  {
+    "id": "wikipedia-koreans-in-japan",
+    "title": "Koreans in Japan",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Koreans_in_Japan",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Zainichi-koreaners bakgrund, att särskild permanent uppehållsstatus infördes 1991 och att antalet i den kategorin anges olika (cirka 290 000–310 000) beroende på källa och år."
+  },
+  {
+    "id": "nippon-foreign-residents-2025",
+    "title": "Foreign residents in Japan reach record",
+    "publisher": "nippon.com (Jiji)",
+    "url": "https://www.nippon.com/en/news/yjj2026032700900",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att antalet utländska invånare i Japan vid slutet av 2025 var rekordhöga 4 125 395."
+  },
+  {
+    "id": "japantimes-tokyo-overconcentration",
+    "title": "Tokyo overconcentration",
+    "publisher": "The Japan Times",
+    "url": "https://japantimes.co.jp/news/2024/06/11/japan/tokyo-overconcentration",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att Tokyo är den enda prefekturen med fortsatt befolkningstillväxt och att koncentrationen till Tokyoområdet inte har minskat."
   }
 ]
