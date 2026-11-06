@@ -1038,7 +1038,8 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t04-k01",
-      "t06-k04"
+      "t06-k04",
+      "t07-k04"
     ]
   },
   {
@@ -1408,7 +1409,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 3:2 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t07-k01"
+      "t07-k01",
+      "t07-k05"
     ]
   },
   {
@@ -2646,6 +2648,81 @@
     ]
   },
   {
+    "id": "takoyaki-osaka",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/takoyaki-osaka/takoyaki-osaka-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 15806,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/takoyaki-osaka/takoyaki-osaka-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 50848,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/takoyaki-osaka/takoyaki-osaka-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 18614,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/takoyaki-osaka/takoyaki-osaka-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 43762,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.45
+    },
+    "creator": "City Foodsters",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Honkeohtako's_takoyaki,_Osaka%3B_December_2013_(06).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: City Foodsters, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Dotonbori, Osaka",
+      "verifiedBy": "Commons-filsidans kategorier (December 2013 in Osaka; Takoyaki cooking; Acchichi Honpo Dotonbori)"
+    },
+    "year": {
+      "value": "2013",
+      "verifiedBy": "Commons-filsidans datumfält (28 december 2013)"
+    },
+    "caption": "Takoyaki, degbollar med bläckfisk, toppade med sås, tångflingor och salladslök, från ett stånd i Dotonbori i Osaka, december 2013.",
+    "alt": "Papperstråg med takoyaki-bollar toppade med majonnäs, grön lök och en rosa bit ingefära, med ätpinnar bredvid på ett träbord.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t07-k03"
+    ]
+  },
+  {
     "id": "todaiji-buddhahallen",
     "kind": "contemporary-photo",
     "variants": [
@@ -3248,7 +3325,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t07-k01"
+      "t07-k01",
+      "t07-k02"
     ]
   }
 ]

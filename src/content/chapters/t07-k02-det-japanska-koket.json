@@ -1,0 +1,334 @@
+{
+  "id": "t07-k02",
+  "slug": "det-japanska-koket",
+  "themeId": "mat",
+  "order": 2,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Det japanska köket: ris, fisk, sojabönor och dashi",
+  "summary": "Basen i hemlagad mat och restaurangmat, från ris och misosoppa till dashi. Kapitlet förklarar smaker, ingredienser och vad en vanlig måltid kan bestå av.",
+  "objectives": [
+    "Namnge grundingredienser i japansk matlagning",
+    "Förklara vad dashi är och varför det spelar roll",
+    "Beskriva hur en traditionell måltid kan vara uppbyggd"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Japansk mat beskrivs ofta som lätt, men samtidigt som full av smak. Hur kan det vara möjligt utan mycket fett eller kryddor?"
+  },
+  "sections": [
+    {
+      "id": "maltid",
+      "heading": "En traditionell måltid",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Den traditionella japanska måltiden brukar byggas upp som **ichiju sansai**, ”en soppa och tre rätter”: kokt **ris**, en **soppa** (ofta misosoppa), en huvudrätt av fisk, kött eller tofu och två tillbehör, till exempel grönsaker, inlagda grönsaker eller tång. Måltiden är ofta balanserad och består av flera små skålar i stället för en stor tallrik."
+        },
+        {
+          "type": "p",
+          "text": "Matkulturen kallas **washoku** (”japansk mat”). 2013 skrevs ”den traditionella japanska matkulturen” in på Unescos lista över immateriellt kulturarv. Det är alltså en matkultur och ett sätt att äta, inte en lista med enskilda rätter som sushi eller tempura."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Ris",
+              "value": "Basen i måltiden, ofta kokt och serverat vitt"
+            },
+            {
+              "label": "Soppa",
+              "value": "Ofta miso, gjord på dashi"
+            },
+            {
+              "label": "Huvudrätt",
+              "value": "Fisk, kött, ägg eller tofu"
+            },
+            {
+              "label": "Tillbehör",
+              "value": "Grönsaker, inlagt, tång"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingredienser",
+      "heading": "Ris, fisk, sojabönor",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Några grundingredienser: **ris**, **fisk och skaldjur**, **sojabönor** i många former (**tofu**, **miso** (fermenterad sojabönspasta), **sojasås**, **natto**), **grönsaker** och **tång**. Smaksättningen kommer ofta från fermenterade produkter, som miso och sojasås, och från dashi."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Säsong",
+          "text": "Japanskt kök fäster stor vikt vid säsong: samma ingrediens kan ha olika roll beroende på årstid. Det syns i menyer och i butiker."
+        }
+      ]
+    },
+    {
+      "id": "dashi",
+      "heading": "Dashi: smaken i botten",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Dashi** är en buljong som ligger bakom miso, nudelsoppor, grytor och många såser. Den görs ofta på **kombu** (tång) och **katsuobushi** (torkad, rökt bonito, en sorts tonfisk). Kombu bidrar med glutaminsyra och katsuobushi med inosinsyra, och tillsammans förstärker de **umami**, den femte grundsmaken. Därför kan en maträtt smaka fylligt utan mycket fett eller salt."
+        },
+        {
+          "type": "p",
+          "text": "Dashi är också skälet till att många rätter som ser vegetariska ut innehåller fisk, vilket du behöver veta om du eller någon i gruppen undviker fisk (se kapitlet om allergier och särskilda behov)."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "ichiju",
+      "title": "Ichiju sansai",
+      "prompt": "Vad betyder ichiju sansai ungefär?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En soppa och tre rätter",
+          "correct": true,
+          "feedback": "Rätt, utöver riset."
+        },
+        {
+          "id": "b",
+          "text": "Tre soppor och en rätt",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Sushi och te",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "dashi",
+      "title": "Dashi",
+      "prompt": "Vad är dashi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En buljong, ofta på kombu och katsuobushi.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ett slags ris.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En typ av tofu.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "miso",
+      "title": "Misosoppa",
+      "situation": "Du beställer misosoppa och undrar om den är vegetarisk.",
+      "question": "Vad är en bra slutsats?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den är troligen gjord på dashi med fisk, så jag frågar.",
+          "correct": true,
+          "feedback": "Rätt. Dashi innehåller ofta fisk."
+        },
+        {
+          "id": "b",
+          "text": "Den är säkert vegetarisk eftersom miso är sojabönor.",
+          "correct": false,
+          "feedback": "Miso är sojabönor, men soppan görs oftast på dashi."
+        },
+        {
+          "id": "c",
+          "text": "Jag kan inte äta något alls.",
+          "correct": false,
+          "feedback": "Det finns alternativ. Fråga eller välj rätt ställe."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur är måltiderna uppbyggda: ris, soppa, flera små skålar?",
+    "Vilka smaker känner du igen: umami, sojasås, miso?",
+    "Vilka rätter är säsongsbetonade?"
+  ],
+  "reflection": "Vilka smaker är basen i maten hemma hos dig? Vad skulle en besökare tycka var ovant?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilket är basen i en traditionell måltid?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ris",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Pasta",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Potatis",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bröd",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad är miso?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fermenterad sojabönspasta",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Fisk",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tecken",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Te",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad är umami?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En grundsmak som ger fyllighet",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En sorts ris",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En maträtt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ett kök",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad ingår ofta i dashi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kombu och katsuobushi",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Mjölk och smör",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Kaffe",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Äpplen",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad kom Unesco-listan 2013 att gälla?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den traditionella japanska matkulturen (washoku)",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Bara sushi",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara tempura",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara ramen",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "fun-japan-ichiju-sansai",
+    "kikkoman-washoku",
+    "govonline-washoku",
+    "unseen-vegetarian-dashi"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Unesco-uppgiften (2013) och dashi/umami-förklaringen kommer från sammanfattade sökresultat. Källorna är delvis företags- och reseguidesidor.",
+      "Källorna skiljer sig om vad Unesco-listningen exakt avser (matkulturen kring nyår eller allmänt). Kapitlet säger bara ”matkulturen”.",
+      "Beskrivningen av grundingredienser, säsong och måltidens uppbyggnad är förenklad och bör granskas av en kunnig person."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t07-k02-hero",
+    "imageId": "yoshinoya-teishoku",
+    "brief": "Japansk måltid, till exempel ett teishoku med ris, soppa och tillbehör."
+  }
+}
