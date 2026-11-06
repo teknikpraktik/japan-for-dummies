@@ -8,7 +8,6 @@ const pages = [
   "/utbildning/historia/",
   "/utbildning/resa/",
   ...pilots.map((c) => `/kapitel/${c.slug}/`),
-  "/kapitel/shinto/",
   "/offline/",
   "/kallor/",
   "/bildkallor/",

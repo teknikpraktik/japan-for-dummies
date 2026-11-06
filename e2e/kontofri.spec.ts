@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { pilots, takeQuiz } from "./helpers";
+import { pilots, takeQuiz, UPCOMING_THEME } from "./helpers";
 
 /** Kontofritt läge (standard): ingen inloggning, inga serveranrop om framsteg, allt sparas lokalt. */
 const chapter = pilots.find((c) => c.slug === "arstider-och-klimat")!;
@@ -202,11 +202,11 @@ test.describe("kontofri tjänst", () => {
     expect(counts.length).toBeGreaterThan(0);
     for (const t of counts) expect(t).toMatch(/^(1 kapitel tillgängligt|\d+ kapitel tillgängliga) · \d+ slutförda$/);
     // kommande tema: etikett, ingen framstegsindikator, men öppningsbart med kapitelöversikt
-    const upcoming = page.getByTestId("theme-card-religion");
+    const upcoming = page.getByTestId(`theme-card-${UPCOMING_THEME}`);
     await expect(upcoming).toContainText("Kommer senare");
     await expect(upcoming.getByRole("progressbar")).toHaveCount(0);
     await upcoming.getByRole("link").click();
-    await expect(page).toHaveURL(/\/utbildning\/religion\/$/);
+    await expect(page).toHaveURL(new RegExp(`/utbildning/${UPCOMING_THEME}/$`));
     await expect(page.locator("[data-testid^='chapter-card-']").first()).toBeVisible();
   });
 

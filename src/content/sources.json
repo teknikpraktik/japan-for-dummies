@@ -818,5 +818,85 @@
     "checkedOn": "2026-11-06",
     "access": "search-result-summary",
     "supports": "Att många närbutiker har ätplatser men att FamilyMart planerar att ta bort några."
+  },
+  {
+    "id": "jnto-two-bows-two-claps",
+    "title": "Two bows and two claps: the ins and outs of Shinto shrines",
+    "publisher": "Japan National Tourism Organization",
+    "url": "https://www.japan.travel/en/uk/inspiration/two-bows-and-two-claps-the-ins-and-outs-of-shinto-shrines/",
+    "kind": "official",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Torii som ingång till helig mark, rening vid vattenpaviljongen (temizuya) och bönesekvensen två bugningar, två klappar och en bugning (med undantag, till exempel fyra klappar vid Izumo Taisha)."
+  },
+  {
+    "id": "kanagawa-shrines-temples",
+    "title": "Shrines and temples: Japanese customs and manners",
+    "publisher": "Kanagawa Prefecture (tourism)",
+    "url": "https://trip.pref.kanagawa.jp/feature/japanese-customs-and-manners/shrines-temples",
+    "kind": "official",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Allmänna seder och regler vid helgedomar och tempel för besökare. Sammanfattning ur sökresultat."
+  },
+  {
+    "id": "jal-temple-shrine",
+    "title": "What to know before visiting a temple and shrine in Japan",
+    "publisher": "Japan Airlines",
+    "url": "https://www.jal.co.jp/uk/en/guide-to-japan/plan-your-trip/tips/what-to-know-temple-and-shrine-visit-in-japan.html",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att helgedomar har torii och tempel en lutande ingångsport, bugning vid torii, rening, myntoffer (femyen anses lyckosamt), att man generellt får fotografera området men inte inomhus, och att man inte äter utanför anvisade platser."
+  },
+  {
+    "id": "justonecookbook-shrine-etiquette",
+    "title": "Etiquette tips for visiting shrines and temples in Japan",
+    "publisher": "Just One Cookbook",
+    "url": "https://www.justonecookbook.com/etiquette-tips-for-visiting-shrines-and-temples-in-japan",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Praktiska etikettråd för besök vid helgedomar och tempel (rening, bön, offer, omikuji, ema)."
+  },
+  {
+    "id": "wikipedia-buddhism-in-japan",
+    "title": "Buddhism in Japan",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Buddhism_in_Japan",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att buddhismen enligt traditionen kom omkring år 552 via Baekje, att Zen, rena landet-skolorna och Nichiren utvecklades och att buddhism och shinto samexisterat."
+  },
+  {
+    "id": "justonecookbook-holidays",
+    "title": "Japanese public holidays and annual events",
+    "publisher": "Just One Cookbook",
+    "url": "https://www.justonecookbook.com/japanese-public-holidays-and-annual-events/",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Översikt över japanska helgdagar och årliga högtider som nyår, hanami, Tanabata, Obon och Shichi-go-san."
+  },
+  {
+    "id": "allabout-festivals",
+    "title": "Festivals in Japan",
+    "publisher": "All About Japan",
+    "url": "https://allabout-japan.com/en/article/4386",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Exempel på festivaler: Tanabata (Sendai 6–8 augusti), höstlöv (momijigari) och regionala skillnader i datum."
+  },
+  {
+    "id": "eurekalert-japan-religiosity",
+    "title": "Ambiguous boundaries of religious belief, behavior and belonging in Japan (news release)",
+    "publisher": "EurekAlert (Doshisha University)",
+    "url": "https://www.eurekalert.org/news-releases/1127242",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att svar om religiositet i Japan varierar kraftigt med hur frågan ställs, och att många som kallar sig icke-religiösa ändå deltar i buddhistiska och shintoistiska ritualer."
   }
 ]

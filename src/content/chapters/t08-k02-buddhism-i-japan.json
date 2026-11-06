@@ -1,0 +1,320 @@
+{
+  "id": "t08-k02",
+  "slug": "buddhism-i-japan",
+  "themeId": "religion",
+  "order": 2,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Buddhism i Japan",
+  "summary": "Hur buddhismen kom till Japan, vilka riktningar som finns och hur tempel används i vardag, begravning och turism.",
+  "objectives": [
+    "Beskriva hur buddhismen kom till Japan",
+    "Skilja på helgedom och tempel",
+    "Förstå hur buddhism används i begravningar och minnesriter"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Samma stad kan ha hundratals tempel och helgedomar. Hur skiljer man dem åt, och vad gör människor egentligen där?"
+  },
+  "sections": [
+    {
+      "id": "historia",
+      "heading": "Hur buddhismen kom till Japan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Enligt traditionen kom buddhismen till Japan omkring år **552**, då kungen av det koreanska riket Baekje skickade en delegation med buddhistiska föremål och skrifter till den japanska hovet. Vissa forskare menar att den kan ha kommit tidigare genom invandrare och köpmän. Buddhismen fick stöd av delar av hovet och blev under Nara- och Heiantiden (se kapitlet om tidig historia) en viktig del av kulturen."
+        },
+        {
+          "type": "p",
+          "text": "Med tiden utvecklades flera riktningar: **Zen** (kom från Kina och blev populärt bland samurajer), **rena landet-skolorna** (som betonar tillit till Amida Buddha), **Nichiren** (som bygger på Lotussutran) och äldre skolor som Shingon och Tendai. Rena landet har enligt en källa flest anhängare, följt av Nichiren, Shingon och Zen."
+        }
+      ]
+    },
+    {
+      "id": "skillnad",
+      "heading": "Helgedom eller tempel?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ett enkelt sätt att skilja: **helgedomar (shinto)** har en **torii**, medan **tempel (buddhism)** har en port med tak, en **sanmon**, och ofta en pagod, en stor klocka och en hall med Buddhastatyer. På tempel brukar man tända rökelse, ringa en klocka och be med knäppta händer. Vid en helgedom bugar man och klappar. Reglerna skiljer sig, så titta på skyltar och på vad andra gör."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Förväxlingar",
+          "text": "Många japanska besöksmål är både och: en plats kan ha både helgedom och tempel eftersom traditionerna har blandats. Då gäller respekten för båda."
+        }
+      ]
+    },
+    {
+      "id": "liv",
+      "heading": "Buddhism i vardag och död",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Buddhismen märks framför allt i **begravningar och minnesriter**. Många familjer har ett särskilt tempel som sköter begravningar, och det vanligaste är att begravningar följer buddhistiska ritualer, enligt en källa omkring 90 procent. Familjer håller också minnesstunder och besöker gravar vid högtider som Obon (se kapitlet om högtider)."
+        },
+        {
+          "type": "p",
+          "text": "Samtidigt kan tempel vara turistmål, platser för zazen (sittande meditation), skolor och lokala centra. Antalet aktiva tempel och munkar har på vissa håll minskat, särskilt på landsbygden, i takt med att samhället åldras (se temat om samhälle)."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "year",
+      "title": "När?",
+      "prompt": "När kom buddhismen till Japan enligt traditionen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Omkring år 552",
+          "correct": true,
+          "feedback": "Rätt, via Baekje."
+        },
+        {
+          "id": "b",
+          "text": "1868",
+          "correct": false,
+          "feedback": "Det är Meiji."
+        },
+        {
+          "id": "c",
+          "text": "1945",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "1603",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "tempel",
+      "title": "Tempel eller helgedom?",
+      "prompt": "Vad kännetecknar ett tempel?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En port med tak (sanmon), ofta pagod och Buddhastatyer.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En torii av trä.",
+          "correct": false,
+          "feedback": "Det är helgedomar."
+        },
+        {
+          "id": "c",
+          "text": "Ett skolhus.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "fraga",
+      "title": "Vid ett tempel",
+      "situation": "Du står vid en port och är osäker på om det är ett tempel eller en helgedom.",
+      "question": "Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Letar efter torii (helgedom) eller en tak-port och skyltar, och tittar på vad andra gör.",
+          "correct": true,
+          "feedback": "Bra."
+        },
+        {
+          "id": "b",
+          "text": "Gissar.",
+          "correct": false,
+          "feedback": "Observera hellre."
+        },
+        {
+          "id": "c",
+          "text": "Går in utan att se dig omkring.",
+          "correct": false,
+          "feedback": "Respektera platsen."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka tempel och helgedomar ser du, och hur skiljer sig portarna?",
+    "Hur uppträder människor vid tempel jämfört med helgedomar?",
+    "Hur används tempel idag: turism, begravning, skolor?"
+  ],
+  "reflection": "Vad är skillnaden mellan en religiös plats och ett turistmål? Hur kan du vara både besökare och gäst?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Hur kom buddhismen till Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Via Korea och Kina",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Från Sverige",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Från Amerika",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Från Afrika",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vilken riktning kom från Kina och blev populär bland samurajer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zen",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Shinto",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Kejsarkult",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ainu",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Hur känner man igen en helgedom?",
+      "options": [
+        {
+          "id": "a",
+          "text": "På en torii",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "På en pagod",
+          "feedback": "Det är ett tempel."
+        },
+        {
+          "id": "c",
+          "text": "På en skola",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "På en klocka",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är buddhism ofta förknippad med i vardagen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Begravningar och minnesriter",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Bröllop alltid",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Skolstart",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Skatter",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad menas med att traditionerna blandas?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Många platser och människor har inslag av både shinto och buddhism.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "De är alltid separerade.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara en finns kvar.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "De förbjuds.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "wikipedia-buddhism-in-japan",
+    "jal-temple-shrine",
+    "kanagawa-shrines-temples"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Årtalet 552 är traditionellt men omdiskuterat. Källorna anger också möjligheten att buddhismen kom tidigare.",
+      "Uppgiften att cirka 90 procent av begravningar följer buddhistiska riter hittades i ett avskuret sökresultat och är inte kontrollerad.",
+      "Beskrivningen av vardagsanvändning och minskande antal tempel är allmän bakgrund.",
+      "Skillnaden mellan tempel och helgedom (torii/sanmon) är förenklad: många platser är sammanvävda.",
+      "Bildtexten om Nanzen-ji (grundat 1291, zenbuddhistiskt) bygger på Commons-beskrivningen."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t08-k02-hero",
+    "imageId": "nanzenji-hostlov",
+    "brief": "Buddhistiskt tempel eller pagod i Japan."
+  }
+}

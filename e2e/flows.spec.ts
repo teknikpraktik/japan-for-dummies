@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 import fs from "node:fs";
 import path from "node:path";
-import { pilots, takeQuiz, PUBLISHED, PLANNED } from "./helpers";
+import { pilots, takeQuiz, PUBLISHED, PLANNED, PLANNED_SAMPLE } from "./helpers";
 
 const readJson = (rel: string) => JSON.parse(fs.readFileSync(path.join(process.cwd(), "src", "content", rel), "utf8"));
 /** Antal bildplatser på en sida som ännu saknar valt fotografi (ska motsvara antalet reservytor). */
@@ -44,8 +44,8 @@ test.describe("pilotkapitel och direktlänkar", () => {
     await page.evaluate(async () => { await navigator.serviceWorker.ready; });
     await page.goto("/kapitel/skogs-och-hav-finns-inte/");
     await expect(page.getByRole("heading", { name: "Sidan kunde inte hittas" })).toBeVisible();
-    await page.goto("/kapitel/shinto/");
-    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Shinto: kami, helgedomar och torii");
+    await page.goto(`/kapitel/${PLANNED_SAMPLE.slug}/`);
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText(PLANNED_SAMPLE.title);
     await expect(page.getByText("planerat men inte skrivet än")).toBeVisible();
     await expect(page.getByTestId("start-quiz")).toHaveCount(0);
     await expect(page.getByRole("heading", { name: "Planerade lärandemål" })).toBeVisible();
