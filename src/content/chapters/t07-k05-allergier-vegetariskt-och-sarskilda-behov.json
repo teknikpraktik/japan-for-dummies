@@ -1,0 +1,324 @@
+{
+  "id": "t07-k05",
+  "slug": "allergier-vegetariskt-och-sarskilda-behov",
+  "themeId": "mat",
+  "order": 5,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Allergier, vegetariskt och särskilda behov",
+  "summary": "Hur man berättar om allergier, vegetariskt och religiösa matregler, och varför dashi och fisk ofta gömmer sig i rätter.",
+  "objectives": [
+    "Kommunicera allergier tydligt",
+    "Förstå var fisk och animaliska ingredienser ofta finns",
+    "Planera måltider om du har särskilda behov"
+  ],
+  "minutes": 9,
+  "hook": {
+    "kind": "question",
+    "text": "En rätt ser vegetarisk ut, men soppan är kokt på fisk. Hur ber du om något säkert, om du inte delar språk med någon?"
+  },
+  "sections": [
+    {
+      "id": "allergi",
+      "heading": "Allergier och märkning",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan har regler om **allergenmärkning** på förpackade livsmedel. Reglerna förvaltas av Konsumentverket (Consumer Affairs Agency) under livsmedelsmärkningslagen från 2015, och allergener delas in i **obligatoriska** (åtta ämnen, inklusive ägg, mjölk och valnötter, där valnötter är ett nyare tillägg) och **rekommenderade** (omkring 20 ämnen, till exempel soja, sesam och pistage). Cashewnötter har föreslagits bli obligatoriska."
+        },
+        {
+          "type": "p",
+          "text": "Märkningen gäller förpackade livsmedel. På restauranger finns oftast ingen märkning, och personalen kanske inte talar engelska. Om du har en allergi är det därför viktigt att förbereda **ett kort på japanska** som tydligt anger vad du inte tål, och visa kortet för personalen innan du beställer. Fråga också om matlagningsmetoder (till exempel samma olja)."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Allvarliga allergier",
+          "text": "Vid risk för anafylaxi: ha med medicin (till exempel adrenalinpenna) enligt läkarens råd, kontrollera reglerna för att ta med läkemedel till Japan och prata med din vårdgivare före resan. Förlita dig inte på en app för att förklara allvarliga allergier."
+        }
+      ]
+    },
+    {
+      "id": "veg",
+      "heading": "Vegetariskt: fisk i dashin",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dashi är den största fällan för den som undviker fisk: den görs oftast på katsuobushi eller små torkade sardiner (**niboshi**) och finns i misosoppa, nudelsoppor, kokta rätter, tempuradipp och många såser. Även vegetariska rätter som udon- och sobasoppa i närbutiker kan vara gjorda på fiskdashi. Små fiskar som chirimen och jako kan också finnas som topping."
+        },
+        {
+          "type": "p",
+          "text": "Ett tydligt sätt att be om mat utan: ”**Dashi o tsukawanaide kudasai**” (”använd inte dashi, tack”). Det är bättre att nämna dashi uttryckligen än bara säga ”vegetarisk”, eftersom vegetarisk ofta uppfattas som ”utan kött” men inte nödvändigtvis utan fisk."
+        },
+        {
+          "type": "p",
+          "text": "Bra alternativ: **shōjin ryōri** (buddhistisk tempelmat, helt vegetarisk), restauranger som uttryckligen erbjuder vegetariskt, och att kolla ingredienslistor i butiker."
+        }
+      ]
+    },
+    {
+      "id": "planera",
+      "heading": "Planera måltider",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Planera i förväg: sök efter lämpliga restauranger, ladda ned en karta, skriv kort med dina behov och ha snacks med dig. Religiösa matregler som halal och kosher är svårare att uppfylla, och utbudet är mer begränsat än för allergier och vegetarianer, särskilt utanför storstäderna. Kontakta boende och arrangör i god tid."
+        },
+        {
+          "type": "p",
+          "text": "Prata med reseledare eller värdfamilj om dina behov redan innan resan. Människor vill hjälpa, men behöver veta vad det gäller."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "dashi",
+      "title": "Dashi",
+      "prompt": "Varför kan en misosoppa vara ett problem om du undviker fisk?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den är oftast gjord på fiskdashi.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Miso är fisk.",
+          "correct": false,
+          "feedback": "Miso är sojabönor. Det är dashin som innehåller fisk."
+        },
+        {
+          "id": "c",
+          "text": "Den är alltid vegetarisk.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "fras",
+      "title": "Fras",
+      "prompt": "Vilken fras kan hjälpa dig att undvika dashi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dashi o tsukawanaide kudasai.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Arigatō gozaimasu.",
+          "correct": false,
+          "feedback": "Det är tack."
+        },
+        {
+          "id": "c",
+          "text": "Sumimasen.",
+          "correct": false,
+          "feedback": "Det är ursäkta."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "allergi",
+      "title": "Restaurang",
+      "situation": "Du har en allvarlig allergi och är på en restaurang utan engelsk meny.",
+      "question": "Vad är säkrast?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Visa ett förberett kort på japanska och be om bekräftelse innan du beställer.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Beställa något och hoppas.",
+          "correct": false,
+          "feedback": "För riskabelt."
+        },
+        {
+          "id": "c",
+          "text": "Förlita dig bara på en app.",
+          "correct": false,
+          "feedback": "Appar kan göra fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur förklarar du dina behov på japanska?",
+    "Vilka butiker och restauranger har tydlig märkning?",
+    "Vem kan du kontakta före resan?"
+  ],
+  "reflection": "Hur skulle du förklara dina matbehov för någon som inte delar ditt språk? Vilka förberedelser känns viktigast?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad ska du göra vid en allvarlig allergi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Förbereda ett kort på japanska och prata med vårdgivaren före resan.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Gissa.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Äta ändå.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ignorera.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Var ofta gömmer sig fisk i vegetarisk mat?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I dashi",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "I ris",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "I vatten",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "I te",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vilken sorts mat är helt vegetarisk och buddhistisk?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shōjin ryōri",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ramen",
+          "feedback": "Ofta fisk- eller fläskbuljong."
+        },
+        {
+          "id": "c",
+          "text": "Tonkatsu",
+          "feedback": "Fläsk."
+        },
+        {
+          "id": "d",
+          "text": "Sushi",
+          "feedback": "Fisk."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad gäller för märkning på restauranger?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det finns ofta ingen märkning, så du behöver fråga.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alla rätter är märkta.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Det är förbjudet.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Det är alltid på engelska.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Varför bör du nämna dashi uttryckligen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "För att vegetarisk kan förstås som utan kött men inte utan fisk.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "För att dashi är dyrt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "För att det är artigt.",
+          "feedback": "Inte därför."
+        },
+        {
+          "id": "d",
+          "text": "För att ingen vet vad det är.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "nippon-allergen-labeling",
+    "pmc-japan-allergen",
+    "unseen-vegetarian-dashi",
+    "voyapon-dashi",
+    "insidejapan-vegetarian",
+    "jnto-manners"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Listan över obligatoriska allergener (åtta, inkl. ägg, mjölk, valnötter) bygger på en delvis sekundär sammanfattning. De övriga (vete, räkor, krabba, jordnötter, bovete) är allmän kunskap som inte verifierades. Kontrollera mot Konsumentverkets (CAA) sida. Cashewnötter var på förslag.",
+      "Vegetariska råd bygger på reseguider. Halal- och kosherutbudet kontrollerades inte.",
+      "Medicinska råd (adrenalinpenna, regler för läkemedel) är allmänna och ska bekräftas med vårdgivare och Japans regler. Kapitlet är inget medicinskt råd.",
+      "Frasen ”Dashi o tsukawanaide kudasai” kommer från en reseguide och bör granskas av en japansklärare."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t07-k05-hero",
+    "imageId": "matsuya-teishoku",
+    "brief": "Förpackad mat med ingredienslista, eller kort med kostbehov."
+  }
+}

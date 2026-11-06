@@ -1,0 +1,314 @@
+{
+  "id": "t07-k04",
+  "slug": "konbini-gatumat-och-marknader",
+  "themeId": "mat",
+  "order": 4,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Närbutiken, gatumat och marknader",
+  "summary": "Konbini, matmarknader och festivalbodar. Kapitlet handlar om praktiska måltider, vad man kan köpa och hur man äter på språng utan att bli oartig.",
+  "objectives": [
+    "Välja mat i närbutik eller på marknad",
+    "Förstå normer kring att äta på gatan",
+    "Hantera sopor och förpackningar"
+  ],
+  "minutes": 7,
+  "hook": {
+    "kind": "question",
+    "text": "Nattens enda öppna ställe säljer varma frukostmackor, onigiri, kaffe och biljetter. Hur äter man på resande fot i Japan utan att göra bort sig?"
+  },
+  "sections": [
+    {
+      "id": "konbini",
+      "heading": "Närbutiken (konbini)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Konbini** är närbutiker som är öppna långa tider och finns i hela landet. De tre stora kedjorna har tillsammans tiotusentals butiker (siffror från 2021: cirka 21 000, 17 000 och 14 000). Du kan köpa färdiga måltider, **onigiri** (risbollar), smörgåsar, soppor, kaffe, snacks och mycket mer, och många har varmmat, mikrovågsugn och en kassör som värmer maten."
+        },
+        {
+          "type": "p",
+          "text": "Vissa butiker har en ätplats, men inte alla, och några kedjor har börjat ta bort sådana ytor. Fråga personalen eller titta efter bord och stolar."
+        }
+      ]
+    },
+    {
+      "id": "gata",
+      "heading": "Gatumat och marknader",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gatumat finns på marknader, matgator och festivaler (**matsuri**), där man ofta köper mat vid små stånd. Typiska rätter är takoyaki, yakitori (grillspett), grillade riskakor och söta bakverk. Marknader som Tsukiji eller Nishiki säljer lokala varor och smakprov."
+        },
+        {
+          "type": "p",
+          "text": "På många platser förväntas man **äta vid ståndet eller i anslutning** och inte gå omkring med maten. Titta på hur andra gör: finns det bord, en skylt eller ett avgränsat område? Om ingen annan går omkring och äter är det ett tecken på att du bör stanna och äta på plats."
+        }
+      ]
+    },
+    {
+      "id": "skrap",
+      "heading": "Sopor och förpackningar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Offentliga papperskorgar är sällsynta (se kapitlet om offentligt beteende), så ta gärna med dig skräpet. Många butiker och stånd har kärl för sortering vid sin ingång eller kassa, och där kan du ofta lämna förpackningen. Ha en liten påse med dig."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Praktiskt",
+          "text": "Det är normalt att säga **itadakimasu** före och **gochisōsama deshita** efter maten, även vid en snabb måltid."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "onigiri",
+      "title": "Onigiri",
+      "prompt": "Vad är onigiri?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Risbollar, ofta med fyllning.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En typ av tåg.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En soppa.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "ata",
+      "title": "Äta på gatan",
+      "prompt": "Vad är ett bra tecken på hur du ska äta gatumat?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Titta på hur andra gör, till exempel om de står vid ståndet.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Gå omkring överallt.",
+          "correct": false,
+          "feedback": "Det kan vara oartigt på vissa platser."
+        },
+        {
+          "id": "c",
+          "text": "Ta med maten in i tempel.",
+          "correct": false,
+          "feedback": "Det är ofta olämpligt."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "skrap",
+      "title": "Efteråt",
+      "situation": "Du har ätit klart och har en tom förpackning men ser ingen papperskorg.",
+      "question": "Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Frågar i butiken eller tar med mig förpackningen tills jag hittar ett kärl.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Lägger den på marken.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Lämnar den på ett tempelområde.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vad säljs i närbutikerna, och hur värms maten?",
+    "Hur äter människor gatumat: vid ståndet, på bänkar?",
+    "Var kan du lämna förpackningar?"
+  ],
+  "reflection": "Hur köper du snabb mat hemma, och vad är normalt att göra med skräpet? Vad skulle en besökare behöva veta?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad är en konbini?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En närbutik",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En skola",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tempel",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En park",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vilken fras säger man före maten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Itadakimasu",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Gochisōsama deshita",
+          "feedback": "Det säger man efter maten."
+        },
+        {
+          "id": "c",
+          "text": "Sumimasen",
+          "feedback": "Det är ”ursäkta”."
+        },
+        {
+          "id": "d",
+          "text": "Arigatō",
+          "feedback": "Det är ”tack”."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad är matsuri?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En festival",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En typ av tåg",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En maträtt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En skola",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad bör du göra med skräp?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ta med det eller lämna det i ett sopkärl i butiken.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Lägga det på marken",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Gömma det",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Kasta det i havet",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är takoyaki?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bläckfisksbollar",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En sorts te",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tecken",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ris",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "stripes-konbini",
+    "unseen-konbini-eatin",
+    "cnn-trash-cans",
+    "jnto-manners"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Butiksantalen avser 2021 och bör kontrolleras.",
+      "Att man bör äta vid ståndet och inte gå omkring med maten är en vanlig uppfattning men sökningen gav ingen källa. Kapitlet formulerar det som något att observera.",
+      "Beskrivningen av marknader (Tsukiji, Nishiki), gatumat och sortering är allmän bakgrund som inte kontrollerades mot en källa.",
+      "Närbutikernas utbud och tjänster varierar."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t07-k04-hero",
+    "imageId": "lawson-store100-yokohama",
+    "brief": "Närbutik, matmarknad eller gatumat i Japan."
+  }
+}

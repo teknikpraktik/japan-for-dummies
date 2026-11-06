@@ -51,7 +51,7 @@ describe("framsteg: validering och regler på servern", () => {
   it("okänt, planerat och påhittat kapitel avvisas", async () => {
     const { s } = await setup();
     const results = await applyOps(s.userId, [
-      { type: "started", chapterId: "t07-k02", contentVersion: 0 },
+      { type: "started", chapterId: "t08-k01", contentVersion: 0 },
       { type: "started", chapterId: "finns-inte", contentVersion: 1 },
     ]);
     expect(results.map((r) => r.result)).toEqual(["unknown-chapter", "unknown-chapter"]);
@@ -120,7 +120,7 @@ describe("äldre lokala framsteg: uttrycklig, idempotent import", () => {
   const items = () => [
     { chapterId: ch().id, contentVersion: ch().contentVersion, completed: true, completedAt: "2026-10-01T10:00:00.000Z" },
     { chapterId: publishedChapters()[1].id, contentVersion: 1, completed: false },
-    { chapterId: "t07-k02", contentVersion: 0, completed: true },
+    { chapterId: "t08-k01", contentVersion: 0, completed: true },
   ];
 
   it("kräver confirm: true (ingen automatisk import)", async () => {

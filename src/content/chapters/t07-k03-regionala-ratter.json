@@ -1,0 +1,331 @@
+{
+  "id": "t07-k03",
+  "slug": "regionala-ratter",
+  "themeId": "mat",
+  "order": 3,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Regionala rätter och matkultur",
+  "summary": "Hokkaidos skaldjur, Osakas gatumat och Kyushus nudlar. Kapitlet visar att det inte finns ett enda japanskt kök.",
+  "objectives": [
+    "Ge exempel på regionala rätter",
+    "Förklara varför mat skiljer sig mellan regioner",
+    "Smaka nyfiket utan att jämföra med ”rätt” mat"
+  ],
+  "minutes": 7,
+  "hook": {
+    "kind": "question",
+    "text": "Är ramen i Sapporo samma sak som ramen i Fukuoka? Och finns det egentligen något som kan kallas ”japansk mat”?"
+  },
+  "sections": [
+    {
+      "id": "variation",
+      "heading": "Ett land, många kök",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan sträcker sig långt från norr till söder (se temat om geografi), och maten skiljer sig åt med klimat, råvaror och historia. Ett landkök kan ha många lokala varianter. Exemplen nedan är några av de mest kända, men varje region har många fler."
+        },
+        {
+          "type": "p",
+          "text": "Bilden av ”japansk mat” som sushi och tempura är alltså en förenkling. En stor del av matkulturen är hemlagad mat, nudlar, grytor och lokala rätter."
+        }
+      ]
+    },
+    {
+      "id": "exempel",
+      "heading": "Några exempel",
+      "blocks": [
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Hokkaido (Sapporo, Otaru)",
+              "value": "Skaldjur och havsrätter (till exempel kaisendon, en skål ris med råa skaldjur), samt misoramen i Sapporo"
+            },
+            {
+              "label": "Osaka",
+              "value": "Takoyaki (degbollar med bläckfisk) och okonomiyaki (stekt kål-pannkaka)"
+            },
+            {
+              "label": "Fukuoka (Hakata, Kyushu)",
+              "value": "Tonkotsuramen med buljong på fläskben och tunna nudlar"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Källorna skiljer sig något i detaljer: vissa beskriver miso som Sapporoformens bas, andra nämner att Asahikawa har en soja-baserad variant. Det är typiskt för regional mat: många lokala varianter och flera berättelser om ursprunget."
+        },
+        {
+          "type": "photo",
+          "slotId": "t07-k03-regional",
+          "imageId": null,
+          "brief": "Regional rätt eller matställe, till exempel takoyaki, ramen eller en saluhall."
+        }
+      ]
+    },
+    {
+      "id": "smaka",
+      "heading": "Smaka nyfiket",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "När du äter lokalt: fråga vad som är specialiteten, eller peka på det som andra äter. Jämför inte med hur rätten ”ska” smaka där du kommer ifrån. Lokala varianter är inte ”fel” versioner av något annat."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Hur tänker vi om ”äkta”?",
+          "text": "Ordet ”äkta” kan göra att man missar det som faktiskt finns. Fråga hellre vad människor själva tycker är gott och varför."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "osaka",
+      "title": "Osaka",
+      "prompt": "Vilken rätt förknippas med Osaka?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Takoyaki",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Kaisendon",
+          "correct": false,
+          "feedback": "Det är mer förknippat med Hokkaido."
+        },
+        {
+          "id": "c",
+          "text": "Tonkotsuramen",
+          "correct": false,
+          "feedback": "Det är mer förknippat med Fukuoka."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "hakata",
+      "title": "Hakata",
+      "prompt": "Vad kännetecknar Hakataramen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Buljong på fläskben och tunna nudlar.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Söt grädde.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara grönsaker.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "aktta",
+      "title": "I en stad",
+      "situation": "En kamrat säger: ”Det här är inte äkta ramen eftersom den inte är som hemma.”",
+      "question": "Vad är en bra reaktion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ramen finns i många lokala varianter, och den här är lokal.",
+          "correct": true,
+          "feedback": "Bra."
+        },
+        {
+          "id": "b",
+          "text": "Hålla med.",
+          "correct": false,
+          "feedback": "Det blir en snäv bild."
+        },
+        {
+          "id": "c",
+          "text": "Avbryta måltiden.",
+          "correct": false,
+          "feedback": "Onödigt."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka lokala specialiteter ser du på menyer och skyltar?",
+    "Hur skiljer sig maten mellan platser du besöker?",
+    "Vad frågar du om du inte vet vad du ska välja?"
+  ],
+  "reflection": "Vilka lokala rätter finns i din region? Hur skulle du förklara dem för en besökare?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilken stad är känd för okonomiyaki och takoyaki?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Osaka",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Sapporo",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Kyoto",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Naha",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vilken ramentyp förknippas med Hakata i Fukuoka?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tonkotsu",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Miso",
+          "feedback": "Det är Sapporo."
+        },
+        {
+          "id": "c",
+          "text": "Curry",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Soba",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad är kaisendon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En skål ris med skaldjur",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En sorts te",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En typ av tåg",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En soppa med frukt",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Varför skiljer sig maten mellan regioner?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Klimat, råvaror och historia",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Slumpen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Lagen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Skolan",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en bra inställning när du smakar lokal mat?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nyfikenhet utan att jämföra med ”rätt” mat",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Att kritisera",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Att äta samma sak överallt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Att hoppa över måltider",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "funjapan-regional-food",
+    "insidejapan-regional-dishes"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Exemplen (takoyaki, okonomiyaki, tonkotsuramen, misoramen, kaisendon) kommer från reseguidesammanfattningar. Källorna skiljer sig något i detaljer.",
+      "Förenklingen att ”japansk mat” inte bara är sushi och tempura är allmän bakgrund.",
+      "Kapitlet nämner bara fyra regioner och ger inte en heltäckande bild.",
+      "Bildtexten om takoyaki bygger på Commons-beskrivningen (stånd i Dotonbori, december 2013)."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t07-k03-hero",
+    "imageId": "takoyaki-osaka",
+    "brief": "Regional specialitet, till exempel takoyaki, ramen eller en marknad."
+  }
+}

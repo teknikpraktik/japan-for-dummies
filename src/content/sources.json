@@ -698,5 +698,125 @@
     "checkedOn": "2026-11-06",
     "access": "search-result-summary",
     "supports": "Att en undersökning från Japans turistmyndighet 2015 visade att drygt hälften av hotell och värdshus inte tillät tatuerade i allmänna badutrymmen, och att reglerna bestäms av varje anläggning."
+  },
+  {
+    "id": "fun-japan-ichiju-sansai",
+    "title": "The basic of Japanese Cuisine: Ichijyusansai (one soup and three dishes)",
+    "publisher": "Fun! Japan",
+    "url": "https://fun-japan.jp/en/articles/8734",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Ichiju sansai: en vanlig traditionell måltid med ris, soppa och tre rätter."
+  },
+  {
+    "id": "kikkoman-washoku",
+    "title": "What is Washoku?",
+    "publisher": "Kikkoman",
+    "url": "https://www.kikkoman.com/en/cookbook/washoku/about/",
+    "kind": "institution",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Washoku som traditionell japansk matkultur, med ris, soppa, kokt och inlagd mat och betoning på säsong. Företagssida."
+  },
+  {
+    "id": "govonline-washoku",
+    "title": "Highlighting Japan: Washoku",
+    "publisher": "Government of Japan (gov-online)",
+    "url": "https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202206/202206_01_en.html",
+    "kind": "official",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Washoku, japansk matkultur, och dess upptagande på Unescos lista över immateriellt kulturarv 2013."
+  },
+  {
+    "id": "funjapan-regional-food",
+    "title": "Delicious Local Japanese Food from Different Regions",
+    "publisher": "Fun! Japan",
+    "url": "https://fun-japan.jp/en/articles/11764",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Regionala specialiteter: takoyaki och okonomiyaki i Osaka, tonkotsuramen i Hakata (Fukuoka), misoramen i Sapporo och skaldjur på Hokkaido."
+  },
+  {
+    "id": "insidejapan-regional-dishes",
+    "title": "Japanese food: Five must-try regional dishes",
+    "publisher": "Inside Japan Tours",
+    "url": "https://www.insidejapantours.com/blog/?p=21970",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Exempel på regionala rätter i Japan. Sammanfattningen kommer från sökresultat."
+  },
+  {
+    "id": "nippon-allergen-labeling",
+    "title": "Japan Mulling Mandatory Allergen Labeling for Cashew Nuts",
+    "publisher": "nippon.com (Jiji)",
+    "url": "https://nippon.com/en/news/yjj2024110900123",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att Japan har obligatorisk allergenmärkning för vissa ämnen, att valnötter lagts till och att cashewnötter övervägs."
+  },
+  {
+    "id": "pmc-japan-allergen",
+    "title": "Vetenskaplig artikel om allergenmärkning i Japan (PMC8691970; titel ej verifierad)",
+    "publisher": "PubMed Central",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8691970",
+    "kind": "institution",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att allergenmärkning regleras av Konsumentverket (CAA) under livsmedelsmärkningslagen från 2015 med obligatoriska och rekommenderade ämnen."
+  },
+  {
+    "id": "unseen-vegetarian-dashi",
+    "title": "Vegetarian Japan: dashi and fish stock",
+    "publisher": "Unseen Japan",
+    "url": "https://unseen-japan.com/vegetarian-japan-dashi-fish-stock/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att dashi vanligen görs på katsuobushi och att den finns i många rätter, och att vegetariska alternativ är mindre vanliga."
+  },
+  {
+    "id": "voyapon-dashi",
+    "title": "Dashi: vegetarian and vegan in Japan",
+    "publisher": "Voyapon",
+    "url": "https://voyapon.com/dashi-vegetarian-vegan-in-japan/",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att dashi ofta innehåller fisk, var den gömmer sig och hur man ber om mat utan dashi."
+  },
+  {
+    "id": "insidejapan-vegetarian",
+    "title": "Being vegetarian in Japan: A survival guide",
+    "publisher": "Inside Japan Tours",
+    "url": "https://www.insidejapantours.com/blog/2015/07/03/being-vegetarian-in-japan-a-survival-guide/",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Praktiska råd för vegetarianer i Japan och att man behöver nämna dashi uttryckligen."
+  },
+  {
+    "id": "stripes-konbini",
+    "title": "7-Eleven, FamilyMart, Lawson convenience stores in Japan",
+    "publisher": "Stars and Stripes",
+    "url": "https://okinawa.stripes.com/travel/7-eleven,-familymart,-lawson-convenience-stores-in-japan.html",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att de tre stora närbutikskedjorna har tiotusentals butiker i Japan (cirka 21 000, 17 000 och 14 000 år 2021)."
+  },
+  {
+    "id": "unseen-konbini-eatin",
+    "title": "Eating spaces eliminated at FamilyMart",
+    "publisher": "Unseen Japan",
+    "url": "https://unseen-japan.com/eating-in-japanese-konbini-disappearing/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att många närbutiker har ätplatser men att FamilyMart planerar att ta bort några."
   }
 ]
