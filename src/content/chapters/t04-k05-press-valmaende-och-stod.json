@@ -1,0 +1,341 @@
+{
+  "id": "t04-k05",
+  "slug": "press-valmaende-och-stod",
+  "themeId": "skola",
+  "order": 5,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "När det blir tungt: press, mobbning och stöd",
+  "summary": "Ett respektfullt kapitel om psykisk ohälsa, mobbning och skolfrånvaro, och om vilket stöd som finns. Det tar upp att erfarenheterna är olika.",
+  "objectives": [
+    "Beskriva vanliga påfrestningar för unga utan att generalisera",
+    "Förstå vilket stöd som finns",
+    "Veta var du själv kan få stöd under en resa"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Alla har dagar då det är tungt. Hur ser det ut för unga i Japan, och vad gör du om du själv mår dåligt under en resa?"
+  },
+  "sections": [
+    {
+      "id": "tungt",
+      "heading": "Vad statistiken visar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kapitlet handlar om svåra frågor. Du kan ta pauser eller hoppa över avsnitt. Siffrorna nedan beskriver en grupp, inte enskilda personer."
+        },
+        {
+          "type": "p",
+          "text": "Utbildningsministeriets undersökning för läsåret 2024 visar två rekord. Antalet elever i grund- och högstadium med **över 30 dagars frånvaro** nådde 353 970, tolfte året i rad med ökning. Antalet **registrerade mobbningsfall** var 769 022. Ministeriet menar att en del av ökningen beror på att skolorna blivit mer aktiva i att upptäcka och registrera mobbning, och på en större acceptans för att barn behöver vila."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Frånvaro över 30 dagar (grund + högstadium), 2024",
+              "value": "353 970"
+            },
+            {
+              "label": "Registrerade mobbningsfall 2024",
+              "value": "769 022 (rekord)"
+            },
+            {
+              "label": "Allvarliga mobbningsfall 2024",
+              "value": "1 405"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olika",
+      "heading": "Erfarenheterna är olika",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bakom siffrorna finns människor med mycket olika erfarenheter. Många trivs i skolan. Andra upplever mobbning, press eller utanförskap. Vissa stannar hemma i perioder. Det finns också elever som hittar andra vägar, till exempel stödskolor eller fjärrundervisning."
+        },
+        {
+          "type": "p",
+          "text": "Att gruppen elever med lång frånvaro växer betyder inte att ”japanska ungdomar mår dåligt”. Forskare och myndigheter diskuterar orsakerna, och de är flera."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Varken bagatellisera eller dramatisera",
+          "text": "Undvik att dra slutsatser om enskilda personer eller om ”hela Japan”. Lyssna om någon vill berätta."
+        }
+      ]
+    },
+    {
+      "id": "stod",
+      "heading": "Stöd, hemma och på resa",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "I Japan finns skolkuratorer, rådgivning och telefonlinjer, men tillgången varierar. För dig som reser: prata med en vuxen i gruppen om något känns tungt. Hemma finns till exempel skolkurator, elevhälsa och telefonlinjer."
+        },
+        {
+          "type": "p",
+          "text": "För engelskspråkigt stöd i Japan finns **TELL**, en frivilligorganisation som erbjuder anonymt stöd per telefon och chatt. Kontaktuppgifter och öppettider finns på telljp.com. Vid akut fara ringer du **110** (polis) eller **119** (ambulans och brand)."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Planera i förväg",
+          "text": "Spara kontaktuppgifter till reseledare, ambassad och försäkringsbolag, och vet vem du kan prata med. Du behöver inte vänta tills det är akut."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "tungt",
+      "title": "När det är tungt",
+      "prompt": "Du mår dåligt under resan. Vad är ett bra första steg?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prata med en vuxen i gruppen eller kontakta en stödlinje.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Hålla det för dig själv.",
+          "correct": false,
+          "feedback": "Det är ofta svårare. Stöd finns."
+        },
+        {
+          "id": "c",
+          "text": "Lämna gruppen utan att säga något.",
+          "correct": false,
+          "feedback": "Det är riskabelt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "siffror",
+      "title": "Läsa siffror",
+      "prompt": "Vad bör man tänka på när man läser statistik om frånvaro och mobbning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Siffrorna beskriver grupper och kan påverkas av hur man registrerar.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "De visar exakt hur varje elev mår.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "De är oviktiga.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "van",
+      "title": "En kamrat berättar",
+      "situation": "En jämnårig du lärt känna berättar att hen slutat gå i skolan en period.",
+      "question": "Hur bemöter du det?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lyssna utan att döma och fråga om hen vill berätta mer.",
+          "correct": true,
+          "feedback": "Bra."
+        },
+        {
+          "id": "b",
+          "text": "Säga att det är konstigt.",
+          "correct": false,
+          "feedback": "Det dömer."
+        },
+        {
+          "id": "c",
+          "text": "Dra slutsatsen att alla i Japan har det så.",
+          "correct": false,
+          "feedback": "En generalisering."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vet du vem du kan vända dig till i gruppen om något känns tungt?",
+    "Har du sparat kontaktuppgifter till reseledare och ambassad?",
+    "Hur kan du vara en bra kamrat om någon mår dåligt?"
+  ],
+  "reflection": "Vem kan du prata med när det är tungt? Vad skulle göra det lättare att be om hjälp?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilket var antalet registrerade mobbningsfall läsåret 2024?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cirka 769 000",
+          "correct": true,
+          "feedback": "Rätt: 769 022, ett rekord."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 7 000",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Cirka 77 miljoner",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inga",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Hur många elever hade över 30 dagars frånvaro?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cirka 354 000",
+          "correct": true,
+          "feedback": "Rätt: 353 970."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 35",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Cirka 3,5 miljoner",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inga",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Varför kan antalet mobbningsfall ha ökat enligt ministeriet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skolorna blivit mer aktiva i att registrera.",
+          "correct": true,
+          "feedback": "Rätt, delvis."
+        },
+        {
+          "id": "b",
+          "text": "För att inga bryr sig.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "För att skolorna stängt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen vet något.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vilket nummer ringer du i Japan vid akut fara som kräver ambulans?",
+      "options": [
+        {
+          "id": "a",
+          "text": "119",
+          "correct": true,
+          "feedback": "Rätt. 110 är polis."
+        },
+        {
+          "id": "b",
+          "text": "112",
+          "feedback": "Fel. Det är EU:s nödnummer, inte Japans."
+        },
+        {
+          "id": "c",
+          "text": "911",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "000",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vilken organisation erbjuder engelskspråkigt stöd?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TELL",
+          "correct": true,
+          "feedback": "Rätt, telljp.com."
+        },
+        {
+          "id": "b",
+          "text": "JR",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Shogunen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Koshien",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "adnkronos-futoko-2024",
+    "opengov-bullying",
+    "tell-japan"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Siffrorna kommer från en nyhetssammanfattning av utbildningsministeriets undersökning. Kontrollera mot ministeriets egen rapport.",
+      "Beskrivningen av stöd i Japan (skolkuratorer, telefonlinjer, stödskolor, fjärrundervisning) är allmän bakgrund och inte kontrollerad.",
+      "Nödnumren 110 och 119 är allmän kännedom och inte kontrollerade mot en källa i detta arbete. TELL:s öppettider varierar.",
+      "Ämnet är känsligt. Kapitlet bör granskas av en skolkurator eller psykolog innan publicering.",
+      "Inga stödlinjer för barn och unga i Sverige anges. Reseledaren bör lägga till relevanta kontakter."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t04-k05-hero",
+    "imageId": "hokkaido-universitet-vinter",
+    "brief": "Lugn miljö, till exempel en park eller skolgård."
+  }
+}

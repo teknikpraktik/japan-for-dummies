@@ -1,0 +1,312 @@
+{
+  "id": "t04-k04",
+  "slug": "idrott-och-klubbar",
+  "themeId": "skola",
+  "order": 4,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Idrott, klubbar och tradition",
+  "summary": "Baseboll, fotboll, kampsporter och sumo. Kapitlet handlar om skolidrott, klubbar och hur sport hänger ihop med gemenskap och disciplin.",
+  "objectives": [
+    "Namnge populära idrotter och hur de organiseras",
+    "Förklara vad en skolklubb innebär",
+    "Jämföra föreningsliv i Japan och Sverige"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "I Sverige tränar många i en förening på kvällen. I Japan hör träningen ofta ihop med skolan själv. Vad förändrar det?"
+  },
+  "sections": [
+    {
+      "id": "bukatsu",
+      "heading": "Skolklubbar: bukatsu",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Bukatsu** är klubbar vid skolan som träffas efter lektionerna. Där finns idrott (baseboll, fotboll, basket, volleyboll, löpning), kampsporter (judo, kendo) och kulturklubbar (musik, teater, vetenskap, konst). I en undersökning deltog drygt 60 procent av gymnasieeleverna i någon klubb. Klubbarna tränar ofta efter skolan och ibland på helger."
+        },
+        {
+          "type": "p",
+          "text": "Klubbarna ger gemenskap, vänner och ansvar, och många elever beskriver dem som viktiga. Samtidigt diskuteras tidsåtgång och belastning, och ibland lärarnas arbetsbörda. Hur mycket man tränar varierar mellan skolor och klubbar."
+        }
+      ]
+    },
+    {
+      "id": "sporter",
+      "heading": "Baseboll, fotboll, sumo",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Baseboll** är mycket populärt. Varje år hålls de nationella gymnasieturneringarna **Koshien** på Hanshin Koshien-stadion i Nishinomiya, en på våren och en på sommaren, och de följs av många. **Fotboll** har vuxit, och kampsporter som **judo** och **kendo** är en del av skolidrotten."
+        },
+        {
+          "type": "p",
+          "text": "**Sumo** är en gammal traditionell sport med religiösa inslag. Professionella turneringar hålls flera gånger per år, bland annat i Tokyo. Sumo är både idrott och tradition, och regler och seder i sporten har lång historia."
+        }
+      ]
+    },
+    {
+      "id": "jamfor",
+      "heading": "Jämföra med Sverige",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "I Sverige drivs idrotten mest i föreningar utanför skolan. I Japan är skolan en viktig plattform för idrott och kultur. Det är en skillnad, men inte svartvit: Japan har också föreningar, och i Sverige finns skolidrott."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Gemenskap och disciplin",
+          "text": "Bilden av ”disciplin” kan bli en stereotyp. Fråga människor vad klubben betyder för dem."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "bukatsu",
+      "title": "Bukatsu",
+      "prompt": "Vad är bukatsu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skolklubbar som träffas efter lektionerna.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En typ av tåg.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett prov.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "koshien",
+      "title": "Koshien",
+      "prompt": "Vad är Koshien?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nationella gymnasieturneringar i baseboll.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En skidtävling.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tempel.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "forening",
+      "title": "Jämförelse",
+      "situation": "En kamrat säger: ”I Japan finns bara skolidrott, ingen förening.”",
+      "question": "Hur svarar du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skolan är en viktig plattform, men det finns också föreningar. Mönstren skiljer sig mer i grad än i princip.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det stämmer helt.",
+          "correct": false,
+          "feedback": "Förenkling."
+        },
+        {
+          "id": "c",
+          "text": "Det finns ingen idrott alls.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka idrotter ser du folk utöva i parker och på skolgårdar?",
+    "Hur ser skolklubbar ut: tider, platser, träningsredskap?",
+    "Vad skulle du vilja fråga en klubbmedlem?"
+  ],
+  "reflection": "Vilken roll spelar din skola eller förening i ditt fritidsliv? Vad är fördelar och nackdelar?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad är bukatsu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skolklubbar efter lektionerna",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Läxor",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett prov",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Skolmat",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Var hålls Koshien?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hanshin Koshien-stadion i Nishinomiya",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Tokyo Dome",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Hiroshima",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Sapporo",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vilka typer av klubbar finns?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Idrott och kultur",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Bara idrott",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara musik",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inga",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vilken är en kampsport som nämndes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Judo eller kendo",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Golf",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Segling",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bågskytte på häst",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en bra slutsats om skillnaden mot Sverige?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skolan är en viktigare plattform i Japan, men det är inte svartvitt.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Sverige har ingen idrott.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Japan har inga föreningar.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen skillnad.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "tjf-club-activities",
+    "wikipedia-koshien"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Andelen elever i klubb (drygt 60 procent) kommer från en äldre undersökning som citeras av en kulturresurs.",
+      "Beskrivningarna av sumo, fotboll, judo, kendo, belastning i klubbar och lärarnas arbetsbörda är allmän bakgrund som inte kontrollerades mot en källa.",
+      "Jämförelsen med svenskt föreningsliv är förenklad.",
+      "Bildtexten om att Tokyo är värd för tre av sumons sex stora turneringar bygger på allmän kännedom och inte på någon av källorna."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t04-k04-hero",
+    "imageId": "kokugikan-malning",
+    "brief": "Skolidrott eller sport i Japan, till exempel baseboll, kendo eller sumo."
+  }
+}

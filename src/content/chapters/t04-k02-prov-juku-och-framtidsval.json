@@ -1,0 +1,321 @@
+{
+  "id": "t04-k02",
+  "slug": "prov-juku-och-framtidsval",
+  "themeId": "skola",
+  "order": 2,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Prov, juku och framtidsval",
+  "summary": "Hur väljer man gymnasium och universitet? Kapitlet handlar om inträdesprov, extra undervisning på kvällar och hur ungdomar tänker kring framtiden.",
+  "objectives": [
+    "Förklara hur övergången mellan skolstadier fungerar",
+    "Beskriva vad juku är och varför många går dit",
+    "Reflektera över press och val i det egna skolsystemet"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "I Sverige söker du till gymnasiet med betyg. I Japan avgörs det ofta av ett prov på en enda dag. Hur påverkar det hur man pluggar, och hur man mår?"
+  },
+  "sections": [
+    {
+      "id": "stadier",
+      "heading": "Från stadium till stadium",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Skolgången är obligatorisk i nio år: sex år i grundskola och tre år i högstadium (”junior high”). Därefter väljer de flesta att fortsätta till gymnasium i tre år. Många gymnasier och universitet har **inträdesprov**, och provresultatet väger ofta tungt vid antagningen. Skolornas rykte och svårighetsgrad skiljer sig åt."
+        },
+        {
+          "type": "p",
+          "text": "För universitet finns ett gemensamt nationellt prov, **Common Test for University Admission**, som många tar i januari, och därefter ofta egna prov vid respektive universitet. Ungefär en halv miljon personer anmäler sig till det gemensamma provet varje år."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Jämförelse",
+          "text": "I Sverige söker man gymnasiet främst med betyg från grundskolan. I Japan spelar inträdesprov större roll vid övergångarna, även om regler och urval varierar mellan skolor och regioner."
+        }
+      ]
+    },
+    {
+      "id": "juku",
+      "heading": "Juku: skola efter skolan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Juku** är privata extraskolor som många elever går till på kvällar och helger. Där repeterar man skolämnen eller tränar inför prov. Enligt en uppskattning från branschorganisationen fanns omkring 55 000 juku i Japan (2016), och uppskattningsvis 50–70 procent av dem som ska ta inträdesprov går på juku. Siffrorna är grova och kommer från en branschuppskattning."
+        },
+        {
+          "type": "p",
+          "text": "Det är långt ifrån alla som går på juku, och vissa hinner knappt. Kostnaden är en faktor: familjer har olika möjligheter att betala, vilket också väcker diskussion om rättvisa. Många elever beskriver också att kvällarna blir långa."
+        }
+      ]
+    },
+    {
+      "id": "val",
+      "heading": "Press och val",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Att prov väger tungt kan ge motivation, men det kan också ge stress. Samtidigt är bilden av ”examenshelvetet” förenklad: många elever trivs, och det finns många vägar, till exempel yrkesinriktade skolor, rekommendationer och olika sorters universitet."
+        },
+        {
+          "type": "p",
+          "text": "När du pratar med jämnåriga: fråga hur de tänker om framtiden. Svaren varierar mycket, från att vilja läsa vidare till att vilja börja arbeta eller resa."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Utan att döma",
+          "text": "Du känner inte hela systemet efter ett besök. Jämför gärna, men undvik att säga att ”det japanska systemet är hårt” eller ”vårt är bättre”. Fråga i stället vad människor själva tycker är bra och dåligt."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "ordering",
+      "id": "vagen",
+      "title": "Ordna skolstegen",
+      "prompt": "Sätt skolstegen i ordning, det första först.",
+      "items": [
+        {
+          "id": "grund",
+          "text": "Grundskola (6 år)"
+        },
+        {
+          "id": "junior",
+          "text": "Högstadium/junior high (3 år)"
+        },
+        {
+          "id": "hs",
+          "text": "Gymnasium (3 år)"
+        },
+        {
+          "id": "uni",
+          "text": "Universitet"
+        }
+      ],
+      "explanation": "Skolgången är obligatorisk i 9 år (6+3). De flesta fortsätter därefter i gymnasium och en del vidare till universitet."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "juku",
+      "title": "Vad är juku?",
+      "prompt": "Vad är juku?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Privata extraskolor på kvällar och helger.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ett skolmåltidsprogram.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En typ av lärare.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "samtal",
+      "title": "Samtal med en jämnårig",
+      "situation": "Du träffar en jämnårig som berättar att hen går på juku fyra kvällar i veckan.",
+      "question": "Vad är en bra fråga?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hur känns det för dig, och vad vill du göra efter gymnasiet?",
+          "correct": true,
+          "feedback": "Bra. Öppen och nyfiken, utan att döma."
+        },
+        {
+          "id": "b",
+          "text": "Det låter hemskt, varför gör ni så?",
+          "correct": false,
+          "feedback": "Det dömer. Personen kanske trivs."
+        },
+        {
+          "id": "c",
+          "text": "Då är du säkert smartare än oss.",
+          "correct": false,
+          "feedback": "En förenkling."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Ser du jukuskyltar eller elever i skoluniform på kvällen? Vilka tider?",
+    "Vilka frågor kan du ställa till jämnåriga om framtiden?",
+    "Hur skiljer sig dagen i ditt eget skolsystem?"
+  ],
+  "reflection": "Vad skulle du tycka var bra och mindre bra med att ett prov avgör din plats? Hur påverkar det din syn på ditt eget system?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Hur många år är skolgången obligatorisk i Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nio år",
+          "correct": true,
+          "feedback": "Rätt: 6 + 3."
+        },
+        {
+          "id": "b",
+          "text": "Tre år",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Tolv år",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad är Common Test?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ett nationellt prov för universitetsansökan",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En lärarexamen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett hälsotest",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ett körkort",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Ungefär hur stor andel av dem som ska ta inträdesprov går på juku enligt en branschuppskattning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "50–70 procent",
+          "correct": true,
+          "feedback": "Rätt, men siffran är grov."
+        },
+        {
+          "id": "b",
+          "text": "1 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "100 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "5 procent",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är en nyanserad slutsats?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Systemet ger både motivation och stress, och erfarenheterna varierar.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alla mår dåligt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Alla trivs.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen läser.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Hur bör du som besökare prata om skolsystemet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fråga och lyssna utan att döma.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Säga att det är hemskt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Säga att ditt eget är bättre.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Aldrig prata om skolan.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "stripes-juku",
+    "emb-japan-education"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Skolstrukturen (6+3+3) och uppgiften om Common Test i januari är allmän bakgrund som inte kontrollerades separat. Antalet anmälda (cirka en halv miljon) bygger på en nyhetsuppgift.",
+      "Juku-andelen 50–70 procent är en branschuppskattning och källan är en sammanfattning i en nyhetsartikel.",
+      "Beskrivningen av stress, kostnad, elevernas upplevelser och alternativa vägar är allmän bakgrund.",
+      "Jämförelsen med Sverige är grov."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t04-k02-hero",
+    "imageId": "tsukisamu-grind",
+    "brief": "Skolmiljö eller plats där elever studerar efter skolan."
+  }
+}
