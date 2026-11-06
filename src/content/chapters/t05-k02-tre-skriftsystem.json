@@ -1,0 +1,348 @@
+{
+  "id": "t05-k02",
+  "slug": "tre-skriftsystem",
+  "themeId": "sprak",
+  "order": 2,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Tre skriftsystem: hiragana, katakana och kanji",
+  "summary": "Japanska skrivs med tre system på en gång. Kapitlet visar hur de fungerar tillsammans och hur du kan känna igen några tecken på skyltar.",
+  "objectives": [
+    "Förklara vad de tre skriftsystemen används till",
+    "Känna igen några vanliga tecken",
+    "Förstå varför kanji kan läsas på flera sätt"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "En enda japansk mening kan innehålla tre olika sorters tecken. Hur vet man vilket som är vilket, och hur läser man något när samma tecken kan låta på flera sätt?"
+  },
+  "sections": [
+    {
+      "id": "tre",
+      "heading": "Tre system som arbetar tillsammans",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japanska skrivs med **kanji** (tecken som lånats från kinesiska och som står för betydelse) tillsammans med två stavelseskriftsystem, **hiragana** och **katakana**. De två sistnämnda har tecken för språkets grundläggande stavelser, till exempel か (ka) och カ (ka). Båda utvecklades ur kinesiska tecken som började användas för sitt ljud, ett system som kallas man'yōgana och uppstod omkring år 650."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Kanji",
+              "value": "Tecken med betydelse, ofta för substantiv, verbstammar och namn. Exempel: 山 (berg), 駅 (station)"
+            },
+            {
+              "label": "Hiragana",
+              "value": "Används för grammatiska ändelser, småord och japanska ord utan kanji. Exempel: は, が, です"
+            },
+            {
+              "label": "Katakana",
+              "value": "Används för lånord, utländska namn och betoning. Exempel: コーヒー (kaffe), ホテル (hotell)"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Du ser alla tre i en enda mening: **私は寿司が好きです** (Watashi wa sushi ga suki desu, ”Jag gillar sushi”). 私, 寿司 och 好 är kanji. は, が, き och です är hiragana. Namn på utländska platser och personer skrivs ofta med katakana, till exempel スウェーデン (Suēden, Sverige)."
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "heading": "Kanji: samma tecken, flera läsningar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "De flesta kanji har minst två läsningar. **On'yomi** är en japansk variant av det ursprungliga kinesiska uttalet, och **kun'yomi** är en inhemsk japansk läsning. Tecknet 山 läses till exempel *yama* (kun) i ett ord och *san* (on) i ett annat, som i Fuji-san (富士山, Fujisan, där san betyder ”berg” och inte är artighetstiteln -san)."
+        },
+        {
+          "type": "p",
+          "text": "Läsningen beror på vilket ord tecknet ingår i, och vissa ord har läsningar som varken är on eller kun, till exempel 明日 (ashita, ”i morgon”). Därför kan inte ens japanska läsare alltid veta hur ett ovanligt namn uttalas."
+        },
+        {
+          "type": "p",
+          "text": "Den officiella listan över vanliga kanji, **jōyō-listan**, har 2 136 tecken (sedan 2010). Det totala antalet kanji är långt större, men en vuxen känner igen omkring 3 000. Du behöver inte kunna dem: några tecken räcker långt på resan (se kapitlet om skyltar och menyer)."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Romaji hjälper",
+          "text": "På många skyltar finns också romaji, alltså japanska ord med latinska bokstäver. Använd det för att uttala och för att jämföra med tecknen."
+        }
+      ]
+    },
+    {
+      "id": "igen",
+      "heading": "Känna igen några tecken",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Börja med en handfull tecken som du ofta ser: **駅** (eki, station), **出口** (deguchi, utgång), **入口** (iriguchi, ingång), **男** (man) och **女** (kvinna), **円** (en, yen). Du lär dig dem snabbare om du letar efter dem i miljön."
+        },
+        {
+          "type": "observe",
+          "title": "Leta efter tecken",
+          "prompt": "Använd en bild från en station eller gata, eller textalternativet nedan.",
+          "steps": [
+            "Vilka tecken ser du, och vilka liknar varandra?",
+            "Vilka är kanji, vilka är hiragana och vilka katakana?",
+            "Finns romaji eller engelska som du kan jämföra med?",
+            "Vilka tecken återkommer?"
+          ],
+          "textAlternative": "Utan bild: leta efter tecken i hemmiljön, till exempel på en matförpackning med japansk text. Vilka tecken kan du känna igen, och vilken är den mest återkommande?",
+          "imageSlotIds": [
+            "t05-k02-hero"
+          ]
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "system",
+      "title": "Vilket system?",
+      "prompt": "Vilket system används ofta för lånord som コーヒー (kaffe)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Katakana",
+          "correct": true,
+          "feedback": "Rätt. Katakana används för lånord, utländska namn och betoning."
+        },
+        {
+          "id": "b",
+          "text": "Hiragana",
+          "correct": false,
+          "feedback": "Fel. Hiragana används för grammatik och japanska ord."
+        },
+        {
+          "id": "c",
+          "text": "Kanji",
+          "correct": false,
+          "feedback": "Fel. Kanji är tecken med betydelse."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "sats",
+      "title": "Läs meningen",
+      "prompt": "I 私は寿司が好きです är は och が små ord som visar hur meningen hänger ihop. Vilket skriftsystem är de skrivna med?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hiragana",
+          "correct": true,
+          "feedback": "Rätt. Partiklar och ändelser skrivs med hiragana."
+        },
+        {
+          "id": "b",
+          "text": "Katakana",
+          "correct": false,
+          "feedback": "Fel. Katakana används främst för lånord."
+        },
+        {
+          "id": "c",
+          "text": "Romaji",
+          "correct": false,
+          "feedback": "Fel. Romaji är latinska bokstäver."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "skylt",
+      "title": "På en perrong",
+      "situation": "Du ser tecknet 駅 på en skylt, men ingen romaji.",
+      "question": "Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jag minns att 駅 är station och jämför med namnet och kartan.",
+          "correct": true,
+          "feedback": "Bra. Ett fåtal tecken ger mycket."
+        },
+        {
+          "id": "b",
+          "text": "Jag ger upp.",
+          "correct": false,
+          "feedback": "Du klarar mer än du tror."
+        },
+        {
+          "id": "c",
+          "text": "Jag gissar slumpmässigt.",
+          "correct": false,
+          "feedback": "Använd kartan och skyltarna för att kontrollera."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka tecken återkommer på skyltar du ser: 駅, 出口, 入口, 男, 女?",
+    "Hur vet du vilken typ av tecken det är (kanji, hiragana, katakana)?",
+    "Vilka ord ser du i katakana, och vad betyder de?"
+  ],
+  "reflection": "Vilka tecken skulle du vilja kunna läsa först under en resa? Varför?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilket system används för grammatiska ändelser och småord?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hiragana",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Katakana",
+          "feedback": "Det används främst för lånord."
+        },
+        {
+          "id": "c",
+          "text": "Romaji",
+          "feedback": "Det är latinska bokstäver."
+        },
+        {
+          "id": "d",
+          "text": "Morse",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad betyder 駅?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Station",
+          "correct": true,
+          "feedback": "Rätt (eki)."
+        },
+        {
+          "id": "b",
+          "text": "Berg",
+          "feedback": "Berg är 山."
+        },
+        {
+          "id": "c",
+          "text": "Man",
+          "feedback": "Man är 男."
+        },
+        {
+          "id": "d",
+          "text": "Yen",
+          "feedback": "Yen är 円."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Varför kan ett kanji ha flera läsningar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "För att det ofta har både en on-läsning (kinesisk-inspirerad) och en kun-läsning (japansk).",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "För att tecknen ändras varje dag.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "För att det är slumpmässigt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "För att man får välja själv.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Ungefär hur många tecken har jōyō-listan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 136",
+          "correct": true,
+          "feedback": "Rätt (sedan 2010)."
+        },
+        {
+          "id": "b",
+          "text": "46",
+          "feedback": "Det är hiraganas grundtecken."
+        },
+        {
+          "id": "c",
+          "text": "20 000",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "10",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Hur skrivs utländska namn som Sverige ofta?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Med katakana (スウェーデン)",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Med hiragana",
+          "feedback": "Oftast inte."
+        },
+        {
+          "id": "c",
+          "text": "Med kanji alltid",
+          "feedback": "Oftast inte."
+        },
+        {
+          "id": "d",
+          "text": "Med romaji alltid",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "wikipedia-japanese-writing",
+    "japanexperience-kanji-travel"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Att hiragana och katakana utvecklades ur man'yōgana är en förenkling av en lång historia.",
+      "Exemplen (駅, 出口, 入口, 男, 女, 円, 山, 富士山, 明日, 私は寿司が好きです, スウェーデン) är allmän kunskap och bör kontrolleras av en japansklärare.",
+      "Förklaringen av hur on'yomi och kun'yomi används är förenklad.",
+      "Antalet kanji en vuxen känner igen (cirka 3 000) varierar mellan källor."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t05-k02-hero",
+    "imageId": "iga-kambe-stationsskyltar",
+    "brief": "Skyltar med blandad japansk text (kanji, hiragana, katakana) och romaji."
+  }
+}

@@ -558,5 +558,75 @@
     "checkedOn": "2026-11-06",
     "access": "search-result-summary",
     "supports": "Att TELL erbjuder engelskspråkigt, anonymt stöd per telefon och chatt, och att tider och kontaktuppgifter finns på organisationens webbplats."
+  },
+  {
+    "id": "wikipedia-japanese-writing",
+    "title": "Japanese writing system",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Japanese_writing_system",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att japanska skrivs med kanji och två stavelseskriftsystem (hiragana och katakana), att jōyō-listan över vanliga kanji har 2 136 tecken (sedan 2010), att kanji oftast har både on'yomi (kinesiskt inspirerad) och kun'yomi (japansk) läsning och att man'yōgana kring år 650 ligger bakom kana."
+  },
+  {
+    "id": "wikipedia-japanese-honorifics",
+    "title": "Japanese honorifics",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Japanese_honorifics",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att -san är den vanligaste neutrala titeln, -sama mer formell, -kun och -chan vanligare för pojkar respektive flickor och barn, och att det finns artighetsnivåer (teineigo, sonkeigo, kenjōgo)."
+  },
+  {
+    "id": "japanexperience-kanji-travel",
+    "title": "A few kanji to know for traveling in Japan",
+    "publisher": "Japan Experience",
+    "url": "https://www.japan-experience.com/plan-your-trip/to-know/japanese-language/a-few-kanji-to-know-for-traveling-in-japan",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Nyttiga kanji för resenärer, till exempel 駅 (eki, station), 出口 (deguchi, utgång), väderstreckskanji som 北口 (kitaguchi) samt 男 och 女 på toaletter."
+  },
+  {
+    "id": "nippon-toilet-signage",
+    "title": "Japan's Toilet Signage Goes Global",
+    "publisher": "nippon.com",
+    "url": "https://www.nippon.com/en/guide-to-japan/gu006004",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att toalettskyltar och symboler i Japan har standardiserats med JIS-symboler."
+  },
+  {
+    "id": "japantoday-toilet-symbols",
+    "title": "Japanese toilets receive new standardised symbols to help foreign tourists",
+    "publisher": "Japan Today",
+    "url": "https://www.japantoday.com/category/lifestyle/view/japanese-toilets-receive-new-standardised-symbols-to-help-foreign-tourists",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att toaletter tillverkade sedan 2017 använder samma standardiserade symboler på kontrollpanelen."
+  },
+  {
+    "id": "insidekyoto-translation-apps",
+    "title": "Best Japanese translation apps for Japan travel",
+    "publisher": "Inside Kyoto",
+    "url": "https://www.insidekyoto.com/best-japanese-translation-apps-for-japan-travel",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Översikt över översättningsappar för resor i Japan. Sammanfattningen ur sökresultat; sidan öppnades inte."
+  },
+  {
+    "id": "tourradar-translate-offline",
+    "title": "Google Translate offline mode saved my life (but failed on menus)",
+    "publisher": "TourRadar community",
+    "url": "https://community.tourradar.com/t/google-translate-offline-mode-saved-my-life-but-failed-on-menus/38047",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "En resenärs erfarenhet: ladda ned språkpaket i förväg, och offlineläget fungerade sämre på menyer. Enskild upplevelse, inte en kontrollerad källa."
   }
 ]
