@@ -517,7 +517,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t01-k03"
+      "t01-k03",
+      "t04-k05"
     ]
   },
   {
@@ -668,6 +669,156 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t05-k01"
+    ]
+  },
+  {
+    "id": "karaoke-manekineko",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/karaoke-manekineko/karaoke-manekineko-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 29640,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/karaoke-manekineko/karaoke-manekineko-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 110266,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/karaoke-manekineko/karaoke-manekineko-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 29640,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/karaoke-manekineko/karaoke-manekineko-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 77568,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Taisyo",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karaoke_manekineko_201108.JPG",
+    "license": {
+      "name": "CC BY 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 3.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Taisyo, CC BY 3.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Higashi-ku, Hiroshima",
+      "verifiedBy": "Commons-filsidans beskrivning (カラオケ本舗まねきねこ) och kategorier (Higashi-ku, Hiroshima; Karaoke lounges in Japan)"
+    },
+    "year": {
+      "value": "2011",
+      "verifiedBy": "Commons-filsidans datumfält (6 augusti 2011)"
+    },
+    "caption": "Ett karaokeställe av kedjan Manekineko i Hiroshima, augusti 2011. På karaokeställen hyr man ofta ett eget rum för sin grupp.",
+    "alt": "Gatuhörn med en gul och röd byggnad med skyltar på fasaden, ledningar ovanför och ett övergångsställe i förgrunden.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns tydligt.",
+    "usedIn": [
+      "t04-k03"
+    ]
+  },
+  {
+    "id": "kokugikan-malning",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/kokugikan-malning/kokugikan-malning-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 17660,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/kokugikan-malning/kokugikan-malning-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 71824,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/kokugikan-malning/kokugikan-malning-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 17660,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/kokugikan-malning/kokugikan-malning-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 49240,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.55
+    },
+    "creator": "Guilhem Vellut",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ryogoku_Kokugikan_painting_1a_2013-08-29.jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Guilhem Vellut, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Ryogoku, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning och kategori (Ryogoku Kokugikan)"
+    },
+    "year": {
+      "value": "2013",
+      "verifiedBy": "Commons-filsidans datumfält (29 augusti 2013)"
+    },
+    "caption": "Sumoarenan Ryogoku Kokugikan i Tokyo med en stor målning av sumobrottare vid entrén, augusti 2013. Tokyo är värd för tre av sumons sex stora årliga turneringar.",
+    "alt": "Brett, lågt byggnadsparti med ett böjt grönt tak över en stor målning av flera sumobrottare, framför en stenlagd plats.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns. Målningen föreställer sumobrottare.",
+    "usedIn": [
+      "t04-k04"
     ]
   },
   {
@@ -1913,6 +2064,81 @@
     ]
   },
   {
+    "id": "spelhall-mikado",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/spelhall-mikado/spelhall-mikado-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27790,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/spelhall-mikado/spelhall-mikado-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 77190,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/spelhall-mikado/spelhall-mikado-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27790,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/spelhall-mikado/spelhall-mikado-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 60164,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "M.T",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BukuroMikado-201812.png",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Ikebukuro, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning och kategori (Ikebukuro Game Center Mikado)"
+    },
+    "year": {
+      "value": "2018",
+      "verifiedBy": "Commons-filsidans datumfält (12 december 2018)"
+    },
+    "caption": "Spelhallen Mikado i Ikebukuro i Tokyo, december 2018. Spelhallar (game centers) har spelautomater som man spelar mot en liten avgift.",
+    "alt": "Tvåvånings hörnbyggnad med röd, vit och gul fasad och en stor skylt med texten Mikado, och automater vid ingången.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns tydligt.",
+    "usedIn": [
+      "t04-k03"
+    ]
+  },
+  {
     "id": "stillfried-yokohama-1881",
     "kind": "historical-original",
     "variants": [
@@ -2327,7 +2553,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 3:2 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t04-k01"
+      "t04-k01",
+      "t04-k02"
     ]
   },
   {

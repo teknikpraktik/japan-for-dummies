@@ -488,5 +488,75 @@
     "checkedOn": "2026-11-06",
     "access": "search-result-summary",
     "supports": "Att Tokyo är den enda prefekturen med fortsatt befolkningstillväxt och att koncentrationen till Tokyoområdet inte har minskat."
+  },
+  {
+    "id": "adnkronos-futoko-2024",
+    "title": "Record 350,000 Students Refuse to Go to School in Japan in FY 2024",
+    "publisher": "Jiji Press (via Adnkronos)",
+    "url": "https://english.adnkronos.com/2025/10/29/record-350000-students-refuse-to-go-to-school-in-japan-in-fy-2024/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att 353 970 grund- och högstadieelever hade över 30 dagars frånvaro läsåret 2024 (tolfte året i rad med ökning) och att 769 022 mobbningsfall registrerades, ett rekord som ministeriet delvis kopplar till mer aktiv registrering."
+  },
+  {
+    "id": "opengov-bullying",
+    "title": "School Bullying in Japan",
+    "publisher": "OpenGov Japan",
+    "url": "https://opengov.jp/en/education/bullying/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Data över mobbning i japanska skolor enligt utbildningsministeriets undersökning."
+  },
+  {
+    "id": "stripes-juku",
+    "title": "Did you know? Juku, Japanese cram schools",
+    "publisher": "Stars and Stripes",
+    "url": "https://japan.stripes.com/travel/did-you-know-juku,-japanese-cram-schools.html",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att juku är privata extraskolor, att Japan Juku Association uppskattade antalet till ca 55 000 (2016) och att uppskattningsvis 50–70 procent av dem som ska ta inträdesprov går på juku."
+  },
+  {
+    "id": "tjf-club-activities",
+    "title": "Club Activities",
+    "publisher": "TJF (Japanese culture resource)",
+    "url": "https://tjf.or.jp/takarabako/japaneseculture/13club.htm",
+    "kind": "institution",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att skolklubbar (bukatsu) finns på många skolor, sker efter skolan och att drygt 60 procent av gymnasieeleverna enligt en undersökning deltar i någon klubb."
+  },
+  {
+    "id": "wikipedia-koshien",
+    "title": "High school baseball in Japan",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/High_school_baseball_in_Japan",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att Koshien är den nationella gymnasiebasebollturneringen på Hanshin Koshien-stadion i Nishinomiya, med en vår- och en sommarturnering."
+  },
+  {
+    "id": "statista-karaoke-2021",
+    "title": "Share of karaoke goers among high schoolers in Japan 2021",
+    "publisher": "Statista",
+    "url": "https://statista.com/statistics/1345496/japan-share-karaoke-goers-high-schoolers-by-frequency",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att omkring 20 procent av gymnasieeleverna i en undersökning från 2021 (bland Line-användare) sjöng karaoke minst en gång i månaden, oftast med vänner. Delvis bakom betalvägg."
+  },
+  {
+    "id": "tell-japan",
+    "title": "TELL Lifeline",
+    "publisher": "TELL (Tokyo English Lifeline)",
+    "url": "https://telljp.com/",
+    "kind": "institution",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att TELL erbjuder engelskspråkigt, anonymt stöd per telefon och chatt, och att tider och kontaktuppgifter finns på organisationens webbplats."
   }
 ]

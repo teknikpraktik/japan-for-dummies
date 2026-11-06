@@ -1,0 +1,318 @@
+{
+  "id": "t04-k03",
+  "slug": "fritid-vanner-och-vardag",
+  "themeId": "skola",
+  "order": 3,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Fritid, vänner och vardag",
+  "summary": "Närbutiken, karaoke, spelhallar, kollektivtrafik och vänner. Kapitlet beskriver hur ungdomar kan tillbringa sin fritid och hur mycket det varierar.",
+  "objectives": [
+    "Beskriva några vanliga fritidsplatser",
+    "Förstå hur tid, pengar och avstånd påverkar fritiden",
+    "Ställa frågor till jämnåriga under resan"
+  ],
+  "minutes": 7,
+  "hook": {
+    "kind": "question",
+    "text": "Vad gör man efter skolan om hela dagen redan är full av skola och klubbar? Och var träffas man egentligen?"
+  },
+  "sections": [
+    {
+      "id": "platser",
+      "heading": "Platser där ungdomar träffas",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hur ungdomar tillbringar sin fritid varierar mycket med ålder, ort och intressen. Några platser som ofta nämns: **närbutiken** (konbini) där man köper snacks och dryck, **karaoke** där man hyr ett eget rum med vänner, **spelhallar** (game centers) och kaféer, parker, köpcentrum och hemma med spel eller sociala medier."
+        },
+        {
+          "type": "p",
+          "text": "I en undersökning från 2021 bland gymnasieelever (Line-användare) uppgav omkring en femtedel att de sjöng karaoke minst en gång i månaden, oftast med vänner. En annan undersökning (2018) angav att tonåringar var den grupp som oftast spelade i spelhallar, cirka 22,7 procent. Siffrorna gäller små urval och kan inte beskriva alla."
+        },
+        {
+          "type": "photo",
+          "slotId": "t04-k03-karaoke",
+          "imageId": "spelhall-mikado",
+          "brief": "Karaokebyggnad eller spelhall i Japan, utan identifierbara personer."
+        }
+      ]
+    },
+    {
+      "id": "tid",
+      "heading": "Tid, pengar och avstånd",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Fritiden formas av vad man hinner och har råd med. Skola, klubbar och eventuellt juku tar mycket tid. Kollektivtrafiken gör att många kan ta sig själva till stan, men på landsbygden kan avstånden vara långa och tågen glesa. Fickpengar, deltidsjobb och regler på skolan påverkar också."
+        },
+        {
+          "type": "p",
+          "text": "Många skolor har regler om var och när elever får vara ute, till exempel på kvällen. Reglerna varierar mellan skolor och kommuner."
+        }
+      ]
+    },
+    {
+      "id": "fraga",
+      "heading": "Fråga, lyssna och jämför",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Om du får tillfälle att prata med jämnåriga är fritid ett bra samtalsämne. Fråga vad de gör en vanlig vecka, vad de gillar och vad de önskar fanns i deras område. Berätta också om din egen vardag. Ett utbyte går åt båda håll."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Undvik stereotyper",
+          "text": "Bilder av ”japanska tonåringar” som bara spelar eller pluggar är förenklingar. Det finns lika många vardagar som personer."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "konbini",
+      "title": "Konbini",
+      "prompt": "Vad är en konbini?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En närbutik som är öppen långa tider.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En typ av skola.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tempel.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "karaoke",
+      "title": "Karaoke",
+      "prompt": "Hur beskrivs karaoke ofta i Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Man hyr ett rum med vänner.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Man sjunger bara på scen inför publik.",
+          "correct": false,
+          "feedback": "Fel. Det är vanligt att hyra privat rum."
+        },
+        {
+          "id": "c",
+          "text": "Det är förbjudet för unga.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "stereotyp",
+      "title": "I samtal",
+      "situation": "En kamrat säger: ”Japanska tonåringar gör bara plugg och spel.”",
+      "question": "Hur reagerar du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fritiden varierar mycket. Jag frågar jämnåriga vad de själva gör.",
+          "correct": true,
+          "feedback": "Bra."
+        },
+        {
+          "id": "b",
+          "text": "Det stämmer säkert.",
+          "correct": false,
+          "feedback": "En stereotyp."
+        },
+        {
+          "id": "c",
+          "text": "De har ingen fritid alls.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka platser verkar ungdomar besöka efter skolan?",
+    "Vilka tider är gatorna fulla av elever?",
+    "Vad skulle du vilja fråga en jämnårig om fritiden?"
+  ],
+  "reflection": "Hur ser en vanlig vecka ut för dig? Vad skulle en besökare kunna missa?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilken plats är vanlig för att köpa snacks efter skolan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Konbini",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Tempel",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bibliotek",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Hamn",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vilken fritidsaktivitet nämndes i kapitlet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Karaoke",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Segling",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Skidåkning",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ridning",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad påverkar fritiden enligt kapitlet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tid, pengar och avstånd",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Bara vädret",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara ålder",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingenting",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Varför bör man vara försiktig med siffror från enskilda undersökningar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "De gäller små urval och kan inte beskriva alla.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "De är alltid fel.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "De är alltid sanna för alla.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "De finns inte.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en bra princip när du pratar med jämnåriga?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fråga, lyssna och berätta om dig själv.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Anta att alla är lika.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Gissa deras åsikter.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Aldrig fråga.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "statista-karaoke-2021",
+    "emb-japan-education"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Karaoke- och spelhallssiffrorna bygger på sammanfattningar av undersökningar bakom betalvägg med små urval (Line-användare 2021, 2018).",
+      "Beskrivningen av närbutiker, spelhallar, regler och kollektivtrafik är allmän bakgrund som inte kontrollerades mot en källa.",
+      "Fritiden varierar mycket. Kapitlet bör kompletteras med forskning om ungas fritid.",
+      "Bildtexterna om karaokeställen och spelhallar bygger på Commons-beskrivningarna och allmän kännedom."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t04-k03-hero",
+    "imageId": "karaoke-manekineko",
+    "brief": "Fritidsmiljö i Japan, till exempel närbutik, karaoke eller spelhall."
+  }
+}
