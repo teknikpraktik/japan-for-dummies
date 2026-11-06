@@ -1,0 +1,314 @@
+{
+  "id": "t06-k04",
+  "slug": "offentligt-beteende",
+  "themeId": "seder",
+  "order": 4,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Offentligt beteende: skräp, ljud och kontanter",
+  "summary": "Varför det ofta saknas papperskorgar, hur man betalar vid kassan och vad som gäller i butiker och gatuliv.",
+  "objectives": [
+    "Hantera avfall som besökare",
+    "Förstå hur betalning vid kassa fungerar",
+    "Anpassa ljudnivå och uppförande efter plats"
+  ],
+  "minutes": 7,
+  "hook": {
+    "kind": "question",
+    "text": "Du har ett tomt kaffemuggs i handen men hittar ingen papperskorg. Var hamnar den?"
+  },
+  "sections": [
+    {
+      "id": "skrap",
+      "heading": "Skräp: ta med det",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Offentliga papperskorgar är sällsynta i Japan. En förklaring som ofta nämns är att många korgar togs bort efter sarinattacken i Tokyos tunnelbana 1995, men andra faktorer nämns också, till exempel kostnad och en stark känsla av eget ansvar. Resenärer rekommenderas ofta att ta med sitt skräp tills de når hotellet eller en plats med sopkärl. Några korgar finns vid parker, automater och i butiker, och på senare år har korgar börjat återvända på vissa platser."
+        },
+        {
+          "type": "p",
+          "text": "Många platser kräver också att man **sorterar** (brännbart, plast, burkar, PET-flaskor). Titta på symbolerna på korgen. Ta med en liten påse i fickan."
+        }
+      ]
+    },
+    {
+      "id": "betala",
+      "heading": "Betalning vid kassan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Dricks** förväntas inte i Japan och kan upplevas som obehagligt. Vid många kassor finns en liten **bricka** där du lägger pengarna eller kortet i stället för att räcka dem direkt. Kassapersonalen räknar upp växeln och lämnar den i handen eller på brickan. Beloppet betalas vid kassan, inte vid bordet, på många restauranger."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Praktiskt",
+          "text": "Kontanter används fortfarande ofta, men kort och kontaktlösa betalningar är vanliga i stora städer. Ha en blandning med dig, särskilt utanför storstäderna."
+        }
+      ]
+    },
+    {
+      "id": "ljud",
+      "heading": "Ljud, tid och plats",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Anpassa ljudnivån efter platsen. På tåg och bussar ringer man i regel inte och pratar tyst (se kapitlet om hänsyn i vardagen). I tempel och på museer är det tyst och lugnt. På gatan, i butiker och på restauranger är ljudnivån mer varierad. Titta på hur andra beter sig."
+        },
+        {
+          "type": "p",
+          "text": "Det handlar inte om att kunna alla regler, utan om att vara uppmärksam på andra: undvik att blockera passager, ta inte plats i onödan och tacka vänligt."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "skrap",
+      "title": "Skräp",
+      "prompt": "Du har skräp men hittar ingen papperskorg. Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tar med det tills jag hittar ett kärl eller når hotellet.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Lägger det på marken.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Slänger det i ett dike.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "dricks",
+      "title": "Dricks",
+      "prompt": "Vad gäller för dricks?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det förväntas normalt inte.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Man måste ge 20 procent.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Man ska ge den i hemlighet.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "kassa",
+      "title": "Vid kassan",
+      "situation": "Du ska betala i en butik och ser en liten bricka vid kassan.",
+      "question": "Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lägger pengarna eller kortet på brickan.",
+          "correct": true,
+          "feedback": "Rätt. Så gör man ofta."
+        },
+        {
+          "id": "b",
+          "text": "Kastar pengarna.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Går utan att betala.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Var finns sopkärl, och hur ser sorteringen ut?",
+    "Hur betalar människor i butiker: bricka, kort, kontanter?",
+    "Hur är ljudnivån på olika platser?"
+  ],
+  "reflection": "Vad är de osynliga reglerna om skräp och ljud där du bor? Hur skulle en besökare lära sig dem?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Varför saknas ofta offentliga papperskorgar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Flera faktorer, bland annat att många togs bort efter 1995 och en känsla av eget ansvar.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "De har aldrig funnits.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "De är förbjudna.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "De är för dyra att tömma.",
+          "feedback": "Det nämns, men är inte hela bilden."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad gör du med skräpet som besökare?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tar med det till hotellet eller ett sopkärl.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Lämnar det på marken.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Gömmer det.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Kastar det i ett vattendrag.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Hur är dricks i Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Normalt inte förväntad.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Obligatorisk.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ska vara 20 procent.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ges i hemlighet.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är en bricka vid kassan till för?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pengar och kort läggs där.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Mat.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Skor.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Kartor.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Hur anpassar du ljudnivån?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Efter platsen: tyst på tåg och i tempel.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alltid högt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Alltid tyst.",
+          "feedback": "Inte alltid nödvändigt."
+        },
+        {
+          "id": "d",
+          "text": "Ingen skillnad.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "cnn-trash-cans",
+    "ctv-trash-cans",
+    "wikipedia-dining-etiquette",
+    "jnto-manners"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Förklaringen till få papperskorgar (efter sarinattacken 1995 med flera andra faktorer) är en vanlig, men inte säkert belagd förklaring. Källorna är nyhetsartiklar.",
+      "Beskrivningen av betalbrickan, att betalning görs vid kassan och att kort är vanligt i storstäder är allmän bakgrund som inte kontrollerades mot en källa.",
+      "Dricks: Wikipedia-sammanfattningen och reseguider anger att den normalt inte förväntas. Undantag finns.",
+      "Råden om ljudnivå är allmänna."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t06-k04-hero",
+    "imageId": "lawson-store100-yokohama",
+    "brief": "Gatumiljö eller station där hänsyn och regler syns, till exempel sorteringskärl."
+  }
+}

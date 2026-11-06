@@ -217,6 +217,81 @@
     ]
   },
   {
+    "id": "genkan-skor",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/genkan-skor/genkan-skor-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 18440,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/genkan-skor/genkan-skor-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 76212,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/genkan-skor/genkan-skor-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 18440,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/genkan-skor/genkan-skor-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 52020,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Rick McCharles",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tidy_Japan_%E5%9C%9F%E8%B6%B3%E5%8E%B3%E7%A6%81_%E3%81%8F%E3%81%A4%E3%81%B9%E3%82%89%E5%85%A5%E3%82%8C_2011_(6314266743).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Rick McCharles, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Japan (entré)",
+      "verifiedBy": "Commons-filsidans kategorier (Genkan; Slippers; Shoe prohibition signs)"
+    },
+    "year": {
+      "value": "2011",
+      "verifiedBy": "Commons-filsidans datumfält (2 november 2011)"
+    },
+    "caption": "Skor och inneskor vid en entré (genkan) med skylten 土足厳禁, som betyder att skor som använts utomhus inte får bäras inomhus. Fotografi från 2011.",
+    "alt": "Rad av skor och tofflor på ett stengolv med gula ledstråkslister, och ett litet skyltställ med japansk text intill.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t06-k02"
+    ]
+  },
+  {
     "id": "hirado-danchi",
     "kind": "contemporary-photo",
     "variants": [
@@ -962,7 +1037,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 3:2 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t04-k01"
+      "t04-k01",
+      "t06-k04"
     ]
   },
   {
@@ -1045,7 +1121,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t04-k01"
+      "t04-k01",
+      "t06-k05"
     ]
   },
   {
@@ -1407,6 +1484,81 @@
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
       "t02-k04"
+    ]
+  },
+  {
+    "id": "omiyage-presenter",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/omiyage-presenter/omiyage-presenter-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 42378,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/omiyage-presenter/omiyage-presenter-960.webp",
+        "width": 960,
+        "height": 638,
+        "bytes": 145566,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/omiyage-presenter/omiyage-presenter-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 47848,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/omiyage-presenter/omiyage-presenter-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 117344,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.45,
+      "y": 0.45
+    },
+    "creator": "Jorge from Brazil",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Omiyage_in_2014_(13335201323).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Jorge from Brazil, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Japan",
+      "verifiedBy": "Commons-filsidans beskrivning (In Japan) och kategorier (Souvenirs of Japan; Confectionery of Japan)"
+    },
+    "year": {
+      "value": "2014",
+      "verifiedBy": "Commons-filsidans datumfält (6 mars 2014)"
+    },
+    "caption": "Förpackat godis och souvenirer (omiyage) till försäljning i Japan, mars 2014. Omiyage är små presenter som man tar med efter en resa eller ger som tack.",
+    "alt": "Staplar av färgglada, snyggt förpackade godisaskar med japansk text på en hylla.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t06-k03"
     ]
   },
   {
@@ -1772,6 +1924,81 @@
     "usedIn": [
       "t06-k01",
       "t05-k05"
+    ]
+  },
+  {
+    "id": "sento-yamatoyu",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/sento-yamatoyu/sento-yamatoyu-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 23942,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/sento-yamatoyu/sento-yamatoyu-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 108952,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/sento-yamatoyu/sento-yamatoyu-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27228,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/sento-yamatoyu/sento-yamatoyu-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 85576,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.45
+    },
+    "creator": "Rob Oo",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yamato-yu_-_Flickr_-_Rob_Oo.jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Rob Oo from NL, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Onomichi, Hiroshima prefektur",
+      "verifiedBy": "Commons-filsidans beskrivning (Onomichi, Japan)"
+    },
+    "year": {
+      "value": "2024",
+      "verifiedBy": "Commons-filsidans datumfält (14 maj 2024)"
+    },
+    "caption": "Yamato-yu i Onomichi, ett hundra år gammalt offentligt badhus (sento) som har byggts om till butik och café, maj 2024. Byggnaden visar hur ett traditionellt badhus kan se ut utifrån.",
+    "alt": "Äldre stenbyggnad med buefönster över dubbeldörrar i ljusblått, med skylten 大和湯 ovanför och krukor längs väggen.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t06-k02"
     ]
   },
   {

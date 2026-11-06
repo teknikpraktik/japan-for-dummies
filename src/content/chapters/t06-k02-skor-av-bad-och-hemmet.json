@@ -1,0 +1,325 @@
+{
+  "id": "t06-k02",
+  "slug": "skor-av-bad-och-hemmet",
+  "themeId": "seder",
+  "order": 2,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Skor av: hem, tempel och badhus",
+  "summary": "Var man tar av sig skorna, vad tofflor betyder och hur man badar i offentliga bad. Kapitlet förklarar varför, och vad som gäller om du har tatueringar eller är osäker.",
+  "objectives": [
+    "Veta var skor normalt tas av",
+    "Förklara grundreglerna för offentliga bad",
+    "Fråga artigt när du är osäker"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Du kliver in i ett hem, ett tempel eller en omklädningshall. Någonstans på vägen ska skorna av, och tofflor ska bytas. Hur vet du var?"
+  },
+  "sections": [
+    {
+      "id": "skor",
+      "heading": "Skorna av vid genkan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "I japanska hem finns en liten nivåskillnad vid entrén, **genkan**. Där tar man av sig skorna och ställer dem med tårna mot dörren eller i skohyllan. Därefter byter man till inneskor eller tofflor, eller går i strumpor. Samma regel gäller ofta i skolor, på ryokan (traditionella värdshus), i många tempel, i vissa restauranger med upphöjda golv och hos privatpersoner."
+        },
+        {
+          "type": "p",
+          "text": "Skälet är främst renlighet: man vill inte ha med gatans smuts in till golv där man sitter och sover. Golv med **tatami** (vävda halmmattor) är känsliga, så tofflor tas också av före tatamin: gå i strumpor eller barfota."
+        }
+      ]
+    },
+    {
+      "id": "toalett",
+      "heading": "Tofflor och toaletten",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Många hem har särskilda **toalettofflor** vid toalettdörren. Man byter till dem när man går in och tillbaka till vanliga tofflor när man går ut. Det vanligaste misstaget bland besökare är att glömma byta tillbaka. Observera vad värden gör, och fråga om du är osäker."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Om du är osäker",
+          "text": "Titta efter skor på rad, en hylla eller en upphöjd golvkant. Fråga ”Kutsu o nuide ii desu ka?” (”Kan jag ta av mig skorna?”) eller titta på vad andra gör. Rena strumpor utan hål är en bra idé när du reser."
+        }
+      ]
+    },
+    {
+      "id": "bad",
+      "heading": "Offentliga bad: onsen och sento",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Onsen** (varma källor) och **sento** (offentliga badhus) har egna regler. De vanligaste: **tvätta dig noga före badet** vid duschplatserna, doppa inte handduken i badvattnet, simma inte och fotografera inte. Badet är för avkoppling, inte för tvätt."
+        },
+        {
+          "type": "p",
+          "text": "Många bad är uppdelade efter kön och man badar naken. Det är ovant för många besökare. Om det känns obehagligt finns oftast privata bad eller familjebad som kan bokas, och du behöver inte bada alls."
+        },
+        {
+          "type": "p",
+          "text": "**Tatueringar:** en undersökning från Japans turistmyndighet 2015 visade att drygt hälften av hotellen och värdshusen inte släppte in tatuerade i allmänna badutrymmen. Det finns ingen nationell regel: varje anläggning bestämmer, och en del tillåter tatueringar eller kräver att de täcks. Kolla reglerna i förväg (webbplats eller fråga personalen) och respektera svaret."
+        },
+        {
+          "type": "photo",
+          "slotId": "t06-k02-bad",
+          "imageId": "sento-yamatoyu",
+          "brief": "Byggnad som är eller har varit ett offentligt badhus (sento). Bildtexten ska förklara byggnadens användning."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "genkan",
+      "title": "Genkan",
+      "prompt": "Vad är genkan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Entrén där man tar av sig skorna.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En typ av tatuering.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett bad.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "tatami",
+      "title": "Tatami",
+      "prompt": "Vad gäller för tofflor på tatami?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tofflorna tas av före tatamin.",
+          "correct": true,
+          "feedback": "Rätt. Tatami är känslig."
+        },
+        {
+          "id": "b",
+          "text": "Man ska ha skor på.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Man ska ha två par tofflor.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "tatuering",
+      "title": "Vid ett badhus",
+      "situation": "Du har en tatuering och vill bada i ett offentligt bad som har skylten ”inga tatueringar”.",
+      "question": "Vad är bäst?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Respektera regeln, fråga personalen om det finns alternativ eller välj ett annat ställe.",
+          "correct": true,
+          "feedback": "Bra. Regeln bestäms av anläggningen."
+        },
+        {
+          "id": "b",
+          "text": "Täcka den och gå in ändå utan att fråga.",
+          "correct": false,
+          "feedback": "Fråga hellre först."
+        },
+        {
+          "id": "c",
+          "text": "Argumentera med personalen.",
+          "correct": false,
+          "feedback": "Respektera deras regel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Var finns skohyllor, upphöjda golv eller tofflor?",
+    "Hur ser reglerna ut vid bad: skyltar, bilder, instruktioner?",
+    "Vem kan du fråga om du är osäker?"
+  ],
+  "reflection": "Vilka regler om renlighet har du hemma som en besökare inte skulle känna till? Hur skulle du vilja att man frågade?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Var tar man normalt av sig skorna?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vid genkan i hem och många värdshus och tempel",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Aldrig",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara på natten",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara på tåg",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad gör man före ett bad i onsen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tvättar sig noga vid duschplatsen.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Simmar",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Fotograferar",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Tar med skorna",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad gäller för tatueringar i bad?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Varje anläggning bestämmer, och många tillåter dem inte.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "De är alltid tillåtna.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "De är förbjudna i hela Japan.",
+          "feedback": "Fel. Det finns ingen nationell regel."
+        },
+        {
+          "id": "d",
+          "text": "Man måste skriva sitt namn.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är toalettofflor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tofflor som man byter till vid toaletten.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Tofflor för bad.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Skor för tempel.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En maträtt.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad gör du om du är osäker?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tittar på vad andra gör eller frågar vänligt.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Gissar.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Går därifrån.",
+          "feedback": "Onödigt."
+        },
+        {
+          "id": "d",
+          "text": "Låtsas veta.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "japanguide-indoor-manners",
+    "japanexperience-slipper-culture",
+    "timeout-onsen",
+    "japantimes-tattoo-survey-2015"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Skälet till skoreglerna (renlighet) och tatamis känslighet är allmän bakgrund. Källorna skiljer sig något om barfota eller strumpor på tatami.",
+      "Fraserna (”Kutsu o nuide ii desu ka?”) är allmän kunskap och bör granskas av en japansklärare.",
+      "Beskrivningen av bad (tvätta först, handduk, kön, privata bad) är delvis allmän bakgrund utöver Time Out-sammanfattningen.",
+      "Tatueringssiffran (drygt hälften) gäller en undersökning från 2015, och reglerna har förändrats sedan dess. Kontrollera den aktuella anläggningens regler.",
+      "Bildtexten om Yamato-yu (tidigare badhus, nu butik och café) bygger på Commons-beskrivningen. Bilden visar ett före detta badhus, inte ett aktivt. Skylttexten 土足厳禁 är tolkad av oss och bör kontrolleras."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t06-k02-hero",
+    "imageId": "genkan-skor",
+    "brief": "Miljö där man tar av sig skorna eller badar, till exempel en entré med tofflor."
+  }
+}

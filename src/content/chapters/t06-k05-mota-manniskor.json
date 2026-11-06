@@ -1,0 +1,315 @@
+{
+  "id": "t06-k05",
+  "slug": "mota-manniskor",
+  "themeId": "seder",
+  "order": 5,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Att möta människor: värdfamiljer, skolor och samtal",
+  "summary": "Hur man pratar med nya människor, ställer nyfikna frågor och undviker att peka ut någon som representant för ett helt land.",
+  "objectives": [
+    "Ställa respektfulla frågor",
+    "Undvika stereotypa antaganden i samtal",
+    "Bidra med egna erfarenheter utan att jämföra värderande"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Du får chansen att prata med en jämnårig i Japan. Vad frågar du om, och vad bör du undvika att fråga?"
+  },
+  "sections": [
+    {
+      "id": "fraga",
+      "heading": "Nyfikna frågor, utan att peka ut",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nyfikenhet är en bra ingång, men frågor kan också få någon att känna sig utpekad. Ställ frågor om personen själv i stället för om ett helt land: ”Vad gör du på fritiden?” i stället för ”Vad gör japaner på fritiden?”. Då pratar du med en människa och inte med en representant."
+        },
+        {
+          "type": "p",
+          "text": "Bra samtalsämnen är vardag, intressen, mat, skola, musik och resor. Fråga öppet och lyssna. Känsliga ämnen, till exempel krig, politik, religion och pengar, kan vänta tills ni känner varandra, om personen själv tar upp dem."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Undvik generaliseringar",
+          "text": "”Japaner är artiga” eller ”japaner är blyga” kan låta som komplimanger men gör personen till en stereotyp. Människor är olika."
+        }
+      ]
+    },
+    {
+      "id": "jamfor",
+      "heading": "Berätta om dig själv, jämför varsamt",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ett samtal går åt båda håll. Berätta om din vardag, ditt land och din skola. Du kan jämföra, men undvik att värdera: ”hos oss är det annorlunda” är bättre än ”hos oss är det bättre” eller ”er skola är konstig”. Fråga hellre varför något är som det är, och lyssna på svaret."
+        },
+        {
+          "type": "p",
+          "text": "Visa gärna foton eller saker från hemma, till exempel en karta över Sverige, vykort eller en liten present. Det är ett enkelt sätt att börja ett samtal även om språket inte räcker (se kapitlet om att kommunicera utan gemensamt språk)."
+        }
+      ]
+    },
+    {
+      "id": "varden",
+      "heading": "Värdfamilj och skola: förhållningssätt",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "I en värdfamilj eller på en skola är du gäst. Observera hur man gör, fråga, hjälp till och tacka. Säg till om något känns fel, till exempel om du blir sjuk eller har allergier, och gör det vänligt. Ta inga bilder av människor utan att fråga."
+        },
+        {
+          "type": "p",
+          "text": "Efteråt: skriv ett tack, gärna några rader, och berätta vad du uppskattade. Det betyder mycket."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "fraga",
+      "title": "En bättre fråga",
+      "prompt": "Vilken fråga är bäst för att undvika att peka ut någon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "”Vad gör du på fritiden?”",
+          "correct": true,
+          "feedback": "Rätt. Frågan gäller personen."
+        },
+        {
+          "id": "b",
+          "text": "”Vad gör alla japaner på fritiden?”",
+          "correct": false,
+          "feedback": "Den förutsätter att alla är likadana."
+        },
+        {
+          "id": "c",
+          "text": "”Varför är ni så konstiga?”",
+          "correct": false,
+          "feedback": "Det är värderande."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "jamfor",
+      "title": "Jämföra",
+      "prompt": "Vilket sätt att jämföra är mest respektfullt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "”Hos oss är det annorlunda. Hur fungerar det här?”",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "”Hos oss är det bättre.”",
+          "correct": false,
+          "feedback": "Det är värderande."
+        },
+        {
+          "id": "c",
+          "text": "”Det här är konstigt.”",
+          "correct": false,
+          "feedback": "Det är värderande."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "stereotyp",
+      "title": "I samtal",
+      "situation": "Du hör dig själv säga: ”Ni japaner är så artiga.”",
+      "question": "Hur kan du säga det på ett bättre sätt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "”Du var så hjälpsam, tack!”",
+          "correct": true,
+          "feedback": "Bra. Du uppskattar personen och inte en grupp."
+        },
+        {
+          "id": "b",
+          "text": "”Alla japaner är likadana.”",
+          "correct": false,
+          "feedback": "En generalisering."
+        },
+        {
+          "id": "c",
+          "text": "Ingenting alls.",
+          "correct": false,
+          "feedback": "Du kan tacka personen."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka frågor ställer människor till dig, och hur känns det?",
+    "Hur kan du berätta om dig själv utan att jämföra värderande?",
+    "Hur tackar du efteråt?"
+  ],
+  "reflection": "Hur känns det att få frågor som utgår från att du representerar ett helt land? Hur skulle du vilja att man frågade?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad är en bättre fråga än ”Vad gör japaner på fritiden?”",
+      "options": [
+        {
+          "id": "a",
+          "text": "”Vad gör du på fritiden?”",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "”Varför är ni så konstiga?”",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "”Gör ni alltid samma sak?”",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen fråga alls",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad är riskabelt att dra för snabbt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stereotypa slutsatser om en hel grupp.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Vänliga slutsatser om en person.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingen slutsats alls.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Matematiska slutsatser.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vilka ämnen kan vänta?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Känsliga ämnen som krig, politik och pengar.",
+          "correct": true,
+          "feedback": "Rätt, tills ni känner varandra."
+        },
+        {
+          "id": "b",
+          "text": "Mat",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Skola",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Musik",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad gör du efter ett besök hos en värdfamilj?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tackar, gärna skriftligt.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Glömmer det.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Kräver pengar.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Lämnar utan ett ord.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en bra princip vid jämförelser?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Beskriva olikheter utan att värdera.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Säga att ditt land är bäst.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Säga att andras är konstigt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Aldrig jämföra.",
+          "feedback": "Inte nödvändigt."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "jnto-manners",
+    "cotoacademy-bowing"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Kapitlet är i huvudsak råd om samtal och bygger på allmän erfarenhet. De angivna källorna stödjer bara delar (hälsningar och artighet).",
+      "Rådet om känsliga ämnen och beteende i värdfamiljer är allmänt och bör granskas av någon med erfarenhet av värdfamiljsutbyten.",
+      "Kapitlet bör kompletteras med riktlinjer från den organisation som ordnar utbytet."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t06-k05-hero",
+    "imageId": "maesawa-skolgard",
+    "brief": "Möte mellan människor, till exempel en klassrumsmiljö eller en plats där jämnåriga träffas."
+  }
+}
