@@ -1,0 +1,391 @@
+{
+  "id": "t02-k05",
+  "slug": "efterkrigstiden",
+  "themeId": "historia",
+  "order": 5,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Efterkrigstiden: ockupation, uppbyggnad och nutid",
+  "summary": "Från ockupationen och den nya konstitutionen till högkonjunkturens år, 1990-talets finanskris och dagens Japan.",
+  "objectives": [
+    "Beskriva några viktiga förändringar under ockupationen",
+    "Förklara högkonjunkturen och stagnationen i stora drag",
+    "Koppla historiska händelser till det du ser i dagens Japan"
+  ],
+  "minutes": 9,
+  "hook": {
+    "kind": "question",
+    "text": "Japan låg i ruiner 1945. Tjugo år senare var Tokyo värd för olympiska spelen och landet hade världens snabbaste tåg. Hur gick det till, och varför växte inte ekonomin lika snabbt sedan?"
+  },
+  "sections": [
+    {
+      "id": "ockupation",
+      "heading": "Ockupationen 1945–1952",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Efter kapitulationen ockuperades Japan av allierade styrkor, främst amerikanska, under ledning av general **Douglas MacArthur**. Ockupationen varade tills freden slöts: fredsfördraget i San Francisco undertecknades 1951 och Japan blev åter självständigt 1952."
+        },
+        {
+          "type": "p",
+          "text": "Under ockupationen genomfördes stora reformer: man försökte bryta upp de stora industrikoncernerna (zaibatsu), genomföra en jordreform och införa nya skolor. Kvinnor fick rösträtt. Krigsförbrytare ställdes inför rätta."
+        },
+        {
+          "type": "p",
+          "text": "Den nya **konstitutionen** trädde i kraft 1947. Kejsaren blev en symbol för staten, utan politisk makt. Folket blev suveränt. **Artikel 9** förklarar att Japan avstår från krig som medel att lösa konflikter, och att landet inte ska ha landstridskrafter, flottor eller luftvapen med krigspotential. Hur artikeln ska tolkas diskuteras fortfarande, och Japan har idag självförsvarsstyrkor."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Utifrån eller inifrån?",
+          "text": "Konstitutionen skrevs under inflytande av ockupationsmakten, men togs emot och stöddes av många japaner. Båda delarna stämmer. Frågan om den ska ändras är en levande politisk debatt."
+        }
+      ]
+    },
+    {
+      "id": "uppbyggnad",
+      "heading": "Snabb tillväxt",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Från 1950-talet och en bit in på 1970-talet växte ekonomin mycket snabbt. Koreakriget (1950–53) gav Japan många beställningar. Industrin satsade på stål, fartyg, bilar och elektronik, och staten, företagen och bankerna samarbetade nära. Japan blev en av världens största ekonomier."
+        },
+        {
+          "type": "p",
+          "text": "**Olympiska spelen i Tokyo 1964** och öppnandet av den första **shinkansenlinjen** samma år blev symboler för det nya Japan. Under tillväxtåren flyttade många från landsbygden till städerna, vilket du kan se i dagens tätbebyggda storstadsområden och glesbygdens tomma hus."
+        },
+        {
+          "type": "photo",
+          "slotId": "t02-k05-shinkansen",
+          "imageId": "shinkansen-0-serien",
+          "brief": "En tidig shinkansen (0-serien) i trafik eller på museum."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "when": "1945–52",
+              "text": "Ockupationen."
+            },
+            {
+              "when": "1947",
+              "text": "Konstitutionen träder i kraft."
+            },
+            {
+              "when": "1952",
+              "text": "Japan blir självständigt igen."
+            },
+            {
+              "when": "1964",
+              "text": "Olympiska spelen i Tokyo och första shinkansen."
+            },
+            {
+              "when": "1973",
+              "text": "Oljekrisen bromsar den snabbaste tillväxten."
+            },
+            {
+              "when": "omkr. 1990",
+              "text": "Börs- och fastighetsbubblan brister."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stagnation",
+      "heading": "Bubbla och stagnation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "På 1980-talet steg priserna på aktier och fastigheter kraftigt. I början av 1990-talet föll de, och många banker och företag fick stora problem. Perioden efter brukar kallas **”de förlorade decennierna”**: tillväxten var låg, priserna steg knappt, och många unga fick osäkra anställningar. Samtidigt förblev Japan en rik och teknikintensiv ekonomi, och uttrycket är omdiskuterat."
+        },
+        {
+          "type": "p",
+          "text": "1989 slutade Showaeran när kejsar Hirohito avled, och Heisei började. 2019 följde Reiwa. Japan har ett åldrande samhälle med låg födelsetal, vilket påverkar allt från skolor till landsbygd. Under senare år har turismen ökat kraftigt."
+        }
+      ]
+    },
+    {
+      "id": "nutid",
+      "heading": "Historia i dagens Japan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "När du reser i Japan syns historien på många sätt. Skyskraporna och tågnäten kommer ur uppbyggnadsåren. Fredsmuseer och minnesplatser påminner om kriget. Samtalet om säkerhet, konstitution och relationerna med grannländerna bygger på efterkrigstiden. Och diskussionerna om arbetsliv, åldrande och landsbygd har rötter i både tillväxtens och stagnationens år."
+        },
+        {
+          "type": "observe",
+          "title": "Hitta historien i nutiden",
+          "prompt": "Gå igenom bilderna eller textalternativet.",
+          "steps": [
+            "Vilka spår av olika årtionden ser du i en stad?",
+            "Vad verkar vara byggt under tillväxtåren?",
+            "Vad berättar skyltar, minnesmärken och museer?",
+            "Vilka frågor väcks om framtiden?"
+          ],
+          "textAlternative": "Utan bild: tänk på en stad du känner. Lista tre saker som byggdes under olika årtionden och vad de berättar om tiden.",
+          "imageSlotIds": [
+            "t02-k05-shinkansen"
+          ]
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "ordering",
+      "id": "tidslinje",
+      "title": "Ordna efterkrigstiden",
+      "prompt": "Sätt händelserna i kronologisk ordning, den tidigaste först.",
+      "items": [
+        {
+          "id": "ockupation",
+          "text": "Ockupationen börjar"
+        },
+        {
+          "id": "konstitution",
+          "text": "Konstitutionen träder i kraft"
+        },
+        {
+          "id": "sjalvstandigt",
+          "text": "Japan blir självständigt igen"
+        },
+        {
+          "id": "olympiska",
+          "text": "Olympiska spelen i Tokyo och första shinkansen"
+        },
+        {
+          "id": "bubbla",
+          "text": "Bubblan brister"
+        }
+      ],
+      "explanation": "Ockupationen från 1945, konstitutionen 1947, självständighet 1952, Tokyo 1964 och bubblan omkring 1990."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "artikel9",
+      "title": "Artikel 9",
+      "prompt": "Vad handlar artikel 9 i konstitutionen om?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att Japan avstår från krig som medel att lösa konflikter.",
+          "correct": true,
+          "feedback": "Rätt. Hur artikeln ska tolkas debatteras fortfarande."
+        },
+        {
+          "id": "b",
+          "text": "Att kejsaren styr landet.",
+          "correct": false,
+          "feedback": "Fel. Kejsaren är en symbol."
+        },
+        {
+          "id": "c",
+          "text": "Att alla måste vara med i armén.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Att Japan ska ockupera grannländer.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "tillvaxt",
+      "title": "Med en pensionerad lärare",
+      "situation": "Under en promenad i en storstad berättar en äldre person: ”När jag var ung växte allt snabbt. Nu känns det som att tiden står stilla.”",
+      "question": "Hur kan du koppla det till kapitlet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det passar med högkonjunkturens år och stagnationen efter 1990-talets krasch, men upplevelserna varierar mellan människor.",
+          "correct": true,
+          "feedback": "Bra. Du kopplar personen till historien utan att generalisera."
+        },
+        {
+          "id": "b",
+          "text": "Då har alla japaner samma erfarenhet.",
+          "correct": false,
+          "feedback": "Fel. Upplevelserna varierade stort."
+        },
+        {
+          "id": "c",
+          "text": "Det kan inte stämma, ekonomin växte alltid.",
+          "correct": false,
+          "feedback": "Fel. Efter omkring 1990 var tillväxten låg."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka byggnader och miljöer kommer från olika årtionden, till exempel stationer, gallerior och bostadsområden?",
+    "Hur nämns kriget och efterkrigstiden på museer och minnesplatser?",
+    "Vad ser du som tyder på ett åldrande samhälle, och vad som tyder på nya satsningar?"
+  ],
+  "reflection": "Vilka delar av ditt eget lands historia syns tydligast i miljön omkring dig? Vilka är svårare att se?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vem ledde ockupationen av Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Douglas MacArthur",
+          "correct": true,
+          "feedback": "Rätt. Han var högste befälhavare för de allierade styrkorna."
+        },
+        {
+          "id": "b",
+          "text": "Tokugawa Ieyasu",
+          "feedback": "Fel. Han levde på 1600-talet."
+        },
+        {
+          "id": "c",
+          "text": "Perry",
+          "feedback": "Fel. Han kom 1853."
+        },
+        {
+          "id": "d",
+          "text": "Oda Nobunaga",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "När trädde den nya konstitutionen i kraft?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1947",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "1889",
+          "feedback": "Fel. Det är Meijikonstitutionen."
+        },
+        {
+          "id": "c",
+          "text": "1964",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "1990",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vilket evenemang och vilken nyhet blev symboler för det nya Japan 1964?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Olympiska spelen i Tokyo och första shinkansen",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Perrys ankomst",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Meijirestaurationen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Slaget vid Midway",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad innebar kejsarens nya roll efter 1947?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Han blev en symbol för staten utan politisk makt.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Han blev shogun.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Han styrde armén.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Han avskaffades.",
+          "feedback": "Fel. Kejsarämbetet finns kvar."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad menas ofta med ”de förlorade decennierna”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Låg tillväxt efter bubblans brist omkring 1990.",
+          "correct": true,
+          "feedback": "Rätt. Uttrycket är dock omdiskuterat."
+        },
+        {
+          "id": "b",
+          "text": "En period av krig",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En period av snabb tillväxt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ockupationstiden",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "britannica-japan-since-1945",
+    "ohistorian-japan-reconstruction",
+    "japanguide-history"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Ockupationens tid, MacArthurs roll, konstitutionen 1947, artikel 9 och Koreakrigets roll kontrollerades mot sammanfattade sökresultat. Sökningen gav inget om 1990-talets finanskris. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Uppgifterna om 1990-talets bubbla och stagnation, olympiska spelen och shinkansen 1964, oljekrisen 1973, eraskiftena 1989 och 2019 samt befolkningsutvecklingen är allmän bakgrund som inte kontrollerades separat.",
+      "Detaljer om reformerna under ockupationen (zaibatsu, jordreform, kvinnors rösträtt) bör kontrolleras mot en källa.",
+      "Uttrycket ”förlorade decennierna” är omdiskuterat bland ekonomer.",
+      "Tolkningen av artikel 9 har förenklats.",
+      "Bildtexten om 0-seriens första användning 1964 och parlamentsbyggnadens färdigställande 1936 bygger på allmän kännedom och inte på någon av källorna."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t02-k05-hero",
+    "imageId": "riksdagshuset-tokyo",
+    "brief": "Ett motiv som visar det moderna Japan med spår av efterkrigstiden, till exempel Tokyo."
+  }
+}

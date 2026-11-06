@@ -1,0 +1,381 @@
+{
+  "id": "t02-k03",
+  "slug": "modernisering-imperialism-kolonialism",
+  "themeId": "historia",
+  "order": 3,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Ett modernt Japan: industri, imperium och kolonier",
+  "summary": "Japan industrialiserades snabbt, men byggde också ett imperium. Kapitlet behandlar Korea, Taiwan och Manchuriet sakligt och visar hur olika länder minns tiden.",
+  "objectives": [
+    "Beskriva hur industrialisering och militär makt hörde ihop",
+    "Redogöra för Japans kolonialpolitik utifrån flera perspektiv",
+    "Förstå varför historiesynen fortfarande är laddad i regionen"
+  ],
+  "minutes": 9,
+  "hook": {
+    "kind": "question",
+    "text": "Samma fabriker, järnvägar och hamnar som idag står som minnesmärken över Japans snabba utveckling byggdes också för ett imperium. Hur berättar man om det på ett sätt som både är rättvist och sant?"
+  },
+  "sections": [
+    {
+      "id": "industri",
+      "heading": "Fabriker, järnvägar och en ny armé",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Efter Meijirestaurationen ville staten göra landet starkt nog att hävda sig mot västmakterna. Regeringen drev på industrialiseringen: järnvägar, telegraf, varv, gruvor och textilfabriker byggdes, ofta med statligt stöd, och många utländska experter anlitades. Textilindustrin, särskilt siden, blev viktig för exporten."
+        },
+        {
+          "type": "p",
+          "text": "Samtidigt byggdes en modern armé och flotta upp. Industrin och militären hörde ihop: en stark ekonomi behövdes för att försörja en stark krigsmakt, och många såg militär styrka som ett skydd mot att själva bli koloniserade. Det är en förklaring som historiker diskuterar. Den kan inte ensam förklara allt som hände."
+        }
+      ]
+    },
+    {
+      "id": "krig",
+      "heading": "Krig och nya territorier",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan besegrade Kina i kriget 1894–1895. Vid freden fick Japan bland annat **Taiwan**, som blev en koloni. Kriget gällde bland annat inflytandet över Korea. Efter kriget mot Ryssland 1904–1905 stärktes Japans ställning i regionen ytterligare, och landet kom att ses som en stormakt."
+        },
+        {
+          "type": "p",
+          "text": "Korea blev ett japanskt protektorat 1905 och **annekterades 1910**, och förblev en koloni till 1945. På 1930-talet ockuperade den japanska armén Manchuriet i nordöstra Kina (1931) och inrättade den japanskstyrda staten **Manchukuo** (1932). Den beskrivs oftast som en lydstat, inte en formell koloni."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "when": "1894–95",
+              "text": "Kriget mot Kina. Taiwan blir japanskt."
+            },
+            {
+              "when": "1904–05",
+              "text": "Kriget mot Ryssland."
+            },
+            {
+              "when": "1905",
+              "text": "Korea blir ett japanskt protektorat."
+            },
+            {
+              "when": "1910",
+              "text": "Korea annekteras."
+            },
+            {
+              "when": "1931–32",
+              "text": "Manchuriet ockuperas och Manchukuo grundas."
+            },
+            {
+              "when": "1945",
+              "text": "Japans imperium upplöses efter nederlaget."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "slotId": "t02-k03-taiwan",
+          "imageId": "taiwan-presidentbyggnaden",
+          "brief": "En byggnad i Taipei eller Seoul som byggdes under japansk kolonialtid och som idag har en ny funktion."
+        }
+      ]
+    },
+    {
+      "id": "perspektiv",
+      "heading": "Samma tid, olika berättelser",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japans kolonialtid beskrivs olika beroende på vem som berättar. I Korea minns många den som en tid av förtryck: koreaner mötte krav på assimilering, bland annat på att använda japanska och ta japanska namn, och tvångsarbete förekom under kriget. Att Korea förlorade sitt självständighet är en central del av koreansk historieskrivning."
+        },
+        {
+          "type": "p",
+          "text": "På Taiwan är minnena mer blandade. Där finns både kritik mot förtrycket och en debatt om att kolonialtiden också innebar infrastruktur och utbildning. I Kina är minnet av Japans krig och ockupation starkt. Och i Japan har det funnits en lång offentlig diskussion om hur historien ska beskrivas, bland annat i skolböcker."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Två saker kan vara sanna samtidigt",
+          "text": "Att en koloni fick järnvägar och skolor betyder inte att kolonialstyret var rättvist. Och att styret var förtryckande betyder inte att alla människors liv såg likadant ut. Historiker försöker skilja på fakta, tolkning och värdering."
+        },
+        {
+          "type": "p",
+          "text": "Japan och Sydkorea slöt 1965 ett fördrag som normaliserade relationen, och frågor om skadestånd och ursäkter har sedan dess återkommit i debatten. Länderna är oense om hur de äldre avtalen ska tolkas."
+        }
+      ]
+    },
+    {
+      "id": "resa",
+      "heading": "Att möta historien på plats",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "På resa i Japan stöter du på museer, minnesplatser och turistinformation där perioden skildras på olika sätt. Ställ frågor: vem har skrivit texten, för vilka, och vilka perspektiv saknas? Det går att visa respekt för alla de människor som berörs utan att dra förhastade slutsatser."
+        },
+        {
+          "type": "observe",
+          "title": "Läs en historietext kritiskt",
+          "prompt": "Använd en informationstavla eller ett museum, eller textalternativet nedan.",
+          "steps": [
+            "Vem har skrivit texten och vilket land eller vilken institution står bakom?",
+            "Vilka ord används om samma händelse, till exempel ”införlivande”, ”annektering” eller ”ockupation”?",
+            "Vilka människors röster hörs, och vilka saknas?",
+            "Vad skulle en person från ett annat land kunna lägga till?"
+          ],
+          "textAlternative": "Utan bild: välj en händelse ur historien i ditt eget land och skriv två meningar om den ur två olika perspektiv. Vilka ord skiljer sig åt?",
+          "imageSlotIds": [
+            "t02-k03-taiwan"
+          ]
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "ordering",
+      "id": "handelser",
+      "title": "Ordna händelserna",
+      "prompt": "Sätt händelserna i kronologisk ordning, den tidigaste först.",
+      "items": [
+        {
+          "id": "kina",
+          "text": "Kriget mot Kina, där Taiwan blir japanskt"
+        },
+        {
+          "id": "ryssland",
+          "text": "Kriget mot Ryssland"
+        },
+        {
+          "id": "korea",
+          "text": "Korea annekteras"
+        },
+        {
+          "id": "manchuriet",
+          "text": "Manchuriet ockuperas och Manchukuo grundas"
+        }
+      ],
+      "explanation": "Kriget mot Kina 1894–95, kriget mot Ryssland 1904–05, annekteringen av Korea 1910 och ockupationen av Manchuriet 1931–32."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "manchukuo",
+      "title": "Vad är Manchukuo?",
+      "prompt": "Hur beskrivs Manchukuo oftast av historiker?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Som en japanskstyrd lydstat grundad efter ockupationen av Manchuriet.",
+          "correct": true,
+          "feedback": "Rätt. Den var nominellt självständig men kontrollerades av Japan."
+        },
+        {
+          "id": "b",
+          "text": "Som en självständig demokrati.",
+          "correct": false,
+          "feedback": "Fel. Den styrdes i praktiken av Japan."
+        },
+        {
+          "id": "c",
+          "text": "Som ett kinesiskt landskap utan japansk närvaro.",
+          "correct": false,
+          "feedback": "Fel. Japan ockuperade området."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "diskussion",
+      "title": "Samtal med en kamrat",
+      "situation": "Du pratar med en vän som säger: ”Japan byggde järnvägar och skolor i Korea, så kolonialtiden var egentligen bra.”",
+      "question": "Vad är en rimlig, nyanserad reaktion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Erkänna att infrastruktur byggdes, men fråga vem den byggdes för, och vad koreaner själva upplevde.",
+          "correct": true,
+          "feedback": "Bra. Att något byggdes säger inte hela sanningen om hur det var att leva under styret."
+        },
+        {
+          "id": "b",
+          "text": "Hålla med, det är bara fakta.",
+          "correct": false,
+          "feedback": "Det är bara en del av bilden. Perspektivet saknar de människor som berördes."
+        },
+        {
+          "id": "c",
+          "text": "Säga att inget gott kan ha skett och avsluta samtalet.",
+          "correct": false,
+          "feedback": "Det stänger samtalet. Det går att vara tydlig med förtrycket och ändå ställa frågor."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur beskriver museer och minnesplatser perioden 1890–1945: vilka ord används?",
+    "Ser du spår av japanskt inflytande i städer utanför Japan, till exempel i Taiwan eller Korea, om du reser dit?",
+    "Vilka perspektiv saknas i det du läser?"
+  ],
+  "reflection": "Hur påverkar språkvalet (”införlivande”, ”annektering”, ”ockupation”) hur vi uppfattar en händelse? Vilket ord skulle du välja och varför?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilket område fick Japan efter kriget mot Kina 1894–95?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Taiwan",
+          "correct": true,
+          "feedback": "Rätt. Taiwan blev japansk koloni."
+        },
+        {
+          "id": "b",
+          "text": "Hokkaido",
+          "feedback": "Fel. Hokkaido var redan en del av Japan."
+        },
+        {
+          "id": "c",
+          "text": "Singapore",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Hawaii",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "När annekterades Korea av Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1910",
+          "correct": true,
+          "feedback": "Rätt. Korea blev en koloni till 1945."
+        },
+        {
+          "id": "b",
+          "text": "1853",
+          "feedback": "Fel. Det är året Perry kom."
+        },
+        {
+          "id": "c",
+          "text": "1945",
+          "feedback": "Fel. Det är året kolonialtiden tog slut."
+        },
+        {
+          "id": "d",
+          "text": "1600",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Hur beskrivs Manchukuo oftast?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Som en japansk lydstat",
+          "correct": true,
+          "feedback": "Rätt. Den var nominellt självständig."
+        },
+        {
+          "id": "b",
+          "text": "Som en demokrati",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Som en del av Sverige",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Som en kinesisk provins utan japansk kontroll",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Varför är historiesynen fortfarande laddad i regionen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "För att länderna minns och tolkar händelserna olika, och frågor om ursäkter och skadestånd återkommer.",
+          "correct": true,
+          "feedback": "Rätt. Minnet och politiken är sammanflätade."
+        },
+        {
+          "id": "b",
+          "text": "För att alla är överens om allt.",
+          "feedback": "Fel. Det finns stora skillnader."
+        },
+        {
+          "id": "c",
+          "text": "För att ingen skriver om historien.",
+          "feedback": "Fel. Det skrivs mycket."
+        },
+        {
+          "id": "d",
+          "text": "För att det inte hände något.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad betyder det att skilja mellan fakta, tolkning och värdering?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att se vad som är belagt, vad som är en förklaring och vad som är en åsikt.",
+          "correct": true,
+          "feedback": "Rätt. Det hjälper dig läsa historiska texter kritiskt."
+        },
+        {
+          "id": "b",
+          "text": "Att bara lita på den första källan.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Att aldrig tolka något.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Att ta bort alla datum.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "wikipedia-japanese-colonial-empire",
+    "diplomat-divergent-histories",
+    "japanguide-history"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Huvuddatum (Taiwan 1895, Korea 1905 och 1910, Manchukuo 1932, fördraget 1965) kontrollerades mot sammanfattade sökresultat. Källsidorna kunde inte öppnas direkt i arbetsmiljön. Känslig fråga: kapitlet bör granskas av en historielärare.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Krigen 1894–95 och 1904–05, industrialiseringens inriktning och sidenindustrins roll är allmän historisk bakgrund som inte kontrollerades separat.",
+      "Påståenden om assimileringspolitik, tvångsarbete och blandade minnen på Taiwan är allmän bakgrund och inte kontrollerade mot en källa i detta arbete.",
+      "Beskrivningen av minnesdebatter och skolböcker är förenklad.",
+      "Formuleringarna om kolonialtiden är medvetet försiktiga. En sakkunnig bör granska ordval och balans.",
+      "Bildtexterna till Tomioka sidenspinneri (statligt, 1870-talet) och Presidentbyggnaden i Taipei (färdig 1919, generalguvernörens ämbetsbyggnad) bygger på allmän kännedom och inte på någon av källorna."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t02-k03-hero",
+    "imageId": "tomioka-ostra-kokonglagret",
+    "brief": "Historiskt eller industrihistoriskt motiv från Meijitiden, till exempel en fabrik eller järnväg."
+  }
+}
