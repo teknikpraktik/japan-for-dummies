@@ -1,0 +1,379 @@
+{
+  "id": "t02-k01",
+  "slug": "fran-forntid-till-shogun",
+  "themeId": "historia",
+  "order": 1,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Från de första samhällena till shogunerna",
+  "summary": "En översikt över tidiga Japan: från jägar- och bondesamhällen via kejsarhov och samurajmakt till fredsslutet efter inbördeskrig på 1600-talet.",
+  "objectives": [
+    "Placera huvudperioderna i rätt ordning",
+    "Förklara kejsarens och shogunens olika roller",
+    "Förstå hur Kina och Korea påverkade tidig japansk kultur"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Japans kejsarätt brukar kallas en av världens äldsta, och ändå har kejsaren för det mesta inte styrt landet. Hur kan en härskare finnas kvar i över tusen år utan att regera?"
+  },
+  "sections": [
+    {
+      "id": "tidigt",
+      "heading": "Jägare, risodlare och stora gravhögar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Perioderna i Japans tidiga historia har fått namn efter arkeologiska fynd. Under **Jomonperioden** levde människor främst av jakt, fiske och insamling, och de gjorde keramik med snörmönster. Under **Yayoiperioden** spreds risodling, järn och brons. Större bosättningar och tydligare skillnader mellan rika och fattiga växte fram."
+        },
+        {
+          "type": "p",
+          "text": "Därefter byggde ledare enorma gravhögar, **kofun**, och perioden kallas därför Kofuntiden. Små riken enades så småningom under en härskarätt. Gränserna mellan perioderna är flytande, och källorna anger olika årtal, så siffrorna i det här kapitlet är ungefärliga."
+        }
+      ]
+    },
+    {
+      "id": "lan",
+      "heading": "Lärdom från Kina och Korea",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan har aldrig utvecklats isolerat. Under de första sekler vi har skriftliga källor från hämtade man mycket från fastlandet: **det kinesiska skriftspråket** (kanji), **buddhismen**, tankar om hur en stat kan organiseras och byggnadsstilar. Kunskap och hantverkare kom ofta via Korea."
+        },
+        {
+          "type": "p",
+          "text": "År 710 flyttades huvudstaden till **Nara**, byggd efter kinesisk förebild, och 794 till **Heian** (dagens Kyoto). Under Heiantiden utvecklades japanska skrivtecken (kana) och en hovkultur med dikt och romaner. Det mest kända verket är Murasaki Shikibus *Berättelsen om Genji* från omkring år 1000."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Att låna är inte att kopiera",
+          "text": "Japan formade det som kom utifrån till något eget. Det kinesiska skriftsystemet kompletterades med japanska tecken, och buddhismen blandades med äldre tro på naturens andar (shinto)."
+        }
+      ]
+    },
+    {
+      "id": "samuraj",
+      "heading": "Kejsare och shogun: två sorters makt",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Under Heiantiden styrde i praktiken ofta adelssläkter som stod nära kejsaren. Efter ett inbördeskrig byggde Minamoto no Yoritomo upp en militär regering i Kamakura, och **samurajernas** styre började. Han fick titeln **shogun** (ungefär ”fältherre”). Årtalet brukar anges som 1185 eller 1192, beroende på vilken händelse man räknar."
+        },
+        {
+          "type": "p",
+          "text": "Från och med då var makten delad på ett särskilt sätt. Kejsaren fanns kvar i Kyoto som symbol, med religiösa och ceremoniella uppgifter och hög status. Shogunen kontrollerade armén och styrde i praktiken. Det mönstret hölls, med avbrott, i ungefär 700 år."
+        },
+        {
+          "type": "p",
+          "text": "Kamakurashogunatet föll 1333. Ashikagafamiljen grundade Muromachishogunatet 1338, men centralmakten försvagades och regionala herrar, **daimyo**, byggde egna maktområden. Under **Sengoku** (”de stridande staternas tid”, ungefär 1467 till omkring 1600) rådde nästan ständiga krig."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Begrepp",
+          "text": "Kejsare = tronföljd i en och samma släkt, ceremoniell och religiös roll. Shogun = militär ledare med verklig makt. Daimyo = regional herre. Samuraj = krigare i herrens tjänst."
+        }
+      ]
+    },
+    {
+      "id": "fred",
+      "heading": "Enande och fred",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tre män brukar nämnas när landet enades: Oda Nobunaga, Toyotomi Hideyoshi och Tokugawa Ieyasu. Efter Ieyasus seger vid Sekigahara 1600 blev han shogun 1603 och styrde från Edo. Tokugawafamiljen höll sedan makten i över 250 år i en period som präglades av relativ fred."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "when": "ca 14 000–300 f.Kr.",
+              "text": "Jomon: jakt, fiske och keramik (årtalen är osäkra)."
+            },
+            {
+              "when": "ca 300 f.Kr.–300 e.Kr.",
+              "text": "Yayoi: risodling och metall."
+            },
+            {
+              "when": "ca 300–600",
+              "text": "Kofun: stora gravhögar och tidiga härskare."
+            },
+            {
+              "when": "710 och 794",
+              "text": "Huvudstaden flyttas till Nara och därefter Heian (Kyoto)."
+            },
+            {
+              "when": "1185/1192",
+              "text": "Samurajstyre börjar i Kamakura."
+            },
+            {
+              "when": "1467 – ca 1600",
+              "text": "Sengoku: långvariga krig mellan regionala herrar."
+            },
+            {
+              "when": "1603",
+              "text": "Tokugawa Ieyasu blir shogun och styr från Edo."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Förenkla med eftertanke",
+          "text": "En tidslinje får det att se ut som om historien gick rakt fram. I verkligheten överlappade perioderna, makten skiftade mellan regioner och forskare är oense om gränserna. Använd årtalen som orientering, inte som exakta gränser."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "ordering",
+      "id": "perioder",
+      "title": "Ordna perioderna",
+      "prompt": "Sätt perioderna i kronologisk ordning, den tidigaste först.",
+      "items": [
+        {
+          "id": "jomon",
+          "text": "Jomon"
+        },
+        {
+          "id": "yayoi",
+          "text": "Yayoi"
+        },
+        {
+          "id": "heian",
+          "text": "Heian"
+        },
+        {
+          "id": "kamakura",
+          "text": "Kamakura"
+        },
+        {
+          "id": "edo",
+          "text": "Edo"
+        }
+      ],
+      "explanation": "Jomon kom först, därefter Yayoi med risodling. Heiantiden (från 794) var hovkulturens tid, Kamakura (från 1185/1192) började samurajstyret och Edotiden (1603–1867) var fredens tid."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "kejsare-shogun",
+      "title": "Vem gör vad?",
+      "prompt": "Vilken beskrivning stämmer bäst på förhållandet mellan kejsare och shogun under samurajtiden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kejsaren var kvar som symbol med hög status, medan shogunen styrde i praktiken.",
+          "correct": true,
+          "feedback": "Rätt. Makten var delad: ceremoniell och religiös roll hos kejsaren, militär och politisk makt hos shogunen."
+        },
+        {
+          "id": "b",
+          "text": "Shogunen var kejsarens tjänare och saknade makt.",
+          "correct": false,
+          "feedback": "Tvärtom. Shogunen hade den verkliga makten."
+        },
+        {
+          "id": "c",
+          "text": "Det fanns ingen kejsare under samurajtiden.",
+          "correct": false,
+          "feedback": "Fel. Kejsaren fanns kvar i Kyoto hela tiden."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "lan-fran-kina",
+      "title": "I Nara",
+      "situation": "Du står vid ett gammalt tempel i Nara och läser på en skylt att buddhismen kom till Japan från fastlandet. Din kamrat säger: ”Då är ju ingenting japanskt egentligen.”",
+      "question": "Vad är ett rimligt svar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Japan tog emot mycket från Kina och Korea men anpassade det, till exempel med egna skrivtecken och blandade religioner.",
+          "correct": true,
+          "feedback": "Bra. Kulturer lånar och omformar. Det japanska skapades i mötet."
+        },
+        {
+          "id": "b",
+          "text": "Det stämmer, allt kom utifrån.",
+          "correct": false,
+          "feedback": "Det är en överdrift. Det som kom utifrån formades om till något eget."
+        },
+        {
+          "id": "c",
+          "text": "Det är fel, Japan hade ingen kontakt med omvärlden.",
+          "correct": false,
+          "feedback": "Det stämmer inte. Kontakterna med Kina och Korea var viktiga."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka tempel, slott eller gravplatser besöker du, och från vilken period kommer de?",
+    "Hur skiljer sig informationstexterna: vad är säkert, och vad anges som ”ungefär” eller ”enligt traditionen”?",
+    "Ser du kinesiska tecken, japanska tecken eller båda på skyltar och vad säger det om historien?"
+  ],
+  "reflection": "Vad är fördelen och nackdelen med att dela historien i perioder med namn? Vad kan den gömma?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilken period kännetecknas av att risodling spreds?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yayoi",
+          "correct": true,
+          "feedback": "Rätt. Risodling, järn och brons spreds då."
+        },
+        {
+          "id": "b",
+          "text": "Jomon",
+          "feedback": "Fel. Jomon är jägar- och samlarsamhällen."
+        },
+        {
+          "id": "c",
+          "text": "Edo",
+          "feedback": "Fel. Edotiden är betydligt senare."
+        },
+        {
+          "id": "d",
+          "text": "Meiji",
+          "feedback": "Fel. Meiji är på 1800-talet."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad hette staden som blev huvudstad 794 och som idag heter Kyoto?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Heian",
+          "correct": true,
+          "feedback": "Rätt. Heian-kyo var huvudstaden."
+        },
+        {
+          "id": "b",
+          "text": "Nara",
+          "feedback": "Nara blev huvudstad 710."
+        },
+        {
+          "id": "c",
+          "text": "Edo",
+          "feedback": "Edo är dagens Tokyo."
+        },
+        {
+          "id": "d",
+          "text": "Osaka",
+          "feedback": "Fel. Det var inte huvudstaden då."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad betyder titeln shogun ungefär?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fältherre, militär ledare",
+          "correct": true,
+          "feedback": "Rätt. Shogunen var militär ledare med verklig makt."
+        },
+        {
+          "id": "b",
+          "text": "Präst i ett tempel",
+          "feedback": "Fel. Det är inte vad shogun betyder."
+        },
+        {
+          "id": "c",
+          "text": "Kejsarens kock",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Köpman",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad var skillnaden mellan kejsarens och shogunens roll under samurajtiden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kejsaren hade ceremoniell och religiös roll, shogunen styrde i praktiken.",
+          "correct": true,
+          "feedback": "Rätt. Makten var delad."
+        },
+        {
+          "id": "b",
+          "text": "Kejsaren styrde armén, shogunen var präst.",
+          "feedback": "Fel, det är tvärtom."
+        },
+        {
+          "id": "c",
+          "text": "De hade exakt samma roll.",
+          "feedback": "Fel. Rollerna skilde sig."
+        },
+        {
+          "id": "d",
+          "text": "Shogunen fanns bara i Kyoto.",
+          "feedback": "Fel. Det varierade: Kamakura, Kyoto och Edo."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vilket av följande kom till Japan med inflytande från Kina och Korea?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Buddhism och det kinesiska skriftspråket",
+          "correct": true,
+          "feedback": "Rätt. Båda kom från fastlandet, ofta via Korea."
+        },
+        {
+          "id": "b",
+          "text": "Tåg och telegraf",
+          "feedback": "Fel. De kom på 1800-talet från väst."
+        },
+        {
+          "id": "c",
+          "text": "Konstitutionen från 1947",
+          "feedback": "Fel. Den kom efter andra världskriget."
+        },
+        {
+          "id": "d",
+          "text": "Smartphones",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "japanguide-history",
+    "funjapan-history"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Periodindelning och huvuddatum kontrollerades mot sammanfattade sökresultat. Källsidorna kunde inte öppnas direkt i arbetsmiljön. Kapitlet är avsiktligt grovt.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Periodernas gränser och årtal varierar mellan källor (till exempel Kamakura 1185 eller 1192, Sengoku från omkring 1467).",
+      "Årtalen för Jomon och Yayoi är mycket ungefärliga.",
+      "Påståendena om lån av kinesiskt skriftspråk, buddhism och kunskap via Korea, hovkulturen i Heian, Berättelsen om Genji och Sekigahara 1600 är allmän historisk bakgrund som inte kontrollerades separat mot en källa.",
+      "Förenklingen av relationen mellan kejsare och shogun bör granskas av en historielärare.",
+      "Bildtexten om Tōdai-ji (Naratiden, senare återuppbyggnad) bygger på allmän kännedom och inte på någon av källorna."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t02-k01-hero",
+    "imageId": "todaiji-buddhahallen",
+    "brief": "Historiskt miljöfoto, till exempel ett slott eller tempel från tiden före Edo eller Edotiden."
+  }
+}

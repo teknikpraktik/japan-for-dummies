@@ -142,6 +142,81 @@
     ]
   },
   {
+    "id": "genbaku-kupolen",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/genbaku-kupolen/genbaku-kupolen-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 31068,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/genbaku-kupolen/genbaku-kupolen-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 134932,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/genbaku-kupolen/genbaku-kupolen-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 33740,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/genbaku-kupolen/genbaku-kupolen-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 100982,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.35,
+      "y": 0.4
+    },
+    "creator": "Balon Greyjoy",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20181111_Atomic_Bomb_Dome-5.jpg",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Fredsminnesparken, Hiroshima",
+      "verifiedBy": "Commons-filsidans beskrivning och kategorier (Hiroshima Peace Memorial (Genbaku Dome))"
+    },
+    "year": {
+      "value": "2018",
+      "verifiedBy": "Commons-filsidans datumfält (11 november 2018)"
+    },
+    "caption": "Genbaku-domen i Hiroshima, bevarad som minnesmärke över atombomben den 6 augusti 1945. Byggnaden låg nära explosionens centrum.",
+    "alt": "Ruin av en tegelbyggnad med en kupol av bar metallkonstruktion, sedd över en gräsyta med stenmarkörer och träd under blå himmel.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Några små figurer syns på långt håll, inga identifierbara.",
+    "usedIn": [
+      "t02-k04"
+    ]
+  },
+  {
     "id": "hirado-risterrasser",
     "kind": "contemporary-photo",
     "variants": [
@@ -881,6 +956,81 @@
     ]
   },
   {
+    "id": "nanjing-minnesmarke",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/nanjing-minnesmarke/nanjing-minnesmarke-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 8212,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/nanjing-minnesmarke/nanjing-minnesmarke-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 39166,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/nanjing-minnesmarke/nanjing-minnesmarke-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 9730,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/nanjing-minnesmarke/nanjing-minnesmarke-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 31390,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Gary Todd",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanjing_Massacre_Memorial_(10151703745).jpg",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Nanjing, Kina",
+      "verifiedBy": "Commons-filsidans beskrivning och kategori (The Memorial Hall of the Victims in Nanjing Massacre by Japanese Invaders)"
+    },
+    "year": {
+      "value": "2009",
+      "verifiedBy": "Commons-filsidans datumfält (17 juni 2009)"
+    },
+    "caption": "Minnesmärke vid Nanjings massakermuseum i Kina över offren för massakern 1937 (fotografi 2009). Minnet av händelsen är en central del av kinesisk historieskrivning.",
+    "alt": "En stor, mörk triangelformad vägg intill en lång gångyta med en bronsskulptur av en stående kvinna längst till vänster, under disig himmel.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns tydligt.",
+    "usedIn": [
+      "t02-k04"
+    ]
+  },
+  {
     "id": "perry-bildrulla",
     "kind": "historical-original",
     "variants": [
@@ -941,6 +1091,81 @@
     "peopleNote": "Tecknade gestalter.",
     "usedIn": [
       "t02-k02"
+    ]
+  },
+  {
+    "id": "riksdagshuset-tokyo",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/riksdagshuset-tokyo/riksdagshuset-tokyo-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 18178,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/riksdagshuset-tokyo/riksdagshuset-tokyo-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 77716,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/riksdagshuset-tokyo/riksdagshuset-tokyo-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 18178,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/riksdagshuset-tokyo/riksdagshuset-tokyo-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 52624,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Douglas Paul Perkins",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_Diet_Building_2.jpg",
+    "license": {
+      "name": "CC BY 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 3.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Douglas Paul Perkins, CC BY 3.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Nagatacho, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning och kategori (National Diet Building (1936))"
+    },
+    "year": {
+      "value": "2013",
+      "verifiedBy": "Commons-filsidans datumfält (1 juni 2013)"
+    },
+    "caption": "Parlamentsbyggnaden i Tokyo, färdig 1936, sedd från entrén (fotografi 2013). Här sammanträder Japans riksdag.",
+    "alt": "Symmetrisk stenbyggnad med ett trappstegsformat tak sedd rakt framifrån längs en bred gångväg med klippta häckar och träd på båda sidor.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t02-k05"
     ]
   },
   {
@@ -1320,6 +1545,81 @@
     ]
   },
   {
+    "id": "shinkansen-0-serien",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/shinkansen-0-serien/shinkansen-0-serien-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 33390,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/shinkansen-0-serien/shinkansen-0-serien-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 93336,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/shinkansen-0-serien/shinkansen-0-serien-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 33390,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/shinkansen-0-serien/shinkansen-0-serien-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 72628,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.55,
+      "y": 0.65
+    },
+    "creator": "sodai gomi",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:0_series_shinkansen_at_Himeji_Station_2004.jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: sodai gomi, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Himeji station, Hyogo prefektur",
+      "verifiedBy": "Commons-filsidans kategori (Shinkansen 0 at Himeji Station)"
+    },
+    "year": {
+      "value": "2004",
+      "verifiedBy": "Commons-filsidans datumfält (5 april 2004)"
+    },
+    "caption": "Ett tåg av 0-serien, den första shinkansenmodellen som togs i bruk 1964, vid Himeji station 2004.",
+    "alt": "Vitt tåg med blått band och rundad nos på ett spår vid en perrong, med ledningar ovanför och byggnader bakom.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t02-k05"
+    ]
+  },
+  {
     "id": "shirakawa-berg",
     "kind": "contemporary-photo",
     "variants": [
@@ -1510,6 +1810,231 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t06-k01"
+    ]
+  },
+  {
+    "id": "taiwan-presidentbyggnaden",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/taiwan-presidentbyggnaden/taiwan-presidentbyggnaden-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 25462,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/taiwan-presidentbyggnaden/taiwan-presidentbyggnaden-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 98828,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/taiwan-presidentbyggnaden/taiwan-presidentbyggnaden-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27276,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/taiwan-presidentbyggnaden/taiwan-presidentbyggnaden-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 73624,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Wang Yu Ching / Office of the President (中華民國總統府)",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Presidential_Building_of_Taiwan_2022-11-29.jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Wang Yu Ching / Office of the President (中華民國總統府), CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Taipei, Taiwan",
+      "verifiedBy": "Commons-filsidans kategori (Presidential Building (Taiwan))"
+    },
+    "year": {
+      "value": "2022",
+      "verifiedBy": "Commons-filsidans datumfält (29 november 2022)"
+    },
+    "caption": "Presidentbyggnaden i Taipei, november 2022. Huset byggdes under japansk kolonialtid, färdigt 1919, och användes då av generalguvernören.",
+    "alt": "Entré i rött tegel med vita horisontella band och en rundad portal med pelare, där några små personer står vid ingången.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Några personer, troligen vakter, syns små vid entrén och är inte identifierbara.",
+    "usedIn": [
+      "t02-k03"
+    ]
+  },
+  {
+    "id": "todaiji-buddhahallen",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/todaiji-buddhahallen/todaiji-buddhahallen-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 21778,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/todaiji-buddhahallen/todaiji-buddhahallen-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 89362,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/todaiji-buddhahallen/todaiji-buddhahallen-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 25122,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/todaiji-buddhahallen/todaiji-buddhahallen-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 70244,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.45,
+      "y": 0.5
+    },
+    "creator": "Balon Greyjoy",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20190121_T%C5%8Ddai-ji_Great_Buddha_Hall-1.jpg",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Tōdai-ji, Nara",
+      "verifiedBy": "Commons-filsidans beskrivning och kategorier (Tōdai-ji, January 2019 in Nara)"
+    },
+    "year": {
+      "value": "2019",
+      "verifiedBy": "Commons-filsidans datumfält (21 januari 2019)"
+    },
+    "caption": "Stora Buddhahallen vid Tōdai-ji i Nara, januari 2019. Tempelområdet förknippas med Naratiden på 700-talet, men byggnaden som syns är en senare återuppbyggnad.",
+    "alt": "Stor trebyggnad med dubbla, mörka tak och gyllene ornament på nocken, sedd från sidan över en sandplan under en ljus, molnig himmel.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns tydligt.",
+    "usedIn": [
+      "t02-k01"
+    ]
+  },
+  {
+    "id": "tomioka-ostra-kokonglagret",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/tomioka-ostra-kokonglagret/tomioka-ostra-kokonglagret-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 27610,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tomioka-ostra-kokonglagret/tomioka-ostra-kokonglagret-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 105042,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tomioka-ostra-kokonglagret/tomioka-ostra-kokonglagret-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 32908,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/tomioka-ostra-kokonglagret/tomioka-ostra-kokonglagret-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 89138,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "C1815",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomioka_Silk_Mill_East_Building.JPG",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Tomioka sidenspinneri, Gunma prefektur",
+      "verifiedBy": "Commons-filsidans beskrivning (富岡製糸場 東繭倉庫) och kategorier"
+    },
+    "year": {
+      "value": "2014",
+      "verifiedBy": "Commons-filsidans datumfält (2 november 2014)"
+    },
+    "caption": "Östra kokonglagret vid Tomioka sidenspinneri i Gunma prefektur (fotografi 2014). Spinneriet byggdes av staten på 1870-talet och räknas till Meijiperiodens tidiga moderna fabriker.",
+    "alt": "Närbild längs en lång röd tegelvägg med rader av små fönster med grå luckor och ett stuprör.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t02-k03"
     ]
   },
   {

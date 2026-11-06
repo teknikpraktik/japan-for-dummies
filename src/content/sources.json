@@ -308,5 +308,75 @@
     "checkedOn": "2026-11-02",
     "access": "search-result-summary",
     "supports": "Att björnobservationer och olyckor ökat kraftigt, att de oftast är flest på hösten, och råd som att kontrollera rapporter, undvika att gå ensam och ha björnklocka."
+  },
+  {
+    "id": "japanguide-history",
+    "title": "History Overview",
+    "publisher": "Japan Guide",
+    "url": "https://www.japan-guide.com/e/e2126.html",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Grov periodindelning: Jomon, Yayoi, Kofun, Nara (710), Heian (794), Kamakura, Muromachi, Sengoku, Tokugawa/Edo och Meiji 1867–68."
+  },
+  {
+    "id": "funjapan-history",
+    "title": "Japanese History: Travel Through the Eras",
+    "publisher": "Fun! Japan",
+    "url": "https://fun-japan.jp/en/articles/11773",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Översikt över Japans historiska perioder och att källorna anger olika årtal för periodernas början och slut."
+  },
+  {
+    "id": "wikipedia-japanese-colonial-empire",
+    "title": "Japanese colonial empire",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Japanese_colonial_empire",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Taiwan 1895 efter kriget mot Kina, Korea protektorat 1905 och annektering 1910, Manchuriet 1931 och Manchukuo 1932 som lydstat, och att Japan och Sydkorea 1965 förklarade de äldre fördragen ogiltiga."
+  },
+  {
+    "id": "wikipedia-pacific-war",
+    "title": "Pacific War",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Pacific_War",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att västerländska redogörelser räknar kriget från Pearl Harbor 1941 men kinesiska från 1937 eller 1931, Hiroshima 6 augusti, Nagasaki 9 augusti, kapitulationen 15 augusti och undertecknandet 2 september 1945."
+  },
+  {
+    "id": "diplomat-divergent-histories",
+    "title": "Colonialism, Invasion, and Atomic Bombs: Asia's Divergent Histories",
+    "publisher": "The Diplomat",
+    "url": "https://thediplomat.com/2015/08/colonialism-invasion-and-atomic-bombs-asias-divergent-histories",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Att krigsminnena i Japan, Kina och Korea skiljer sig och att Nanjing, kolonialtiden och atombomberna betonas olika."
+  },
+  {
+    "id": "britannica-japan-since-1945",
+    "title": "Japan since 1945",
+    "publisher": "Encyclopaedia Britannica",
+    "url": "https://www.britannica.com/place/Japan/Japan-since-1945",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Ockupationen under SCAP och MacArthur, konstitutionen i kraft 1947, artikel 9 och att självständigheten återvanns 1952."
+  },
+  {
+    "id": "ohistorian-japan-reconstruction",
+    "title": "Reconstruction of Japan and the Revival of China",
+    "publisher": "Office of the Historian, U.S. Department of State",
+    "url": "https://history.state.gov/milestones/1945-1952/japan-reconstruction",
+    "kind": "official",
+    "checkedOn": "2026-11-06",
+    "access": "search-result-summary",
+    "supports": "Ockupationspolitikens inriktning och vändningen 1947–48 mot ekonomisk återuppbyggnad."
   }
 ]

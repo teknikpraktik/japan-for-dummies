@@ -1,0 +1,406 @@
+{
+  "id": "t02-k04",
+  "slug": "andra-varldskriget",
+  "themeId": "historia",
+  "order": 4,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Andra världskriget i Asien och Stillahavet",
+  "summary": "Ett sakligt kapitel om krigets förlopp, civila offer, atombomberna och krigsförbrytelser, med olika minnen i Japan, Kina och Korea.",
+  "objectives": [
+    "Beskriva Japans krig 1937–1945 i stora drag och i rätt ordning",
+    "Förklara Hiroshimas och Nagasakis plats i minneskulturen",
+    "Skilja mellan nationella minnen och historiska källor"
+  ],
+  "minutes": 9,
+  "hook": {
+    "kind": "question",
+    "text": "I Hiroshima står en ruin kvar mitt i en modern stad, och i Nanjing finns ett museum om en helt annan sida av samma krig. Hur kan en och samma tid minnas så olika?"
+  },
+  "sections": [
+    {
+      "id": "forlopp",
+      "heading": "Krigets förlopp",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kriget i Asien började inte på en dag. Japan ockuperade Manchuriet 1931, och sommaren 1937 utvecklades striderna i Kina till ett storskaligt krig. I Kina brukar kriget räknas från 1937, medan man i väst oftare räknar från 1941. År 1941 attackerade Japan den amerikanska flottbasen vid Pearl Harbor och gick samtidigt in i Sydostasien. Då sammanfogades kriget i Asien med andra världskriget."
+        },
+        {
+          "type": "p",
+          "text": "Under de första månaderna erövrade Japan stora områden. Men med tiden vände utvecklingen. Slaget vid Midway 1942 brukar ses som en vändpunkt, och USA och dess allierade rörde sig steg för steg närmare Japan. Under 1945 utsattes japanska städer för omfattande bombningar, och striden om Okinawa krävde många civila liv."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "when": "1931",
+              "text": "Japan ockuperar Manchuriet."
+            },
+            {
+              "when": "1937",
+              "text": "Kriget i Kina trappas upp. Nanjing intas i december."
+            },
+            {
+              "when": "1941",
+              "text": "Attacken mot Pearl Harbor och krig i Sydostasien."
+            },
+            {
+              "when": "1942",
+              "text": "Slaget vid Midway."
+            },
+            {
+              "when": "1945",
+              "text": "Bombningar av städer, strid om Okinawa, atombomberna i augusti."
+            },
+            {
+              "when": "15 aug 1945",
+              "text": "Japan meddelar kapitulation."
+            },
+            {
+              "when": "2 sept 1945",
+              "text": "Formell kapitulation undertecknas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "civila",
+      "heading": "Civila offer och krigsförbrytelser",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kriget drabbade civila hårt, i hela regionen. Japanska arméer begick övergrepp mot civila och krigsfångar. Ett av de mest kända exemplen är massakern i **Nanjing** i december 1937. Antalet offer är omtvistat: uppskattningarna skiljer sig mycket mellan kinesiska och japanska källor och mellan olika historiker, men att ett stort antal civila dödades betvivlas inte av någon seriös forskning."
+        },
+        {
+          "type": "p",
+          "text": "Andra frågor handlar om tvångsarbete, behandlingen av krigsfångar och de så kallade **”comfort women”**, kvinnor från bland annat Korea och andra länder som tvingades till sexuell slavtjänst vid arméns anläggningar. Frågan om ersättning och ursäkter har påverkat Japans relationer med grannländerna ända sedan dess."
+        },
+        {
+          "type": "p",
+          "text": "Efter kriget dömdes japanska ledare vid **Tokyorättegångarna** (1946–1948). Hur rättvisa dessa var, och vilka som inte åtalades, diskuteras fortfarande."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Ett allvarligt ämne",
+          "text": "Kapitlet beskriver övergrepp utan detaljer. Du kan ta pauser. Om ämnet väcker starka känslor: prata med någon eller hoppa till nästa avsnitt."
+        }
+      ]
+    },
+    {
+      "id": "bomber",
+      "heading": "Hiroshima och Nagasaki",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Den 6 augusti 1945 fälldes en atombomb över **Hiroshima** och den 9 augusti en över **Nagasaki**. Staden förstördes till stora delar och tiotusentals människor dog direkt. Många fler dog av skador och strålning under månaderna och åren efter. De som överlevde kallas **hibakusha**."
+        },
+        {
+          "type": "p",
+          "text": "Den 8 augusti gick också Sovjetunionen in i kriget mot Japan. Den 15 augusti meddelade kejsaren i ett radiotal att Japan kapitulerade. Historiker diskuterar fortfarande hur stor betydelse atombomberna och Sovjets krigsförklaring hade för beslutet."
+        },
+        {
+          "type": "p",
+          "text": "Idag är Hiroshima och Nagasaki stora symboler för fred och för kampen mot kärnvapen. I Hiroshima finns Fredsminnesparken, ett museum och **Genbaku-domen** (atombombskupolen), en ruin som bevarats och som sedan 1996 står på Unescos världsarvslista."
+        }
+      ]
+    },
+    {
+      "id": "minnen",
+      "heading": "Olika minnen, olika berättelser",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "I Japan lyfter minneskulturen ofta fram **civilas lidande**: bombningarna av städerna och atombomberna. I Kina och Korea ligger betoningen i stället ofta på Japans roll som angripare och kolonialmakt. I Kina är Nanjingmassakern en central del av minnet. I Korea är kolonialtiden och frågan om tvångsarbete och ”comfort women” centrala."
+        },
+        {
+          "type": "p",
+          "text": "Ett exempel på en laddad fråga är **Yasukunihelgedomen** i Tokyo, där Japans krigsdöda hedras. Där hedras också några av dem som dömdes som krigsförbrytare. Besök av politiker brukar leda till kritik från Kina och Sydkorea."
+        },
+        {
+          "type": "p",
+          "text": "Som läsare kan du hålla isär tre saker: **vad som hände** (belagt av dokument, vittnen och forskning), **hur det förklaras** (olika tolkningar) och **hur det minns** (nationella berättelser, museer, skolböcker). Ofta krockar inte fakta, men betoning och ordval."
+        },
+        {
+          "type": "photo",
+          "slotId": "t02-k04-minne",
+          "imageId": "nanjing-minnesmarke",
+          "brief": "Minnesmärke i Nanjing över offren för massakern 1937, för att visa ett annat lands minnesmiljö."
+        },
+        {
+          "type": "observe",
+          "title": "Läs ett museum eller minnesmärke",
+          "prompt": "Använd ett besök eller textalternativet nedan.",
+          "steps": [
+            "Vem har gjort utställningen och vem riktar den sig till?",
+            "Vilka offer lyfts fram, och vilka nämns knappt?",
+            "Vilka ord används om gärningsmän och om händelser?",
+            "Vilka källor visas, till exempel dokument, vittnen eller föremål?"
+          ],
+          "textAlternative": "Utan bild: tänk på en historisk händelse i ditt eget land som minns olika av olika grupper. Skriv två meningar ur två perspektiv.",
+          "imageSlotIds": [
+            "t02-k04-minne"
+          ]
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "ordering",
+      "id": "forlopp",
+      "title": "Ordna händelserna",
+      "prompt": "Sätt händelserna i kronologisk ordning, den tidigaste först.",
+      "items": [
+        {
+          "id": "manchuriet",
+          "text": "Japan ockuperar Manchuriet"
+        },
+        {
+          "id": "kina",
+          "text": "Storskaligt krig i Kina börjar"
+        },
+        {
+          "id": "pearl",
+          "text": "Attacken mot Pearl Harbor"
+        },
+        {
+          "id": "bomber",
+          "text": "Atombomberna över Hiroshima och Nagasaki"
+        },
+        {
+          "id": "kapitulation",
+          "text": "Japans kapitulation meddelas"
+        }
+      ],
+      "explanation": "Manchuriet 1931, kriget i Kina 1937, Pearl Harbor 1941, atombomberna i augusti 1945 och kapitulationen den 15 augusti 1945."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "hibakusha",
+      "title": "Ordet hibakusha",
+      "prompt": "Vad betyder ordet hibakusha, som används i Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "De som överlevde atombomberna",
+          "correct": true,
+          "feedback": "Rätt. Ordet betyder ungefär ”de som drabbades av bomben”."
+        },
+        {
+          "id": "b",
+          "text": "Soldater som deltog i kriget",
+          "correct": false,
+          "feedback": "Fel. Det är inte vad ordet betyder."
+        },
+        {
+          "id": "c",
+          "text": "Ett japanskt tempel",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En typ av mat",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "kritisk-lasning",
+      "title": "Två berättelser",
+      "situation": "På ett museum i Japan läser du en utställning om bombningarna av städerna. Dagen efter besöker du ett museum i ett annat land som berättar om Japans övergrepp.",
+      "question": "Hur tolkar du att berättelserna skiljer sig åt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Båda kan innehålla sant material, men de lyfter fram olika perspektiv. Jag jämför källor och ser vad som utelämnas.",
+          "correct": true,
+          "feedback": "Bra. Det är just skillnaden i betoning som är intressant att undersöka."
+        },
+        {
+          "id": "b",
+          "text": "Ett av museerna ljuger säkert.",
+          "correct": false,
+          "feedback": "Det är en förhastad slutsats. Betoning och urval skiljer sig, och det betyder inte att allt är osant."
+        },
+        {
+          "id": "c",
+          "text": "Jag litar bara på det första jag läste.",
+          "correct": false,
+          "feedback": "Då missar du hela bilden. Jämförelse är nyckeln."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka krigsminnesmärken eller museer besöker du och vilken berättelse berättar de?",
+    "Vilka ord används om gärningsmän och offer i texterna?",
+    "Hur beter sig människor vid minnesplatserna, och hur kan du visa respekt?"
+  ],
+  "reflection": "Hur kan man minnas ett lidande utan att glömma bort andras? Vad kan ett museum göra för att visa flera perspektiv?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilket datum brukar anges för atombomben över Hiroshima?",
+      "options": [
+        {
+          "id": "a",
+          "text": "6 augusti 1945",
+          "correct": true,
+          "feedback": "Rätt. Nagasaki följde den 9 augusti."
+        },
+        {
+          "id": "b",
+          "text": "7 december 1941",
+          "feedback": "Fel. Det är Pearl Harbor."
+        },
+        {
+          "id": "c",
+          "text": "1 januari 1900",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "15 augusti 1945",
+          "feedback": "Fel. Det är dagen då kapitulationen meddelades."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vilken plats förknippas med en massaker i december 1937?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nanjing",
+          "correct": true,
+          "feedback": "Rätt. Offrens antal är omtvistat, men händelsen är väl belagd."
+        },
+        {
+          "id": "b",
+          "text": "Kyoto",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Osaka",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Sapporo",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad kallas de som överlevde atombomberna?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hibakusha",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Samurajer",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Shoguner",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Daimyo",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Varför räknas kriget olika i Kina och väst?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I Kina räknas det ofta från 1937 (eller 1931), i väst oftare från 1941.",
+          "correct": true,
+          "feedback": "Rätt. Perspektiven skiljer sig."
+        },
+        {
+          "id": "b",
+          "text": "För att kriget aldrig hände",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "För att kriget varade i hundra år",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "För att alla räknar från 1945",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är skillnaden mellan hur något hände och hur det minns?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det första kan stödjas av källor, det andra präglas av nationella berättelser och betoning.",
+          "correct": true,
+          "feedback": "Rätt. Båda går att undersöka."
+        },
+        {
+          "id": "b",
+          "text": "Det finns ingen skillnad.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Minnen är alltid sanna.",
+          "feedback": "Fel. Minnen kan vara selektiva."
+        },
+        {
+          "id": "d",
+          "text": "Fakta kan aldrig kontrolleras.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "wikipedia-pacific-war",
+    "diplomat-divergent-histories",
+    "japanguide-history"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Huvuddatum (6, 9, 15 augusti och 2 september 1945, Nanjing december 1937) och skillnaden i hur olika länder räknar krigets start kontrollerades mot sammanfattade sökresultat. Källsidorna kunde inte öppnas direkt i arbetsmiljön. Mycket känsligt ämne: bör granskas av en historielärare.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Offertal anges inte eftersom uppskattningarna är starkt omtvistade och inte kontrollerades.",
+      "Påståenden om Midway 1942, Okinawa, bombningarna av städer, Tokyorättegångarna, Yasukuni och beskrivningen av ”comfort women” och tvångsarbete är allmän historisk bakgrund som inte kontrollerades separat.",
+      "Datumet för Sovjetunionens krigsförklaring (8 augusti) och Unescos världsarvsstatus för Genbaku-domen (1996) är allmän kännedom och inte kontrollerade mot en källa i detta arbete.",
+      "Beskrivningen av olika nationella minneskulturer är förenklad."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t02-k04-hero",
+    "imageId": "genbaku-kupolen",
+    "brief": "Ett minnesmärke eller en fredsplats i Japan, till exempel i Hiroshima eller Nagasaki. Ska fotograferas respektfullt."
+  }
+}
