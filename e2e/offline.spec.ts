@@ -77,8 +77,10 @@ test.describe("offline", () => {
     await expect(page.getByRole("heading", { level: 1, name: "Geografi, regioner, klimat och natur" })).toBeVisible();
     await page.goto("/utbildning/resa/"); // temasidorna finns också offline
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
-    await page.goto(`/kapitel/${PLANNED_SAMPLE.slug}/`);
-    await expect(page.getByText("planerat men inte skrivet än")).toBeVisible();
+    if (PLANNED_SAMPLE) {
+      await page.goto(`/kapitel/${PLANNED_SAMPLE.slug}/`);
+      await expect(page.getByText("planerat men inte skrivet än")).toBeVisible();
+    }
     await page.goto("/offline/");
     await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${PUBLISHED} tillgängliga kapitel klara`);
     await page.goto("/kallor/");

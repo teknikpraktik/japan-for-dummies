@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 import fs from "node:fs";
 import path from "node:path";
-import { pilots, takeQuiz } from "./helpers";
+import { pilots, takeQuiz, PLANNED_SAMPLE } from "./helpers";
 
 const themes: { id: string; order: number; title: string; description: string }[] = JSON.parse(fs.readFileSync(path.join(process.cwd(), "src/content/themes.json"), "utf8"));
 const themeOf = (c: unknown) => (c as { themeId: string }).themeId;
@@ -72,9 +72,14 @@ test.describe("utbildningens navigation", () => {
     await expect(page.getByTestId(`nav-done-${done.id}`)).toHaveCount(1);
     await expect(page.getByTestId(`nav-done-${done.id}`)).toContainText("Slutfört");
     await expect(page.locator("[data-testid^='nav-done-']")).toHaveCount(1); // publicerat är inte slutfört
-    const planned = page.locator("[data-testid^='nav-planned-']").first();
-    await expect(planned).toContainText("Kommer senare");
-    await expect(planned.getByRole("link")).toHaveCount(0);
+    // Planerade kapitel finns bara kvar så länge något kapitel är oskrivet.
+    if (PLANNED_SAMPLE) {
+      const planned = page.locator("[data-testid^='nav-planned-']").first();
+      await expect(planned).toContainText("Kommer senare");
+      await expect(planned.getByRole("link")).toHaveCount(0);
+    } else {
+      await expect(page.locator("[data-testid^='nav-planned-']")).toHaveCount(0);
+    }
     await expect(page.locator("[data-testid^='chapter-card-']").first()).toBeVisible();
   });
 

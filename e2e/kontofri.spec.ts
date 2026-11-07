@@ -202,12 +202,14 @@ test.describe("kontofri tjänst", () => {
     expect(counts.length).toBeGreaterThan(0);
     for (const t of counts) expect(t).toMatch(/^(1 kapitel tillgängligt|\d+ kapitel tillgängliga) · \d+ slutförda$/);
     // kommande tema: etikett, ingen framstegsindikator, men öppningsbart med kapitelöversikt
-    const upcoming = page.getByTestId(`theme-card-${UPCOMING_THEME}`);
-    await expect(upcoming).toContainText("Kommer senare");
-    await expect(upcoming.getByRole("progressbar")).toHaveCount(0);
-    await upcoming.getByRole("link").click();
-    await expect(page).toHaveURL(new RegExp(`/utbildning/${UPCOMING_THEME}/$`));
-    await expect(page.locator("[data-testid^='chapter-card-']").first()).toBeVisible();
+    if (UPCOMING_THEME) {
+      const upcoming = page.getByTestId(`theme-card-${UPCOMING_THEME}`);
+      await expect(upcoming).toContainText("Kommer senare");
+      await expect(upcoming.getByRole("progressbar")).toHaveCount(0);
+      await upcoming.getByRole("link").click();
+      await expect(page).toHaveURL(new RegExp(`/utbildning/${UPCOMING_THEME}/$`));
+      await expect(page.locator("[data-testid^='chapter-card-']").first()).toBeVisible();
+    }
   });
 
   test("kapitelkort: ingen ”Ej påbörjad”; Påbörjat och Slutfört med symbol och text", async ({ page }) => {

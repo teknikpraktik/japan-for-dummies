@@ -1501,6 +1501,148 @@
     ]
   },
   {
+    "id": "kita-senju-perrong",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/kita-senju-perrong/kita-senju-perrong-480.webp",
+        "width": 480,
+        "height": 218,
+        "bytes": 16874,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/kita-senju-perrong/kita-senju-perrong-960.webp",
+        "width": 960,
+        "height": 436,
+        "bytes": 58204,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/kita-senju-perrong/kita-senju-perrong-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 23602,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Nesnad",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kita-Senju_Station_Tobu_line_platforms_with_platform_doors_-_June_27_2021_various.jpeg",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 4.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Nesnad, CC BY 4.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Kita-Senju, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning (北千住駅のホーム) och kategorier (Platforms of Kita-Senju Station)"
+    },
+    "year": {
+      "value": "2021",
+      "verifiedBy": "Commons-filsidans datumfält (27 juni 2021)"
+    },
+    "caption": "Perrongerna vid Kita-Senju station i Tokyo, juni 2021, med perrongdörrar, skyltar och tydlig markering av var man ställer sig.",
+    "alt": "En bred, tom stationsperrong sedd på långt håll med mönstrat golv, skyltar i taket och en rad perrongdörrar längs spåret.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns tydligt.",
+    "usedIn": [
+      "t12-k03"
+    ]
+  },
+  {
+    "id": "koban-sendai",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/koban-sendai/koban-sendai-480.webp",
+        "width": 480,
+        "height": 317,
+        "bytes": 13248,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/koban-sendai/koban-sendai-960.webp",
+        "width": 960,
+        "height": 635,
+        "bytes": 47948,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/koban-sendai/koban-sendai-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 14760,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/koban-sendai/koban-sendai-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 37618,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Kinori",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kawaramachi_Koban.jpg",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Funacho, Sendai, Miyagi prefektur",
+      "verifiedBy": "Commons-filsidans beskrivning (police box, Wakabayashi-ku, Sendai) och kategorier (Kobans in Miyagi prefecture)"
+    },
+    "year": {
+      "value": "2023",
+      "verifiedBy": "Commons-filsidans datumfält (19 april 2023)"
+    },
+    "caption": "En polislåda (koban) i Sendai i Miyagi prefektur, april 2023. En koban är en liten lokal polisstation där man kan fråga om vägen eller få hjälp.",
+    "alt": "Blå tvåvåningsbyggnad med ett polismärke ovanför dörren, en garageport till höger och en skylt vid ingången.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t12-k04"
+    ]
+  },
+  {
     "id": "kokugikan-malning",
     "kind": "contemporary-photo",
     "variants": [
@@ -2910,7 +3052,83 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t01-k01"
+      "t01-k01",
+      "t12-k01"
+    ]
+  },
+  {
+    "id": "seven-bank-atm",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/seven-bank-atm/seven-bank-atm-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 28676,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/seven-bank-atm/seven-bank-atm-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 91766,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/seven-bank-atm/seven-bank-atm-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 17308,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/seven-bank-atm/seven-bank-atm-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 41020,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.45
+    },
+    "creator": "Corpse Reviver",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seven_Bank_ATM.jpg",
+    "license": {
+      "name": "CC BY 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 3.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Corpse Reviver, CC BY 3.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Japan (närbutik)",
+      "verifiedBy": "Commons-filsidans kategorier (Seven Bank automatic teller machines; Interiors of 7-Eleven stores in Japan)"
+    },
+    "year": {
+      "value": "2009",
+      "verifiedBy": "Commons-filsidans datumfält (1 juni 2009)"
+    },
+    "caption": "En Seven Bank-bankomat inne i en 7-Eleven-närbutik i Japan, 2009. Bankomater i närbutiker brukar enligt flera guider fungera med utländska kort.",
+    "alt": "Grå bankomat med en liten skärm och ett rött fält med en stor 7 och texten BANK, intill en vägg med affischer.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t12-k02"
     ]
   },
   {
@@ -4300,7 +4518,8 @@
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
       "home",
-      "t01-k05"
+      "t01-k05",
+      "t12-k05"
     ]
   },
   {

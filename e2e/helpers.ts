@@ -40,20 +40,19 @@ export const PUBLISHED = pilots.length;
 export const PLANNED = 60 - pilots.length;
 
 /** Ett planerat (ännu inte skrivet) kapitel, härlett ur innehållet, för tester av planerade kapitelsidor. */
-export const PLANNED_SAMPLE: { slug: string; title: string } = (() => {
+export const PLANNED_SAMPLE: { slug: string; title: string } | null = (() => {
   const pdir = path.join(process.cwd(), "src", "content", "planned");
   for (const f of fs.readdirSync(pdir).sort()) {
     const items = JSON.parse(fs.readFileSync(path.join(pdir, f), "utf8")) as { slug: string; title: string }[];
     if (items.length) return { slug: items[0].slug, title: items[0].title };
   }
-  throw new Error("Inga planerade kapitel kvar att använda i testerna.");
+  return null; // alla kapitel är publicerade: testerna av planerade kapitelsidor hoppas då över
 })();
 
 /** Första temat utan publicerade kapitel (kommande tema), härlett ur innehållet. */
-export const UPCOMING_THEME: string = (() => {
+export const UPCOMING_THEME: string | null = (() => {
   const themes = JSON.parse(fs.readFileSync(path.join(process.cwd(), "src", "content", "themes.json"), "utf8")) as { id: string; order: number }[];
   const published = new Set((pilots as unknown as { themeId: string }[]).map((c) => c.themeId));
   const t = themes.sort((a, b) => a.order - b.order).find((x) => !published.has(x.id));
-  if (!t) throw new Error("Alla teman har publicerade kapitel.");
-  return t.id;
+  return t ? t.id : null; // alla teman har publicerade kapitel: testet av kommande teman hoppas då över
 })();
