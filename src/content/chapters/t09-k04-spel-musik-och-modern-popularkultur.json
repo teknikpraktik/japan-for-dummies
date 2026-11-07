@@ -34,7 +34,7 @@
     },
     {
       "id": "spel",
-      "heading": "Spel och nätkultur",
+      "heading": "Spel, nätkultur och bilden av ”galna Japan”",
       "blocks": [
         {
           "type": "p",
@@ -43,22 +43,10 @@
         {
           "type": "p",
           "text": "På fritiden lyssnar, spelar och delar ungdomar olika saker: det finns lika många smaker som personer. Karaoke (se kapitlet om fritid) är ett vanligt sätt att umgås, men inte det enda."
-        }
-      ]
-    },
-    {
-      "id": "stereotyp",
-      "heading": "Stereotyp och verklighet",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Bilden av ”galna Japan” med robotar, idoler och neonljus är en förenkling. Vardagen för de flesta är mer varierad och lugn. Populärkulturen är både en stor industri och ett sätt för människor att uttrycka sig, men den är en del av en större bild."
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Kommersiell kultur",
-          "text": "Idolbranschen och spelindustrin har också kritiserats för arbetsvillkor, press på artisterna och hur fans behandlas. Det är bra att vara nyfiken på både det som är roligt och det som är problematiskt."
+          "type": "p",
+          "text": "Bilden av ”galna Japan” med robotar, idoler och neonljus är en förenkling. Vardagen för de flesta är mer varierad och lugn. Populärkulturen är både en stor industri och ett sätt för människor att uttrycka sig, men den är en del av en större bild. Idolbranschen och spelindustrin har dessutom kritiserats för arbetsvillkor, press på artisterna och hur fans behandlas, så det är bra att vara nyfiken på både det som är roligt och det som är problematiskt."
         }
       ]
     }

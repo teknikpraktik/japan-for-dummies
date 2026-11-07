@@ -66,8 +66,8 @@ export function Blocks({ blocks, media }: { blocks: Block[]; media: Media[] }) {
               <dl key={i} className="card grid gap-x-6 gap-y-2 sm:grid-cols-[auto_1fr]">
                 {b.items.map((it, j) => (
                   <div key={j} className="contents">
-                    <dt className="font-semibold text-indigo-dark">{it.label}</dt>
-                    <dd>{it.value}</dd>
+                    <dt className="font-semibold text-indigo-dark"><RichText text={it.label} /></dt>
+                    <dd><RichText text={it.value} /></dd>
                   </div>
                 ))}
               </dl>
@@ -78,8 +78,8 @@ export function Blocks({ blocks, media }: { blocks: Block[]; media: Media[] }) {
                 {b.items.map((it, j) => (
                   <li key={j} className="relative pb-3">
                     <span aria-hidden="true" className="absolute -left-[1.4rem] top-2 h-2.5 w-2.5 rounded-full bg-red" />
-                    <span className="font-bold text-indigo-dark">{it.when}</span>
-                    <span className="block sm:inline sm:before:content-['_–_']">{it.text}</span>
+                    <span className="font-bold text-indigo-dark"><RichText text={it.when} /></span>
+                    <span className="block sm:inline sm:before:content-['_–_']"><RichText text={it.text} /></span>
                   </li>
                 ))}
               </ol>

@@ -20,7 +20,7 @@
   "sections": [
     {
       "id": "matt",
-      "heading": "Hur mäts jämställdhet?",
+      "heading": "Så mäts jämställdhet",
       "blocks": [
         {
           "type": "p",
@@ -28,7 +28,7 @@
         },
         {
           "type": "p",
-          "text": "I 2025 års rapport hamnade Japan på plats **118 av 148 länder**, samma plats som året innan och den lägsta bland G7-länderna. Poängen var 0,666, att jämföra med ett globalt snitt på 0,688. Mest haltar det i **politik** (plats 125) och **ekonomi** (plats 112). I utbildning och hälsa är skillnaderna små."
+          "text": "I 2025 års rapport hamnade Japan på plats **118 av 148 länder**, samma plats som året innan och den lägsta bland G7-länderna. Poängen var 0,666, att jämföra med ett globalt snitt på 0,688. Resultatet förklaras av att skillnaderna är mycket olika stora i de fyra delarna:"
         },
         {
           "type": "facts",
@@ -39,7 +39,7 @@
             },
             {
               "label": "Politik",
-              "value": "Plats 125"
+              "value": "Plats 125, den svagaste delen"
             },
             {
               "label": "Ekonomi",
@@ -54,32 +54,25 @@
       ]
     },
     {
-      "id": "forandring",
-      "heading": "Vad diskuteras?",
+      "id": "diskussion",
+      "heading": "Diskussionerna, och hur du läser dem",
       "blocks": [
         {
           "type": "p",
-          "text": "Diskussionerna i Japan gäller bland annat hur få kvinnor som sitter i parlament och på ledande poster, vem som tar ansvar för hem och barn, och hur arbetslivet kan bli mer flexibelt. Kvinnor fick rösträtt 1946, och sedan dess har lagar och attityder förändrats, men olika grupper har olika uppfattningar om takten."
+          "text": "Debatten i Japan gäller bland annat hur få kvinnor som sitter i parlament och på ledande poster, vem som tar ansvar för hem och barn, och hur arbetslivet kan bli mer flexibelt. Kvinnor fick rösträtt 1946, och sedan dess har lagar och attityder förändrats, men olika grupper har olika uppfattningar om takten. Flera frågor hör ihop med jämställdhet, till exempel lagen om gemensamt efternamn (se kapitlet om familj). Diskussionerna förs av politiker, företag, forskare och människor i vardagen, och de är inte enhetliga."
         },
         {
           "type": "p",
-          "text": "Flera pågående frågor kopplas till jämställdhet, till exempel lagen om gemensamt efternamn (se kapitlet om familj). Diskussionerna förs av politiker, företag, forskare och människor i vardagen, och de är inte enhetliga."
-        }
-      ]
-    },
-    {
-      "id": "jamfor",
-      "heading": "Jämföra utan att döma",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Det är lätt att jämföra Japan med Sverige och dra slutsatsen att ”Japan ligger efter”. Siffror kan vara användbara, men de visar inte allt: de mäter vissa saker och inte andra, och de säger inget om människors egna erfarenheter. Samtidigt är det rimligt att ta siffrorna på allvar."
+          "text": "Det är lätt att jämföra med Sverige och dra slutsatsen att ”Japan ligger efter”. Siffror kan vara användbara, men de visar inte allt, och de säger inget om människors egna erfarenheter. Tre frågor hjälper dig att läsa ett index:"
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Tre frågor att ställa",
-          "text": "1. Vad mäter siffran, och vad mäter den inte? 2. Vem har sagt det, och vilka perspektiv saknas? 3. Hur ser det ut hemma hos oss, mätt på samma sätt?"
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Vad mäter siffran, och vad mäter den inte?",
+            "Vem har sagt det, och vilka perspektiv saknas?",
+            "Hur ser det ut hemma hos oss, mätt på samma sätt?"
+          ]
         }
       ]
     }

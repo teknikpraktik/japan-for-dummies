@@ -34,7 +34,7 @@
     },
     {
       "id": "hav",
-      "heading": "Havet och fisket",
+      "heading": "Havet, fisket och dina val",
       "blocks": [
         {
           "type": "p",
@@ -43,22 +43,10 @@
         {
           "type": "p",
           "text": "Fisket möter flera utmaningar som också diskuteras i många länder: överfiske, klimatförändringar som flyttar fiskbestånd, färre fiskare och en åldrande befolkning i kustsamhällen, och frågor som utsläppet av behandlat vatten från Fukushima (se kapitlet om energi)."
-        }
-      ]
-    },
-    {
-      "id": "val",
-      "heading": "Egna val",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Hur kopplar det till dina val? Fråga dig var maten kommer ifrån, hur den fångats eller odlats och om det finns märkning eller andra tecken på hållbarhet. Det finns inga enkla svar, och regler skiljer sig mellan länder. Du kan börja med att fråga lokalt: ”Var är den här fisken fångad?”"
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Inget enkelt facit",
-          "text": "Fiske och skogsbruk är komplexa frågor där människors försörjning, miljö och tradition hänger ihop. Undvik att moralisera över enskilda val."
+          "type": "p",
+          "text": "Hur kopplar det till dina val? Fråga dig var maten kommer ifrån, hur den fångats eller odlats och om det finns märkning eller andra tecken på hållbarhet. Det finns inga enkla svar, och regler skiljer sig mellan länder. Fiske och skogsbruk handlar dessutom om människors försörjning, miljö och tradition på en gång, så undvik att moralisera över enskilda val. Du kan börja med att fråga lokalt: ”Var är den här fisken fångad?”"
         }
       ]
     }

@@ -20,7 +20,7 @@
   "sections": [
     {
       "id": "skrap",
-      "heading": "Skräp: ta med det",
+      "heading": "Skräp och sortering",
       "blocks": [
         {
           "type": "p",
@@ -33,32 +33,16 @@
       ]
     },
     {
-      "id": "betala",
-      "heading": "Betalning vid kassan",
+      "id": "kassa",
+      "heading": "Vid kassan, på gatan och i tystnaden",
       "blocks": [
         {
           "type": "p",
-          "text": "**Dricks** förväntas inte i Japan och kan upplevas som obehagligt. Vid många kassor finns en liten **bricka** där du lägger pengarna eller kortet i stället för att räcka dem direkt. Kassapersonalen räknar upp växeln och lämnar den i handen eller på brickan. Beloppet betalas vid kassan, inte vid bordet, på många restauranger."
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "title": "Praktiskt",
-          "text": "Kontanter används fortfarande ofta, men kort och kontaktlösa betalningar är vanliga i stora städer. Ha en blandning med dig, särskilt utanför storstäderna."
-        }
-      ]
-    },
-    {
-      "id": "ljud",
-      "heading": "Ljud, tid och plats",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Anpassa ljudnivån efter platsen. På tåg och bussar ringer man i regel inte och pratar tyst (se kapitlet om hänsyn i vardagen). I tempel och på museer är det tyst och lugnt. På gatan, i butiker och på restauranger är ljudnivån mer varierad. Titta på hur andra beter sig."
+          "text": "**Dricks** förväntas inte i Japan och kan upplevas som obehagligt. Vid många kassor finns en liten **bricka** där du lägger pengarna eller kortet i stället för att räcka dem direkt. Kassapersonalen räknar upp växeln och lämnar den i handen eller på brickan. På många restauranger betalar du vid kassan, inte vid bordet. Kontanter används fortfarande ofta, men kort och kontaktlösa betalningar är vanliga i stora städer, så ha en blandning med dig, särskilt utanför storstäderna."
         },
         {
           "type": "p",
-          "text": "Det handlar inte om att kunna alla regler, utan om att vara uppmärksam på andra: undvik att blockera passager, ta inte plats i onödan och tacka vänligt."
+          "text": "Anpassa ljudnivån efter platsen. På tåg och bussar ringer man i regel inte och pratar tyst (se kapitlet om hänsyn i vardagen), och i tempel och på museer är det tyst och lugnt. På gatan, i butiker och på restauranger är ljudnivån mer varierad, så titta på hur andra beter sig. Det handlar inte om att kunna alla regler, utan om att vara uppmärksam på andra: undvik att blockera passager, ta inte plats i onödan och tacka vänligt."
         }
       ]
     }

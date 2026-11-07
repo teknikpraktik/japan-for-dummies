@@ -94,9 +94,7 @@
           "text": "På Taiwan är minnena mer blandade. Där finns både kritik mot förtrycket och en debatt om att kolonialtiden också innebar infrastruktur och utbildning. I Kina är minnet av Japans krig och ockupation starkt. Och i Japan har det funnits en lång offentlig diskussion om hur historien ska beskrivas, bland annat i skolböcker."
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Två saker kan vara sanna samtidigt",
+          "type": "p",
           "text": "Att en koloni fick järnvägar och skolor betyder inte att kolonialstyret var rättvist. Och att styret var förtryckande betyder inte att alla människors liv såg likadant ut. Historiker försöker skilja på fakta, tolkning och värdering."
         },
         {

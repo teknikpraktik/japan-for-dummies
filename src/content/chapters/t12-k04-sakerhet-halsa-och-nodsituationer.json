@@ -24,13 +24,32 @@
       "blocks": [
         {
           "type": "p",
-          "text": "I Japan ringer du **110** för polis, **119** för brand och ambulans och **118** vid olyckor till sjöss, enligt flera guider. För råd om icke akut sjukvård nämns **#7119** i vissa större städer, men tillgängligheten varierar. **JNTO:s besökstelefon** (Japan Visitor Hotline) erbjuder hjälp på engelska, kinesiska och koreanska dygnet runt, uppges det (050-3816-2787 i Japan), men den är inget ersättande av 119 vid livsfara. Du behöver en mobil med röstsamtal för att kunna ringa."
+          "text": "Siffrorna nedan kommer från reseguider och inte från myndigheter. Kontrollera dem på officiella sidor (till exempel JNTO) och spara dem i telefonen och på papper innan du reser. Du behöver en mobil med röstsamtal för att kunna ringa."
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Kontrollera numren",
-          "text": "Siffrorna kommer från reseguider och inte från myndigheter. Kontrollera dem på officiella sidor (till exempel JNTO) och spara dem i telefonen och på papper innan du reser."
+          "type": "facts",
+          "items": [
+            {
+              "label": "110",
+              "value": "Polis, enligt flera guider"
+            },
+            {
+              "label": "119",
+              "value": "Brand och ambulans"
+            },
+            {
+              "label": "118",
+              "value": "Olyckor till sjöss"
+            },
+            {
+              "label": "#7119",
+              "value": "Råd om icke akut sjukvård, i vissa större städer. Tillgängligheten varierar."
+            },
+            {
+              "label": "JNTO Japan Visitor Hotline",
+              "value": "Hjälp på engelska, kinesiska och koreanska dygnet runt, uppges det (050-3816-2787 i Japan). Inget ersättande av 119 vid livsfara."
+            }
+          ]
         }
       ]
     },
@@ -59,15 +78,9 @@
             "Gruppens rutiner: samlingsplats, kontaktvägar och vem som är ansvarig.",
             "Spara adress och kontaktuppgifter till boendet och ambassad (Sveriges ambassad i Tokyo).",
             "Följ lokala varningar: jordbävning, tsunami, taifun och värme (se kapitlet om katastrofberedskap).",
-            "Berätta tidigt om du mår dåligt, känner dig trygg eller otrygg, eller saknar något.",
+            "Berätta tidigt om du mår dåligt, känner dig otrygg eller saknar något. Om det blir tungt: prata med en vuxen i gruppen (se kapitlet om stöd i temat om skola och ungdomsliv).",
             "Respektera lokala regler och råd från personal och myndigheter."
           ]
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "title": "Behöver du hjälp med känslor?",
-          "text": "Om du mår dåligt, tar det tungt eller har det svårt under resan: prata med en vuxen i gruppen (se kapitlet om stöd i temat om skola och ungdomsliv)."
         }
       ]
     }

@@ -20,7 +20,7 @@
   "sections": [
     {
       "id": "historia",
-      "heading": "Hur buddhismen kom till Japan",
+      "heading": "Hur buddhismen kom och förgrenade sig",
       "blocks": [
         {
           "type": "p",
@@ -34,17 +34,24 @@
     },
     {
       "id": "skillnad",
-      "heading": "Helgedom eller tempel?",
+      "heading": "Tempel eller helgedom?",
       "blocks": [
         {
-          "type": "p",
-          "text": "Ett enkelt sätt att skilja: **helgedomar (shinto)** har en **torii**, medan **tempel (buddhism)** har en port med tak, en **sanmon**, och ofta en pagod, en stor klocka och en hall med Buddhastatyer. På tempel brukar man tända rökelse, ringa en klocka och be med knäppta händer. Vid en helgedom bugar man och klappar. Reglerna skiljer sig, så titta på skyltar och på vad andra gör."
+          "type": "facts",
+          "items": [
+            {
+              "label": "Helgedom (shinto)",
+              "value": "Har en **torii**. Man bugar och klappar."
+            },
+            {
+              "label": "Tempel (buddhism)",
+              "value": "Har en port med tak, en **sanmon**, och ofta en pagod, en stor klocka och en hall med Buddhastatyer. Man tänder rökelse, ringer en klocka och ber med knäppta händer."
+            }
+          ]
         },
         {
-          "type": "callout",
-          "tone": "info",
-          "title": "Förväxlingar",
-          "text": "Många japanska besöksmål är både och: en plats kan ha både helgedom och tempel eftersom traditionerna har blandats. Då gäller respekten för båda."
+          "type": "p",
+          "text": "Reglerna skiljer sig, så titta på skyltar och på vad andra gör. Många japanska besöksmål är också både och: en plats kan ha både helgedom och tempel eftersom traditionerna har blandats. Då gäller respekten för båda."
         }
       ]
     },

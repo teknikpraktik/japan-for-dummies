@@ -31,61 +31,39 @@
           "text": "Shinto handlar därför mindre om att tro på något bestämt och mer om **ritualer, platser, högtider och respekt för det som anses heligt**. Många japaner besöker en helgedom för att tacka, be om lycka eller markera ett tillfälle, utan att se sig som ”troende” i västerländsk mening."
         },
         {
-          "type": "callout",
-          "tone": "info",
-          "title": "Shinto och buddhism",
-          "text": "Shinto och buddhism har levt sida vid sida i över tusen år och blandas i många människors liv (se kapitlet om religion i vardagen)."
+          "type": "p",
+          "text": "Shinto märks i livets stora tillfällen: nyårsbesök, bröllop, välsignelse av nyfödda och barn (**Shichi-go-san**) och många lokala fester. För många är det **tradition och plats** snarare än en tro man bekänner sig till. Vissa beskriver det som en livsstil, andra som religion, andra som kultur. Som besökare behöver du inte lösa frågan, bara visa respekt för platsen. Shinto och buddhism har dessutom levt sida vid sida i över tusen år och blandas i många människors liv (se kapitlet om religion i vardagen)."
         }
       ]
     },
     {
       "id": "helgedom",
-      "heading": "En helgedom och dess delar",
+      "heading": "Genom en helgedoms område",
       "blocks": [
         {
           "type": "p",
-          "text": "En shintohelgedom (**jinja**) känns ofta igen på en **torii**, en port med två pelare och tvärbjälkar som markerar gränsen mot helig mark. Efter porten finns ofta en gång genom skog, en **vattenpaviljong** (temizuya) där man renar sig, **stenlyktor**, en **offerhall** och bakom den den inre byggnaden där kami anses vistas. Vid offerhallen finns en offerlåda och ofta ett rep med klocka."
-        },
-        {
-          "type": "facts",
-          "items": [
-            {
-              "label": "Torii",
-              "value": "Port in till helgedomens område"
-            },
-            {
-              "label": "Temizuya",
-              "value": "Vattenbassäng för rening av händer och mun"
-            },
-            {
-              "label": "Offerhall",
-              "value": "Plats för bön och offer"
-            },
-            {
-              "label": "Shimenawa",
-              "value": "Flätat rep som markerar att något är heligt"
-            }
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Många helgedomar har också små stånd där man kan köpa **omamori** (amuletter), **ema** (träplaketter att skriva en önskan på) och **omikuji** (lyckospådomar)."
+          "text": "En shintohelgedom (**jinja**) känns ofta igen på en **torii**, en port med två pelare och tvärbjälkar som markerar gränsen mot helig mark. Om du går in genom porten passerar du ofta:"
         },
         {
           "type": "photo",
           "slotId": "t08-k01-torii",
           "imageId": "fushimi-inari-torii",
           "brief": "En torii eller en helgedomsentré."
-        }
-      ]
-    },
-    {
-      "id": "liv",
-      "heading": "Tradition och livsstil",
-      "blocks": [
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "**Torii:** porten in till området.",
+            "**Stigen**, ofta genom skog, och **stenlyktor** längs vägen.",
+            "**Temizuya:** vattenpaviljongen där man renar händer och mun.",
+            "**Offerhallen:** plats för bön och offer, med offerlåda och ofta ett rep med klocka.",
+            "**Den inre byggnaden** bakom offerhallen, där kami anses vistas. Ett flätat rep, **shimenawa**, markerar att något är heligt."
+          ]
+        },
         {
           "type": "p",
-          "text": "Shinto märks i livets stora tillfällen: nyårsbesök, bröllop, välsignelse av nyfödda och barn (**Shichi-go-san**) och många lokala fester. För många är det **tradition och plats** snarare än en tro man bekänner sig till. Vissa beskriver det som en livsstil, andra som religion, andra som kultur. Som besökare behöver du inte lösa frågan: du behöver bara visa respekt för platsen."
+          "text": "Många helgedomar har också små stånd där man kan köpa **omamori** (amuletter), **ema** (träplaketter att skriva en önskan på) och **omikuji** (lyckospådomar)."
         }
       ]
     }

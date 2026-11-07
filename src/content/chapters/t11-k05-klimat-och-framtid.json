@@ -42,7 +42,21 @@
         },
         {
           "type": "p",
-          "text": "Pågående lösningar är bland annat mer förnybar energi, kärnkraft, energieffektivitet, ny teknik som flytande vindkraft och väte, och anpassning av städer och beredskap (se kapitlet om katastrofberedskap). Hur man balanserar dem är omdiskuterat."
+          "text": "Pågående lösningar är bland annat:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "mer förnybar energi och kärnkraft,",
+            "energieffektivitet,",
+            "ny teknik som flytande vindkraft och väte,",
+            "anpassning av städer och beredskap (se kapitlet om katastrofberedskap)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Hur man balanserar dem är omdiskuterat."
         }
       ]
     },
@@ -52,7 +66,20 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Hur Japan ser ut om 30 år beror på många val. Ett scenario kan vara ett land med mer förnybart, mindre befolkning och teknik som hjälper ett åldrande samhälle. Ett annat är ett land som fastnar i gamla energisystem och drabbas av tilltagande extremväder. Verkligheten blir sannolikt en blandning."
+          "text": "Hur Japan ser ut om 30 år beror på många val. Två möjliga scenarier, och verkligheten blir sannolikt en blandning:"
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Scenario 1",
+              "value": "Mer förnybart, mindre befolkning och teknik som hjälper ett åldrande samhälle."
+            },
+            {
+              "label": "Scenario 2",
+              "value": "Landet fastnar i gamla energisystem och drabbas av tilltagande extremväder."
+            }
+          ]
         },
         {
           "type": "observe",

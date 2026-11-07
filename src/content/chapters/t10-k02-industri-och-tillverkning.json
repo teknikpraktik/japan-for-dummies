@@ -24,25 +24,51 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Industrialiseringen började under Meijiperioden (se kapitlet om modernisering): staten satsade på järnvägar, varv, gruvor och textilfabriker, och sidenindustrin blev viktig för exporten. Efter andra världskriget byggdes industrin upp igen, och under högkonjunkturen (se kapitlet om efterkrigstiden) växte stål, fartyg, bilar och elektronik. Japan blev en av världens största industriländer."
+          "text": "Industrialiseringen började under Meijiperioden (se kapitlet om modernisering). Förloppet i grova drag:"
         },
         {
-          "type": "p",
-          "text": "Många stora företag har rötter i äldre branscher. **Toyota** har sin bakgrund i Sakichi Toyodas vävstolar (omkring 1897), där en mekanism stoppade vävstolen om en tråd gick av, en idé som blev **jidoka**: maskinen stoppar när något är fel."
+          "type": "timeline",
+          "items": [
+            {
+              "when": "Omkring 1870-talet",
+              "text": "Staten satsar på järnvägar, varv, gruvor och textilfabriker. Sidenindustrin blir viktig för exporten."
+            },
+            {
+              "when": "Omkring 1897",
+              "text": "Sakichi Toyoda bygger vävstolar. En mekanism stoppar vävstolen om en tråd går av, en idé som blir **jidoka**."
+            },
+            {
+              "when": "Efter andra världskriget",
+              "text": "Industrin byggs upp igen. Under högkonjunkturen (se kapitlet om efterkrigstiden) växer stål, fartyg, bilar och elektronik."
+            },
+            {
+              "when": "Idag",
+              "text": "Japan är en av världens största industriländer, men mycket av produktionen sker utomlands."
+            }
+          ]
         }
       ]
     },
     {
       "id": "princip",
-      "heading": "Produktionsprinciper",
+      "heading": "Så tänker japansk tillverkning",
       "blocks": [
         {
           "type": "p",
-          "text": "Japansk tillverkning är känd för **Toyotas produktionssystem**, som bygger på två grundpelare: **just-in-time** (rätt del i rätt tid, så att lager hålls små) och **jidoka** (automation med mänsklig kontroll: stoppa vid fel). Ett annat välkänt begrepp är **kaizen**, ständiga små förbättringar där alla medarbetare bidrar. Idéerna tillskrivs bland annat Kiichiro Toyoda och Taiichi Ohno. Källorna anger olika årtal för när de uppstod."
+          "text": "Japansk tillverkning är känd för **Toyotas produktionssystem**, som bygger på tre idéer som ofta nämns:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Just-in-time:** rätt del i rätt tid, så att lager hålls små.",
+            "**Jidoka:** automation med mänsklig kontroll, där maskinen stoppar vid fel.",
+            "**Kaizen:** ständiga små förbättringar där alla medarbetare bidrar."
+          ]
         },
         {
           "type": "p",
-          "text": "Principerna har spridits över världen under namnet lean (”slimmad produktion”). De bygger på att man minskar slöseri, men kritiker menar att de också kan öka pressen på leverantörer och anställda."
+          "text": "Idéerna tillskrivs bland annat Kiichiro Toyoda och Taiichi Ohno, och källorna anger olika årtal för när de uppstod. Principerna har spridits över världen under namnet lean (”slimmad produktion”). De bygger på att man minskar slöseri, men kritiker menar att de också kan öka pressen på leverantörer och anställda."
         }
       ]
     },
@@ -52,13 +78,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Idag har en stor del av produktionen flyttat utomlands, där kostnaderna är lägre, och konkurrensen från bland annat Kina och Sydkorea är hård. Japan är ändå en stor tillverkare av bilar, maskiner, material och industrirobotar. Globaliseringen skapar både möjligheter och sårbarheter: tillverkarna är beroende av långa leveranskedjor, vilket syns vid jordbävningar, pandemier och handelskonflikter."
+          "text": "En stor del av produktionen har flyttat utomlands, där kostnaderna är lägre, och konkurrensen från bland annat Kina och Sydkorea är hård. Japan är ändå en stor tillverkare av bilar, maskiner, material och industrirobotar. Globaliseringen skapar både möjligheter och sårbarheter: tillverkarna är beroende av långa leveranskedjor, vilket syns vid jordbävningar, pandemier och handelskonflikter."
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Nyanser",
-          "text": "”Japan är ett teknikland” är en generalisering. Många små företag, hantverk och lokala industrier finns bredvid de stora koncernerna, och arbetsvillkoren varierar."
+          "type": "p",
+          "text": "”Japan är ett teknikland” är dessutom en generalisering. Många små företag, hantverk och lokala industrier finns bredvid de stora koncernerna, och arbetsvillkoren varierar."
         }
       ]
     }

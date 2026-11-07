@@ -20,7 +20,7 @@
   "sections": [
     {
       "id": "innan",
-      "heading": "Före avresa: kontrollera i god tid",
+      "heading": "Före avresa: det som tar tid",
       "blocks": [
         {
           "type": "p",
@@ -42,7 +42,7 @@
     },
     {
       "id": "lakemedel",
-      "heading": "Läkemedel: kontrollera reglerna",
+      "heading": "Läkemedel och packning",
       "blocks": [
         {
           "type": "p",
@@ -50,23 +50,13 @@
         },
         {
           "type": "callout",
-          "tone": "care",
+          "tone": "check",
           "title": "Detta är inget medicinskt råd",
           "text": "Prata med din vårdgivare om medicin, allergier och kroniska sjukdomar innan du reser. Se även kapitlet om allergier och särskilda behov i temat om mat."
-        }
-      ]
-    },
-    {
-      "id": "packa",
-      "heading": "Packa efter säsong och aktivitet",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Packa efter årstid och plats (se temat om geografi): lager av kläder, regnskydd, bekväma skor som är lätta att ta av och på (se kapitlet om skor), strumpor utan hål, en liten påse för skräp och en liten handduk eftersom många toaletter saknar pappershanddukar. Ta med en adapter (Japan använder vanligen två platta stift), en powerbank och en liten väska för dagen."
         },
         {
           "type": "p",
-          "text": "Packa inte för mycket: du bär själv din väska på trappor, tåg och stationer, och utrymmet i många hotellrum och tåg är litet."
+          "text": "Packa efter årstid och plats (se temat om geografi): lager av kläder, regnskydd, bekväma skor som är lätta att ta av och på (se kapitlet om skor), strumpor utan hål, en liten påse för skräp och en liten handduk eftersom många toaletter saknar pappershanddukar. Ta med en adapter (Japan använder vanligen två platta stift), en powerbank och en liten väska för dagen. Packa inte för mycket: du bär själv din väska på trappor, tåg och stationer, och utrymmet i många hotellrum och tåg är litet."
         }
       ]
     }

@@ -118,9 +118,7 @@
           ]
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Förenkla med eftertanke",
+          "type": "p",
           "text": "En tidslinje får det att se ut som om historien gick rakt fram. I verkligheten överlappade perioderna, makten skiftade mellan regioner och forskare är oense om gränserna. Använd årtalen som orientering, inte som exakta gränser."
         }
       ]

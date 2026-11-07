@@ -41,6 +41,12 @@
           "text": "I städerna är tomterna ofta små. Ett skäl som nämns är att äldre, större tomter delas upp (bland annat på grund av arvsskatt och regler om byggnader), och att det inte alltid finns några krav på minsta tomtstorlek. Resultatet är små hus tätt intill varandra, smala gränder och kompakta lösningar där varje kvadratmeter används: vertikala lösningar, hus med flera små våningar, trappor och skjutbara skärmar."
         },
         {
+          "type": "photo",
+          "slotId": "t09-k05-tat",
+          "imageId": "sakai-stadsbild",
+          "brief": "Tät stadsbebyggelse i Japan, för att visa hur kompakt bebyggelsen kan vara."
+        },
+        {
           "type": "p",
           "text": "En grundregel är att hus ska ha minst en liten marginal mot tomtgränsen. Smala gator gör ibland att bilar har svårt att komma fram, vilket påverkar allt från räddningstjänst till sopor."
         },
@@ -70,6 +76,12 @@
         {
           "type": "p",
           "text": "Stadsbilden är som ett lager på lager: skyskrapor kring stationer, flerfamiljshus i bostadsområden, små butiker i gränder och gamla hus som har klarat sig. Titta efter vilka byggnader som hör ihop med vilken tid: efterkrigstidens betongblock, 1960-talets hyreshus (danchi, se kapitlet om familj), 1980-talets bubbelbyggen och nutidens glas och stål."
+        },
+        {
+          "type": "photo",
+          "slotId": "t09-k05-danchi",
+          "imageId": "hirado-danchi",
+          "brief": "Ett danchi, ett bostadsområde från efterkrigstiden, som exempel på en byggnadstyp från en viss tid."
         },
         {
           "type": "observe",

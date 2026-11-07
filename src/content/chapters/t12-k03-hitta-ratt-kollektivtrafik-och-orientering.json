@@ -20,27 +20,19 @@
   "sections": [
     {
       "id": "planerare",
-      "heading": "Reseplanerare och kartor",
+      "heading": "Planera, och läs stationen",
       "blocks": [
         {
           "type": "p",
           "text": "Använd en reseplanerare för kollektivtrafik. **Japan Travel by NAVITIME** och **Japan Transit Planner** (Jorudan) är vanliga val och har engelska gränssnitt, och Google Maps är bra för allmän navigering men behöver internet för kollektivtrafik, även om kartor kan laddas ned. Kontrollera plattform, tågtyp och avgångstid, och om byte krävs."
-        }
-      ]
-    },
-    {
-      "id": "station",
-      "heading": "Läsa en station",
-      "blocks": [
+        },
         {
           "type": "p",
           "text": "Stora stationer är som små städer. Titta på skyltarna: **linjefärger och nummer** (till exempel linjebokstav och stationsnummer), **perrongnummer**, **utgångsnummer** och namn på utgångar (se kapitlet om skyltar och menyer: 出口 är utgång och 北口 norra utgången). Ta god tid på dig, och gå hellre till sidan än att stanna mitt i flödet."
         },
         {
-          "type": "callout",
-          "tone": "info",
-          "title": "Marginal",
-          "text": "Räkna med minst tio extra minuter för att hitta i en stor station, och mer med bagage. Ha reservplan om du går fel."
+          "type": "p",
+          "text": "Räkna med minst tio extra minuter för att hitta i en stor station, och mer med bagage. Ha en reservplan om du går fel."
         }
       ]
     },
@@ -50,7 +42,20 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kom överens om en mötesplats och en tid innan ni skiljs åt, och spara reseledarens nummer. Om du kommer bort: stanna lugnt, kontakta gruppen, gå till en tydlig mötesplats (till exempel vid en särskild utgång) och fråga personal på stationen. Ett **koban** (polislåda) eller en polisstation kan också hjälpa dig med vägbeskrivning. Det här är allmänna råd som inte kunde bekräftas i våra sökningar, så följ gruppens egna rutiner."
+          "text": "Kom överens om en mötesplats och en tid innan ni skiljs åt, och spara reseledarens nummer. Om du ändå kommer bort kan du gå till väga så här:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Stanna lugnt och kontakta gruppen.",
+            "Gå till en tydlig mötesplats, till exempel vid en särskild utgång.",
+            "Fråga personal på stationen. Ett **koban** (polislåda) eller en polisstation kan också hjälpa dig med vägbeskrivning."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Det här är allmänna råd som inte kunde bekräftas i våra sökningar, så följ gruppens egna rutiner."
         },
         {
           "type": "observe",

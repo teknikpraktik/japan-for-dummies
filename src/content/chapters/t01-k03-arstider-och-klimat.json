@@ -93,7 +93,7 @@
         },
         {
           "type": "callout",
-          "tone": "care",
+          "tone": "check",
           "title": "Vid taifunvarning",
           "text": "Stanna inomhus om det är farligt ute, håll avstånd till kust och floder, och följ gruppens ledares anvisningar. Planera en reservdag eller en inomhusaktivitet."
         }

@@ -24,13 +24,23 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Mycket av tekniken du möter är enkel och vardaglig: **varuautomater** på gator, **biljettautomater** till tåg och restauranger (se kapitlet om skyltar och menyer), **kortläsare** och **kontaktlös betalning** på tåg och i butiker, och **toaletter** med knappar och standardiserade symboler (sedan 2017 i stort sett likadana på kontrollpanelen). Allt detta är vanligt, men inte allt är högteknologiskt."
+          "text": "Mycket av tekniken du möter är enkel och vardaglig, men inte alltid högteknologisk:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Varuautomater** på gator.",
+            "**Biljettautomater** till tåg och restauranger (se kapitlet om skyltar och menyer).",
+            "**Kortläsare** och **kontaktlös betalning** på tåg och i butiker.",
+            "**Toaletter** med knappar och standardiserade symboler, sedan 2017 i stort sett likadana på kontrollpanelen."
+          ]
         }
       ]
     },
     {
       "id": "robot",
-      "heading": "Industrirobotar och bilder i media",
+      "heading": "Robotar, rubriker och arbetskraftsbrist",
       "blocks": [
         {
           "type": "p",
@@ -39,22 +49,10 @@
         {
           "type": "p",
           "text": "Samtidigt är bilden av ”robotland” delvis marknadsföring och populärkultur. Människoliknande robotar som träffar kunder är ofta en demonstration eller ett försök, medan det vanliga är industrirobotar i fabriker, självbetjäning och enklare automation. Robotdensiteten varierar kraftigt beroende på hur den mäts, så var försiktig med jämförelser."
-        }
-      ]
-    },
-    {
-      "id": "varfor",
-      "heading": "Varför automation?",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "En viktig drivkraft är **brist på arbetskraft** i ett åldrande samhälle (se kapitlet om det åldrande samhället): färre i arbetsför ålder gör att företag söker sätt att göra mer med färre händer, till exempel genom automation, självbetjäning och robotar i vård och handel. Frågorna är många: vem ersätts, vilka jobb skapas, vilka uppgifter bör behållas av människor, och hur hanteras integritet och säkerhet?"
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Teknik är inte magi",
-          "text": "Teknik löser vissa problem och skapar andra. Fråga dig vem som tjänar på den, vem som betalar och vilka som kan välja bort den."
+          "type": "p",
+          "text": "En viktig drivkraft för automation är **brist på arbetskraft** i ett åldrande samhälle (se kapitlet om det åldrande samhället): färre i arbetsför ålder gör att företag söker sätt att göra mer med färre händer, till exempel genom automation, självbetjäning och robotar i vård och handel. Frågorna är många: vem ersätts, vilka jobb skapas, vilka uppgifter bör behållas av människor, och hur hanteras integritet och säkerhet? Teknik löser vissa problem och skapar andra, så fråga dig vem som tjänar på den, vem som betalar och vilka som kan välja bort den."
         }
       ]
     }

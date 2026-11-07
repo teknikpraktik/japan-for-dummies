@@ -50,3 +50,11 @@ Reglerna:
 Fotografier hanteras i bildregistret `src/content/images.json` och beskrivs i [IMAGE-LICENSES.md](IMAGE-LICENSES.md) och [IMAGE-PLAN.md](IMAGE-PLAN.md). Varje färdigt kapitel har en `hero` (öppningsbild) och `photo`-block (förklarande bilder); `imageId: null` betyder att bilden ännu inte är vald (reservyta). Lägg till bilder med `npm run images:add` efter rättighetskontroll (se IMAGE-LICENSES.md). `observe`-block är observationsuppgifter som alltid har en textuppgift.
 
 Egen grafik (kartan): endast lokala medier med kända rättigheter. Kartan är egen grafik ur Natural Earth-data. **Bekräfta Natural Earths villkor** (`natural-earth` i `sources.json` har `access: "not-checked"`). Lägg nya bilder i `public/media/`, registrera dem i `media.json` med alt-text, upphov och licens, och avstå om rättigheterna inte kan fastställas.
+
+## Redaktionella riktlinjer för kapitlens disposition
+
+- Kapitlets ram är fast och igenkännbar: ”Att fundera på”, ”Efter kapitlet kan du” (lärandemålen), huvudtexten, övningar, ”Lägg märke till på resan”, ”Reflektera”, test och källor.
+- **Huvudtexten styrs av innehållet.** Antalet avsnitt (två, tre, fyra eller fler), deras längd och form väljs efter vad eleven behöver förstå: sammanhängande förklaring, jämförelse (`facts`), förlopp (`timeline`), steg eller uppräkning (`list`), vardagssituation eller kort dialog, eller en bild med resonemang. Inför inte en form enbart för variationens skull, och fyll inte ut.
+- **Faktarutor (`callout`)** används sparsamt. `care` (”Visa hänsyn”) är endast för konkreta, ämnesrelevanta råd om beteende (till exempel avspärrningar och privata hem). Säkerhetsråd och sådant som ska kontrolleras använder `check`, kompletterande information `info`. Resonemang som hör till brödtexten ska stå där, inte i en avslutande ruta.
+- Bilder placeras där de hjälper förståelsen, ur det befintliga bildregistret (`npm run images:use`). Bildbehov som saknar passande bild redovisas, inte lösas med nya bilder utan rättighetskontroll.
+- Ändra inte kapitlets ID, adress eller `contentVersion` vid redaktionella omarbetningar som inte ändrar testets innehåll; då bevaras befintliga framsteg.

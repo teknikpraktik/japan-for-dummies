@@ -71,8 +71,8 @@
         {
           "type": "photo",
           "slotId": "t06-k01-skylt",
-          "imageId": null,
-          "brief": "Skylt om fotografering eller trängsel vid en plats som många besöker. Skyltens text måste kontrolleras."
+          "imageId": "kita-senju-perrong",
+          "brief": "Perrong med skyltar och markeringar för var man ställer sig, för att visa vägvisning i en station."
         },
         {
           "type": "observe",
@@ -111,10 +111,8 @@
           ]
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Se, men stör inte",
-          "text": "Områden som många besöker är också andras hem och arbetsplatser. Fråga dig: skulle jag vilja bli fotograferad så här i min vardag?"
+          "type": "p",
+          "text": "Områden som många besöker är också andras hem och arbetsplatser. Ett enkelt test är att fråga sig: skulle jag vilja bli fotograferad så här i min vardag?"
         }
       ]
     }

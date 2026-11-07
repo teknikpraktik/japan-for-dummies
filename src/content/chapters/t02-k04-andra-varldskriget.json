@@ -70,6 +70,12 @@
       "heading": "Civila offer och krigsförbrytelser",
       "blocks": [
         {
+          "type": "callout",
+          "tone": "info",
+          "title": "Ett allvarligt ämne",
+          "text": "Kapitlet beskriver övergrepp utan detaljer. Du kan ta pauser. Om ämnet väcker starka känslor: prata med någon eller hoppa till nästa avsnitt."
+        },
+        {
           "type": "p",
           "text": "Kriget drabbade civila hårt, i hela regionen. Japanska arméer begick övergrepp mot civila och krigsfångar. Ett av de mest kända exemplen är massakern i **Nanjing** i december 1937. Antalet offer är omtvistat: uppskattningarna skiljer sig mycket mellan kinesiska och japanska källor och mellan olika historiker, men att ett stort antal civila dödades betvivlas inte av någon seriös forskning."
         },
@@ -80,12 +86,6 @@
         {
           "type": "p",
           "text": "Efter kriget dömdes japanska ledare vid **Tokyorättegångarna** (1946–1948). Hur rättvisa dessa var, och vilka som inte åtalades, diskuteras fortfarande."
-        },
-        {
-          "type": "callout",
-          "tone": "care",
-          "title": "Ett allvarligt ämne",
-          "text": "Kapitlet beskriver övergrepp utan detaljer. Du kan ta pauser. Om ämnet väcker starka känslor: prata med någon eller hoppa till nästa avsnitt."
         }
       ]
     },

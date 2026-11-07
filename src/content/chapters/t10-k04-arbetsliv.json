@@ -34,7 +34,7 @@
     },
     {
       "id": "overarbete",
-      "heading": "Överarbete och karoshi",
+      "heading": "Överarbete, karoshi och reformen",
       "blocks": [
         {
           "type": "p",
@@ -42,7 +42,28 @@
         },
         {
           "type": "p",
-          "text": "**Arbetsstilsreformen** (2018, i kraft 2019 för större företag och senare för mindre) införde gränser för övertid: som utgångspunkt 45 timmar per månad och 360 timmar per år, med undantag för särskilda perioder (upp till 100 timmar en månad och 720 timmar per år). Reformen innehöll också principen om lika lön för lika arbete. Det har dock rapporterats att tillsynen över gränserna lättats 2026, vilket kritiker menar urholkar reformen, vilket gör läget oklart."
+          "text": "**Arbetsstilsreformen** (2018, i kraft 2019 för större företag och senare för mindre) syftade till att minska överarbetet:"
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Grundgräns för övertid",
+              "value": "45 timmar per månad och 360 timmar per år"
+            },
+            {
+              "label": "Undantag för särskilda perioder",
+              "value": "Upp till 100 timmar en månad och 720 timmar per år"
+            },
+            {
+              "label": "Princip",
+              "value": "Lika lön för lika arbete"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Det har dock rapporterats att tillsynen över gränserna lättats 2026, vilket kritiker menar urholkar reformen. Läget är därför oklart."
         }
       ]
     },
@@ -55,10 +76,8 @@
           "text": "Det är lätt att moralisera: ”japaner arbetar för mycket”. Men arbetsliv skiljer sig mellan branscher, storlek på företag och generationer, och många arbetar mycket lite eller deltid. Fråga i stället: vad vill människor själva, vad är bra och vad är svårt, och vad är på väg att förändras? Jämför med hur arbetslivet ser ut hemma, där också frågor om stress, tillfälliga jobb och lön finns."
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Generaliseringar",
-          "text": "Undvik att dra slutsatser om enskilda människor utifrån statistik. Lyssna på hur personer själva beskriver sitt arbete."
+          "type": "p",
+          "text": "Undvik också att dra slutsatser om enskilda människor utifrån statistik, och lyssna hellre på hur personer själva beskriver sitt arbete."
         }
       ]
     }

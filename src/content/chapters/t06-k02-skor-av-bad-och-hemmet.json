@@ -20,7 +20,7 @@
   "sections": [
     {
       "id": "skor",
-      "heading": "Skorna av vid genkan",
+      "heading": "Skorna av, tofflor på",
       "blocks": [
         {
           "type": "p",
@@ -29,22 +29,14 @@
         {
           "type": "p",
           "text": "Skälet är främst renlighet: man vill inte ha med gatans smuts in till golv där man sitter och sover. Golv med **tatami** (vävda halmmattor) är känsliga, så tofflor tas också av före tatamin: gå i strumpor eller barfota."
-        }
-      ]
-    },
-    {
-      "id": "toalett",
-      "heading": "Tofflor och toaletten",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Många hem har särskilda **toalettofflor** vid toalettdörren. Man byter till dem när man går in och tillbaka till vanliga tofflor när man går ut. Det vanligaste misstaget bland besökare är att glömma byta tillbaka. Observera vad värden gör, och fråga om du är osäker."
         },
         {
-          "type": "callout",
-          "tone": "info",
-          "title": "Om du är osäker",
-          "text": "Titta efter skor på rad, en hylla eller en upphöjd golvkant. Fråga ”Kutsu o nuide ii desu ka?” (”Kan jag ta av mig skorna?”) eller titta på vad andra gör. Rena strumpor utan hål är en bra idé när du reser."
+          "type": "p",
+          "text": "Många hem har dessutom särskilda **toalettofflor** vid toalettdörren. Man byter till dem när man går in och tillbaka till vanliga tofflor när man går ut. Det vanligaste misstaget bland besökare är att glömma byta tillbaka."
+        },
+        {
+          "type": "p",
+          "text": "Är du osäker: titta efter skor på rad, en hylla eller en upphöjd golvkant, och titta på vad värden gör. Du kan också fråga ”Kutsu o nuide ii desu ka?” (”Kan jag ta av mig skorna?”). Rena strumpor utan hål är en bra idé när du reser."
         }
       ]
     },
@@ -54,21 +46,31 @@
       "blocks": [
         {
           "type": "p",
-          "text": "**Onsen** (varma källor) och **sento** (offentliga badhus) har egna regler. De vanligaste: **tvätta dig noga före badet** vid duschplatserna, doppa inte handduken i badvattnet, simma inte och fotografera inte. Badet är för avkoppling, inte för tvätt."
+          "text": "**Onsen** (varma källor) och **sento** (offentliga badhus) har egna regler. Badet är till för avkoppling, inte för tvätt. De vanligaste reglerna:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Tvätta dig noga före badet vid duschplatserna.",
+            "Doppa inte handduken i badvattnet.",
+            "Simma inte.",
+            "Fotografera inte."
+          ]
         },
         {
           "type": "p",
           "text": "Många bad är uppdelade efter kön och man badar naken. Det är ovant för många besökare. Om det känns obehagligt finns oftast privata bad eller familjebad som kan bokas, och du behöver inte bada alls."
         },
         {
-          "type": "p",
-          "text": "**Tatueringar:** en undersökning från Japans turistmyndighet 2015 visade att drygt hälften av hotellen och värdshusen inte släppte in tatuerade i allmänna badutrymmen. Det finns ingen nationell regel: varje anläggning bestämmer, och en del tillåter tatueringar eller kräver att de täcks. Kolla reglerna i förväg (webbplats eller fråga personalen) och respektera svaret."
-        },
-        {
           "type": "photo",
           "slotId": "t06-k02-bad",
           "imageId": "sento-yamatoyu",
           "brief": "Byggnad som är eller har varit ett offentligt badhus (sento). Bildtexten ska förklara byggnadens användning."
+        },
+        {
+          "type": "p",
+          "text": "**Tatueringar:** en undersökning från Japans turistmyndighet 2015 visade att drygt hälften av hotellen och värdshusen inte släppte in tatuerade i allmänna badutrymmen. Det finns ingen nationell regel: varje anläggning bestämmer, och en del tillåter tatueringar eller kräver att de täcks. Kolla reglerna i förväg (webbplats eller fråga personalen) och respektera svaret."
         }
       ]
     }

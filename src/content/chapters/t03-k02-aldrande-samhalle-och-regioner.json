@@ -24,11 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Ett åldrande samhälle betyder att andelen äldre ökar medan andelen unga och personer i arbetsför ålder minskar. I Japan är det tydligt: andelen över 65 år nådde 2025 rekordhöga **29,4 procent**, den högsta bland länder med över 40 miljoner invånare. Samtidigt föds färre barn: preliminära siffror visar **705 809** födda 2025, tionde året i rad med minskning."
-        },
-        {
-          "type": "p",
-          "text": "Eftersom fler dör än föds minskar befolkningen sedan över femton år. Gruppen i arbetsför ålder (15–64 år) utgör ungefär 60 procent av befolkningen."
+          "text": "Ett åldrande samhälle betyder att andelen äldre ökar medan andelen unga och personer i arbetsför ålder minskar. Det beror på två saker som verkar samtidigt: det föds färre barn, och människor lever längre. I Japan är det tydligt: andelen över 65 år nådde 2025 rekordhöga **29,4 procent**, den högsta bland länder med över 40 miljoner invånare. Preliminära siffror visar **705 809** födda 2025, tionde året i rad med minskning."
         },
         {
           "type": "facts",
@@ -42,44 +38,63 @@
               "value": "705 809 (preliminärt, −2,1 % från 2024)"
             },
             {
-              "label": "Befolkning",
-              "value": "Minskar sedan flera år"
+              "label": "Arbetsför ålder (15–64 år)",
+              "value": "Cirka 60 procent av befolkningen"
             }
           ]
+        },
+        {
+          "type": "p",
+          "text": "Eftersom fler dör än föds har befolkningen minskat i över femton år. Förändringen är dock långsam: befolkningen är fortfarande över 120 miljoner."
         }
       ]
     },
     {
       "id": "regioner",
-      "heading": "Stad och landsbygd",
+      "heading": "Två vardagar: storstad och landsbygd",
       "blocks": [
         {
           "type": "p",
-          "text": "Befolkningsminskningen är inte jämnt fördelad. Enligt rapporter är Tokyo den enda prefektur som fortsatt växer, och koncentrationen till Tokyoområdet har inte minskat. Många små orter förlorar unga människor som flyttar för studier och arbete."
+          "text": "Minskningen drabbar inte alla platser lika. Enligt rapporter är Tokyo den enda prefektur som fortsatt växer, och koncentrationen till Tokyoområdet har inte minskat. Många små orter förlorar unga som flyttar för studier och arbete."
         },
         {
-          "type": "p",
-          "text": "På landsbygden kan det betyda färre barn i skolor, färre butiker och mindre kollektivtrafik, och att sjukhus och service ligger längre bort. Landet har också ungefär **9 miljoner tomma bostäder** (cirka 13,8 procent enligt en undersökning från 2023). Många av dem finns på landsbygden och kallas **akiya**."
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**I storstaden** finns många jobb, tät kollektivtrafik, sjukhus och butiker inom gångavstånd. Bostäder är små och dyra, och man bor ofta ensam.",
+            "**På landsbygden** kan det betyda färre barn i skolorna, stängda butiker, glesare tåg och längre till sjukhuset. Många hus står tomma: landet har ungefär **9 miljoner tomma bostäder** (cirka 13,8 procent enligt en undersökning från 2023), ofta kallade **akiya**."
+          ]
+        },
+        {
+          "type": "photo",
+          "slotId": "t03-k02-landsbygd",
+          "imageId": "hirado-risterrasser",
+          "brief": "Landsbygd i Japan, för att visa hur avstånd och landskap ser ut utanför storstäderna."
         }
       ]
     },
     {
       "id": "losningar",
-      "heading": "Vad görs, och vad är svårt?",
+      "heading": "Vad kan göra skillnad?",
       "blocks": [
         {
           "type": "p",
-          "text": "Det finns inga enkla lösningar. Diskussioner gäller bland annat stöd till familjer, att fler kan arbeta längre, ökad användning av teknik och robotar i vården, stöd till orter som vill locka nya invånare, och **invandring**: antalet utländska invånare nådde vid slutet av 2025 en rekordnivå på cirka 4,1 miljoner."
+          "text": "Det finns inga enkla lösningar, och alla förslag har för- och nackdelar. Diskussionerna gäller bland annat:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "stöd till barnfamiljer,",
+            "att fler kan arbeta längre,",
+            "teknik och robotar i vården (se kapitlet om robotar och vardagsteknik),",
+            "stöd till orter som vill locka nya invånare,",
+            "**invandring**: antalet utländska invånare nådde vid slutet av 2025 rekordnivån cirka 4,1 miljoner."
+          ]
         },
         {
           "type": "p",
-          "text": "Alla förslag har för- och nackdelar, och det råder oenighet om vad som fungerar bäst. Det som också är viktigt är att inte betrakta äldre bara som en ”börda”: många är aktiva, arbetar, ideellt eller med familj, och bidrar mycket."
-        },
-        {
-          "type": "callout",
-          "tone": "care",
-          "title": "Undvik förenklingar",
-          "text": "”Japan dör ut” är en sorglig rubrik men en förenkling. Befolkningen är fortfarande över 120 miljoner. Förändringen är långsam, ojämn och påverkar olika platser olika."
+          "text": "Äldre ska inte bara ses som en ”börda”. Många är aktiva, arbetar, engagerar sig ideellt eller tar hand om familj. Därför är rubriken ”Japan dör ut” också en förenkling: förändringen är långsam, ojämn och påverkar olika platser olika."
         }
       ]
     }

@@ -42,23 +42,34 @@
         },
         {
           "type": "p",
-          "text": "Det finns också **nya religioner** och rörelser som uppstod främst under 1800- och 1900-talen, och religionsfrihet garanteras av konstitutionen från 1947. Ämnet är känsligt för vissa: vissa grupper har varit omstridda, och det är bäst att inte dra slutsatser om enskilda människor."
-        },
-        {
-          "type": "callout",
-          "tone": "care",
-          "title": "Undvik enkla svar",
-          "text": "”Japanerna är inte religiösa” och ”japanerna är djupt andliga” är båda förenklingar. Verkligheten rymmer både och, och mycket däremellan."
+          "text": "Det finns också **nya religioner** och rörelser som uppstod främst under 1800- och 1900-talen, och religionsfrihet garanteras av konstitutionen från 1947. Ämnet är känsligt för vissa: vissa grupper har varit omstridda, och det är bäst att inte dra slutsatser om enskilda människor. ”Japanerna är inte religiösa” och ”japanerna är djupt andliga” är båda förenklingar: verkligheten rymmer både och, och mycket däremellan."
         }
       ]
     },
     {
       "id": "moten",
-      "heading": "Frågor du kan ställa",
+      "heading": "Samtal om tro och traditioner",
       "blocks": [
         {
           "type": "p",
-          "text": "Om du pratar med människor om religion: ställ öppna, vänliga frågor. Till exempel: ”Vad brukar din familj göra på nyår?” eller ”Vad betyder den här platsen för dig?”. Undvik frågor som ”Är du religiös?” som kan kännas laddade eller svåra att svara på. Låt personen själv bestämma hur mycket hen vill berätta, och dela gärna något från din egen bakgrund."
+          "text": "Om du pratar med människor om religion hjälper öppna, vänliga frågor. Låt personen själv bestämma hur mycket hen vill berätta, och dela gärna något från din egen bakgrund."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Kan kännas laddat",
+              "value": "”Är du religiös?”"
+            },
+            {
+              "label": "Öppnare",
+              "value": "”Vad brukar din familj göra på nyår?”"
+            },
+            {
+              "label": "Öppnare",
+              "value": "”Vad betyder den här platsen för dig?”"
+            }
+          ]
         }
       ]
     }

@@ -51,7 +51,7 @@
     },
     {
       "id": "olika",
-      "heading": "Erfarenheterna är olika",
+      "heading": "Bakom siffrorna",
       "blocks": [
         {
           "type": "p",
@@ -59,33 +59,27 @@
         },
         {
           "type": "p",
-          "text": "Att gruppen elever med lång frånvaro växer betyder inte att ”japanska ungdomar mår dåligt”. Forskare och myndigheter diskuterar orsakerna, och de är flera."
-        },
-        {
-          "type": "callout",
-          "tone": "care",
-          "title": "Varken bagatellisera eller dramatisera",
-          "text": "Undvik att dra slutsatser om enskilda personer eller om ”hela Japan”. Lyssna om någon vill berätta."
+          "text": "Att gruppen elever med lång frånvaro växer betyder inte att ”japanska ungdomar mår dåligt”. Forskare och myndigheter diskuterar orsakerna, och de är flera. Undvik att dra slutsatser om enskilda personer eller om ”hela Japan”, och lyssna om någon vill berätta: varken bagatellisera eller dramatisera."
         }
       ]
     },
     {
       "id": "stod",
-      "heading": "Stöd, hemma och på resa",
+      "heading": "Om det blir tungt, hemma och på resa",
       "blocks": [
         {
           "type": "p",
-          "text": "I Japan finns skolkuratorer, rådgivning och telefonlinjer, men tillgången varierar. För dig som reser: prata med en vuxen i gruppen om något känns tungt. Hemma finns till exempel skolkurator, elevhälsa och telefonlinjer."
+          "text": "I Japan finns skolkuratorer, rådgivning och telefonlinjer, men tillgången varierar. Hemma finns till exempel skolkurator, elevhälsa och telefonlinjer. Under en resa kan du tänka i följande ordning:"
         },
         {
-          "type": "p",
-          "text": "För engelskspråkigt stöd i Japan finns **TELL**, en frivilligorganisation som erbjuder anonymt stöd per telefon och chatt. Kontaktuppgifter och öppettider finns på telljp.com. Vid akut fara ringer du **110** (polis) eller **119** (ambulans och brand)."
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "title": "Planera i förväg",
-          "text": "Spara kontaktuppgifter till reseledare, ambassad och försäkringsbolag, och vet vem du kan prata med. Du behöver inte vänta tills det är akut."
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Prata med en vuxen i gruppen om något känns tungt. Du behöver inte vänta tills det är akut.",
+            "Spara kontaktuppgifter till reseledare, ambassad och försäkringsbolag i förväg.",
+            "För engelskspråkigt stöd i Japan finns **TELL**, en frivilligorganisation som erbjuder anonymt stöd per telefon och chatt. Kontaktuppgifter och öppettider finns på telljp.com.",
+            "Vid akut fara ringer du **110** (polis) eller **119** (ambulans och brand)."
+          ]
         }
       ]
     }

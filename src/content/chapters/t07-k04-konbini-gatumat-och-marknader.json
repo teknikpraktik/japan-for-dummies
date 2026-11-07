@@ -34,31 +34,25 @@
     },
     {
       "id": "gata",
-      "heading": "Gatumat och marknader",
+      "heading": "Gatumat, marknader och skräpet efteråt",
       "blocks": [
         {
           "type": "p",
           "text": "Gatumat finns på marknader, matgator och festivaler (**matsuri**), där man ofta köper mat vid små stånd. Typiska rätter är takoyaki, yakitori (grillspett), grillade riskakor och söta bakverk. Marknader som Tsukiji eller Nishiki säljer lokala varor och smakprov."
         },
         {
-          "type": "p",
-          "text": "På många platser förväntas man **äta vid ståndet eller i anslutning** och inte gå omkring med maten. Titta på hur andra gör: finns det bord, en skylt eller ett avgränsat område? Om ingen annan går omkring och äter är det ett tecken på att du bör stanna och äta på plats."
-        }
-      ]
-    },
-    {
-      "id": "skrap",
-      "heading": "Sopor och förpackningar",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Offentliga papperskorgar är sällsynta (se kapitlet om offentligt beteende), så ta gärna med dig skräpet. Många butiker och stånd har kärl för sortering vid sin ingång eller kassa, och där kan du ofta lämna förpackningen. Ha en liten påse med dig."
+          "type": "photo",
+          "slotId": "t07-k04-stand",
+          "imageId": "takoyaki-osaka",
+          "brief": "Ståndmat på en gata i Japan, för att visa hur man köper och äter på plats."
         },
         {
-          "type": "callout",
-          "tone": "info",
-          "title": "Praktiskt",
-          "text": "Det är normalt att säga **itadakimasu** före och **gochisōsama deshita** efter maten, även vid en snabb måltid."
+          "type": "p",
+          "text": "På många platser förväntas man **äta vid ståndet eller i anslutning** och inte gå omkring med maten. Titta på hur andra gör: finns det bord, en skylt eller ett avgränsat område? Om ingen annan går omkring och äter är det ett tecken på att du bör stanna och äta på plats."
+        },
+        {
+          "type": "p",
+          "text": "Offentliga papperskorgar är sällsynta (se kapitlet om offentligt beteende), så ta gärna med dig skräpet. Många butiker och stånd har kärl för sortering vid sin ingång eller kassa, och där kan du ofta lämna förpackningen. Ha en liten påse med dig. Det är normalt att säga **itadakimasu** före och **gochisōsama deshita** efter maten, även vid en snabb måltid."
         }
       ]
     }
