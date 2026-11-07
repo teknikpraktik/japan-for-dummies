@@ -1,0 +1,309 @@
+{
+  "id": "t10-k03",
+  "slug": "robotar-och-vardagsteknik",
+  "themeId": "teknik",
+  "order": 3,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Robotar, automation och vardagsteknik",
+  "summary": "Från automatiska toaletter till industrirobotar. Kapitlet går igenom vad som är vanligt och vad som är marknadsföring.",
+  "objectives": [
+    "Skilja på vardagsteknik och bild i media",
+    "Förstå varför automation används",
+    "Diskutera teknik och arbetskraftsbrist"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "En toalett med knappar och en automat som säljer allt från dryck till biljetter. Är det så framtiden ser ut i Japan, eller är det bara det som syns?"
+  },
+  "sections": [
+    {
+      "id": "vardag",
+      "heading": "Vardagsteknik du kommer att möta",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mycket av tekniken du möter är enkel och vardaglig: **varuautomater** på gator, **biljettautomater** till tåg och restauranger (se kapitlet om skyltar och menyer), **kortläsare** och **kontaktlös betalning** på tåg och i butiker, och **toaletter** med knappar och standardiserade symboler (sedan 2017 i stort sett likadana på kontrollpanelen). Allt detta är vanligt, men inte allt är högteknologiskt."
+        }
+      ]
+    },
+    {
+      "id": "robot",
+      "heading": "Industrirobotar och bilder i media",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan är världens ledande tillverkare av industrirobotar. Enligt International Federation of Robotics (IFR) står Japan för mellan ungefär 38 och 45 procent av global robotproduktion beroende på år och mått. Bilindustrin installerade omkring 13 000 industrirobotar 2024 (preliminärt), ungefär en fjärdedel av landets årliga installationer."
+        },
+        {
+          "type": "p",
+          "text": "Samtidigt är bilden av ”robotland” delvis marknadsföring och populärkultur. Människoliknande robotar som träffar kunder är ofta en demonstration eller ett försök, medan det vanliga är industrirobotar i fabriker, självbetjäning och enklare automation. Robotdensiteten varierar kraftigt beroende på hur den mäts, så var försiktig med jämförelser."
+        }
+      ]
+    },
+    {
+      "id": "varfor",
+      "heading": "Varför automation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "En viktig drivkraft är **brist på arbetskraft** i ett åldrande samhälle (se kapitlet om det åldrande samhället): färre i arbetsför ålder gör att företag söker sätt att göra mer med färre händer, till exempel genom automation, självbetjäning och robotar i vård och handel. Frågorna är många: vem ersätts, vilka jobb skapas, vilka uppgifter bör behållas av människor, och hur hanteras integritet och säkerhet?"
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Teknik är inte magi",
+          "text": "Teknik löser vissa problem och skapar andra. Fråga dig vem som tjänar på den, vem som betalar och vilka som kan välja bort den."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "auto",
+      "title": "Automater",
+      "prompt": "Vad är vanligt vid japanska gator och stationer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Varuautomater och biljettautomater.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Flygande bilar.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Inga automater.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "robot",
+      "title": "Robotar",
+      "prompt": "Vad är Japan känt för när det gäller robotar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att vara en av världens ledande tillverkare av industrirobotar.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Att inte tillverka några.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Att bara ha leksaksrobotar.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "marknad",
+      "title": "I media",
+      "situation": "Du ser en video där en robot hälsar gäster och en text: ”Så ser vardagen ut i Japan.”",
+      "question": "Hur resonerar du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det är troligen en demonstration. Det vanliga är enklare teknik och industrirobotar.",
+          "correct": true,
+          "feedback": "Bra."
+        },
+        {
+          "id": "b",
+          "text": "Så ser det ut överallt.",
+          "correct": false,
+          "feedback": "Förenkling."
+        },
+        {
+          "id": "c",
+          "text": "Allt är påhittat.",
+          "correct": false,
+          "feedback": "För kategoriskt."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilken teknik ser du i vardagen: automater, betalning, skyltar?",
+    "Vilken är sällsynt jämfört med vad media visar?",
+    "Hur används teknik för att hjälpa äldre?"
+  ],
+  "reflection": "Vilken teknik i ditt vardagsliv skulle en besökare tycka var märklig? Vad skulle du själv tycka var märklig i Japan?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad är en drivkraft för automation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Brist på arbetskraft",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "För många arbetare",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Förbud",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Slumpen",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Ungefär hur stor andel av global robotproduktion står Japan för enligt IFR?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Omkring 38–45 procent",
+          "correct": true,
+          "feedback": "Rätt, beroende på år och mått."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 1 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Cirka 90 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inget",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad är vanligast i vardagen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enkel teknik som automater och kortläsare",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Humanoida robotar överallt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Inga maskiner",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Flygande bilar",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är en bra princip när du bedömer teknik i media?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skilja demonstration från vardag.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Tro på allt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ignorera allt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara titta på bilder",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en fråga att ställa om teknik?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vem tjänar på den och vem betalar?",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Vad kostar internet?",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Vilken färg har den?",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Är den gammal?",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "businesswire-ifr-japan",
+    "therobotreport-japan-robots",
+    "japantoday-toilet-symbols"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Robotsiffrorna (13 000 installerade 2024, 38–45 procent av produktionen) är preliminära och varierar mellan källor. Robotdensitet anges inte eftersom källorna skiljer sig.",
+      "Beskrivningen av varuautomater, kontaktlös betalning och försök med människoliknande robotar är allmän bakgrund som sökningen inte täckte. Sökningen gav ingenting om arbetskraftsbrist, toaletter eller automater.",
+      "Resonemanget om teknik och arbetskraft är allmänt.",
+      "Bildtexten om varuautomaterna bygger på Commons-beskrivningen. Årtalet (2009 eller 2007) är osäkert."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t10-k03-hero",
+    "imageId": "varuautomater-tokyo",
+    "brief": "Vardagsteknik i Japan, till exempel varuautomater."
+  }
+}

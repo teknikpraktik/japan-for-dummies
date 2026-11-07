@@ -1,0 +1,324 @@
+{
+  "id": "t10-k01",
+  "slug": "shinkansen-och-landet-i-rorelse",
+  "themeId": "teknik",
+  "order": 1,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Shinkansen och ett land i rörelse",
+  "summary": "Höghastighetståg, punktlighet och rutiner. Kapitlet förklarar hur järnvägen organiseras och hur du kan planera resor.",
+  "objectives": [
+    "Förklara hur shinkansen byggdes ut",
+    "Förstå hur biljetter och platser fungerar",
+    "Planera en sträcka med osäkerhet och marginal"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Ett tåg som är en minut sent räknas som försenat. Hur kan en hel järnväg hålla en så noggrann tidtabell, och vad händer när något ändå går fel?"
+  },
+  "sections": [
+    {
+      "id": "historia",
+      "heading": "Från 1964 till nätet idag",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Shinkansen** (”ny stamlinje”) är Japans höghastighetståg. Den första linjen, **Tokaido-shinkansen** mellan Tokyo och Osaka, öppnades 1964, i samband med olympiska spelen i Tokyo (se kapitlet om efterkrigstiden). Sedan dess har nätet byggts ut till stora delar av landet, med nya linjer norrut och söderut. Tågen har egna spår, till skillnad från vanliga tåg, vilket bidrar till hastigheten och punktligheten."
+        }
+      ]
+    },
+    {
+      "id": "punkt",
+      "heading": "Punktlighet och rutiner",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japanska tåg är kända för sin punktlighet. Enligt en sammanfattning var Tokaido-shinkansens genomsnittliga försening bara cirka 36 sekunder räkenskapsåret 2008. Senare siffror ligger enligt olika källor på någon minut per tåg (kring 1,4–1,6 minuter, inklusive väderstörningar). Ett tåg räknas som försenat först om det är mer än en minut efter tidtabellen. Siffrorna varierar mellan källor och år."
+        },
+        {
+          "type": "p",
+          "text": "Punktligheten bygger på rutiner: tränad personal, noggranna kontroller, tydliga arbetsrutiner och att passagerare bidrar genom att köa vid markerade platser och stiga på och av snabbt. Ändå finns störningar: jordbävningar, taifuner, snö och olyckor kan stoppa eller försena tåg, och då kan det bli långa köer på stationerna."
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "heading": "Biljetter och att planera med marginal",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "På många shinkansenlinjer finns **platsbokade** och **icke platsbokade** vagnar, och biljetter består oftast av en grundbiljett och en snabbtågsavgift. Du kan köpa dem vid biljettautomater, vid biljettkontor eller via appar, och om du har ett resepass (se kapitlet om stationer) gäller särskilda regler. Följ alltid aktuella regler på JR:s webbplatser."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Planera med marginal",
+          "text": "Räkna med att något kan avvika: lägg in extra tid mellan byten, ha en plan B för en dag med taifunvarning och kontrollera trafikinformation samma morgon. Punktligheten gäller tågen, men din resa innehåller också promenader, köer och byten."
+        },
+        {
+          "type": "observe",
+          "title": "Läs ett tågschema",
+          "prompt": "Använd ett schema från en station eller textalternativet nedan.",
+          "steps": [
+            "Vilka tåg stannar var, och vad skiljer dem åt?",
+            "Hur mycket tid finns mellan två byten?",
+            "Vilken plan B har du om ett tåg är försenat?",
+            "Vad säger skyltarna om platser och vagnar?"
+          ],
+          "textAlternative": "Utan bild: planera en tänkt resa mellan två städer. Skriv ner avgångstid, byte och en plan B om bytet missas.",
+          "imageSlotIds": [
+            "t10-k01-hero"
+          ]
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "year",
+      "title": "Shinkansen",
+      "prompt": "När öppnades den första shinkansenlinjen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1964",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "1868",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "2000",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "forsenad",
+      "title": "Försenat",
+      "prompt": "Vad räknas som försenat enligt kapitlet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mer än en minut efter tidtabellen",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Mer än en timme",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Minst en dag",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "marginal",
+      "title": "Planering",
+      "situation": "Du ska åka shinkansen och ha ett byte på tre minuter före ett flyg.",
+      "question": "Vad är klokast?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lägga in mer marginal och en plan B.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Lita på att allt går i sekund.",
+          "correct": false,
+          "feedback": "Det kan gå fel."
+        },
+        {
+          "id": "c",
+          "text": "Hoppa över bytet.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur köar och bordar människor vid perrongen?",
+    "Vilka skyltar och tidtabeller finns på stationerna?",
+    "Hur hanterar rutinerna störningar?"
+  ],
+  "reflection": "Vad skulle hända med din vardag om dina tåg var punktliga till sekunden? Hur skulle du planera?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad betyder shinkansen ungefär?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ny stamlinje",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Snabb vind",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Röd port",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Stor båt",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vilken sträcka var först?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tokyo–Osaka (Tokaido)",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Sapporo–Naha",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Kyoto–Nara",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Hiroshima–Kobe",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad bidrar till punktligheten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Egna spår, rutiner och personal",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Slump",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Inga passagerare",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Aldrig något väder",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad kan störa tågen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jordbävningar, taifuner och snö",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Inget",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara sommaren",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara fotboll",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad bör du göra när du planerar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lägga in marginal och en plan B",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Planera varje minut",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Hoppa över bokning",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Gissa",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "jrailpass-punctuality",
+    "nst-shinkansen-staff"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Årtalet 1964 och att den första linjen var Tokyo–Osaka är allmän kunskap som sökningen inte täckte, men det nämns också i kapitlet om efterkrigstiden.",
+      "Punktlighetssiffrorna varierar mellan källor och år och bygger på en resesida och en nyhetsartikel.",
+      "Beskrivningen av biljettsystem (platsbokade, snabbtågsavgift, resepass) är allmän bakgrund. Regler ändras: kontrollera hos JR.",
+      "Kapitlet bör kompletteras med JR Centrals egna uppgifter.",
+      "Bildtexten om N700 och blomfältet (renge) bygger på Commons-beskrivningen."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t10-k01-hero",
+    "imageId": "shinkansen-fuji",
+    "brief": "Shinkansen eller en station i Japan."
+  }
+}

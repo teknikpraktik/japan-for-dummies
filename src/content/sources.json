@@ -1018,5 +1018,105 @@
     "checkedOn": "2026-11-07",
     "access": "search-result-summary",
     "supports": "Att små tomter och smala gator är vanliga, delvis på grund av regler och hur mark delats upp. Personlig blogg."
+  },
+  {
+    "id": "jrailpass-punctuality",
+    "title": "How and why Japanese trains are so punctual",
+    "publisher": "JRailPass blog",
+    "url": "https://www.jrailpass.com/blog/japan-train-punctuality",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Tokaido-shinkansens genomsnittliga försening är mycket liten (under ett par minuter per tåg) och att ett tåg räknas som försenat först efter mer än en minut. Siffrorna varierar mellan källor."
+  },
+  {
+    "id": "nst-shinkansen-staff",
+    "title": "Shinkansen's impeccable safety and punctuality record is due to its trained and dedicated staff",
+    "publisher": "New Straits Times",
+    "url": "https://www.nst.com.my/amp/news/2017/03/220098/shinkansens-movers-are-its-dedicated-manpower",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Tokaido-shinkansens genomsnittliga försening var några tiotal sekunder (36 sekunder räkenskapsåret 2008)."
+  },
+  {
+    "id": "lean-tps",
+    "title": "Toyota Production System",
+    "publisher": "Lean Enterprise Institute",
+    "url": "https://www.lean.org/lexicon-terms/toyota-production-system/",
+    "kind": "institution",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Toyotas produktionssystem: just-in-time och jidoka som grundpelare."
+  },
+  {
+    "id": "rework-tps-history",
+    "title": "The History of the Toyota Production System and Lean",
+    "publisher": "Rework",
+    "url": "https://resources.rework.com/libraries/history-of-management/history-of-toyota-production-system-lean",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Toyotas rötter finns i Sakichi Toyodas vävstolar (jidoka: stoppa maskinen vid fel), att just-in-time utvecklades av Kiichiro Toyoda och Taiichi Ohno och att uppgifterna om årtal varierar."
+  },
+  {
+    "id": "businesswire-ifr-japan",
+    "title": "Japan's Car Industry Has Highest Robot Installations in Five Years",
+    "publisher": "IFR (Business Wire)",
+    "url": "https://www.businesswire.com/news/home/20250714601866/en/Japans-Car-Industry-Has-Highest-Robot-Installations-in-Five-Years",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Japans bilindustri installerade omkring 13 000 industrirobotar 2024 (preliminärt) och att biltillverkare står för ungefär en fjärdedel av årliga installationer."
+  },
+  {
+    "id": "therobotreport-japan-robots",
+    "title": "IFR: Japan is world's top industrial robotics manufacturer",
+    "publisher": "The Robot Report",
+    "url": "https://www.therobotreport.com/ifr-japan-is-worlds-top-industrial-robotics-manufacturer/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Japan är världens ledande tillverkare av industrirobotar, med en andel som uppges olika (omkring 38–45 procent) beroende på år och mått."
+  },
+  {
+    "id": "proskauer-overtime",
+    "title": "Japan's labor reform caps overtime in a bid to curb karoshi",
+    "publisher": "Proskauer",
+    "url": "https://www.proskauer.com/blog/japans-labor-reform-caps-overtime-in-a-bid-to-curb-karoshi",
+    "kind": "institution",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Japans arbetsreform 2018–19 införde övertidsgränser (grundgräns 45 timmar per månad och 360 per år) för att motverka karoshi (död av överarbete) och lika lön för lika arbete."
+  },
+  {
+    "id": "scmp-overtime-relax",
+    "title": "Japan relaxes overtime rules",
+    "publisher": "South China Morning Post",
+    "url": "https://www.scmp.com/news/asia/east-asia/article/3365948/japan-relaxes-overtime-rules-under-workaholic-takaichi-unacceptable-shift",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att det 2026 rapporterades att tillsynen över övertidsriktlinjer lättats, vilket kritiker menar undergräver reformen. Rapporterat som en ändring av tillsyn, inte lag."
+  },
+  {
+    "id": "mfat-japan-economic-update",
+    "title": "Japan Economic Update October 2026",
+    "publisher": "New Zealand Ministry of Foreign Affairs and Trade",
+    "url": "https://www.mfat.govt.nz/assets/Trade-General/Trade-Market-reports/Japan-Economic-Update-October-2026.pdf",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Aktuell ekonomisk lägesbild för Japan (BNP-prognos m.m.). Sammanfattning ur sökresultat."
+  },
+  {
+    "id": "dir-weak-yen",
+    "title": "Weak yen analysis (July 2026)",
+    "publisher": "Daiwa Institute of Research",
+    "url": "https://www.dir.co.jp/english/research/report/analysis/20260710_025894.pdf",
+    "kind": "institution",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att yenen i mitten av 2026 var mycket svag mot dollarn och att effekterna på ekonomin är ojämnt fördelade. Sammanfattning ur sökresultat."
   }
 ]

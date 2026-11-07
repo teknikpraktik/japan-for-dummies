@@ -2902,7 +2902,8 @@
     "peopleNote": "En person i silhuett till vänster i originalet är bortbeskuren; på torget syns bara små, oidentifierbara figurer på långt håll.",
     "usedIn": [
       "t02-k02",
-      "t01-k04"
+      "t01-k04",
+      "t10-k04"
     ]
   },
   {
@@ -2978,7 +2979,8 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t03-k02",
-      "t09-k05"
+      "t09-k05",
+      "t10-k05"
     ]
   },
   {
@@ -3054,6 +3056,81 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t02-k05"
+    ]
+  },
+  {
+    "id": "shinkansen-fuji",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/shinkansen-fuji/shinkansen-fuji-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 37736,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/shinkansen-fuji/shinkansen-fuji-960.webp",
+        "width": 960,
+        "height": 641,
+        "bytes": 174606,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/shinkansen-fuji/shinkansen-fuji-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 44214,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/shinkansen-fuji/shinkansen-fuji-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 134130,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.45,
+      "y": 0.55
+    },
+    "creator": "くろふね",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AF%8C%E5%A3%AB%E5%B1%B1%E3%81%A8%E3%83%AC%E3%83%B3%E3%82%B2%E3%82%BD%E3%82%A6%E3%81%A8%E6%9D%B1%E6%B5%B7%E9%81%93%E6%96%B0%E5%B9%B9%E7%B7%9A20240428-IMG_1210.jpg",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 4.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: くろふね, CC BY 4.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Shizuoka prefektur (Tokaido-shinkansen)",
+      "verifiedBy": "Commons-filsidans kategorier (Flowers in Shizuoka prefecture; Shinkansen N700 on Tōkaidō Shinkansen)"
+    },
+    "year": {
+      "value": "2024",
+      "verifiedBy": "Commons-filsidans datumfält (28 april 2024)"
+    },
+    "caption": "Ett tåg av typen N700 på Tokaido-shinkansen passerar ett rosa blomfält (renge, Astragalus sinicus) med berget Fuji i bakgrunden, Shizuoka prefektur, april 2024.",
+    "alt": "Ett vitt shinkansentåg på en bro eller bank i fjärran bakom ett rosa blomfält, med ett snöfläckigt berg och moln bakom.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t10-k01"
     ]
   },
   {
@@ -3476,6 +3553,81 @@
     ]
   },
   {
+    "id": "tioyen-mynt",
+    "kind": "object-photo",
+    "variants": [
+      {
+        "path": "/images/tioyen-mynt/tioyen-mynt-480.webp",
+        "width": 480,
+        "height": 246,
+        "bytes": 16434,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tioyen-mynt/tioyen-mynt-960.webp",
+        "width": 960,
+        "height": 493,
+        "bytes": 53562,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tioyen-mynt/tioyen-mynt-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 24936,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/tioyen-mynt/tioyen-mynt-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 54740,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "AKS.9955",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:10_Yen_(Japan).jpg",
+    "license": {
+      "name": "Public domain (fotografens egen dedikation; japanska mynt är undantagna från upphovsrätt)",
+      "url": "https://commons.wikimedia.org/wiki/File:10_Yen_(Japan).jpg#Licensing"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) anger licensen Public domain för fotografiet (egen fotografi) och kategorin PD-Japan-exempt för mynt och sedlar. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Japan",
+      "verifiedBy": "Commons-filsidans beskrivning (Country: Japan)"
+    },
+    "year": {
+      "value": "2016",
+      "verifiedBy": "Commons-filsidans datumfält (10 oktober 2016)"
+    },
+    "caption": "Ett japanskt 10-yensmynt av brons, sett från båda sidor. Framsidan visar Byōdō-ins Fönixhall och baksidan värdet. Yen är Japans valuta.",
+    "alt": "Två brunröda runda mynt bredvid varandra mot ljus bakgrund: det vänstra med en byggnad och japansk text, det högra med siffran 10 omgiven av löv.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t10-k05"
+    ]
+  },
+  {
     "id": "todaiji-buddhahallen",
     "kind": "contemporary-photo",
     "variants": [
@@ -3622,7 +3774,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t02-k03"
+      "t02-k03",
+      "t10-k02"
     ]
   },
   {
@@ -3841,6 +3994,81 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t03-k01"
+    ]
+  },
+  {
+    "id": "varuautomater-tokyo",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/varuautomater-tokyo/varuautomater-tokyo-480.webp",
+        "width": 480,
+        "height": 321,
+        "bytes": 37520,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/varuautomater-tokyo/varuautomater-tokyo-960.webp",
+        "width": 960,
+        "height": 641,
+        "bytes": 141112,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/varuautomater-tokyo/varuautomater-tokyo-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 42286,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/varuautomater-tokyo/varuautomater-tokyo-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 111984,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.65,
+      "y": 0.5
+    },
+    "creator": "Kojach",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vending_Machines_III_(4042424351).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Kojach, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Tokyo",
+      "verifiedBy": "Commons-filsidans kategorier (Coca-Cola vending machines in Japan; October 2007 in Tokyo; Shibuya)"
+    },
+    "year": {
+      "value": "2009",
+      "verifiedBy": "Commons-filsidans datumfält (25 oktober 2009; kategorin anger 2007, så årtalet är osäkert)"
+    },
+    "caption": "Rad av varuautomater för dryck längs en gata i Tokyo. Automater är vanliga i hela Japan.",
+    "alt": "Gata med asfalt och en rad dryckesautomater från Pepsi, Coca-Cola och Kirin på högra sidan, och höga byggnader längre bort.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns tydligt.",
+    "usedIn": [
+      "t10-k03"
     ]
   },
   {
