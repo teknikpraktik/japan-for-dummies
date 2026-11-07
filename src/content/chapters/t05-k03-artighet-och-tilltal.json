@@ -314,7 +314,7 @@
   },
   "hero": {
     "slotId": "t05-k03-hero",
-    "imageId": null,
+    "imageId": "bugning-meijiskrinet",
     "brief": "Hälsning eller presentation, till exempel ett namnkort eller en skylt."
   }
 }

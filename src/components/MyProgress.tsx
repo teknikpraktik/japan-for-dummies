@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import { chapterPath, themePath } from "@/lib/chapters";
-import { chapterStatus, suggestNext, themeProgress } from "@/lib/progress";
+import { chapterStatus, themeProgress } from "@/lib/progress";
 import { useProgress } from "@/lib/store";
 import { StatusBadge } from "./ChapterClient";
-import type { ChapterLite } from "./StartCta";
+import type { ChapterLite } from "@/lib/chapter-lite";
 
 export interface ThemeLite {
   id: string;
@@ -21,9 +21,6 @@ export function MyProgress({ chapters, themes }: { chapters: ChapterLite[]; them
   const published = chapters.filter((c) => c.status === "published");
   const done = published.filter((c) => chapterStatus(state, c.id) === "completed").length;
   const pct = published.length ? Math.round((done / published.length) * 100) : 0;
-  const next = suggestNext(state, chapters) as ChapterLite | undefined;
-  const hasProgress = Object.keys(state.chapters).length > 0;
-  const inProgress = next ? chapterStatus(state, next.id) === "in-progress" : false;
   const tp = new Map(themeProgress(state, chapters).map((t) => [t.themeId, t]));
   const rows = themes.filter((t) => (tp.get(t.id)?.published ?? 0) > 0);
   const results = published.filter((c) => state.chapters[c.id]?.best);
@@ -37,35 +34,6 @@ export function MyProgress({ chapters, themes }: { chapters: ChapterLite[]; them
         <div className="progress-track" role="progressbar" aria-label="Klara kapitel" aria-valuemin={0} aria-valuemax={published.length} aria-valuenow={done} aria-valuetext={`${done} av ${published.length} klara`}>
           <div className="progress-fill" style={{ width: `${pct}%` }} />
         </div>
-      </section>
-
-      <section aria-labelledby="nasta" className="card flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between" data-testid="next-step">
-        {next ? (
-          <>
-            <div>
-              <h2 id="nasta" className="!text-base font-semibold text-ink-soft">
-                {inProgress ? "Du är mitt i" : hasProgress ? "Nästa kapitel" : "Börja här"}
-              </h2>
-              <p className="text-lg font-semibold" style={{ color: "var(--color-indigo-dark)" }}>
-                {next.title}
-              </p>
-              {next.minutes ? <p className="text-sm text-ink-soft">Cirka {next.minutes} min</p> : null}
-            </div>
-            <Link className="btn btn-primary self-start sm:self-center" href={chapterPath(next)} data-testid="continue">
-              {hasProgress ? "Fortsätt" : "Börja utbildningen"}
-            </Link>
-          </>
-        ) : (
-          <>
-            <div>
-              <h2 id="nasta" className="!text-base font-semibold text-ink-soft">Alla klara</h2>
-              <p>Du har klarat alla tillgängliga kapitel. Fler kommer senare.</p>
-            </div>
-            <Link className="btn self-start sm:self-center" href="/utbildning/" data-testid="see-all">
-              Se alla teman
-            </Link>
-          </>
-        )}
       </section>
 
       <section aria-labelledby="teman" className="space-y-2">

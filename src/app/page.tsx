@@ -1,13 +1,11 @@
 import { getContent } from "@/lib/content";
 import { StartCredit, StartHero } from "@/components/StartHeroServer";
 import { themePath } from "@/lib/chapters";
-import { StartCta, type ChapterLite } from "@/components/StartCta";
 import { ThemeCards } from "@/components/ThemeCards";
 import { LocalNotice } from "@/components/LocalNotice";
 
 export default function Home() {
   const { chapters, themes } = getContent();
-  const lite: ChapterLite[] = chapters.map((c) => ({ id: c.id, slug: c.slug, themeId: c.themeId, status: c.status, title: c.title }));
   const refs = chapters.map((c) => ({ id: c.id, themeId: c.themeId, status: c.status }));
   const cards = themes.slice().sort((a, b) => a.order - b.order).map((t) => ({ id: t.id, order: t.order, title: t.title, href: themePath(t.id) }));
 
@@ -19,7 +17,6 @@ export default function Home() {
           <p className="prose-col text-lg">
             En kurs i korta kapitel som ger dig en grund att stå på: landet och naturen, historia, vardag, språk, hänsyn och mat. Du läser, övar och gör ett kort test, i din egen takt på mobil, surfplatta eller dator.
           </p>
-          <StartCta chapters={lite} firstThemeId={cards[0].id} />
         </div>
         <StartHero />
       </section>

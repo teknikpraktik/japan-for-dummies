@@ -76,6 +76,80 @@
     ]
   },
   {
+    "id": "atervinningskarl-matvarubutik",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/atervinningskarl-matvarubutik/atervinningskarl-matvarubutik-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 18686,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/atervinningskarl-matvarubutik/atervinningskarl-matvarubutik-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 62370,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/atervinningskarl-matvarubutik/atervinningskarl-matvarubutik-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 18686,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/atervinningskarl-matvarubutik/atervinningskarl-matvarubutik-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 45610,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.55
+    },
+    "creator": "Syced",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Recycling_bins_in_a_Japanese_supermarket-_caps,_juiceboxes,_styrofoam_trays.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan, licensmallen och metadata via Commons API); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Zero (egen bild av upphovspersonen). CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo är tillåtna utan krav på kreditering. Fotografen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Japan (matvarubutik)",
+      "verifiedBy": "Commons-filsidans titel och kategori Recycling in Japan"
+    },
+    "year": {
+      "value": "2021",
+      "verifiedBy": "Commons-filsidans datum enligt Exif (5 april 2021)"
+    },
+    "caption": "Sorteringskärl i en japansk matvarubutik: en behållare för pappförpackningar, en för plastbrickor och en för PET-flaskors kapsyler.",
+    "alt": "Tre sorteringskärl bredvid varandra vid en butiksdörr: ett för kapsyler, ett för pappförpackningar och ett med plastbrickor, alla med japansk text.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata borttagen. Ingen färgjustering.",
+    "usedIn": [
+      "t11-k03"
+    ]
+  },
+  {
     "id": "bishamondo-hostlov",
     "kind": "contemporary-photo",
     "variants": [
@@ -221,6 +295,81 @@
     "usedIn": [
       "t08-k04",
       "home"
+    ]
+  },
+  {
+    "id": "bugning-meijiskrinet",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/bugning-meijiskrinet/bugning-meijiskrinet-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 23204,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/bugning-meijiskrinet/bugning-meijiskrinet-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 70734,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/bugning-meijiskrinet/bugning-meijiskrinet-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 23826,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/bugning-meijiskrinet/bugning-meijiskrinet-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 54942,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.55,
+      "y": 0.45
+    },
+    "creator": "Maya-Anaïs Yataghène",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japan_-_Tokyo_(9980668875).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan, licensmallen och metadata via Commons API); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) har licensmallen cc-by-2.0 och en granskad Flickr-licenstagg (FlickreviewR, godkänd 2015). CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor.",
+    "requiredCredit": "Foto: Maya-Anaïs Yataghène, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Meijiskrinet, Tokyo",
+      "verifiedBy": "Commons-kategorin Wedding ceremonies at Meiji Shrine och koordinaterna på filsidan"
+    },
+    "year": {
+      "value": "2012",
+      "verifiedBy": "Commons-filsidans datumfält (16 november 2012)"
+    },
+    "caption": "Två personer i traditionella kläder bugar mot varandra vid Meijiskrinet i Tokyo. Bugningen är en vanlig hälsning och en del av ceremonier.",
+    "alt": "Två personer bugar mot varandra på en stenlagd plats: en man i svart haori och randig hakama och en kvinna i ljus kimono. I bakgrunden syns besökare och en skylt.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata borttagen. Ingen färgjustering.",
+    "peopleNote": "Fotografiet visar människor vid en offentlig plats, bland dem två personer i förgrunden vid en ceremoni. Bilden används som illustration av bugning och inte för att peka ut någon.",
+    "usedIn": [
+      "t05-k03"
     ]
   },
   {
