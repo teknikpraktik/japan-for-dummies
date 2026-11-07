@@ -284,5 +284,7 @@ export type Photo = z.infer<typeof photoSchema>;
 export const homeSchema = z.object({
   /** Startsidans öppningsbild. */
   hero: z.object({ slotId: id, imageId: id.nullable(), brief: text }),
+  /** Bilder (ID i bildregistret) som kan slumpas fram som introduktionsbild. hero.imageId är reservbild och ska ingå. Tom lista = ingen slumpning (bara reservbilden eller en reservyta). */
+  startImages: z.array(id).max(40),
 });
 export type Home = z.infer<typeof homeSchema>;

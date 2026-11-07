@@ -143,6 +143,19 @@ export function validateContent(raw: RawContent, files?: FileAccess): { errors: 
     for (const sec of c.sections) for (const b of sec.blocks) if (b.type === "photo") slots.push({ slotId: b.slotId, imageId: b.imageId, owner: c.id });
   }
   for (const d of dupes(slots.map((s) => s.slotId))) errors.push(`Dubbelt bildplats-ID: ${d}`);
+  // Startsidans slumpade introduktionsbild: kandidaterna måste finnas, vara riktiga fotografier med bildtext och listas i usedIn.
+  const pool = home.data.startImages;
+  for (const d of dupes(pool)) errors.push(`Startbildspoolen innehåller ${d} flera gånger`);
+  for (const pid of pool) {
+    const p = photos.data.find((x) => x.id === pid);
+    if (!p) errors.push(`Startbildspoolen: okänd bild ${pid}`);
+    else {
+      if (p.decorative) errors.push(`Startbildspoolen: ${pid} är dekorativ och saknar alt-text`);
+      if (!p.usedIn.includes("home")) errors.push(`Bild ${pid} ingår i startbildspoolen men saknar home i usedIn`);
+      if (!p.variants.some((v) => v.crop === "default" && v.format === "webp")) errors.push(`Startbildspoolen: ${pid} saknar webp-variant i standardbeskärning`);
+    }
+  }
+  if (pool.length > 0 && home.data.hero.imageId && !pool.includes(home.data.hero.imageId)) errors.push("home.hero.imageId (reservbilden) måste ingå i startImages");
   const slotIds = new Set(slots.map((s) => s.slotId));
   const owners = new Set([...chapters.map((c) => c.id), "home"]);
   for (const c of chapters) {
@@ -161,7 +174,7 @@ export function validateContent(raw: RawContent, files?: FileAccess): { errors: 
   for (const p of photos.data) {
     for (const u of p.usedIn) {
       if (!owners.has(u)) errors.push(`Bild ${p.id}: usedIn hänvisar till okänd plats ${u}`);
-      else if (!slots.some((s) => s.owner === u && s.imageId === p.id)) errors.push(`Bild ${p.id}: står som använd i ${u} men används inte där`);
+      else if (!slots.some((s) => s.owner === u && s.imageId === p.id) && !(u === "home" && home.data.startImages.includes(p.id))) errors.push(`Bild ${p.id}: står som använd i ${u} men används inte där`);
     }
     for (const v of p.variants) {
       if (files) {

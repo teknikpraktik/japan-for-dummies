@@ -1,12 +1,12 @@
 import { getContent } from "@/lib/content";
-import { PhotoRights, PhotoSlot, photosFor } from "@/components/Photo";
+import { StartCredit, StartHero } from "@/components/StartHeroServer";
 import { themePath } from "@/lib/chapters";
 import { StartCta, type ChapterLite } from "@/components/StartCta";
 import { ThemeCards } from "@/components/ThemeCards";
 import { LocalNotice } from "@/components/LocalNotice";
 
 export default function Home() {
-  const { chapters, themes, home } = getContent();
+  const { chapters, themes } = getContent();
   const lite: ChapterLite[] = chapters.map((c) => ({ id: c.id, slug: c.slug, themeId: c.themeId, status: c.status, title: c.title }));
   const refs = chapters.map((c) => ({ id: c.id, themeId: c.themeId, status: c.status }));
   const cards = themes.slice().sort((a, b) => a.order - b.order).map((t) => ({ id: t.id, order: t.order, title: t.title, href: themePath(t.id) }));
@@ -21,7 +21,7 @@ export default function Home() {
           </p>
           <StartCta chapters={lite} firstThemeId={cards[0].id} />
         </div>
-        <PhotoSlot role="card" slotId={home.hero.slotId} imageId={home.hero.imageId} brief={home.hero.brief} />
+        <StartHero />
       </section>
 
       <section aria-labelledby="sa-funkar" className="space-y-3">
@@ -51,7 +51,7 @@ export default function Home() {
         <LocalNotice />
       </section>
 
-      <PhotoRights photos={photosFor([home.hero.imageId])} />
+      <StartCredit />
     </div>
   );
 }
