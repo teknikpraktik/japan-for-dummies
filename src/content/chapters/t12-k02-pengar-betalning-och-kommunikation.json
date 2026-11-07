@@ -6,7 +6,7 @@
   "status": "published",
   "contentVersion": 1,
   "title": "Pengar, betalning och kommunikation",
-  "summary": "Kontanter, kort och betalkort, mobildata och mobiltelefon. Kapitlet visar hur betalning kan se ut och vad som kan variera.",
+  "summary": "Kontanter och kort, mobildata och mobiltelefon. Kapitlet visar hur betalning kan se ut och vad som kan variera.",
   "objectives": [
     "Planera betalning med flera alternativ",
     "Förstå hur mobildata och Wi-Fi ordnas",
@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kombinera flera sätt att betala. Stora hotell, varuhus och kedjor tar oftast kort, men många små restauranger, tempel och butiker på landsbygden tar bara **kontanter**. Ta därför med både ett kort utan eller med låga utlandsavgifter och en del yen. Kortbolag tar ofta en avgift på 1–3 procent för utlandstransaktioner, så kontrollera dina villkor."
+          "text": "Kombinera flera sätt att betala. Stora hotell, varuhus och kedjor tar oftast kort, men många små restauranger, tempel och butiker på landsbygden tar bara **kontanter**. Ta därför med både ett kort utan utlandsavgifter (eller med låga) och en del yen. Kortbolag tar ofta en avgift på 1–3 procent för utlandstransaktioner, så kontrollera dina villkor."
         },
         {
           "type": "p",
@@ -42,7 +42,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "För mobildata finns bland annat **eSIM**, turist-SIM och mobila Wi-Fi-routrar. Sökningarna gav ingen tillförlitlig information om dessa, så jämför på oberoende sidor och kontrollera din telefons kompatibilitet i förväg. En mobil router ger bara data, så för samtal behöver du en mobil med röstfunktion (till exempel för att ringa 110 eller 119)."
+          "text": "För mobildata finns bland annat **eSIM**, turist-SIM och mobila Wi-Fi-routrar. Utbud och villkor ändras ofta, så jämför på oberoende sidor och kontrollera din telefons kompatibilitet i förväg. En mobil router ger bara data, så för samtal behöver du en mobil med röstfunktion (till exempel för att ringa 110 eller 119)."
         },
         {
           "type": "p",
@@ -154,7 +154,7 @@
   "quiz": [
     {
       "id": "q1",
-      "prompt": "Vilket sätt att betala är säkrast att ha en reserv för?",
+      "prompt": "Vilket betalsätt är klokast att ha som reserv?",
       "options": [
         {
           "id": "a",

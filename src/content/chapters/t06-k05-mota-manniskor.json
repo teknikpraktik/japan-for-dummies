@@ -45,7 +45,7 @@
         },
         {
           "type": "p",
-          "text": "Bra samtalsämnen är vardag, intressen, mat, skola, musik och resor. Känsliga ämnen, till exempel krig, politik, religion och pengar, kan vänta tills ni känner varandra, om personen själv tar upp dem. Ett samtal går åt båda håll: berätta om din vardag, ditt land och din skola, och visa gärna foton eller saker från hemma, till exempel en karta över Sverige, vykort eller en liten present. Det är ett enkelt sätt att börja ett samtal även om språket inte räcker (se kapitlet om att kommunicera utan gemensamt språk)."
+          "text": "Bra samtalsämnen är vardag, intressen, mat, skola, musik och resor. Känsliga ämnen, till exempel krig, politik, religion och pengar, kan vänta tills ni känner varandra, eller tills personen själv tar upp dem. Ett samtal går åt båda håll: berätta om din vardag, ditt land och din skola, och visa gärna foton eller saker hemifrån, till exempel en karta över Sverige, vykort eller en liten present. Det är ett enkelt sätt att börja ett samtal även om språket inte räcker (se kapitlet [Kommunicera utan gemensamt språk](/kapitel/kommunicera-utan-gemensamt-sprak/))."
         }
       ]
     },
@@ -181,7 +181,7 @@
     },
     {
       "id": "q2",
-      "prompt": "Vad är riskabelt att dra för snabbt?",
+      "prompt": "Vilka slutsatser är det riskabelt att dra för snabbt?",
       "options": [
         {
           "id": "a",

@@ -11,7 +11,7 @@ export interface ThemeCardData {
   href: string;
 }
 
-const kapitel = (n: number) => `${n} ${n === 1 ? "kapitel tillgängligt" : "kapitel tillgängliga"}`;
+const kapitel = (n: number) => `${n} kapitel`;
 const slutforda = (n: number) => `${n} ${n === 1 ? "slutfört" : "slutförda"}`;
 
 /**

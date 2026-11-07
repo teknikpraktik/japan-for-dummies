@@ -17,6 +17,9 @@ export default function Home() {
           <p className="prose-col text-lg">
             En kurs i korta kapitel som ger dig en grund att stå på: landet och naturen, historia, vardag, språk, hänsyn och mat. Du läser, övar och gör ett kort test, i din egen takt på mobil, surfplatta eller dator.
           </p>
+          <p className="prose-col">
+            Materialet är gjort som självstudier för dig som ska på skolresa till Japan i oktober 2027, men det fungerar för alla som vill förstå Japan bättre.
+          </p>
         </div>
         <StartHero />
       </section>

@@ -31,7 +31,7 @@
           "ordered": false,
           "items": [
             "**Varuautomater** på gator.",
-            "**Biljettautomater** till tåg och restauranger (se kapitlet om skyltar och menyer).",
+            "**Biljettautomater** till tåg och restauranger (se kapitlet [Läsa skyltar och menyer](/kapitel/skyltar-och-menyer/)).",
             "**Kortläsare** och **kontaktlös betalning** på tåg och i butiker.",
             "**Toaletter** med knappar och standardiserade symboler, sedan 2017 i stort sett likadana på kontrollpanelen."
           ]
@@ -52,7 +52,7 @@
         },
         {
           "type": "p",
-          "text": "En viktig drivkraft för automation är **brist på arbetskraft** i ett åldrande samhälle (se kapitlet om det åldrande samhället): färre i arbetsför ålder gör att företag söker sätt att göra mer med färre händer, till exempel genom automation, självbetjäning och robotar i vård och handel. Frågorna är många: vem ersätts, vilka jobb skapas, vilka uppgifter bör behållas av människor, och hur hanteras integritet och säkerhet? Teknik löser vissa problem och skapar andra, så fråga dig vem som tjänar på den, vem som betalar och vilka som kan välja bort den."
+          "text": "En viktig drivkraft för automation är **brist på arbetskraft** i ett åldrande samhälle (se kapitlet [Ett åldrande samhälle och regionala skillnader](/kapitel/aldrande-samhalle-och-regioner/)): färre i arbetsför ålder gör att företag söker sätt att göra mer med färre händer, till exempel genom automation, självbetjäning och robotar i vård och handel. Frågorna är många: vem ersätts, vilka jobb skapas, vilka uppgifter bör behållas av människor, och hur hanteras integritet och säkerhet? Teknik löser vissa problem och skapar andra, så fråga dig vem som tjänar på den, vem som betalar och vilka som kan välja bort den."
         }
       ]
     }
@@ -62,7 +62,7 @@
       "type": "multiple-choice",
       "id": "auto",
       "title": "Automater",
-      "prompt": "Vad är vanligt vid japanska gator och stationer?",
+      "prompt": "Vad är vanligt längs japanska gator och vid stationer?",
       "options": [
         {
           "id": "a",
@@ -143,7 +143,7 @@
     "Vilken är sällsynt jämfört med vad media visar?",
     "Hur används teknik för att hjälpa äldre?"
   ],
-  "reflection": "Vilken teknik i ditt vardagsliv skulle en besökare tycka var märklig? Vad skulle du själv tycka var märklig i Japan?",
+  "reflection": "Vilken teknik i ditt vardagsliv skulle en besökare tycka var märklig? Vad skulle du själv tycka var märkligt i Japan?",
   "quiz": [
     {
       "id": "q1",

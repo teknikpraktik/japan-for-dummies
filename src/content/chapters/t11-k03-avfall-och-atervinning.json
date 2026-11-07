@@ -32,11 +32,11 @@
         },
         {
           "type": "p",
-          "text": "En stor del av hushållsavfallet förbränns i anläggningar, enligt en källa omkring 70 procent, men den siffran är inte kontrollerad. Sortering gör förbränningen renare och återvinning möjlig. Det saknas i våra sökningar nationella siffror för återvinning, så uppgifterna är osäkra."
+          "text": "En stor del av hushållsavfallet förbränns i anläggningar. Sortering gör förbränningen renare och återvinning möjlig."
         },
         {
           "type": "p",
-          "text": "Offentliga papperskorgar är sällsynta (se kapitlet om offentligt beteende). Ta med skräpet till hotellet eller till ett sorteringskärl vid en butik, station eller automat."
+          "text": "Offentliga papperskorgar är sällsynta (se kapitlet [Offentligt beteende: skräp, ljud och kontanter](/kapitel/offentligt-beteende/)). Ta med skräpet till hotellet eller till ett sorteringskärl vid en butik, station eller automat."
         }
       ]
     },
@@ -51,13 +51,13 @@
             "Ta med en liten påse för skräp under dagen.",
             "Använd kärl vid butiker, stationer och automater, och följ symbolerna.",
             "På hotell och bostäder: fråga hur sorteringen fungerar och följ instruktionerna.",
-            "Skölj, ta av kork och etikett från PET-flaskor om det ber dig om det.",
+            "Skölj, ta av kork och etikett från PET-flaskor om kommunen eller boendet ber om det.",
             "Om du är osäker: fråga personalen."
           ]
         },
         {
           "type": "p",
-          "text": "Sorteringen kan kännas krånglig, men den är viktig för lokalsamhället. Ett enkelt ”Kore wa doko ni suteru no?” (”Var kastar jag det här?”) räcker långt."
+          "text": "Sorteringen kan kännas krånglig, men den är viktig för lokalsamhället. Ett enkelt ”Kore wa doko ni sutemasu ka?” (”Var kastar jag det här?”) räcker långt."
         }
       ]
     }
@@ -124,7 +124,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Tar med det och söker ett kärl eller hotellet.",
+          "text": "Jag tar med skräpet och letar efter en papperskorg eller slänger det på hotellet.",
           "correct": true,
           "feedback": "Rätt."
         },
@@ -146,7 +146,7 @@
   "noticeOnTrip": [
     "Var finns sorteringskärl, och vilka symboler har de?",
     "Hur sorterar människor på stationer och i butiker?",
-    "Hur är ditt eget skräp?"
+    "Hur sorterar du ditt eget skräp hemma?"
   ],
   "reflection": "Hur sorterar du hemma? Vad skulle en besökare behöva veta?",
   "quiz": [
@@ -185,22 +185,22 @@
           "id": "a",
           "text": "Brännbart, plast, PET och burkar",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Det är vanliga kategorier, men de varierar mellan kommuner."
         },
         {
           "id": "b",
-          "text": "Bara en",
-          "feedback": "Fel."
+          "text": "Samma kategorier i hela landet",
+          "feedback": "Fel. Sorteringen varierar mellan kommuner."
         },
         {
           "id": "c",
-          "text": "Inga",
-          "feedback": "Fel."
+          "text": "Ingen sortering alls",
+          "feedback": "Fel. Hushåll sorterar sitt avfall."
         },
         {
           "id": "d",
-          "text": "Tio hundra",
-          "feedback": "Fel."
+          "text": "Bara en kategori för allt",
+          "feedback": "Fel. Avfallet delas upp i flera kategorier."
         }
       ]
     },
@@ -264,7 +264,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Kore wa doko ni suteru no?",
+          "text": "Kore wa doko ni sutemasu ka?",
           "correct": true,
           "feedback": "Rätt (”Var kastar jag det här?”)."
         },
@@ -299,7 +299,7 @@
     "uncertainty": [
       "Kategorierna och PET-reglerna kommer från resenärsguider och en kommuns dokument. Reglerna skiljer sig mellan kommuner.",
       "Uppgiften att omkring 70 procent förbränns kommer från en guide och är inte kontrollerad. Sökningen gav inga nationella återvinningssiffror.",
-      "Frasen (”Kore wa doko ni suteru no?”) är allmän kunskap och bör granskas av en japansklärare."
+      "Frasen (”Kore wa doko ni sutemasu ka?”) är allmän kunskap och bör granskas av en japansklärare."
     ],
     "checkBeforeTravel": []
   },

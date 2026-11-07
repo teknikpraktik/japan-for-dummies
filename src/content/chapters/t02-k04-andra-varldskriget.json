@@ -139,7 +139,7 @@
             "Vilka ord används om gärningsmän och om händelser?",
             "Vilka källor visas, till exempel dokument, vittnen eller föremål?"
           ],
-          "textAlternative": "Utan bild: tänk på en historisk händelse i ditt eget land som minns olika av olika grupper. Skriv två meningar ur två perspektiv.",
+          "textAlternative": "Tänk på en historisk händelse i ditt eget land som minns olika av olika grupper. Skriv två meningar ur två perspektiv.",
           "imageSlotIds": [
             "t02-k04-minne"
           ]

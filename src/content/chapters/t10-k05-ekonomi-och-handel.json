@@ -34,7 +34,7 @@
         },
         {
           "type": "p",
-          "text": "Priser i Japan kan upplevas som låga eller höga beroende på växelkurs, produkt och ort. Ett måltidspris, en tågbiljett och en inträdesbiljett kan skilja sig åt. Lokala priser i yen är mer stabila än din kostnad i kronor. Gör en budget i yen och räkna om med en marginal, ha en reserv, och kontrollera hur du betalar (se kapitlet om skyltar och menyer samt temat om praktiska resekunskaper)."
+          "text": "Priser i Japan kan upplevas som låga eller höga beroende på växelkurs, produkt och ort. Ett måltidspris, en tågbiljett och en inträdesbiljett kan skilja sig åt. Lokala priser i yen är mer stabila än din kostnad i kronor. Gör en budget i yen och räkna om med en marginal, ha en reserv, och kontrollera hur du betalar (se kapitlet [Pengar, betalning och kommunikation](/kapitel/pengar-betalning-och-kommunikation/) och temat [Praktiska resekunskaper och reflektion](/utbildning/resa/))."
         },
         {
           "type": "p",
@@ -48,11 +48,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japan är en av världens större ekonomier och en stor exportör av bilar, maskiner, elektronik och material, och importerar bland annat energi och livsmedel (se temat om miljö och energi). De största handelspartnerna är bland andra Kina och USA, men uppgifter om rangordning varierar mellan år och källor. Exporten påverkas av yenens värde: en svag yen gör japanska varor billigare utomlands men gör importerade varor dyrare hemma."
+          "text": "Japan är en av världens större ekonomier och en stor exportör av bilar, maskiner, elektronik och material, och importerar bland annat energi och livsmedel (se temat [Miljö, energi och framtidsfrågor](/utbildning/miljo/)). De största handelspartnerna är bland andra Kina och USA, men uppgifter om rangordning varierar mellan år och källor. Exporten påverkas av yenens värde: en svag yen gör japanska varor billigare utomlands men gör importerade varor dyrare hemma."
         },
         {
           "type": "p",
-          "text": "Ekonomin påverkas också av **åldrande och minskande befolkning** (se kapitlet om det åldrande samhället) och av **globaliseringen**. Enligt en prognos väntades den reala BNP-tillväxten bli runt 0,9 procent för räkenskapsåret 2026, vilket är lågt jämfört med högkonjunkturens år (se kapitlet om efterkrigstiden)."
+          "text": "Ekonomin påverkas också av **åldrande och minskande befolkning** (se kapitlet [Ett åldrande samhälle och regionala skillnader](/kapitel/aldrande-samhalle-och-regioner/)) och av **globaliseringen**. Enligt en prognos väntades den reala BNP-tillväxten bli runt 0,9 procent för räkenskapsåret 2026, vilket är lågt jämfört med högkonjunkturens år (se kapitlet [Efterkrigstiden: ockupation, uppbyggnad och nutid](/kapitel/efterkrigstiden/))."
         }
       ]
     }
@@ -180,22 +180,22 @@
           "id": "a",
           "text": "Det blir billigare.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Utländsk valuta räcker då längre."
         },
         {
           "id": "b",
-          "text": "Dyrare.",
-          "feedback": "Fel."
+          "text": "Det blir dyrare.",
+          "feedback": "Fel. Med svag yen blir priserna lägre för besökare."
         },
         {
           "id": "c",
-          "text": "Samma.",
-          "feedback": "Fel."
+          "text": "Priserna ändras inte alls.",
+          "feedback": "Fel. Växelkursen påverkar vad besökaren betalar."
         },
         {
           "id": "d",
-          "text": "Ingen vet.",
-          "feedback": "Fel."
+          "text": "Bara varor under 1 000 yen påverkas.",
+          "feedback": "Fel. Växelkursen påverkar alla priser."
         }
       ]
     },

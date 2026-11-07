@@ -15,7 +15,7 @@
   "minutes": 8,
   "hook": {
     "kind": "question",
-    "text": "Ett tåg som är en minut sent räknas som försenat. Hur kan en hel järnväg hålla en så noggrann tidtabell, och vad händer när något ändå går fel?"
+    "text": "Ett tåg som är mer än en minut sent räknas som försenat. Hur kan en hel järnväg hålla en så noggrann tidtabell, och vad händer när något ändå går fel?"
   },
   "sections": [
     {
@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "**Shinkansen** (”ny stamlinje”) är Japans höghastighetståg. Den första linjen, **Tokaido-shinkansen** mellan Tokyo och Osaka, öppnades 1964, i samband med olympiska spelen i Tokyo (se kapitlet om efterkrigstiden). Sedan dess har nätet byggts ut till stora delar av landet, med nya linjer norrut och söderut. De flesta shinkansenlinjer har egna spår, till skillnad från vanliga tåg, vilket bidrar till hastigheten och punktligheten. Undantaget är mini-shinkansen (Yamagata- och Akita-linjerna), som går på ombyggda vanliga linjer och delar spår med annan trafik."
+          "text": "**Shinkansen** (”ny stamlinje”) är Japans höghastighetståg. Den första linjen, **Tokaido-shinkansen** mellan Tokyo och Osaka, öppnades 1964, i samband med olympiska spelen i Tokyo (se kapitlet [Efterkrigstiden: ockupation, uppbyggnad och nutid](/kapitel/efterkrigstiden/)). Sedan dess har nätet byggts ut till stora delar av landet, med nya linjer norrut och söderut. De flesta shinkansenlinjer har egna spår, till skillnad från vanliga tåg, vilket bidrar till hastigheten och punktligheten. Undantaget är mini-shinkansen (Yamagata- och Akita-linjerna), som går på ombyggda vanliga linjer och delar spår med annan trafik."
         },
         {
           "type": "photo",
@@ -54,7 +54,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "På många shinkansenlinjer finns **platsbokade** och **icke platsbokade** vagnar, och biljetter består oftast av en grundbiljett och en snabbtågsavgift. Du kan köpa dem vid biljettautomater, vid biljettkontor eller via appar, och om du har ett resepass (se kapitlet om stationer) gäller särskilda regler. Följ alltid aktuella regler på JR:s webbplatser."
+          "text": "På många shinkansenlinjer finns **platsbokade** och **icke platsbokade** vagnar, och biljetter består oftast av en grundbiljett och en snabbtågsavgift. Du kan köpa dem vid biljettautomater, vid biljettkontor eller via appar, och om du har ett resepass gäller särskilda regler. Följ alltid aktuella regler på JR:s webbplatser."
         },
         {
           "type": "p",
@@ -70,7 +70,7 @@
             "Vilken plan B har du om ett tåg är försenat?",
             "Vad säger skyltarna om platser och vagnar?"
           ],
-          "textAlternative": "Utan bild: planera en tänkt resa mellan två städer. Skriv ner avgångstid, byte och en plan B om bytet missas.",
+          "textAlternative": "Planera en tänkt resa mellan två städer. Skriv ner avgångstid, byte och en plan B om bytet missas.",
           "imageSlotIds": [
             "t10-k01-hero"
           ]
@@ -135,7 +135,7 @@
       "type": "scenario",
       "id": "marginal",
       "title": "Planering",
-      "situation": "Du ska åka shinkansen och ha ett byte på tre minuter före ett flyg.",
+      "situation": "Du åker shinkansen och har bara tre minuter på dig att byta tåg för att hinna till flyget.",
       "question": "Vad är klokast?",
       "options": [
         {
@@ -160,7 +160,7 @@
     }
   ],
   "noticeOnTrip": [
-    "Hur köar och bordar människor vid perrongen?",
+    "Hur köar människor och stiger på vid perrongen?",
     "Vilka skyltar och tidtabeller finns på stationerna?",
     "Hur hanterar rutinerna störningar?"
   ],

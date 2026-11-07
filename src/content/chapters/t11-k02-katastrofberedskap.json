@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japan utsätts för jordbävningar, tsunamier, tyfoner, kraftigt regn och vulkanutbrott (se temat om geografi), och har byggt upp ett omfattande beredskapssystem. **J-Alert** är det nationella varningssystemet (från 2007) för bland annat jordbävning och tsunami. Varningar sprids via högtalare, tv, radio och mobilen. En **jordbävningsvarning** kan komma sekunder till tiotals sekunder före de stora skakningarna, och räknar ut dem från de första små skakningarna."
+          "text": "Japan utsätts för jordbävningar, tsunamier, tyfoner, kraftigt regn och vulkanutbrott (se temat [Geografi, regioner, klimat och natur](/utbildning/geografi/)), och har byggt upp ett omfattande beredskapssystem. **J-Alert** är det nationella varningssystemet (från 2007) för bland annat jordbävning och tsunami. Varningar sprids via högtalare, tv, radio och mobilen. En **jordbävningsvarning** kan komma sekunder till tiotals sekunder före de stora skakningarna. Systemet beräknar skakningarna utifrån de första små vågorna och skickar en varning."
         },
         {
           "type": "p",
@@ -42,7 +42,7 @@
           "items": [
             "**Jordbävning:** skydda dig, till exempel under ett stadigt bord, och håll dig borta från fönster och föremål som kan falla. Intensiteten mäts med skalan shindo (0 till 7). Efter skakningarna: kontrollera dig själv och andra, och följ lokala instruktioner. Efterskalv kan komma.",
             "**Tsunami:** om du är nära kusten och känner en stark, lång skakning, eller får en varning, gå genast till högre mark eller en tsunamievakueringsbyggnad utan att vänta. En tsunami kan komma i flera vågor, och du ska inte gå ned till stranden förrän varningen hävts.",
-            "**Tyfon och kraftigt regn:** följ prognoser, undvik floder, branta kustavsnitt och berg, och räkna med inställda tåg. Skydda dig inomhus och planera extra marginal (se kapitlet om klimat)."
+            "**Tyfon och kraftigt regn:** följ prognoser, undvik floder, branta kustavsnitt och berg, och räkna med inställda tåg. Skydda dig inomhus och planera extra marginal (se kapitlet [Årstider och klimat från Hokkaido till Okinawa](/kapitel/arstider-och-klimat/))."
           ]
         }
       ]
@@ -53,7 +53,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Titta efter evakueringsskyltar, och lär dig var närmaste utgång och samlingsplats finns på hotellet. Fråga personalen hur man gör vid larm. Japan har flera beredskapsövningar, och människor är ofta vana vid att följa instruktioner. Efter jordbävningen på Notohalvön har beredskapen kritiserats för brist på förråd och sena evakueringscenter, och regeringen planerade nya åtgärder."
+          "text": "Titta efter evakueringsskyltar, och lär dig var närmaste utgång och samlingsplats finns på hotellet. Fråga personalen hur man gör vid larm. Japan har flera beredskapsövningar, och regelbundna övningar gör att många vet vad de ska göra. Efter jordbävningen på Notohalvön har beredskapen kritiserats för brist på förråd och sena evakueringscenter, och regeringen planerade nya åtgärder."
         },
         {
           "type": "p",
@@ -136,9 +136,9 @@
         },
         {
           "id": "c",
-          "text": "Gå upp på taket.",
+          "text": "Går upp på hotellets tak för att titta ut.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Gå till utgångarna och samlingsplatsen i stället."
         }
       ]
     }
@@ -299,7 +299,7 @@
     "status": "needs-human-review",
     "uncertainty": [
       "Råden är allmänna och bygger på en reseguide och en turistmyndighets appbeskrivning. De är inget ersättande av officiella instruktioner. Detaljer om hur man agerar vid jordbävning och efterskalv är allmän kunskap och bör granskas av en beredskapskunnig.",
-      "Uppgiften om 110/119 är allmän kunskap som inte kontrollerades mot en källa.",
+      "Numren 110 och 119 är kontrollerade mot JNTO:s informationsblad (se kapitlet om säkerhet).",
       "Beskrivningen av Notohalvön-jordbävningen och regeringens planer bygger på en nyhetssammanfattning från 2024 och kan vara inaktuell.",
       "Sökningen gav ingenting om Katastrofdagen den 1 september eller om övningar.",
       "Bildtexten om tsunamiskylten (Kamakura, 2016) bygger på Commons-beskrivningen. Texten på skylten är inte översatt i detalj."

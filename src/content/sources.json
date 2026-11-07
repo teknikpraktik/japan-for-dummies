@@ -1408,5 +1408,15 @@
     "checkedOn": "2026-11-07",
     "access": "search-result-summary",
     "supports": "Att cashewnötter är obligatoriska allergener från 1 april 2026 (övergång till 31 mars 2028), att pistage lagts till bland de rekommenderade ämnena och att myndigheten förvaltar allergenmärkningen."
+  },
+  {
+    "id": "jnto-visitor-hotline",
+    "title": "Japan Visitor Hotline",
+    "publisher": "JNTO (Japan National Tourism Organization)",
+    "url": "https://www.japan.travel/en/plan/hotline/",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Japan Visitor Hotline (050-3816-2787) ger hjälp dygnet runt, att polis är 110 och ambulans och brandkår är 119, och att samtalen till 119 är avgiftsfria."
   }
 ]

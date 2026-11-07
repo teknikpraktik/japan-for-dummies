@@ -59,7 +59,7 @@
         },
         {
           "type": "p",
-          "text": "Under resan: skriv korta anteckningar. Vad såg du, hörde du, kände du? Vad hade du förväntat dig, och vad blev annorlunda? Vad var likt det du känner igen hemifrån? Fråga människor du möter hur de ser på saker, och lyssna. Ta bilder med hänsyn (se kapitlet om hänsyn i vardagen)."
+          "text": "Under resan: skriv korta anteckningar. Vad såg du, hörde du, kände du? Vad hade du förväntat dig, och vad blev annorlunda? Vad var likt det du känner igen hemifrån? Fråga människor du möter hur de ser på saker, och lyssna. Ta bilder med hänsyn (se kapitlet [Hänsyn i vardagen: tåg, köer och fotografering](/kapitel/hansyn-i-vardagen/))."
         },
         {
           "type": "p",
@@ -85,7 +85,7 @@
             "Vilka likheter med hemma märkte du?",
             "Vilka frågor har du kvar?"
           ],
-          "textAlternative": "Utan bild: skriv fem meningar om hur din bild av Japan har ändrats, och en fråga du vill få svar på.",
+          "textAlternative": "Skriv fem meningar om hur din bild av Japan har ändrats, och en fråga du vill få svar på.",
           "imageSlotIds": [
             "t12-k05-hero"
           ]

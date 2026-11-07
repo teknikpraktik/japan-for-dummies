@@ -83,7 +83,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
       </div>
 
       <section aria-labelledby="inledning" className="card !bg-indigo-soft prose-col space-y-2">
-        <h2 id="inledning" className="!text-lg">{ch.hook.kind === "question" ? "Att fundera på" : "Tänk dig situationen"}</h2>
+        <h2 id="inledning" className="!text-lg">Att fundera på</h2>
         <p className="text-lg">{ch.hook.text}</p>
       </section>
 

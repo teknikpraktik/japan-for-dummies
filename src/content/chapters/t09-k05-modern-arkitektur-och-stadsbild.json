@@ -6,9 +6,9 @@
   "status": "published",
   "contentVersion": 1,
   "title": "Modern arkitektur och stadsbild",
-  "summary": "Skyskrapor, små hus och glesa gränder. Kapitlet förklarar hur städer byggs och förändras, och hur rum utnyttjas i täta städer.",
+  "summary": "Skyskrapor, små hus och smala gränder. Kapitlet förklarar hur städer byggs och förändras, och hur rum utnyttjas i täta städer.",
   "objectives": [
-    "Beskriva hur moderna städer bygger ut",
+    "Beskriva hur moderna städer byggs ut",
     "Förstå varför små hus och kompakta lösningar är vanliga",
     "Läsa av en stadsbild"
   ],
@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japan ligger i ett jordbävningsområde (se temat om geografi), och det påverkar hur man bygger. Den stora ändringen av byggreglerna kom **1981**: äldre byggnader kallas **kyu-taishin** (gammal standard) och nyare **shin-taishin** (ny standard). I jordbävningen i Kumamoto 2016 kollapsade enligt en sammanfattning en mycket större andel äldre trähus än nyare, vilket visar att reglerna spelat roll. Källan är dock en fastighetssajt."
+          "text": "Japan ligger i ett jordbävningsområde (se temat [Geografi, regioner, klimat och natur](/utbildning/geografi/)), och det påverkar hur man bygger. Den stora ändringen av byggreglerna kom **1981**: äldre byggnader kallas **kyu-taishin** (gammal standard) och nyare **shin-taishin** (ny standard). I jordbävningen i Kumamoto 2016 kollapsade enligt en fastighetssajt en mycket större andel äldre trähus än nyare, vilket visar att reglerna spelat roll."
         },
         {
           "type": "p",
@@ -75,7 +75,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Stadsbilden är som ett lager på lager: skyskrapor kring stationer, flerfamiljshus i bostadsområden, små butiker i gränder och gamla hus som har klarat sig. Titta efter vilka byggnader som hör ihop med vilken tid: efterkrigstidens betongblock, 1960-talets hyreshus (danchi, se kapitlet om familj), 1980-talets bubbelbyggen och nutidens glas och stål."
+          "text": "Stadsbilden är lager på lager: skyskrapor kring stationer, flerfamiljshus i bostadsområden, små butiker i gränder och gamla hus som har klarat sig. Titta efter vilka byggnader som hör ihop med vilken tid: efterkrigstidens betongblock, 1960-talets hyreshus (danchi, se kapitlet om familj), 1980-talets bubbelbyggen och nutidens glas och stål."
         },
         {
           "type": "photo",
@@ -93,7 +93,7 @@
             "Var finns grönska, och var finns små luckor?",
             "Vad skulle kunna förändras härnäst?"
           ],
-          "textAlternative": "Utan bild: tänk på din egen stad. Lista tre byggnader från olika årtionden och vad de berättar om tiden.",
+          "textAlternative": "Tänk på din egen stad. Lista tre byggnader från olika årtionden och vad de berättar om tiden.",
           "imageSlotIds": [
             "t09-k05-hero"
           ]

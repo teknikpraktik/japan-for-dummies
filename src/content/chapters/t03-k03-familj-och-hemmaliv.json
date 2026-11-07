@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bilden av tre generationer under ett tak är seglivad, men den passar bara en minoritet. Den typiska hushållsformen har förändrats över tid. Kärnfamiljer (par, med eller utan barn, eller en förälder med barn) är den största gruppen, drygt hälften av hushållen enligt Statistikbyrån. **Enpersonshushåll** är den snabbast växande: de var 38,0 procent av hushållen 2020, jämfört med cirka 23 procent 1990."
+          "text": "Bilden av tre generationer under ett tak är seglivad, men den passar bara en minoritet. Den typiska hushållsformen har förändrats över tid. Kärnfamiljer (par, med eller utan barn, eller en förälder med barn) är den största gruppen, drygt hälften av hushållen enligt Japans statistikbyrå (Statistics Bureau). **Enpersonshushåll** är den snabbast växande: de var 38,0 procent av hushållen 2020, jämfört med cirka 23 procent 1990."
         },
         {
           "type": "facts",
@@ -185,28 +185,28 @@
     },
     {
       "id": "q2",
-      "prompt": "Hur stor var den genomsnittliga hushållsstorleken 2020?",
+      "prompt": "Hur har hushållens genomsnittliga storlek utvecklats sedan 1990?",
       "options": [
         {
           "id": "a",
-          "text": "2,21 personer",
+          "text": "De har blivit mindre",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Från 2,98 personer 1990 till 2,21 år 2020."
         },
         {
           "id": "b",
-          "text": "6 personer",
-          "feedback": "Fel."
+          "text": "De har blivit större",
+          "feedback": "Fel. De har blivit mindre."
         },
         {
           "id": "c",
-          "text": "1 person",
-          "feedback": "Fel."
+          "text": "De är oförändrade",
+          "feedback": "Fel. De har minskat från 2,98 till 2,21 personer."
         },
         {
           "id": "d",
-          "text": "10 personer",
-          "feedback": "Fel."
+          "text": "De har blivit dubbelt så stora",
+          "feedback": "Fel. De har blivit mindre."
         }
       ]
     },

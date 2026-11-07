@@ -69,7 +69,7 @@ test.describe("kontofri tjänst", () => {
     if (!(await page.getByTestId("education-nav").isVisible())) await page.getByTestId("nav-open").click();
     await expect(page.getByTestId(`nav-done-${chapter.id}`)).toContainText("Slutfört");
     await page.goto("/");
-    await expect(page.getByTestId("theme-card-geografi")).toContainText(/kapitel tillgängliga · 1 slutfört/);
+    await expect(page.getByTestId("theme-card-geografi")).toContainText(/\d+ kapitel · 1 slutfört/);
     await page.goto("/offline/");
     await expect(page.getByTestId("progress-summary")).toHaveText(/^1 av /);
     await expect(page.getByTestId("local-notice")).toContainText("Dina framsteg sparas i den här webbläsaren");
@@ -153,12 +153,12 @@ test.describe("kontofri tjänst", () => {
   test("temakort: tillgängligt innehåll och slutförda hålls isär; kommande teman är märkta och går att öppna", async ({ page }) => {
     await page.goto("/");
     const geo = page.getByTestId("theme-card-count-geografi");
-    await expect(geo).toHaveText(/^\d+ kapitel tillgängliga · 0 slutförda$/);
+    await expect(geo).toHaveText(/^\d+ kapitel · 0 slutförda$/);
     // singular/plural: ett tema med exakt ett tillgängligt kapitel säger "kapitel tillgängligt". Det kan saknas när alla teman
     // har flera publicerade kapitel, så testet kräver bara att varje räknartext har en av de två formerna.
     const counts = await page.locator("[data-testid^='theme-card-count-']").allTextContents();
     expect(counts.length).toBeGreaterThan(0);
-    for (const t of counts) expect(t).toMatch(/^(1 kapitel tillgängligt|\d+ kapitel tillgängliga) · \d+ slutförda$/);
+    for (const t of counts) expect(t).toMatch(/^\d+ kapitel · \d+ slutförda$/);
     // kommande tema: etikett, ingen framstegsindikator, men öppningsbart med kapitelöversikt
     if (UPCOMING_THEME) {
       const upcoming = page.getByTestId(`theme-card-${UPCOMING_THEME}`);

@@ -59,7 +59,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Debatten i Japan gäller bland annat hur få kvinnor som sitter i parlament och på ledande poster, vem som tar ansvar för hem och barn, och hur arbetslivet kan bli mer flexibelt. Kvinnor fick rösträtt i december 1945 och röstade första gången 1946, och sedan dess har lagar och attityder förändrats, men olika grupper har olika uppfattningar om takten. Flera frågor hör ihop med jämställdhet, till exempel lagen om gemensamt efternamn (se kapitlet om familj). Diskussionerna förs av politiker, företag, forskare och människor i vardagen, och de är inte enhetliga."
+          "text": "Debatten i Japan gäller bland annat hur få kvinnor som sitter i parlament och på ledande poster, vem som tar ansvar för hem och barn, och hur arbetslivet kan bli mer flexibelt. Kvinnor fick rösträtt i december 1945 och röstade första gången 1946, och sedan dess har lagar och attityder förändrats, men olika grupper har olika uppfattningar om takten. Flera frågor hör ihop med jämställdhet, till exempel lagen om gemensamt efternamn (se kapitlet [Familj och hemmaliv](/kapitel/familj-och-hemmaliv/)). Diskussionerna förs av politiker, företag, forskare och människor i vardagen, och de är inte enhetliga."
         },
         {
           "type": "p",
@@ -295,7 +295,7 @@
         },
         {
           "id": "d",
-          "text": "Dömma snabbt.",
+          "text": "Döma snabbt.",
           "feedback": "Fel."
         }
       ]

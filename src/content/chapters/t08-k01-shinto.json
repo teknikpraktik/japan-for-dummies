@@ -32,7 +32,7 @@
         },
         {
           "type": "p",
-          "text": "Shinto märks i livets stora tillfällen: nyårsbesök, bröllop, välsignelse av nyfödda och barn (**Shichi-go-san**) och många lokala fester. För många är det **tradition och plats** snarare än en tro man bekänner sig till. Vissa beskriver det som en livsstil, andra som religion, andra som kultur. Som besökare behöver du inte lösa frågan, bara visa respekt för platsen. Shinto och buddhism har dessutom levt sida vid sida i över tusen år och blandas i många människors liv (se kapitlet om religion i vardagen)."
+          "text": "Shinto märks i livets stora tillfällen: nyårsbesök, bröllop, välsignelse av nyfödda och barn (**Shichi-go-san**) och många lokala fester. För många är det **tradition och plats** snarare än en tro man bekänner sig till. Vissa beskriver det som en livsstil, andra som religion, andra som kultur. Som besökare behöver du inte lösa frågan, bara visa respekt för platsen. Shinto och buddhism har dessutom levt sida vid sida i över tusen år och blandas i många människors liv (se kapitlet [Religion i vardagen: blandade traditioner](/kapitel/religion-i-vardagen/))."
         }
       ]
     },
@@ -125,7 +125,7 @@
       "type": "scenario",
       "id": "tro",
       "title": "I samtal",
-      "situation": "En kamrat säger: ”Japanerna tror på tusentals gudar, så det är en religion som vår.”",
+      "situation": "En kamrat säger: ”Japanerna tror på tusentals gudar, så det är en religion du känner till.”",
       "question": "Vad är en mer nyanserad bild?",
       "options": [
         {

@@ -46,7 +46,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Vissa läkemedel som är vanliga i Sverige är förbjudna eller begränsade i Japan, och för vissa krävs särskilda tillstånd. Det gäller till exempel vissa receptbelagda smärtstillande och ADHD-läkemedel, och läkemedel med vissa verksamma ämnen. Sökningarna gav ingen detaljerad information, så **kontrollera alltid** reglerna hos de japanska myndigheterna (hälsoministeriet och tullen) och hos din läkare. Ta med läkemedel i originalförpackning, och ha recept eller intyg."
+          "text": "Vissa läkemedel som är vanliga i Sverige är förbjudna eller begränsade i Japan, och för vissa krävs särskilda tillstånd. Det gäller till exempel vissa receptbelagda smärtstillande och ADHD-läkemedel, och läkemedel med vissa verksamma ämnen. Reglerna ändras, så **kontrollera alltid** reglerna hos de japanska myndigheterna (hälsoministeriet och tullen) och hos din läkare. Ta med läkemedel i originalförpackning, och ha recept eller intyg."
         },
         {
           "type": "callout",
@@ -56,7 +56,7 @@
         },
         {
           "type": "p",
-          "text": "Packa efter årstid och plats (se temat om geografi): lager av kläder, regnskydd, bekväma skor som är lätta att ta av och på (se kapitlet om skor), strumpor utan hål, en liten påse för skräp och en liten handduk eftersom många toaletter saknar pappershanddukar. Ta med en adapter (Japan använder vanligen två platta stift), en powerbank och en liten väska för dagen. Packa inte för mycket: du bär själv din väska på trappor, tåg och stationer, och utrymmet i många hotellrum och tåg är litet."
+          "text": "Packa efter årstid och plats (se temat [Geografi, regioner, klimat och natur](/utbildning/geografi/)): lager av kläder, regnskydd, bekväma skor som är lätta att ta av och på (se kapitlet [Skor av: hem, tempel och badhus](/kapitel/skor-av-bad-och-hemmet/)), strumpor utan hål, en liten påse för skräp och en liten handduk eftersom många toaletter saknar pappershanddukar. Ta med en adapter (Japan använder vanligen två platta stift), en powerbank och en liten väska för dagen. Packa inte för mycket: du bär själv din väska på trappor, tåg och stationer, och utrymmet i många hotellrum och tåg är litet."
         }
       ]
     }
@@ -157,7 +157,7 @@
           "id": "a",
           "text": "Upp till 90 dagar",
           "correct": true,
-          "feedback": "Rätt, men kontrollera officiellt."
+          "feedback": "Rätt. Kontrollera ändå reglerna hos UD eller Japans ambassad före resan."
         },
         {
           "id": "b",
@@ -232,7 +232,7 @@
     },
     {
       "id": "q4",
-      "prompt": "Vilken typ av kontakt har Japan oftast?",
+      "prompt": "Vilken typ av eluttag är vanligast i Japan?",
       "options": [
         {
           "id": "a",

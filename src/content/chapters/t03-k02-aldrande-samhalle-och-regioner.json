@@ -87,7 +87,7 @@
           "items": [
             "stöd till barnfamiljer,",
             "att fler kan arbeta längre,",
-            "teknik och robotar i vården (se kapitlet om robotar och vardagsteknik),",
+            "teknik och robotar i vården (se kapitlet [Robotar, automation och vardagsteknik](/kapitel/robotar-och-vardagsteknik/)),",
             "stöd till orter som vill locka nya invånare,",
             "**invandring**: antalet utländska invånare nådde vid slutet av 2025 rekordnivån cirka 4,1 miljoner."
           ]
@@ -220,24 +220,24 @@
       "options": [
         {
           "id": "a",
-          "text": "Den har minskat flera år i rad.",
+          "text": "De har minskat flera år i rad.",
           "correct": true,
           "feedback": "Rätt. Tionde året i rad enligt preliminära siffror för 2025."
         },
         {
           "id": "b",
-          "text": "Den har ökat kraftigt.",
-          "feedback": "Fel."
+          "text": "De har ökat kraftigt.",
+          "feedback": "Fel. De har minskat."
         },
         {
           "id": "c",
-          "text": "Den är oförändrad.",
-          "feedback": "Fel."
+          "text": "De är oförändrade.",
+          "feedback": "Fel. De har minskat."
         },
         {
           "id": "d",
-          "text": "Ingen vet.",
-          "feedback": "Fel."
+          "text": "De har växlat jämnt upp och ner.",
+          "feedback": "Fel. De har minskat flera år i rad."
         }
       ]
     },

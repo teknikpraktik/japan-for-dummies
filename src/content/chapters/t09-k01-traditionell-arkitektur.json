@@ -9,7 +9,7 @@
   "summary": "Hur traditionella byggnader är konstruerade, varför trä dominerar och hur trädgårdar planeras. Kapitlet visar också hur byggnader återuppbyggs.",
   "objectives": [
     "Beskriva typiska delar av traditionell arkitektur",
-    "Förklara varför trä och återuppbyggnad är vanligt",
+    "Förklara varför det är vanligt att bygga i trä och att bygga upp igen",
     "Betrakta en byggnad aktivt på resan"
   ],
   "minutes": 8,
@@ -58,7 +58,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japanska trädgårdar planeras ofta som **komponerade landskap** med sten, vatten, mossa, träd och stigar som leder blicken. Vissa är torra trädgårdar med krattad grus, andra promenadträdgårdar kring en damm. Platser som Kenroku-en i Kanazawa är kända exempel. Utsikten och vandringsvägen är planerade, och trädgården ser olika ut med årstiden."
+          "text": "Japanska trädgårdar planeras ofta som **komponerade landskap** med sten, vatten, mossa, träd och stigar som leder blicken. Vissa är torra trädgårdar med krattat grus, andra promenadträdgårdar kring en damm. Platser som Kenroku-en i Kanazawa är kända exempel. Utsikten och vandringsvägen är planerade, och trädgården ser olika ut med årstiden."
         },
         {
           "type": "p",

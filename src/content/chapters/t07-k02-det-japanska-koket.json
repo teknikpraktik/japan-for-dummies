@@ -67,7 +67,7 @@
         },
         {
           "type": "p",
-          "text": "Dashi är också skälet till att många rätter som ser vegetariska ut innehåller fisk, vilket du behöver veta om du eller någon i gruppen undviker fisk (se kapitlet om allergier och särskilda behov)."
+          "text": "Dashi är också skälet till att många rätter som ser vegetariska ut innehåller fisk, vilket du behöver veta om du eller någon i gruppen undviker fisk (se kapitlet [Allergier, vegetariskt och särskilda behov](/kapitel/allergier-vegetariskt-och-sarskilda-behov/))."
         }
       ]
     }
@@ -162,7 +162,7 @@
   "quiz": [
     {
       "id": "q1",
-      "prompt": "Vilket är basen i en traditionell måltid?",
+      "prompt": "Vad är basen i en traditionell måltid?",
       "options": [
         {
           "id": "a",

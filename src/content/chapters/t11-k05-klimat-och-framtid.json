@@ -24,11 +24,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japan påverkas av klimatförändringarna. Enligt rapporter var sommaren 2025 den varmaste som uppmätts, och juni 2025 den varmaste sedan mätningarna började 1898. Japan har också haft rekordvarma somrar 2023 och 2024. Meteorologer varnar för att koppla ett enskilt väderfall direkt till klimatförändringen, men rapporter från Japans meteorologiska myndighet beskriver att kraftiga regn blir vanligare, och att varmare hav kan ge kraftigare regn och mer intensiva tyfoner. I ett scenario med stor uppvärmning kan antalet kraftiga regn mer än tredubblas fram till sekelskiftet."
+          "text": "Japan påverkas av klimatförändringarna. Enligt rapporter var sommaren 2025 den varmaste som uppmätts, och juni 2025 den varmaste sedan mätningarna började 1898. Japan har också haft rekordvarma somrar 2023 och 2024. Meteorologer varnar för att koppla ett enskilt väderfall direkt till klimatförändringen, men rapporter från Japans meteorologiska myndighet beskriver att kraftiga regn blir vanligare, och att varmare hav kan ge kraftigare regn och mer intensiva tyfoner. I ett scenario med stor uppvärmning kan antalet kraftiga regn mer än tredubblas fram till slutet av seklet."
         },
         {
           "type": "p",
-          "text": "Hettan märks på vardagen: värmeslag är en risk (se kapitlet om årstider), särskilt för äldre. Du som besöker landet bör följa värmevarningar, dricka vatten och vila."
+          "text": "Hettan märks i vardagen: värmeslag är en risk (se kapitlet [Säkerhet, hälsa och nödsituationer](/kapitel/sakerhet-halsa-och-nodsituationer/)), särskilt för äldre. Du som besöker landet bör följa värmevarningar, dricka vatten och vila."
         }
       ]
     },
@@ -38,7 +38,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japans regering satte 2020 målet **nettonoll växthusgasutsläpp till 2050**, och har enligt rapporter lovat minskningar på 60 procent till 2035 och 73 procent till 2040 jämfört med 2013. Kritiker säger att det saknas en trovärdig plan, bland annat eftersom kol fortfarande står för en stor del av elen (se kapitlet om energi)."
+          "text": "Japans regering satte 2020 målet **nettonoll växthusgasutsläpp till 2050**, och har enligt rapporter lovat minskningar på 60 procent till 2035 och 73 procent till 2040 jämfört med 2013. Kritiker säger att det saknas en trovärdig plan, bland annat eftersom kol fortfarande står för en stor del av elen (se kapitlet [Energi efter Fukushima](/kapitel/energi-efter-fukushima/))."
         },
         {
           "type": "p",
@@ -51,7 +51,7 @@
             "mer förnybar energi och kärnkraft,",
             "energieffektivitet,",
             "ny teknik som flytande vindkraft och väte,",
-            "anpassning av städer och beredskap (se kapitlet om katastrofberedskap)."
+            "anpassning av städer och beredskap (se kapitlet [Katastrofberedskap: jordbävning, tsunami och tyfon](/kapitel/katastrofberedskap/))."
           ]
         },
         {
@@ -91,7 +91,7 @@
             "Vad skulle behöva hända för att bilden blir verklighet?",
             "Vilka frågor skulle du vilja ställa till någon som lever där?"
           ],
-          "textAlternative": "Utan bild: skriv två korta beskrivningar av ditt eget samhälle om 30 år, en optimistisk och en pessimistisk. Vad skiljer dem åt, och vilka val skulle ge den ena eller den andra?",
+          "textAlternative": "Skriv två korta beskrivningar av ditt eget samhälle om 30 år, en optimistisk och en pessimistisk. Vad skiljer dem åt, och vilka val skulle ge den ena eller den andra?",
           "imageSlotIds": [
             "t11-k05-hero"
           ]

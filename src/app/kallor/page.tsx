@@ -19,7 +19,7 @@ export default function Sources() {
       <header className="space-y-2">
         <h1>Källor och rättigheter</h1>
         <p className="prose-col">
-          Här finns alla källor som kapitlen hänvisar till. Datumet visar när källan faktiskt kontrollerades. Observera: <strong>källsidorna kunde inte öppnas direkt när pilotkapitlen skrevs.</strong> Uppgifterna kontrollerades mot sammanfattade sökresultat. Varje kapitel är därför markerat ”behöver granskas av en person”, och osäkerheter redovisas i kapitlet.
+          Här finns alla källor som kapitlen hänvisar till. Datumet visar när källan kontrollerades. Källorna har kontrollerats mot sammanfattade sökresultat, och de flesta källsidor har inte öppnats i sin helhet. Kapitlen är ännu inte granskade av en person, så osäkerheter redovisas i varje kapitel.
         </p>
       </header>
 

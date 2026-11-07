@@ -28,7 +28,7 @@
         },
         {
           "type": "p",
-          "text": "Stora stationer är som små städer. Titta på skyltarna: **linjefärger och nummer** (till exempel linjebokstav och stationsnummer), **perrongnummer**, **utgångsnummer** och namn på utgångar (se kapitlet om skyltar och menyer: 出口 är utgång och 北口 norra utgången). Ta god tid på dig, och gå hellre till sidan än att stanna mitt i flödet."
+          "text": "Stora stationer är som små städer. Titta på skyltarna: **linjefärger och nummer** (till exempel linjebokstav och stationsnummer), **perrongnummer**, **utgångsnummer** och namn på utgångar (se kapitlet [Läsa skyltar och menyer](/kapitel/skyltar-och-menyer/): 出口 är utgång och 北口 norra utgången). Ta god tid på dig, och gå hellre till sidan än att stanna mitt i flödet."
         },
         {
           "type": "p",
@@ -55,7 +55,7 @@
         },
         {
           "type": "p",
-          "text": "Det här är allmänna råd som inte kunde bekräftas i våra sökningar, så följ gruppens egna rutiner."
+          "text": "Det här är allmänna råd. Följ alltid gruppens egna rutiner."
         },
         {
           "type": "observe",
@@ -67,7 +67,7 @@
             "Vilka utgångar finns?",
             "Vad skulle du göra om du hamnade på fel perrong?"
           ],
-          "textAlternative": "Utan bild: planera en tänkt resa mellan två stationer. Skriv ner linje, perrong, riktning och en plan B om du missar tåget.",
+          "textAlternative": "Planera en tänkt resa mellan två stationer. Skriv ner linje, perrong, riktning och en plan B om du missar tåget.",
           "imageSlotIds": [
             "t12-k03-hero"
           ]
@@ -192,28 +192,28 @@
     },
     {
       "id": "q2",
-      "prompt": "Vad behöver Google Maps för kollektivtrafik?",
+      "prompt": "Vad behöver du för att få tider och byten i en kollektivtrafikapp?",
       "options": [
         {
           "id": "a",
-          "text": "Internet",
+          "text": "Internetuppkoppling",
           "correct": true,
-          "feedback": "Rätt, enligt en guide."
+          "feedback": "Rätt. Kartor kan laddas ned i förväg, men för kollektivtrafik behövs internet."
         },
         {
           "id": "b",
-          "text": "Ingenting",
-          "feedback": "Fel."
+          "text": "Ett fysiskt busskort",
+          "feedback": "Fel. Det behövs inte för att få färdförslag."
         },
         {
           "id": "c",
-          "text": "Ett tåg",
-          "feedback": "Fel."
+          "text": "En tryckt tidtabell",
+          "feedback": "Fel. Appen visar tider och byten själv, men den behöver internet."
         },
         {
           "id": "d",
-          "text": "Bara papper",
-          "feedback": "Fel."
+          "text": "Ett japanskt telefonnummer",
+          "feedback": "Fel. Du behöver inget japanskt nummer, men du behöver internet."
         }
       ]
     },

@@ -95,7 +95,7 @@
           "type": "callout",
           "tone": "check",
           "title": "Vid tyfonvarning",
-          "text": "Stanna inomhus om det är farligt ute, håll avstånd till kust och floder, och följ gruppens ledares anvisningar. Planera en reservdag eller en inomhusaktivitet."
+          "text": "Stanna inomhus om det är farligt ute, håll avstånd till kust och floder, och följ gruppledarens anvisningar. Planera en reservdag eller en inomhusaktivitet."
         }
       ]
     },
@@ -105,7 +105,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "I oktober är det oftast **mild och behaglig luft** i större delen av landet, men nätterna kan vara svala. Klä dig i lager, och ha med ett regnskydd. I norr och i bergen kan det vara klart kallare. I Okinawa är det fortfarande sommarvarmt."
+          "text": "I oktober är luften oftast **mild och behaglig** i större delen av landet, men nätterna kan vara svala. Klä dig i lager, och ha med ett regnskydd. I norr och i bergen kan det vara klart kallare. I Okinawa är det fortfarande sommarvarmt."
         },
         {
           "type": "list",
@@ -126,7 +126,7 @@
             "Vad har människor omkring dig på sig? Passar det med prognosen?",
             "Hur ändrar du dina planer om det regnar eller blåser?"
           ],
-          "textAlternative": "Utan bild: titta på prognosen för din ort idag. Vilka kläder skulle du välja, och varför?",
+          "textAlternative": "Titta på prognosen för din ort idag. Vilka kläder skulle du välja, och varför?",
           "imageSlotIds": []
         }
       ]

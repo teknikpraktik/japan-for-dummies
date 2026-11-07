@@ -15,7 +15,7 @@
   "minutes": 8,
   "hook": {
     "kind": "question",
-    "text": "En artist som inte är människa fyller konsertarenor. En grupp med sextio medlemmar väljs ut genom omröstning av fansen. Vad är det för kultur?"
+    "text": "En artist som inte är människa fyller konsertarenor. I en idolgrupp kan fansen rösta fram vilka medlemmar som får stå längst fram. Vad är det för kultur?"
   },
   "sections": [
     {
@@ -28,7 +28,7 @@
         },
         {
           "type": "p",
-          "text": "Samtidigt finns en stor bredd av musik: J-pop, rock, hiphop, elektronisk musik, traditionell musik och mycket annat. **Hatsune Miku** började som ett röstsyntesprogram och blev en känd virtuell artist, med låtar som skrivs av användare. Vem som helst kan göra musik med programmet, och fansen deltar i skapandet."
+          "text": "Samtidigt finns en stor bredd av musik: J-pop, rock, hiphop, elektronisk musik, traditionell musik och mycket annat. **Hatsune Miku** började som ett röstsyntesprogram (Vocaloid) och blev en känd virtuell artist, med låtar som skrivs av användare. Vem som helst kan göra musik med programmet, och fansen deltar i skapandet."
         }
       ]
     },
@@ -38,11 +38,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japan har en lång spelhistoria. Spelhallar, konsolspel, mobilspel och stora spelbolag har präglat spelkulturen, och spelhallar (se kapitlet om fritid) är fortfarande en mötesplats. Många mindre utvecklare gör också indiespel. Nätkultur, delning av klipp och fanskapande har blivit en stor del av populärkulturen, ofta tillsammans med manga och anime."
+          "text": "Japan har en lång spelhistoria. Spelhallar, konsolspel, mobilspel och stora spelbolag har präglat spelkulturen, och spelhallar (se kapitlet [Fritid, vänner och vardag](/kapitel/fritid-vanner-och-vardag/)) är fortfarande en mötesplats. Många mindre utvecklare gör också indiespel. Nätkultur, delning av klipp och fanskapande har blivit en stor del av populärkulturen, ofta tillsammans med manga och anime."
         },
         {
           "type": "p",
-          "text": "På fritiden lyssnar, spelar och delar ungdomar olika saker: det finns lika många smaker som personer. Karaoke (se kapitlet om fritid) är ett vanligt sätt att umgås, men inte det enda."
+          "text": "På fritiden lyssnar, spelar och delar ungdomar olika saker: det finns lika många smaker som personer. Karaoke (se kapitlet [Fritid, vänner och vardag](/kapitel/fritid-vanner-och-vardag/)) är ett vanligt sätt att umgås, men inte det enda."
         },
         {
           "type": "p",
@@ -174,22 +174,22 @@
           "id": "a",
           "text": "Röstsyntesprogram som används för att göra sång",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Hatsune Miku började som ett sådant program."
         },
         {
           "id": "b",
-          "text": "En skola",
-          "feedback": "Fel."
+          "text": "Ett karaokesystem",
+          "feedback": "Fel. Vocaloid är ett röstsyntesprogram."
         },
         {
           "id": "c",
-          "text": "Ett tåg",
-          "feedback": "Fel."
+          "text": "En animestudio",
+          "feedback": "Fel. Vocaloid är ett röstsyntesprogram."
         },
         {
           "id": "d",
-          "text": "Ett kök",
-          "feedback": "Fel."
+          "text": "En speltillverkare",
+          "feedback": "Fel. Vocaloid är ett röstsyntesprogram."
         }
       ]
     },

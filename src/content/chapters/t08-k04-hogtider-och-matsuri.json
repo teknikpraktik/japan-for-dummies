@@ -15,7 +15,7 @@
   "minutes": 8,
   "hook": {
     "kind": "question",
-    "text": "Japan firar tusentals festivaler varje år. Men vilka är de stora, och vad händer i oktober, när du kanske reser?"
+    "text": "Japan firar tiotusentals festivaler varje år. Men vilka är de stora, och vad händer i oktober, när du kanske reser?"
   },
   "sections": [
     {
@@ -43,7 +43,7 @@
             },
             {
               "when": "Juli eller augusti",
-              "text": "**Obon** hedrar de döda, med lyktor och dans, och mycket av landet reser."
+              "text": "**Obon** hedrar de döda, med lyktor och dans, och många i landet reser."
             },
             {
               "when": "September–oktober",
@@ -83,7 +83,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Höstfestivaler varierar mycket mellan orter och år, och datum kan ändras. Ett exempel: Takayama höstfest hålls vanligen 9–10 oktober. Räkna inte med något specifikt: kontrollera datum hos den lokala turistbyrån eller på festivalens egen sida innan du planerar, och ha en plan B eftersom en festival kan vara inställd, flyttad eller kortare än väntat. Det händer ofta små lokala fester som inte syns i guideböcker, och det är en bonus om du råkar hamna på en."
+          "text": "Höstfestivaler varierar mycket mellan orter och år, och datum kan ändras. Ett exempel: Takayama höstfest hålls vanligen 9–10 oktober. Räkna inte med något specifikt: kontrollera datum hos den lokala turistbyrån eller på festivalens egen sida innan du planerar, och ha en plan B eftersom en festival kan vara inställd, flyttad eller kortare än väntat. Det hålls ofta små lokala fester som inte syns i guideböcker, och det är en bonus om du råkar hamna på en."
         }
       ]
     }
@@ -259,7 +259,7 @@
     },
     {
       "id": "q4",
-      "prompt": "Varför bör man vara försiktig när man planerar en festival?",
+      "prompt": "Varför bör man vara försiktig när man planerar att gå på en festival?",
       "options": [
         {
           "id": "a",

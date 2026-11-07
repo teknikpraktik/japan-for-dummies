@@ -113,7 +113,7 @@
             "Finns romaji eller engelska som du kan jämföra med?",
             "Vilka tecken återkommer?"
           ],
-          "textAlternative": "Utan bild: leta efter tecken i hemmiljön, till exempel på en matförpackning med japansk text. Vilka tecken kan du känna igen, och vilken är den mest återkommande?",
+          "textAlternative": "Leta efter tecken i hemmiljön, till exempel på en matförpackning med japansk text. Vilka tecken kan du känna igen, och vilken är den mest återkommande?",
           "imageSlotIds": [
             "t05-k02-hero"
           ]

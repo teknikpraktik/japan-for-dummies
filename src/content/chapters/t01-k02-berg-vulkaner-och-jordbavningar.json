@@ -89,11 +89,11 @@
         },
         {
           "type": "p",
-          "text": "Den stora jordbävningen och tsunamin i Tohoku i mars 2011 var en av de kraftigaste som uppmätts och orsakade en jättelik tsunami som tog många tusen människors liv. Sedan dess har Japan förstärkt både varningar, evakueringsvägar och övningar."
+          "text": "Jordbävningen i Tohoku i mars 2011 var en av de kraftigaste som uppmätts och orsakade en jättelik tsunami. Den tog många tusen människors liv. Sedan dess har Japan förstärkt både varningar, evakueringsvägar och övningar."
         },
         {
           "type": "p",
-          "text": "Byggreglerna har skärpts efter hand. Efter 1981 skärptes kraven för nya hus (den så kallade nya jordbävningsstandarden), och höga byggnader kan ha **dämpning** eller **fjädrande fundament** som tar upp skakningarna. Äldre byggnader är mer sårbara. Därför tittar man särskilt på hur gamla hus står emot."
+          "text": "Byggreglerna har skärpts i flera steg. Särskilt 1981 skärptes kraven för nya hus (den så kallade nya jordbävningsstandarden), och höga byggnader kan ha **dämpning** eller **fjädrande fundament** som tar upp skakningarna. Äldre byggnader är mer sårbara. Därför tittar man särskilt på hur gamla hus står emot."
         },
         {
           "type": "callout",
@@ -139,7 +139,7 @@
             "Leta efter skyltar som visar var man ska ta skydd eller evakuera.",
             "Notera om det finns en plan eller anvisning för vad som gäller vid jordbävning."
           ],
-          "textAlternative": "Utan bild: tänk på en byggnad du ofta är i. Var finns utgången, och vet du vad du skulle göra om det började skaka?",
+          "textAlternative": "Tänk på en byggnad du ofta är i. Var finns utgången, och vet du vad du skulle göra om det började skaka?",
           "imageSlotIds": [
             "t01-k02-vulkan"
           ]
