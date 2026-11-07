@@ -1,0 +1,319 @@
+{
+  "id": "t11-k03",
+  "slug": "avfall-och-atervinning",
+  "themeId": "miljo",
+  "order": 3,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Avfall, sortering och återvinning",
+  "summary": "Varför sopsortering ser olika ut mellan kommuner, och hur du som besökare kan göra rätt.",
+  "objectives": [
+    "Beskriva hur sortering kan se ut",
+    "Förstå varför papperskorgar kan saknas",
+    "Hantera eget avfall under resan"
+  ],
+  "minutes": 7,
+  "hook": {
+    "kind": "question",
+    "text": "Du läser en lapp på hotellet: PET-flaskan ska sköljas, korken tas av och etiketten dras av. Varför är det så noga?"
+  },
+  "sections": [
+    {
+      "id": "sortering",
+      "heading": "Sortering varierar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sopsortering i Japan sköts av **kommunen**, och regler och hämtningsdagar skiljer sig mellan orter. En vanlig uppdelning är fyra till åtta kategorier, till exempel **brännbart**, **icke brännbart**, **plast**, **PET-flaskor**, **burkar** och **glas**, **papper** och **storsopor**. Kommunen delar ut en kalender med hämtningsdagar."
+        },
+        {
+          "type": "p",
+          "text": "PET-flaskan är ett typiskt exempel: många kommuner ber dig skölja flaskan, ta av korken och etiketten och sortera dem i olika kärl (till exempel plast för kork och etikett), men detaljerna skiljer sig. Flaskor som innehållit matolja eller inte går att tvätta kan hänvisas till brännbart."
+        }
+      ]
+    },
+    {
+      "id": "forbranning",
+      "heading": "Förbränning och återvinning",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "En stor del av hushållsavfallet förbränns i anläggningar, enligt en källa omkring 70 procent, men den siffran är inte kontrollerad. Sortering gör förbränningen renare och återvinning möjlig. Det saknas i våra sökningar nationella siffror för återvinning, så uppgifterna är osäkra."
+        },
+        {
+          "type": "p",
+          "text": "Offentliga papperskorgar är sällsynta (se kapitlet om offentligt beteende). Ta med skräpet till hotellet eller till ett sorteringskärl vid en butik, station eller automat."
+        }
+      ]
+    },
+    {
+      "id": "besokare",
+      "heading": "Som besökare",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ta med en liten påse för skräp under dagen.",
+            "Använd kärl vid butiker, stationer och automater, och följ symbolerna.",
+            "På hotell och bostäder: fråga hur sorteringen fungerar och följ instruktionerna.",
+            "Skölj, ta av kork och etikett från PET-flaskor om det ber dig om det.",
+            "Om du är osäker: fråga personalen."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Respekt för lokala regler",
+          "text": "Sorteringen kan kännas krånglig, men den är viktig för lokalsamhället. Ett enkelt ”Kore wa doko ni suteru no?” (”Var kastar jag det här?”) räcker långt."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "pet",
+      "title": "PET-flaska",
+      "prompt": "Hur sorteras en PET-flaska ofta?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skölj, ta av kork och etikett och sortera dem separat.",
+          "correct": true,
+          "feedback": "Rätt, men detaljerna varierar."
+        },
+        {
+          "id": "b",
+          "text": "Kastas rakt i brännbart.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Grävs ned.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "kommun",
+      "title": "Regler",
+      "prompt": "Vem bestämmer sorteringsreglerna?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kommunen",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ingen",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Alla bestämmer själva",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "skrap",
+      "title": "Utan papperskorg",
+      "situation": "Du har skräp och hittar ingen papperskorg.",
+      "question": "Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tar med det och söker ett kärl eller hotellet.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Lägger det på marken.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Går därifrån.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Var finns sorteringskärl, och vilka symboler har de?",
+    "Hur sorterar människor på stationer och i butiker?",
+    "Hur är ditt eget skräp?"
+  ],
+  "reflection": "Hur sorterar du hemma? Vad skulle en besökare behöva veta?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vem fastställer hämtningsdagar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kommunen",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Staten ensam",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Grannen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vilka kategorier är vanliga?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Brännbart, plast, PET och burkar",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Bara en",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Inga",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Tio hundra",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad gör du med skräp om du inte hittar kärl?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tar med det",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Lämnar det",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Kastar det",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bränner det",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Varför är sortering viktig?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gör förbränning renare och återvinning möjlig.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det är bara en vana.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Det är tråkigt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Det spelar ingen roll.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vilken fras kan du använda för att fråga var du kastar något?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kore wa doko ni suteru no?",
+          "correct": true,
+          "feedback": "Rätt (”Var kastar jag det här?”)."
+        },
+        {
+          "id": "b",
+          "text": "Arigatō.",
+          "feedback": "Det är tack."
+        },
+        {
+          "id": "c",
+          "text": "Sayonara.",
+          "feedback": "Det är hej då."
+        },
+        {
+          "id": "d",
+          "text": "Itadakimasu.",
+          "feedback": "Det är före maten."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "suginami-garbage-guide",
+    "expatica-recycling-japan",
+    "cnn-trash-cans"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Kategorierna och PET-reglerna kommer från resenärsguider och en kommuns dokument. Reglerna skiljer sig mellan kommuner.",
+      "Uppgiften att omkring 70 procent förbränns kommer från en guide och är inte kontrollerad. Sökningen gav inga nationella återvinningssiffror.",
+      "Frasen (”Kore wa doko ni suteru no?”) är allmän kunskap och bör granskas av en japansklärare."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t11-k03-hero",
+    "imageId": null,
+    "brief": "Sorteringskärl eller sopor i en japansk stad."
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "id": "t11-k02",
+  "slug": "katastrofberedskap",
+  "themeId": "miljo",
+  "order": 2,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Katastrofberedskap: jordbävning, tsunami och taifun",
+  "summary": "Hur samhället förbereder sig, hur varningar fungerar och vad du gör som besökare.",
+  "objectives": [
+    "Förklara hur varningssystem fungerar",
+    "Veta var du hittar information på plats",
+    "Följa grundläggande säkerhetsråd"
+  ],
+  "minutes": 9,
+  "hook": {
+    "kind": "question",
+    "text": "Din telefon larmar mitt under en promenad. Kan du förstå vad den säger, och vet du vad du ska göra?"
+  },
+  "sections": [
+    {
+      "id": "varning",
+      "heading": "Varningar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan utsätts för jordbävningar, tsunamier, taifuner, kraftigt regn och vulkanutbrott (se temat om geografi), och har byggt upp ett omfattande beredskapssystem. **J-Alert** är det nationella varningssystemet (från 2007) för bland annat jordbävning och tsunami. Varningar sprids via högtalare, tv, radio och mobilen. En **jordbävningsvarning** kan komma sekunder till tiotals sekunder före de stora skakningarna, och räknar ut dem från de första små skakningarna."
+        },
+        {
+          "type": "p",
+          "text": "Som besökare kan du ladda ned en app med flerspråkiga varningar, till exempel **Safety tips** från den japanska turistmyndigheten, som ger varningar om jordbävning, tsunami och väder på flera språk."
+        }
+      ]
+    },
+    {
+      "id": "rad",
+      "heading": "Grundläggande råd",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Jordbävning:** skydda dig, till exempel under ett stadigt bord, och håll dig borta från fönster och föremål som kan falla. Intensiteten mäts med skalan shindo (0 till 7). Efter skakningarna: kontrollera dig själv och andra, och följ lokala instruktioner. Efterskalv kan komma."
+        },
+        {
+          "type": "p",
+          "text": "**Tsunami:** om du är nära kusten och känner en stark, lång skakning, eller får en varning, gå genast till högre mark eller en tsunamievakueringsbyggnad utan att vänta. En tsunami kan komma i flera vågor, och du ska inte gå ned till stranden förrän varningen hävts."
+        },
+        {
+          "type": "p",
+          "text": "**Taifun och kraftigt regn:** följ prognoser, undvik floder, branta kustavsnitt och berg, och räkna med inställda tåg. Skydda dig inomhus och planera extra marginal (se kapitlet om klimat)."
+        }
+      ]
+    },
+    {
+      "id": "plats",
+      "heading": "På plats",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Titta efter evakueringsskyltar, och lär dig var närmaste utgång och samlingsplats finns på hotellet. Frågar personalen hur man gör vid larm. Japan har flera beredskapsövningar, och människor är ofta vana vid att följa instruktioner. Efter jordbävningen på Notohalvön har beredskapen kritiserats för brist på förråd och sena evakueringscenter, och regeringen planerade nya åtgärder."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Det här är ingen ersättning för officiella råd",
+          "text": "Följ alltid lokala myndigheters instruktioner och din reseledare. Vid akut fara ringer du 110 (polis) eller 119 (ambulans och brand)."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "tsunami",
+      "title": "Tsunami",
+      "prompt": "Du är vid kusten och känner en lång, kraftig skakning. Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Går genast till högre mark.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Väntar på en varning.",
+          "correct": false,
+          "feedback": "Vänta inte."
+        },
+        {
+          "id": "c",
+          "text": "Går ned till stranden för att titta.",
+          "correct": false,
+          "feedback": "Farligt."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "app",
+      "title": "Information",
+      "prompt": "Vilken typ av app kan hjälpa besökare?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En app med varningar på flera språk, till exempel Safety tips.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En spelapp.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingen.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "hotell",
+      "title": "På hotellet",
+      "situation": "Du kommer till ett nytt hotell och vill vara förberedd.",
+      "question": "Vad gör du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tar reda på utgångar och samlingsplats och frågar personalen.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Strunta i det.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Gå upp på taket.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Var ser du evakueringsskyltar och samlingsplatser?",
+    "Hur informeras människor om risker i din närhet?",
+    "Vilken app och vilka kontakter har du förberett?"
+  ],
+  "reflection": "Vilka risker finns där du bor, och hur förbereder sig människor? Vad kan du lära dig av hur andra gör?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad är J-Alert?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Japans nationella varningssystem",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En maträtt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tåg",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En skola",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad gör du vid en tsunamivarning vid kusten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Går genast till högre mark.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Väntar på stranden.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Går till havet.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ringer ingen.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vilket nummer ringer du till ambulans och brand?",
+      "options": [
+        {
+          "id": "a",
+          "text": "119",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "110",
+          "feedback": "Det är polisen."
+        },
+        {
+          "id": "c",
+          "text": "112",
+          "feedback": "Fel för Japan."
+        },
+        {
+          "id": "d",
+          "text": "911",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad mäter shindo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jordbävningens intensitet på en plats (0–7)",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Vattennivå",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Temperatur",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Vindhastighet",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Varför ska du inte gå ned till stranden direkt efter en tsunami?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Flera vågor kan komma.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det är kallt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Det är olagligt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Det är alltid säkert.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "wikiwand-jalert",
+    "jnto-safety-tips",
+    "japantravel-tsunami",
+    "wikipedia-jma-intensity"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Råden är allmänna och bygger på en reseguide och en turistmyndighets appbeskrivning. De är inget ersättande av officiella instruktioner. Detaljer om hur man agerar vid jordbävning och efterskalv är allmän kunskap och bör granskas av en beredskapskunnig.",
+      "Uppgiften om 110/119 är allmän kunskap som inte kontrollerades mot en källa.",
+      "Beskrivningen av Notohalvön-jordbävningen och regeringens planer bygger på en nyhetssammanfattning från 2024 och kan vara inaktuell.",
+      "Sökningen gav ingenting om Katastrofdagen den 1 september eller om övningar.",
+      "Bildtexten om tsunamiskylten (Kamakura, 2016) bygger på Commons-beskrivningen. Texten på skylten är inte översatt i detalj."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t11-k02-hero",
+    "imageId": "tsunamiskylt-kamakura",
+    "brief": "Skylt om utrymning eller tsunami i en japansk kuststad."
+  }
+}

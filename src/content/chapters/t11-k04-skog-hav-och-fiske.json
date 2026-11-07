@@ -1,0 +1,313 @@
+{
+  "id": "t11-k04",
+  "slug": "skog-hav-och-fiske",
+  "themeId": "miljo",
+  "order": 4,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Skog, hav och fiske",
+  "summary": "Hur skogsbruk och fiske har format kust- och bergsbygder, och vilka utmaningar som finns.",
+  "objectives": [
+    "Förklara skogens och havets roll",
+    "Beskriva hållbarhetsfrågor i fiske och skogsbruk",
+    "Relatera till egna konsumtionsval"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Omkring två tredjedelar av Japan är skog. Men mycket av den har människan planterat. Hur påverkar det landskapet?"
+  },
+  "sections": [
+    {
+      "id": "skog",
+      "heading": "Skogen",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ungefär **två tredjedelar av Japans yta** är skog, cirka 25 miljoner hektar (källor anger 67 procent, andra något högre). En stor andel, ungefär 40–44 procent, är **planterade skogar**, främst **ceder (sugi)** och **cypress (hinoki)** som planterades i stor skala efter kriget. De används till byggnader och trähus (se kapitlet om arkitektur)."
+        },
+        {
+          "type": "p",
+          "text": "Många planterade skogar sköts idag dåligt, bland annat för att landsbygden åldras och krymper (se kapitlet om det åldrande samhället) och vissa skogar överges. Det rapporteras också att regeringen planerar att avverka en femtedel av vissa planteringar under tio år, men det är en enskild källa. Skogen binder också koldioxid, vilket är en del av klimatpolitiken."
+        }
+      ]
+    },
+    {
+      "id": "hav",
+      "heading": "Havet och fisket",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan är en ö-nation, och havet har format kost, byar och traditioner (se kapitlet om det japanska köket). Fisk och skaldjur är en viktig del av maten. Fiskeri och vattenbruk finns längs kusterna, från Hokkaido till Okinawa. Den här delen bygger mest på allmän bakgrund: sökningen gav ingen information om fångstutveckling, vattenbruk eller hållbarhetsfrågor."
+        },
+        {
+          "type": "p",
+          "text": "Fisket möter flera utmaningar som också diskuteras i många länder: överfiske, klimatförändringar som flyttar fiskbestånd, färre fiskare och en åldrande befolkning i kustsamhällen, och frågor som utsläppet av behandlat vatten från Fukushima (se kapitlet om energi)."
+        }
+      ]
+    },
+    {
+      "id": "val",
+      "heading": "Egna val",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hur kopplar det till dina val? Fråga dig var maten kommer ifrån, hur den fångats eller odlats och om det finns märkning eller andra tecken på hållbarhet. Det finns inga enkla svar, och regler skiljer sig mellan länder. Du kan börja med att fråga lokalt: ”Var är den här fisken fångad?”"
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Inget enkelt facit",
+          "text": "Fiske och skogsbruk är komplexa frågor där människors försörjning, miljö och tradition hänger ihop. Undvik att moralisera över enskilda val."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "skog",
+      "title": "Skog",
+      "prompt": "Ungefär hur stor del av Japan är skog?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ungefär två tredjedelar",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En tiondel",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Nästan allt",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "sugi",
+      "title": "Cedrar",
+      "prompt": "Vilka trädslag dominerar plantagerna?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ceder och cypress",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Bananer",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Palmer",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "fisk",
+      "title": "På marknaden",
+      "situation": "Du står vid en fiskmonter och vill veta mer om fisken.",
+      "question": "Vad frågar du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Var är den fångad, och hur?",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Är det farligt?",
+          "correct": false,
+          "feedback": "Förutsätter något."
+        },
+        {
+          "id": "c",
+          "text": "Inget.",
+          "correct": false,
+          "feedback": "Du kan fråga."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka skogar och kustmiljöer ser du på resan?",
+    "Hur märks fisk och skaldjur i matkulturen?",
+    "Vilka tecken på åldrande bygder ser du?"
+  ],
+  "reflection": "Var kommer din mat ifrån? Vad vet du om hur den fångats eller odlats?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Ungefär hur stor andel av Japans yta är skog?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cirka 67 procent",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 7 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Cirka 97 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vilka trädslag används mycket i plantager?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ceder och cypress",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Palmer",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Kaktusar",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Banan",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad är en utmaning för skogsbruket?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Åldrande landsbygd och övergivna skogar",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "För många skogsarbetare",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Att träd är för korta",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är en utmaning för fisket?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Överfiske och klimatförändringar",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "För mycket is",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "För många båtar alltid",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inga",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad kan du göra som konsument?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fråga var maten kommer ifrån.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ingenting",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Gissa",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Aldrig äta",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "climatescorecard-forests",
+    "fao-japan-forests",
+    "wnn-iaea-fukushima-water"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Skogens andel (cirka 67 procent) och plantagernas andel (40–44 procent) varierar mellan källor och år. Uppgiften om att avverka en femtedel av plantagerna kommer från en enskild artikel och bör kontrolleras mot Skogsstyrelsen.",
+      "Delen om fiske bygger på allmän bakgrund. Sökningen gav ingen information om fångst, vattenbruk eller hållbarhet, och kapitlet bör kompletteras.",
+      "Beskrivningen av åldrande kustsamhällen är allmän bakgrund.",
+      "Bildtexten om cederplantaget bygger på Commons-kategorin (Cryptomeria japonica plantations in Japan)."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t11-k04-hero",
+    "imageId": "cederplantage",
+    "brief": "Skog, kust eller fiske i Japan."
+  }
+}

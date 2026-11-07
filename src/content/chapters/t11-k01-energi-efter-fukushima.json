@@ -1,0 +1,326 @@
+{
+  "id": "t11-k01",
+  "slug": "energi-efter-fukushima",
+  "themeId": "miljo",
+  "order": 1,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Energi efter Fukushima",
+  "summary": "Japans energimix och vad som hände efter 2011. Kapitlet redovisar olika perspektiv på kärnkraft, import och förnybart.",
+  "objectives": [
+    "Beskriva Japans energikällor",
+    "Förstå olika ståndpunkter om kärnkraft",
+    "Hitta aktuella uppgifter i stället för att gissa"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Före 2011 stod kärnkraften för ungefär en tredjedel av Japans el. Några år senare var den nästan noll. Vad hände, och hur ser det ut nu?"
+  },
+  "sections": [
+    {
+      "id": "mix",
+      "heading": "Elmixen",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan har få egna fossila energikällor och importerar mycket av sin olja, gas och kol. Enligt en tankesmedjas sammanställning stod **fossila bränslen för cirka 69 procent** av elen 2023, och Japan har den högsta andelen kolkraft av G7-länderna. **Kärnkraft** stod för omkring 7,6–8,5 procent (källorna skiljer sig) och **förnybart** utöver vindkraft (vattenkraft och bioenergi) för cirka 12 procent. **Vindkraft** var bara cirka 0,9 procent, lägst i G7."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Fossila bränslen",
+              "value": "Cirka 69 procent av elen (2023)"
+            },
+            {
+              "label": "Kärnkraft",
+              "value": "Cirka 7,6–8,5 procent (2023)"
+            },
+            {
+              "label": "Vind",
+              "value": "Cirka 0,9 procent (2023)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fukushima",
+      "heading": "Efter 2011",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Den 11 mars 2011 orsakade en mycket stor jordbävning och tsunami (se temat om geografi) en olycka vid kärnkraftverket Fukushima Daiichi. Efter olyckan stängdes kärnkraften ned och den andel el som kommer från kärnkraft föll från ungefär en tredjedel till nästan noll. Sedan dess har en del reaktorer successivt startat om efter nya säkerhetskontroller, och andelen har ökat långsamt."
+        },
+        {
+          "type": "p",
+          "text": "Efter olyckan har arbetet med att avveckla anläggningen pågått i decennier. Sedan 2023 släpps behandlat vatten från anläggningen ut i havet efter spädning. Internationella atomenergiorganet IAEA bedömde att planen stämde med internationella säkerhetsstandarder: reningssystemet ALPS tar bort 62 radioaktiva ämnen men inte tritium, som späds ut. Grannländer och lokala fiskare har uttryckt oro."
+        }
+      ]
+    },
+    {
+      "id": "perspektiv",
+      "heading": "Olika perspektiv",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Frågan om kärnkraft är laddad. Förespråkare menar att den minskar importberoendet och utsläppen. Kritiker pekar på riskerna för olyckor och avfall och på att jordbävningsrisken är hög. Regeringens energiplan siktar bland annat på att förnybart ska bli största kraftkälla till 2040, men kritiker anser att målen är för svaga."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Hitta aktuella uppgifter",
+          "text": "Energimixen ändras varje år. Använd aktuella källor, till exempel energiministeriet eller internationella energiorganet, i stället för att gissa eller förlita dig på äldre siffror, inklusive siffrorna i det här kapitlet."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "fossil",
+      "title": "Fossila bränslen",
+      "prompt": "Vad dominerade Japans elmix 2023?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fossila bränslen",
+          "correct": true,
+          "feedback": "Rätt, cirka 69 procent enligt en sammanställning."
+        },
+        {
+          "id": "b",
+          "text": "Kärnkraft",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Vindkraft",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "fuku",
+      "title": "2011",
+      "prompt": "Vad hände med kärnkraftens andel efter 2011?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den föll kraftigt men har ökat långsamt igen.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Den ökade direkt.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Den påverkades inte.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "rubrik",
+      "title": "I debatten",
+      "situation": "Någon säger: ”Japan har lagt ned all kärnkraft för alltid.”",
+      "question": "Hur svarar du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det stämmer inte: en del reaktorer har startat om, och frågan är omdiskuterad.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det stämmer.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Japan har aldrig haft kärnkraft.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Var ser du energiproduktion eller sparåtgärder: solceller, skyltar om energisparande?",
+    "Hur märks energifrågan i vardagen?",
+    "Vilka uppgifter kan du kontrollera själv på nätet?"
+  ],
+  "reflection": "Vilken energi använder du hemma, och vad vet du om var den kommer ifrån?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilket år inträffade Fukushima-olyckan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2011",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "1995",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "2023",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "1964",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Ungefär hur stor andel av elen kom från fossila bränslen 2023?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cirka 69 procent",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 5 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Cirka 100 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Cirka 20 procent",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad bedömde IAEA om utsläppet av behandlat vatten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att planen stämde med internationella säkerhetsstandarder",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Att det var förbjudet",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Att det var oviktigt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Att det aldrig skedde",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vilken andel hade vindkraft 2023 (ungefär)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Under 1 procent",
+          "correct": true,
+          "feedback": "Rätt, cirka 0,9 procent."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 50 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Cirka 30 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Cirka 90 procent",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en bra princip om energisiffror?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Använda aktuella källor.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Gissa.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Lita på gamla siffror.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ignorera dem.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "e3g-japan-power",
+    "thestar-renewables-2040",
+    "wnn-iaea-fukushima-water"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Elmixsiffrorna kommer från en tankesmedjas sammanställning (E3G) och källorna skiljer sig om kärnkraftens andel 2023 (7,6 eller 8,5 procent).",
+      "Att kärnkraften föll från ungefär en tredjedel till nästan noll efter 2011 och att reaktorer startat om är sammanfattat ur sökresultat.",
+      "Dödstalet efter jordbävningen 2011 anges inte. Vattenutsläppet 2023 bygger på IAEA-bedömningen via World Nuclear News, och perspektiven är förenklade.",
+      "Kapitlet bör uppdateras med aktuella uppgifter."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t11-k01-hero",
+    "imageId": "shinjuku-parktower",
+    "brief": "Energi i Japan, till exempel solceller eller en elnätsanläggning."
+  }
+}

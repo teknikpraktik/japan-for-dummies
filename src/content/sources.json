@@ -1118,5 +1118,115 @@
     "checkedOn": "2026-11-07",
     "access": "search-result-summary",
     "supports": "Att yenen i mitten av 2026 var mycket svag mot dollarn och att effekterna på ekonomin är ojämnt fördelade. Sammanfattning ur sökresultat."
+  },
+  {
+    "id": "e3g-japan-power",
+    "title": "G7 Power Systems Scorecard: Japan",
+    "publisher": "E3G",
+    "url": "https://www.e3g.org/g7-power-systems-scorecard/g7-power-systems-japan/",
+    "kind": "institution",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att fossila bränslen stod för cirka 69 procent av Japans elmix 2023, att kärnkraft var cirka 7,6–8,5 procent och att Japan har högst kolandel av G7. Uppgifterna är en tankesmedjas bedömning."
+  },
+  {
+    "id": "thestar-renewables-2040",
+    "title": "Japan to make renewables top power source by 2040",
+    "publisher": "The Star (AFP)",
+    "url": "https://thestar.com.my/lifestyle/living/2024/12/18/japan-to-make-renewables-top-power-source-by-2040",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Japans energiplan siktar på att förnybart blir största kraftkälla till 2040."
+  },
+  {
+    "id": "wikiwand-jalert",
+    "title": "J-Alert",
+    "publisher": "Wikiwand (Wikipedia)",
+    "url": "https://www.wikiwand.com/en/articles/J-Alert",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att J-Alert är Japans nationella varningssystem (från 2007) för bland annat jordbävning och tsunami och sprids via högtalare, tv, radio och mobil."
+  },
+  {
+    "id": "suginami-garbage-guide",
+    "title": "Garbage sorting guide for foreign residents (Suginami)",
+    "publisher": "Suginami City",
+    "url": "https://www.city.suginami.tokyo.jp/documents/5928/9gaikokugo.pdf",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att sorteringsregler och hämtningsdagar fastställs av kommunen och varierar, och exempel på kategorier som brännbart och PET-flaskor."
+  },
+  {
+    "id": "expatica-recycling-japan",
+    "title": "Trash and recycling in Japan",
+    "publisher": "Expatica",
+    "url": "https://expatica.com/jp/house/household/recycling-in-japan-79875",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Översikt över hushållssortering i Japan och att regler varierar mellan kommuner."
+  },
+  {
+    "id": "wikipedia-climate-japan",
+    "title": "Climate change in Japan",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Climate_change_in_Japan",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Översikt över klimatförändringens effekter och Japans klimatmål (nettonollutsläpp 2050)."
+  },
+  {
+    "id": "earth-org-japan-2050",
+    "title": "Japan's carbon neutral 2050 goal",
+    "publisher": "Earth.Org",
+    "url": "https://earth.org/japan-carbon-neutral-2050/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Japan 2020 satte målet nettonoll växthusgasutsläpp till 2050 och att kritiker saknar en trovärdig plan."
+  },
+  {
+    "id": "japantimes-climate-report-2025",
+    "title": "Climate change report",
+    "publisher": "The Japan Times",
+    "url": "https://www.japantimes.co.jp/environment/2025/03/27/climate-change/climate-change-report",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att en rapport från Japans meteorologiska myndighet beskriver klimatförändringens effekter, med bland annat fler häftiga regn. Sammanfattning ur sökresultat."
+  },
+  {
+    "id": "wnn-iaea-fukushima-water",
+    "title": "IAEA supports discharge of Fukushima Daiichi water",
+    "publisher": "World Nuclear News",
+    "url": "https://world-nuclear-news.org/articles/iaea-supports-discharge-of-fukushima-daiichi-water",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att IAEA bedömde att utsläppet av behandlat vatten från Fukushima Daiichi stämmer med internationella säkerhetsstandarder, att ALPS tar bort 62 radionuklider men inte tritium, och att grannländer uttryckt oro."
+  },
+  {
+    "id": "climatescorecard-forests",
+    "title": "Forests of the Rising Sun",
+    "publisher": "Climate Scorecard",
+    "url": "https://www.climatescorecard.org/2024/11/forests-of-the-rising-sun-a-vital-resource-in-japans-climate-strategy/",
+    "kind": "institution",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att omkring 67 procent av Japans yta är skog (cirka 25 miljoner hektar), att en stor del är planterade barrskogar (ceder, cypress) och att åldrande landsbygd lett till att vissa skogar överges."
+  },
+  {
+    "id": "fao-japan-forests",
+    "title": "Forests of Japan (FAO)",
+    "publisher": "FAO",
+    "url": "https://www.fao.org/4/w8301e/w8301e05.htm",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Skogens andel av landytan (cirka 67 procent) och fördelningen mellan planterad och naturlig skog. Äldre data (1995)."
   }
 ]
