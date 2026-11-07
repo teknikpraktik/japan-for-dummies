@@ -24,11 +24,38 @@
       "blocks": [
         {
           "type": "p",
-          "text": "**Ukiyo-e** är träsnitt och målningar från Edotiden (omkring 1600–1867). Ordet *ukiyo* syftar på nöjeskvarteren i städerna, och de tidiga bilderna visar teaterskådespelare, skönheter och scener från staden. Träsnittstekniken går tillbaka till 700-talet, då den användes för buddhistiska skrifter. Fullfärgstryck (*nishiki-e*) uppstod omkring 1764."
+          "text": "**Ukiyo-e** är träsnitt och målningar från Edotiden. Ordet *ukiyo* syftar på nöjeskvarteren i städerna, och de tidiga bilderna visar teaterskådespelare, skönheter och scener från staden."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "when": "700-talet",
+              "text": "Träsnittstekniken används för buddhistiska skrifter."
+            },
+            {
+              "when": "Edotiden, omkring 1600–1867",
+              "text": "Ukiyo-e blomstrar."
+            },
+            {
+              "when": "Omkring 1764",
+              "text": "Fullfärgstryck (*nishiki-e*) uppstår."
+            },
+            {
+              "when": "1800-talet",
+              "text": "Landskap blir ett stort tema genom **Hokusai** och **Hiroshige**, delvis kopplat till att fler reste."
+            }
+          ]
         },
         {
           "type": "p",
           "text": "På 1800-talet blev landskap ett stort tema genom **Hokusai** och **Hiroshige**, delvis kopplat till att fler reste. Hokusais *Trettiosex vyer av berget Fuji* (där Den stora vågen ingår) och Hiroshiges vyer är bland de mest kända. Bilderna framställdes av ett team: en konstnär, en snidare och en tryckare, och trycktes i många exemplar, vilket gjorde dem prisvärda för många."
+        },
+        {
+          "type": "photo",
+          "slotId": "t09-k02-hiroshige",
+          "imageId": "hiroshige-nihonbashi",
+          "brief": "Ett träsnitt av Hiroshige som exempel på ukiyo-e med landskap och stadsliv."
         }
       ]
     },
@@ -38,11 +65,22 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japan har en lång tradition av hantverk: **keramik** (som raku och arita), **lackarbeten** (urushi), **textil** som indigofärgat tyg, **handgjort papper** (washi), svärd och knivar, bambu och trä. Många föremål är avsedda för vardagen, till exempel skålar och kärl, medan andra är konst. Idén att reparera, till exempel med kintsugi (att laga keramik med lack och guld), är också känd."
+          "text": "Japan har en lång tradition av hantverk. Några exempel:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Keramik**, till exempel raku och arita.",
+            "**Lackarbeten** (urushi).",
+            "**Textil**, till exempel indigofärgat tyg.",
+            "**Handgjort papper** (washi).",
+            "Svärd och knivar, bambu och trä."
+          ]
         },
         {
           "type": "p",
-          "text": "Hantverket kan vara knutet till en plats: orter är kända för sin lera, sitt papper eller sitt tyg, och kunskapen går ofta vidare i familjer eller verkstäder."
+          "text": "Många föremål är avsedda för vardagen, till exempel skålar och kärl, medan andra är konst. Idén att reparera, till exempel med kintsugi (att laga keramik med lack och guld), är också känd. Hantverket kan vara knutet till en plats: orter är kända för sin lera, sitt papper eller sitt tyg, och kunskapen går ofta vidare i familjer eller verkstäder."
         }
       ]
     },
@@ -55,10 +93,8 @@
           "text": "Flera hantverk har svårt att hitta nya utövare, och verkstäder får färre lärlingar. Samtidigt möter hantverket samtiden: designers samarbetar med hantverkare, produkter säljs internationellt och turister kan prova själva på workshops. Vissa hantverkstraditioner har fått status som kulturarv."
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Fråga i verkstaden",
-          "text": "På museum och i verkstäder: fråga vem som gjort föremålet, hur lång tid det tar, hur man lär sig och vad som är svårast. Fråga innan du tar bilder."
+          "type": "p",
+          "text": "På museum och i verkstäder kan du ställa frågor: vem som gjort föremålet, hur lång tid det tar, hur man lär sig och vad som är svårast. Fråga också innan du tar bilder."
         }
       ]
     }

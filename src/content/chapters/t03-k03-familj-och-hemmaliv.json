@@ -19,16 +19,12 @@
   },
   "sections": [
     {
-      "id": "former",
-      "heading": "Hur hushållen ser ut",
+      "id": "hushall",
+      "heading": "Hushållen och vardagen",
       "blocks": [
         {
           "type": "p",
-          "text": "Den typiska hushållsformen i Japan har förändrats över tid. Kärnfamiljer (par, med eller utan barn, eller en förälder med barn) är den största gruppen, drygt hälften av hushållen enligt Statistikbyrån. **Enpersonshushåll** är den snabbast växande: de var 34,6 procent av hushållen 2015, jämfört med cirka 23 procent 1990."
-        },
-        {
-          "type": "p",
-          "text": "Hushållen har också blivit mindre: i genomsnitt 2,33 personer 2015, jämfört med 2,98 år 1990. Fler par saknar barn, och fler äldre bor ensamma. Hushåll med flera generationer finns kvar men är en minoritet."
+          "text": "Bilden av tre generationer under ett tak är seglivad, men den passar bara en minoritet. Den typiska hushållsformen har förändrats över tid. Kärnfamiljer (par, med eller utan barn, eller en förälder med barn) är den största gruppen, drygt hälften av hushållen enligt Statistikbyrån. **Enpersonshushåll** är den snabbast växande: de var 34,6 procent av hushållen 2015, jämfört med cirka 23 procent 1990."
         },
         {
           "type": "facts",
@@ -46,40 +42,28 @@
               "value": "Största gruppen, drygt hälften"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "boende",
-      "heading": "Boende, arbete och vardag",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Hur man bor hänger ihop med arbetet. I storstäderna är bostäderna ofta små och dyra, och många pendlar långt. Långa arbetsdagar kan göra det svårt att kombinera arbete och familjeliv. Många äldre bor kvar i egna hem på landsbygden, medan barnen flyttat till städer."
         },
         {
           "type": "p",
-          "text": "Dessa mönster varierar. Det finns familjer med två yrkesarbetande föräldrar, ensamstående föräldrar, familjer som bor nära släkt och familjer som bor långt ifrån. Samma person kan ha olika vardag beroende på var hen bor."
+          "text": "Hushållen har alltså blivit mindre. Fler par saknar barn och fler äldre bor ensamma. Hushåll med flera generationer finns kvar, men de är en minoritet."
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "En rad bilder, inte en",
-          "text": "Ord som ”den japanska familjen” döljer att familjeformerna varierar. Bilden av tre generationer under ett tak var inte allmän ens förr, och passar idag bara en minoritet."
+          "type": "p",
+          "text": "Hur man bor hänger ihop med arbetet. I storstäderna är bostäderna ofta små och dyra och många pendlar långt, och långa arbetsdagar kan göra det svårt att kombinera arbete och familjeliv. Många äldre bor kvar i egna hem på landsbygden medan barnen flyttat till städerna. Det finns familjer med två yrkesarbetande föräldrar, ensamstående föräldrar, familjer som bor nära släkt och familjer som bor långt ifrån varandra. Ord som ”den japanska familjen” döljer den variationen."
         }
       ]
     },
     {
       "id": "regler",
-      "heading": "Namn, äktenskap och förändring",
+      "heading": "Efternamn och familjelagar",
       "blocks": [
         {
           "type": "p",
-          "text": "Lagen kräver att gifta par har **samma efternamn**. I praktiken byter i de flesta fall kvinnan namn. Högsta domstolen godkände kravet 2015 och igen 2021, men uppmanade parlamentet att diskutera frågan. Opinionen och debatten har förändrats över tid, och frågan är fortfarande omdiskuterad."
+          "text": "Lagen kräver att gifta par har **samma efternamn**. I praktiken byter i de flesta fall kvinnan namn. Högsta domstolen godkände kravet 2015 och igen 2021 men uppmanade parlamentet att diskutera frågan, som fortfarande är omdiskuterad."
         },
         {
           "type": "p",
-          "text": "Diskussionerna om familjens form, till exempel namnlagar och vilka par som kan gifta sig, visar att samhället är i rörelse. Du behöver inte ha en åsikt för att förstå att frågorna finns."
+          "text": "Frågor om familjens form, till exempel namnlagar och vilka par som kan gifta sig, visar att samhället är i rörelse. Du behöver inte ha en åsikt för att förstå att frågorna finns."
         }
       ]
     }

@@ -19,16 +19,35 @@
   },
   "sections": [
     {
-      "id": "san",
-      "heading": "Namn och -san",
+      "id": "halsning",
+      "heading": "En första hälsning",
       "blocks": [
         {
           "type": "p",
-          "text": "Det japanska namnet skrivs och uttalas oftast med **efternamnet först**: Tanaka Hiroshi är Hiroshi av familjen Tanaka. I samtal kallar man ofta någon vid efternamnet plus en titel, som **-san**. Tanaka-san fungerar för män och kvinnor, unga och gamla."
+          "text": "Så kan ett första möte med en värd låta. Exemplet är påhittat, men fraserna är vanliga:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Du:** Hajimemashite. Watashi wa Emil desu. Suēden kara kimashita. Yoroshiku onegaishimasu.",
+            "**Värden:** Hajimemashite. Tanaka desu. Yoroshiku onegaishimasu.",
+            "**Du** (nickar lätt): Tanaka-san, arigatō gozaimasu."
+          ]
         },
         {
           "type": "p",
-          "text": "Några andra suffix: **-sama** är mer formellt, **-kun** används ofta om pojkar och yngre och **-chan** om barn eller nära vänner. Som besökare är **-san** det säkraste valet. Du använder aldrig -san om dig själv."
+          "text": "Fraserna betyder ungefär: ”Trevligt att träffas. Jag är Emil. Jag kommer från Sverige. Jag ser fram emot att lära känna dig.” **Yoroshiku onegaishimasu** används i början av ett möte eller en relation. Det är vanligt att man nickar eller bugar lätt när man hälsar, och du kan göra detsamma. Ett handslag är också möjligt om den andra tar initiativ. Om du glömmer något hjälper ett vänligt ”sumimasen” (ursäkta) i många lägen."
+        }
+      ]
+    },
+    {
+      "id": "namn",
+      "heading": "Namn, suffix och artighetsnivåer",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Det japanska namnet skrivs och uttalas oftast med **efternamnet först**: Tanaka Hiroshi är Hiroshi av familjen Tanaka. I samtal kallar man ofta någon vid efternamnet plus en titel, som **-san**. Tanaka-san fungerar för män och kvinnor, unga och gamla. Som besökare är -san det säkraste valet, och du använder aldrig -san om dig själv."
         },
         {
           "type": "facts",
@@ -46,36 +65,10 @@
               "value": "Används ofta mellan vänner, till barn eller yngre"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "niva",
-      "heading": "Olika nivåer av artighet",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Japanskan har olika **nivåer av artighet**. Det vänliga, vanliga artiga språket (teineigo) slutar ofta på **-masu** eller **desu**. Vardagsspråk mellan vänner är mer rakt (”plain form”). Dessutom finns det mycket artiga former, **sonkeigo** (att visa respekt för den man talar med) och **kenjōgo** (att vara ödmjuk om sig själv). Det är medvetet mycket att lära sig, och japaner förväntar sig inte att du kan det."
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "title": "Som besökare",
-          "text": "Använd den vänliga, artiga nivån när du kan och byt inte till slang. Ett leende, ett litet nick och ett ”tack” gör mer än en perfekt grammatik."
-        }
-      ]
-    },
-    {
-      "id": "presentera",
-      "heading": "Presentera dig",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Några enkla fraser: **Hajimemashite** (”Trevligt att träffas”), **Watashi wa [namn] desu** (”Jag är [namn]”), **Suēden kara kimashita** (”Jag kommer från Sverige”) och **Yoroshiku onegaishimasu** (en artig fras som används i början av ett möte eller en relation, ungefär ”jag ser fram emot att lära känna dig”). Det är vanligt att man nickar eller bugar lätt när man hälsar, och du kan göra detsamma. Ett handslag är också möjligt om den andra tar initiativ."
         },
         {
           "type": "p",
-          "text": "Fråga hellre hur någon vill bli kallad än att gissa. Och om du glömmer: ett vänligt ”sumimasen” (ursäkta) hjälper i många lägen."
+          "text": "Japanskan har också olika **nivåer av artighet**. Det vänliga, vanliga artiga språket (teineigo) slutar ofta på **-masu** eller **desu**. Vardagsspråk mellan vänner är mer rakt (”plain form”). Dessutom finns mycket artiga former, **sonkeigo** (att visa respekt för den man talar med) och **kenjōgo** (att vara ödmjuk om sig själv). Det är medvetet mycket att lära sig, och japaner förväntar sig inte att du kan det. Använd den artiga nivån när du kan, byt inte till slang, och fråga hellre hur någon vill bli kallad än att gissa. Ett leende, ett litet nick och ett ”tack” gör mer än en perfekt grammatik."
         }
       ]
     }

@@ -24,11 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Efter andra världskriget fick Japan ett skolsystem som ofta beskrivs som **6–3–3–4**: sex år i grundskola, tre år i högstadium, tre år i gymnasium och fyra år i universitet. De första nio åren är obligatoriska. Gymnasiet är inte obligatoriskt, men de allra flesta går dit. Siffran som ofta anges är över 95 procent."
-        },
-        {
-          "type": "p",
-          "text": "Skolåret börjar 1 april. Det delas oftast in i tre terminer: april–juli, september–december och januari–mars. Vissa skolor har två terminer. Sommarlovet ligger alltså mitt i skolåret, inte i slutet."
+          "text": "Efter andra världskriget fick Japan ett skolsystem som ofta beskrivs som **6–3–3–4**: sex år i grundskola, tre år i högstadium, tre år i gymnasium och fyra år i universitet. De första nio åren är obligatoriska. Gymnasiet är inte obligatoriskt, men de allra flesta går dit; siffran som ofta anges är över 95 procent."
         },
         {
           "type": "timeline",
@@ -50,26 +46,30 @@
               "text": "Universitet, vanligen fyra år, eller annan utbildning"
             }
           ]
+        },
+        {
+          "type": "p",
+          "text": "Skolåret börjar 1 april och delas oftast in i tre terminer: april–juli, september–december och januari–mars. Vissa skolor har två terminer. Sommarlovet ligger alltså mitt i skolåret, inte i slutet."
         }
       ]
     },
     {
       "id": "vardag",
-      "heading": "Skolans vardag",
+      "heading": "En skoldag",
       "blocks": [
         {
           "type": "p",
-          "text": "I Japan är skolan inte bara lektioner. I många skolor städar eleverna själva klassrum, korridorer och skolgård i grupper, som en del av utbildningen. Skolmåltiden (**kyushoku**) ses också som något att lära sig av: i många skolor delar eleverna ut maten i klassrummet och städar efter måltiden."
+          "text": "I Japan är skolan inte bara lektioner. Några vardagsdrag som ofta nämns:"
         },
         {
-          "type": "p",
-          "text": "Många skolor har enhetliga skoluniformer. Efter lektionerna går många elever på **bukatsu**, skolklubbar inom idrott, musik, konst eller andra intressen. Klubbarna kan ta mycket tid. Vissa elever går dessutom på **juku**, kvällsskolor som förbereder inför inträdesprov."
-        },
-        {
-          "type": "callout",
-          "tone": "care",
-          "title": "Det varierar",
-          "text": "Beskrivningen gäller vanliga mönster, men det är inte samma sak som att alla ungdomar lever så. Vardagen skiljer sig mellan stad och land, mellan skolor och mellan personer. Vissa gillar klubbarna, andra tycker att de tar för mycket tid."
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Städning:** i många skolor städar eleverna själva klassrum, korridorer och skolgård i grupper, som en del av utbildningen.",
+            "**Skolmåltiden (kyushoku):** den ses som något att lära sig av. I många skolor delar eleverna ut maten i klassrummet och städar efter måltiden.",
+            "**Uniform:** många skolor har enhetliga skoluniformer.",
+            "**Efter lektionerna:** många går på **bukatsu**, skolklubbar inom idrott, musik, konst eller andra intressen. Klubbarna kan ta mycket tid. Vissa elever går dessutom på **juku**, kvällsskolor som förbereder inför inträdesprov."
+          ]
         },
         {
           "type": "photo",
@@ -81,21 +81,25 @@
     },
     {
       "id": "fritid",
-      "heading": "Fritid och vänner",
+      "heading": "Fritid, och vad som varierar",
       "blocks": [
         {
           "type": "p",
-          "text": "På fritiden umgås ungdomar som överallt: pratar, spelar, tittar på videor, går på närbutik (**konbini**) eller sjunger karaoke. Hur mycket tid som finns beror på läxor, klubbar, juku och på hur långt det är till skolan. Många reser själva med tåg eller buss."
+          "text": "Beskrivningen gäller vanliga mönster, men det är inte samma sak som att alla ungdomar lever så. Vardagen skiljer sig mellan stad och land, mellan skolor och mellan personer. Vissa gillar klubbarna, andra tycker att de tar för mycket tid."
         },
         {
           "type": "p",
-          "text": "Det finns också påfrestningar: press inför prov, mobbning och skolfrånvaro förekommer i Japan, som i många länder. Det är ett eget tema som tas upp senare. Här räcker det att veta att ungdomars erfarenheter är olika."
+          "text": "På fritiden umgås ungdomar som överallt: pratar, spelar, tittar på videor, går på närbutik (**konbini**) eller sjunger karaoke. Hur mycket tid som finns beror på läxor, klubbar, juku och på hur långt det är till skolan. Många reser själva med tåg eller buss."
         },
         {
           "type": "photo",
           "slotId": "t04-k01-konbini",
           "imageId": "lawson-store100-yokohama",
           "brief": "Närbutik (konbini) sedd utifrån, som exempel på en vardagsplats, utan identifierbara personer."
+        },
+        {
+          "type": "p",
+          "text": "Det finns också påfrestningar: press inför prov, mobbning och skolfrånvaro förekommer i Japan, som i många länder. Det tas upp i ett eget kapitel senare. Här räcker det att veta att ungdomars erfarenheter är olika."
         }
       ]
     }

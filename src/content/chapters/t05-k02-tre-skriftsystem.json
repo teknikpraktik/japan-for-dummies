@@ -42,10 +42,32 @@
               "value": "Används för lånord, utländska namn och betoning. Exempel: コーヒー (kaffe), ホテル (hotell)"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "mening",
+      "heading": "Läs en mening bit för bit",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Du ser alla tre systemen i en enda mening: **私は寿司が好きです** (Watashi wa sushi ga suki desu, ”Jag gillar sushi”). Så här delar du upp den:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**私** (watashi, ”jag”): kanji",
+            "**は** (wa): hiragana, ett litet ord som visar vad meningen handlar om",
+            "**寿司** (sushi): kanji",
+            "**が** (ga): hiragana, ett litet ord som hör till nästa ord",
+            "**好き** (suki, ”gillar”): kanji följt av hiragana",
+            "**です** (desu): hiragana, artig ändelse"
+          ]
         },
         {
           "type": "p",
-          "text": "Du ser alla tre i en enda mening: **私は寿司が好きです** (Watashi wa sushi ga suki desu, ”Jag gillar sushi”). 私, 寿司 och 好 är kanji. は, が, き och です är hiragana. Namn på utländska platser och personer skrivs ofta med katakana, till exempel スウェーデン (Suēden, Sverige)."
+          "text": "Katakana ser du främst i lånord och utländska namn, till exempel スウェーデン (Suēden, Sverige) och コーヒー (kaffe)."
         }
       ]
     },
@@ -63,23 +85,23 @@
         },
         {
           "type": "p",
-          "text": "Den officiella listan över vanliga kanji, **jōyō-listan**, har 2 136 tecken (sedan 2010). Det totala antalet kanji är långt större, men en vuxen känner igen omkring 3 000. Du behöver inte kunna dem: några tecken räcker långt på resan (se kapitlet om skyltar och menyer)."
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "title": "Romaji hjälper",
-          "text": "På många skyltar finns också romaji, alltså japanska ord med latinska bokstäver. Använd det för att uttala och för att jämföra med tecknen."
+          "text": "Den officiella listan över vanliga kanji, **jōyō-listan**, har 2 136 tecken (sedan 2010). Det totala antalet kanji är långt större, men en vuxen känner igen omkring 3 000. Du behöver inte kunna dem: några tecken räcker långt på resan."
         }
       ]
     },
     {
       "id": "igen",
-      "heading": "Känna igen några tecken",
+      "heading": "Tecken du ser på resan",
       "blocks": [
         {
           "type": "p",
-          "text": "Börja med en handfull tecken som du ofta ser: **駅** (eki, station), **出口** (deguchi, utgång), **入口** (iriguchi, ingång), **男** (man) och **女** (kvinna), **円** (en, yen). Du lär dig dem snabbare om du letar efter dem i miljön."
+          "text": "Börja med en handfull tecken som du ofta ser: **駅** (eki, station), **出口** (deguchi, utgång), **入口** (iriguchi, ingång), **男** (man) och **女** (kvinna), **円** (en, yen). Du lär dig dem snabbare om du letar efter dem i miljön. På många skyltar finns dessutom romaji, alltså japanska ord med latinska bokstäver, som du kan använda för att uttala och för att jämföra med tecknen."
+        },
+        {
+          "type": "photo",
+          "slotId": "t05-k02-skylt",
+          "imageId": "iwamotocho-utgangsskylt",
+          "brief": "Utgångsskylt med kanji och romaji, för att öva på att känna igen 出口."
         },
         {
           "type": "observe",

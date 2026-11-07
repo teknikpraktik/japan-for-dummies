@@ -23,18 +23,27 @@
       "heading": "Vad är manga och anime?",
       "blocks": [
         {
-          "type": "p",
-          "text": "**Manga** är japanska serier och **anime** är animerad film och tv, ofta baserad på manga. Manga läses från höger till vänster och kan vara i svartvitt. De finns i många genrer för alla åldrar: äventyr, komedi, skräck, romantik, vardagsskildringar, sport, vetenskap och historia. Därför finns det inte *en* manga- eller animestil."
+          "type": "facts",
+          "items": [
+            {
+              "label": "Manga",
+              "value": "Japanska serier, som publiceras i tidskrifter i kapitel och samlas i böcker. Läses från höger till vänster och är ofta i svartvitt."
+            },
+            {
+              "label": "Anime",
+              "value": "Animerad film och tv, ofta baserad på manga."
+            }
+          ]
         },
         {
           "type": "p",
-          "text": "Seriekulturen har flera rötter, bland annat träsnitt och bildberättande från Edotiden (se kapitlet om konst) och efterkrigstidens tecknade serier. Den moderna formen förknippas ofta med efterkrigstidens serieskapare. Manga publiceras i tidskrifter i kapitel, och populära serier samlas i böcker och görs till anime."
+          "text": "Båda finns i många genrer för alla åldrar: äventyr, komedi, skräck, romantik, vardagsskildringar, sport, vetenskap och historia. Därför finns det inte *en* manga- eller animestil. Seriekulturen har flera rötter, bland annat träsnitt och bildberättande från Edotiden (se kapitlet om konst) och efterkrigstidens tecknade serier."
         }
       ]
     },
     {
       "id": "industri",
-      "heading": "Industrin",
+      "heading": "Industrin, och bilden av Japan",
       "blocks": [
         {
           "type": "p",
@@ -43,22 +52,10 @@
         {
           "type": "p",
           "text": "Arbetet är hårt: animatörer och tecknare har ofta låga löner och långa arbetsdagar, vilket diskuteras i branschen. Det är viktigt att komma ihåg att bakom varje serie finns människor som ritar, skriver, färglägger och sköter produktionen."
-        }
-      ]
-    },
-    {
-      "id": "bild",
-      "heading": "Bilden av Japan",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Populärkultur påverkar hur människor utanför Japan ser på landet. Många besökare förväntar sig robotar, neonljus och söta figurer. Men dessa bilder är utvalda och förenklade. Manga och anime är bara en del av japansk kultur, och de flesta japaner läser och tittar på olika saker. Fråga människor vad de själva gillar i stället för att anta."
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Stereotyper",
-          "text": "”Alla japaner älskar anime” är en stereotyp. Många gillar det, andra inte alls, och smaken varierar mycket med ålder och bakgrund."
+          "type": "p",
+          "text": "Populärkultur påverkar också hur människor utanför Japan ser på landet. Många besökare förväntar sig robotar, neonljus och söta figurer, men de bilderna är utvalda och förenklade. ”Alla japaner älskar anime” är en stereotyp: många gillar det, andra inte alls, och smaken varierar mycket med ålder och bakgrund. Fråga människor vad de själva gillar i stället för att anta."
         }
       ]
     }

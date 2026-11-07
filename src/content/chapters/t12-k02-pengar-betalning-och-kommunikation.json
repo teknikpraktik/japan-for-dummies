@@ -20,7 +20,7 @@
   "sections": [
     {
       "id": "betalning",
-      "heading": "Betala på flera sätt",
+      "heading": "Betalning: kort, kontanter och IC-kort",
       "blocks": [
         {
           "type": "p",
@@ -29,13 +29,7 @@
         {
           "type": "p",
           "text": "**Bankomater:** de från 7-Eleven (Seven Bank) och Japan Post Bank fungerar enligt flera guider oftast med utländska kort, medan många vanliga bankers bankomater avvisar dem. Det kan också finnas bankomater i andra närbutikskedjor. Kontrollera avgifter och uttagsgränser hos din bank. En vanlig rekommendation är att ta ut ett lämpligt belopp i taget och fylla på vid behov."
-        }
-      ]
-    },
-    {
-      "id": "ic",
-      "heading": "IC-kort och mobilbetalning",
-      "blocks": [
+        },
         {
           "type": "p",
           "text": "**IC-kort** som Suica och Pasmo fungerar på tåg och buss och i många närbutiker och automater. Många kan läggas direkt i mobilens plånbok (men inte alla telefoner och system), annars kan du köpa ett fysiskt kort. Läs om reglerna för just ditt kort. Kontaktlös betalning med kort eller mobil blir allt vanligare, men går inte att räkna med överallt."
@@ -44,7 +38,7 @@
     },
     {
       "id": "kommunikation",
-      "heading": "Mobildata, Wi-Fi och risker",
+      "heading": "Mobilen, Wi-Fi och plan B",
       "blocks": [
         {
           "type": "p",
@@ -55,10 +49,17 @@
           "text": "**Risker:** håll koll på pass, plånbok och mobil, använd inte öppna Wi-Fi-nät för banktjänster, ha en reservplan om mobilen tar slut eller tappas bort (kontanter, uppskrivna adresser, kontakt till reseledare), och spärra kort snabbt om något försvinner."
         },
         {
-          "type": "callout",
-          "tone": "info",
-          "title": "Plan B",
-          "text": "Ha alltid minst två sätt att betala och två sätt att nå gruppen. Skriv ner de viktigaste numren på papper."
+          "type": "p",
+          "text": "Plan B bör innehålla minst två sätt att betala och två sätt att nå gruppen:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "kontanter och ett kort,",
+            "telefon och de viktigaste numren nedskrivna på papper,",
+            "hotellets adress sparad offline och på papper."
+          ]
         }
       ]
     }

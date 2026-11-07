@@ -19,50 +19,79 @@
   },
   "sections": [
     {
-      "id": "monarki",
-      "heading": "Kejsare utan politisk makt",
+      "id": "styre",
+      "heading": "Kejsare, regering och parlament",
       "blocks": [
         {
           "type": "p",
-          "text": "Japan är en **konstitutionell monarki**, ungefär som Sverige. Efter 1947 års konstitution (se kapitlet om efterkrigstiden) är kejsaren en symbol för staten och folkets enhet. Han utför ceremoniella uppgifter, till exempel att formellt utse premiärministern, men har ingen politisk makt."
+          "text": "Japan är en **konstitutionell monarki**, ungefär som Sverige. Sedan konstitutionen från 1947 (se kapitlet om efterkrigstiden) är kejsaren en symbol för staten och folkets enhet. Han utför ceremoniella uppgifter, till exempel att formellt utse premiärministern, men har ingen politisk makt."
         },
         {
           "type": "p",
-          "text": "Den verkliga makten ligger hos **regeringen** med **premiärministern** i spetsen. Premiärministern utses av parlamentet och leder ett kabinett av ministrar."
+          "text": "Den verkliga makten ligger hos **regeringen** med **premiärministern** i spetsen. Premiärministern utses av parlamentet och leder ett kabinett av ministrar. Parlamentet kallas **the Diet** (Kokkai) och har två kamrar: **representanthuset** (465 ledamöter som väljs på fyra år) och **rådmannahuset** (248 ledamöter). Representanthuset är den starkare kammaren."
+        },
+        {
+          "type": "p",
+          "text": "Jämför gärna med Sverige. Likheterna är större än man kan tro, och skillnaden i parlamentets uppbyggnad är tydligast."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Statschef",
+              "value": "Japan: kejsaren, med ceremoniell roll. Sverige: kungen, med ceremoniell roll."
+            },
+            {
+              "label": "Regeringschef",
+              "value": "Japan: premiärministern. Sverige: statsministern."
+            },
+            {
+              "label": "Parlament",
+              "value": "Japan: två kamrar (465 och 248 ledamöter). Sverige: en kammare, riksdagen (349 ledamöter)."
+            },
+            {
+              "label": "Rösträttsålder",
+              "value": "18 år i båda länderna (i Japan sedan 2016, tidigare 20)"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "riksdag",
-      "heading": "Parlament och val",
+      "id": "val",
+      "heading": "Vägen från röst till makt",
       "blocks": [
         {
           "type": "p",
-          "text": "Parlamentet kallas **the Diet** (Kokkai) och har två kamrar: **representanthuset** (nedre kammaren, 465 ledamöter som väljs på fyra år) och **rådmannahuset** (övre kammaren, 248 ledamöter). Representanthuset är den starkare kammaren. Ledamöterna väljs genom en blandning av valkretsar och listval (ett så kallat parallellt system)."
+          "text": "Ledamöterna till representanthuset väljs genom en blandning av valkretsar och listval, ett så kallat parallellt system. Stegen från valsedel till regering ser ut så här:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Väljarna röstar i parlamentsval.",
+            "Parlamentet samlas och de valda ledamöterna bildar grupper.",
+            "Parlamentet utser premiärministern, och kejsaren utnämner honom eller henne formellt.",
+            "Premiärministern bildar sitt kabinett."
+          ]
         },
         {
           "type": "p",
-          "text": "Rösträttsåldern är **18 år** sedan 2016, tidigare 20. Många partier finns, men ett parti, det liberaldemokratiska partiet (LDP), har under större delen av efterkrigstiden suttit vid makten ensamt eller i koalition."
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "title": "Jämförelse med Sverige",
-          "text": "Båda länderna har en monarki utan politisk makt, en regering ledd av en premiärminister (i Sverige statsminister) och rösträtt från 18 år. Sverige har en kammare i riksdagen. Japan har två."
+          "text": "Det finns många partier, men det liberaldemokratiska partiet (LDP) har under större delen av efterkrigstiden suttit vid makten, ensamt eller i koalition. Det betyder att regeringsskiften har varit ovanligare än i många andra demokratier."
         }
       ]
     },
     {
       "id": "lokalt",
-      "heading": "Prefekturer och kommuner",
+      "heading": "Närmare vardagen",
       "blocks": [
         {
           "type": "p",
-          "text": "Japan är indelat i **47 prefekturer**, med egna parlament och en vald guvernör. Under dem finns städer, stadsdelar och byar. Lokala myndigheter ansvarar för mycket av vardagen, till exempel sophämtning, lokala skolor och socialtjänst. Hur mycket pengar och makt de har fördelas mellan staten och de lokala nivåerna, och det är en pågående diskussion."
+          "text": "Japan är indelat i **47 prefekturer** med egna parlament och en vald guvernör. Under dem finns städer, stadsdelar och byar. Lokala myndigheter ansvarar för mycket av vardagen, till exempel sophämtning, lokala skolor och socialtjänst. Hur pengar och makt ska fördelas mellan staten och de lokala nivåerna är en pågående diskussion."
         },
         {
           "type": "p",
-          "text": "På resa märker du lokalpolitik på valaffischer på särskilda anslagstavlor, på informationstavlor och i skillnader mellan kommuner när det gäller till exempel sophantering."
+          "text": "Som besökare ser du politiken på särskilda anslagstavlor där valaffischer sätts upp, ofta i numrerade rutor, en ruta per kandidat."
         },
         {
           "type": "photo",
@@ -311,7 +340,8 @@
       "Antalet ledamöter (465 och 248) varierar något mellan källor och kan ändras. Kontrollera mot parlamentets egen sida.",
       "LDP:s långa dominans och beskrivningen av valsystemet är förenklade.",
       "Jämförelsen med Sverige är grov.",
-      "Bildtexten om valtavlorna bygger på Commons-beskrivningen och allmän kännedom om hur affischtavlor används."
+      "Bildtexten om valtavlorna bygger på Commons-beskrivningen och allmän kännedom om hur affischtavlor används.",
+      "Jämförelsen med Sverige (kungens roll, statsminister, riksdagen med en kammare och 349 ledamöter, rösträtt från 18 år) är allmän kunskap som inte kontrollerades mot en källa i detta arbete. Meningen om att regeringsskiften varit ovanligare än i många andra demokratier är en förenkling."
     ],
     "checkBeforeTravel": []
   },

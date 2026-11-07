@@ -20,7 +20,7 @@
   "sections": [
     {
       "id": "mix",
-      "heading": "Elmixen",
+      "heading": "Så ser elmixen ut",
       "blocks": [
         {
           "type": "p",
@@ -47,30 +47,49 @@
     },
     {
       "id": "fukushima",
-      "heading": "Efter 2011",
+      "heading": "2011 och vad som hände sedan",
       "blocks": [
         {
-          "type": "p",
-          "text": "Den 11 mars 2011 orsakade en mycket stor jordbävning och tsunami (se temat om geografi) en olycka vid kärnkraftverket Fukushima Daiichi. Efter olyckan stängdes kärnkraften ned och den andel el som kommer från kärnkraft föll från ungefär en tredjedel till nästan noll. Sedan dess har en del reaktorer successivt startat om efter nya säkerhetskontroller, och andelen har ökat långsamt."
+          "type": "timeline",
+          "items": [
+            {
+              "when": "Före 2011",
+              "text": "Kärnkraften står för ungefär en tredjedel av elen."
+            },
+            {
+              "when": "11 mars 2011",
+              "text": "En mycket stor jordbävning och tsunami (se temat om geografi) orsakar en olycka vid kärnkraftverket Fukushima Daiichi."
+            },
+            {
+              "when": "Därefter",
+              "text": "Kärnkraften stängs ned och andelen faller till nästan noll."
+            },
+            {
+              "when": "Senare",
+              "text": "En del reaktorer startar om efter nya säkerhetskontroller, och andelen ökar långsamt."
+            },
+            {
+              "when": "Sedan 2023",
+              "text": "Behandlat vatten från anläggningen släpps ut i havet efter spädning."
+            }
+          ]
         },
         {
           "type": "p",
-          "text": "Efter olyckan har arbetet med att avveckla anläggningen pågått i decennier. Sedan 2023 släpps behandlat vatten från anläggningen ut i havet efter spädning. Internationella atomenergiorganet IAEA bedömde att planen stämde med internationella säkerhetsstandarder: reningssystemet ALPS tar bort 62 radioaktiva ämnen men inte tritium, som späds ut. Grannländer och lokala fiskare har uttryckt oro."
+          "text": "Arbetet med att avveckla anläggningen har pågått i decennier. Internationella atomenergiorganet IAEA bedömde att planen för vattnet stämde med internationella säkerhetsstandarder: reningssystemet ALPS tar bort 62 radioaktiva ämnen men inte tritium, som späds ut. Grannländer och lokala fiskare har uttryckt oro."
         }
       ]
     },
     {
       "id": "perspektiv",
-      "heading": "Olika perspektiv",
+      "heading": "Olika perspektiv, och var du hittar aktuella siffror",
       "blocks": [
         {
           "type": "p",
           "text": "Frågan om kärnkraft är laddad. Förespråkare menar att den minskar importberoendet och utsläppen. Kritiker pekar på riskerna för olyckor och avfall och på att jordbävningsrisken är hög. Regeringens energiplan siktar bland annat på att förnybart ska bli största kraftkälla till 2040, men kritiker anser att målen är för svaga."
         },
         {
-          "type": "callout",
-          "tone": "info",
-          "title": "Hitta aktuella uppgifter",
+          "type": "p",
           "text": "Energimixen ändras varje år. Använd aktuella källor, till exempel energiministeriet eller internationella energiorganet, i stället för att gissa eller förlita dig på äldre siffror, inklusive siffrorna i det här kapitlet."
         }
       ]

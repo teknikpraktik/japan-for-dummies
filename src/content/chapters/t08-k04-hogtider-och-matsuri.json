@@ -24,38 +24,34 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Några viktiga högtider och traditioner: **Nyår** (shōgatsu) är den största, då många besöker en helgedom (hatsumōde). I våren firas **hanami**, att titta på körsbärsblom, vanligen från senare delen av mars och framåt. **Tanabata** (7 juli, men ibland andra datum) är en stjärnfestival där man hänger önskningar på bambu. **Obon** i juli eller augusti hedrar de döda, med lyktor och dans, och mycket av landet reser då. I november firas **Shichi-go-san** (15 november), då barn av vissa åldrar välsignas på en helgedom."
-        },
-        {
-          "type": "p",
-          "text": "På hösten finns **momijigari**, att titta på höstlöv, som är höstens motsvarighet till hanami, och många lokala skördefester i september och oktober."
+          "text": "Kalendern är full av högtider och traditioner. Några av de viktigaste, i årets ordning:"
         },
         {
           "type": "timeline",
           "items": [
             {
               "when": "Januari",
-              "text": "Nyår: besök vid helgedom"
+              "text": "**Nyår** (shōgatsu) är den största högtiden. Många besöker en helgedom (hatsumōde)."
             },
             {
               "when": "Mars–april",
-              "text": "Hanami: körsbärsblom"
+              "text": "**Hanami**, att titta på körsbärsblom, vanligen från senare delen av mars."
             },
             {
               "when": "7 juli",
-              "text": "Tanabata (datum varierar)"
+              "text": "**Tanabata**, en stjärnfestival där man hänger önskningar på bambu. Datumet varierar lokalt."
             },
             {
-              "when": "Juli/aug",
-              "text": "Obon: minne av de döda"
+              "when": "Juli eller augusti",
+              "text": "**Obon** hedrar de döda, med lyktor och dans, och mycket av landet reser."
             },
             {
-              "when": "Oktober",
-              "text": "Lokala höstfestivaler"
+              "when": "September–oktober",
+              "text": "Lokala skördefester, och **momijigari**, att titta på höstlöv, höstens motsvarighet till hanami."
             },
             {
               "when": "15 november",
-              "text": "Shichi-go-san"
+              "text": "**Shichi-go-san**: barn av vissa åldrar välsignas på en helgedom."
             }
           ]
         }
@@ -87,13 +83,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Höstfestivaler varierar mycket mellan orter och år, och datum kan ändras. Ett exempel: Takayama höstfest hålls vanligen 9–10 oktober. Räkna inte med något specifikt: kontrollera datum hos den lokala turistbyrån eller på festivalens egen sida innan du planerar. Det händer ofta små lokala fester som inte syns i guideböcker."
-        },
-        {
-          "type": "callout",
-          "tone": "care",
-          "title": "Utlova inget",
-          "text": "En festival kan vara inställd, flyttad eller kortare än väntat. Ha en plan B och se det som en bonus om du råkar hamna på en."
+          "text": "Höstfestivaler varierar mycket mellan orter och år, och datum kan ändras. Ett exempel: Takayama höstfest hålls vanligen 9–10 oktober. Räkna inte med något specifikt: kontrollera datum hos den lokala turistbyrån eller på festivalens egen sida innan du planerar, och ha en plan B eftersom en festival kan vara inställd, flyttad eller kortare än väntat. Det händer ofta små lokala fester som inte syns i guideböcker, och det är en bonus om du råkar hamna på en."
         }
       ]
     }

@@ -24,31 +24,25 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Du behöver inte kunna japanska för att göra dig förstådd. Några strategier som ofta fungerar: **visa** i stället för att berätta (en bild, ett foto, en adress på mobilen), **peka** på kartan, **skriva** siffror, **tala långsamt** med enkla ord och **gesta** tydligt. Ha viktiga uppgifter, till exempel hotellets adress, sparade i telefonen."
+          "text": "Du behöver inte kunna japanska för att göra dig förstådd. Några strategier som ofta fungerar:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Visa** i stället för att berätta: en bild, ett foto eller en adress på mobilen.",
+            "**Peka** på kartan och **skriv** siffror.",
+            "**Tala långsamt** med enkla ord och **gesta** tydligt.",
+            "Ha viktiga uppgifter, till exempel hotellets adress, sparade i telefonen."
+          ]
         },
         {
           "type": "p",
-          "text": "Börja med att be om ursäkt och hjälp: **Sumimasen** (”ursäkta”) för att fånga uppmärksamhet, sedan **Eigo wa hanasemasu ka?** (”Talar ni engelska?”) eller **Onegaishimasu** (”snälla”) när du pekar på något. Ett leende hjälper alltid."
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "title": "Tålamod går åt båda hållen",
-          "text": "Den du pratar med kanske också är osäker på engelska. Ge tid, upprepa lugnt och tacka (**Arigatō gozaimasu**)."
-        }
-      ]
-    },
-    {
-      "id": "appar",
-      "heading": "Översättningsappar med eftertanke",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "En översättningsapp kan vara ett bra stöd, men den är inte perfekt. Skriv korta, enkla meningar, undvik slang och kontrollera översättningen genom att läsa tillbaka den. Ladda ned japanska i förväg för att fungera utan internet, och testa hemma. Kamerafunktionen kan ha svårt med vertikal eller handskriven text."
+          "text": "Börja med att be om ursäkt och hjälp: **Sumimasen** (”ursäkta”) för att fånga uppmärksamhet, sedan **Eigo wa hanasemasu ka?** (”Talar ni engelska?”) eller **Onegaishimasu** (”snälla”) när du pekar på något. Den du pratar med kanske också är osäker på engelska, så ge tid, upprepa lugnt och tacka (**Arigatō gozaimasu**)."
         },
         {
           "type": "p",
-          "text": "Använd inte appen ensam för viktiga saker, som allergier eller säkerhet. Där är det bättre att visa ett förberett kort, bild eller fråga en person på plats som du litar på, till exempel personal på hotellet."
+          "text": "En översättningsapp kan vara ett bra stöd, men den är inte perfekt. Skriv korta, enkla meningar, undvik slang och kontrollera översättningen genom att läsa tillbaka den. Ladda ned japanska i förväg för att fungera utan internet, och testa hemma. Kamerafunktionen kan ha svårt med vertikal eller handskriven text. Använd inte appen ensam för viktiga saker som allergier eller säkerhet: visa hellre ett förberett kort eller bild, eller fråga en person på plats som du litar på, till exempel personal på hotellet."
         }
       ]
     },
@@ -58,17 +52,20 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Ordet **hai** brukar översättas som ”ja”, men det kan också betyda ”jag lyssnar” eller ”jag förstår”, utan att det betyder att personen håller med. Likaså kan ett mjukt ”**chotto…**” (”lite…”) eller en tvekan vara ett artigt sätt att säga nej. Missförstånd kan alltså handla om hur man säger nej och ja, inte bara om ord."
+          "text": "Ordet **hai** brukar översättas som ”ja”, men det kan också betyda ”jag lyssnar” eller ”jag förstår”, utan att det betyder att personen håller med. Likaså kan ett mjukt ”**chotto…**” (”lite…”) eller en tvekan vara ett artigt sätt att säga nej. Ett exempel:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Du:** Kan vi få ett bord för sex personer?",
+            "**Personalen:** Chotto… (ungefär ”det är lite svårt”)",
+            "**Tolkning:** Svaret är troligen nej. Fråga i stället öppet: ”Vilken tid kan vi få bord?”"
+          ]
         },
         {
           "type": "p",
-          "text": "Det betyder inte att alla gör så. Det är en tendens, och folk är olika. Ett bra sätt att undvika missförstånd är att ställa konkreta frågor (”Vilket tåg ska jag ta?”) i stället för ja/nej-frågor, och att be någon visa med en gest eller på kartan."
-        },
-        {
-          "type": "callout",
-          "tone": "care",
-          "title": "Om det blir fel",
-          "text": "Ett missförstånd är ingen katastrof. Skratta, be om ursäkt och försök igen. Människor förstår att det är svårt att kommunicera över språkgränser."
+          "text": "Det betyder inte att alla gör så. Det är en tendens, och folk är olika. Ett bra sätt att undvika missförstånd är att ställa konkreta frågor (”Vilket tåg ska jag ta?”) i stället för ja/nej-frågor, och att be någon visa med en gest eller på kartan. Ett missförstånd är ändå ingen katastrof: skratta, be om ursäkt och försök igen. Människor förstår att det är svårt att kommunicera över språkgränser."
         }
       ]
     }

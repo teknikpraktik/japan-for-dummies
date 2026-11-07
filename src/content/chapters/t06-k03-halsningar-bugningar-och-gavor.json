@@ -19,8 +19,8 @@
   },
   "sections": [
     {
-      "id": "buga",
-      "heading": "Att buga och att skaka hand",
+      "id": "halsa",
+      "heading": "Hälsningar och bugningar",
       "blocks": [
         {
           "type": "p",
@@ -28,19 +28,13 @@
         },
         {
           "type": "p",
-          "text": "Många japaner räcker fram handen till utlänningar, och bugning och handslag kombineras ibland. Som besökare är det enklaste rådet att **följa den andres exempel**: bugar de, nicka eller buga lätt tillbaka. Räcker de fram handen, skaka."
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "title": "Små gester räcker",
-          "text": "Ett leende, ett tydligt tack och ett lätt nick visar respekt i de flesta situationer. Du behöver inte buga perfekt."
+          "text": "Många japaner räcker fram handen till utlänningar, och bugning och handslag kombineras ibland. Som besökare är det enklaste rådet att **följa den andres exempel**: bugar de, nicka eller buga lätt tillbaka, och räcker de fram handen, skaka. Ett leende, ett tydligt tack och ett lätt nick visar respekt i de flesta situationer. Du behöver inte buga perfekt."
         }
       ]
     },
     {
       "id": "gavor",
-      "heading": "Gåvor och tack",
+      "heading": "Gåvor och att vara gäst",
       "blocks": [
         {
           "type": "p",
@@ -49,16 +43,20 @@
         {
           "type": "p",
           "text": "Till en värdfamilj fungerar något litet från ditt eget land, till exempel godis, en liten souvenir eller ett vykort. Du behöver inte köpa något dyrt. Att gåvan är tänkt är viktigast. Ta emot en gåva med båda händerna och tacka. Det är ofta artigt att öppna den senare, om inte värden ber dig öppna den."
-        }
-      ]
-    },
-    {
-      "id": "situationer",
-      "heading": "Värdfamilj och skolbesök",
-      "blocks": [
+        },
         {
           "type": "p",
-          "text": "I en värdfamilj eller skola gäller samma grundidé: **observera, fråga och tacka**. Ta av skorna vid entrén, säg ”tack för maten” efter måltiden (**gochisōsama deshita**), ge en liten gåva vid ankomsten och skriv eller säg tack i slutet. På en skola: hälsa vänligt, nicka lätt och följ lärarnas instruktioner."
+          "text": "Samma grundidé gäller i en värdfamilj eller på en skola: **observera, fråga och tacka**. I praktiken kan det se ut så här:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Ta av skorna vid entrén och ge en liten gåva vid ankomsten.",
+            "Säg ”tack för maten” efter måltiden (**gochisōsama deshita**).",
+            "På en skola: hälsa vänligt, nicka lätt och följ lärarnas instruktioner.",
+            "Skriv eller säg tack i slutet."
+          ]
         },
         {
           "type": "p",

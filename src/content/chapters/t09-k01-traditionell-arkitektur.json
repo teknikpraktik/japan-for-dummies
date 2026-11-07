@@ -20,7 +20,7 @@
   "sections": [
     {
       "id": "tra",
-      "heading": "Trä, tak och rum",
+      "heading": "Ett byggande i trä",
       "blocks": [
         {
           "type": "p",
@@ -48,19 +48,13 @@
         },
         {
           "type": "p",
-          "text": "Tanken är att tekniken och ritualen förs vidare genom att byggas om, och inte att själva trämaterialet ska bevaras. Det visar en annan syn på ”äkta”: i Japan kan en byggnad vara gammal genom sin form, sin plats och sitt hantverk, även om virket är nytt. Samma gäller många slott och tempel som har återuppbyggts efter bränder och krig."
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "title": "Vad är äkta?",
-          "text": "Fråga dig vid en byggnad: vad är gammalt här: materialet, formen, platsen eller kunskapen att bygga den?"
+          "text": "Tanken är att tekniken och ritualen förs vidare genom att byggas om, och inte att själva trämaterialet ska bevaras. Det visar en annan syn på ”äkta”: i Japan kan en byggnad vara gammal genom sin form, sin plats och sitt hantverk, även om virket är nytt. Samma gäller många slott och tempel som har återuppbyggts efter bränder och krig. Fråga dig därför vid en byggnad vad som är gammalt: materialet, formen, platsen eller kunskapen att bygga den?"
         }
       ]
     },
     {
       "id": "tradgard",
-      "heading": "Trädgårdar och blickar",
+      "heading": "Trädgårdar, och att titta aktivt",
       "blocks": [
         {
           "type": "p",
@@ -68,7 +62,17 @@
         },
         {
           "type": "p",
-          "text": "På resan: stanna upp vid en byggnad och titta. Hur möter taket vädret? Hur öppnas rummen mot trädgården? Vilket material ser du? Vilka spår av reparationer eller ombyggnad finns?"
+          "text": "På resan kan du stanna upp vid en byggnad eller trädgård och fråga dig:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Hur möter taket vädret?",
+            "Hur öppnas rummen mot trädgården?",
+            "Vilket material ser du?",
+            "Vilka spår av reparationer eller ombyggnad finns?"
+          ]
         }
       ]
     }

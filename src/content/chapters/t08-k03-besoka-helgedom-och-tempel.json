@@ -12,7 +12,7 @@
     "Förstå skyltar och fotoregler",
     "Visa respekt oavsett egen tro"
   ],
-  "minutes": 8,
+  "minutes": 9,
   "hook": {
     "kind": "question",
     "text": "Du kommer till en helgedom för första gången. Torii, vatten, offerlåda, rep. Vad ska du göra, och vad bör du låta bli?"
@@ -20,7 +20,7 @@
   "sections": [
     {
       "id": "steg",
-      "heading": "Steg för steg vid en helgedom",
+      "heading": "Vid en helgedom: steg för steg",
       "blocks": [
         {
           "type": "list",
@@ -40,31 +40,25 @@
     },
     {
       "id": "tempel",
-      "heading": "Vid ett tempel",
+      "heading": "Vid ett tempel, och uppförande på båda platserna",
       "blocks": [
         {
           "type": "p",
           "text": "På ett tempel är reglerna delvis annorlunda. Man **klappar inte** utan sätter ihop händerna och bugar. Man kan tända rökelse och lägga ett mynt i offerlådan. Ta av hatten innan du går in. I vissa tempel tar man av skorna innan man går in i hallar (se kapitlet om skor och bad)."
         },
         {
-          "type": "p",
-          "text": "Många platser har **omikuji** (lyckospådomar), **ema** (plaketter att skriva önskningar på) och **goshuin** (stämplar i en särskild bok). Om du drar ett dåligt omikuji kan du knyta fast det på en särskild plats, så ”lämnar” oturen dig. Priset ligger ofta på 100–500 yen."
-        }
-      ]
-    },
-    {
-      "id": "foto",
-      "heading": "Foto, mat och respekt",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Du får oftast fotografera **området utomhus**, men inte inne i byggnaderna eller hallarna. Titta efter skyltar eller fråga personalen. Undvik att fotografera människor som ber eller utför ritualer utan att fråga. Ät och drick inte på området, utom på anvisade platser. Tala lugnt och låt andra be i fred."
+          "type": "photo",
+          "slotId": "t08-k03-tempel",
+          "imageId": "todaiji-buddhahallen",
+          "brief": "Ett buddhistiskt tempel (Stora Buddhahallen), för att visa hur ett tempel ser ut jämfört med en helgedom."
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Du behöver inte dela tron",
-          "text": "Respekt handlar om beteende, inte om tro. Du kan delta i den utsträckning du är bekväm med, eller bara titta."
+          "type": "p",
+          "text": "Många platser har **omikuji** (lyckospådomar), **ema** (plaketter att skriva önskningar på) och **goshuin** (stämplar i en särskild bok). Om du drar ett dåligt omikuji kan du knyta fast det på en särskild plats, så ”lämnar” oturen dig. Priset ligger ofta på 100–500 yen."
+        },
+        {
+          "type": "p",
+          "text": "Du får oftast fotografera **området utomhus**, men inte inne i byggnaderna eller hallarna. Titta efter skyltar eller fråga personalen. Undvik att fotografera människor som ber eller utför ritualer utan att fråga. Ät och drick inte på området, utom på anvisade platser. Tala lugnt och låt andra be i fred. Respekt handlar om beteende, inte om tro, så du kan delta i den utsträckning du är bekväm med, eller bara titta."
         }
       ]
     }

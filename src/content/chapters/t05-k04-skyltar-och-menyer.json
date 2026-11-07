@@ -40,17 +40,11 @@
     },
     {
       "id": "toalett",
-      "heading": "Toaletter och symboler",
+      "heading": "Toaletter",
       "blocks": [
         {
           "type": "p",
-          "text": "Toaletter markeras ofta med **男** (man) och **女** (kvinna), förutom piktogram. Dessa tecken är användbara även för att inte stiga på fel vagn (se kapitlet om jämställdhet). Toaletter som tillverkats sedan 2017 använder samma standardiserade symboler på kontrollpanelen, så de ser likadana ut även om texten är på japanska."
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "title": "Symboler hjälper",
-          "text": "Piktogram är ofta standardiserade. Stanna upp, titta på bilden och jämför med dina tecken innan du trycker på något."
+          "text": "Toaletter markeras ofta med **男** (man) och **女** (kvinna), förutom piktogram. Tecknen är användbara även för att inte stiga på fel vagn (se kapitlet om jämställdhet). Toaletter som tillverkats sedan 2017 använder samma standardiserade symboler på kontrollpanelen, så de ser likadana ut även om texten är på japanska: stanna upp, titta på bilden och jämför med dina tecken innan du trycker på något."
         }
       ]
     },
@@ -67,14 +61,20 @@
           "slotId": "t05-k04-meny",
           "imageId": "matmodeller-ramen",
           "brief": "Biljettautomat för mat i Japan, där man väljer rätt och betalar vid ingången."
-        },
+        }
+      ]
+    },
+    {
+      "id": "appar",
+      "heading": "När tecknen inte räcker: appar och allergikort",
+      "blocks": [
         {
           "type": "p",
           "text": "**Översättningsappar** kan hjälpa: många kan översätta text via kameran. Ladda ned japanskan för offline-läge i förväg och testa hemma, eftersom kameraläget kan fungera sämre med vertikal eller handskriven text och på menyer. En resenär beskrev just att offlineläget fungerade sämre på menyer."
         },
         {
           "type": "p",
-          "text": "Om du har **allergier** eller kostrestriktioner: skriv ner dem på ett kort på japanska, och visa kortet i förväg. En app räcker inte alltid för att förklara allergier säkert."
+          "text": "Om du har **allergier** eller kostrestriktioner: skriv ner dem på ett kort på japanska och visa kortet i förväg. En app räcker inte alltid för att förklara allergier säkert."
         }
       ]
     }

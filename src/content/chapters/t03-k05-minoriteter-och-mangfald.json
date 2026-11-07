@@ -20,21 +20,27 @@
   "sections": [
     {
       "id": "ainu",
-      "heading": "Ainu och Ryukyu",
+      "heading": "Ainu",
       "blocks": [
         {
           "type": "p",
           "text": "**Ainu** är ett urfolk med egen kultur och eget språk som historiskt bott på Hokkaido och i norr. Under Meijiperioden införlivades Hokkaido närmare staten (se kapitlet om Edo till Meiji), och många ainu utsattes för assimilering. Först **2019** erkände en lag ainu som urfolk. Lagen stöder kulturen, men kritiker anser att den inte ger tillräckliga rättigheter, till exempel till mark."
-        },
+        }
+      ]
+    },
+    {
+      "id": "ryukyu",
+      "heading": "Ryukyu och Okinawa",
+      "blocks": [
         {
           "type": "p",
-          "text": "**Ryukyuöarna**, med Okinawa som största ö, var tidigare ett eget kungarike med egen kultur. Området införlivades med Japan på 1870-talet. Många människor på Okinawa har egen identitet och egna språk, och regionen bär än idag på minnen av kriget och en omfattande amerikansk militär närvaro."
+          "text": "**Ryukyuöarna**, med Okinawa som största ö, var tidigare ett eget kungarike med egen kultur. Området införlivades med Japan på 1870-talet. Många människor på Okinawa har en egen identitet och egna språk, och regionen bär än idag på minnen av kriget och en omfattande amerikansk militär närvaro."
         }
       ]
     },
     {
       "id": "zainichi",
-      "heading": "Zainichi-koreaner och andra",
+      "heading": "Zainichi-koreaner och människor med utländsk bakgrund",
       "blocks": [
         {
           "type": "p",
@@ -42,7 +48,7 @@
         },
         {
           "type": "p",
-          "text": "Antalet **utländska invånare** har ökat kraftigt, och uppgick vid slutet av 2025 till rekordhöga cirka 4,1 miljoner, bland annat från Kina, Vietnam, Korea och Filippinerna. Det är drygt tre procent av befolkningen. Dessutom finns människor med funktionsnedsättning, olika bakgrunder och livsvillkor som sällan syns i bilden utifrån."
+          "text": "Antalet **utländska invånare** har ökat kraftigt och uppgick vid slutet av 2025 till rekordhöga cirka 4,1 miljoner, bland annat från Kina, Vietnam, Korea och Filippinerna. Det är drygt tre procent av befolkningen. Dessutom finns människor med funktionsnedsättning och med andra livsvillkor som sällan syns i bilden utifrån."
         },
         {
           "type": "facts",
@@ -65,17 +71,20 @@
     },
     {
       "id": "sprak",
-      "heading": "Hur talar vi om ”Japan”?",
+      "heading": "Hur vi talar om ”Japan” och ”japaner”",
       "blocks": [
         {
           "type": "p",
-          "text": "Uttrycket ”japanerna” kan dölja variationen. Människor kan ha japanskt medborgarskap och olika bakgrund, eller bo i Japan utan att vara medborgare, eller ha japansk kultur utan att passa i bilden. När du pratar om ”japaner” kan du fråga dig vem du menar."
+          "text": "Uttrycket ”japanerna” kan dölja variationen. Människor kan ha japanskt medborgarskap och olika bakgrund, eller bo i Japan utan att vara medborgare, eller ha japansk kultur utan att passa in i bilden utifrån. Fråga dig vem du menar när du säger ”japaner”. I samtal fungerar några enkla riktlinjer:"
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Respekt i praktiken",
-          "text": "Fråga hellre än att anta. Undvik att fråga människor ”var de kommer ifrån” som om de inte hörde hemma. Lyssna på hur människor själva beskriver sig."
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Fråga hellre än att anta något om en persons bakgrund.",
+            "Undvik att fråga människor ”var de kommer ifrån” på ett sätt som antyder att de inte hör hemma.",
+            "Lyssna på hur människor själva beskriver sig."
+          ]
         }
       ]
     }

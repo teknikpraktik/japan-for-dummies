@@ -20,7 +20,7 @@
   "sections": [
     {
       "id": "sortering",
-      "heading": "Sortering varierar",
+      "heading": "Sortering, förbränning och papperskorgar",
       "blocks": [
         {
           "type": "p",
@@ -29,13 +29,7 @@
         {
           "type": "p",
           "text": "PET-flaskan är ett typiskt exempel: många kommuner ber dig skölja flaskan, ta av korken och etiketten och sortera dem i olika kärl (till exempel plast för kork och etikett), men detaljerna skiljer sig. Flaskor som innehållit matolja eller inte går att tvätta kan hänvisas till brännbart."
-        }
-      ]
-    },
-    {
-      "id": "forbranning",
-      "heading": "Förbränning och återvinning",
-      "blocks": [
+        },
         {
           "type": "p",
           "text": "En stor del av hushållsavfallet förbränns i anläggningar, enligt en källa omkring 70 procent, men den siffran är inte kontrollerad. Sortering gör förbränningen renare och återvinning möjlig. Det saknas i våra sökningar nationella siffror för återvinning, så uppgifterna är osäkra."
@@ -48,7 +42,7 @@
     },
     {
       "id": "besokare",
-      "heading": "Som besökare",
+      "heading": "Så gör du som besökare",
       "blocks": [
         {
           "type": "list",
@@ -62,9 +56,7 @@
           ]
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Respekt för lokala regler",
+          "type": "p",
           "text": "Sorteringen kan kännas krånglig, men den är viktig för lokalsamhället. Ett enkelt ”Kore wa doko ni suteru no?” (”Var kastar jag det här?”) räcker långt."
         }
       ]

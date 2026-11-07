@@ -20,11 +20,21 @@
   "sections": [
     {
       "id": "platser",
-      "heading": "Platser där ungdomar träffas",
+      "heading": "Där ungdomar träffas",
       "blocks": [
         {
           "type": "p",
-          "text": "Hur ungdomar tillbringar sin fritid varierar mycket med ålder, ort och intressen. Några platser som ofta nämns: **närbutiken** (konbini) där man köper snacks och dryck, **karaoke** där man hyr ett eget rum med vänner, **spelhallar** (game centers) och kaféer, parker, köpcentrum och hemma med spel eller sociala medier."
+          "text": "Hur ungdomar tillbringar sin fritid varierar mycket med ålder, ort och intressen. Några platser som ofta nämns:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Närbutiken** (konbini): snacks och dryck på vägen hem.",
+            "**Karaoke:** man hyr ett eget rum med vänner.",
+            "**Spelhallar** (game centers), kaféer, parker och köpcentrum.",
+            "Hemma, med spel eller sociala medier."
+          ]
         },
         {
           "type": "p",
@@ -40,31 +50,15 @@
     },
     {
       "id": "tid",
-      "heading": "Tid, pengar och avstånd",
+      "heading": "Vad som styr fritiden, och hur du frågar",
       "blocks": [
         {
           "type": "p",
-          "text": "Fritiden formas av vad man hinner och har råd med. Skola, klubbar och eventuellt juku tar mycket tid. Kollektivtrafiken gör att många kan ta sig själva till stan, men på landsbygden kan avstånden vara långa och tågen glesa. Fickpengar, deltidsjobb och regler på skolan påverkar också."
+          "text": "Fritiden formas av vad man hinner och har råd med. Skola, klubbar och eventuellt juku tar mycket tid. Kollektivtrafiken gör att många kan ta sig själva till stan, men på landsbygden kan avstånden vara långa och tågen glesa. Fickpengar och deltidsjobb påverkar, och många skolor har regler om var och när elever får vara ute, till exempel på kvällen. Reglerna varierar mellan skolor och kommuner."
         },
         {
           "type": "p",
-          "text": "Många skolor har regler om var och när elever får vara ute, till exempel på kvällen. Reglerna varierar mellan skolor och kommuner."
-        }
-      ]
-    },
-    {
-      "id": "fraga",
-      "heading": "Fråga, lyssna och jämför",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Om du får tillfälle att prata med jämnåriga är fritid ett bra samtalsämne. Fråga vad de gör en vanlig vecka, vad de gillar och vad de önskar fanns i deras område. Berätta också om din egen vardag. Ett utbyte går åt båda håll."
-        },
-        {
-          "type": "callout",
-          "tone": "care",
-          "title": "Undvik stereotyper",
-          "text": "Bilder av ”japanska tonåringar” som bara spelar eller pluggar är förenklingar. Det finns lika många vardagar som personer."
+          "text": "Bilder av ”japanska tonåringar” som bara spelar eller pluggar är förenklingar: det finns lika många vardagar som personer. Om du får chansen att prata med jämnåriga är fritid ett bra samtalsämne. Fråga vad de gör en vanlig vecka, vad de gillar och vad de önskar fanns i deras område, och berätta om din egen vardag. Ett utbyte går åt båda håll."
         }
       ]
     }

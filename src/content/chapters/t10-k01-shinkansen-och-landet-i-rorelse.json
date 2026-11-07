@@ -25,12 +25,18 @@
         {
           "type": "p",
           "text": "**Shinkansen** (”ny stamlinje”) är Japans höghastighetståg. Den första linjen, **Tokaido-shinkansen** mellan Tokyo och Osaka, öppnades 1964, i samband med olympiska spelen i Tokyo (se kapitlet om efterkrigstiden). Sedan dess har nätet byggts ut till stora delar av landet, med nya linjer norrut och söderut. Tågen har egna spår, till skillnad från vanliga tåg, vilket bidrar till hastigheten och punktligheten."
+        },
+        {
+          "type": "photo",
+          "slotId": "t10-k01-nolla",
+          "imageId": "shinkansen-0-serien",
+          "brief": "En tidig shinkansenmodell (0-serien), som togs i bruk 1964."
         }
       ]
     },
     {
       "id": "punkt",
-      "heading": "Punktlighet och rutiner",
+      "heading": "Punktlighet och störningar",
       "blocks": [
         {
           "type": "p",
@@ -43,18 +49,16 @@
       ]
     },
     {
-      "id": "plan",
-      "heading": "Biljetter och att planera med marginal",
+      "id": "planering",
+      "heading": "Biljetter och planering med marginal",
       "blocks": [
         {
           "type": "p",
           "text": "På många shinkansenlinjer finns **platsbokade** och **icke platsbokade** vagnar, och biljetter består oftast av en grundbiljett och en snabbtågsavgift. Du kan köpa dem vid biljettautomater, vid biljettkontor eller via appar, och om du har ett resepass (se kapitlet om stationer) gäller särskilda regler. Följ alltid aktuella regler på JR:s webbplatser."
         },
         {
-          "type": "callout",
-          "tone": "info",
-          "title": "Planera med marginal",
-          "text": "Räkna med att något kan avvika: lägg in extra tid mellan byten, ha en plan B för en dag med taifunvarning och kontrollera trafikinformation samma morgon. Punktligheten gäller tågen, men din resa innehåller också promenader, köer och byten."
+          "type": "p",
+          "text": "Räkna därför med att något kan avvika: lägg in extra tid mellan byten, ha en plan B för en dag med taifunvarning och kontrollera trafikinformation samma morgon. Punktligheten gäller tågen, men din resa innehåller också promenader, köer och byten."
         },
         {
           "type": "observe",

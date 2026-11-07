@@ -29,13 +29,7 @@
         {
           "type": "p",
           "text": "Bilden av ”japansk mat” som sushi och tempura är alltså en förenkling. En stor del av matkulturen är hemlagad mat, nudlar, grytor och lokala rätter."
-        }
-      ]
-    },
-    {
-      "id": "exempel",
-      "heading": "Några exempel",
-      "blocks": [
+        },
         {
           "type": "facts",
           "items": [
@@ -56,12 +50,6 @@
         {
           "type": "p",
           "text": "Källorna skiljer sig något i detaljer: vissa beskriver miso som Sapporoformens bas, andra nämner att Asahikawa har en soja-baserad variant. Det är typiskt för regional mat: många lokala varianter och flera berättelser om ursprunget."
-        },
-        {
-          "type": "photo",
-          "slotId": "t07-k03-regional",
-          "imageId": null,
-          "brief": "Regional rätt eller matställe, till exempel takoyaki, ramen eller en saluhall."
         }
       ]
     },
@@ -71,13 +59,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "När du äter lokalt: fråga vad som är specialiteten, eller peka på det som andra äter. Jämför inte med hur rätten ”ska” smaka där du kommer ifrån. Lokala varianter är inte ”fel” versioner av något annat."
-        },
-        {
-          "type": "callout",
-          "tone": "care",
-          "title": "Hur tänker vi om ”äkta”?",
-          "text": "Ordet ”äkta” kan göra att man missar det som faktiskt finns. Fråga hellre vad människor själva tycker är gott och varför."
+          "text": "När du äter lokalt: fråga vad som är specialiteten, eller peka på det som andra äter. Jämför inte med hur rätten ”ska” smaka där du kommer ifrån, och lokala varianter är inte ”fel” versioner av något annat. Ordet ”äkta” kan göra att man missar det som faktiskt finns: fråga hellre vad människor själva tycker är gott, och varför."
         }
       ]
     }

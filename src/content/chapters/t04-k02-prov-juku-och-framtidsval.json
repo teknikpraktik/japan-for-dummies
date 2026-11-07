@@ -20,27 +20,34 @@
   "sections": [
     {
       "id": "stadier",
-      "heading": "Från stadium till stadium",
+      "heading": "Prov vid varje övergång",
       "blocks": [
         {
           "type": "p",
           "text": "Skolgången är obligatorisk i nio år: sex år i grundskola och tre år i högstadium (”junior high”). Därefter väljer de flesta att fortsätta till gymnasium i tre år. Många gymnasier och universitet har **inträdesprov**, och provresultatet väger ofta tungt vid antagningen. Skolornas rykte och svårighetsgrad skiljer sig åt."
         },
         {
-          "type": "p",
-          "text": "För universitet finns ett gemensamt nationellt prov, **Common Test for University Admission**, som många tar i januari, och därefter ofta egna prov vid respektive universitet. Ungefär en halv miljon personer anmäler sig till det gemensamma provet varje år."
+          "type": "facts",
+          "items": [
+            {
+              "label": "Gymnasieansökan, Sverige",
+              "value": "Främst betyg från grundskolan"
+            },
+            {
+              "label": "Gymnasieansökan, Japan",
+              "value": "Inträdesprov väger ofta tungt, men regler och urval varierar mellan skolor och regioner"
+            }
+          ]
         },
         {
-          "type": "callout",
-          "tone": "info",
-          "title": "Jämförelse",
-          "text": "I Sverige söker man gymnasiet främst med betyg från grundskolan. I Japan spelar inträdesprov större roll vid övergångarna, även om regler och urval varierar mellan skolor och regioner."
+          "type": "p",
+          "text": "För universitet finns ett gemensamt nationellt prov, **Common Test for University Admission**, som många tar i januari, och därefter ofta egna prov vid respektive universitet. Ungefär en halv miljon personer anmäler sig till det gemensamma provet varje år."
         }
       ]
     },
     {
       "id": "juku",
-      "heading": "Juku: skola efter skolan",
+      "heading": "Juku, kostnad och press",
       "blocks": [
         {
           "type": "p",
@@ -48,27 +55,11 @@
         },
         {
           "type": "p",
-          "text": "Det är långt ifrån alla som går på juku, och vissa hinner knappt. Kostnaden är en faktor: familjer har olika möjligheter att betala, vilket också väcker diskussion om rättvisa. Många elever beskriver också att kvällarna blir långa."
-        }
-      ]
-    },
-    {
-      "id": "val",
-      "heading": "Press och val",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Att prov väger tungt kan ge motivation, men det kan också ge stress. Samtidigt är bilden av ”examenshelvetet” förenklad: många elever trivs, och det finns många vägar, till exempel yrkesinriktade skolor, rekommendationer och olika sorters universitet."
+          "text": "Det är långt ifrån alla som går på juku, och kostnaden spelar roll: familjer har olika möjligheter att betala, vilket väcker diskussion om rättvisa. Många elever beskriver att kvällarna blir långa, och att prov som väger tungt kan ge både motivation och stress."
         },
         {
           "type": "p",
-          "text": "När du pratar med jämnåriga: fråga hur de tänker om framtiden. Svaren varierar mycket, från att vilja läsa vidare till att vilja börja arbeta eller resa."
-        },
-        {
-          "type": "callout",
-          "tone": "care",
-          "title": "Utan att döma",
-          "text": "Du känner inte hela systemet efter ett besök. Jämför gärna, men undvik att säga att ”det japanska systemet är hårt” eller ”vårt är bättre”. Fråga i stället vad människor själva tycker är bra och dåligt."
+          "text": "Bilden av ett ”examenshelvete” är ändå förenklad. Många elever trivs, och det finns flera vägar, till exempel yrkesinriktade skolor, rekommendationer och olika sorters universitet. Du känner inte hela systemet efter ett besök, så fråga hellre jämnåriga hur de tänker om framtiden än att säga att ”det japanska systemet är hårt” eller att ”vårt är bättre”. Svaren varierar: från att vilja läsa vidare till att vilja börja arbeta eller resa."
         }
       ]
     }

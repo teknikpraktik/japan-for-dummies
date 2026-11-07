@@ -20,7 +20,7 @@
   "sections": [
     {
       "id": "maltid",
-      "heading": "En traditionell måltid",
+      "heading": "En måltid i flera skålar",
       "blocks": [
         {
           "type": "p",
@@ -54,25 +54,13 @@
       ]
     },
     {
-      "id": "ingredienser",
-      "heading": "Ris, fisk, sojabönor",
+      "id": "smak",
+      "heading": "Ingredienser och dashi, smakens grund",
       "blocks": [
         {
           "type": "p",
-          "text": "Några grundingredienser: **ris**, **fisk och skaldjur**, **sojabönor** i många former (**tofu**, **miso** (fermenterad sojabönspasta), **sojasås**, **natto**), **grönsaker** och **tång**. Smaksättningen kommer ofta från fermenterade produkter, som miso och sojasås, och från dashi."
+          "text": "Några grundingredienser: **ris**, **fisk och skaldjur**, **sojabönor** i många former (**tofu**, **miso** (fermenterad sojabönspasta), **sojasås**, **natto**), **grönsaker** och **tång**. Smaksättningen kommer ofta från fermenterade produkter, som miso och sojasås, och från dashi. Japanskt kök fäster dessutom stor vikt vid säsong: samma ingrediens kan ha olika roll beroende på årstid, vilket syns i menyer och i butiker."
         },
-        {
-          "type": "callout",
-          "tone": "info",
-          "title": "Säsong",
-          "text": "Japanskt kök fäster stor vikt vid säsong: samma ingrediens kan ha olika roll beroende på årstid. Det syns i menyer och i butiker."
-        }
-      ]
-    },
-    {
-      "id": "dashi",
-      "heading": "Dashi: smaken i botten",
-      "blocks": [
         {
           "type": "p",
           "text": "**Dashi** är en buljong som ligger bakom miso, nudelsoppor, grytor och många såser. Den görs ofta på **kombu** (tång) och **katsuobushi** (torkad, rökt bonito, en sorts tonfisk). Kombu bidrar med glutaminsyra och katsuobushi med inosinsyra, och tillsammans förstärker de **umami**, den femte grundsmaken. Därför kan en maträtt smaka fylligt utan mycket fett eller salt."

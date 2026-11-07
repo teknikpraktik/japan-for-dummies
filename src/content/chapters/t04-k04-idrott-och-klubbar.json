@@ -34,31 +34,44 @@
     },
     {
       "id": "sporter",
-      "heading": "Baseboll, fotboll, sumo",
+      "heading": "Idrotter med tradition",
       "blocks": [
         {
-          "type": "p",
-          "text": "**Baseboll** är mycket populärt. Varje år hålls de nationella gymnasieturneringarna **Koshien** på Hanshin Koshien-stadion i Nishinomiya, en på våren och en på sommaren, och de följs av många. **Fotboll** har vuxit, och kampsporter som **judo** och **kendo** är en del av skolidrotten."
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "**Baseboll** är mycket populärt. Varje år hålls de nationella gymnasieturneringarna **Koshien** på Hanshin Koshien-stadion i Nishinomiya, en på våren och en på sommaren, och de följs av många.",
+            "**Fotboll** har vuxit.",
+            "**Judo** och **kendo** är kampsporter som ingår i skolidrotten.",
+            "**Sumo** är en gammal traditionell sport med religiösa inslag. Professionella turneringar hålls flera gånger per år, bland annat i Tokyo."
+          ]
         },
         {
           "type": "p",
-          "text": "**Sumo** är en gammal traditionell sport med religiösa inslag. Professionella turneringar hålls flera gånger per år, bland annat i Tokyo. Sumo är både idrott och tradition, och regler och seder i sporten har lång historia."
+          "text": "Sumo är både idrott och tradition, och regler och seder i sporten har lång historia."
         }
       ]
     },
     {
       "id": "jamfor",
-      "heading": "Jämföra med Sverige",
+      "heading": "Skola eller förening?",
       "blocks": [
         {
-          "type": "p",
-          "text": "I Sverige drivs idrotten mest i föreningar utanför skolan. I Japan är skolan en viktig plattform för idrott och kultur. Det är en skillnad, men inte svartvit: Japan har också föreningar, och i Sverige finns skolidrott."
+          "type": "facts",
+          "items": [
+            {
+              "label": "Sverige",
+              "value": "Idrotten drivs mest i föreningar utanför skolan."
+            },
+            {
+              "label": "Japan",
+              "value": "Skolan är en viktig plattform för idrott och kultur, genom bukatsu."
+            }
+          ]
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Gemenskap och disciplin",
-          "text": "Bilden av ”disciplin” kan bli en stereotyp. Fråga människor vad klubben betyder för dem."
+          "type": "p",
+          "text": "Skillnaden är mer en fråga om tyngdpunkt än om princip: Japan har också föreningar, och i Sverige finns skolidrott. Ordet ”disciplin” används ofta om japansk idrott, men det kan bli en stereotyp. Fråga hellre människor vad klubben betyder för dem."
         }
       ]
     }

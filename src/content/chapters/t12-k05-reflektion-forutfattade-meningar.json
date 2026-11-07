@@ -19,25 +19,44 @@
   },
   "sections": [
     {
+      "id": "typer",
+      "heading": "Tre sorters påståenden",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Verktyget för hela kapitlet är att kunna skilja på tre sorters påståenden:"
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "Intryck",
+              "value": "Något du själv upplever, till exempel ”tåget var tyst”."
+            },
+            {
+              "label": "Faktum",
+              "value": "Går att kontrollera, till exempel ”tågen är punktliga enligt statistiken”."
+            },
+            {
+              "label": "Generalisering",
+              "value": "Gör något om en person till något om alla, till exempel ”japaner är tysta”."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Lägg märke till vilken sorts påstående du gör, både när du läser och när du berättar."
+        }
+      ]
+    },
+    {
       "id": "fore",
-      "heading": "Före resan: dina bilder",
+      "heading": "Före och under resan",
       "blocks": [
         {
           "type": "p",
           "text": "Alla har bilder av Japan: från filmer, manga, mat, nyheter, skolan eller berättelser. De är en del av hur du förstår landet, men de är också förenklade. Innan resan: skriv ner **tre saker du tror om Japan**, **tre saker du är nyfiken på** och **tre saker du är osäker på**. Spara dem. De hjälper dig att lägga märke till vad som förvånar dig."
         },
-        {
-          "type": "callout",
-          "tone": "info",
-          "title": "Skilja intryck, fakta och generalisering",
-          "text": "Ett **intryck** är något du upplever (”tåget var tyst”). Ett **faktum** går att kontrollera (”tågen är punktliga enligt statistiken”). En **generalisering** gör något om en person till något om alla (”japaner är tysta”). Lägg märke till vilken sorts påstående du gör."
-        }
-      ]
-    },
-    {
-      "id": "under",
-      "heading": "Under resan: lägg märke till",
-      "blocks": [
         {
           "type": "p",
           "text": "Under resan: skriv korta anteckningar. Vad såg du, hörde du, kände du? Vad hade du förväntat dig, och vad blev annorlunda? Vad var likt det du känner igen hemifrån? Fråga människor du möter hur de ser på saker, och lyssna. Ta bilder med hänsyn (se kapitlet om hänsyn i vardagen)."
@@ -50,7 +69,7 @@
     },
     {
       "id": "efter",
-      "heading": "Efter resan: sammanfatta",
+      "heading": "Efter resan",
       "blocks": [
         {
           "type": "p",
@@ -72,10 +91,8 @@
           ]
         },
         {
-          "type": "callout",
-          "tone": "care",
-          "title": "Du är också någons ”utlänning”",
-          "text": "Hur skulle en besökare i ditt land sammanfatta ditt land efter en vecka? Vad skulle de missförstå? Samma försiktighet gäller dig."
+          "type": "p",
+          "text": "Samma försiktighet gäller dig själv: hur skulle en besökare i ditt land sammanfatta det efter en vecka? Vad skulle de missförstå?"
         }
       ]
     }
