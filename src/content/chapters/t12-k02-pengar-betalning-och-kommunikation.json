@@ -1,0 +1,312 @@
+{
+  "id": "t12-k02",
+  "slug": "pengar-betalning-och-kommunikation",
+  "themeId": "resa",
+  "order": 2,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Pengar, betalning och kommunikation",
+  "summary": "Kontanter, kort och betalkort, mobildata och mobiltelefon. Kapitlet visar hur betalning kan se ut och vad som kan variera.",
+  "objectives": [
+    "Planera betalning med flera alternativ",
+    "Förstå hur mobildata och Wi-Fi ordnas",
+    "Skydda dig mot vanliga risker"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Du står vid en liten restaurang som bara tar kontanter, och din mobil har ingen täckning. Vilken plan B hade du velat ha?"
+  },
+  "sections": [
+    {
+      "id": "betalning",
+      "heading": "Betala på flera sätt",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kombinera flera sätt att betala. Stora hotell, varuhus och kedjor tar oftast kort, men många små restauranger, tempel och butiker på landsbygden tar bara **kontanter**. Ta därför med både ett kort utan eller med låga utlandsavgifter och en del yen. Kortbolag tar ofta en avgift på 1–3 procent för utlandstransaktioner, så kontrollera dina villkor."
+        },
+        {
+          "type": "p",
+          "text": "**Bankomater:** de från 7-Eleven (Seven Bank) och Japan Post Bank fungerar enligt flera guider oftast med utländska kort, medan många vanliga bankers bankomater avvisar dem. Det kan också finnas bankomater i andra närbutikskedjor. Kontrollera avgifter och uttagsgränser hos din bank. En vanlig rekommendation är att ta ut ett lämpligt belopp i taget och fylla på vid behov."
+        }
+      ]
+    },
+    {
+      "id": "ic",
+      "heading": "IC-kort och mobilbetalning",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**IC-kort** som Suica och Pasmo fungerar på tåg och buss och i många närbutiker och automater. Många kan läggas direkt i mobilens plånbok (men inte alla telefoner och system), annars kan du köpa ett fysiskt kort. Läs om reglerna för just ditt kort. Kontaktlös betalning med kort eller mobil blir allt vanligare, men går inte att räkna med överallt."
+        }
+      ]
+    },
+    {
+      "id": "kommunikation",
+      "heading": "Mobildata, Wi-Fi och risker",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "För mobildata finns bland annat **eSIM**, turist-SIM och mobila Wi-Fi-routrar. Sökningarna gav ingen tillförlitlig information om dessa, så jämför på oberoende sidor och kontrollera din telefons kompatibilitet i förväg. En mobil router ger bara data, så för samtal behöver du en mobil med röstfunktion (till exempel för att ringa 110 eller 119)."
+        },
+        {
+          "type": "p",
+          "text": "**Risker:** håll koll på pass, plånbok och mobil, använd inte öppna Wi-Fi-nät för banktjänster, ha en reservplan om mobilen tar slut eller tappas bort (kontanter, uppskrivna adresser, kontakt till reseledare), och spärra kort snabbt om något försvinner."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Plan B",
+          "text": "Ha alltid minst två sätt att betala och två sätt att nå gruppen. Skriv ner de viktigaste numren på papper."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "kort",
+      "title": "Kort eller kontanter",
+      "prompt": "Varför bör du ha både kort och kontanter?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Många små ställen tar bara kontanter.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Kort är förbjudna.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Kontanter är förbjudna.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "atm",
+      "title": "Bankomat",
+      "prompt": "Vilka bankomater fungerar oftast med utländska kort?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7-Eleven (Seven Bank) och Japan Post Bank",
+          "correct": true,
+          "feedback": "Rätt, enligt flera guider."
+        },
+        {
+          "id": "b",
+          "text": "Alla bankomater",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Inga",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "planb",
+      "title": "Ingen täckning",
+      "situation": "Din mobil tappar täckning och du ska hitta tillbaka till hotellet.",
+      "question": "Vad är bäst att ha gjort i förväg?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sparat adress och karta offline och skrivit ner kontakter på papper.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Inget.",
+          "correct": false,
+          "feedback": "Planera bättre."
+        },
+        {
+          "id": "c",
+          "text": "Förlitat mig på att andra hjälper.",
+          "correct": false,
+          "feedback": "Förbered själv."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Var betalade du med kort och var behövde du kontanter?",
+    "Hur fungerade ditt IC-kort?",
+    "Vad gjorde du när du saknade täckning?"
+  ],
+  "reflection": "Vilken plan B skulle du ha om din mobil och ditt kort försvann samtidigt?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilket sätt att betala är säkrast att ha en reserv för?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kontanter",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Bara kort",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara mobil",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingenting",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad är Suica?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ett IC-kort för tåg och betalning",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En maträtt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En port",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ett tåg",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vilken avgift tar kortbolag ofta för utlandsköp?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cirka 1–3 procent",
+          "correct": true,
+          "feedback": "Rätt, men kontrollera dina villkor."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 50 procent",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "100 procent",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad ger en mobil Wi-Fi-router?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data men inte samtal",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Samtal och data",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Inget",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara kartor",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad gör du om du tappar kortet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spärrar det snabbt",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Väntar en vecka",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ignorerar",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Skickar PIN-koden till någon",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "jasumo-cash-cards",
+    "jrailpass-travel-apps"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Råden om bankomater och kortavgifter bygger på resesidor (delvis affiliatesidor) och blir snabbt inaktuella. Kontrollera med din bank och med Seven Bank.",
+      "Sökningen gav ingen tillförlitlig information om eSIM, turist-SIM eller pocket-Wi-Fi. Beskrivningen är allmän och bör kompletteras med oberoende jämförelser.",
+      "Råden om risker och reservplaner är allmänna.",
+      "Bildtexten om Seven Bank-bankomaten bygger på Commons-beskrivningen. Uppgiften att sådana bankomater fungerar med utländska kort kommer från resesidor."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t12-k02-hero",
+    "imageId": "seven-bank-atm",
+    "brief": "Bankomat, kortläsare eller IC-kort i Japan."
+  }
+}

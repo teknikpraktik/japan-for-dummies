@@ -1228,5 +1228,55 @@
     "checkedOn": "2026-11-07",
     "access": "search-result-summary",
     "supports": "Skogens andel av landytan (cirka 67 procent) och fördelningen mellan planterad och naturlig skog. Äldre data (1995)."
+  },
+  {
+    "id": "peninsulavisa-sweden-japan",
+    "title": "Do Sweden citizens need a visa for Japan?",
+    "publisher": "Peninsula Visa",
+    "url": "https://www.peninsulavisa.com/visa-requirements/sweden-to-japan",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att svenska medborgare enligt de flesta sammanställningar kan resa in i Japan utan visum för korta turistvistelser (upp till 90 dagar). Sekundär källa; kontrollera hos Japans ambassad och Utrikesdepartementet."
+  },
+  {
+    "id": "jasumo-cash-cards",
+    "title": "How to access cash and use credit cards in Japan",
+    "publisher": "Jasumo",
+    "url": "https://jasumo.com/how-to-access-cash-and-use-credit-cards-in-japan-complete-2025-travel-guide",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att 7-Eleven- och Japan Post-bankomater brukar fungera med utländska kort, att många vanliga banks bankomater avvisar dem, att små ställen ofta kräver kontanter och att kortavgifter om 1–3 procent förekommer."
+  },
+  {
+    "id": "jrailpass-travel-apps",
+    "title": "15 best apps for traveling around Japan",
+    "publisher": "JRailPass blog",
+    "url": "https://www.jrailpass.com/blog/7-best-apps-traveling-japan",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Japan Travel by NAVITIME och Japan Transit Planner (Jorudan) är vanliga reseplanerare, och att Google Maps behöver internet för kollektivtrafik."
+  },
+  {
+    "id": "japantravel-emergency-contacts",
+    "title": "Emergency contact information when in Japan",
+    "publisher": "Japan Travel",
+    "url": "https://zh-hans.japantravel.com/guide/contact-info-during-emergencies/21736",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Nödnummer i Japan: 110 för polis, 119 för brand och ambulans och 118 för sjöolyckor, samt JNTO:s besökstelefon."
+  },
+  {
+    "id": "traditionalkyoto-emergencies",
+    "title": "Emergencies",
+    "publisher": "Traditional Kyoto",
+    "url": "https://traditionalkyoto.com/home/travel-support/emergencies/",
+    "kind": "travel-guide",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Nödnummer och råd vid nödsituationer för besökare i Japan."
   }
 ]

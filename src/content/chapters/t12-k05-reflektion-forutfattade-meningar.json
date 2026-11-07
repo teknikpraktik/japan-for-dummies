@@ -1,0 +1,324 @@
+{
+  "id": "t12-k05",
+  "slug": "reflektion-forutfattade-meningar",
+  "themeId": "resa",
+  "order": 5,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Reflektion: dina förutfattade meningar",
+  "summary": "Före och efter resan: vilka bilder av Japan hade du, vad stämde, vad förvånade dig? Ett kapitel om att lära sig av skillnader och likheter.",
+  "objectives": [
+    "Formulera egna förväntningar och jämföra med erfarenhet",
+    "Skilja mellan intryck, fakta och generalisering",
+    "Göra en egen sammanfattning av vad du tar med dig"
+  ],
+  "minutes": 10,
+  "hook": {
+    "kind": "question",
+    "text": "Skriv ner tre saker du tror att du vet om Japan innan resan. Vad skulle få dig att ändra dig?"
+  },
+  "sections": [
+    {
+      "id": "fore",
+      "heading": "Före resan: dina bilder",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Alla har bilder av Japan: från filmer, manga, mat, nyheter, skolan eller berättelser. De är en del av hur du förstår landet, men de är också förenklade. Innan resan: skriv ner **tre saker du tror om Japan**, **tre saker du är nyfiken på** och **tre saker du är osäker på**. Spara dem. De hjälper dig att lägga märke till vad som förvånar dig."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Skilja intryck, fakta och generalisering",
+          "text": "Ett **intryck** är något du upplever (”tåget var tyst”). Ett **faktum** går att kontrollera (”tågen är punktliga enligt statistiken”). En **generalisering** gör något om en person till något om alla (”japaner är tysta”). Lägg märke till vilken sorts påstående du gör."
+        }
+      ]
+    },
+    {
+      "id": "under",
+      "heading": "Under resan: lägg märke till",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Under resan: skriv korta anteckningar. Vad såg du, hörde du, kände du? Vad hade du förväntat dig, och vad blev annorlunda? Vad var likt det du känner igen hemifrån? Fråga människor du möter hur de ser på saker, och lyssna. Ta bilder med hänsyn (se kapitlet om hänsyn i vardagen)."
+        },
+        {
+          "type": "p",
+          "text": "Teman i utbildningen kan fungera som frågor: geografi, historia, samhälle, skola, språk, seder, mat, religion, kultur, teknik, miljö och praktiska frågor. Vilka teman fick du ny förståelse för?"
+        }
+      ]
+    },
+    {
+      "id": "efter",
+      "heading": "Efter resan: sammanfatta",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "När du är hemma: gå tillbaka till dina tre saker. Vad stämde? Vad stämde inte? Vad förvånade dig? Skilj på vad du **upplevde** och vad du kan **veta** om hela landet utifrån dina erfarenheter, det senare är mer begränsat. Skriv en kort sammanfattning: vad tar du med dig, vilka frågor har du kvar och vad vill du lära dig mer om?"
+        },
+        {
+          "type": "observe",
+          "title": "Din egen sammanfattning",
+          "prompt": "Svara skriftligt eller muntligt, eller använd textalternativet nedan.",
+          "steps": [
+            "Vilka tre saker trodde du, och vad blev av dem?",
+            "Vad förvånade dig mest, och varför?",
+            "Vilka likheter med hemma märkte du?",
+            "Vilka frågor har du kvar?"
+          ],
+          "textAlternative": "Utan bild: skriv fem meningar om hur din bild av Japan har ändrats, och en fråga du vill få svar på.",
+          "imageSlotIds": [
+            "t12-k05-hero"
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Du är också någons ”utlänning”",
+          "text": "Hur skulle en besökare i ditt land sammanfatta ditt land efter en vecka? Vad skulle de missförstå? Samma försiktighet gäller dig."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "typ",
+      "title": "Faktum eller generalisering",
+      "prompt": "Vilket påstående är en generalisering?",
+      "options": [
+        {
+          "id": "a",
+          "text": "”Japaner är tysta.”",
+          "correct": true,
+          "feedback": "Rätt. Det gör något om en grupp av något du kanske sett hos några."
+        },
+        {
+          "id": "b",
+          "text": "”Jag såg ett tyst tåg.”",
+          "correct": false,
+          "feedback": "Det är ett intryck."
+        },
+        {
+          "id": "c",
+          "text": "”Tågen är punktliga enligt statistiken.”",
+          "correct": false,
+          "feedback": "Det är ett faktum med källa."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "fore",
+      "title": "Före resan",
+      "prompt": "Vad är en bra förberedelse för reflektion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skriva ner vad jag tror, är nyfiken på och är osäker på.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Inte tänka alls.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Läsa bara en bok.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "efter",
+      "title": "Efter resan",
+      "situation": "Du har varit i Japan en vecka och en kamrat frågar: ”Hur är Japan?”",
+      "question": "Vad är ett nyanserat svar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jag såg ett litet urval. Här är vad som förvånade mig och vad jag undrar över.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alla är så.",
+          "correct": false,
+          "feedback": "En generalisering."
+        },
+        {
+          "id": "c",
+          "text": "Det är exakt som på film.",
+          "correct": false,
+          "feedback": "Förenkling."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vad av det du såg stämde med dina bilder, och vad inte?",
+    "Vilka frågor skulle du vilja ställa?",
+    "Vad skulle du berätta för någon som aldrig varit där?"
+  ],
+  "reflection": "Vilken sak har du lärt dig om dig själv genom att besöka eller läsa om Japan?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad är en generalisering?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att göra något om en person till något om alla",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ett kontrollerbart faktum",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En upplevelse",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En fråga",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad är ett intryck?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Något du själv upplever",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alltid ett faktum",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Alltid fel",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Alltid detsamma som statistik",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Varför är det bra att skriva ner förväntningar före resan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "För att jämföra med vad du upplever.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "För att slippa tänka.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "För att bevisa att du har rätt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "För att det är obligatoriskt.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är en begränsning efter en kort resa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Du har sett ett litet urval av landet.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Du vet allt.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Det finns inget att lära.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Resan är inte verklig.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är ett bra sätt att avsluta?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skriva en kort sammanfattning och en fråga du har kvar.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Aldrig mer tänka på det.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Skriva en generalisering.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ljuga.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Kapitlet är en reflektionsövning och innehåller inga nya faktapåståenden som behöver källor. Det bygger på tidigare kapitel.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Kapitlet bygger på pedagogiska resonemang (skilja intryck, fakta och generalisering) som inte har kontrollerats mot pedagogisk litteratur.",
+      "Kapitlet bör kompletteras med arrangörens egna reflektionsuppgifter."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t12-k05-hero",
+    "imageId": "yakushima-anbo",
+    "brief": "Reflektion, till exempel en anteckningsbok eller en utsikt."
+  }
+}

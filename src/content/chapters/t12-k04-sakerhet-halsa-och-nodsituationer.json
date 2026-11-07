@@ -1,0 +1,322 @@
+{
+  "id": "t12-k04",
+  "slug": "sakerhet-halsa-och-nodsituationer",
+  "themeId": "resa",
+  "order": 4,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Säkerhet, hälsa och nödsituationer",
+  "summary": "Nödnummer, sjukvård, mediciner, försäkring och rutiner för gruppen. Kapitlet är en praktisk checklista.",
+  "objectives": [
+    "Veta hur du får hjälp vid sjukdom eller olycka",
+    "Förstå gruppens rutiner",
+    "Hantera lokala varningar"
+  ],
+  "minutes": 9,
+  "hook": {
+    "kind": "question",
+    "text": "Någon i gruppen får hög feber på natten. Vem ringer du, och vad behöver du ha redo?"
+  },
+  "sections": [
+    {
+      "id": "nummer",
+      "heading": "Nödnummer",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "I Japan ringer du **110** för polis, **119** för brand och ambulans och **118** vid olyckor till sjöss, enligt flera guider. För råd om icke akut sjukvård nämns **#7119** i vissa större städer, men tillgängligheten varierar. **JNTO:s besökstelefon** (Japan Visitor Hotline) erbjuder hjälp på engelska, kinesiska och koreanska dygnet runt, uppges det (050-3816-2787 i Japan), men den är inget ersättande av 119 vid livsfara. Du behöver en mobil med röstsamtal för att kunna ringa."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Kontrollera numren",
+          "text": "Siffrorna kommer från reseguider och inte från myndigheter. Kontrollera dem på officiella sidor (till exempel JNTO) och spara dem i telefonen och på papper innan du reser."
+        }
+      ]
+    },
+    {
+      "id": "hjalp",
+      "heading": "Vid sjukdom eller olycka",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vid sjukdom eller olycka: agera enligt gruppens rutiner, kontakta en vuxen eller reseledare och ring vid akut fara 119 (eller 110). Ta med pass, försäkringsuppgifter och en lista över läkemedel och allergier. Kontakta försäkringsbolagets nödtelefon så snart det är möjligt, och spara kvitton. Vid värmeslag: sök skugga, kyl ned, drick vatten, och sök hjälp (se kapitlet om klimat)."
+        },
+        {
+          "type": "p",
+          "text": "Många sjukhus och läkare i Japan har begränsad engelska, och patienter betalar ofta på plats och söker ersättning efteråt. Ha därför försäkring och kontanter eller kort redo, och be reseledaren hjälpa till med kontakten."
+        }
+      ]
+    },
+    {
+      "id": "rutiner",
+      "heading": "Rutiner och varningar",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Gruppens rutiner: samlingsplats, kontaktvägar och vem som är ansvarig.",
+            "Spara adress och kontaktuppgifter till boendet och ambassad (Sveriges ambassad i Tokyo).",
+            "Följ lokala varningar: jordbävning, tsunami, taifun och värme (se kapitlet om katastrofberedskap).",
+            "Berätta tidigt om du mår dåligt, känner dig trygg eller otrygg, eller saknar något.",
+            "Respektera lokala regler och råd från personal och myndigheter."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Behöver du hjälp med känslor?",
+          "text": "Om du mår dåligt, tar det tungt eller har det svårt under resan: prata med en vuxen i gruppen (se kapitlet om stöd i temat om skola och ungdomsliv)."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "nr",
+      "title": "Nödnummer",
+      "prompt": "Vilket nummer ringer du till ambulans i Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "119",
+          "correct": true,
+          "feedback": "Rätt, enligt guider. Kontrollera officiellt."
+        },
+        {
+          "id": "b",
+          "text": "112",
+          "correct": false,
+          "feedback": "Fel för Japan."
+        },
+        {
+          "id": "c",
+          "text": "911",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "forsakring",
+      "title": "Försäkring",
+      "prompt": "Vad bör du göra vid akut sjukdom utöver att få hjälp?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kontakta försäkringsbolaget och spara kvitton.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ignorera försäkringen.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Kasta kvitton.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "natt",
+      "title": "På natten",
+      "situation": "Någon i gruppen blir akut sjuk på natten.",
+      "question": "Vad gör du först?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Väcker en ansvarig vuxen och ringer 119 vid akut fara.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Väntar till morgonen.",
+          "correct": false,
+          "feedback": "Riskabelt."
+        },
+        {
+          "id": "c",
+          "text": "Ger medicin utan att veta vad den är.",
+          "correct": false,
+          "feedback": "Farligt."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka nummer har du sparat, och var finns de?",
+    "Vem är ansvarig i gruppen, och hur når du den personen?",
+    "Vilka lokala varningar följer du?"
+  ],
+  "reflection": "Vilken hjälp är du själv beredd att be om? Vad skulle göra det lättare?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilket nummer är polis i Japan enligt kapitlet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "110",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "119",
+          "feedback": "Det är ambulans och brand."
+        },
+        {
+          "id": "c",
+          "text": "112",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "000",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad bör du ha med dig vid sjukdom?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pass, försäkringsuppgifter och en lista över läkemedel och allergier",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ingenting",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara en karta",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara en bok",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad bör du göra med nödnumren inför resan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kontrollera dem officiellt och spara dem",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Strunta i dem",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Lita på ett rykte",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Sudda dem",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad behövs för att ringa 110 eller 119?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En mobil med röstsamtal",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Bara Wi-Fi-router",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingenting",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En bok",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad gör du om du mår dåligt under resan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pratar med en ansvarig vuxen",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Håller det för dig själv",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Reser själv",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Låtsas att allt är bra",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "japantravel-emergency-contacts",
+    "traditionalkyoto-emergencies",
+    "jnto-safety-tips"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Nödnumren (110, 119, 118, #7119) och JNTO:s besökstelefon kommer från reseguider och är inte kontrollerade mot officiella källor. Kontrollera dem hos JNTO och myndigheter.",
+      "Beskrivningen av sjukvård (begränsad engelska, betala på plats) och rutiner är allmän bakgrund. Sökningen gav ingenting om försäkring eller värmeslag.",
+      "Kapitlet är inget medicinskt råd och bör granskas av resans ansvarige och försäkringsbolaget. Svenska kontaktuppgifter (UD, ambassaden) bör läggas till av arrangören.",
+      "Bildtexten om kobanen i Sendai bygger på Commons-beskrivningen."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t12-k04-hero",
+    "imageId": "koban-sendai",
+    "brief": "Polislåda (koban) eller en skylt om nödhjälp."
+  }
+}

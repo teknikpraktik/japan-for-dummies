@@ -1,0 +1,320 @@
+{
+  "id": "t12-k01",
+  "slug": "forberedelser-och-packning",
+  "themeId": "resa",
+  "order": 1,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Förberedelser och packning",
+  "summary": "Pass, försäkring, läkemedel, packning och vad som är bra att veta i förväg. Kapitlet har tydliga kontrollpunkter och pekar ut vad som måste kontrolleras nära avresa.",
+  "objectives": [
+    "Lista vad som måste vara klart före avresa",
+    "Packa efter säsong och aktivitet",
+    "Veta vilka regler som ska dubbelkollas"
+  ],
+  "minutes": 9,
+  "hook": {
+    "kind": "question",
+    "text": "Passet är hemma, medicinen är på hotellet och regnjackan ligger kvar i hallen. Vad hade du velat kontrollera redan en månad före avresa?"
+  },
+  "sections": [
+    {
+      "id": "innan",
+      "heading": "Före avresa: kontrollera i god tid",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Börja med det som tar tid. **Pass:** kontrollera giltighetstiden. Många sammanställningar rekommenderar minst sex månaders giltighet efter ankomst, andra anger att passet bara behöver gälla under hela vistelsen, så det säkraste är att ha god marginal. **Inresa:** svenska medborgare kan enligt de flesta sammanställningar resa in i Japan utan visum för korta turistvistelser (upp till 90 dagar). Reglerna ändras och bör kontrolleras hos Japans ambassad och Utrikesdepartementets reseinformation. Fråga också vad som gäller för anmälan eller deklaration vid ankomst."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Pass och eventuella andra dokument.",
+            "Reseförsäkring med sjukvård och hemtransport. Kontrollera vad den täcker och hur du kontaktar bolaget.",
+            "Vaccinationer och läkemedel: prata med vården i god tid.",
+            "Bokningar, adresser och kontaktuppgifter sparade offline.",
+            "Reseledarens och gruppens kontaktuppgifter.",
+            "Betalning och mobilabonnemang (se nästa kapitel)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lakemedel",
+      "heading": "Läkemedel: kontrollera reglerna",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vissa läkemedel som är vanliga i Sverige är förbjudna eller begränsade i Japan, och för vissa krävs särskilda tillstånd. Det gäller till exempel vissa receptbelagda smärtstillande och ADHD-läkemedel, och läkemedel med vissa verksamma ämnen. Sökningarna gav ingen detaljerad information, så **kontrollera alltid** reglerna hos de japanska myndigheterna (hälsoministeriet och tullen) och hos din läkare. Ta med läkemedel i originalförpackning, och ha recept eller intyg."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Detta är inget medicinskt råd",
+          "text": "Prata med din vårdgivare om medicin, allergier och kroniska sjukdomar innan du reser. Se även kapitlet om allergier och särskilda behov i temat om mat."
+        }
+      ]
+    },
+    {
+      "id": "packa",
+      "heading": "Packa efter säsong och aktivitet",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Packa efter årstid och plats (se temat om geografi): lager av kläder, regnskydd, bekväma skor som är lätta att ta av och på (se kapitlet om skor), strumpor utan hål, en liten påse för skräp och en liten handduk eftersom många toaletter saknar pappershanddukar. Ta med en adapter (Japan använder vanligen två platta stift), en powerbank och en liten väska för dagen."
+        },
+        {
+          "type": "p",
+          "text": "Packa inte för mycket: du bär själv din väska på trappor, tåg och stationer, och utrymmet i många hotellrum och tåg är litet."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "pass",
+      "title": "Pass",
+      "prompt": "Vad är den säkraste hållningen för passet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ha god marginal i giltighetstid och kontrollera reglerna.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Strunta i datumet.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Anta att det alltid är ok.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "medicin",
+      "title": "Läkemedel",
+      "prompt": "Vad gör du med dina läkemedel?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kontrollerar reglerna, tar med original och recept eller intyg.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Tar med allt utan att kolla.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Lämnar dem hemma utan att fråga.",
+          "correct": false,
+          "feedback": "Prata med din vårdgivare."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "packning",
+      "title": "Packa",
+      "situation": "Du har bara en liten väska och mycket du vill ta med.",
+      "question": "Vad prioriterar du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dokument, läkemedel, kläder efter väder och en regnjacka, och lämnar resten.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Fyra par skor.",
+          "correct": false,
+          "feedback": "Onödigt."
+        },
+        {
+          "id": "c",
+          "text": "Ingen jacka.",
+          "correct": false,
+          "feedback": "Det kan regna."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vad av det du packat använde du, och vad hade du kunnat lämna hemma?",
+    "Vilka dokument och kontakter hade du lätt att nå?",
+    "Vilka regler behövde du dubbelkolla?"
+  ],
+  "reflection": "Vad skulle du helst ha kontrollerat tidigare? Skriv en egen lista över det du ska göra en månad, en vecka och en dag före avresa.",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Hur lång tid kan svenska medborgare enligt de flesta sammanställningar vara visumfritt i Japan som turister?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Upp till 90 dagar",
+          "correct": true,
+          "feedback": "Rätt, men kontrollera officiellt."
+        },
+        {
+          "id": "b",
+          "text": "Upp till 1 dag",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Upp till 5 år",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen tid",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad bör du kontrollera om du tar med läkemedel?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Regler hos japanska myndigheter och din läkare",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ingenting",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara färgen på förpackningen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara priset",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad är bra att ha med i väskan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Regnskydd, strumpor, påse för skräp",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Fyra par tunga stövlar",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingenting",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En tält",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vilken typ av kontakt har Japan oftast?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Två platta stift (adapter kan behövas)",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Tre runda stift",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Samma som Sverige",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Varför bör du spara uppgifter offline?",
+      "options": [
+        {
+          "id": "a",
+          "text": "För att du kanske saknar internet",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "För att det är roligt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "För att papper är förbjudet",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "För att batteriet är oändligt",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "peninsulavisa-sweden-japan",
+    "jnto-safety-tips"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Inresereglerna (visumfritt upp till 90 dagar, passets giltighet) kommer från sekundära sammanställningar och är motstridiga. Kontrollera alltid hos Japans ambassad och Utrikesdepartementet.",
+      "Sökningen gav ingen information om läkemedelsregler, tullregler eller anmälan vid ankomst. Texten är allmän och bör kompletteras med officiella källor.",
+      "Uppgiften om eluttag och packningsråden är allmän bakgrund.",
+      "Kapitlet är inget medicinskt eller juridiskt råd."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t12-k01-hero",
+    "imageId": "seto-onomichi",
+    "brief": "Packning eller reseförberedelser."
+  }
+}

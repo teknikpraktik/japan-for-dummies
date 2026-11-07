@@ -44,11 +44,13 @@ test.describe("pilotkapitel och direktlänkar", () => {
     await page.evaluate(async () => { await navigator.serviceWorker.ready; });
     await page.goto("/kapitel/skogs-och-hav-finns-inte/");
     await expect(page.getByRole("heading", { name: "Sidan kunde inte hittas" })).toBeVisible();
-    await page.goto(`/kapitel/${PLANNED_SAMPLE.slug}/`);
-    await expect(page.getByRole("heading", { level: 1 })).toHaveText(PLANNED_SAMPLE.title);
-    await expect(page.getByText("planerat men inte skrivet än")).toBeVisible();
-    await expect(page.getByTestId("start-quiz")).toHaveCount(0);
-    await expect(page.getByRole("heading", { name: "Planerade lärandemål" })).toBeVisible();
+    if (PLANNED_SAMPLE) {
+      await page.goto(`/kapitel/${PLANNED_SAMPLE.slug}/`);
+      await expect(page.getByRole("heading", { level: 1 })).toHaveText(PLANNED_SAMPLE.title);
+      await expect(page.getByText("planerat men inte skrivet än")).toBeVisible();
+      await expect(page.getByTestId("start-quiz")).toHaveCount(0);
+      await expect(page.getByRole("heading", { name: "Planerade lärandemål" })).toBeVisible();
+    }
   });
 });
 
