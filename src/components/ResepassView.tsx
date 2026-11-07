@@ -41,7 +41,6 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
         {next ? (
           <p>
             <Link href={`/kapitel/${next.slug}/`} className="font-semibold">{next.title}</Link>
-            {next.minutes ? ` (ca ${next.minutes} min)` : ""}
           </p>
         ) : (
           <p>Du har klarat alla färdiga kapitel. Fler kommer senare.</p>
