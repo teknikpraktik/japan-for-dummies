@@ -6,10 +6,10 @@
   "status": "published",
   "contentVersion": 1,
   "title": "Årstider och klimat från Hokkaido till Okinawa",
-  "summary": "Från snöiga vintrar i norr till subtropisk värme i söder. Kapitlet går igenom regnperiod, taifunsäsong och vad som är rimligt att förvänta sig i oktober.",
+  "summary": "Från snöiga vintrar i norr till subtropisk värme i söder. Kapitlet går igenom regnperiod, tyfonsäsong och vad som är rimligt att förvänta sig i oktober.",
   "objectives": [
     "Jämföra klimatet i norra och södra Japan",
-    "Förklara regnperiod och taifunsäsong",
+    "Förklara regnperiod och tyfonsäsong",
     "Planera klädsel och dagar utifrån säsong och prognos"
   ],
   "minutes": 7,
@@ -81,20 +81,20 @@
     },
     {
       "id": "taifuner",
-      "heading": "Taifuner",
+      "heading": "Tyfoner",
       "blocks": [
         {
           "type": "p",
-          "text": "En **taifun** är en kraftig tropisk storm. Säsongen löper ungefär från maj till oktober, och de flesta stormarna kommer i augusti och september. Oktober hör fortfarande till säsongen, så en taifun kan påverka en resa."
+          "text": "En **tyfon** är en kraftig tropisk storm. Säsongen löper ungefär från maj till oktober, och de flesta stormarna kommer i augusti och september. Oktober hör fortfarande till säsongen, så en tyfon kan påverka en resa."
         },
         {
           "type": "p",
-          "text": "Taifuner ger kraftig vind och regn, och tåg, flyg och färjor kan ställas in. Järnvägsbolag kan i förväg meddela att tåg inte går vid en storm. Därför följer man prognosen och meddelanden från Japans meteorologiska myndighet (JMA) och JNTO:s app, och gör inga utflykter på dagar med varning."
+          "text": "Tyfoner ger kraftig vind och regn, och tåg, flyg och färjor kan ställas in. Järnvägsbolag kan i förväg meddela att tåg inte går vid en storm. Därför följer man prognosen och meddelanden från Japans meteorologiska myndighet (JMA) och JNTO:s app, och gör inga utflykter på dagar med varning."
         },
         {
           "type": "callout",
           "tone": "check",
-          "title": "Vid taifunvarning",
+          "title": "Vid tyfonvarning",
           "text": "Stanna inomhus om det är farligt ute, håll avstånd till kust och floder, och följ gruppens ledares anvisningar. Planera en reservdag eller en inomhusaktivitet."
         }
       ]
@@ -114,7 +114,7 @@
             "Tänk **lager**: tunn tröja, jacka, och något varmare för kvällen i norr och uppe i bergen.",
             "Ha alltid **paraply eller regnjacka**. Regn kan komma plötsligt.",
             "Titta på prognosen **dagen innan**, särskilt om du ska ut i naturen eller resa långt.",
-            "Kontrollera taifunläget inför resdagar."
+            "Kontrollera tyfonläget inför resdagar."
           ]
         },
         {
@@ -158,26 +158,26 @@
       "type": "scenario",
       "id": "taifunvarning",
       "title": "Utflykt under varning",
-      "situation": "Gruppen har planerat en dagsutflykt till ett berg. Kvällen innan har prognosen en taifun på väg mot området. Någon säger: ”Det blir säkert bara lite regn, vi åker ändå.”",
+      "situation": "Gruppen har planerat en dagsutflykt till ett berg. Kvällen innan har prognosen en tyfon på väg mot området. Någon säger: ”Det blir säkert bara lite regn, vi åker ändå.”",
       "question": "Vad är det klokaste?",
       "options": [
         {
           "id": "a",
           "text": "Följ prognosen och meddelanden, och byt till en inomhusaktivitet eller en annan dag.",
           "correct": true,
-          "feedback": "Rätt. Taifuner ger kraftig vind och regn och kan ställa in transporter. Flexibilitet är bättre än risk."
+          "feedback": "Rätt. Tyfoner ger kraftig vind och regn och kan ställa in transporter. Flexibilitet är bättre än risk."
         },
         {
           "id": "b",
           "text": "Åk ändå, tågen går alltid.",
           "correct": false,
-          "feedback": "Fel. Tåg och andra transporter kan ställas in vid taifun."
+          "feedback": "Fel. Tåg och andra transporter kan ställas in vid tyfon."
         },
         {
           "id": "c",
           "text": "Åk ändå men ta en kortare väg utan prognoskontroll.",
           "correct": false,
-          "feedback": "Fel. Undvik att gå ut i naturen vid en taifunvarning, och kolla alltid prognosen."
+          "feedback": "Fel. Undvik att gå ut i naturen vid en tyfonvarning, och kolla alltid prognosen."
         }
       ]
     },
@@ -259,8 +259,8 @@
         },
         {
           "id": "c",
-          "text": "Taifun",
-          "feedback": "Fel. En taifun är en storm, inte en regnperiod."
+          "text": "Tyfon",
+          "feedback": "Fel. En tyfon är en storm, inte en regnperiod."
         },
         {
           "id": "d",
@@ -271,7 +271,7 @@
     },
     {
       "id": "q3",
-      "prompt": "När är taifunsäsongen ungefär?",
+      "prompt": "När är tyfonsäsongen ungefär?",
       "options": [
         {
           "id": "a",
@@ -282,12 +282,12 @@
         {
           "id": "b",
           "text": "Bara i januari.",
-          "feedback": "Fel. Taifuner är tropiska stormar och kommer på sommaren och tidiga hösten."
+          "feedback": "Fel. Tyfoner är tropiska stormar och kommer på sommaren och tidiga hösten."
         },
         {
           "id": "c",
           "text": "Bara i mars.",
-          "feedback": "Fel. Det är inte taifunsäsongen."
+          "feedback": "Fel. Det är inte tyfonsäsongen."
         },
         {
           "id": "d",
@@ -304,7 +304,7 @@
           "id": "a",
           "text": "Lager av kläder och regnskydd.",
           "correct": true,
-          "feedback": "Rätt. Det kan vara mildt på dagen och svalt på kvällen, och regn kan komma."
+          "feedback": "Rätt. Det kan vara milt på dagen och svalt på kvällen, och regn kan komma."
         },
         {
           "id": "b",
@@ -325,7 +325,7 @@
     },
     {
       "id": "q5",
-      "prompt": "Vad gör du om det finns en taifunvarning för din utflyktsdag?",
+      "prompt": "Vad gör du om det finns en tyfonvarning för din utflyktsdag?",
       "options": [
         {
           "id": "a",
@@ -365,7 +365,7 @@
     "uncertainty": [
       "Temperaturintervallet för Tokyo i oktober är ungefärligt (en NOAA-baserad sammanställning, inte JMA:s normalvärden).",
       "Inget officiellt oktobervärde för Sapporo hittades; texten säger därför bara att det är svalare.",
-      "Datum för tsuyu, akisame och taifunsäsong varierar mellan källor och år.",
+      "Datum för tsuyu, akisame och tyfonsäsong varierar mellan källor och år.",
       "Beskrivningen av snö på västsidan och klara vintrar på Stillahavssidan är allmän kännedom och inte kontrollerad mot en källa i detta arbete.",
       "Tidpunkt för höstfärger varierar kraftigt mellan år och platser."
     ],

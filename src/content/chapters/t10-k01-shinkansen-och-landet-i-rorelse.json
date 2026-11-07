@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "**Shinkansen** (”ny stamlinje”) är Japans höghastighetståg. Den första linjen, **Tokaido-shinkansen** mellan Tokyo och Osaka, öppnades 1964, i samband med olympiska spelen i Tokyo (se kapitlet om efterkrigstiden). Sedan dess har nätet byggts ut till stora delar av landet, med nya linjer norrut och söderut. Tågen har egna spår, till skillnad från vanliga tåg, vilket bidrar till hastigheten och punktligheten."
+          "text": "**Shinkansen** (”ny stamlinje”) är Japans höghastighetståg. Den första linjen, **Tokaido-shinkansen** mellan Tokyo och Osaka, öppnades 1964, i samband med olympiska spelen i Tokyo (se kapitlet om efterkrigstiden). Sedan dess har nätet byggts ut till stora delar av landet, med nya linjer norrut och söderut. De flesta shinkansenlinjer har egna spår, till skillnad från vanliga tåg, vilket bidrar till hastigheten och punktligheten. Undantaget är mini-shinkansen (Yamagata- och Akita-linjerna), som går på ombyggda vanliga linjer och delar spår med annan trafik."
         },
         {
           "type": "photo",
@@ -44,7 +44,7 @@
         },
         {
           "type": "p",
-          "text": "Punktligheten bygger på rutiner: tränad personal, noggranna kontroller, tydliga arbetsrutiner och att passagerare bidrar genom att köa vid markerade platser och stiga på och av snabbt. Ändå finns störningar: jordbävningar, taifuner, snö och olyckor kan stoppa eller försena tåg, och då kan det bli långa köer på stationerna."
+          "text": "Punktligheten bygger på rutiner: tränad personal, noggranna kontroller, tydliga arbetsrutiner och att passagerare bidrar genom att köa vid markerade platser och stiga på och av snabbt. Ändå finns störningar: jordbävningar, tyfoner, snö och olyckor kan stoppa eller försena tåg, och då kan det bli långa köer på stationerna."
         }
       ]
     },
@@ -58,7 +58,7 @@
         },
         {
           "type": "p",
-          "text": "Räkna därför med att något kan avvika: lägg in extra tid mellan byten, ha en plan B för en dag med taifunvarning och kontrollera trafikinformation samma morgon. Punktligheten gäller tågen, men din resa innehåller också promenader, köer och byten."
+          "text": "Räkna därför med att något kan avvika: lägg in extra tid mellan byten, ha en plan B för en dag med tyfonvarning och kontrollera trafikinformation samma morgon. Punktligheten gäller tågen, men din resa innehåller också promenader, köer och byten."
         },
         {
           "type": "observe",
@@ -253,7 +253,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Jordbävningar, taifuner och snö",
+          "text": "Jordbävningar, tyfoner och snö",
           "correct": true,
           "feedback": "Rätt."
         },
@@ -304,7 +304,8 @@
   ],
   "sourceIds": [
     "jrailpass-punctuality",
-    "nst-shinkansen-staff"
+    "nst-shinkansen-staff",
+    "wikipedia-mini-shinkansen"
   ],
   "mediaIds": [],
   "review": {

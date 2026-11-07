@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japan har regler om **allergenmärkning** på förpackade livsmedel. Reglerna förvaltas av Konsumentverket (Consumer Affairs Agency) under livsmedelsmärkningslagen från 2015, och allergener delas in i **obligatoriska** (åtta ämnen, inklusive ägg, mjölk och valnötter, där valnötter är ett nyare tillägg) och **rekommenderade** (omkring 20 ämnen, till exempel soja, sesam och pistage). Cashewnötter har föreslagits bli obligatoriska."
+          "text": "Japan har regler om **allergenmärkning** på förpackade livsmedel. Reglerna förvaltas av Japans konsumentmyndighet (Shōhisha-chō, Consumer Affairs Agency) under livsmedelsmärkningslagen från 2015, och allergener delas in i **obligatoriska** (nio ämnen: ägg, mjölk, vete, bovete, jordnötter, räkor, krabba, valnötter och cashewnötter) och **rekommenderade** (omkring 20 ämnen, till exempel soja, sesam och pistage). Cashewnötter blev obligatoriska den 1 april 2026, med övergångstid till 31 mars 2028, och pistage lades samtidigt till bland de rekommenderade."
         },
         {
           "type": "p",
@@ -296,6 +296,7 @@
     }
   ],
   "sourceIds": [
+    "caa-allergen-labeling",
     "nippon-allergen-labeling",
     "pmc-japan-allergen",
     "unseen-vegetarian-dashi",
@@ -309,7 +310,7 @@
     "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
     "status": "needs-human-review",
     "uncertainty": [
-      "Listan över obligatoriska allergener (åtta, inkl. ägg, mjölk, valnötter) bygger på en delvis sekundär sammanfattning. De övriga (vete, räkor, krabba, jordnötter, bovete) är allmän kunskap som inte verifierades. Kontrollera mot Konsumentverkets (CAA) sida. Cashewnötter var på förslag.",
+      "Listan över nio obligatoriska allergener, med cashew från 1 april 2026 (övergång till 31 mars 2028), bygger på Consumer Affairs Agency och Mie prefektur. Kontrollera mot CAA:s sida eftersom reglerna ändras.",
       "Vegetariska råd bygger på reseguider. Halal- och kosherutbudet kontrollerades inte.",
       "Medicinska råd (adrenalinpenna, regler för läkemedel) är allmänna och ska bekräftas med vårdgivare och Japans regler. Kapitlet är inget medicinskt råd.",
       "Frasen ”Dashi o tsukawanaide kudasai” kommer från en reseguide och bör granskas av en japansklärare."

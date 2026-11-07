@@ -44,7 +44,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Vid **Ise-helgedomarna** byggs alla huvudbyggnader om från grunden **vart tjugonde år** (shikinen sengū). Den nya byggnaden får samma mått som den förra och byggs på en intilliggande plats. Enligt Japan Atlas var den första ombyggnaden år 690, och den senaste hittills på 1990-talet (61:a) följdes av en ny cykel som började 2025 och pågår till 2033. Årtalen anges olika i olika källor."
+          "text": "Vid **Ise-helgedomarna** byggs alla huvudbyggnader om från grunden **vart tjugonde år** (shikinen sengū). Den nya byggnaden får samma mått som den förra och byggs på en intilliggande plats. Enligt Japan Atlas var den första ombyggnaden år 690. Den 62:a ombyggnaden genomfördes 2013, och förberedelserna för den 63:e började 2025 inför flytten 2033."
         },
         {
           "type": "p",
@@ -303,6 +303,7 @@
   ],
   "sourceIds": [
     "webjapan-architecture",
+    "isejingu-sengu-63",
     "nippon-ise-moves-house",
     "wikipedia-sengu"
   ],
@@ -312,7 +313,7 @@
     "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
     "status": "needs-human-review",
     "uncertainty": [
-      "Årtalen för Ise-ombyggnaderna (690, 61:a vid 1993, ny cykel 2025–2033) varierar mellan källor. En källa anger ett uppenbart felaktigt årtal.",
+      "Ombyggnaden 2013 (62:a) och den pågående cykeln mot 2033 (63:a) kommer från Ise Jingus egen sida. Årtalet 690 för den första ombyggnaden kommer från Japan Atlas, som är äldre än 2013, och bygger på tradition.",
       "Beskrivningen av tatami, shōji, engawa, trädgårdstyper och Kenroku-en är allmän bakgrund som inte kontrollerades mot en källa.",
       "Förklaringen om varför trä dominerar och hur slott återuppbyggts är förenklad.",
       "Bildtexterna om Kenroku-en och Himeji slott bygger på Commons-beskrivningarna och allmän kännedom."

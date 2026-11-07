@@ -28,7 +28,7 @@
         },
         {
           "type": "p",
-          "text": "Därför blir religiösa siffror svåra att tolka. Officiella siffror från kulturmyndigheten räknar omkring 87 miljoner shintoanhängare och 84 miljoner buddhister, fler än Japans befolkning, eftersom samma person kan räknas i flera grupper (och i tempelförsamlingar utan aktiv tro). Samtidigt anger många i enkäter att de inte är religiösa."
+          "text": "Därför blir religiösa siffror svåra att tolka. Officiella siffror från kulturmyndigheten räknar omkring 83 miljoner anhängare av shintosystemet och 81 miljoner av det buddhistiska systemet (årsboken för 2024), tillsammans fler än Japans befolkning, eftersom samma person kan räknas i flera grupper (och i tempelförsamlingar utan aktiv tro). Samtidigt anger många i enkäter att de inte är religiösa."
         }
       ]
     },
@@ -300,6 +300,7 @@
   ],
   "sourceIds": [
     "eurekalert-japan-religiosity",
+    "bunka-shukyo-nenkan",
     "wikipedia-buddhism-in-japan",
     "britannica-japan-since-1945"
   ],
@@ -309,7 +310,7 @@
     "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
     "status": "needs-human-review",
     "uncertainty": [
-      "Siffrorna (cirka 87 respektive 84 miljoner) kommer från sekundära webbsidor som citerar kulturmyndighetens årsbok och bör kontrolleras mot källan.",
+      "Siffrorna (cirka 83,4 respektive 81,1 miljoner) avser Shūkyō nenkan, upplagan från 2024, och kommer från kulturmyndighetens sida och en förlagsnotis. Kontrollera mot själva årsboken.",
       "Studien från 2024 om hur formuleringen påverkar svaren kommer från en nyhetssammanfattning.",
       "Beskrivningen av nya religioner, ordet shūkyō, bröllop och religionsfrihet är allmän bakgrund som inte kontrollerades separat.",
       "Ämnet är känsligt och bör granskas av någon med religionsvetenskaplig kompetens."

@@ -28,7 +28,7 @@
           "items": [
             "**Torii:** böj huvudet lätt vid porten och gå helst vid sidan av mitten, eftersom mitten ofta anses tillhöra kami.",
             "**Rening:** vid vattenpaviljongen (temizuya) tar du vatten med skopan, sköljer först den ena handen och sedan den andra och därefter munnen med vatten från handen (skölj inte direkt från skopan). Följ skyltarna eller andra besökare.",
-            "**Offer och bön:** lägg ett mynt i lådan (ett femyenmynt anses ge lycka, eftersom ordet *go-en* också betyder ”lycka”) och ring eventuellt klockan. Den vanliga sekvensen är **två bugningar, två klappar och en bugning**.",
+            "**Offer och bön:** lägg ett mynt i lådan (femyen offras ofta, eftersom *go-en* (五円) låter som *go-en* (ご縁), ”band” eller ”förbindelse”, och man önskar sig goda möten och relationer) och ring eventuellt klockan. Den vanliga sekvensen är **två bugningar, två klappar och en bugning**.",
             "**Därefter:** tacka i tankarna och gå ut. Vid torii kan du vända dig om och böja huvudet igen."
           ]
         },
@@ -210,13 +210,13 @@
     },
     {
       "id": "q3",
-      "prompt": "Vilket mynt anses ge lycka?",
+      "prompt": "Vilket mynt offrar många för att önska sig goda band och möten?",
       "options": [
         {
           "id": "a",
           "text": "Femyen",
           "correct": true,
-          "feedback": "Rätt. Go-en låter som ”lycka”."
+          "feedback": "Rätt. Femyen heter go-en, vilket låter som ご縁, ”goda band”."
         },
         {
           "id": "b",
@@ -294,7 +294,8 @@
     "jnto-two-bows-two-claps",
     "jal-temple-shrine",
     "justonecookbook-shrine-etiquette",
-    "kanagawa-shrines-temples"
+    "kanagawa-shrines-temples",
+    "kanshudo-goen"
   ],
   "mediaIds": [],
   "review": {

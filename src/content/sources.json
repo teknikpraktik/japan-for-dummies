@@ -247,7 +247,7 @@
     "kind": "travel-guide",
     "checkedOn": "2026-11-02",
     "access": "search-result-summary",
-    "supports": "Taifunsäsongen maj–oktober med flest stormar i augusti–september, och att transporter kan påverkas."
+    "supports": "Tyfonsäsongen maj–oktober med flest stormar i augusti–september, och att transporter kan påverkas."
   },
   {
     "id": "tbs-akiya",
@@ -430,16 +430,6 @@
     "supports": "Att Japan 2025 rankades 118:e av 148 länder i WEF:s jämställdhetsindex, samma plats som året före, och att politik är den svagaste delen (125:e)."
   },
   {
-    "id": "stat-households-2015",
-    "title": "Population of Japan: Households (2015 census)",
-    "publisher": "Statistics Bureau of Japan",
-    "url": "https://www.stat.go.jp/english/data/kokusei/2015/poj/pdf/2015ch08.pdf",
-    "kind": "official",
-    "checkedOn": "2026-11-06",
-    "access": "search-result-summary",
-    "supports": "Att enpersonshushåll stod för 34,6 procent av hushållen 2015 och att hushållens genomsnittsstorlek föll från 2,98 (1990) till 2,33 (2015)."
-  },
-  {
     "id": "japantimes-surname-2021",
     "title": "Top court surname ruling",
     "publisher": "The Japan Times",
@@ -457,7 +447,7 @@
     "kind": "news-or-reference",
     "checkedOn": "2026-11-06",
     "access": "search-result-summary",
-    "supports": "Att lagen från 2019 för första gången erkänner ainu som ett urfolk, och att kritiker anser att den saknar rättigheter, till exempel till mark."
+    "supports": "Att lagen från 2019 för första gången i lag erkänner ainu som ett urfolk, och att kritiker anser att den saknar rättigheter, till exempel till mark."
   },
   {
     "id": "wikipedia-koreans-in-japan",
@@ -467,7 +457,7 @@
     "kind": "news-or-reference",
     "checkedOn": "2026-11-06",
     "access": "search-result-summary",
-    "supports": "Zainichi-koreaners bakgrund, att särskild permanent uppehållsstatus infördes 1991 och att antalet i den kategorin anges olika (cirka 290 000–310 000) beroende på källa och år."
+    "supports": "Zainichi-koreaners bakgrund och att särskild permanent uppehållsstatus infördes 1991. Antalet i kategorin hämtas från Immigration Services Agency."
   },
   {
     "id": "nippon-foreign-residents-2025",
@@ -757,7 +747,7 @@
     "kind": "news-or-reference",
     "checkedOn": "2026-11-06",
     "access": "search-result-summary",
-    "supports": "Att Japan har obligatorisk allergenmärkning för vissa ämnen, att valnötter lagts till och att cashewnötter övervägs."
+    "supports": "Att Japan har obligatorisk allergenmärkning för vissa ämnen, att valnötter lagts till och att cashewnötter övervägdes. Uppgiften om att cashew blev obligatorisk 2026 kommer från Consumer Affairs Agency och Mie prefektur."
   },
   {
     "id": "pmc-japan-allergen",
@@ -767,7 +757,7 @@
     "kind": "institution",
     "checkedOn": "2026-11-06",
     "access": "search-result-summary",
-    "supports": "Att allergenmärkning regleras av Konsumentverket (CAA) under livsmedelsmärkningslagen från 2015 med obligatoriska och rekommenderade ämnen."
+    "supports": "Att allergenmärkning regleras av Japans konsumentmyndighet (CAA) under livsmedelsmärkningslagen från 2015 med obligatoriska och rekommenderade ämnen."
   },
   {
     "id": "unseen-vegetarian-dashi",
@@ -907,7 +897,7 @@
     "kind": "official",
     "checkedOn": "2026-11-07",
     "access": "search-result-summary",
-    "supports": "Att Ise-helgedomarna byggs om vart tjugonde år (shikinen sengū), med första ombyggnaden år 690 och den 61:a 1993, som ett sätt att föra vidare byggtekniker."
+    "supports": "Att Ise-helgedomarna byggs om vart tjugonde år (shikinen sengū), med första ombyggnaden år 690, som ett sätt att föra vidare byggtekniker. Källan är äldre än 2013 och används inte för de senaste ombyggnaderna."
   },
   {
     "id": "nippon-ise-moves-house",
@@ -987,7 +977,7 @@
     "kind": "news-or-reference",
     "checkedOn": "2026-11-07",
     "access": "search-result-summary",
-    "supports": "AKB48, ett idolgrupp grundat 2005 av Yasushi Akimoto i Akihabara, känt för ett nära band till fansen och för att ha infört en valordning för medlemmar."
+    "supports": "AKB48, en idolgrupp grundad 2005 av Yasushi Akimoto i Akihabara, känd för ett nära band till fansen och för att ha infört en valordning för medlemmar."
   },
   {
     "id": "vice-virtual-pop-stars",
@@ -1127,7 +1117,7 @@
     "kind": "institution",
     "checkedOn": "2026-11-07",
     "access": "search-result-summary",
-    "supports": "Att fossila bränslen stod för cirka 69 procent av Japans elmix 2023, att kärnkraft var cirka 7,6–8,5 procent och att Japan har högst kolandel av G7. Uppgifterna är en tankesmedjas bedömning."
+    "supports": "Att Japan har högst kolandel av G7 och att fossila bränslen stod för cirka 69 procent av elen 2023. Uppgifterna är en tankesmedjas bedömning."
   },
   {
     "id": "thestar-renewables-2040",
@@ -1278,5 +1268,145 @@
     "checkedOn": "2026-11-07",
     "access": "search-result-summary",
     "supports": "Nödnummer och råd vid nödsituationer för besökare i Japan."
+  },
+  {
+    "id": "stat-census-2020",
+    "title": "2020 Population Census: Population and Households of Japan",
+    "publisher": "Statistics Bureau of Japan",
+    "url": "https://www.stat.go.jp/english/data/kokusei/2020/summary/pdf/all.pdf",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att enpersonshushåll stod för 38,0 procent av hushållen 2020 och att hushållens genomsnittsstorlek var 2,21 personer."
+  },
+  {
+    "id": "meti-fy2023-energy",
+    "title": "FY2023 Energy Supply and Demand Report",
+    "publisher": "METI (Japans handelsdepartement)",
+    "url": "https://www.meti.go.jp/english/press/2025/0425_002.html",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Elmixen budgetåret 2023: fossilt cirka 69 procent, kärnkraft 8,5 procent och förnybart cirka 23 procent, varav sol 9,8, vatten 7,6, biomassa 4,1, vind 1,1 och geotermi 0,3 procent."
+  },
+  {
+    "id": "fukushima-reconstruction-faq",
+    "title": "What will happen to Fukushima Daiichi?",
+    "publisher": "Reconstruction Agency",
+    "url": "https://fukushima-updates.reconstruction.go.jp/en/faq/fk_230.html",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att avvecklingen av Fukushima Daiichi började efter olyckan 2011 och beräknas ta 30–40 år, med mål 2041–2051."
+  },
+  {
+    "id": "isejingu-sengu-63",
+    "title": "第63回神宮式年遷宮",
+    "publisher": "Ise Jingu",
+    "url": "https://www.isejingu.or.jp/sengu/the63rd/",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att den 62:a shikinen sengū genomfördes 2013 och att den 63:e cykeln pågår mot flytten 2033."
+  },
+  {
+    "id": "isa-foreign-residents-2025",
+    "title": "令和7年末現在における在留外国人数について",
+    "publisher": "Immigration Services Agency of Japan",
+    "url": "https://www.moj.go.jp/isa/publications/press/13_00062.html",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Antalet utländska invånare i slutet av 2025 (4 125 395) och antalet särskilda permanenta invånare (266 896)."
+  },
+  {
+    "id": "bunka-shukyo-nenkan",
+    "title": "宗教年鑑",
+    "publisher": "Bunkachō (Agency for Cultural Affairs)",
+    "url": "https://www.bunka.go.jp/tokei_hakusho_shuppan/hakusho_nenjihokokusho/shukyo_nenkan/index.html",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Religionsårsboken Shūkyō nenkan, upplagan 2024: cirka 83,4 miljoner anhängare i shintosystemet och cirka 81,1 miljoner i det buddhistiska systemet."
+  },
+  {
+    "id": "sangiin-ainu-2008",
+    "title": "アイヌ民族を先住民族とすることを求める決議",
+    "publisher": "Sangiin (Japans överhus)",
+    "url": "https://www.sangiin.go.jp/japanese/gianjoho/ketsugi/169/080606-2.html",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att riksdagens båda kamrar den 6 juni 2008 antog en resolution om att ainu är ett urfolk."
+  },
+  {
+    "id": "gender-equality-suffrage",
+    "title": "男女共同参画の歴史: 婦人参政権",
+    "publisher": "Gender Equality Bureau, Cabinet Office",
+    "url": "https://www.gender.go.jp/about_danjo/law/kihon/situmu1-1.html",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att kvinnors rösträtt infördes genom ändringen av vallagen i december 1945 och att kvinnor röstade första gången i valet i april 1946."
+  },
+  {
+    "id": "kanshudo-goen",
+    "title": "ごえん, 五円 och 御縁",
+    "publisher": "Kanshudo",
+    "url": "https://www.kanshudo.com/poi/%E3%81%94%E3%81%88%E3%82%93",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att 五円 (go-en) uttalas som ご縁 (band, förbindelse) och därför är ett vanligt offer för goda relationer."
+  },
+  {
+    "id": "mhlw-karoshi-whitepaper-2025",
+    "title": "令和7年版 過労死等防止対策白書 (sammanfattning)",
+    "publisher": "MHLW (Japans hälsoministerium)",
+    "url": "https://www.mhlw.go.jp/content/11200000/r7karoushi-summary.pdf",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Erkända karoshifall budgetåret 2024: 67 dödsfall i hjärt- och kärlsjukdom och 88 självmord (inklusive försök)."
+  },
+  {
+    "id": "mhlw-overtime-cap",
+    "title": "時間外労働の上限規制",
+    "publisher": "MHLW (Japans hälsoministerium)",
+    "url": "https://hatarakikatakaikaku.mhlw.go.jp/overtime.html",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Övertidsgränserna: 45 timmar per månad och 360 per år, och vid särskilda skäl under 100 timmar per månad (helgarbete inräknat), i snitt högst 80 timmar över 2–6 månader, högst sex månader över 45 timmar och 720 timmar per år utan helgarbete."
+  },
+  {
+    "id": "wikipedia-mini-shinkansen",
+    "title": "Mini-shinkansen",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mini-shinkansen",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att mini-shinkansen (Yamagata- och Akita-linjerna) går på ombyggda vanliga linjer och delar spår med annan trafik."
+  },
+  {
+    "id": "wikipedia-sento",
+    "title": "Sentō",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sent%C5%8D",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att sento är offentliga badhus där man tvättar sig vid duschplatser innan man badar i bassängen."
+  },
+  {
+    "id": "caa-allergen-labeling",
+    "title": "アレルギー表示",
+    "publisher": "Consumer Affairs Agency of Japan",
+    "url": "https://www.caa.go.jp/policies/policy/food_labeling/food_sanitation/allergy/",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att cashewnötter är obligatoriska allergener från 1 april 2026 (övergång till 31 mars 2028), att pistage lagts till bland de rekommenderade ämnena och att myndigheten förvaltar allergenmärkningen."
   }
 ]

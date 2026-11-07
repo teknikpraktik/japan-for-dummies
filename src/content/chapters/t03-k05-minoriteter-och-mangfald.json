@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "**Ainu** är ett urfolk med egen kultur och eget språk som historiskt bott på Hokkaido och i norr. Under Meijiperioden införlivades Hokkaido närmare staten (se kapitlet om Edo till Meiji), och många ainu utsattes för assimilering. Först **2019** erkände en lag ainu som urfolk. Lagen stöder kulturen, men kritiker anser att den inte ger tillräckliga rättigheter, till exempel till mark."
+          "text": "**Ainu** är ett urfolk med egen kultur och eget språk som historiskt bott på Hokkaido och i norr. Under Meijiperioden införlivades Hokkaido närmare staten (se kapitlet om Edo till Meiji), och många ainu utsattes för assimilering. Riksdagen antog redan 2008 en resolution om att ainu är ett urfolk, men först **2019** erkände en lag ainu som urfolk. Lagen stöder kulturen, men kritiker anser att den inte ger tillräckliga rättigheter, till exempel till mark."
         }
       ]
     },
@@ -44,7 +44,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "**Zainichi-koreaner** är koreaner och deras ättlingar som bor i Japan, många sedan kolonialtiden (se kapitlet om imperialism). Många har fötts och vuxit upp i Japan men har inte japanskt medborgarskap. 1991 infördes en särskild permanent uppehållsstatus, och antalet i den kategorin anges olika i källor, ungefär 290 000 till 310 000. Zainichi har mött diskriminering."
+          "text": "**Zainichi-koreaner** är koreaner och deras ättlingar som bor i Japan, många sedan kolonialtiden (se kapitlet om imperialism). Många har fötts och vuxit upp i Japan men har inte japanskt medborgarskap. 1991 infördes en särskild permanent uppehållsstatus, och antalet i den kategorin var 266 896 i slutet av 2025 (274 023 året innan). Det är cirka 6,5 procent av alla utländska invånare, och antalet minskar för varje år. Zainichi har mött diskriminering."
         },
         {
           "type": "p",
@@ -59,10 +59,10 @@
             },
             {
               "label": "Särskilda permanenta invånare (zainichi m.fl.)",
-              "value": "Ca 290 000–310 000, beroende på källa och år"
+              "value": "266 896 (slutet av 2025), minskande"
             },
             {
-              "label": "Ainu erkänt som urfolk",
+              "label": "Ainu erkända som urfolk i lag",
               "value": "2019"
             }
           ]
@@ -98,7 +98,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Ainu erkändes för första gången som urfolk.",
+          "text": "Ainu erkändes för första gången som urfolk i lag.",
           "correct": true,
           "feedback": "Rätt, men kritiker anser att rättigheterna är begränsade."
         },
@@ -315,6 +315,8 @@
   ],
   "sourceIds": [
     "japantimes-ainu-law",
+    "sangiin-ainu-2008",
+    "isa-foreign-residents-2025",
     "wikipedia-koreans-in-japan",
     "nippon-foreign-residents-2025",
     "wikipedia-japanese-colonial-empire"
@@ -327,7 +329,7 @@
     "uncertainty": [
       "Ryukyukungarikets historia, att området införlivades på 1870-talet, ryukyuspråken och beskrivningen av Okinawa är allmän bakgrund som inte kontrollerades separat mot en källa.",
       "Beskrivningen av ainu som historiskt bosatta på Hokkaido och i norr samt assimilering är allmän bakgrund.",
-      "Antalet särskilda permanenta invånare varierar mellan källor (cirka 289 000–309 000). Kontrollera mot Justitiedepartementet.",
+      "Antalet särskilda permanenta invånare (266 896 i slutet av 2025) kommer från Immigration Services Agency. Den andel de utgör (cirka 6,5 procent av de utländska invånarna) är en egen beräkning.",
       "Andelen ”drygt tre procent” är en egen beräkning och bör kontrolleras. Fördelningen på nationaliteter och påståendet om diskriminering mot zainichi bygger på allmän bakgrund.",
       "Ämnet är känsligt. Kapitlet bör granskas av en sakkunnig, helst med erfarenhet av minoritetsfrågor.",
       "Upopoy-bilden föreställer ett återskapat hus (rekonstruktion)."

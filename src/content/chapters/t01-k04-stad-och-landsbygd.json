@@ -95,7 +95,7 @@
       "type": "multiple-choice",
       "id": "akiya",
       "title": "Vad är akiya?",
-      "prompt": "Vad betyder ordet akiya i den här sammanhanget?",
+      "prompt": "Vad betyder ordet akiya i det här sammanhanget?",
       "options": [
         {
           "id": "a",

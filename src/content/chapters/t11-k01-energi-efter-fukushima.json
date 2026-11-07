@@ -24,22 +24,22 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japan har få egna fossila energikällor och importerar mycket av sin olja, gas och kol. Enligt en tankesmedjas sammanställning stod **fossila bränslen för cirka 69 procent** av elen 2023, och Japan har den högsta andelen kolkraft av G7-länderna. **Kärnkraft** stod för omkring 7,6–8,5 procent (källorna skiljer sig) och **förnybart** utöver vindkraft (vattenkraft och bioenergi) för cirka 12 procent. **Vindkraft** var bara cirka 0,9 procent, lägst i G7."
+          "text": "Japan har få egna fossila energikällor och importerar mycket av sin olja, gas och kol. Enligt handelsdepartementet METI stod **fossila bränslen för cirka 69 procent** av elen budgetåret 2023, och enligt en tankesmedja har Japan den högsta andelen kolkraft av G7-länderna. **Kärnkraft** stod för cirka 8,5 procent. **Förnybart** stod för cirka 23 procent: **solkraft** var störst med cirka 10 procent, följd av vattenkraft (cirka 8 procent), bioenergi (cirka 4 procent) och vindkraft (cirka 1 procent)."
         },
         {
           "type": "facts",
           "items": [
             {
               "label": "Fossila bränslen",
-              "value": "Cirka 69 procent av elen (2023)"
+              "value": "Cirka 69 procent av elen (budgetåret 2023)"
             },
             {
               "label": "Kärnkraft",
-              "value": "Cirka 7,6–8,5 procent (2023)"
+              "value": "Cirka 8,5 procent (budgetåret 2023)"
             },
             {
-              "label": "Vind",
-              "value": "Cirka 0,9 procent (2023)"
+              "label": "Förnybart totalt",
+              "value": "Cirka 23 procent, varav sol cirka 10 (budgetåret 2023)"
             }
           ]
         }
@@ -76,7 +76,7 @@
         },
         {
           "type": "p",
-          "text": "Arbetet med att avveckla anläggningen har pågått i decennier. Internationella atomenergiorganet IAEA bedömde att planen för vattnet stämde med internationella säkerhetsstandarder: reningssystemet ALPS tar bort 62 radioaktiva ämnen men inte tritium, som späds ut. Grannländer och lokala fiskare har uttryckt oro."
+          "text": "Avvecklingen av anläggningen började efter olyckan 2011 och beräknas ta 30–40 år, med mål 2041–2051. Internationella atomenergiorganet IAEA bedömde att planen för vattnet stämde med internationella säkerhetsstandarder: reningssystemet ALPS tar bort 62 radioaktiva ämnen men inte tritium, som späds ut. Grannländer och lokala fiskare har uttryckt oro."
         }
       ]
     },
@@ -106,7 +106,7 @@
           "id": "a",
           "text": "Fossila bränslen",
           "correct": true,
-          "feedback": "Rätt, cirka 69 procent enligt en sammanställning."
+          "feedback": "Rätt, cirka 69 procent enligt METI (budgetåret 2023)."
         },
         {
           "id": "b",
@@ -266,28 +266,28 @@
     },
     {
       "id": "q4",
-      "prompt": "Vilken andel hade vindkraft 2023 (ungefär)?",
+      "prompt": "Vilken var Japans största förnybara elkälla budgetåret 2023?",
       "options": [
         {
           "id": "a",
-          "text": "Under 1 procent",
+          "text": "Solkraft",
           "correct": true,
-          "feedback": "Rätt, cirka 0,9 procent."
+          "feedback": "Rätt, solkraft stod för cirka 10 procent av elen."
         },
         {
           "id": "b",
-          "text": "Cirka 50 procent",
-          "feedback": "Fel."
+          "text": "Vindkraft",
+          "feedback": "Fel. Vindkraft var cirka 1 procent."
         },
         {
           "id": "c",
-          "text": "Cirka 30 procent",
-          "feedback": "Fel."
+          "text": "Geotermisk energi",
+          "feedback": "Fel. Geotermi var under 1 procent."
         },
         {
           "id": "d",
-          "text": "Cirka 90 procent",
-          "feedback": "Fel."
+          "text": "Vågkraft",
+          "feedback": "Fel. Vågkraft ger i praktiken inget bidrag till elmixen."
         }
       ]
     },
@@ -321,6 +321,8 @@
   ],
   "sourceIds": [
     "e3g-japan-power",
+    "meti-fy2023-energy",
+    "fukushima-reconstruction-faq",
     "thestar-renewables-2040",
     "wnn-iaea-fukushima-water"
   ],
@@ -330,7 +332,7 @@
     "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
     "status": "needs-human-review",
     "uncertainty": [
-      "Elmixsiffrorna kommer från en tankesmedjas sammanställning (E3G) och källorna skiljer sig om kärnkraftens andel 2023 (7,6 eller 8,5 procent).",
+      "Elmixsiffrorna avser budgetåret 2023 (METI). Kalenderårssiffror från andra källor, till exempel ISEP, skiljer sig något (sol 11,2 procent). Kolandelen i G7 är en tankesmedjas bedömning (E3G).",
       "Att kärnkraften föll från ungefär en tredjedel till nästan noll efter 2011 och att reaktorer startat om är sammanfattat ur sökresultat.",
       "Dödstalet efter jordbävningen 2011 anges inte. Vattenutsläppet 2023 bygger på IAEA-bedömningen via World Nuclear News, och perspektiven är förenklade.",
       "Kapitlet bör uppdateras med aktuella uppgifter."

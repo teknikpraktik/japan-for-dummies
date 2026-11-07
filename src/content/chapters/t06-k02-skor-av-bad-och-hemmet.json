@@ -46,7 +46,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "**Onsen** (varma källor) och **sento** (offentliga badhus) har egna regler. Badet är till för avkoppling, inte för tvätt. De vanligaste reglerna:"
+          "text": "**Onsen** (varma källor) och **sento** (offentliga badhus) har egna regler. Man tvättar sig vid duschplatserna och badar sedan i bassängen: bassängen är till för att sitta i, inte för att tvätta sig i. De vanligaste reglerna:"
         },
         {
           "type": "list",
@@ -303,7 +303,8 @@
     "japanguide-indoor-manners",
     "japanexperience-slipper-culture",
     "timeout-onsen",
-    "japantimes-tattoo-survey-2015"
+    "japantimes-tattoo-survey-2015",
+    "wikipedia-sento"
   ],
   "mediaIds": [],
   "review": {

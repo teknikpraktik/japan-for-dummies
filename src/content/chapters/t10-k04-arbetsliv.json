@@ -38,7 +38,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Långa arbetsdagar och övertid har länge varit en del av arbetskulturen i delar av arbetslivet. Ordet **karoshi** (död av överarbete) används om dödsfall som kopplas till långa arbetspass. Enligt en sammanfattning dog omkring 200 personer per år av överarbete under en femårsperiod, enligt hälsoministeriet. Siffrorna är osäkra, och begreppet är omdiskuterat."
+          "text": "Långa arbetsdagar och övertid har länge varit en del av arbetskulturen i delar av arbetslivet. Ordet **karoshi** (död av överarbete) används om dödsfall som kopplas till långa arbetspass. Hälsoministeriet (MHLW) redovisade för budgetåret 2024 67 erkända dödsfall i hjärt- och kärlsjukdom och 88 erkända självmord (inklusive försök) som kopplats till arbetet, alltså drygt 150 erkända fall. Det gäller bara fall som erkänts, och begreppet är omdiskuterat."
         },
         {
           "type": "p",
@@ -52,8 +52,8 @@
               "value": "45 timmar per månad och 360 timmar per år"
             },
             {
-              "label": "Undantag för särskilda perioder",
-              "value": "Upp till 100 timmar en månad och 720 timmar per år"
+              "label": "Undantag vid särskilda skäl",
+              "value": "Under 100 timmar en månad (helgarbete räknas in), i snitt högst 80 timmar över 2–6 månader, och mer än 45 timmar högst sex månader per år. 720 timmar per år gäller utan helgarbete."
             },
             {
               "label": "Princip",
@@ -308,6 +308,8 @@
   ],
   "sourceIds": [
     "proskauer-overtime",
+    "mhlw-karoshi-whitepaper-2025",
+    "mhlw-overtime-cap",
     "scmp-overtime-relax",
     "nippon-gender-gap-2025"
   ],
@@ -317,7 +319,7 @@
     "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
     "status": "needs-human-review",
     "uncertainty": [
-      "Gränserna för övertid och uppgiften om karoshi kommer från juridiska sammanfattningar och nyhetsartiklar. Detaljer (undantag, tidpunkter för mindre företag) bör kontrolleras mot hälsoministeriet.",
+      "Karoshisiffrorna (budgetåret 2024) kommer från hälsoministeriets sammanfattning av vitboken 2025, och övertidsgränserna från ministeriets sida om övertidsregler. Tidpunkter för mindre företag och andra detaljer bör kontrolleras mot ministeriet.",
       "Rapporten om lättad tillsyn 2026 är en enskild nyhetsrapport och läget kan ha ändrats.",
       "Sökningen gav inga siffror om andelen icke-fast anställda eller deltid. Beskrivningen av anställningsformer är allmän bakgrund.",
       "Ämnet är känsligt och bör granskas av någon med kunskap om arbetsrätt."

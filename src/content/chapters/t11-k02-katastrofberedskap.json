@@ -5,7 +5,7 @@
   "order": 2,
   "status": "published",
   "contentVersion": 1,
-  "title": "Katastrofberedskap: jordbävning, tsunami och taifun",
+  "title": "Katastrofberedskap: jordbävning, tsunami och tyfon",
   "summary": "Hur samhället förbereder sig, hur varningar fungerar och vad du gör som besökare.",
   "objectives": [
     "Förklara hur varningssystem fungerar",
@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japan utsätts för jordbävningar, tsunamier, taifuner, kraftigt regn och vulkanutbrott (se temat om geografi), och har byggt upp ett omfattande beredskapssystem. **J-Alert** är det nationella varningssystemet (från 2007) för bland annat jordbävning och tsunami. Varningar sprids via högtalare, tv, radio och mobilen. En **jordbävningsvarning** kan komma sekunder till tiotals sekunder före de stora skakningarna, och räknar ut dem från de första små skakningarna."
+          "text": "Japan utsätts för jordbävningar, tsunamier, tyfoner, kraftigt regn och vulkanutbrott (se temat om geografi), och har byggt upp ett omfattande beredskapssystem. **J-Alert** är det nationella varningssystemet (från 2007) för bland annat jordbävning och tsunami. Varningar sprids via högtalare, tv, radio och mobilen. En **jordbävningsvarning** kan komma sekunder till tiotals sekunder före de stora skakningarna, och räknar ut dem från de första små skakningarna."
         },
         {
           "type": "p",
@@ -42,7 +42,7 @@
           "items": [
             "**Jordbävning:** skydda dig, till exempel under ett stadigt bord, och håll dig borta från fönster och föremål som kan falla. Intensiteten mäts med skalan shindo (0 till 7). Efter skakningarna: kontrollera dig själv och andra, och följ lokala instruktioner. Efterskalv kan komma.",
             "**Tsunami:** om du är nära kusten och känner en stark, lång skakning, eller får en varning, gå genast till högre mark eller en tsunamievakueringsbyggnad utan att vänta. En tsunami kan komma i flera vågor, och du ska inte gå ned till stranden förrän varningen hävts.",
-            "**Taifun och kraftigt regn:** följ prognoser, undvik floder, branta kustavsnitt och berg, och räkna med inställda tåg. Skydda dig inomhus och planera extra marginal (se kapitlet om klimat)."
+            "**Tyfon och kraftigt regn:** följ prognoser, undvik floder, branta kustavsnitt och berg, och räkna med inställda tåg. Skydda dig inomhus och planera extra marginal (se kapitlet om klimat)."
           ]
         }
       ]

@@ -15,7 +15,7 @@
   "minutes": 7,
   "hook": {
     "kind": "question",
-    "text": "Du har ett tomt kaffemuggs i handen men hittar ingen papperskorg. Var hamnar den?"
+    "text": "Du har en tom kaffemugg i handen men hittar ingen papperskorg. Var hamnar den?"
   },
   "sections": [
     {

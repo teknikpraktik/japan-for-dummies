@@ -24,18 +24,18 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bilden av tre generationer under ett tak är seglivad, men den passar bara en minoritet. Den typiska hushållsformen har förändrats över tid. Kärnfamiljer (par, med eller utan barn, eller en förälder med barn) är den största gruppen, drygt hälften av hushållen enligt Statistikbyrån. **Enpersonshushåll** är den snabbast växande: de var 34,6 procent av hushållen 2015, jämfört med cirka 23 procent 1990."
+          "text": "Bilden av tre generationer under ett tak är seglivad, men den passar bara en minoritet. Den typiska hushållsformen har förändrats över tid. Kärnfamiljer (par, med eller utan barn, eller en förälder med barn) är den största gruppen, drygt hälften av hushållen enligt Statistikbyrån. **Enpersonshushåll** är den snabbast växande: de var 38,0 procent av hushållen 2020, jämfört med cirka 23 procent 1990."
         },
         {
           "type": "facts",
           "items": [
             {
-              "label": "Enpersonshushåll 2015",
-              "value": "34,6 procent"
+              "label": "Enpersonshushåll 2020",
+              "value": "38,0 procent"
             },
             {
               "label": "Genomsnittlig hushållsstorlek",
-              "value": "2,33 personer (2015), 2,98 (1990)"
+              "value": "2,21 personer (2020), 2,98 (1990)"
             },
             {
               "label": "Kärnfamiljer",
@@ -79,7 +79,7 @@
           "id": "a",
           "text": "Enpersonshushåll",
           "correct": true,
-          "feedback": "Rätt. De var 34,6 procent 2015."
+          "feedback": "Rätt. De var 38,0 procent 2020."
         },
         {
           "id": "b",
@@ -158,13 +158,13 @@
   "quiz": [
     {
       "id": "q1",
-      "prompt": "Vilken andel av hushållen var enpersonshushåll 2015?",
+      "prompt": "Vilken andel av hushållen var enpersonshushåll 2020?",
       "options": [
         {
           "id": "a",
-          "text": "Cirka 35 procent",
+          "text": "Cirka 38 procent",
           "correct": true,
-          "feedback": "Rätt: 34,6 procent."
+          "feedback": "Rätt: 38,0 procent."
         },
         {
           "id": "b",
@@ -185,11 +185,11 @@
     },
     {
       "id": "q2",
-      "prompt": "Hur stor var den genomsnittliga hushållsstorleken 2015?",
+      "prompt": "Hur stor var den genomsnittliga hushållsstorleken 2020?",
       "options": [
         {
           "id": "a",
-          "text": "2,33 personer",
+          "text": "2,21 personer",
           "correct": true,
           "feedback": "Rätt."
         },
@@ -293,7 +293,7 @@
     }
   ],
   "sourceIds": [
-    "stat-households-2015",
+    "stat-census-2020",
     "japantimes-surname-2021"
   ],
   "mediaIds": [],
@@ -302,7 +302,7 @@
     "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
     "status": "needs-human-review",
     "uncertainty": [
-      "Siffrorna om hushåll avser folkräkningen 2015. Nyare siffror finns och bör kontrolleras mot Statistikbyrån.",
+      "Siffrorna om hushåll avser folkräkningen 2020 (Statistikbyrån). Kontrollera mot nyare uppgifter när de publiceras.",
       "Påståendet att kärnfamiljer är drygt hälften bygger på en sammanfattning av Statistikbyråns data (2020).",
       "Att kvinnan i de flesta fall byter namn bygger på rapporter (över 90 procent) som inte kontrollerades mot en officiell källa.",
       "Beskrivningar av boende, pendling, arbetstider och äldres liv är allmän bakgrund som inte kontrollerades mot en källa.",
