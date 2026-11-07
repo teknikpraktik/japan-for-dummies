@@ -64,12 +64,6 @@
             "**I storstaden** finns många jobb, tät kollektivtrafik, sjukhus och butiker inom gångavstånd. Bostäder är små och dyra, och man bor ofta ensam.",
             "**På landsbygden** kan det betyda färre barn i skolorna, stängda butiker, glesare tåg och längre till sjukhuset. Många hus står tomma: landet har ungefär **9 miljoner tomma bostäder** (cirka 13,8 procent enligt en undersökning från 2023), ofta kallade **akiya**."
           ]
-        },
-        {
-          "type": "photo",
-          "slotId": "t03-k02-landsbygd",
-          "imageId": "hirado-risterrasser",
-          "brief": "Landsbygd i Japan, för att visa hur avstånd och landskap ser ut utanför storstäderna."
         }
       ]
     },
@@ -346,7 +340,7 @@
   },
   "hero": {
     "slotId": "t03-k02-hero",
-    "imageId": "shinjuku-parktower",
+    "imageId": "risfalt-natori",
     "brief": "Ett motiv som visar stad eller landsbygd i Japan, till exempel en by eller en storstadsgata."
   }
 }

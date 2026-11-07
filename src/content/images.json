@@ -71,8 +71,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Några små figurer syns på långt håll på trottoaren och är inte identifierbara.",
     "usedIn": [
-      "t09-k03",
-      "home"
+      "home",
+      "t09-k03"
     ]
   },
   {
@@ -150,6 +150,81 @@
     ]
   },
   {
+    "id": "biljettautomat-fujisoba",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/biljettautomat-fujisoba/biljettautomat-fujisoba-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 68218,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/biljettautomat-fujisoba/biljettautomat-fujisoba-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 241250,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/biljettautomat-fujisoba/biljettautomat-fujisoba-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 44878,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/biljettautomat-fujisoba/biljettautomat-fujisoba-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 112148,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.45
+    },
+    "creator": "MsSaraKelly",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Food_ticket_machine_-_Nadai_Fuji-soba,_Akihabara_Denki-gai_(2013-03-27_22.17.07_by_MsSaraKelly).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: MsSaraKelly, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Akihabara, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2013",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "En biljettautomat vid en stående nudelrestaurang i Akihabara, 2013. Man väljer rätt och betalar vid automaten innan man får maten.",
+    "alt": "Automat med många knappar med bilder, namn och priser i yen på japanska, och en kortläsare längst ned.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t07-k01"
+    ]
+  },
+  {
     "id": "bishamondo-hostlov",
     "kind": "contemporary-photo",
     "variants": [
@@ -217,8 +292,82 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Några besökare syns på avstånd och bakifrån; inga ansikten är urskiljbara.",
     "usedIn": [
-      "t01-k03",
-      "t08-k05"
+      "t01-k03"
+    ]
+  },
+  {
+    "id": "biwa-soluppgang",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/biwa-soluppgang/biwa-soluppgang-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 2528,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/biwa-soluppgang/biwa-soluppgang-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 6456,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/biwa-soluppgang/biwa-soluppgang-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 2528,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/biwa-soluppgang/biwa-soluppgang-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 5034,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.45
+    },
+    "creator": "john spiri",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_biwa_sunrise_(32999436093).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: john spiri from Tokyo, Japan, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Biwasjön",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2017",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Soluppgång över Biwasjön i mars 2017, en stund för eftertanke.",
+    "alt": "Röd sol över silhuetter av berg i skymning eller gryning, med mörka moln ovanför.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t12-k05"
     ]
   },
   {
@@ -293,8 +442,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t08-k04",
-      "home"
+      "home",
+      "t08-k04"
     ]
   },
   {
@@ -448,6 +597,156 @@
     ]
   },
   {
+    "id": "ema-yushima",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/ema-yushima/ema-yushima-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28812,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/ema-yushima/ema-yushima-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 86868,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/ema-yushima/ema-yushima-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28812,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/ema-yushima/ema-yushima-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 64316,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Ph0kin",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yushima_tenmangu_ema.jpg",
+    "license": {
+      "name": "Public domain",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) anger att verket är i public domain. Webbpublicering, bearbetning, offline och lagring i publikt repo omfattas. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Yushima Tenmangū, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2010",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Ema, små träplattor med önskningar, vid Yushima Tenmangū. Många elever ber här om att klara inträdesprov.",
+    "alt": "En vägg täckt av hundratals små träplattor med handskrivna texter bundna med röda snören.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t04-k02"
+    ]
+  },
+  {
+    "id": "familymart-hamarin",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/familymart-hamarin/familymart-hamarin-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 33246,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/familymart-hamarin/familymart-hamarin-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 117102,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/familymart-hamarin/familymart-hamarin-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 33246,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/familymart-hamarin/familymart-hamarin-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 84106,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Yoh-Plus",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FamilyMart_Hamarin_Yokohama_station.jpg",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 4.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: Yoh-Plus, CC BY 4.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Yokohama stations tunnelbana",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2019",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "En närbutik av kedjan FamilyMart i Yokohamas tunnelbana, 2019.",
+    "alt": "Butiksingång med FamilyMart-skylt, röda affischer och fönster med varor, inne i en tunnelbanestation.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Ett par besökare syns inne i butiken och går inte att identifiera.",
+    "usedIn": [
+      "t07-k04"
+    ]
+  },
+  {
     "id": "fuji-solnedgang-2025",
     "kind": "contemporary-photo",
     "variants": [
@@ -515,9 +814,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t01-k02",
-      "t11-k05",
-      "home"
+      "home",
+      "t01-k02"
     ]
   },
   {
@@ -667,8 +965,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t08-k01",
-      "home"
+      "home",
+      "t08-k01"
     ]
   },
   {
@@ -744,6 +1042,81 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t08-k01"
+    ]
+  },
+  {
+    "id": "ganryu-inari-skylt",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/ganryu-inari-skylt/ganryu-inari-skylt-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 24190,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/ganryu-inari-skylt/ganryu-inari-skylt-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 82028,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/ganryu-inari-skylt/ganryu-inari-skylt-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 24190,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/ganryu-inari-skylt/ganryu-inari-skylt-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 59418,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.55,
+      "y": 0.5
+    },
+    "creator": "Higa4",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ganry%C5%AB_Inari-sha_(Shiba,_Minato)_04.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Shiba, Minato, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2025",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Namnskyltar vid en liten Inari-helgedom (Ganryū Inari) i Shiba i Tokyo. Små helgedomar finns ofta mitt i vardagsmiljön.",
+    "alt": "Två förgyllda trätavlor med japanska tecken bredvid en röd torii och en byggnad i bakgrunden.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t08-k05"
     ]
   },
   {
@@ -897,6 +1270,81 @@
     ]
   },
   {
+    "id": "hankyu-utgang-takatsuki",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/hankyu-utgang-takatsuki/hankyu-utgang-takatsuki-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 18250,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/hankyu-utgang-takatsuki/hankyu-utgang-takatsuki-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 52860,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/hankyu-utgang-takatsuki/hankyu-utgang-takatsuki-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 18250,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/hankyu-utgang-takatsuki/hankyu-utgang-takatsuki-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 40528,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.45
+    },
+    "creator": "TiNk5817",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hankyu_Takatsuki-shi_Station_8_Exit_information_October_2024.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Hankyu Takatsuki-shi station, Osaka prefektur",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2024",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Utgångsskylt med 出口 (utgång) och Exit i Takatsuki, 2024.",
+    "alt": "Blå skylt i ett tak med siffran 8, tecknen 出口 och ordet Exit, en gul pil och en skylt för hiss.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t05-k02"
+    ]
+  },
+  {
     "id": "himeji-slott-detalj",
     "kind": "contemporary-photo",
     "variants": [
@@ -1043,8 +1491,7 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t03-k03",
-      "t09-k05"
+      "t03-k03"
     ]
   },
   {
@@ -1119,9 +1566,83 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t01-k04",
       "home",
-      "t03-k02"
+      "t01-k04"
+    ]
+  },
+  {
+    "id": "hiroshige-narumi",
+    "kind": "historical-original",
+    "variants": [
+      {
+        "path": "/images/hiroshige-narumi/hiroshige-narumi-480.webp",
+        "width": 480,
+        "height": 311,
+        "bytes": 16876,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/hiroshige-narumi/hiroshige-narumi-960.webp",
+        "width": 960,
+        "height": 621,
+        "bytes": 88192,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/hiroshige-narumi/hiroshige-narumi-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 22828,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/hiroshige-narumi/hiroshige-narumi-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 78210,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Rijksmuseum",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Narumi_No._41._Naruwi_one_of_the_fifty-three_noted_places_on_Tokaido,_painted_by_Hiroshige_(titel_op_object)_De_T%C3%B4kaid%C3%B4_van_Hiroshige_(serietitel)_Hiroshige_no_fude_T%C3%B4kaid%C3%B4_(serietitel_op_object),_RP-P-2010-310-95-41.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Narumi (Tokaido)",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "1906",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Träsnitt av Utagawa Hiroshige ur serien De femtiotre stationerna på Tokaido, här stationen Narumi. Exemplaret finns på Rijksmuseum.",
+    "alt": "Färgat träsnitt av en gata i en by med låga trähus, resenärer och packdjur och en tall i bakgrunden.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns utöver de som avbildas i träsnittet.",
+    "usedIn": [
+      "t09-k02"
     ]
   },
   {
@@ -1200,8 +1721,82 @@
     "modification": "Nedskalad till högst 1440 px bredd, beskuren så att pappersmarginalerna försvinner, och visas därefter beskuren (efter fokuspunkt) till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Tecknade gestalter.",
     "usedIn": [
-      "t02-k02",
-      "t09-k02"
+      "t02-k02"
+    ]
+  },
+  {
+    "id": "hogsta-domstolen",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/hogsta-domstolen/hogsta-domstolen-480.webp",
+        "width": 480,
+        "height": 323,
+        "bytes": 32268,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/hogsta-domstolen/hogsta-domstolen-960.webp",
+        "width": 960,
+        "height": 647,
+        "bytes": 141562,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/hogsta-domstolen/hogsta-domstolen-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 35838,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/hogsta-domstolen/hogsta-domstolen-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 108174,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Evelyn-rose",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The-Supreme-Court-of-Japan-1.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Högsta domstolen, Chiyoda, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2020",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Högsta domstolens byggnad i Tokyo med skulpturgruppen Heiwa no gunzō (”Fredsgruppen”) framför. Domstolen är en av statsmakterna, vid sidan av parlamentet och regeringen.",
+    "alt": "Vit modern domstolsbyggnad bakom en stenmur med en bronsskulptur av tre figurer och ett relief.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t03-k01"
     ]
   },
   {
@@ -1276,8 +1871,7 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t01-k03",
-      "t04-k05"
+      "t01-k03"
     ]
   },
   {
@@ -1353,6 +1947,81 @@
     "peopleNote": "Små figurer i båtarna är en del av konstverket.",
     "usedIn": [
       "t09-k02"
+    ]
+  },
+  {
+    "id": "hortensia-regnperiod",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/hortensia-regnperiod/hortensia-regnperiod-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 26268,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/hortensia-regnperiod/hortensia-regnperiod-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 76790,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/hortensia-regnperiod/hortensia-regnperiod-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 26268,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/hortensia-regnperiod/hortensia-regnperiod-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 57690,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Syced",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%B4%AB%E9%99%BD%E8%8A%B1_flower_at_start_of_rainy_season_in_Tokyo.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2020",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Hortensia med regndroppar i Tokyo, juni 2020. Början av juni markerar i stora delar av Japan starten på regnperioden.",
+    "alt": "Närbild av ljuslila hortensiablommor med vattendroppar mot gröna blad.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t11-k05"
     ]
   },
   {
@@ -1435,8 +2104,7 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t05-k01",
-      "t05-k02"
+      "t05-k01"
     ]
   },
   {
@@ -1503,9 +2171,82 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 3:2 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering. Bilden har ett HDR-liknande utseende i originalet.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t05-k01",
-      "t05-k04",
-      "t05-k02"
+      "t05-k01"
+    ]
+  },
+  {
+    "id": "kadoma-danchi",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/kadoma-danchi/kadoma-danchi-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 23844,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/kadoma-danchi/kadoma-danchi-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 94102,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/kadoma-danchi/kadoma-danchi-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 23844,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/kadoma-danchi/kadoma-danchi-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 65644,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.55,
+      "y": 0.5
+    },
+    "creator": "Mr.ちゅらさん",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kadoma_Danchi_Public_Housing.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Kadoma, Osaka prefektur",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2023",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Ett danchi, ett kommunalt hyreshusområde, i Kadoma. Områden av det här slaget byggdes i stor skala under efterkrigstiden.",
+    "alt": "Ljusa, långa flerfamiljshus i flera våningar bakom träd och ett staket längs en väg, med blå himmel.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t09-k05"
     ]
   },
   {
@@ -1655,8 +2396,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t09-k01",
-      "home"
+      "home",
+      "t09-k01"
     ]
   },
   {
@@ -1723,8 +2464,82 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
-      "t12-k03",
       "t06-k01"
+    ]
+  },
+  {
+    "id": "klassrum-hogstadium",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/klassrum-hogstadium/klassrum-hogstadium-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 22480,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/klassrum-hogstadium/klassrum-hogstadium-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 65304,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/klassrum-hogstadium/klassrum-hogstadium-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 22480,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/klassrum-hogstadium/klassrum-hogstadium-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 49612,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Darklanlan",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Classroom2.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Japan",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2006",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Ett klassrum på en japansk högstadieskola med skolbänkar, tavla och anslagstavlor. Uppladdaren har tagit bort personuppgifter från bilden.",
+    "alt": "Tomt klassrum med rader av träbänkar och stolar, en grön tavla längst fram och fönster till vänster.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t06-k05"
     ]
   },
   {
@@ -2016,9 +2831,7 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 3:2 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t04-k01",
-      "t06-k04",
-      "t07-k04"
+      "t04-k01"
     ]
   },
   {
@@ -2101,8 +2914,7 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t04-k01",
-      "t06-k05"
+      "t04-k01"
     ]
   },
   {
@@ -2177,8 +2989,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t01-k05",
-      "home"
+      "home",
+      "t01-k05"
     ]
   },
   {
@@ -2245,9 +3057,7 @@
     "modification": "Nedskalad till högst 1440 px bredd, beskuren så att en person i bakgrunden till höger inte syns, och visas därefter beskuren (efter fokuspunkt) till 3:2 på dator och 4:3 på mobil, omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering. Förbeskuren på höger sida.",
     "peopleNote": "En person syntes i bakgrunden till höger i originalet; den delen är bortbeskuren.",
     "usedIn": [
-      "t07-k01",
-      "t05-k01",
-      "t05-k04"
+      "t05-k01"
     ]
   },
   {
@@ -2322,8 +3132,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
-      "t05-k04",
-      "home"
+      "home",
+      "t05-k04"
     ]
   },
   {
@@ -2390,8 +3200,82 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 3:2 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t07-k01",
-      "t07-k05"
+      "t07-k01"
+    ]
+  },
+  {
+    "id": "meiji-dori-skylt",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/meiji-dori-skylt/meiji-dori-skylt-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 39410,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/meiji-dori-skylt/meiji-dori-skylt-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 155204,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/meiji-dori-skylt/meiji-dori-skylt-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 52006,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/meiji-dori-skylt/meiji-dori-skylt-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 138802,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Hirho",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meiji_D%C5%8Dri_The_street_name_sign_displaying_English_Romanization_of_Japanese_Ch%C5%AB%C5%8D-ku_Fukuoka_20260605.jpg",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 4.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: Hirho, CC BY 4.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Meiji-dōri, Fukuoka",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2026",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Gatuskylt i Fukuoka med både japanska tecken och romaji: Meiji-dōri.",
+    "alt": "Blå gatuskylt med texten 明治通り och Meiji-dori på en stolpe vid en väg, med träd och buskar runtomkring.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t05-k02"
     ]
   },
   {
@@ -2545,6 +3429,81 @@
     ]
   },
   {
+    "id": "nankai-namba-tavla",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/nankai-namba-tavla/nankai-namba-tavla-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 20262,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/nankai-namba-tavla/nankai-namba-tavla-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 58818,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/nankai-namba-tavla/nankai-namba-tavla-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 25216,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/nankai-namba-tavla/nankai-namba-tavla-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 57858,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Fabio Achilli",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nankai_Namba_Station_LCD_platform_information_board_(29235666267).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: Fabio Achilli from Milano, Italy, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Nankai Namba station, Osaka",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2018",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "En informationstavla vid Nankai Namba station i Osaka, 2018, med avgångstider och destinationer på både japanska och engelska.",
+    "alt": "Elektronisk tavla med avgångstider, tågtyper och destinationer skrivna med både kanji och latinska bokstäver.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t05-k04"
+    ]
+  },
+  {
     "id": "nanzenji-hostlov",
     "kind": "contemporary-photo",
     "variants": [
@@ -2616,8 +3575,308 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
-      "t08-k02",
-      "home"
+      "home",
+      "t08-k02"
+    ]
+  },
+  {
+    "id": "narita-avgangshall",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/narita-avgangshall/narita-avgangshall-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 23176,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/narita-avgangshall/narita-avgangshall-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 75204,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/narita-avgangshall/narita-avgangshall-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 23176,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/narita-avgangshall/narita-avgangshall-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 55930,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.4,
+      "y": 0.5
+    },
+    "creator": "Terence Ong",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Narita_International_Airport,_Terminal_1,_Departure_Hall_9.JPG",
+    "license": {
+      "name": "CC BY 2.5",
+      "url": "https://creativecommons.org/licenses/by/2.5/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 2.5. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: Terence Ong, CC BY 2.5, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Narita flygplats, terminal 1, Chiba",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2006",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Avgångshallen i terminal 1 på Narita flygplats. Narita är en av Tokyos två stora internationella flygplatser.",
+    "alt": "Stor ljus avgångshall med en upplyst skylt med flygplansikon och texten Departures, flera pilar och resenärer med bagage längre bort.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Små figurer syns på långt håll och går inte att identifiera.",
+    "usedIn": [
+      "t12-k01"
+    ]
+  },
+  {
+    "id": "nihombashi-tunnelbana",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/nihombashi-tunnelbana/nihombashi-tunnelbana-480.webp",
+        "width": 480,
+        "height": 341,
+        "bytes": 29974,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/nihombashi-tunnelbana/nihombashi-tunnelbana-960.webp",
+        "width": 960,
+        "height": 681,
+        "bytes": 110042,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/nihombashi-tunnelbana/nihombashi-tunnelbana-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 31564,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/nihombashi-tunnelbana/nihombashi-tunnelbana-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 81896,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Nyao148",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo-Nihombashi-Sta-B9.JPG",
+    "license": {
+      "name": "CC BY 3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 3.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: Nyao148, CC BY 3.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Nihombashi, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2010",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Ingång till Nihombashi station på tunnelbanan i Tokyo, 2010, med stationsnamn på japanska och engelska.",
+    "alt": "Nedgång till en tunnelbanestation med stationens namn och symbol, intill en gata med kontorsbyggnader och bilar.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Några personer syns på långt håll och går inte att identifiera.",
+    "usedIn": [
+      "t12-k03"
+    ]
+  },
+  {
+    "id": "nolla-serien-saijo",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/nolla-serien-saijo/nolla-serien-saijo-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 34204,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/nolla-serien-saijo/nolla-serien-saijo-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 111904,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/nolla-serien-saijo/nolla-serien-saijo-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 34204,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/nolla-serien-saijo/nolla-serien-saijo-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 82666,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.55
+    },
+    "creator": "Kzaral",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Railway_History_Park_in_Saijo,_Ehime_(17488294672).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: Kzaral This photo was taken with Panasonic Lumix DMC-FT3, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Railway History Park, Saijo, Ehime prefektur",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2015",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "En bevarad vagn av shinkansen 0-serien (till vänster) och en diesellok av klass DF50 inne i Railway History Park i Saijo, 2015.",
+    "alt": "En vit och blå shinkansenvagn med rundad nos bredvid ett rött diesellok i en hall med träbjälkar i taket.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t10-k01"
+    ]
+  },
+  {
+    "id": "ohori-stenbank",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/ohori-stenbank/ohori-stenbank-480.webp",
+        "width": 480,
+        "height": 271,
+        "bytes": 27864,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/ohori-stenbank/ohori-stenbank-960.webp",
+        "width": 960,
+        "height": 542,
+        "bytes": 137538,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/ohori-stenbank/ohori-stenbank-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 41598,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/ohori-stenbank/ohori-stenbank-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 131734,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Hirho",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C5%8Chori_Park_The_stone_bench_%C5%8Chorik%C5%8Den_Ch%C5%AB%C5%8D-ku_Fukuoka_20260518_173438.jpg",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 4.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: Hirho, CC BY 4.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Ōhori Park, Fukuoka",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2026",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "En stenbänk under träd vid Ōhori Park i Fukuoka, med en sjö i bakgrunden. En lugn plats att stanna upp på.",
+    "alt": "En lång stenbänk i förgrunden på sandig mark och träd med skuggor, med en liten träbänk och en sjö längre bort.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t04-k05"
     ]
   },
   {
@@ -2693,6 +3952,81 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t06-k03"
+    ]
+  },
+  {
+    "id": "perrongdorr-markering",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/perrongdorr-markering/perrongdorr-markering-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 37064,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/perrongdorr-markering/perrongdorr-markering-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 137734,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/perrongdorr-markering/perrongdorr-markering-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 37064,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/perrongdorr-markering/perrongdorr-markering-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 97574,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "mrpbps",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Train_platform_gate_(54051263594).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: mrpbps, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Japan (tågstation)",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2024",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "En perrongdörr med markering för vagnsdörr och sluten spärr längs spåret, 2024. Golvets märkning visar var man ställer sig.",
+    "alt": "Glasdörrar vid kanten av en perrong med en skylt med siffrorna 7 och 4 och ett gult taktilt golv framför.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t06-k01"
     ]
   },
   {
@@ -2830,8 +4164,82 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t02-k05",
-      "t03-k01"
+      "t02-k05"
+    ]
+  },
+  {
+    "id": "risfalt-natori",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/risfalt-natori/risfalt-natori-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 25058,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/risfalt-natori/risfalt-natori-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 117886,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/risfalt-natori/risfalt-natori-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 29846,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/risfalt-natori/risfalt-natori-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 92890,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.55
+    },
+    "creator": "Kinori",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shiote_Rice_Field_after_cropping_in_2011-11.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Natori, Miyagi prefektur",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2011",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Risfält efter skörden vid byn Medeshima-Shiote i Natori, Miyagi prefektur, 2011. Landsbygden är starkt påverkad av att befolkningen minskar.",
+    "alt": "Ett skördat risfält i förgrunden, små hus och skog i bakgrunden och en elmast till vänster.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t03-k02"
     ]
   },
   {
@@ -2898,9 +4306,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) något (3:2 på dator, 4:3 på mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t01-k01",
       "home",
-      "t09-k05"
+      "t01-k01"
     ]
   },
   {
@@ -2975,8 +4382,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t01-k02",
-      "home"
+      "home",
+      "t01-k02"
     ]
   },
   {
@@ -3059,7 +4466,6 @@
     "modification": "Nedskalad till högst 1440 px bredd, beskuren till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t06-k01",
       "t05-k05"
     ]
   },
@@ -3218,9 +4624,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t01-k01",
-      "t12-k01",
-      "home"
+      "home",
+      "t01-k01"
     ]
   },
   {
@@ -3362,9 +4767,7 @@
     "modification": "Nedskalad till högst 1440 px bredd, beskuren så att en backljus-silhuett av en person till vänster inte syns, och visas därefter beskuren (efter fokuspunkt) till 3:2 på dator och 4:3 på mobil, omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "En person i silhuett till vänster i originalet är bortbeskuren; på torget syns bara små, oidentifierbara figurer på långt håll.",
     "usedIn": [
-      "t02-k02",
-      "t01-k04",
-      "t10-k04"
+      "t01-k04"
     ]
   },
   {
@@ -3439,10 +4842,6 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t03-k02",
-      "t09-k05",
-      "t10-k05",
-      "t11-k01",
       "home"
     ]
   },
@@ -3518,8 +4917,7 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t02-k05",
-      "t10-k01"
+      "t02-k05"
     ]
   },
   {
@@ -3594,8 +4992,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t10-k01",
-      "home"
+      "home",
+      "t10-k01"
     ]
   },
   {
@@ -3662,8 +5060,233 @@
     "modification": "Nedskalad till högst 1440 px bredd, beskuren till 3:2 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t01-k01",
-      "home"
+      "home",
+      "t01-k01"
+    ]
+  },
+  {
+    "id": "shojin-ryori-ryuanji",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/shojin-ryori-ryuanji/shojin-ryori-ryuanji-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 12596,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/shojin-ryori-ryuanji/shojin-ryori-ryuanji-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 33610,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/shojin-ryori-ryuanji/shojin-ryori-ryuanji-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 12596,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/shojin-ryori-ryuanji/shojin-ryori-ryuanji-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 26080,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Ph0kin",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shojin_ryori_ryuanji.jpg",
+    "license": {
+      "name": "Public domain",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) anger att verket är i public domain. Webbpublicering, bearbetning, offline och lagring i publikt repo omfattas. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Ryūan-ji, Kyoto",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2005",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Shōjin ryōri, buddhistisk vegetarisk kost, på zentemplet Ryūan-ji i Kyoto, 2005. Rätter med tofu är vanliga i den traditionen.",
+    "alt": "Stor skål med ljus soppa med tofu, grönsaker och rosa fisktårta, på ett bord i ett tempel.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t07-k05"
+    ]
+  },
+  {
+    "id": "solpaneler-onomichi",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/solpaneler-onomichi/solpaneler-onomichi-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 49330,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/solpaneler-onomichi/solpaneler-onomichi-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 236632,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/solpaneler-onomichi/solpaneler-onomichi-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 49330,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/solpaneler-onomichi/solpaneler-onomichi-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 157078,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "ノボホショコロトソ",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solar_Panels_in_Mitsugi,_Onomichi_02.jpg",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 4.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: ノボホショコロトソ, CC BY 4.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Mitsugi, Onomichi, Hiroshima prefektur",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2024",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Solpaneler intill bostadshus i Mitsugi i Onomichi, 2024.",
+    "alt": "Rader av solpaneler på ett gräsbevuxet fält framför några hus och en skogsklädd sluttning.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t11-k01"
+    ]
+  },
+  {
+    "id": "soptunna-konchiin",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/soptunna-konchiin/soptunna-konchiin-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 12820,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/soptunna-konchiin/soptunna-konchiin-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 37688,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/soptunna-konchiin/soptunna-konchiin-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 12820,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/soptunna-konchiin/soptunna-konchiin-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 28730,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Sho Hashimoto",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%AD%B7%E7%BE%8E%E5%85%A5%E3%82%8C_(7077056371).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: Sho Hashimoto, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Konchi-in, Kyoto",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2012",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Soptunnor vid templet Konchi-in i Kyoto. Texten på lådan är en ordlek och betyder ”soplåda”.",
+    "alt": "Brun träbehållare med vita tecken som läser gomi-ire och en grå soptunna bredvid.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t06-k04"
     ]
   },
   {
@@ -3738,8 +5361,7 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
-      "t04-k03",
-      "t09-k04"
+      "t04-k03"
     ]
   },
   {
@@ -3866,6 +5488,81 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t06-k01"
+    ]
+  },
+  {
+    "id": "taito-station",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/taito-station/taito-station-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 20702,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/taito-station/taito-station-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 50618,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/taito-station/taito-station-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 20702,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/taito-station/taito-station-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 39328,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.4
+    },
+    "creator": "Carles Tomás Martí",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taito_Station_Akihabara.jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: Carles Tomás Martí from Stockholm, Sverige, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Akihabara, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2009",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Spelhallen Taito Station i Akihabara, 2009, med tv-spelsmaskiner och besökare.",
+    "alt": "Ingång till en spelhall med neonskylten Taito Station och rader av spelautomater och besökare inuti.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Några besökare syns på långt håll och går inte att identifiera.",
+    "usedIn": [
+      "t09-k04"
     ]
   },
   {
@@ -4015,9 +5712,83 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t07-k03",
       "home",
-      "t07-k04"
+      "t07-k03"
+    ]
+  },
+  {
+    "id": "teishoku-udon",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/teishoku-udon/teishoku-udon-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 36306,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/teishoku-udon/teishoku-udon-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 154090,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/teishoku-udon/teishoku-udon-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 36306,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/teishoku-udon/teishoku-udon-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 105562,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Andy Li",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E5%BC%8F%E5%AE%9A%E9%A3%9F_-_%E7%B4%A0%E5%B9%B4.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Japan",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2019",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "En japansk lunchset (teishoku) med udonsoppa, friterad tofu och flera små sidorätter, 2019.",
+    "alt": "Träbord med en skål udon med friterad tofu, flera små skålar med tillbehör, en sked, ätpinnar och ett glas.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t07-k02"
     ]
   },
   {
@@ -4167,9 +5938,234 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
-      "t02-k01",
       "home",
+      "t02-k01",
       "t08-k03"
+    ]
+  },
+  {
+    "id": "tokyo-flygbild-bostader",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/tokyo-flygbild-bostader/tokyo-flygbild-bostader-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 58658,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tokyo-flygbild-bostader/tokyo-flygbild-bostader-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 222660,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tokyo-flygbild-bostader/tokyo-flygbild-bostader-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 67428,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/tokyo-flygbild-bostader/tokyo-flygbild-bostader-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 181892,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Fábio Hanashiro gofabio",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Residential_district_in_Tokyo_(Unsplash).jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2016",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Tät bebyggelse i Tokyo sedd uppifrån: hus, kontorshus och smala gator ligger tätt tillsammans.",
+    "alt": "Flygfoto över ett tätt bebyggt område i Tokyo med många flervåningshus och en kanal eller väg till vänster.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t09-k05"
+    ]
+  },
+  {
+    "id": "tokyo-panorama-minato",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/tokyo-panorama-minato/tokyo-panorama-minato-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 24324,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tokyo-panorama-minato/tokyo-panorama-minato-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 91928,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tokyo-panorama-minato/tokyo-panorama-minato-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27816,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/tokyo-panorama-minato/tokyo-panorama-minato-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 73464,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.45
+    },
+    "creator": "Joe Lewandowski intospaces",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urban_Tokyo_panorama_(Unsplash).jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Minato, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2016",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Utsikt över Tokyos stadsbild i Minato med skyskrapor, lägre kvarter och en park i förgrunden.",
+    "alt": "Panorama över Tokyo med höga skyskrapor i bakgrunden och blandad lägre bebyggelse och en park i förgrunden.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t09-k05"
+    ]
+  },
+  {
+    "id": "tokyo-station-natt",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/tokyo-station-natt/tokyo-station-natt-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 29184,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tokyo-station-natt/tokyo-station-natt-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 101546,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tokyo-station-natt/tokyo-station-natt-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 32944,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/tokyo-station-natt/tokyo-station-natt-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 82562,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.55
+    },
+    "creator": "Dick Thomas Johnson",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_at_night,_Chiyoda,_Tokyo%3B_April_2021_(02).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: Dick Thomas Johnson, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Marunouchi, Chiyoda, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2021",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Tokyo station i regn en kväll i april 2021, med kontorshus i Marunouchi bakom.",
+    "alt": "Tegelbyggnaden Tokyo station upplyst i kvällsljus med speglingar i blöt mark och moderna skyskrapor bakom.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns tydligt.",
+    "usedIn": [
+      "t10-k04"
     ]
   },
   {
@@ -4244,7 +6240,81 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t02-k03",
+      "t02-k03"
+    ]
+  },
+  {
+    "id": "toyota-motomachi",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/toyota-motomachi/toyota-motomachi-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 19148,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/toyota-motomachi/toyota-motomachi-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 76040,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/toyota-motomachi/toyota-motomachi-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 19148,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/toyota-motomachi/toyota-motomachi-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 53862,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.45
+    },
+    "creator": "Evelyn-rose",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyota-Motomachi-Plant-1.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Motomachi, Toyota, Aichi prefektur",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2019",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Ingången till Toyotas Motomachi-fabrik i Toyota stad, 2019.",
+    "alt": "Stor ljus fabriksbyggnad med skylten Motomachi och en port med vakthus, med blå himmel och en cyklist till höger.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "En cyklist syns på långt håll och går inte att identifiera.",
+    "usedIn": [
       "t10-k02"
     ]
   },
@@ -4312,8 +6382,7 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 3:2 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t04-k01",
-      "t04-k02"
+      "t04-k01"
     ]
   },
   {
@@ -4392,6 +6461,81 @@
     ]
   },
   {
+    "id": "ueno-fiskstand",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/ueno-fiskstand/ueno-fiskstand-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 39762,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/ueno-fiskstand/ueno-fiskstand-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 138316,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/ueno-fiskstand/ueno-fiskstand-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 44388,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/ueno-fiskstand/ueno-fiskstand-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 109502,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Balon Greyjoy",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20181124_Ueno_Park_seafood_stall.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Uenoparken, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2018",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Ett stånd som säljer grillade skaldjur i Uenoparken i Tokyo, 2018, med prislappar i flera språk.",
+    "alt": "Rött försäljningsstånd med spett av grillade skaldjur och gula prislappar på japanska, engelska och kinesiska.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns tydligt.",
+    "usedIn": [
+      "t07-k04"
+    ]
+  },
+  {
     "id": "upopoy-ainuhus",
     "kind": "reconstruction",
     "variants": [
@@ -4464,6 +6608,81 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t03-k05"
+    ]
+  },
+  {
+    "id": "vaggmeny-mishuku",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/vaggmeny-mishuku/vaggmeny-mishuku-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 31644,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/vaggmeny-mishuku/vaggmeny-mishuku-960.webp",
+        "width": 960,
+        "height": 638,
+        "bytes": 114074,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/vaggmeny-mishuku/vaggmeny-mishuku-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 36880,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/vaggmeny-mishuku/vaggmeny-mishuku-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 95252,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.4
+    },
+    "creator": "Kim Ahlström",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wall_menu_(3052448204).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: Kim Ahlström, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Mishuku, Setagaya, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2008",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Husvägg med en meny med nudelrätter skrivna med kanji, vid en ramenrestaurang i Mishuku, 2008.",
+    "alt": "Hög vägg med stora svarta tecken som listar rätter, framför en häck och några parkerade mopeder.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns tydligt.",
+    "usedIn": [
+      "t05-k04"
     ]
   },
   {
@@ -4613,8 +6832,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
-      "t10-k03",
-      "home"
+      "home",
+      "t10-k03"
     ]
   },
   {
@@ -4694,8 +6913,7 @@
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
       "home",
-      "t01-k05",
-      "t12-k05"
+      "t01-k05"
     ]
   },
   {
@@ -4771,6 +6989,81 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t01-k03"
+    ]
+  },
+  {
+    "id": "yokohama-taxiplats",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/yokohama-taxiplats/yokohama-taxiplats-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 18746,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/yokohama-taxiplats/yokohama-taxiplats-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 56426,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/yokohama-taxiplats/yokohama-taxiplats-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 22982,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/yokohama-taxiplats/yokohama-taxiplats-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 53216,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.55
+    },
+    "creator": "Yoh-Plus",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yokohama_Station_East_exit_Taxi_plaza.jpg",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen Creative Commons Attribution 4.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) om upphovsperson, licens och ändringar anges. Det uppfylls av kreditrad vid bilden och på sidan Bildkällor. Ingen SA-klausul gäller.",
+    "requiredCredit": "Foto: Yoh-Plus, CC BY 4.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Yokohama stations östra utgång",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2019",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Taxiplatsen vid östra utgången av Yokohama station, 2019. Yokohama var en av hamnarna som öppnades i mitten av 1800-talet.",
+    "alt": "Rad av taxibilar under en överbyggnad på en upplyst taxiplats, med gula linjer på marken.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t02-k02"
     ]
   },
   {
@@ -4853,9 +7146,8 @@
     "modification": "Nedskalad till högst 1440 px bredd, visas beskuren (efter fokuspunkt) till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t07-k01",
-      "t07-k02",
-      "home"
+      "home",
+      "t07-k01"
     ]
   }
 ]

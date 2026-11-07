@@ -100,7 +100,7 @@
         {
           "type": "photo",
           "slotId": "t05-k02-skylt",
-          "imageId": "iwamotocho-utgangsskylt",
+          "imageId": "hankyu-utgang-takatsuki",
           "brief": "Utgångsskylt med kanji och romaji, för att öva på att känna igen 出口."
         },
         {
@@ -364,7 +364,7 @@
   },
   "hero": {
     "slotId": "t05-k02-hero",
-    "imageId": "iga-kambe-stationsskyltar",
+    "imageId": "meiji-dori-skylt",
     "brief": "Skyltar med blandad japansk text (kanji, hiragana, katakana) och romaji."
   }
 }

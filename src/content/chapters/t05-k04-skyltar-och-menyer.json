@@ -33,7 +33,7 @@
         {
           "type": "photo",
           "slotId": "t05-k04-skylt",
-          "imageId": "iwamotocho-utgangsskylt",
+          "imageId": "nankai-namba-tavla",
           "brief": "En skylt i en miljö med blandad japansk och engelsk text, till exempel en stationsskylt."
         }
       ]
@@ -327,7 +327,7 @@
   },
   "hero": {
     "slotId": "t05-k04-hero",
-    "imageId": "matbiljett-shokkenki",
+    "imageId": "vaggmeny-mishuku",
     "brief": "Skyltar och menyer i Japan, till exempel utgångsskyltar eller biljettautomater."
   }
 }
