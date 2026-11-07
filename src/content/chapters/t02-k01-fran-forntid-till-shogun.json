@@ -287,12 +287,12 @@
         {
           "id": "c",
           "text": "Kejsarens kock",
-          "feedback": "Fel."
+          "feedback": "Fel. Shogun betyder ungefär ”fältherre”, en militär ledare."
         },
         {
           "id": "d",
           "text": "Köpman",
-          "feedback": "Fel."
+          "feedback": "Fel. Shogun betyder ungefär ”fältherre”, en militär ledare."
         }
       ]
     },
@@ -346,7 +346,7 @@
         {
           "id": "d",
           "text": "Smartphones",
-          "feedback": "Fel."
+          "feedback": "Fel. Det som kom från Kina och Korea var till exempel skriftspråket och buddhismen, långt före smartphones."
         }
       ]
     }

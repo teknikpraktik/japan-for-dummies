@@ -73,7 +73,7 @@
           "id": "a",
           "text": "Går genast till högre mark.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Vid stark, lång skakning nära kusten ska du genast gå till högre mark."
         },
         {
           "id": "b",
@@ -99,19 +99,19 @@
           "id": "a",
           "text": "En app med varningar på flera språk, till exempel Safety tips.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Appen Safety tips ger varningar om jordbävning, tsunami och väder på flera språk."
         },
         {
           "id": "b",
           "text": "En spelapp.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. En spelapp ger ingen säkerhetsinformation, till skillnad från en varningsapp som Safety tips."
         },
         {
           "id": "c",
           "text": "Ingen.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår att du laddar ned en app med flerspråkiga varningar."
         }
       ]
     },
@@ -126,13 +126,13 @@
           "id": "a",
           "text": "Tar reda på utgångar och samlingsplats och frågar personalen.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet råder dig att ta reda på närmaste utgång och samlingsplats och fråga personalen."
         },
         {
           "id": "b",
           "text": "Strunta i det.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet råder dig att lära dig utgångar och samlingsplats på hotellet."
         },
         {
           "id": "c",
@@ -158,22 +158,22 @@
           "id": "a",
           "text": "Japans nationella varningssystem",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. J-Alert är det nationella varningssystemet för bland annat jordbävning och tsunami."
         },
         {
           "id": "b",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. J-Alert är ett varningssystem, inte en maträtt."
         },
         {
           "id": "c",
           "text": "Ett tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. J-Alert är ett varningssystem, inte ett tåg."
         },
         {
           "id": "d",
           "text": "En skola",
-          "feedback": "Fel."
+          "feedback": "Fel. J-Alert är ett varningssystem, inte en skola."
         }
       ]
     },
@@ -185,22 +185,22 @@
           "id": "a",
           "text": "Går genast till högre mark.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Vid tsunamivarning ska du genast gå till högre mark eller en tsunamievakueringsbyggnad."
         },
         {
           "id": "b",
           "text": "Väntar på stranden.",
-          "feedback": "Fel."
+          "feedback": "Fel. Du ska inte vänta utan genast gå till högre mark."
         },
         {
           "id": "c",
           "text": "Går till havet.",
-          "feedback": "Fel."
+          "feedback": "Fel. Du ska gå bort från havet och upp till högre mark."
         },
         {
           "id": "d",
           "text": "Ringer ingen.",
-          "feedback": "Fel."
+          "feedback": "Fel. Du ska gå till högre mark och följa lokala instruktioner, och vid akut fara ringa 110 eller 119."
         }
       ]
     },
@@ -212,7 +212,7 @@
           "id": "a",
           "text": "119",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. 119 är numret till ambulans och brand."
         },
         {
           "id": "b",
@@ -227,7 +227,7 @@
         {
           "id": "d",
           "text": "911",
-          "feedback": "Fel."
+          "feedback": "Fel. Numret till ambulans och brand i Japan är 119."
         }
       ]
     },
@@ -239,22 +239,22 @@
           "id": "a",
           "text": "Jordbävningens intensitet på en plats (0–7)",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Shindo är skalan 0 till 7 för jordbävningens intensitet."
         },
         {
           "id": "b",
           "text": "Vattennivå",
-          "feedback": "Fel."
+          "feedback": "Fel. Shindo mäter jordbävningens intensitet, inte vattennivå."
         },
         {
           "id": "c",
           "text": "Temperatur",
-          "feedback": "Fel."
+          "feedback": "Fel. Shindo mäter jordbävningens intensitet, inte temperatur."
         },
         {
           "id": "d",
           "text": "Vindhastighet",
-          "feedback": "Fel."
+          "feedback": "Fel. Shindo mäter jordbävningens intensitet, inte vindhastighet."
         }
       ]
     },
@@ -266,22 +266,22 @@
           "id": "a",
           "text": "Flera vågor kan komma.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En tsunami kan komma i flera vågor, så du ska vänta tills varningen hävts."
         },
         {
           "id": "b",
           "text": "Det är kallt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Skälet är att en tsunami kan komma i flera vågor."
         },
         {
           "id": "c",
           "text": "Det är olagligt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Skälet är att en tsunami kan komma i flera vågor, inte ett förbud."
         },
         {
           "id": "d",
           "text": "Det är alltid säkert.",
-          "feedback": "Fel."
+          "feedback": "Fel. Det är inte säkert, eftersom en tsunami kan komma i flera vågor."
         }
       ]
     }

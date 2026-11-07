@@ -93,13 +93,13 @@
           "id": "c",
           "text": "1945",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. 1945 nämns inte i kapitlet; enligt traditionen kom buddhismen omkring år 552."
         },
         {
           "id": "d",
           "text": "1603",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Enligt traditionen kom buddhismen omkring år 552, långt före 1603."
         }
       ]
     },
@@ -113,7 +113,7 @@
           "id": "a",
           "text": "En port med tak (sanmon), ofta pagod och Buddhastatyer.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ett tempel har en port med tak, en sanmon, och ofta en pagod och Buddhastatyer."
         },
         {
           "id": "b",
@@ -125,7 +125,7 @@
           "id": "c",
           "text": "Ett skolhus.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Ett tempel är ett buddhistiskt tillbedjansställe, inte ett skolhus, även om tempel kan fungera som skolor."
         }
       ]
     },
@@ -172,22 +172,22 @@
           "id": "a",
           "text": "Via Korea och Kina",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Enligt traditionen skickade det koreanska riket Baekje buddhistiska föremål och skrifter, och Zen kom från Kina."
         },
         {
           "id": "b",
           "text": "Från Sverige",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver att buddhismen kom via Korea och Kina."
         },
         {
           "id": "c",
           "text": "Från Amerika",
-          "feedback": "Fel."
+          "feedback": "Fel. Buddhismen kom via Korea och Kina, inte från Amerika."
         },
         {
           "id": "d",
           "text": "Från Afrika",
-          "feedback": "Fel."
+          "feedback": "Fel. Buddhismen kom via Korea och Kina, inte från Afrika."
         }
       ]
     },
@@ -199,22 +199,22 @@
           "id": "a",
           "text": "Zen",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Zen kom från Kina och blev populärt bland samurajer."
         },
         {
           "id": "b",
           "text": "Shinto",
-          "feedback": "Fel."
+          "feedback": "Fel. Shinto är inte en buddhistisk riktning; det är Zen som kom från Kina."
         },
         {
           "id": "c",
           "text": "Kejsarkult",
-          "feedback": "Fel."
+          "feedback": "Fel. Kejsarkult är ingen buddhistisk riktning; det är Zen som kom från Kina."
         },
         {
           "id": "d",
           "text": "Ainu",
-          "feedback": "Fel."
+          "feedback": "Fel. Ainu nämns inte som en buddhistisk riktning; det är Zen som kom från Kina."
         }
       ]
     },
@@ -226,7 +226,7 @@
           "id": "a",
           "text": "På en torii",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En helgedom har en torii."
         },
         {
           "id": "b",
@@ -236,12 +236,12 @@
         {
           "id": "c",
           "text": "På en skola",
-          "feedback": "Fel."
+          "feedback": "Fel. En helgedom känns igen på toriin, inte på en skola."
         },
         {
           "id": "d",
           "text": "På en klocka",
-          "feedback": "Fel."
+          "feedback": "Fel. En stor klocka hör till tempel; en helgedom har en torii."
         }
       ]
     },
@@ -253,22 +253,22 @@
           "id": "a",
           "text": "Begravningar och minnesriter",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Buddhismen märks framför allt i begravningar och minnesriter."
         },
         {
           "id": "b",
           "text": "Bröllop alltid",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet förknippar buddhismen med begravningar och minnesriter, inte alltid med bröllop."
         },
         {
           "id": "c",
           "text": "Skolstart",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet förknippar buddhismen med begravningar och minnesriter, inte med skolstart."
         },
         {
           "id": "d",
           "text": "Skatter",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet förknippar buddhismen med begravningar och minnesriter, inte med skatter."
         }
       ]
     },
@@ -280,22 +280,22 @@
           "id": "a",
           "text": "Många platser och människor har inslag av både shinto och buddhism.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Traditionerna har blandats, så en plats kan ha både helgedom och tempel."
         },
         {
           "id": "b",
           "text": "De är alltid separerade.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver att traditionerna har blandats."
         },
         {
           "id": "c",
           "text": "Bara en finns kvar.",
-          "feedback": "Fel."
+          "feedback": "Fel. Båda traditionerna finns kvar och blandas."
         },
         {
           "id": "d",
           "text": "De förbjuds.",
-          "feedback": "Fel."
+          "feedback": "Fel. Traditionerna förbjuds inte; de blandas."
         }
       ]
     }

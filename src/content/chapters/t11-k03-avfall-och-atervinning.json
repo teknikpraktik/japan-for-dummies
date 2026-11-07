@@ -79,13 +79,13 @@
           "id": "b",
           "text": "Kastas rakt i brännbart.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Många kommuner ber dig skölja flaskan och ta av kork och etikett, så flaskan ska inte kastas rakt i brännbart."
         },
         {
           "id": "c",
           "text": "Grävs ned.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. PET-flaskor sorteras enligt kommunens regler."
         }
       ]
     },
@@ -99,19 +99,19 @@
           "id": "a",
           "text": "Kommunen",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Sopsorteringen sköts av kommunen, som också delar ut en kalender med hämtningsdagar."
         },
         {
           "id": "b",
           "text": "Ingen",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Reglerna bestäms av kommunen."
         },
         {
           "id": "c",
           "text": "Alla bestämmer själva",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Reglerna bestäms av kommunen och skiljer sig mellan orter."
         }
       ]
     },
@@ -126,19 +126,19 @@
           "id": "a",
           "text": "Jag tar med skräpet och letar efter en papperskorg eller slänger det på hotellet.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Offentliga papperskorgar är sällsynta, så du tar med skräpet till hotellet eller ett sorteringskärl."
         },
         {
           "id": "b",
           "text": "Lägger det på marken.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Skräp ska tas med eller läggas i ett kärl, inte lämnas på marken."
         },
         {
           "id": "c",
           "text": "Går därifrån.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Du ska ta med skräpet till hotellet eller ett sorteringskärl."
         }
       ]
     }
@@ -158,22 +158,22 @@
           "id": "a",
           "text": "Kommunen",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Sopsorteringen sköts av kommunen, som delar ut en kalender med hämtningsdagar."
         },
         {
           "id": "b",
           "text": "Staten ensam",
-          "feedback": "Fel."
+          "feedback": "Fel. Det är kommunen som sköter sorteringen och hämtningen."
         },
         {
           "id": "c",
           "text": "Grannen",
-          "feedback": "Fel."
+          "feedback": "Fel. Det är kommunen som sköter sorteringen och hämtningen."
         },
         {
           "id": "d",
           "text": "Ingen",
-          "feedback": "Fel."
+          "feedback": "Fel. Det är kommunen som sköter sorteringen och hämtningen."
         }
       ]
     },
@@ -212,22 +212,22 @@
           "id": "a",
           "text": "Tar med det",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Offentliga papperskorgar är sällsynta, så du tar med skräpet till hotellet eller ett sorteringskärl."
         },
         {
           "id": "b",
           "text": "Lämnar det",
-          "feedback": "Fel."
+          "feedback": "Fel. Du ska ta med skräpet till hotellet eller ett sorteringskärl."
         },
         {
           "id": "c",
           "text": "Kastar det",
-          "feedback": "Fel."
+          "feedback": "Fel. Du ska ta med skräpet till hotellet eller ett sorteringskärl."
         },
         {
           "id": "d",
           "text": "Bränner det",
-          "feedback": "Fel."
+          "feedback": "Fel. Du ska ta med skräpet till hotellet eller ett sorteringskärl."
         }
       ]
     },
@@ -239,22 +239,22 @@
           "id": "a",
           "text": "Gör förbränning renare och återvinning möjlig.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Sortering gör förbränningen renare och återvinning möjlig."
         },
         {
           "id": "b",
           "text": "Det är bara en vana.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver sorteringen som viktig för förbränning, återvinning och lokalsamhället."
         },
         {
           "id": "c",
           "text": "Det är tråkigt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver sorteringen som viktig, även om den kan kännas krånglig."
         },
         {
           "id": "d",
           "text": "Det spelar ingen roll.",
-          "feedback": "Fel."
+          "feedback": "Fel. Sorteringen gör förbränningen renare och återvinning möjlig."
         }
       ]
     },

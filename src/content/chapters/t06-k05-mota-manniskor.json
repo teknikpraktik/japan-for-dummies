@@ -101,7 +101,7 @@
           "id": "a",
           "text": "”Hos oss är det annorlunda. Hur fungerar det här?”",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Meningen beskriver en skillnad utan att värdera och bjuder in till en förklaring."
         },
         {
           "id": "b",
@@ -160,22 +160,22 @@
           "id": "a",
           "text": "”Vad gör du på fritiden?”",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Frågan gäller personen själv, så du pratar med en människa och inte med en representant."
         },
         {
           "id": "b",
           "text": "”Varför är ni så konstiga?”",
-          "feedback": "Fel."
+          "feedback": "Fel. Frågan är värderande och pekar ut en hel grupp."
         },
         {
           "id": "c",
           "text": "”Gör ni alltid samma sak?”",
-          "feedback": "Fel."
+          "feedback": "Fel. Frågan förutsätter att alla är likadana i stället för att gälla personen."
         },
         {
           "id": "d",
           "text": "Ingen fråga alls",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet menar att nyfikenhet är en bra ingång, om frågan gäller personen."
         }
       ]
     },
@@ -187,22 +187,22 @@
           "id": "a",
           "text": "Stereotypa slutsatser om en hel grupp.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet varnar för frågor och jämförelser som gör en person till representant för en hel grupp."
         },
         {
           "id": "b",
           "text": "Vänliga slutsatser om en person.",
-          "feedback": "Fel."
+          "feedback": "Fel. Vänliga slutsatser om en person är inte problemet; kapitlet varnar för att peka ut grupper."
         },
         {
           "id": "c",
           "text": "Ingen slutsats alls.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet handlar om att undvika snabba slutsatser om grupper, inte om att dra inga alls."
         },
         {
           "id": "d",
           "text": "Matematiska slutsatser.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet handlar om stereotypa slutsatser om grupper, inte om matematik."
         }
       ]
     },
@@ -219,17 +219,17 @@
         {
           "id": "b",
           "text": "Mat",
-          "feedback": "Fel."
+          "feedback": "Fel. Mat nämns som ett bra samtalsämne, inte ett som behöver vänta."
         },
         {
           "id": "c",
           "text": "Skola",
-          "feedback": "Fel."
+          "feedback": "Fel. Skola nämns som ett bra samtalsämne, inte ett som behöver vänta."
         },
         {
           "id": "d",
           "text": "Musik",
-          "feedback": "Fel."
+          "feedback": "Fel. Musik nämns som ett bra samtalsämne, inte ett som behöver vänta."
         }
       ]
     },
@@ -241,22 +241,22 @@
           "id": "a",
           "text": "Tackar, gärna skriftligt.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet säger att du ska skriva ett tack och berätta vad du uppskattade, vilket betyder mycket."
         },
         {
           "id": "b",
           "text": "Glömmer det.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet rekommenderar att du skriver ett tack efteråt."
         },
         {
           "id": "c",
           "text": "Kräver pengar.",
-          "feedback": "Fel."
+          "feedback": "Fel. Som gäst ska du tacka, inte kräva något."
         },
         {
           "id": "d",
           "text": "Lämnar utan ett ord.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att du ska tacka efteråt, gärna med några rader."
         }
       ]
     },
@@ -268,17 +268,17 @@
           "id": "a",
           "text": "Beskriva olikheter utan att värdera.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet säger att man ska beskriva skillnader utan att värdera dem."
         },
         {
           "id": "b",
           "text": "Säga att ditt land är bäst.",
-          "feedback": "Fel."
+          "feedback": "Fel. Det är värderande; kapitlet säger att man ska beskriva skillnader utan att värdera."
         },
         {
           "id": "c",
           "text": "Säga att andras är konstigt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Det är värderande; kapitlet säger att man ska beskriva skillnader utan att värdera."
         },
         {
           "id": "d",

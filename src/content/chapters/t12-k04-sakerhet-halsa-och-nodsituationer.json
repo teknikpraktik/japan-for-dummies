@@ -108,7 +108,7 @@
           "id": "c",
           "text": "911",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. 911 är inte numret i Japan, där ambulans och brandkår når du på 119."
         }
       ]
     },
@@ -122,19 +122,19 @@
           "id": "a",
           "text": "Kontakta försäkringsbolaget och spara kvitton.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kontakta försäkringsbolagets nödtelefon så snart det är möjligt och spara kvitton."
         },
         {
           "id": "b",
           "text": "Ignorera försäkringen.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Försäkringsbolaget ska kontaktas så snart det är möjligt."
         },
         {
           "id": "c",
           "text": "Kasta kvitton.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kvitton ska sparas, eftersom patienter ofta betalar på plats och söker ersättning efteråt."
         }
       ]
     },
@@ -149,7 +149,7 @@
           "id": "a",
           "text": "Väcker en ansvarig vuxen och ringer 119 vid akut fara.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Agera enligt gruppens rutiner, kontakta en vuxen eller reseledare och ring 119 vid akut fara."
         },
         {
           "id": "b",
@@ -181,7 +181,7 @@
           "id": "a",
           "text": "110",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. 110 är polisens nummer i Japan."
         },
         {
           "id": "b",
@@ -191,12 +191,12 @@
         {
           "id": "c",
           "text": "112",
-          "feedback": "Fel."
+          "feedback": "Fel. Polisen når du på 110 i Japan."
         },
         {
           "id": "d",
           "text": "000",
-          "feedback": "Fel."
+          "feedback": "Fel. Polisen når du på 110 i Japan."
         }
       ]
     },
@@ -208,22 +208,22 @@
           "id": "a",
           "text": "Pass, försäkringsuppgifter och en lista över läkemedel och allergier",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet säger att du ska ta med pass, försäkringsuppgifter och en lista över läkemedel och allergier."
         },
         {
           "id": "b",
           "text": "Ingenting",
-          "feedback": "Fel."
+          "feedback": "Fel. Du behöver ha pass, försäkringsuppgifter och en lista över läkemedel och allergier med dig."
         },
         {
           "id": "c",
           "text": "Bara en karta",
-          "feedback": "Fel."
+          "feedback": "Fel. En karta räcker inte, utan du behöver pass, försäkringsuppgifter och en lista över läkemedel och allergier."
         },
         {
           "id": "d",
           "text": "Bara en bok",
-          "feedback": "Fel."
+          "feedback": "Fel. En bok hjälper inte vid sjukdom, utan du behöver pass, försäkringsuppgifter och en lista över läkemedel och allergier."
         }
       ]
     },
@@ -235,22 +235,22 @@
           "id": "a",
           "text": "Kontrollera dem officiellt och spara dem",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet råder dig att spara nödnumren i telefonen och på papper innan du reser."
         },
         {
           "id": "b",
           "text": "Strunta i dem",
-          "feedback": "Fel."
+          "feedback": "Fel. Nödnumren ska sparas innan resan, i telefonen och på papper."
         },
         {
           "id": "c",
           "text": "Lita på ett rykte",
-          "feedback": "Fel."
+          "feedback": "Fel. Nödnumren ska sparas efter kontroll, inte hämtas från rykten."
         },
         {
           "id": "d",
           "text": "Sudda dem",
-          "feedback": "Fel."
+          "feedback": "Fel. Nödnumren ska sparas i telefonen och på papper."
         }
       ]
     },
@@ -262,22 +262,22 @@
           "id": "a",
           "text": "En mobil med röstsamtal",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Du behöver en mobil med röstsamtal för att kunna ringa."
         },
         {
           "id": "b",
           "text": "Bara Wi-Fi-router",
-          "feedback": "Fel."
+          "feedback": "Fel. För att ringa behöver du en mobil med röstsamtal."
         },
         {
           "id": "c",
           "text": "Ingenting",
-          "feedback": "Fel."
+          "feedback": "Fel. Du behöver en mobil med röstsamtal för att kunna ringa."
         },
         {
           "id": "d",
           "text": "En bok",
-          "feedback": "Fel."
+          "feedback": "Fel. Du behöver en mobil med röstsamtal för att kunna ringa."
         }
       ]
     },
@@ -289,22 +289,22 @@
           "id": "a",
           "text": "Pratar med en ansvarig vuxen",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Berätta tidigt om du mår dåligt och prata med en ansvarig vuxen i gruppen."
         },
         {
           "id": "b",
           "text": "Håller det för dig själv",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att du ska berätta tidigt om du mår dåligt."
         },
         {
           "id": "c",
           "text": "Reser själv",
-          "feedback": "Fel."
+          "feedback": "Fel. Du ska följa gruppens rutiner och kontakta en vuxen eller reseledare."
         },
         {
           "id": "d",
           "text": "Låtsas att allt är bra",
-          "feedback": "Fel."
+          "feedback": "Fel. Berätta i stället tidigt för en vuxen i gruppen om du mår dåligt."
         }
       ]
     }

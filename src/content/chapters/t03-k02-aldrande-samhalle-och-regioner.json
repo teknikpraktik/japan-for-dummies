@@ -110,7 +110,7 @@
           "id": "a",
           "text": "En växande andel äldre och en minskande andel unga och personer i arbetsför ålder.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ett åldrande samhälle innebär att andelen äldre ökar medan andelen unga och personer i arbetsför ålder minskar."
         },
         {
           "id": "b",
@@ -122,7 +122,7 @@
           "id": "c",
           "text": "Att barn inte längre går i skolan.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Ett åldrande samhälle handlar om befolkningens åldersfördelning, inte om skolgång."
         }
       ]
     },
@@ -136,19 +136,19 @@
           "id": "a",
           "text": "Tomma hus, ofta på landsbygden.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Akiya är tomma bostäder, ofta på landsbygden."
         },
         {
           "id": "b",
           "text": "En typ av tåg.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Akiya är tomma bostäder, inte en typ av tåg."
         },
         {
           "id": "c",
           "text": "Ett högtidsmål.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Akiya är tomma bostäder, inte ett högtidsmål."
         }
       ]
     },
@@ -200,17 +200,17 @@
         {
           "id": "b",
           "text": "Cirka 5 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Andelen över 65 år var 29,4 procent 2025, långt över 5 procent."
         },
         {
           "id": "c",
           "text": "Cirka 50 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Andelen över 65 år var 29,4 procent 2025, inte hälften."
         },
         {
           "id": "d",
           "text": "Cirka 10 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Andelen över 65 år var 29,4 procent 2025, långt över 10 procent."
         }
       ]
     },
@@ -254,17 +254,17 @@
         {
           "id": "b",
           "text": "Hokkaido",
-          "feedback": "Fel."
+          "feedback": "Fel. Enligt rapporterna är Tokyo den enda prefektur som fortsatt växer."
         },
         {
           "id": "c",
           "text": "Shimane",
-          "feedback": "Fel."
+          "feedback": "Fel. Enligt rapporterna är Tokyo den enda prefektur som fortsatt växer."
         },
         {
           "id": "d",
           "text": "Okinawa",
-          "feedback": "Fel."
+          "feedback": "Fel. Enligt rapporterna är Tokyo den enda prefektur som fortsatt växer."
         }
       ]
     },
@@ -276,22 +276,22 @@
           "id": "a",
           "text": "Akiya",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Tomma bostäder kallas ofta akiya."
         },
         {
           "id": "b",
           "text": "Onsen",
-          "feedback": "Fel."
+          "feedback": "Fel. Tomma hus kallas akiya."
         },
         {
           "id": "c",
           "text": "Sushi",
-          "feedback": "Fel."
+          "feedback": "Fel. Tomma hus kallas akiya."
         },
         {
           "id": "d",
           "text": "Shinto",
-          "feedback": "Fel."
+          "feedback": "Fel. Tomma hus kallas akiya."
         }
       ]
     },
@@ -303,22 +303,22 @@
           "id": "a",
           "text": "Befolkningen är fortfarande över 120 miljoner och förändringen är långsam och ojämn.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Befolkningen är fortfarande över 120 miljoner, och förändringen är långsam och ojämn."
         },
         {
           "id": "b",
           "text": "För att befolkningen ökar snabbt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Befolkningen har minskat, men förändringen är långsam."
         },
         {
           "id": "c",
           "text": "För att inga äldre bor i Japan.",
-          "feedback": "Fel."
+          "feedback": "Fel. Andelen äldre är hög, och många av dem är aktiva."
         },
         {
           "id": "d",
           "text": "För att det inte finns någon statistik.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet bygger på statistik, och poängen är att rubriken är en förenkling."
         }
       ]
     }

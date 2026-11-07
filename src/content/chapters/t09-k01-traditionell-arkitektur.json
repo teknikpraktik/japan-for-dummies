@@ -88,7 +88,7 @@
           "id": "a",
           "text": "Trä",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Traditionell japansk arkitektur bygger i stor utsträckning på trä."
         },
         {
           "id": "b",
@@ -100,7 +100,7 @@
           "id": "c",
           "text": "Is",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver trä, inte is, som det dominerande materialet."
         }
       ]
     },
@@ -114,19 +114,19 @@
           "id": "a",
           "text": "De byggs om vart tjugonde år.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ise-helgedomarnas huvudbyggnader byggs om från grunden vart tjugonde år."
         },
         {
           "id": "b",
           "text": "De är aldrig underhållna.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Byggnaderna byggs om vart tjugonde år, så förnyelse är en del av traditionen."
         },
         {
           "id": "c",
           "text": "De är nya varje dag.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. De byggs om vart tjugonde år, inte varje dag."
         }
       ]
     },
@@ -173,22 +173,22 @@
           "id": "a",
           "text": "Halmmattor på golvet",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Tatami är halmmattor."
         },
         {
           "id": "b",
           "text": "Ett slags tak",
-          "feedback": "Fel."
+          "feedback": "Fel. Tatami är halmmattor, inte ett tak."
         },
         {
           "id": "c",
           "text": "Ett tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Tatami är halmmattor, inte ett tåg."
         },
         {
           "id": "d",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. Tatami är halmmattor, inte en maträtt."
         }
       ]
     },
@@ -200,22 +200,22 @@
           "id": "a",
           "text": "Vart tjugonde år",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Huvudbyggnaderna byggs om vart tjugonde år."
         },
         {
           "id": "b",
           "text": "Varje år",
-          "feedback": "Fel."
+          "feedback": "Fel. Ombyggnaden sker vart tjugonde år, inte varje år."
         },
         {
           "id": "c",
           "text": "Vart hundrade år",
-          "feedback": "Fel."
+          "feedback": "Fel. Ombyggnaden sker vart tjugonde år, inte vart hundrade."
         },
         {
           "id": "d",
           "text": "Aldrig",
-          "feedback": "Fel."
+          "feedback": "Fel. Byggnaderna byggs om regelbundet, vart tjugonde år."
         }
       ]
     },
@@ -227,22 +227,22 @@
           "id": "a",
           "text": "Tillgång, klimat och byggtraditioner",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet säger att material, klimat och jordbävningar har format byggnaderna."
         },
         {
           "id": "b",
           "text": "Det är förbjudet att använda sten",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner inget förbud mot sten."
         },
         {
           "id": "c",
           "text": "Trä är billigast i hela världen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger inget om pris, utan om material, klimat och jordbävningar."
         },
         {
           "id": "d",
           "text": "Ingen vet",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet ger flera förklaringar, bland annat klimat och jordbävningar."
         }
       ]
     },
@@ -254,22 +254,22 @@
           "id": "a",
           "text": "En veranda som binder samman inne och ute",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Engawa är verandor som binder samman inne och ute."
         },
         {
           "id": "b",
           "text": "En port",
-          "feedback": "Fel."
+          "feedback": "Fel. Engawa är en veranda, inte en port."
         },
         {
           "id": "c",
           "text": "Ett tak",
-          "feedback": "Fel."
+          "feedback": "Fel. Engawa är en veranda, inte ett tak."
         },
         {
           "id": "d",
           "text": "En lykta",
-          "feedback": "Fel."
+          "feedback": "Fel. Engawa är en veranda, inte en lykta."
         }
       ]
     },
@@ -281,22 +281,22 @@
           "id": "a",
           "text": "Som form, plats och hantverk, inte bara gammalt material",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En byggnad kan vara gammal genom sin form, plats och sitt hantverk, även om virket är nytt."
         },
         {
           "id": "b",
           "text": "Bara som gammalt virke",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att äkthet inte bara handlar om gammalt virke."
         },
         {
           "id": "c",
           "text": "Som något nytt",
-          "feedback": "Fel."
+          "feedback": "Fel. Nytt virke kan ingå, men äktheten ligger i form, plats och hantverk."
         },
         {
           "id": "d",
           "text": "Som något plastigt",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner inget om plast, utan om form, plats, hantverk och kunskap."
         }
       ]
     }

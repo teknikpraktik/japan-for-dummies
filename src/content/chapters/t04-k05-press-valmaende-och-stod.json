@@ -95,7 +95,7 @@
           "id": "a",
           "text": "Prata med en vuxen i gruppen eller kontakta en stödlinje.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet rekommenderar att du pratar med en vuxen i gruppen om något känns tungt."
         },
         {
           "id": "b",
@@ -121,19 +121,19 @@
           "id": "a",
           "text": "Siffrorna beskriver grupper och kan påverkas av hur man registrerar.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Siffrorna beskriver en grupp, och ministeriet menar att en del av ökningen beror på hur skolorna registrerar."
         },
         {
           "id": "b",
           "text": "De visar exakt hur varje elev mår.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att siffrorna beskriver en grupp, inte enskilda personer."
         },
         {
           "id": "c",
           "text": "De är oviktiga.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Siffrorna är viktiga, men ska läsas som en beskrivning av en grupp."
         }
       ]
     },
@@ -185,17 +185,17 @@
         {
           "id": "b",
           "text": "Cirka 7 000",
-          "feedback": "Fel."
+          "feedback": "Fel. Det registrerade antalet var 769 022, inte cirka 7 000."
         },
         {
           "id": "c",
           "text": "Cirka 77 miljoner",
-          "feedback": "Fel."
+          "feedback": "Fel. Det registrerade antalet var 769 022, inte cirka 77 miljoner."
         },
         {
           "id": "d",
           "text": "Inga",
-          "feedback": "Fel."
+          "feedback": "Fel. Under läsåret 2024 registrerades 769 022 mobbningsfall."
         }
       ]
     },
@@ -212,17 +212,17 @@
         {
           "id": "b",
           "text": "Cirka 35",
-          "feedback": "Fel."
+          "feedback": "Fel. Antalet var 353 970, inte cirka 35."
         },
         {
           "id": "c",
           "text": "Cirka 3,5 miljoner",
-          "feedback": "Fel."
+          "feedback": "Fel. Antalet var 353 970, inte cirka 3,5 miljoner."
         },
         {
           "id": "d",
           "text": "Inga",
-          "feedback": "Fel."
+          "feedback": "Fel. Antalet elever med över 30 dagars frånvaro var 353 970."
         }
       ]
     },
@@ -239,17 +239,17 @@
         {
           "id": "b",
           "text": "För att inga bryr sig.",
-          "feedback": "Fel."
+          "feedback": "Fel. Ministeriet menar att skolorna blivit mer aktiva i att upptäcka och registrera, inte att ingen bryr sig."
         },
         {
           "id": "c",
           "text": "För att skolorna stängt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Ministeriets förklaring är att skolorna registrerar mer aktivt, inte att de stängt."
         },
         {
           "id": "d",
           "text": "Ingen vet något.",
-          "feedback": "Fel."
+          "feedback": "Fel. Ministeriet ger en förklaring: skolorna har blivit mer aktiva i att registrera."
         }
       ]
     },
@@ -271,12 +271,12 @@
         {
           "id": "c",
           "text": "911",
-          "feedback": "Fel."
+          "feedback": "Fel. Japans nödnummer är 110 för polis och 119 för ambulans och brand."
         },
         {
           "id": "d",
           "text": "000",
-          "feedback": "Fel."
+          "feedback": "Fel. Japans nödnummer är 110 för polis och 119 för ambulans och brand."
         }
       ]
     },
@@ -293,17 +293,17 @@
         {
           "id": "b",
           "text": "JR",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet pekar ut TELL som organisation för engelskspråkigt stöd."
         },
         {
           "id": "c",
           "text": "Shogunen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet pekar ut TELL som organisation för engelskspråkigt stöd."
         },
         {
           "id": "d",
           "text": "Koshien",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet pekar ut TELL som organisation för engelskspråkigt stöd."
         }
       ]
     }

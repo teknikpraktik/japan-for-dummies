@@ -110,19 +110,19 @@
           "id": "a",
           "text": "2050",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Regeringen satte 2020 målet nettonoll växthusgasutsläpp till 2050."
         },
         {
           "id": "b",
           "text": "2025",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Målet för nettonoll är 2050, inte 2025."
         },
         {
           "id": "c",
           "text": "2200",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Målet för nettonoll är 2050, inte 2200."
         }
       ]
     },
@@ -136,19 +136,19 @@
           "id": "a",
           "text": "Dricka vatten, vila och följa varningar.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet råder besökare att följa värmevarningar, dricka vatten och vila."
         },
         {
           "id": "b",
           "text": "Springa en mil.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Hård ansträngning i hettan ökar risken för värmeslag, och kapitlet råder till vila."
         },
         {
           "id": "c",
           "text": "Ignorera.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Värmeslag är en risk, så varningar ska följas."
         }
       ]
     },
@@ -175,7 +175,7 @@
           "id": "c",
           "text": "Det finns inga problem.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver tydliga klimatutmaningar som hetta och kraftigare regn."
         }
       ]
     }
@@ -195,22 +195,22 @@
           "id": "a",
           "text": "2050",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Japan har målet nettonoll växthusgasutsläpp till 2050."
         },
         {
           "id": "b",
           "text": "2010",
-          "feedback": "Fel."
+          "feedback": "Fel. Japans mål för nettonoll är 2050."
         },
         {
           "id": "c",
           "text": "2100",
-          "feedback": "Fel."
+          "feedback": "Fel. Japans mål för nettonoll är 2050, inte 2100."
         },
         {
           "id": "d",
           "text": "Inget",
-          "feedback": "Fel."
+          "feedback": "Fel. Regeringen satte 2020 målet nettonoll till 2050."
         }
       ]
     },
@@ -227,17 +227,17 @@
         {
           "id": "b",
           "text": "Den var den kallaste.",
-          "feedback": "Fel."
+          "feedback": "Fel. Enligt rapporter var sommaren 2025 den varmaste som uppmätts."
         },
         {
           "id": "c",
           "text": "Den var normal.",
-          "feedback": "Fel."
+          "feedback": "Fel. Enligt rapporter var sommaren 2025 den varmaste som uppmätts."
         },
         {
           "id": "d",
           "text": "Den ställdes in.",
-          "feedback": "Fel."
+          "feedback": "Fel. Sommaren 2025 beskrevs som den varmaste som uppmätts, inte som inställd."
         }
       ]
     },
@@ -249,22 +249,22 @@
           "id": "a",
           "text": "Att en trovärdig plan saknas och att kol fortfarande är stort.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kritikerna menar att en trovärdig plan saknas, bland annat eftersom kol fortfarande står för en stor del av elen."
         },
         {
           "id": "b",
           "text": "Att den är för snabb.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kritiken är att det saknas en trovärdig plan, inte att den går för snabbt."
         },
         {
           "id": "c",
           "text": "Att den inte finns.",
-          "feedback": "Fel."
+          "feedback": "Fel. Det finns ett mål och en plan, men kritikerna tycker att den inte är trovärdig."
         },
         {
           "id": "d",
           "text": "Att ingen läser den.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kritiken gäller att planen saknar trovärdighet och att kol fortfarande är stort."
         }
       ]
     },
@@ -276,22 +276,22 @@
           "id": "a",
           "text": "Att koppla ett enskilt väderfall direkt till klimatförändringen.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Meteorologer varnar för att koppla ett enskilt väderfall direkt till klimatförändringen."
         },
         {
           "id": "b",
           "text": "Att läsa rapporter.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet bygger på rapporter, och försiktigheten gäller att koppla ett enskilt väderfall till klimatförändringen."
         },
         {
           "id": "c",
           "text": "Att dricka vatten.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet råder tvärtom besökare att dricka vatten i hettan."
         },
         {
           "id": "d",
           "text": "Att planera.",
-          "feedback": "Fel."
+          "feedback": "Fel. Att planera är inget kapitlet varnar för, utan försiktigheten gäller enskilda väderfall."
         }
       ]
     },
@@ -303,22 +303,22 @@
           "id": "a",
           "text": "Jämföra flera scenarier och ställa frågor.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Framtiden beror på många val, och kapitlet jämför flera scenarier."
         },
         {
           "id": "b",
           "text": "Tro på ett enda.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att verkligheten sannolikt blir en blandning av scenarier."
         },
         {
           "id": "c",
           "text": "Aldrig tänka på det.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet uppmuntrar till att fundera på framtiden och ställa frågor."
         },
         {
           "id": "d",
           "text": "Alltid vara säker.",
-          "feedback": "Fel."
+          "feedback": "Fel. Framtiden är osäker, och därför jämförs flera scenarier."
         }
       ]
     }

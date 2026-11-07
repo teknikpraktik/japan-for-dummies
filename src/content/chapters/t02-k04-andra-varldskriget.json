@@ -199,13 +199,13 @@
           "id": "c",
           "text": "Ett japanskt tempel",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Hibakusha betyder ungefär ”de som drabbades av bomben”, inte ett tempel."
         },
         {
           "id": "d",
           "text": "En typ av mat",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Hibakusha betyder ungefär ”de som drabbades av bomben”, inte en typ av mat."
         }
       ]
     },
@@ -262,7 +262,7 @@
         {
           "id": "c",
           "text": "1 januari 1900",
-          "feedback": "Fel."
+          "feedback": "Fel. Atombomben över Hiroshima fälldes den 6 augusti 1945."
         },
         {
           "id": "d",
@@ -284,17 +284,17 @@
         {
           "id": "b",
           "text": "Kyoto",
-          "feedback": "Fel."
+          "feedback": "Fel. Massakern i december 1937 förknippas med Nanjing."
         },
         {
           "id": "c",
           "text": "Osaka",
-          "feedback": "Fel."
+          "feedback": "Fel. Massakern i december 1937 förknippas med Nanjing."
         },
         {
           "id": "d",
           "text": "Sapporo",
-          "feedback": "Fel."
+          "feedback": "Fel. Massakern i december 1937 förknippas med Nanjing."
         }
       ]
     },
@@ -306,22 +306,22 @@
           "id": "a",
           "text": "Hibakusha",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. De som överlevde atombomberna kallas hibakusha."
         },
         {
           "id": "b",
           "text": "Samurajer",
-          "feedback": "Fel."
+          "feedback": "Fel. De som överlevde atombomberna kallas hibakusha."
         },
         {
           "id": "c",
           "text": "Shoguner",
-          "feedback": "Fel."
+          "feedback": "Fel. De som överlevde atombomberna kallas hibakusha."
         },
         {
           "id": "d",
           "text": "Daimyo",
-          "feedback": "Fel."
+          "feedback": "Fel. De som överlevde atombomberna kallas hibakusha."
         }
       ]
     },
@@ -338,17 +338,17 @@
         {
           "id": "b",
           "text": "För att kriget aldrig hände",
-          "feedback": "Fel."
+          "feedback": "Fel. Kriget hände, men det räknas från olika startpunkter: i Kina oftare från 1937 och i väst från 1941."
         },
         {
           "id": "c",
           "text": "För att kriget varade i hundra år",
-          "feedback": "Fel."
+          "feedback": "Fel. Skillnaden gäller när man räknar krigets början, 1937 i Kina och 1941 i väst."
         },
         {
           "id": "d",
           "text": "För att alla räknar från 1945",
-          "feedback": "Fel."
+          "feedback": "Fel. I Kina räknas kriget ofta från 1937 och i väst oftare från 1941."
         }
       ]
     },
@@ -365,7 +365,7 @@
         {
           "id": "b",
           "text": "Det finns ingen skillnad.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet skiljer mellan vad som hände, hur det förklaras och hur det minns."
         },
         {
           "id": "c",
@@ -375,7 +375,7 @@
         {
           "id": "d",
           "text": "Fakta kan aldrig kontrolleras.",
-          "feedback": "Fel."
+          "feedback": "Fel. Vad som hände är belagt av dokument, vittnen och forskning, och går att kontrollera."
         }
       ]
     }

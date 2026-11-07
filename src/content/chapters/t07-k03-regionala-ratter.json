@@ -75,7 +75,7 @@
           "id": "a",
           "text": "Takoyaki",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Takoyaki och okonomiyaki är de rätter kapitlet förknippar med Osaka."
         },
         {
           "id": "b",
@@ -101,19 +101,19 @@
           "id": "a",
           "text": "Buljong på fläskben och tunna nudlar.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Hakataramen är tonkotsuramen med buljong på fläskben och tunna nudlar."
         },
         {
           "id": "b",
           "text": "Söt grädde.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Hakataramen kännetecknas av buljong på fläskben och tunna nudlar, inte av söt grädde."
         },
         {
           "id": "c",
           "text": "Bara grönsaker.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Hakataramen har buljong på fläskben, så den är inte bara grönsaker."
         }
       ]
     },
@@ -160,22 +160,22 @@
           "id": "a",
           "text": "Osaka",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Osaka är känt för takoyaki och okonomiyaki."
         },
         {
           "id": "b",
           "text": "Sapporo",
-          "feedback": "Fel."
+          "feedback": "Fel. Sapporo i Hokkaido förknippas med skaldjur och misoramen, medan takoyaki och okonomiyaki hör till Osaka."
         },
         {
           "id": "c",
           "text": "Kyoto",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet förknippar takoyaki och okonomiyaki med Osaka, inte med Kyoto."
         },
         {
           "id": "d",
           "text": "Naha",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet förknippar takoyaki och okonomiyaki med Osaka, inte med Naha."
         }
       ]
     },
@@ -187,7 +187,7 @@
           "id": "a",
           "text": "Tonkotsu",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Hakataramen är tonkotsuramen med buljong på fläskben."
         },
         {
           "id": "b",
@@ -197,12 +197,12 @@
         {
           "id": "c",
           "text": "Curry",
-          "feedback": "Fel."
+          "feedback": "Fel. Hakataramen är tonkotsu, med buljong på fläskben, inte curry."
         },
         {
           "id": "d",
           "text": "Soba",
-          "feedback": "Fel."
+          "feedback": "Fel. Hakataramen är tonkotsu, med buljong på fläskben, inte soba."
         }
       ]
     },
@@ -214,22 +214,22 @@
           "id": "a",
           "text": "En skål ris med skaldjur",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kaisendon är en skål ris med råa skaldjur."
         },
         {
           "id": "b",
           "text": "En sorts te",
-          "feedback": "Fel."
+          "feedback": "Fel. Kaisendon är en maträtt, en skål ris med skaldjur, inte en te."
         },
         {
           "id": "c",
           "text": "En typ av tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Kaisendon är en maträtt, en skål ris med skaldjur, inte ett tåg."
         },
         {
           "id": "d",
           "text": "En soppa med frukt",
-          "feedback": "Fel."
+          "feedback": "Fel. Kaisendon är en skål ris med skaldjur, inte en soppa med frukt."
         }
       ]
     },
@@ -241,22 +241,22 @@
           "id": "a",
           "text": "Klimat, råvaror och historia",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Maten skiljer sig åt med klimat, råvaror och historia."
         },
         {
           "id": "b",
           "text": "Slumpen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet förklarar skillnaderna med klimat, råvaror och historia."
         },
         {
           "id": "c",
           "text": "Lagen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet förklarar skillnaderna med klimat, råvaror och historia, inte med lagen."
         },
         {
           "id": "d",
           "text": "Skolan",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet förklarar skillnaderna med klimat, råvaror och historia, inte med skolan."
         }
       ]
     },
@@ -268,22 +268,22 @@
           "id": "a",
           "text": "Nyfikenhet utan att jämföra med ”rätt” mat",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet uppmanar till nyfikenhet och att inte jämföra med hur rätten ska smaka hemifrån."
         },
         {
           "id": "b",
           "text": "Att kritisera",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att lokala varianter inte är fel versioner av något annat."
         },
         {
           "id": "c",
           "text": "Att äta samma sak överallt",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet uppmuntrar att smaka lokala specialiteter, vilket skiljer sig mellan regioner."
         },
         {
           "id": "d",
           "text": "Att hoppa över måltider",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet uppmuntrar att fråga om specialiteten och smaka, inte att hoppa över måltider."
         }
       ]
     }

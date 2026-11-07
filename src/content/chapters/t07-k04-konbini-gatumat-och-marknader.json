@@ -68,19 +68,19 @@
           "id": "a",
           "text": "Risbollar, ofta med fyllning.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Onigiri är risbollar som säljs i närbutiker."
         },
         {
           "id": "b",
           "text": "En typ av tåg.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Onigiri är mat, nämligen risbollar."
         },
         {
           "id": "c",
           "text": "En soppa.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Onigiri är risbollar och ingen soppa."
         }
       ]
     },
@@ -94,7 +94,7 @@
           "id": "a",
           "text": "Titta på hur andra gör, till exempel om de står vid ståndet.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Titta på hur andra gör, eftersom man ofta förväntas äta vid ståndet."
         },
         {
           "id": "b",
@@ -121,19 +121,19 @@
           "id": "a",
           "text": "Frågar i butiken eller tar med mig förpackningen tills jag hittar ett kärl.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Papperskorgar är sällsynta, så fråga i butiken eller ta med förpackningen tills du hittar ett kärl."
         },
         {
           "id": "b",
           "text": "Lägger den på marken.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Skräp ska tas med eller lämnas i ett sopkärl, inte läggas på marken."
         },
         {
           "id": "c",
           "text": "Lämnar den på ett tempelområde.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Skräp ska tas med eller lämnas i ett sopkärl, inte lämnas var som helst."
         }
       ]
     }
@@ -153,22 +153,22 @@
           "id": "a",
           "text": "En närbutik",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Konbini är närbutiker som är öppna långa tider och finns i hela landet."
         },
         {
           "id": "b",
           "text": "En skola",
-          "feedback": "Fel."
+          "feedback": "Fel. Konbini är närbutiker där man köper färdig mat, kaffe och snacks."
         },
         {
           "id": "c",
           "text": "Ett tempel",
-          "feedback": "Fel."
+          "feedback": "Fel. Konbini är närbutiker och inte en plats för religiösa ceremonier."
         },
         {
           "id": "d",
           "text": "En park",
-          "feedback": "Fel."
+          "feedback": "Fel. Konbini är närbutiker, inte en park."
         }
       ]
     },
@@ -180,7 +180,7 @@
           "id": "a",
           "text": "Itadakimasu",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Itadakimasu säger man före maten och gochisōsama deshita efter."
         },
         {
           "id": "b",
@@ -207,22 +207,22 @@
           "id": "a",
           "text": "En festival",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Matsuri är festivaler, där man ofta köper mat vid små stånd."
         },
         {
           "id": "b",
           "text": "En typ av tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Matsuri är festivaler, inte ett tåg."
         },
         {
           "id": "c",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. Matsuri är festivaler där det finns gatumat, men ordet är inte själva maträtten."
         },
         {
           "id": "d",
           "text": "En skola",
-          "feedback": "Fel."
+          "feedback": "Fel. Matsuri är festivaler, inte en skola."
         }
       ]
     },
@@ -234,22 +234,22 @@
           "id": "a",
           "text": "Ta med det eller lämna det i ett sopkärl i butiken.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Papperskorgar är sällsynta, så ta med skräpet eller lämna det i ett sopkärl i butiken eller vid ståndet."
         },
         {
           "id": "b",
           "text": "Lägga det på marken",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet råder dig att ta med skräpet eller lämna det i ett kärl."
         },
         {
           "id": "c",
           "text": "Gömma det",
-          "feedback": "Fel."
+          "feedback": "Fel. Skräp ska tas med eller lämnas i ett sopkärl, inte gömmas."
         },
         {
           "id": "d",
           "text": "Kasta det i havet",
-          "feedback": "Fel."
+          "feedback": "Fel. Skräp ska tas med eller lämnas i ett sopkärl."
         }
       ]
     },
@@ -261,22 +261,22 @@
           "id": "a",
           "text": "Bläckfiskbollar",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Takoyaki är en av de typiska gatumaträtterna, och den görs på bläckfisk."
         },
         {
           "id": "b",
           "text": "En sorts te",
-          "feedback": "Fel."
+          "feedback": "Fel. Takoyaki är en gatumat, inte en dryck."
         },
         {
           "id": "c",
           "text": "Ett tecken",
-          "feedback": "Fel."
+          "feedback": "Fel. Takoyaki är en gatumat, inte ett skrivtecken."
         },
         {
           "id": "d",
           "text": "Ris",
-          "feedback": "Fel."
+          "feedback": "Fel. Takoyaki är en gatumat i form av bollar, inte vanligt ris."
         }
       ]
     }

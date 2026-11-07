@@ -58,19 +58,19 @@
           "id": "a",
           "text": "Tar med det tills jag hittar ett kärl eller når hotellet.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Resenärer rekommenderas ta med skräpet tills de når hotellet eller ett sopkärl."
         },
         {
           "id": "b",
           "text": "Lägger det på marken.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Skräp ska inte lämnas på marken, utan tas med tills du hittar ett sopkärl."
         },
         {
           "id": "c",
           "text": "Slänger det i ett dike.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Skräp ska inte slängas i naturen, utan tas med tills du hittar ett sopkärl."
         }
       ]
     },
@@ -84,19 +84,19 @@
           "id": "a",
           "text": "Det förväntas normalt inte.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Dricks förväntas inte i Japan och kan upplevas som obehagligt."
         },
         {
           "id": "b",
           "text": "Man måste ge 20 procent.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Dricks förväntas inte alls i Japan, så ingen procentsats gäller."
         },
         {
           "id": "c",
           "text": "Man ska ge den i hemlighet.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Dricks förväntas inte i Japan, varken öppet eller i hemlighet."
         }
       ]
     },
@@ -117,13 +117,13 @@
           "id": "b",
           "text": "Kastar pengarna.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Brickan är till för att lägga pengar eller kort på, inte för att kasta dem."
         },
         {
           "id": "c",
           "text": "Går utan att betala.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Du betalar vid kassan, och brickan är till för att lägga pengarna eller kortet på."
         }
       ]
     }
@@ -143,17 +143,17 @@
           "id": "a",
           "text": "Flera faktorer, bland annat att många togs bort efter 1995 och en känsla av eget ansvar.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet nämner flera orsaker, bland annat att många korgar togs bort efter attacken 1995 och att många tar med skräpet hem."
         },
         {
           "id": "b",
           "text": "De har aldrig funnits.",
-          "feedback": "Fel."
+          "feedback": "Fel. Papperskorgar har funnits, men många togs bort efter attacken 1995."
         },
         {
           "id": "c",
           "text": "De är förbjudna.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger inte att korgarna är förbjudna, och några finns vid parker, automater och i butiker."
         },
         {
           "id": "d",
@@ -170,22 +170,22 @@
           "id": "a",
           "text": "Tar med det till hotellet eller ett sopkärl.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Resenärer rekommenderas ta med skräpet tills de når hotellet eller ett sopkärl."
         },
         {
           "id": "b",
           "text": "Lämnar det på marken.",
-          "feedback": "Fel."
+          "feedback": "Fel. Skräp ska inte lämnas på marken, utan tas med tills du hittar ett sopkärl."
         },
         {
           "id": "c",
           "text": "Gömmer det.",
-          "feedback": "Fel."
+          "feedback": "Fel. Att gömma skräp är inte lösningen, utan att ta med det till hotellet eller ett sopkärl."
         },
         {
           "id": "d",
           "text": "Kastar det i ett vattendrag.",
-          "feedback": "Fel."
+          "feedback": "Fel. Skräp ska inte kastas i naturen, utan tas med till hotellet eller ett sopkärl."
         }
       ]
     },
@@ -197,22 +197,22 @@
           "id": "a",
           "text": "Normalt inte förväntad.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Dricks förväntas normalt inte i Japan."
         },
         {
           "id": "b",
           "text": "Obligatorisk.",
-          "feedback": "Fel."
+          "feedback": "Fel. Dricks är inte obligatorisk, utan förväntas normalt inte alls."
         },
         {
           "id": "c",
           "text": "Ska vara 20 procent.",
-          "feedback": "Fel."
+          "feedback": "Fel. Ingen procentsats gäller, eftersom dricks normalt inte förväntas."
         },
         {
           "id": "d",
           "text": "Ges i hemlighet.",
-          "feedback": "Fel."
+          "feedback": "Fel. Dricks förväntas inte i Japan och kan upplevas som obehagligt, även om den ges diskret."
         }
       ]
     },
@@ -224,22 +224,22 @@
           "id": "a",
           "text": "Pengar och kort läggs där.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Brickan är till för att du ska lägga pengar eller kort där i stället för att räcka dem direkt."
         },
         {
           "id": "b",
           "text": "Mat.",
-          "feedback": "Fel."
+          "feedback": "Fel. Brickan vid kassan används för pengar och kort, inte för mat."
         },
         {
           "id": "c",
           "text": "Skor.",
-          "feedback": "Fel."
+          "feedback": "Fel. Brickan vid kassan används för pengar och kort, inte för skor."
         },
         {
           "id": "d",
           "text": "Kartor.",
-          "feedback": "Fel."
+          "feedback": "Fel. Brickan vid kassan används för pengar och kort, inte för kartor."
         }
       ]
     },
@@ -251,12 +251,12 @@
           "id": "a",
           "text": "Efter platsen: tyst på tåg och i tempel.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ljudnivån anpassas efter platsen, med tystnad på tåg och i tempel."
         },
         {
           "id": "b",
           "text": "Alltid högt.",
-          "feedback": "Fel."
+          "feedback": "Fel. På tåg och i tempel och på museer förväntas det vara tyst och lugnt."
         },
         {
           "id": "c",
@@ -266,7 +266,7 @@
         {
           "id": "d",
           "text": "Ingen skillnad.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet betonar att ljudnivån ska anpassas efter platsen."
         }
       ]
     }

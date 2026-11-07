@@ -91,7 +91,7 @@
           "id": "c",
           "text": "Hushåll med tio personer",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver hushållen som mindre, och tio personer nämns inte."
         }
       ]
     },
@@ -111,13 +111,13 @@
           "id": "b",
           "text": "Paret måste ha olika efternamn.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Lagen kräver att gifta par har samma efternamn."
         },
         {
           "id": "c",
           "text": "Det finns inga regler.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Lagen kräver att gifta par har samma efternamn."
         }
       ]
     },
@@ -169,17 +169,17 @@
         {
           "id": "b",
           "text": "Cirka 5 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Enpersonshushållen var 38,0 procent 2020, långt över 5 procent."
         },
         {
           "id": "c",
           "text": "Cirka 80 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Enpersonshushållen var 38,0 procent 2020, inte cirka 80 procent."
         },
         {
           "id": "d",
           "text": "Cirka 50 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Enpersonshushållen var 38,0 procent 2020, inte cirka 50 procent."
         }
       ]
     },
@@ -218,22 +218,22 @@
           "id": "a",
           "text": "Ett gemensamt efternamn",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Lagen kräver att gifta par har samma efternamn."
         },
         {
           "id": "b",
           "text": "Olika efternamn",
-          "feedback": "Fel."
+          "feedback": "Fel. Lagen kräver samma efternamn, inte olika."
         },
         {
           "id": "c",
           "text": "Dubbla efternamn",
-          "feedback": "Fel."
+          "feedback": "Fel. Lagen kräver att paret har samma efternamn."
         },
         {
           "id": "d",
           "text": "Inga namn",
-          "feedback": "Fel."
+          "feedback": "Fel. Lagen kräver att gifta par har samma efternamn."
         }
       ]
     },
@@ -245,22 +245,22 @@
           "id": "a",
           "text": "Familjerna varierar och förändras.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet visar variation i familjeformer och att de förändras över tid."
         },
         {
           "id": "b",
           "text": "Alla familjer ser likadana ut.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet betonar att ord som den japanska familjen döljer variationen."
         },
         {
           "id": "c",
           "text": "Familjer finns inte längre.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver förändrade familjeformer, inte att familjer försvinner."
         },
         {
           "id": "d",
           "text": "Bara tre generationer bor tillsammans.",
-          "feedback": "Fel."
+          "feedback": "Fel. Hushåll med flera generationer är en minoritet."
         }
       ]
     },
@@ -272,22 +272,22 @@
           "id": "a",
           "text": "Par utan barn och enpersonshushåll",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Fler par saknar barn och enpersonshushållen är den snabbast växande gruppen."
         },
         {
           "id": "b",
           "text": "Hushåll med tio personer",
-          "feedback": "Fel."
+          "feedback": "Fel. Hushållen har blivit mindre, och tio personer nämns inte."
         },
         {
           "id": "c",
           "text": "Ingen grupp",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver att enpersonshushåll och par utan barn har blivit vanligare."
         },
         {
           "id": "d",
           "text": "Bara barnfamiljer",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver att hushållen blivit mindre och att fler par saknar barn."
         }
       ]
     }

@@ -86,19 +86,19 @@
           "id": "a",
           "text": "En reseplanerare som NAVITIME eller Jorudan.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Japan Travel by NAVITIME och Japan Transit Planner är vanliga reseplanerare med engelska gränssnitt."
         },
         {
           "id": "b",
           "text": "Bara gissning.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet rekommenderar en reseplanerare för att kontrollera plattform, tågtyp, avgångstid och byten."
         },
         {
           "id": "c",
           "text": "Bara ett lexikon.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Ett lexikon hjälper inte med tider och byten; kapitlet nämner reseplanerare."
         }
       ]
     },
@@ -112,19 +112,19 @@
           "id": "a",
           "text": "Stanna lugnt, kontakta gruppen och gå till en överenskommen mötesplats.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet föreslår att du stannar lugnt, kontaktar gruppen och går till en tydlig mötesplats."
         },
         {
           "id": "b",
           "text": "Gå vidare utan att säga något.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att du ska kontakta gruppen om du kommer bort."
         },
         {
           "id": "c",
           "text": "Ge upp.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet ger flera steg, bland annat att kontakta gruppen och fråga personal eller ett koban."
         }
       ]
     },
@@ -139,19 +139,19 @@
           "id": "a",
           "text": "Kontrollerar skyltarna och planeraren, byter vid nästa station och lägger in marginal.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet rekommenderar att du läser skyltar, använder reseplaneraren och har en reservplan."
         },
         {
           "id": "b",
           "text": "Hoppar av mitt i färden.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår att du kontrollerar skyltarna och planerar om i stället för att ta onödiga risker."
         },
         {
           "id": "c",
           "text": "Går med strömmen.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att du ska gå åt sidan och kontrollera, inte bara följa flödet."
         }
       ]
     }
@@ -171,22 +171,22 @@
           "id": "a",
           "text": "NAVITIME eller Jorudan",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Japan Travel by NAVITIME och Japan Transit Planner (Jorudan) är reseplanerare för kollektivtrafik."
         },
         {
           "id": "b",
           "text": "En spelapp",
-          "feedback": "Fel."
+          "feedback": "Fel. En spelapp hjälper inte med tider och byten; kapitlet nämner NAVITIME och Jorudan."
         },
         {
           "id": "c",
           "text": "En musikapp",
-          "feedback": "Fel."
+          "feedback": "Fel. En musikapp visar inte kollektivtrafik; kapitlet nämner NAVITIME och Jorudan."
         },
         {
           "id": "d",
           "text": "En kamera",
-          "feedback": "Fel."
+          "feedback": "Fel. En kamera är inte en reseplanerare; kapitlet nämner NAVITIME och Jorudan."
         }
       ]
     },
@@ -225,22 +225,22 @@
           "id": "a",
           "text": "Norra utgången",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. 北口 betyder norra utgången."
         },
         {
           "id": "b",
           "text": "Perrong",
-          "feedback": "Fel."
+          "feedback": "Fel. 北口 betyder norra utgången, inte perrong."
         },
         {
           "id": "c",
           "text": "Tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. 北口 betyder norra utgången, inte tåg."
         },
         {
           "id": "d",
           "text": "Kvinna",
-          "feedback": "Fel."
+          "feedback": "Fel. 北口 betyder norra utgången."
         }
       ]
     },
@@ -252,22 +252,22 @@
           "id": "a",
           "text": "En polislåda",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ett koban är en polislåda som kan hjälpa dig med vägbeskrivning."
         },
         {
           "id": "b",
           "text": "En butik",
-          "feedback": "Fel."
+          "feedback": "Fel. Ett koban är en polislåda, inte en butik."
         },
         {
           "id": "c",
           "text": "Ett tempel",
-          "feedback": "Fel."
+          "feedback": "Fel. Ett koban är en polislåda, inte ett tempel."
         },
         {
           "id": "d",
           "text": "En skola",
-          "feedback": "Fel."
+          "feedback": "Fel. Ett koban är en polislåda, inte en skola."
         }
       ]
     },
@@ -284,17 +284,17 @@
         {
           "id": "b",
           "text": "Ingen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att du bör räkna med minst tio extra minuter i en stor station."
         },
         {
           "id": "c",
           "text": "En timme alltid",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår minst tio extra minuter, mer med bagage, inte alltid en timme."
         },
         {
           "id": "d",
           "text": "Tre sekunder",
-          "feedback": "Fel."
+          "feedback": "Fel. Tre sekunder räcker inte; kapitlet säger minst tio extra minuter."
         }
       ]
     }

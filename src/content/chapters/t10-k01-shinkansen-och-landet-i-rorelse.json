@@ -89,19 +89,19 @@
           "id": "a",
           "text": "1964",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Tokaido-shinkansen mellan Tokyo och Osaka öppnades 1964, i samband med olympiska spelen."
         },
         {
           "id": "b",
           "text": "1868",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Shinkansen byggdes ut under 1900-talet, inte 1868; den första linjen öppnades 1964."
         },
         {
           "id": "c",
           "text": "2000",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. År 2000 är för sent; den första linjen öppnades redan 1964."
         }
       ]
     },
@@ -115,19 +115,19 @@
           "id": "a",
           "text": "Mer än en minut efter tidtabellen",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ett tåg räknas som försenat först om det är mer än en minut efter tidtabellen."
         },
         {
           "id": "b",
           "text": "Mer än en timme",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Gränsen är betydligt strängare än så: mer än en minut efter tidtabellen."
         },
         {
           "id": "c",
           "text": "Minst en dag",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Ett tåg räknas som försenat redan när det är mer än en minut efter tidtabellen."
         }
       ]
     },
@@ -142,7 +142,7 @@
           "id": "a",
           "text": "Lägga in mer marginal och en plan B.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Punktligheten gäller tågen, men resan innehåller också promenader, köer och byten, så marginal och plan B är klokt."
         },
         {
           "id": "b",
@@ -154,7 +154,7 @@
           "id": "c",
           "text": "Hoppa över bytet.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Att hoppa över bytet löser inget; kapitlet rekommenderar extra tid och en plan B."
         }
       ]
     }
@@ -174,22 +174,22 @@
           "id": "a",
           "text": "Ny stamlinje",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Shinkansen betyder ”ny stamlinje” och är Japans höghastighetståg."
         },
         {
           "id": "b",
           "text": "Snabb vind",
-          "feedback": "Fel."
+          "feedback": "Fel. Shinkansen betyder ”ny stamlinje”."
         },
         {
           "id": "c",
           "text": "Röd port",
-          "feedback": "Fel."
+          "feedback": "Fel. Shinkansen betyder ”ny stamlinje”, inte något om portar."
         },
         {
           "id": "d",
           "text": "Stor båt",
-          "feedback": "Fel."
+          "feedback": "Fel. Shinkansen betyder ”ny stamlinje”, inte något om båtar."
         }
       ]
     },
@@ -201,22 +201,22 @@
           "id": "a",
           "text": "Tokyo–Osaka (Tokaido)",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Tokaido-shinkansen mellan Tokyo och Osaka var den första linjen."
         },
         {
           "id": "b",
           "text": "Sapporo–Naha",
-          "feedback": "Fel."
+          "feedback": "Fel. Den första linjen gick mellan Tokyo och Osaka."
         },
         {
           "id": "c",
           "text": "Kyoto–Nara",
-          "feedback": "Fel."
+          "feedback": "Fel. Den första linjen gick mellan Tokyo och Osaka."
         },
         {
           "id": "d",
           "text": "Hiroshima–Kobe",
-          "feedback": "Fel."
+          "feedback": "Fel. Den första linjen gick mellan Tokyo och Osaka."
         }
       ]
     },
@@ -228,22 +228,22 @@
           "id": "a",
           "text": "Egna spår, rutiner och personal",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Egna spår, tränad personal och tydliga rutiner bidrar till punktligheten."
         },
         {
           "id": "b",
           "text": "Slump",
-          "feedback": "Fel."
+          "feedback": "Fel. Punktligheten bygger på rutiner, personal och egna spår, inte på slump."
         },
         {
           "id": "c",
           "text": "Inga passagerare",
-          "feedback": "Fel."
+          "feedback": "Fel. Passagerare bidrar snarare genom att köa och stiga på och av snabbt."
         },
         {
           "id": "d",
           "text": "Aldrig något väder",
-          "feedback": "Fel."
+          "feedback": "Fel. Väder kan försena tåg; punktligheten bygger på rutiner och egna spår."
         }
       ]
     },
@@ -255,22 +255,22 @@
           "id": "a",
           "text": "Jordbävningar, tyfoner och snö",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Jordbävningar, tyfoner, snö och olyckor kan stoppa eller försena tåg."
         },
         {
           "id": "b",
           "text": "Inget",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner flera störningar, till exempel jordbävningar, tyfoner och snö."
         },
         {
           "id": "c",
           "text": "Bara sommaren",
-          "feedback": "Fel."
+          "feedback": "Fel. Störningar kan komma när som helst på året, till exempel av tyfoner och snö."
         },
         {
           "id": "d",
           "text": "Bara fotboll",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner jordbävningar, tyfoner, snö och olyckor, inte fotboll."
         }
       ]
     },
@@ -282,22 +282,22 @@
           "id": "a",
           "text": "Lägga in marginal och en plan B",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Något kan avvika, så extra tid mellan byten och en plan B är klokt."
         },
         {
           "id": "b",
           "text": "Planera varje minut",
-          "feedback": "Fel."
+          "feedback": "Fel. Att planera varje minut lämnar ingen marginal om något avviker."
         },
         {
           "id": "c",
           "text": "Hoppa över bokning",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver hur biljetter fungerar och säger inte att man ska hoppa över bokning."
         },
         {
           "id": "d",
           "text": "Gissa",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet förespråkar planering med marginal och en plan B, inte gissningar."
         }
       ]
     }

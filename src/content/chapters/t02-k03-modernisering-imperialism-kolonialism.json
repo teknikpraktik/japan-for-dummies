@@ -234,12 +234,12 @@
         {
           "id": "c",
           "text": "Singapore",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner Taiwan som området Japan fick, inte Singapore."
         },
         {
           "id": "d",
           "text": "Hawaii",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner Taiwan som området Japan fick, inte Hawaii."
         }
       ]
     },
@@ -266,7 +266,7 @@
         {
           "id": "d",
           "text": "1600",
-          "feedback": "Fel."
+          "feedback": "Fel. Korea annekterades 1910."
         }
       ]
     },
@@ -283,17 +283,17 @@
         {
           "id": "b",
           "text": "Som en demokrati",
-          "feedback": "Fel."
+          "feedback": "Fel. Manchukuo beskrivs oftast som en japanskstyrd lydstat, inte en demokrati."
         },
         {
           "id": "c",
           "text": "Som en del av Sverige",
-          "feedback": "Fel."
+          "feedback": "Fel. Manchukuo låg i nordöstra Kina, inte i Sverige."
         },
         {
           "id": "d",
           "text": "Som en kinesisk provins utan japansk kontroll",
-          "feedback": "Fel."
+          "feedback": "Fel. Manchukuo inrättades av Japan efter ockupationen av Manchuriet och var japanskstyrd."
         }
       ]
     },
@@ -320,7 +320,7 @@
         {
           "id": "d",
           "text": "För att det inte hände något.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver händelser som länderna minns och tolkar olika."
         }
       ]
     },
@@ -337,17 +337,17 @@
         {
           "id": "b",
           "text": "Att bara lita på den första källan.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att historiker försöker skilja på fakta, tolkning och värdering, inte lita på en enda källa."
         },
         {
           "id": "c",
           "text": "Att aldrig tolka något.",
-          "feedback": "Fel."
+          "feedback": "Fel. Historiker tolkar, men försöker skilja tolkning från fakta och värdering."
         },
         {
           "id": "d",
           "text": "Att ta bort alla datum.",
-          "feedback": "Fel."
+          "feedback": "Fel. Datum hör till fakta, som man skiljer från tolkning och värdering."
         }
       ]
     }

@@ -197,7 +197,7 @@
           "id": "a",
           "text": "Premiärministern",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Den verkliga makten ligger hos regeringen med premiärministern i spetsen."
         },
         {
           "id": "b",
@@ -212,7 +212,7 @@
         {
           "id": "d",
           "text": "Guvernören i Tokyo",
-          "feedback": "Fel."
+          "feedback": "Fel. Guvernörer leder prefekturer, inte landets regering."
         }
       ]
     },
@@ -234,12 +234,12 @@
         {
           "id": "c",
           "text": "Tre",
-          "feedback": "Fel."
+          "feedback": "Fel. Japans parlament, Kokkai, har två kamrar: representanthuset och rådmannahuset."
         },
         {
           "id": "d",
           "text": "Fem",
-          "feedback": "Fel."
+          "feedback": "Fel. Japans parlament, Kokkai, har två kamrar: representanthuset och rådmannahuset."
         }
       ]
     },
@@ -256,7 +256,7 @@
         {
           "id": "b",
           "text": "16 år",
-          "feedback": "Fel."
+          "feedback": "Fel. Rösträttsåldern är 18 år i Japan, i dag som i Sverige."
         },
         {
           "id": "c",
@@ -278,22 +278,22 @@
           "id": "a",
           "text": "47",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Japan är indelat i 47 prefekturer."
         },
         {
           "id": "b",
           "text": "12",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan är indelat i 47 prefekturer."
         },
         {
           "id": "c",
           "text": "100",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan är indelat i 47 prefekturer."
         },
         {
           "id": "d",
           "text": "5",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan är indelat i 47 prefekturer."
         }
       ]
     },
@@ -310,7 +310,7 @@
         {
           "id": "b",
           "text": "Båda har en shogun.",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan har ingen shogun; kejsaren är en symbol för staten."
         },
         {
           "id": "c",
@@ -320,7 +320,7 @@
         {
           "id": "d",
           "text": "Båda har förbjudit val.",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan är en demokrati där man håller parlamentsval."
         }
       ]
     }

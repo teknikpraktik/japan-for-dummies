@@ -89,13 +89,13 @@
           "id": "b",
           "text": "Tre soppor och en rätt",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Ichiju sansai betyder ”en soppa och tre rätter”, inte tre soppor."
         },
         {
           "id": "c",
           "text": "Sushi och te",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Ichiju sansai är en måltidsstruktur med soppa och rätter, inte sushi och te."
         }
       ]
     },
@@ -109,19 +109,19 @@
           "id": "a",
           "text": "En buljong, ofta på kombu och katsuobushi.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Dashi är en buljong som ofta görs på kombu (tång) och katsuobushi (torkad bonito)."
         },
         {
           "id": "b",
           "text": "Ett slags ris.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Dashi är en buljong, inte ris."
         },
         {
           "id": "c",
           "text": "En typ av tofu.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Dashi är en buljong, inte tofu."
         }
       ]
     },
@@ -168,22 +168,22 @@
           "id": "a",
           "text": "Ris",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kokt ris är basen i den traditionella måltiden."
         },
         {
           "id": "b",
           "text": "Pasta",
-          "feedback": "Fel."
+          "feedback": "Fel. Basen i den traditionella måltiden är ris, inte pasta."
         },
         {
           "id": "c",
           "text": "Potatis",
-          "feedback": "Fel."
+          "feedback": "Fel. Basen i den traditionella måltiden är ris, inte potatis."
         },
         {
           "id": "d",
           "text": "Bröd",
-          "feedback": "Fel."
+          "feedback": "Fel. Basen i den traditionella måltiden är ris, inte bröd."
         }
       ]
     },
@@ -195,22 +195,22 @@
           "id": "a",
           "text": "Fermenterad sojabönspasta",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Miso är en fermenterad sojabönspasta."
         },
         {
           "id": "b",
           "text": "Fisk",
-          "feedback": "Fel."
+          "feedback": "Fel. Miso görs på sojabönor, inte fisk."
         },
         {
           "id": "c",
           "text": "Ett tecken",
-          "feedback": "Fel."
+          "feedback": "Fel. Miso är en ingrediens gjord på sojabönor, inte ett tecken."
         },
         {
           "id": "d",
           "text": "Te",
-          "feedback": "Fel."
+          "feedback": "Fel. Miso är en fermenterad sojabönspasta, inte te."
         }
       ]
     },
@@ -222,22 +222,22 @@
           "id": "a",
           "text": "En grundsmak som ger fyllighet",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Umami är den femte grundsmaken och ger fyllighet."
         },
         {
           "id": "b",
           "text": "En sorts ris",
-          "feedback": "Fel."
+          "feedback": "Fel. Umami är en smak, inte en sorts ris."
         },
         {
           "id": "c",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. Umami är en grundsmak, inte en maträtt."
         },
         {
           "id": "d",
           "text": "Ett kök",
-          "feedback": "Fel."
+          "feedback": "Fel. Umami är en grundsmak, inte ett kök."
         }
       ]
     },
@@ -249,22 +249,22 @@
           "id": "a",
           "text": "Kombu och katsuobushi",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Dashi görs ofta på kombu (tång) och katsuobushi (torkad bonito)."
         },
         {
           "id": "b",
           "text": "Mjölk och smör",
-          "feedback": "Fel."
+          "feedback": "Fel. Dashi görs ofta på kombu och katsuobushi, inte mejeriprodukter."
         },
         {
           "id": "c",
           "text": "Kaffe",
-          "feedback": "Fel."
+          "feedback": "Fel. Dashi görs ofta på kombu och katsuobushi, inte kaffe."
         },
         {
           "id": "d",
           "text": "Äpplen",
-          "feedback": "Fel."
+          "feedback": "Fel. Dashi görs ofta på kombu och katsuobushi, inte äpplen."
         }
       ]
     },
@@ -276,22 +276,22 @@
           "id": "a",
           "text": "Den traditionella japanska matkulturen (washoku)",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Unesco-listningen 2013 gällde den traditionella japanska matkulturen, washoku."
         },
         {
           "id": "b",
           "text": "Bara sushi",
-          "feedback": "Fel."
+          "feedback": "Fel. Listningen gällde matkulturen washoku, inte enskilda rätter som sushi."
         },
         {
           "id": "c",
           "text": "Bara tempura",
-          "feedback": "Fel."
+          "feedback": "Fel. Listningen gällde matkulturen washoku, inte enskilda rätter som tempura."
         },
         {
           "id": "d",
           "text": "Bara ramen",
-          "feedback": "Fel."
+          "feedback": "Fel. Listningen gällde matkulturen washoku, inte enskilda rätter som ramen."
         }
       ]
     }

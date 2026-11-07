@@ -82,7 +82,7 @@
           "id": "a",
           "text": "Den är oftast gjord på fiskdashi.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Misosoppa är oftast gjord på fiskdashi."
         },
         {
           "id": "b",
@@ -94,7 +94,7 @@
           "id": "c",
           "text": "Den är alltid vegetarisk.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Misosoppa görs oftast på fiskdashi och är därför inte alltid vegetarisk."
         }
       ]
     },
@@ -108,7 +108,7 @@
           "id": "a",
           "text": "Dashi o tsukawanaide kudasai.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Frasen betyder ”använd inte dashi, tack”."
         },
         {
           "id": "b",
@@ -135,7 +135,7 @@
           "id": "a",
           "text": "Visa ett förberett kort på japanska och be om bekräftelse innan du beställer.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Märkning saknas oftast på restauranger, så ett förberett kort på japanska är säkrast."
         },
         {
           "id": "b",
@@ -167,22 +167,22 @@
           "id": "a",
           "text": "Förbereda ett kort på japanska och prata med vårdgivaren före resan.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet råder dig att förbereda ett kort på japanska och prata med din vårdgivare före resan."
         },
         {
           "id": "b",
           "text": "Gissa.",
-          "feedback": "Fel."
+          "feedback": "Fel. Vid en allvarlig allergi ska du förbereda dig i stället för att gissa."
         },
         {
           "id": "c",
           "text": "Äta ändå.",
-          "feedback": "Fel."
+          "feedback": "Fel. Vid en allvarlig allergi ska du inte ta risken, utan förbereda ett kort på japanska och visa det."
         },
         {
           "id": "d",
           "text": "Ignorera.",
-          "feedback": "Fel."
+          "feedback": "Fel. En allvarlig allergi kräver förberedelse, bland annat ett kort på japanska och medicin enligt läkarens råd."
         }
       ]
     },
@@ -194,22 +194,22 @@
           "id": "a",
           "text": "I dashi",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Dashi görs oftast på fisk och finns i många rätter som ser vegetariska ut."
         },
         {
           "id": "b",
           "text": "I ris",
-          "feedback": "Fel."
+          "feedback": "Fel. Fisken finns oftast i dashin, inte i riset."
         },
         {
           "id": "c",
           "text": "I vatten",
-          "feedback": "Fel."
+          "feedback": "Fel. Fisken finns oftast i dashin, inte i vattnet."
         },
         {
           "id": "d",
           "text": "I te",
-          "feedback": "Fel."
+          "feedback": "Fel. Fisken finns oftast i dashin, inte i teet."
         }
       ]
     },
@@ -221,7 +221,7 @@
           "id": "a",
           "text": "Shōjin ryōri",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Shōjin ryōri är buddhistisk tempelmat som är helt vegetarisk."
         },
         {
           "id": "b",
@@ -248,22 +248,22 @@
           "id": "a",
           "text": "Det finns ofta ingen märkning, så du behöver fråga.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. På restauranger finns oftast ingen märkning, så du behöver fråga."
         },
         {
           "id": "b",
           "text": "Alla rätter är märkta.",
-          "feedback": "Fel."
+          "feedback": "Fel. På restauranger finns oftast ingen märkning, märkningen gäller förpackade livsmedel."
         },
         {
           "id": "c",
           "text": "Det är förbjudet.",
-          "feedback": "Fel."
+          "feedback": "Fel. Märkning är inte förbjuden, men den finns oftast bara på förpackade livsmedel."
         },
         {
           "id": "d",
           "text": "Det är alltid på engelska.",
-          "feedback": "Fel."
+          "feedback": "Fel. Personalen kanske inte talar engelska, och märkning saknas oftast."
         }
       ]
     },
@@ -275,12 +275,12 @@
           "id": "a",
           "text": "För att vegetarisk kan förstås som utan kött men inte utan fisk.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Vegetarisk uppfattas ofta som utan kött men inte nödvändigtvis utan fisk."
         },
         {
           "id": "b",
           "text": "För att dashi är dyrt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Skälet är att dashi ofta innehåller fisk, inte priset."
         },
         {
           "id": "c",
@@ -290,7 +290,7 @@
         {
           "id": "d",
           "text": "För att ingen vet vad det är.",
-          "feedback": "Fel."
+          "feedback": "Fel. Skälet är att ordet vegetarisk inte alltid betyder utan fisk, inte att ingen känner till dashi."
         }
       ]
     }

@@ -62,19 +62,19 @@
           "id": "a",
           "text": "Ungefär två tredjedelar",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet anger att ungefär två tredjedelar av Japans yta är skog."
         },
         {
           "id": "b",
           "text": "En tiondel",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Skogen täcker mycket mer än en tiondel, ungefär två tredjedelar av ytan."
         },
         {
           "id": "c",
           "text": "Nästan allt",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Skogen är stor men täcker inte nästan allt, utan ungefär två tredjedelar."
         }
       ]
     },
@@ -88,19 +88,19 @@
           "id": "a",
           "text": "Ceder och cypress",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ceder (sugi) och cypress (hinoki) är de trädslag som planterades i stor skala efter kriget."
         },
         {
           "id": "b",
           "text": "Bananer",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner ceder och cypress som de dominerande planterade trädslagen, inte bananer."
         },
         {
           "id": "c",
           "text": "Palmer",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner ceder och cypress som de dominerande planterade trädslagen, inte palmer."
         }
       ]
     },
@@ -115,7 +115,7 @@
           "id": "a",
           "text": "Var är den fångad, och hur?",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Att fråga var fisken är fångad och hur är just det kapitlet föreslår."
         },
         {
           "id": "b",
@@ -147,22 +147,22 @@
           "id": "a",
           "text": "Cirka 67 procent",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ungefär två tredjedelar av Japans yta, cirka 67 procent, är skog."
         },
         {
           "id": "b",
           "text": "Cirka 7 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Skogen täcker ungefär två tredjedelar av ytan, inte bara en liten del."
         },
         {
           "id": "c",
           "text": "Cirka 97 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Skogen täcker ungefär två tredjedelar av ytan, inte nästan hela landet."
         },
         {
           "id": "d",
           "text": "Ingen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver skogen som en mycket stor del av Japans yta."
         }
       ]
     },
@@ -174,22 +174,22 @@
           "id": "a",
           "text": "Ceder och cypress",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ceder (sugi) och cypress (hinoki) är de vanligaste planterade trädslagen."
         },
         {
           "id": "b",
           "text": "Palmer",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner ceder och cypress som de vanliga plantagträden, inte palmer."
         },
         {
           "id": "c",
           "text": "Kaktusar",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner ceder och cypress som de vanliga plantagträden, inte kaktusar."
         },
         {
           "id": "d",
           "text": "Banan",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner ceder och cypress som de vanliga plantagträden, inte banan."
         }
       ]
     },
@@ -201,22 +201,22 @@
           "id": "a",
           "text": "Åldrande landsbygd och övergivna skogar",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Landsbygden åldras och krymper, så många planterade skogar sköts dåligt eller överges."
         },
         {
           "id": "b",
           "text": "För många skogsarbetare",
-          "feedback": "Fel."
+          "feedback": "Fel. Problemet är snarare att landsbygden åldras och krymper, inte att det finns för många skogsarbetare."
         },
         {
           "id": "c",
           "text": "Ingen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver flera utmaningar, bland annat illa skötta och övergivna skogar."
         },
         {
           "id": "d",
           "text": "Att träd är för korta",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet tar inte upp trädens höjd som en utmaning, utan åldrande landsbygd och övergivna skogar."
         }
       ]
     },
@@ -228,22 +228,22 @@
           "id": "a",
           "text": "Överfiske och klimatförändringar",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Överfiske och klimatförändringar som flyttar fiskbestånd är utmaningar som kapitlet tar upp."
         },
         {
           "id": "b",
           "text": "För mycket is",
-          "feedback": "Fel."
+          "feedback": "Fel. Is nämns inte som en utmaning, utan överfiske och klimatförändringar."
         },
         {
           "id": "c",
           "text": "För många båtar alltid",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner färre fiskare och överfiske, inte att det alltid finns för många båtar."
         },
         {
           "id": "d",
           "text": "Inga",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver flera utmaningar för fisket, bland annat överfiske och klimatförändringar."
         }
       ]
     },
@@ -255,22 +255,22 @@
           "id": "a",
           "text": "Fråga var maten kommer ifrån.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet föreslår att du frågar var maten kommer ifrån och hur den fångats eller odlats."
         },
         {
           "id": "b",
           "text": "Ingenting",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet menar att du kan påverka genom att fråga var maten kommer ifrån."
         },
         {
           "id": "c",
           "text": "Gissa",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår att du frågar i stället för att gissa."
         },
         {
           "id": "d",
           "text": "Aldrig äta",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår att du frågar och är medveten om dina val, inte att du slutar äta."
         }
       ]
     }

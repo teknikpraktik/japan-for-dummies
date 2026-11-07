@@ -86,19 +86,19 @@
           "id": "a",
           "text": "Entrén där man tar av sig skorna.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Genkan är nivåskillnaden vid entrén där man tar av sig skorna."
         },
         {
           "id": "b",
           "text": "En typ av tatuering.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Genkan är en entré, inte en tatuering."
         },
         {
           "id": "c",
           "text": "Ett bad.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Genkan är en entré, inte ett bad."
         }
       ]
     },
@@ -118,13 +118,13 @@
           "id": "b",
           "text": "Man ska ha skor på.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Skorna tas av vid genkan, och tofflorna tas av före tatamin."
         },
         {
           "id": "c",
           "text": "Man ska ha två par tofflor.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Tofflorna tas av före tatamin, och man går i strumpor eller barfota."
         }
       ]
     },
@@ -171,22 +171,22 @@
           "id": "a",
           "text": "Vid genkan i hem och många värdshus och tempel",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Skorna tas av vid genkan i hem, och ofta även på ryokan och i tempel."
         },
         {
           "id": "b",
           "text": "Aldrig",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver att man ofta tar av sig skorna i hem, skolor, på ryokan och i många tempel."
         },
         {
           "id": "c",
           "text": "Bara på natten",
-          "feedback": "Fel."
+          "feedback": "Fel. Skorna tas av när man kommer in, inte bara på natten."
         },
         {
           "id": "d",
           "text": "Bara på tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner hem, skolor, ryokan och tempel, inte tåg."
         }
       ]
     },
@@ -198,22 +198,22 @@
           "id": "a",
           "text": "Tvättar sig noga vid duschplatsen.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Man tvättar sig noga vid duschplatserna före badet."
         },
         {
           "id": "b",
           "text": "Simmar",
-          "feedback": "Fel."
+          "feedback": "Fel. Man simmar inte i badet, utan sitter i bassängen."
         },
         {
           "id": "c",
           "text": "Fotograferar",
-          "feedback": "Fel."
+          "feedback": "Fel. Fotografering är något man ska undvika i badet."
         },
         {
           "id": "d",
           "text": "Tar med skorna",
-          "feedback": "Fel."
+          "feedback": "Fel. Skorna tas av vid entrén, och före badet tvättar man sig."
         }
       ]
     },
@@ -225,12 +225,12 @@
           "id": "a",
           "text": "Varje anläggning bestämmer, och många tillåter dem inte.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Det finns ingen nationell regel, och varje anläggning bestämmer själv."
         },
         {
           "id": "b",
           "text": "De är alltid tillåtna.",
-          "feedback": "Fel."
+          "feedback": "Fel. Drygt hälften av hotellen och värdshusen i en undersökning släppte inte in tatuerade i allmänna badutrymmen."
         },
         {
           "id": "c",
@@ -240,7 +240,7 @@
         {
           "id": "d",
           "text": "Man måste skriva sitt namn.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner inget sådant krav, utan att varje anläggning bestämmer."
         }
       ]
     },
@@ -252,22 +252,22 @@
           "id": "a",
           "text": "Tofflor som man byter till vid toaletten.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Toalettofflor är särskilda tofflor man byter till vid toalettdörren."
         },
         {
           "id": "b",
           "text": "Tofflor för bad.",
-          "feedback": "Fel."
+          "feedback": "Fel. Toalettofflor används vid toaletten, inte vid bad."
         },
         {
           "id": "c",
           "text": "Skor för tempel.",
-          "feedback": "Fel."
+          "feedback": "Fel. Toalettofflor används vid toaletten, inte som skor för tempel."
         },
         {
           "id": "d",
           "text": "En maträtt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Toalettofflor är tofflor, inte en maträtt."
         }
       ]
     },
@@ -279,12 +279,12 @@
           "id": "a",
           "text": "Tittar på vad andra gör eller frågar vänligt.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet råder dig att titta på vad värden gör eller fråga vänligt."
         },
         {
           "id": "b",
           "text": "Gissar.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet råder dig att titta på andra eller fråga i stället för att gissa."
         },
         {
           "id": "c",
@@ -294,7 +294,7 @@
         {
           "id": "d",
           "text": "Låtsas veta.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet råder dig att fråga i stället för att låtsas veta."
         }
       ]
     }

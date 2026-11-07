@@ -99,19 +99,19 @@
           "id": "a",
           "text": "Att titta på körsbärsblom",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Hanami är att titta på körsbärsblom."
         },
         {
           "id": "b",
           "text": "Ett bad",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Hanami är att titta på körsbärsblom, inte ett bad."
         },
         {
           "id": "c",
           "text": "En skolklubb",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Hanami är att titta på körsbärsblom, inte en skolklubb."
         }
       ]
     },
@@ -125,19 +125,19 @@
           "id": "a",
           "text": "En festival, ofta knuten till en helgedom eller ett tempel.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En matsuri är en lokal fest, ofta knuten till en helgedom eller ett tempel."
         },
         {
           "id": "b",
           "text": "En matrutt.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Matsuri betyder festival eller högtid, inte en maträtt."
         },
         {
           "id": "c",
           "text": "En port.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Matsuri betyder festival eller högtid, inte en port."
         }
       ]
     },
@@ -184,22 +184,22 @@
           "id": "a",
           "text": "Obon",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Obon hedrar de döda, med lyktor och dans."
         },
         {
           "id": "b",
           "text": "Hanami",
-          "feedback": "Fel."
+          "feedback": "Fel. Hanami är att titta på körsbärsblom."
         },
         {
           "id": "c",
           "text": "Tanabata",
-          "feedback": "Fel."
+          "feedback": "Fel. Tanabata är en stjärnfestival där man hänger önskningar på bambu."
         },
         {
           "id": "d",
           "text": "Shichi-go-san",
-          "feedback": "Fel."
+          "feedback": "Fel. Vid Shichi-go-san välsignas barn av vissa åldrar på en helgedom."
         }
       ]
     },
@@ -211,22 +211,22 @@
           "id": "a",
           "text": "En bärbar helgedom",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Mikoshi är en bärbar helgedom som bärs i processioner under en matsuri."
         },
         {
           "id": "b",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. Mikoshi är en bärbar helgedom, inte en maträtt."
         },
         {
           "id": "c",
           "text": "Ett tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Mikoshi är en bärbar helgedom, inte ett tåg."
         },
         {
           "id": "d",
           "text": "En skola",
-          "feedback": "Fel."
+          "feedback": "Fel. Mikoshi är en bärbar helgedom, inte en skola."
         }
       ]
     },
@@ -238,12 +238,12 @@
           "id": "a",
           "text": "15 november",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Shichi-go-san firas den 15 november."
         },
         {
           "id": "b",
           "text": "1 januari",
-          "feedback": "Fel."
+          "feedback": "Fel. Nyår firas i januari; Shichi-go-san firas den 15 november."
         },
         {
           "id": "c",
@@ -253,7 +253,7 @@
         {
           "id": "d",
           "text": "Hela året",
-          "feedback": "Fel."
+          "feedback": "Fel. Shichi-go-san firas en bestämd dag, den 15 november, inte hela året."
         }
       ]
     },
@@ -265,22 +265,22 @@
           "id": "a",
           "text": "Datum och program kan variera.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Datum och program kan ändras, och festivaler kan vara inställda, flyttade eller kortare än väntat."
         },
         {
           "id": "b",
           "text": "De är alltid på samma datum.",
-          "feedback": "Fel."
+          "feedback": "Fel. Datum kan variera, så kontrollera dem lokalt."
         },
         {
           "id": "c",
           "text": "De finns inte.",
-          "feedback": "Fel."
+          "feedback": "Fel. Det finns tiotusentals matsuri varje år."
         },
         {
           "id": "d",
           "text": "De är alltid inställda.",
-          "feedback": "Fel."
+          "feedback": "Fel. Festivaler kan ibland vara inställda, men inte alltid."
         }
       ]
     },
@@ -292,22 +292,22 @@
           "id": "a",
           "text": "Att titta på höstlöv",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Momijigari är att titta på höstlöv, höstens motsvarighet till hanami."
         },
         {
           "id": "b",
           "text": "Att titta på snö",
-          "feedback": "Fel."
+          "feedback": "Fel. Momijigari är att titta på höstlöv."
         },
         {
           "id": "c",
           "text": "Ett tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Momijigari är att titta på höstlöv, inte ett tåg."
         },
         {
           "id": "d",
           "text": "Att äta ris",
-          "feedback": "Fel."
+          "feedback": "Fel. Momijigari är att titta på höstlöv, inte att äta ris."
         }
       ]
     }

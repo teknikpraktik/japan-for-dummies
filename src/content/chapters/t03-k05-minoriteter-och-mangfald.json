@@ -106,13 +106,13 @@
           "id": "b",
           "text": "Ainu förbjöds.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Lagen erkände ainu som urfolk och stöder deras kultur, den förbjöd dem inte."
         },
         {
           "id": "c",
           "text": "Hokkaido blev ett eget land.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Lagen handlar om att erkänna ainu som urfolk, inte om att Hokkaido blir ett eget land."
         }
       ]
     },
@@ -126,19 +126,19 @@
           "id": "a",
           "text": "Koreaner och deras ättlingar som bor i Japan, många sedan kolonialtiden.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Zainichi-koreaner är koreaner och deras ättlingar som bor i Japan, många sedan kolonialtiden."
         },
         {
           "id": "b",
           "text": "Japaner som bor i Korea.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Zainichi är koreaner som bor i Japan, inte japaner som bor i Korea."
         },
         {
           "id": "c",
           "text": "Turister i Seoul.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Zainichi-koreaner bor i Japan, många sedan kolonialtiden."
         }
       ]
     },
@@ -153,7 +153,7 @@
           "id": "a",
           "text": "Det finns minoriteter som ainu, människor från Okinawa, zainichi-koreaner och många utländska invånare. Det är mer varierat än bilden.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet nämner ainu, människor från Okinawa, zainichi-koreaner och utländska invånare, så Japan är mer varierat än bilden."
         },
         {
           "id": "b",
@@ -165,7 +165,7 @@
           "id": "c",
           "text": "Det finns bara en grupp.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver flera olika grupper."
         }
       ]
     }
@@ -185,22 +185,22 @@
           "id": "a",
           "text": "2019",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ainu erkändes som urfolk i lag 2019."
         },
         {
           "id": "b",
           "text": "1603",
-          "feedback": "Fel."
+          "feedback": "Fel. Erkännandet i lag skedde 2019, inte 1603."
         },
         {
           "id": "c",
           "text": "1868",
-          "feedback": "Fel."
+          "feedback": "Fel. Erkännandet i lag skedde 2019, inte 1868."
         },
         {
           "id": "d",
           "text": "1947",
-          "feedback": "Fel."
+          "feedback": "Fel. Erkännandet i lag skedde 2019, inte 1947."
         }
       ]
     },
@@ -212,22 +212,22 @@
           "id": "a",
           "text": "Framför allt på Hokkaido och i norr",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ainu har historiskt bott på Hokkaido och i norr."
         },
         {
           "id": "b",
           "text": "På Okinawa",
-          "feedback": "Fel."
+          "feedback": "Fel. Okinawa hör till Ryukyuöarna, medan ainu historiskt bott på Hokkaido och i norr."
         },
         {
           "id": "c",
           "text": "I Kyoto",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet anger Hokkaido och norr som ainus område, inte Kyoto."
         },
         {
           "id": "d",
           "text": "I Osaka",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet anger Hokkaido och norr som ainus område, inte Osaka."
         }
       ]
     },
@@ -244,17 +244,17 @@
         {
           "id": "b",
           "text": "En stad",
-          "feedback": "Fel."
+          "feedback": "Fel. Ryukyu var ett eget kungarike, inte en stad."
         },
         {
           "id": "c",
           "text": "Ett tempel",
-          "feedback": "Fel."
+          "feedback": "Fel. Ryukyu var ett eget kungarike, inte ett tempel."
         },
         {
           "id": "d",
           "text": "En shogun",
-          "feedback": "Fel."
+          "feedback": "Fel. Ryukyu var ett eget kungarike, inte en shogun."
         }
       ]
     },
@@ -266,22 +266,22 @@
           "id": "a",
           "text": "Cirka 4,1 miljoner",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Antalet utländska invånare var cirka 4,1 miljoner, ett rekord."
         },
         {
           "id": "b",
           "text": "Cirka 4 tusen",
-          "feedback": "Fel."
+          "feedback": "Fel. Antalet var cirka 4,1 miljoner, inte 4 tusen."
         },
         {
           "id": "c",
           "text": "Cirka 400 miljoner",
-          "feedback": "Fel."
+          "feedback": "Fel. Antalet var cirka 4,1 miljoner, drygt tre procent av befolkningen."
         },
         {
           "id": "d",
           "text": "Inga",
-          "feedback": "Fel."
+          "feedback": "Fel. Antalet utländska invånare har ökat kraftigt till cirka 4,1 miljoner."
         }
       ]
     },
@@ -293,22 +293,22 @@
           "id": "a",
           "text": "Tänk på vem du menar och undvik generaliseringar.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Uttrycket ”japaner” kan dölja variationen, så tänk på vem du menar."
         },
         {
           "id": "b",
           "text": "Anta att alla är likadana.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet betonar att människor har olika bakgrund."
         },
         {
           "id": "c",
           "text": "Fråga alla var de ”egentligen” kommer ifrån.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet råder dig att undvika frågor som antyder att någon inte hör hemma."
         },
         {
           "id": "d",
           "text": "Aldrig prata om människor.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår att du frågar hellre än antar och lyssnar på hur människor beskriver sig själva."
         }
       ]
     }

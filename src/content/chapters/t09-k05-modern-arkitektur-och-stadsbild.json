@@ -112,19 +112,19 @@
           "id": "a",
           "text": "Byggnad enligt den äldre jordbävningsstandarden (före 1981).",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kyu-taishin är den äldre standarden, och den nya standarden shin-taishin infördes med byggreglerna 1981."
         },
         {
           "id": "b",
           "text": "Byggnad från 2020-talet.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kyu-taishin betyder gammal standard och gäller äldre byggnader, inte nybyggen."
         },
         {
           "id": "c",
           "text": "Ett slags trädgård.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kyu-taishin gäller hur byggnader klarar jordbävningar och har inget med trädgårdar att göra."
         }
       ]
     },
@@ -138,19 +138,19 @@
           "id": "a",
           "text": "Små hus tätt intill varandra och smala gränder.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. När tomter delas upp blir det små hus tätt intill varandra och smala gränder."
         },
         {
           "id": "b",
           "text": "Stora trädgårdar.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Små tomter ger kompakta lösningar där varje kvadratmeter används, inte stora trädgårdar."
         },
         {
           "id": "c",
           "text": "Inga hus.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Husen finns kvar men är små och ligger tätt."
         }
       ]
     },
@@ -165,19 +165,19 @@
           "id": "a",
           "text": "Staden är byggd i lager över tid, med olika regler och ägandeförhållanden.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Stadsbilden är lager på lager från olika tider, vilket förklarar att en skyskrapa kan stå bredvid ett litet trähus."
         },
         {
           "id": "b",
           "text": "Det är ett misstag.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Blandningen är ingen slump eller ett misstag utan ett resultat av att staden vuxit över tid."
         },
         {
           "id": "c",
           "text": "Alla hus är lika gamla.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver byggnader från många olika tider, från efterkrigstidens betongblock till nutidens glas och stål."
         }
       ]
     }
@@ -197,22 +197,22 @@
           "id": "a",
           "text": "1981",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Den stora ändringen av byggreglerna kom 1981."
         },
         {
           "id": "b",
           "text": "1868",
-          "feedback": "Fel."
+          "feedback": "Fel. Ändringen av byggreglerna för jordbävning kom 1981."
         },
         {
           "id": "c",
           "text": "1603",
-          "feedback": "Fel."
+          "feedback": "Fel. Ändringen av byggreglerna för jordbävning kom 1981."
         },
         {
           "id": "d",
           "text": "2030",
-          "feedback": "Fel."
+          "feedback": "Fel. Ändringen av byggreglerna för jordbävning kom 1981, alltså långt tidigare."
         }
       ]
     },
@@ -224,22 +224,22 @@
           "id": "a",
           "text": "Shin-taishin",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Nyare byggnader kallas shin-taishin, ny standard."
         },
         {
           "id": "b",
           "text": "Kyu-taishin",
-          "feedback": "Fel."
+          "feedback": "Fel. Kyu-taishin är äldre byggnader enligt gammal standard."
         },
         {
           "id": "c",
           "text": "Genkan",
-          "feedback": "Fel."
+          "feedback": "Fel. Genkan är inget byggnadsbegrepp av det här slaget i kapitlet, och nya byggnader kallas shin-taishin."
         },
         {
           "id": "d",
           "text": "Torii",
-          "feedback": "Fel."
+          "feedback": "Fel. Nya byggnader kallas shin-taishin."
         }
       ]
     },
@@ -251,22 +251,22 @@
           "id": "a",
           "text": "Stora fordon har svårt att ta sig fram.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Smala gator gör att bilar och stora fordon har svårt att komma fram."
         },
         {
           "id": "b",
           "text": "De är för breda.",
-          "feedback": "Fel."
+          "feedback": "Fel. Problemet är att gatorna är smala, inte breda."
         },
         {
           "id": "c",
           "text": "De finns inte.",
-          "feedback": "Fel."
+          "feedback": "Fel. Smala gator finns och är vanliga i städerna."
         },
         {
           "id": "d",
           "text": "De är förbjudna.",
-          "feedback": "Fel."
+          "feedback": "Fel. Smala gator är inte förbjudna, men de gör det svårt för stora fordon att ta sig fram."
         }
       ]
     },
@@ -278,12 +278,12 @@
           "id": "a",
           "text": "Tomter är små och marken dyr.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Små tomter är en förklaring till att husen blir kompakta."
         },
         {
           "id": "b",
           "text": "Det är förbjudet att bygga stort.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet pekar på små tomter och inte på ett förbud mot att bygga stort."
         },
         {
           "id": "c",
@@ -293,7 +293,7 @@
         {
           "id": "d",
           "text": "Det finns ingen mark.",
-          "feedback": "Fel."
+          "feedback": "Fel. Det finns mark, men tomterna är ofta små och uppdelade."
         }
       ]
     },
@@ -305,22 +305,22 @@
           "id": "a",
           "text": "Att se vilka byggnader som hör till vilken tid.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Att läsa en stadsbild är att se vilka byggnader som hör ihop med vilken tid."
         },
         {
           "id": "b",
           "text": "Att räkna fönster",
-          "feedback": "Fel."
+          "feedback": "Fel. Att läsa en stadsbild handlar om att se vilken tid byggnaderna kommer från, inte om att räkna fönster."
         },
         {
           "id": "c",
           "text": "Att läsa skyltar högt",
-          "feedback": "Fel."
+          "feedback": "Fel. Att läsa en stadsbild handlar om byggnaderna, inte om skyltarna."
         },
         {
           "id": "d",
           "text": "Att ta bort byggnader",
-          "feedback": "Fel."
+          "feedback": "Fel. Att läsa en stadsbild är att tolka det som finns, inte att ta bort byggnader."
         }
       ]
     }

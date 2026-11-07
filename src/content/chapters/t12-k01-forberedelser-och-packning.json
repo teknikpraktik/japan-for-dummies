@@ -72,19 +72,19 @@
           "id": "a",
           "text": "Ha god marginal i giltighetstid och kontrollera reglerna.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Källorna skiljer sig åt om giltighetstiden, så god marginal och kontroll av reglerna är säkrast."
         },
         {
           "id": "b",
           "text": "Strunta i datumet.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Giltighetstiden ska kontrolleras i god tid, eftersom reglerna kan skilja sig åt."
         },
         {
           "id": "c",
           "text": "Anta att det alltid är ok.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Reglerna ändras och källorna skiljer sig åt, så de bör kontrolleras."
         }
       ]
     },
@@ -98,13 +98,13 @@
           "id": "a",
           "text": "Kontrollerar reglerna, tar med original och recept eller intyg.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Vissa läkemedel är begränsade i Japan, så reglerna ska kontrolleras och läkemedel tas med i originalförpackning med recept eller intyg."
         },
         {
           "id": "b",
           "text": "Tar med allt utan att kolla.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Vissa läkemedel är förbjudna eller begränsade i Japan, så reglerna måste kontrolleras först."
         },
         {
           "id": "c",
@@ -125,7 +125,7 @@
           "id": "a",
           "text": "Dokument, läkemedel, kläder efter väder och en regnjacka, och lämnar resten.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Dokument, läkemedel och kläder efter väder är viktigast, och du bär själv din väska."
         },
         {
           "id": "b",
@@ -162,17 +162,17 @@
         {
           "id": "b",
           "text": "Upp till 1 dag",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet anger upp till 90 dagar för korta turistvistelser."
         },
         {
           "id": "c",
           "text": "Upp till 5 år",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet anger upp till 90 dagar för korta turistvistelser."
         },
         {
           "id": "d",
           "text": "Ingen tid",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet anger att svenska medborgare kan resa in utan visum i upp till 90 dagar."
         }
       ]
     },
@@ -184,22 +184,22 @@
           "id": "a",
           "text": "Regler hos japanska myndigheter och din läkare",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Läkemedelsreglerna ändras, så de ska kontrolleras hos japanska myndigheter och din läkare."
         },
         {
           "id": "b",
           "text": "Ingenting",
-          "feedback": "Fel."
+          "feedback": "Fel. Vissa läkemedel är förbjudna eller begränsade, så reglerna måste kontrolleras."
         },
         {
           "id": "c",
           "text": "Bara färgen på förpackningen",
-          "feedback": "Fel."
+          "feedback": "Fel. Förpackningens färg är inte avgörande, men du bör ta med originalförpackning och kontrollera reglerna."
         },
         {
           "id": "d",
           "text": "Bara priset",
-          "feedback": "Fel."
+          "feedback": "Fel. Priset spelar ingen roll, utan det är reglerna hos myndigheterna och din läkare som ska kontrolleras."
         }
       ]
     },
@@ -211,22 +211,22 @@
           "id": "a",
           "text": "Regnskydd, strumpor, påse för skräp",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Regnskydd, strumpor utan hål och en påse för skräp finns bland kapitlets packningsråd."
         },
         {
           "id": "b",
           "text": "Fyra par tunga stövlar",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet råder dig att inte packa för mycket, och tunga stövlar tar plats."
         },
         {
           "id": "c",
           "text": "Ingenting",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet listar flera saker som är bra att ha med, till exempel regnskydd."
         },
         {
           "id": "d",
           "text": "En tält",
-          "feedback": "Fel."
+          "feedback": "Fel. Ett tält nämns inte, och kapitlet råder dig att inte packa för mycket."
         }
       ]
     },
@@ -238,22 +238,22 @@
           "id": "a",
           "text": "Två platta stift (adapter kan behövas)",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Japan använder vanligen två platta stift, så en adapter kan behövas."
         },
         {
           "id": "b",
           "text": "Tre runda stift",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet anger att Japan vanligen använder två platta stift."
         },
         {
           "id": "c",
           "text": "Ingen",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan har eluttag, vanligen med två platta stift."
         },
         {
           "id": "d",
           "text": "Samma som Sverige",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet anger att du kan behöva en adapter, så uttagen är inte samma som i Sverige."
         }
       ]
     },
@@ -265,22 +265,22 @@
           "id": "a",
           "text": "För att du kanske saknar internet",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Bokningar, adresser och kontaktuppgifter bör finnas sparade offline om du saknar uppkoppling."
         },
         {
           "id": "b",
           "text": "För att det är roligt",
-          "feedback": "Fel."
+          "feedback": "Fel. Skälet är praktiskt: du kan sakna uppkoppling."
         },
         {
           "id": "c",
           "text": "För att papper är förbjudet",
-          "feedback": "Fel."
+          "feedback": "Fel. Papper är inte förbjudet, men kapitlet råder dig att spara uppgifterna offline."
         },
         {
           "id": "d",
           "text": "För att batteriet är oändligt",
-          "feedback": "Fel."
+          "feedback": "Fel. Batteriet tar slut, och därför rekommenderar kapitlet bland annat en powerbank."
         }
       ]
     }

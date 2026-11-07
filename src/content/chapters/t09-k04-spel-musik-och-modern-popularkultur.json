@@ -62,19 +62,19 @@
           "id": "a",
           "text": "Närhet och kontakt mellan artister och fans.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Närhet till fansen är en viktig del av idolkulturens koncept."
         },
         {
           "id": "b",
           "text": "Att ingen får sjunga.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Idolkultur handlar om artister som sjunger, dansar och uppträder."
         },
         {
           "id": "c",
           "text": "Att allt är hemligt.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Idolkultur bygger tvärtom på närhet och kontakt med fansen."
         }
       ]
     },
@@ -88,19 +88,19 @@
           "id": "a",
           "text": "Ett röstsyntesprogram",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Hatsune Miku började som ett röstsyntesprogram (Vocaloid)."
         },
         {
           "id": "b",
           "text": "En mänsklig sångerska",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Hatsune Miku började som ett röstsyntesprogram och är en virtuell artist."
         },
         {
           "id": "c",
           "text": "En tecknad bok",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Hatsune Miku började som ett röstsyntesprogram, inte som en bok."
         }
       ]
     },
@@ -115,7 +115,7 @@
           "id": "a",
           "text": "Många gillar sådant, men intressena varierar mycket.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Intressena varierar mycket, och populärkultur är bara en del av en större bild."
         },
         {
           "id": "b",
@@ -127,7 +127,7 @@
           "id": "c",
           "text": "Ingen gillar det.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Många gillar populärkultur, men intressena varierar."
         }
       ]
     }
@@ -147,22 +147,22 @@
           "id": "a",
           "text": "AKB48",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. AKB48 grundades 2005 av Yasushi Akimoto och har egen teater i Akihabara."
         },
         {
           "id": "b",
           "text": "Vocaloid",
-          "feedback": "Fel."
+          "feedback": "Fel. Vocaloid är ett röstsyntesprogram, inte en idolgrupp."
         },
         {
           "id": "c",
           "text": "Tezuka",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner AKB48 som idolgruppen grundad 2005 av Yasushi Akimoto."
         },
         {
           "id": "d",
           "text": "Ghibli",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner AKB48 som idolgruppen grundad 2005 av Yasushi Akimoto."
         }
       ]
     },
@@ -201,22 +201,22 @@
           "id": "a",
           "text": "Intressena varierar mycket.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Det finns lika många smaker som personer, så intressena varierar mycket."
         },
         {
           "id": "b",
           "text": "Det finns inga idolfans",
-          "feedback": "Fel."
+          "feedback": "Fel. Det finns idolfans, men inte alla ungdomar är det."
         },
         {
           "id": "c",
           "text": "Idoler finns inte",
-          "feedback": "Fel."
+          "feedback": "Fel. Idoler finns; poängen är att inte alla ungdomar är fans."
         },
         {
           "id": "d",
           "text": "Alla är lika",
-          "feedback": "Fel."
+          "feedback": "Fel. Ungdomar har olika smaker, de är inte alla lika."
         }
       ]
     },
@@ -228,22 +228,22 @@
           "id": "a",
           "text": "Arbetsvillkor och press på artister",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Idolbranschen och spelindustrin har kritiserats för arbetsvillkor och press på artisterna."
         },
         {
           "id": "b",
           "text": "Att den är för liten",
-          "feedback": "Fel."
+          "feedback": "Fel. Kritiken gäller arbetsvillkor och press, inte att industrin är för liten."
         },
         {
           "id": "c",
           "text": "Att ingen tjänar pengar",
-          "feedback": "Fel."
+          "feedback": "Fel. Populärkulturen är en stor industri; kritiken gäller arbetsvillkor och press."
         },
         {
           "id": "d",
           "text": "Att den inte finns",
-          "feedback": "Fel."
+          "feedback": "Fel. Populärkulturen är en stor industri som finns och som kritiseras för arbetsvillkor."
         }
       ]
     },
@@ -255,22 +255,22 @@
           "id": "a",
           "text": "Fråga vad människor själva gillar.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Intressena varierar, så det bästa är att fråga människor vad de själva gillar."
         },
         {
           "id": "b",
           "text": "Anta att alla gillar samma sak.",
-          "feedback": "Fel."
+          "feedback": "Fel. Intressena varierar mycket, så alla gillar inte samma sak."
         },
         {
           "id": "c",
           "text": "Aldrig prata om det.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet uppmuntrar nyfikenhet snarare än att undvika ämnet."
         },
         {
           "id": "d",
           "text": "Gissa.",
-          "feedback": "Fel."
+          "feedback": "Fel. Att gissa leder lätt till förenklingar; fråga i stället."
         }
       ]
     }

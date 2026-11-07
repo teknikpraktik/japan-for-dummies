@@ -98,19 +98,19 @@
           "id": "a",
           "text": "Att maskinen stoppar när något är fel.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Jidoka är automation med mänsklig kontroll, där maskinen stoppar vid fel."
         },
         {
           "id": "b",
           "text": "Att allt görs för hand.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Jidoka är automation där maskinen stoppar vid fel, inte arbete som görs helt för hand."
         },
         {
           "id": "c",
           "text": "Att fabriken stänger.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Jidoka handlar om att en maskin stoppar vid fel, inte om att fabriken stänger."
         }
       ]
     },
@@ -124,19 +124,19 @@
           "id": "a",
           "text": "Rätt del kommer i rätt tid, så lagren hålls små.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Just-in-time innebär rätt del i rätt tid, så att lager hålls små."
         },
         {
           "id": "b",
           "text": "Allt tillverkas i förväg.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Just-in-time är motsatsen: delar kommer när de behövs, så att lagren hålls små."
         },
         {
           "id": "c",
           "text": "Ingen tid används.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Just-in-time betyder rätt del i rätt tid, inte att ingen tid används."
         }
       ]
     },
@@ -163,7 +163,7 @@
           "id": "c",
           "text": "Det finns ingen industri.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver Japan som en stor industrination, så det finns industri."
         }
       ]
     }
@@ -183,22 +183,22 @@
           "id": "a",
           "text": "Vävstolar och textilmaskiner",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Sakichi Toyoda byggde vävstolar, och hans idé om jidoka blev en del av Toyotas tänkande."
         },
         {
           "id": "b",
           "text": "Skeppsbyggnad",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver Toyotas bakgrund i vävstolar, inte i skeppsbyggnad."
         },
         {
           "id": "c",
           "text": "Gruvdrift",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver Toyotas bakgrund i vävstolar, inte i gruvdrift."
         },
         {
           "id": "d",
           "text": "Fiske",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver Toyotas bakgrund i vävstolar, inte i fiske."
         }
       ]
     },
@@ -210,22 +210,22 @@
           "id": "a",
           "text": "Ständiga små förbättringar",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kaizen är ständiga små förbättringar där alla medarbetare bidrar."
         },
         {
           "id": "b",
           "text": "Ett slags tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Kaizen är en produktionsidé om ständiga små förbättringar, inte ett tåg."
         },
         {
           "id": "c",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. Kaizen är en produktionsidé om ständiga små förbättringar, inte en maträtt."
         },
         {
           "id": "d",
           "text": "En port",
-          "feedback": "Fel."
+          "feedback": "Fel. Kaizen är en produktionsidé om ständiga små förbättringar, inte en port."
         }
       ]
     },
@@ -237,22 +237,22 @@
           "id": "a",
           "text": "Rätt del i rätt tid",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Just-in-time betyder rätt del i rätt tid, så att lager hålls små."
         },
         {
           "id": "b",
           "text": "Alltid för tidigt",
-          "feedback": "Fel."
+          "feedback": "Fel. Poängen är att delar kommer exakt när de behövs, inte för tidigt."
         },
         {
           "id": "c",
           "text": "Ingen tid",
-          "feedback": "Fel."
+          "feedback": "Fel. Just-in-time betyder rätt del i rätt tid, inte att ingen tid används."
         },
         {
           "id": "d",
           "text": "Bara på natten",
-          "feedback": "Fel."
+          "feedback": "Fel. Just-in-time har inget med natt att göra, utan handlar om rätt del i rätt tid."
         }
       ]
     },
@@ -264,22 +264,22 @@
           "id": "a",
           "text": "Lägre kostnader och konkurrens",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Produktionen har flyttat dit kostnaderna är lägre, och konkurrensen är hård."
         },
         {
           "id": "b",
           "text": "Förbud",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet anger lägre kostnader och hård konkurrens som orsaker, inte förbud."
         },
         {
           "id": "c",
           "text": "Brist på tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner inte tågbrist, utan lägre kostnader och konkurrens."
         },
         {
           "id": "d",
           "text": "Inget skäl",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet anger lägre kostnader utomlands och hård konkurrens som skäl."
         }
       ]
     },
@@ -291,22 +291,22 @@
           "id": "a",
           "text": "Långa leveranskedjor",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Tillverkarna är beroende av långa leveranskedjor, vilket syns vid jordbävningar, pandemier och handelskonflikter."
         },
         {
           "id": "b",
           "text": "För korta leveranskedjor",
-          "feedback": "Fel."
+          "feedback": "Fel. Sårbarheten ligger i att leveranskedjorna är långa, inte korta."
         },
         {
           "id": "c",
           "text": "För få fabriker",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet pekar på långa leveranskedjor som sårbarhet, inte på brist på fabriker."
         },
         {
           "id": "d",
           "text": "Inga",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver globaliseringen som både möjlighet och sårbarhet."
         }
       ]
     }

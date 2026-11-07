@@ -88,13 +88,13 @@
           "id": "a",
           "text": "Skillnader mellan kvinnor och män inom ekonomi, utbildning, hälsa och politik.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Indexet jämför kvinnors och mäns ställning inom ekonomi, utbildning, hälsa och politik."
         },
         {
           "id": "b",
           "text": "Hur lyckliga människor är.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Indexet mäter skillnader, inte hur bra livet är."
         },
         {
           "id": "c",
@@ -126,7 +126,7 @@
           "id": "c",
           "text": "Hälsa",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Inom utbildning och hälsa är skillnaderna små, och politiken drar ner mest."
         }
       ]
     },
@@ -173,7 +173,7 @@
           "id": "a",
           "text": "118 av 148",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. I 2025 års rapport hamnade Japan på plats 118 av 148 länder."
         },
         {
           "id": "b",
@@ -183,12 +183,12 @@
         {
           "id": "c",
           "text": "50 av 148",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan hamnade på plats 118 av 148, alltså betydligt längre ner."
         },
         {
           "id": "d",
           "text": "148 av 148",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan hamnade på plats 118 av 148, inte sist."
         }
       ]
     },
@@ -200,22 +200,22 @@
           "id": "a",
           "text": "Politik",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Politik är den svagaste delen, med plats 125."
         },
         {
           "id": "b",
           "text": "Utbildning",
-          "feedback": "Fel."
+          "feedback": "Fel. Inom utbildning och hälsa är skillnaderna små."
         },
         {
           "id": "c",
           "text": "Hälsa",
-          "feedback": "Fel."
+          "feedback": "Fel. Inom utbildning och hälsa är skillnaderna små."
         },
         {
           "id": "d",
           "text": "Ingen",
-          "feedback": "Fel."
+          "feedback": "Fel. Skillnaderna är olika stora i de fyra delarna, och politik är svagast."
         }
       ]
     },
@@ -227,22 +227,22 @@
           "id": "a",
           "text": "Skillnader mellan kvinnor och män",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Indexet mäter skillnader mellan kvinnor och män inom fyra områden."
         },
         {
           "id": "b",
           "text": "Människors lycka",
-          "feedback": "Fel."
+          "feedback": "Fel. Indexet mäter skillnader, inte hur bra livet är."
         },
         {
           "id": "c",
           "text": "Lönernas storlek",
-          "feedback": "Fel."
+          "feedback": "Fel. Indexet jämför kvinnors och mäns ställning och mäter inte löner i sig."
         },
         {
           "id": "d",
           "text": "Antalet skolor",
-          "feedback": "Fel."
+          "feedback": "Fel. Indexet jämför kvinnors och mäns ställning inom ekonomi, utbildning, hälsa och politik."
         }
       ]
     },
@@ -259,7 +259,7 @@
         {
           "id": "b",
           "text": "1868",
-          "feedback": "Fel."
+          "feedback": "Fel. Kvinnor fick rösträtt i december 1945 och röstade första gången 1946."
         },
         {
           "id": "c",
@@ -269,7 +269,7 @@
         {
           "id": "d",
           "text": "1603",
-          "feedback": "Fel."
+          "feedback": "Fel. Kvinnor fick rösträtt i december 1945 och röstade första gången 1946."
         }
       ]
     },
@@ -281,22 +281,22 @@
           "id": "a",
           "text": "Fråga vad siffrorna mäter och inte mäter.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet föreslår att du frågar vad siffran mäter och inte mäter."
         },
         {
           "id": "b",
           "text": "Lita blint på en siffra.",
-          "feedback": "Fel."
+          "feedback": "Fel. Siffror kan vara användbara men visar inte allt."
         },
         {
           "id": "c",
           "text": "Ignorera all statistik.",
-          "feedback": "Fel."
+          "feedback": "Fel. Statistik kan vara användbar, men den behöver läsas med eftertanke."
         },
         {
           "id": "d",
           "text": "Döma snabbt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet uppmanar dig att ställa frågor om siffrorna innan du drar slutsatser."
         }
       ]
     }

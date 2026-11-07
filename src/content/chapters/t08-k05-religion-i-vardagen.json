@@ -85,19 +85,19 @@
           "id": "a",
           "text": "Många deltar i både shintoistiska och buddhistiska ritualer.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Många deltar i både shintoistiska och buddhistiska ritualer utan att se det som en motsättning."
         },
         {
           "id": "b",
           "text": "Alla väljer en enda religion.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver att många väljer ritual efter tillfälle i stället för en enda religion."
         },
         {
           "id": "c",
           "text": "Ritualer förbjuds.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Ritualer förbjuds inte; religionsfrihet garanteras av konstitutionen."
         }
       ]
     },
@@ -111,19 +111,19 @@
           "id": "a",
           "text": "Samma person kan räknas i flera grupper.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Samma person kan räknas i flera grupper, så summan blir större än befolkningen."
         },
         {
           "id": "b",
           "text": "Det bor fler människor än statistiken säger.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet förklarar skillnaden med att samma person räknas i flera grupper."
         },
         {
           "id": "c",
           "text": "Det är ett skrivfel.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Siffrorna är inte ett skrivfel; de beror på att samma person kan räknas flera gånger."
         }
       ]
     },
@@ -170,22 +170,22 @@
           "id": "a",
           "text": "Buddhistiska riter",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Begravningar följer oftast buddhistiska riter."
         },
         {
           "id": "b",
           "text": "Shintoriter alltid",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att begravningar oftast följer buddhistiska riter, medan shinto förknippas med bland annat nyår och bröllop."
         },
         {
           "id": "c",
           "text": "Inga riter",
-          "feedback": "Fel."
+          "feedback": "Fel. Begravningar har riter, oftast buddhistiska."
         },
         {
           "id": "d",
           "text": "Kristna riter alltid",
-          "feedback": "Fel."
+          "feedback": "Fel. Begravningar följer oftast buddhistiska riter, inte kristna."
         }
       ]
     },
@@ -197,22 +197,22 @@
           "id": "a",
           "text": "Svaren beror mycket på hur frågan ställs.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Studien visade att svaren ändras kraftigt med hur frågan ställs."
         },
         {
           "id": "b",
           "text": "Alla svarar likadant.",
-          "feedback": "Fel."
+          "feedback": "Fel. Studien visade att svaren varierar mycket med hur frågan ställs."
         },
         {
           "id": "c",
           "text": "Frågor har ingen betydelse.",
-          "feedback": "Fel."
+          "feedback": "Fel. Frågans formulering har stor betydelse för svaren."
         },
         {
           "id": "d",
           "text": "Ingen vet något.",
-          "feedback": "Fel."
+          "feedback": "Fel. Studien visade att svaren beror på hur frågan ställs, inte att ingen vet något."
         }
       ]
     },
@@ -224,22 +224,22 @@
           "id": "a",
           "text": "”Vad brukar din familj göra på nyår?”",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Frågan är öppen och vänlig och lämnar åt personen att bestämma hur mycket hen berättar."
         },
         {
           "id": "b",
           "text": "”Vad är det för fel på din tro?”",
-          "feedback": "Fel."
+          "feedback": "Fel. Frågan dömer i stället för att vara öppen och vänlig."
         },
         {
           "id": "c",
           "text": "”Varför är ni inte religiösa?”",
-          "feedback": "Fel."
+          "feedback": "Fel. Frågan dömer och kan kännas laddad; kapitlet förordar öppna, vänliga frågor."
         },
         {
           "id": "d",
           "text": "Ingen fråga alls.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet menar att öppna, vänliga frågor hjälper i samtal om religion."
         }
       ]
     },
@@ -251,22 +251,22 @@
           "id": "a",
           "text": "Det är en förenkling.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Verkligheten rymmer både och, och mycket däremellan."
         },
         {
           "id": "b",
           "text": "Det är alltid sant.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet kallar påståendet en förenkling, inte något som alltid är sant."
         },
         {
           "id": "c",
           "text": "Det är olagligt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Faran är att det är en förenkling, inte att det är olagligt."
         },
         {
           "id": "d",
           "text": "Det är obegripligt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Påståendet är begripligt men förenklat, vilket är kapitlets poäng."
         }
       ]
     },
@@ -278,22 +278,22 @@
           "id": "a",
           "text": "Religionsfrihet",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Konstitutionen från 1947 garanterar religionsfrihet."
         },
         {
           "id": "b",
           "text": "Förbud mot religion",
-          "feedback": "Fel."
+          "feedback": "Fel. Konstitutionen garanterar religionsfrihet, inte förbud."
         },
         {
           "id": "c",
           "text": "En statsreligion",
-          "feedback": "Fel."
+          "feedback": "Fel. Konstitutionen garanterar religionsfrihet, inte en statsreligion."
         },
         {
           "id": "d",
           "text": "Inget",
-          "feedback": "Fel."
+          "feedback": "Fel. Konstitutionen från 1947 garanterar religionsfrihet."
         }
       ]
     }

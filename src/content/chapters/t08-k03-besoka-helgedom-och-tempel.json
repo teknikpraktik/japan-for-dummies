@@ -103,7 +103,7 @@
           "id": "a",
           "text": "Man sätter ihop händerna och klappar inte.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. På ett tempel sätter man ihop händerna och bugar i stället för att klappa."
         },
         {
           "id": "b",
@@ -115,7 +115,7 @@
           "id": "c",
           "text": "Man dansar.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner inget om dans, utan att man sätter ihop händerna och bugar."
         }
       ]
     },
@@ -130,7 +130,7 @@
           "id": "a",
           "text": "Låter bli och tar bild utanför i stället.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Fotografering inne i hallar är oftast inte tillåten, men utomhusområdet går ofta bra."
         },
         {
           "id": "b",
@@ -142,7 +142,7 @@
           "id": "c",
           "text": "Fotograferar med blixt.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Skylten visar att fotografering inte är tillåten, och blixt ändrar inte på det."
         }
       ]
     }
@@ -162,17 +162,17 @@
           "id": "a",
           "text": "Två bugningar, två klappar, en bugning",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Den vanliga sekvensen vid en helgedom är två bugningar, två klappar och en bugning."
         },
         {
           "id": "b",
           "text": "En klapp",
-          "feedback": "Fel."
+          "feedback": "Fel. Den vanliga sekvensen är två bugningar, två klappar och en bugning."
         },
         {
           "id": "c",
           "text": "Ingen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver en vanlig sekvens med två bugningar, två klappar och en bugning."
         },
         {
           "id": "d",
@@ -189,22 +189,22 @@
           "id": "a",
           "text": "Renar händer och mun",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Vid vattenpaviljongen renar man händer och mun med vatten från skopan."
         },
         {
           "id": "b",
           "text": "Tvättar skor",
-          "feedback": "Fel."
+          "feedback": "Fel. Temizuya används för rening av händer och mun, inte för skor."
         },
         {
           "id": "c",
           "text": "Dricker direkt från skopan",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att man inte ska skölja direkt från skopan."
         },
         {
           "id": "d",
           "text": "Fotograferar andra",
-          "feedback": "Fel."
+          "feedback": "Fel. Temizuya används för rening, inte för att fotografera andra."
         }
       ]
     },
@@ -221,17 +221,17 @@
         {
           "id": "b",
           "text": "Hundrayen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner femyen eftersom go-en låter som ordet för band eller förbindelse."
         },
         {
           "id": "c",
           "text": "Tusenyen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner femyen eftersom go-en låter som ordet för band eller förbindelse."
         },
         {
           "id": "d",
           "text": "Ingen",
-          "feedback": "Fel."
+          "feedback": "Fel. Många offrar ett femyensmynt, eftersom det låter som ordet för band eller förbindelse."
         }
       ]
     },
@@ -243,22 +243,22 @@
           "id": "a",
           "text": "Området utomhus, men oftast inte inne i hallarna.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Du får oftast fotografera utomhus, men inte inne i byggnaderna eller hallarna."
         },
         {
           "id": "b",
           "text": "Överallt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Fotografering inne i byggnaderna och hallarna är oftast inte tillåten."
         },
         {
           "id": "c",
           "text": "Ingenstans.",
-          "feedback": "Fel."
+          "feedback": "Fel. Du får oftast fotografera området utomhus."
         },
         {
           "id": "d",
           "text": "Bara människor.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att man ska undvika att fotografera människor som ber utan att fråga."
         }
       ]
     },
@@ -270,22 +270,22 @@
           "id": "a",
           "text": "Nej, men du bör visa respekt.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Respekt handlar om beteende, inte om tro."
         },
         {
           "id": "b",
           "text": "Ja.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att respekt handlar om beteende, inte om tro."
         },
         {
           "id": "c",
           "text": "Det är förbjudet att besöka.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet uppmuntrar besök och säger att man kan delta i den utsträckning man är bekväm med."
         },
         {
           "id": "d",
           "text": "Bara japaner får besöka.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att man kan delta eller bara titta, och beskriver inget förbud för besökare."
         }
       ]
     }
