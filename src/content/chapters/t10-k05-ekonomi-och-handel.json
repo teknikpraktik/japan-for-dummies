@@ -1,0 +1,314 @@
+{
+  "id": "t10-k05",
+  "slug": "ekonomi-och-handel",
+  "themeId": "teknik",
+  "order": 5,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Ekonomi, yen och handel",
+  "summary": "Yenens roll, handelspartner och hur ekonomin påverkas av ålder och globalisering. Kapitlet ger bakgrund till priser du möter.",
+  "objectives": [
+    "Förklara grundläggande ekonomiska begrepp i japansk kontext",
+    "Beskriva Japans roll i världshandeln",
+    "Förstå hur priser och växelkurser påverkar en resa"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Samma lunch kan kosta olika mycket för en besökare i olika år, trots att priset i yen är detsamma. Varför?"
+  },
+  "sections": [
+    {
+      "id": "yen",
+      "heading": "Yen och växelkurs",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japans valuta är **yen** (JPY, symbolen ¥). Växelkursen mellan yen och till exempel svenska kronor eller dollar ändras hela tiden. När yenen är **svag** får du fler yen för dina pengar och det blir billigare att resa dit, och tvärtom när den är stark. Rapporter från 2026 beskriver yenen som ovanligt svag mot dollarn jämfört med de senaste decennierna, men kursen kan förändras snabbt: kontrollera dagens kurs innan du reser."
+        },
+        {
+          "type": "photo",
+          "slotId": "t10-k05-yen",
+          "imageId": "tioyen-mynt",
+          "brief": "Yenmynt och sedlar, utan identifierbara personer."
+        }
+      ]
+    },
+    {
+      "id": "handel",
+      "heading": "Handel och världsekonomi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan är en av världens större ekonomier och en stor exportör av bilar, maskiner, elektronik och material, och importerar bland annat energi och livsmedel (se temat om miljö och energi). De största handelspartnerna är bland andra Kina och USA, men uppgifter om rangordning varierar mellan år och källor. Exporten påverkas av yenens värde: en svag yen gör japanska varor billigare utomlands men gör importerade varor dyrare hemma."
+        },
+        {
+          "type": "p",
+          "text": "Ekonomin påverkas också av **åldrande och minskande befolkning** (se kapitlet om det åldrande samhället) och av **globaliseringen**. Enligt en prognos väntades den reala BNP-tillväxten bli runt 0,9 procent för räkenskapsåret 2026, vilket är lågt jämfört med högkonjunkturens år (se kapitlet om efterkrigstiden)."
+        }
+      ]
+    },
+    {
+      "id": "resa",
+      "heading": "Vad det betyder för din resa",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Priser i Japan kan upplevas som låga eller höga beroende på växelkurs, produkt och ort. Ett måltidspris, en tågbiljett och en inträdesbiljett kan skilja sig åt. Lokala priser i yen är mer stabila än din kostnad i kronor. Gör en budget i yen och räkna om med en marginal, ha en reserv, och kontrollera hur du betalar (se kapitlet om skyltar och menyer samt temat om praktiska resekunskaper)."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Marginal i budgeten",
+          "text": "Eftersom växelkursen ändras: räkna med en marginal på några procent, och undvik att lita på siffror från en äldre resa."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "svag",
+      "title": "Svag yen",
+      "prompt": "Vad innebär en svag yen för en besökare?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det blir billigare att resa dit.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det blir dyrare.",
+          "correct": false,
+          "feedback": "Det är tvärtom."
+        },
+        {
+          "id": "c",
+          "text": "Ingen skillnad.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "export",
+      "title": "Export",
+      "prompt": "Vad gör en svag yen med japansk export?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gör japanska varor billigare utomlands.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Gör dem dyrare.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Stoppar all handel.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "budget",
+      "title": "Budget",
+      "situation": "Du budgeterar en resa baserat på en kurs från förra året.",
+      "question": "Vad är klokast?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kontrollera dagens kurs och lägga in en marginal.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Lita på gamla siffror.",
+          "correct": false,
+          "feedback": "Kursen ändras."
+        },
+        {
+          "id": "c",
+          "text": "Strunta i budgeten.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vad kostar vardagliga saker i yen, och hur ser du det i din valuta?",
+    "Hur påverkas priser av turism?",
+    "Vilka varor är importerade, och vilka är lokala?"
+  ],
+  "reflection": "Hur påverkas priserna där du bor av växelkurser och import? Vad vet du om det?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad heter Japans valuta?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yen",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Euro",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Dollar",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Krona",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad betyder en svag yen för priser för besökare?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Det blir billigare.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Dyrare.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Samma.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen vet.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad exporterar Japan bland annat?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bilar, maskiner och elektronik",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Bara ris",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara te",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingenting",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Varför bör du kontrollera växelkursen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den ändras och påverkar din kostnad.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Den är alltid densamma.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Den är hemlig.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Den spelar ingen roll.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad kan påverka Japans ekonomi långsiktigt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Åldrande och globalisering",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Bara vädret",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara turister",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inget",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "mfat-japan-economic-update",
+    "dir-weak-yen"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Yenens kurs och handelsflöden ändras snabbt. Kapitlet anger inga exakta kurser. Uppgiften om svag yen 2026 och BNP-prognosen (0,9 procent) kommer från nyhets- och analyssammanfattningar och måste uppdateras.",
+      "Handelspartnerna (Kina, USA) och Japans exportvaror är allmän bakgrund. Sökningen gav ingen rangordning i världsekonomin.",
+      "Resonemanget om budget och växelkurs är allmänt.",
+      "Bilden av 10-yensmyntet är ett fotografi med fotografens egen publik domän-dedikation och Commons-kategorin PD-Japan-exempt."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t10-k05-hero",
+    "imageId": "shinjuku-parktower",
+    "brief": "Yenmynt och sedlar eller en prislapp i Japan."
+  }
+}

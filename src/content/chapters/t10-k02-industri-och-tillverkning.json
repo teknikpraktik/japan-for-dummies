@@ -1,0 +1,313 @@
+{
+  "id": "t10-k02",
+  "slug": "industri-och-tillverkning",
+  "themeId": "teknik",
+  "order": 2,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Från Meijis industrier till bil och elektronik",
+  "summary": "Hur Japan blev en industrination. Kapitlet följer textil, stål, bilar och elektronik och visar hur tillverkningen förändras idag.",
+  "objectives": [
+    "Beskriva industrins utveckling",
+    "Förklara japanska produktionsprinciper",
+    "Diskutera hur globalisering påverkar industrin"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Ett av världens största bilföretag började som tillverkare av vävstolar. Hur gick det till?"
+  },
+  "sections": [
+    {
+      "id": "historia",
+      "heading": "Från sidenfabriker till bilar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Industrialiseringen började under Meijiperioden (se kapitlet om modernisering): staten satsade på järnvägar, varv, gruvor och textilfabriker, och sidenindustrin blev viktig för exporten. Efter andra världskriget byggdes industrin upp igen, och under högkonjunkturen (se kapitlet om efterkrigstiden) växte stål, fartyg, bilar och elektronik. Japan blev en av världens största industriländer."
+        },
+        {
+          "type": "p",
+          "text": "Många stora företag har rötter i äldre branscher. **Toyota** har sin bakgrund i Sakichi Toyodas vävstolar (omkring 1897), där en mekanism stoppade vävstolen om en tråd gick av, en idé som blev **jidoka**: maskinen stoppar när något är fel."
+        }
+      ]
+    },
+    {
+      "id": "princip",
+      "heading": "Produktionsprinciper",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japansk tillverkning är känd för **Toyotas produktionssystem**, som bygger på två grundpelare: **just-in-time** (rätt del i rätt tid, så att lager hålls små) och **jidoka** (automation med mänsklig kontroll: stoppa vid fel). Ett annat välkänt begrepp är **kaizen**, ständiga små förbättringar där alla medarbetare bidrar. Idéerna tillskrivs bland annat Kiichiro Toyoda och Taiichi Ohno. Källorna anger olika årtal för när de uppstod."
+        },
+        {
+          "type": "p",
+          "text": "Principerna har spridits över världen under namnet lean (”slimmad produktion”). De bygger på att man minskar slöseri, men kritiker menar att de också kan öka pressen på leverantörer och anställda."
+        }
+      ]
+    },
+    {
+      "id": "idag",
+      "heading": "Industrin idag",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Idag har en stor del av produktionen flyttat utomlands, där kostnaderna är lägre, och konkurrensen från bland annat Kina och Sydkorea är hård. Japan är ändå en stor tillverkare av bilar, maskiner, material och industrirobotar. Globaliseringen skapar både möjligheter och sårbarheter: tillverkarna är beroende av långa leveranskedjor, vilket syns vid jordbävningar, pandemier och handelskonflikter."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Nyanser",
+          "text": "”Japan är ett teknikland” är en generalisering. Många små företag, hantverk och lokala industrier finns bredvid de stora koncernerna, och arbetsvillkoren varierar."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "jidoka",
+      "title": "Jidoka",
+      "prompt": "Vad innebär jidoka?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att maskinen stoppar när något är fel.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Att allt görs för hand.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Att fabriken stänger.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "jit",
+      "title": "Just-in-time",
+      "prompt": "Vad innebär just-in-time?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rätt del kommer i rätt tid, så lagren hålls små.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Allt tillverkas i förväg.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingen tid används.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "rubrik",
+      "title": "I debatten",
+      "situation": "Du läser: ”Japan är ett teknikland där allt är robotar och fabriker.”",
+      "question": "Hur kan du nyansera?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Industrin är stor, men många jobb finns i småföretag och tjänster, och bilden är förenklad.",
+          "correct": true,
+          "feedback": "Bra."
+        },
+        {
+          "id": "b",
+          "text": "Det stämmer helt.",
+          "correct": false,
+          "feedback": "Förenkling."
+        },
+        {
+          "id": "c",
+          "text": "Det finns ingen industri.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka industrier ser du spår av i städer och landskap?",
+    "Vilka varumärken märker du, och vad tillverkas lokalt?",
+    "Hur påverkas lokala industrier av turism?"
+  ],
+  "reflection": "Vilka produkter i ditt hem är tillverkade i Japan? Vad vet du om hur de gjorts?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilken bransch hade Toyota sin bakgrund i?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vävstolar och textilmaskiner",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Skeppsbyggnad",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Gruvdrift",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Fiske",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad betyder kaizen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ständiga små förbättringar",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ett slags tåg",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En maträtt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En port",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad är just-in-time?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rätt del i rätt tid",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alltid för tidigt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingen tid",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Bara på natten",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Varför har produktion flyttat utomlands?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lägre kostnader och konkurrens",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Förbud",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Brist på tåg",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inget skäl",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vilket är en sårbarhet i globaliserad tillverkning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Långa leveranskedjor",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "För korta leveranskedjor",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "För få fabriker",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inga",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "lean-tps",
+    "rework-tps-history",
+    "britannica-meiji"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Årtalen för Toyotas historia och just-in-time varierar mellan källor.",
+      "Beskrivningen av stål, fartyg, elektronik, flytt av produktion utomlands och konkurrens är allmän bakgrund. Sökningen gav ingenting om stål, textil eller elektronik.",
+      "Kritiken mot lean-principerna är allmän bakgrund.",
+      "Kapitlet bör kompletteras med branschstatistik."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t10-k02-hero",
+    "imageId": "tomioka-ostra-kokonglagret",
+    "brief": "Industri- eller teknikmiljö i Japan."
+  }
+}

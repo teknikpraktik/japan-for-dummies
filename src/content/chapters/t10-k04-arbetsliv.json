@@ -1,0 +1,313 @@
+{
+  "id": "t10-k04",
+  "slug": "arbetsliv",
+  "themeId": "teknik",
+  "order": 4,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Arbetsliv: heltid, deltid och överarbete",
+  "summary": "Hur arbetsmarknaden ser ut, vad överarbete innebär och hur arbetsvillkor förändras.",
+  "objectives": [
+    "Beskriva vanliga anställningsformer",
+    "Förklara begreppet överarbete och ansträngningar att minska det",
+    "Jämföra arbetsliv utan att moralisera"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Det finns ett japanskt ord för att dö av överarbete. Vad betyder det, och vad har gjorts åt det?"
+  },
+  "sections": [
+    {
+      "id": "former",
+      "heading": "Anställningsformer",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Arbetsmarknaden har flera former. Traditionellt förknippas Japan med **fast heltidsanställning** i ett och samma företag, ofta från examen till pension, med lön som ökar efter anställningstid. Sedan 1990-talet har andelen med tillfälliga och deltidsanställningar ökat, och arbetsvillkoren skiljer sig tydligt mellan fast och icke-fast anställda. Sökningen gav inga exakta siffror, så använd bilden som en grov beskrivning."
+        },
+        {
+          "type": "p",
+          "text": "Arbetet formas också av kön, ålder och bransch: kvinnor arbetar oftare deltid (se kapitlet om jämställdhet), och yngre och äldre kan ha osäkrare villkor."
+        }
+      ]
+    },
+    {
+      "id": "overarbete",
+      "heading": "Överarbete och karoshi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Långa arbetsdagar och övertid har länge varit en del av arbetskulturen i delar av arbetslivet. Ordet **karoshi** (död av överarbete) används om dödsfall som kopplas till långa arbetspass. Enligt en sammanfattning dog omkring 200 personer per år av överarbete under en femårsperiod, enligt hälsoministeriet. Siffrorna är osäkra, och begreppet är omdiskuterat."
+        },
+        {
+          "type": "p",
+          "text": "**Arbetsstilsreformen** (2018, i kraft 2019 för större företag och senare för mindre) införde gränser för övertid: som utgångspunkt 45 timmar per månad och 360 timmar per år, med undantag för särskilda perioder (upp till 100 timmar en månad och 720 timmar per år). Reformen innehöll också principen om lika lön för lika arbete. Det har dock rapporterats att tillsynen över gränserna lättats 2026, vilket kritiker menar urholkar reformen, vilket gör läget oklart."
+        }
+      ]
+    },
+    {
+      "id": "jamfor",
+      "heading": "Jämföra utan att moralisera",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Det är lätt att moralisera: ”japaner arbetar för mycket”. Men arbetsliv skiljer sig mellan branscher, storlek på företag och generationer, och många arbetar mycket lite eller deltid. Fråga i stället: vad vill människor själva, vad är bra och vad är svårt, och vad är på väg att förändras? Jämför med hur arbetslivet ser ut hemma, där också frågor om stress, tillfälliga jobb och lön finns."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Generaliseringar",
+          "text": "Undvik att dra slutsatser om enskilda människor utifrån statistik. Lyssna på hur personer själva beskriver sitt arbete."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "karoshi",
+      "title": "Karoshi",
+      "prompt": "Vad betyder karoshi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Död av överarbete",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Semester",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tåg",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "reform",
+      "title": "Reformen",
+      "prompt": "Vad innebar arbetsstilsreformen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gränser för övertid och lika lön för lika arbete.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Inga regler alls.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Att allt arbete förbjöds.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "moral",
+      "title": "I samtal",
+      "situation": "En kamrat säger: ”Japanerna är dumma som jobbar så mycket.”",
+      "question": "Hur svarar du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arbetslivet varierar mycket. Jag frågar vad människor själva tycker om sitt arbete.",
+          "correct": true,
+          "feedback": "Bra."
+        },
+        {
+          "id": "b",
+          "text": "Ja, så är det.",
+          "correct": false,
+          "feedback": "Det moraliserar."
+        },
+        {
+          "id": "c",
+          "text": "Nej, alla älskar att jobba.",
+          "correct": false,
+          "feedback": "Förenkling."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur ser du människor på väg till och från jobb, och vilka tider?",
+    "Vilka butiker och tjänster är öppna sent, och varför?",
+    "Vad ser du som tecken på förändring i arbetslivet?"
+  ],
+  "reflection": "Hur ser arbetsliv ut hos de vuxna runt dig? Vad skulle en besökare lätt missförstå?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad är en traditionell anställningsform i Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fast heltid i ett företag",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alltid deltid",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bara frilans",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad är utgångspunkten för övertid enligt reformen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "45 timmar per månad och 360 per år",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Obegränsad",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "1 timme per år",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "1000 timmar",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad innebär ”lika lön för lika arbete”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Samma lön för samma arbete oavsett anställningsform",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alla får samma lön oavsett arbete",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingen lön",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Dubbel lön",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad har rapporterats 2026?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att tillsynen över övertid lättats",
+          "correct": true,
+          "feedback": "Rätt, enligt en rapport."
+        },
+        {
+          "id": "b",
+          "text": "Att all övertid förbjudits",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Att reformen avskaffats helt",
+          "feedback": "Det är en ändring i tillsyn, inte i lag."
+        },
+        {
+          "id": "d",
+          "text": "Ingenting",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en bra princip vid jämförelser?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lyssna på människors egna beskrivningar och undvik att moralisera.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Döma snabbt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Anta att alla är lika",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Aldrig jämföra",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "proskauer-overtime",
+    "scmp-overtime-relax",
+    "nippon-gender-gap-2025"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Gränserna för övertid och uppgiften om karoshi kommer från juridiska sammanfattningar och nyhetsartiklar. Detaljer (undantag, tidpunkter för mindre företag) bör kontrolleras mot hälsoministeriet.",
+      "Rapporten om lättad tillsyn 2026 är en enskild nyhetsrapport och läget kan ha ändrats.",
+      "Sökningen gav inga siffror om andelen icke-fast anställda eller deltid. Beskrivningen av anställningsformer är allmän bakgrund.",
+      "Ämnet är känsligt och bör granskas av någon med kunskap om arbetsrätt."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t10-k04-hero",
+    "imageId": "shimbashi-slplats-2019",
+    "brief": "Arbetsmiljö eller stad i Japan, utan identifierbara personer."
+  }
+}
