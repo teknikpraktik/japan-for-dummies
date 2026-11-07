@@ -1,0 +1,339 @@
+{
+  "id": "t09-k05",
+  "slug": "modern-arkitektur-och-stadsbild",
+  "themeId": "kultur",
+  "order": 5,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Modern arkitektur och stadsbild",
+  "summary": "Skyskrapor, små hus och glesa gränder. Kapitlet förklarar hur städer byggs och förändras, och hur rum utnyttjas i täta städer.",
+  "objectives": [
+    "Beskriva hur moderna städer bygger ut",
+    "Förstå varför små hus och kompakta lösningar är vanliga",
+    "Läsa av en stadsbild"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Mitt i Tokyo kan en skyskrapa stå bredvid ett litet trähus och en gränd som knappt rymmer en cykel. Varför ser städerna ut så?"
+  },
+  "sections": [
+    {
+      "id": "jordbavning",
+      "heading": "Byggt för att stå",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan ligger i ett jordbävningsområde (se temat om geografi), och det påverkar hur man bygger. Den stora ändringen av byggreglerna kom **1981**: äldre byggnader kallas **kyu-taishin** (gammal standard) och nyare **shin-taishin** (ny standard). I jordbävningen i Kumamoto 2016 kollapsade enligt en sammanfattning en mycket större andel äldre trähus än nyare, vilket visar att reglerna spelat roll. Källan är dock en fastighetssajt."
+        },
+        {
+          "type": "p",
+          "text": "Det är en av anledningarna till att många äldre byggnader rivs och ersätts, och till att nybyggda hus ofta är kompakta, med böjliga och starka konstruktioner."
+        }
+      ]
+    },
+    {
+      "id": "sma",
+      "heading": "Små hus, smala gator",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "I städerna är tomterna ofta små. Ett skäl som nämns är att äldre, större tomter delas upp (bland annat på grund av arvsskatt och regler om byggnader), och att det inte alltid finns några krav på minsta tomtstorlek. Resultatet är små hus tätt intill varandra, smala gränder och kompakta lösningar där varje kvadratmeter används: vertikala lösningar, hus med flera små våningar, trappor och skjutbara skärmar."
+        },
+        {
+          "type": "p",
+          "text": "En grundregel är att hus ska ha minst en liten marginal mot tomtgränsen. Smala gator gör ibland att bilar har svårt att komma fram, vilket påverkar allt från räddningstjänst till sopor."
+        },
+        {
+          "type": "facts",
+          "items": [
+            {
+              "label": "1981",
+              "value": "Stora ändringen av byggreglerna för jordbävning"
+            },
+            {
+              "label": "Små tomter",
+              "value": "Ofta delade tomter, tätt byggt"
+            },
+            {
+              "label": "Smala gator",
+              "value": "Svåra för stora fordon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "las",
+      "heading": "Läsa en stadsbild",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Stadsbilden är som ett lager på lager: skyskrapor kring stationer, flerfamiljshus i bostadsområden, små butiker i gränder och gamla hus som har klarat sig. Titta efter vilka byggnader som hör ihop med vilken tid: efterkrigstidens betongblock, 1960-talets hyreshus (danchi, se kapitlet om familj), 1980-talets bubbelbyggen och nutidens glas och stål."
+        },
+        {
+          "type": "observe",
+          "title": "Läs av en stadsbild",
+          "prompt": "Använd en bild från Tokyo eller textalternativet nedan.",
+          "steps": [
+            "Vilka byggnadstyper ser du, och från vilken tid?",
+            "Hur är tomterna uppdelade, och hur är gatorna?",
+            "Var finns grönska, och var finns små luckor?",
+            "Vad skulle kunna förändras härnäst?"
+          ],
+          "textAlternative": "Utan bild: tänk på din egen stad. Lista tre byggnader från olika årtionden och vad de berättar om tiden.",
+          "imageSlotIds": [
+            "t09-k05-hero"
+          ]
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "kyu",
+      "title": "Kyu-taishin",
+      "prompt": "Vad innebär kyu-taishin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Byggnad enligt den äldre jordbävningsstandarden (före 1981).",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Byggnad från 2020-talet.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett slags trädgård.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "tomt",
+      "title": "Små tomter",
+      "prompt": "Vad är ett resultat av små tomter i städer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Små hus tätt intill varandra och smala gränder.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Stora trädgårdar.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Inga hus.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "las",
+      "title": "På en promenad",
+      "situation": "Du ser en skyskrapa bredvid ett litet trähus.",
+      "question": "Hur kan du förstå det?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Staden är byggd i lager över tid, med olika regler och ägandeförhållanden.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det är ett misstag.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Alla hus är lika gamla.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka byggnadstyper ser du, och från vilken tid?",
+    "Hur är tomter och gator uppdelade?",
+    "Var finns grönska och öppna ytor?"
+  ],
+  "reflection": "Hur skulle din stad se ut om tomterna delades upp som i Tokyo? Vad skulle vara bra och dåligt?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "När ändrades byggreglerna för jordbävning kraftigt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1981",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "1868",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "1603",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "2030",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad kallas byggnader enligt den nya standarden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shin-taishin",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Kyu-taishin",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Genkan",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Torii",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Varför är smala gator ett problem?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stora fordon har svårt att ta sig fram.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "De är för breda.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "De finns inte.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "De är förbjudna.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Varför är kompakta hus vanliga i städer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tomter är små och marken dyr.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det är förbjudet att bygga stort.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Alla vill bo trångt.",
+          "feedback": "Förenkling."
+        },
+        {
+          "id": "d",
+          "text": "Det finns ingen mark.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad menas med att läsa en stadsbild?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att se vilka byggnader som hör till vilken tid.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Att räkna fönster",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Att läsa skyltar högt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Att ta bort byggnader",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "japanpropertycentral-codes",
+    "onthegroundfloor-narrow-streets",
+    "tbs-akiya"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Jordbävningsstatistiken (hus som kollapsade i Kumamoto) kommer från en fastighetssajt och bör kontrolleras.",
+      "Förklaringen till små tomter (arvsskatt, regler) kommer från en personlig blogg och är en enkel bild av ett komplext ämne.",
+      "Beskrivningen av byggstilar från olika decennier och av gränder är allmän bakgrund. Sökningen gav ingen information om Kenzo Tange, metabolismen eller vertikala städer.",
+      "Regeln om minst 50 cm till tomtgränsen är refererad ur en källa och inte kontrollerad."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t09-k05-hero",
+    "imageId": "shinjuku-parktower",
+    "brief": "Tokyos stadsbild med blandad bebyggelse."
+  }
+}

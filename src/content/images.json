@@ -1,5 +1,80 @@
 [
   {
+    "id": "akihabara-natt",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/akihabara-natt/akihabara-natt-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 33632,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/akihabara-natt/akihabara-natt-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 113758,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/akihabara-natt/akihabara-natt-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 38682,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/akihabara-natt/akihabara-natt-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 94476,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.6,
+      "y": 0.45
+    },
+    "creator": "ElHeineken",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akihabara_Night.jpg",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 4.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: ElHeineken, CC BY 4.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Akihabara, Tokyo",
+      "verifiedBy": "Commons-filsidans beskrivning (Main road of Akihabara in Tokyo) och kategorier (Night in Akihabara)"
+    },
+    "year": {
+      "value": "2013",
+      "verifiedBy": "Commons-filsidans datumfält (23 mars 2013)"
+    },
+    "caption": "Huvudgatan i Akihabara i Tokyo en kväll i mars 2013, med reklam för spel, manga och elektronik. Området är känt för anime-, spel- och elektronikbutiker.",
+    "alt": "Gata i skymningen med höga byggnader täckta av färgglada reklamskyltar och några personer som går på trottoaren.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Några små figurer syns på långt håll på trottoaren och är inte identifierbara.",
+    "usedIn": [
+      "t09-k03"
+    ]
+  },
+  {
     "id": "bishamondo-hostlov",
     "kind": "contemporary-photo",
     "variants": [
@@ -593,6 +668,81 @@
     ]
   },
   {
+    "id": "himeji-slott-detalj",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/himeji-slott-detalj/himeji-slott-detalj-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 32088,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/himeji-slott-detalj/himeji-slott-detalj-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 110426,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/himeji-slott-detalj/himeji-slott-detalj-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 32088,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/himeji-slott-detalj/himeji-slott-detalj-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 80446,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.35,
+      "y": 0.4
+    },
+    "creator": "Kok Leng Yeo",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_yeowatzup_-_Himeji_Castle,_Himeji,_Hyogo,_Japan.jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Kok Leng Yeo, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Himeji slott, Hyogo prefektur",
+      "verifiedBy": "Commons-filsidans beskrivning (Himeji Castle, Himeji, Hyogo) och kategori (Worm's-eye view of the Main Keep)"
+    },
+    "year": {
+      "value": "2009",
+      "verifiedBy": "Commons-filsidans datumfält (10 maj 2009)"
+    },
+    "caption": "Himeji slott i Hyogo prefektur sett underifrån, maj 2009: stentäckta bastioner under flera lager av tak med ornament.",
+    "alt": "Underifrån sett vitt slottstorn med flera takvåningar, ornament av trä och en stenbas, mot blå himmel.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t09-k01"
+    ]
+  },
+  {
     "id": "hirado-danchi",
     "kind": "contemporary-photo",
     "variants": [
@@ -898,6 +1048,81 @@
     ]
   },
   {
+    "id": "hokusai-vagen",
+    "kind": "historical-original",
+    "variants": [
+      {
+        "path": "/images/hokusai-vagen/hokusai-vagen-480.webp",
+        "width": 480,
+        "height": 332,
+        "bytes": 29376,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/hokusai-vagen/hokusai-vagen-960.webp",
+        "width": 960,
+        "height": 664,
+        "bytes": 126348,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/hokusai-vagen/hokusai-vagen-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 32516,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/hokusai-vagen/hokusai-vagen-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 97244,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Katsushika Hokusai",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1952.343_-_Under_the_Wave_off_Kanagawa_(Kanagawa_oki_nami.jpg",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Japan (Edo-/Edotid), exemplar på Art Institute of Chicago",
+      "verifiedBy": "Commons-filsidans beskrivning (en av tre exemplar i Art Institute of Chicagos samling)"
+    },
+    "year": {
+      "value": "1825–1838",
+      "verifiedBy": "Commons-filsidans datumfält (från 1825 till 1838)"
+    },
+    "caption": "Katsushika Hokusai: ”Under vågen utanför Kanagawa” (Den stora vågen), träsnitt från Edotiden (enligt Commons mellan 1825 och 1838), ett exemplar i Art Institute of Chicagos samling. Bilden är ett historiskt original.",
+    "alt": "Träsnitt av en jättelik blå våg med skummande toppar som reser sig över tre långa båtar, med berget Fuji som en liten kon i bakgrunden under en rosa himmel.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Små figurer i båtarna är en del av konstverket.",
+    "usedIn": [
+      "t09-k02"
+    ]
+  },
+  {
     "id": "iga-kambe-stationsskyltar",
     "kind": "contemporary-photo",
     "variants": [
@@ -1122,6 +1347,81 @@
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
       "t04-k03"
+    ]
+  },
+  {
+    "id": "kenroku-en-lykta",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/kenroku-en-lykta/kenroku-en-lykta-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 42904,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/kenroku-en-lykta/kenroku-en-lykta-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 167996,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/kenroku-en-lykta/kenroku-en-lykta-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 48270,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/kenroku-en-lykta/kenroku-en-lykta-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 132454,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.35,
+      "y": 0.5
+    },
+    "creator": "Balon Greyjoy",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20190705_Kenroku-en-5.jpg",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Kenroku-en, Kanazawa",
+      "verifiedBy": "Commons-filsidans beskrivning (Kenroku-en Park in Kanazawa, Ishikawa Prefecture) och kategorier"
+    },
+    "year": {
+      "value": "2019",
+      "verifiedBy": "Commons-filsidans datumfält (5 juli 2019)"
+    },
+    "caption": "Stenlykta vid en damm i trädgården Kenroku-en i Kanazawa, juli 2019. Japanska trädgårdar planeras ofta som komponerade landskap med sten, vatten och träd.",
+    "alt": "En stenlykta på en liten udde vid en damm omgiven av tallar, buskar och mossa, med bergskedja i fjärran.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t09-k01"
     ]
   },
   {
@@ -2677,7 +2977,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t03-k02"
+      "t03-k02",
+      "t09-k05"
     ]
   },
   {
@@ -2894,7 +3195,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
-      "t04-k03"
+      "t04-k03",
+      "t09-k04"
     ]
   },
   {

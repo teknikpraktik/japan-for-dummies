@@ -1,0 +1,313 @@
+{
+  "id": "t09-k02",
+  "slug": "konst-och-hantverk",
+  "themeId": "kultur",
+  "order": 2,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Konst och hantverk",
+  "summary": "Från ukiyo-e och keramik till textil och lack. Kapitlet visar hur hantverk lever kvar och hur det möter samtiden.",
+  "objectives": [
+    "Känna igen några konstformer",
+    "Förstå hantverkets sammanhang och dess utmaningar",
+    "Ställa frågor på museum och verkstäder"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "En av världens mest kända bilder, en vågs topp som en klo över båtar och berget i fjärran, tillkom som massproducerade träsnitt. Hur kan något massproducerat bli konst?"
+  },
+  "sections": [
+    {
+      "id": "ukiyoe",
+      "heading": "Ukiyo-e: bilder av den flytande världen",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Ukiyo-e** är träsnitt och målningar från Edotiden (omkring 1600–1867). Ordet *ukiyo* syftar på nöjeskvarteren i städerna, och de tidiga bilderna visar teaterskådespelare, skönheter och scener från staden. Träsnittstekniken går tillbaka till 700-talet, då den användes för buddhistiska skrifter. Fullfärgstryck (*nishiki-e*) uppstod omkring 1764."
+        },
+        {
+          "type": "p",
+          "text": "På 1800-talet blev landskap ett stort tema genom **Hokusai** och **Hiroshige**, delvis kopplat till att fler reste. Hokusais *Trettiosex vyer av berget Fuji* (där Den stora vågen ingår) och Hiroshiges vyer är bland de mest kända. Bilderna framställdes av ett team: en konstnär, en snidare och en tryckare, och trycktes i många exemplar, vilket gjorde dem prisvärda för många."
+        }
+      ]
+    },
+    {
+      "id": "hantverk",
+      "heading": "Keramik, textil, lack och papper",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan har en lång tradition av hantverk: **keramik** (som raku och arita), **lackarbeten** (urushi), **textil** som indigofärgat tyg, **handgjort papper** (washi), svärd och knivar, bambu och trä. Många föremål är avsedda för vardagen, till exempel skålar och kärl, medan andra är konst. Idén att reparera, till exempel med kintsugi (att laga keramik med lack och guld), är också känd."
+        },
+        {
+          "type": "p",
+          "text": "Hantverket kan vara knutet till en plats: orter är kända för sin lera, sitt papper eller sitt tyg, och kunskapen går ofta vidare i familjer eller verkstäder."
+        }
+      ]
+    },
+    {
+      "id": "framtid",
+      "heading": "Hantverk i samtiden",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Flera hantverk har svårt att hitta nya utövare, och verkstäder får färre lärlingar. Samtidigt möter hantverket samtiden: designers samarbetar med hantverkare, produkter säljs internationellt och turister kan prova själva på workshops. Vissa hantverkstraditioner har fått status som kulturarv."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Fråga i verkstaden",
+          "text": "På museum och i verkstäder: fråga vem som gjort föremålet, hur lång tid det tar, hur man lär sig och vad som är svårast. Fråga innan du tar bilder."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "ukiyoe",
+      "title": "Ukiyo-e",
+      "prompt": "Vad betyder ukiyo-e ungefär?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bilder av den flytande världen (nöjeskvarteren)",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Bilder av tempel",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Bilder av mat",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "kintsugi",
+      "title": "Kintsugi",
+      "prompt": "Vad är kintsugi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att laga keramik med lack och guld",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ett slags tyg",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En måltid",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "verkstad",
+      "title": "I en verkstad",
+      "situation": "Du besöker en keramikverkstad och vill ta bilder på arbetet.",
+      "question": "Vad gör du först?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Frågar om det är okej.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Fotograferar direkt med blixt.",
+          "correct": false,
+          "feedback": "Fråga hellre."
+        },
+        {
+          "id": "c",
+          "text": "Tar föremål utan att fråga.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka hantverksföremål ser du i butiker och museer?",
+    "Vilka frågor kan du ställa till en hantverkare?",
+    "Vad skiljer industri, hantverk och konst?"
+  ],
+  "reflection": "Vilka föremål i ditt hem är handgjorda? Vilket värde ger det?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "När blomstrade ukiyo-e främst?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Under Edotiden",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Under stenåldern",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "På 2000-talet",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Under Heiantiden",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vilka är två kända ukiyo-e-konstnärer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hokusai och Hiroshige",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Tange och Tezuka",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Dōgen och Eisai",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Perry och Harris",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad är washi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Handgjort japanskt papper",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ett svärd",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tåg",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En maträtt",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vem gör ett träsnitt enligt kapitlet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ett team: konstnär, snidare och tryckare",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Alltid en ensam person",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En maskin",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En robot",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en utmaning för hantverk idag?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Få nya utövare",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "För många lärlingar",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ingen efterfrågan någonsin",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inga verkstäder",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "clark-ukiyoe",
+    "brooklyn-ukiyoe",
+    "christies-woodblocks"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Ukiyo-e-uppgifterna (tidsperiod, nishiki-e 1764, Hokusai och Hiroshige) kommer från sammanfattade sökresultat. Källorna anger olika startår (1603 eller 1615).",
+      "Beskrivningen av keramik, lack, textil, washi, kintsugi och kulturarvsstatus är allmän bakgrund som inte kontrollerades. Sökningen gav ingen information om UNESCO-status.",
+      "Beskrivningen av hantverkets utmaningar är förenklad.",
+      "Hokusai-bilden (Art Institute of Chicago, CC0) är ett av flera exemplar av samma träsnitt. Dateringen (1825–1838) följer Commons och varierar mellan källor."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t09-k02-hero",
+    "imageId": "hokusai-vagen",
+    "brief": "Konsthantverk eller ukiyo-e, till exempel ett träsnitt från Edotiden."
+  }
+}
