@@ -6,7 +6,7 @@
   "status": "published",
   "contentVersion": 1,
   "title": "Dina första japanska ord: hälsa, tacka och be om hjälp",
-  "summary": "Tolv enkla uttryck som tar dig långt: hälsa, tacka, ursäkta dig och be om hjälp. Med japansk skrift, romaji, svensk betydelse och uttalstips.",
+  "summary": "Fjorton enkla uttryck som tar dig långt: hälsa, tacka, ursäkta dig och be om hjälp. Med japansk skrift, romaji, svensk betydelse och uttalstips.",
   "objectives": [
     "Hälsa och tacka med några vanliga uttryck",
     "Fånga någons uppmärksamhet och be om hjälp artigt",
@@ -128,8 +128,8 @@
           "type": "phrases",
           "items": [
             {
-              "jp": "英語を話せますか",
-              "romaji": "Eigo o hanasemasu ka?",
+              "jp": "英語は話せますか",
+              "romaji": "Eigo wa hanasemasu ka?",
               "sv": "Kan du tala engelska?",
               "tip": "Ka i slutet gör meningen till en fråga."
             },
@@ -171,7 +171,7 @@
         },
         {
           "type": "p",
-          "text": "I Japan brukar 110 gälla polis och 119 räddningstjänst och ambulans."
+          "text": "I Japan ringer du 110 till polisen och 119 för ambulans eller brandkår."
         },
         {
           "type": "p",
@@ -265,7 +265,7 @@
     "Hur reagerar människor när du försöker säga några ord på japanska?",
     "Vilka tecken eller ord ser du upprepade gånger på skyltar? Skriv ned ett eller två och ta reda på vad de betyder."
   ],
-  "reflection": "Hur känns det att kommunicera på ett språk du knappt kan? Vad kan du göra för att mötet blir behagligt trots att orden är få?",
+  "reflection": "Hur känns det att kommunicera på ett språk du knappt kan? Vad kan du göra för att mötet ska bli behagligt trots att orden är få?",
   "quiz": [
     {
       "id": "q1",
@@ -302,7 +302,7 @@
           "id": "a",
           "text": "Arigatō gozaimasu (ありがとうございます)",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Arigatō gozaimasu är det artiga sättet att tacka."
         },
         {
           "id": "b",
@@ -412,7 +412,7 @@
     "uncertainty": [
       "Alla fraser och uttalstips bör läsas igenom av någon som kan japanska innan kapitlet används i undervisning.",
       "Svenska uttalshjälp är förenklade och inte exakta.",
-      "Nödnumren 110 och 119 är allmän kännedom och har inte kontrollerats i denna körning."
+      "Numren 110 och 119 är kontrollerade mot JNTO:s informationsblad (se kapitlet om säkerhet)."
     ],
     "checkBeforeTravel": [
       "Nödnummer och gruppens nödplan"

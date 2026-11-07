@@ -100,19 +100,19 @@
           "id": "a",
           "text": "Privata extraskolor på kvällar och helger.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Juku är privata extraskolor på kvällar och helger."
         },
         {
           "id": "b",
           "text": "Ett skolmåltidsprogram.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Juku är privata extraskolor, inte ett måltidsprogram."
         },
         {
           "id": "c",
           "text": "En typ av lärare.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Juku är privata extraskolor, inte en typ av lärare."
         }
       ]
     },
@@ -164,17 +164,17 @@
         {
           "id": "b",
           "text": "Tre år",
-          "feedback": "Fel."
+          "feedback": "Fel. Skolgången är obligatorisk i nio år, sex år i grundskola och tre i högstadium."
         },
         {
           "id": "c",
           "text": "Tolv år",
-          "feedback": "Fel."
+          "feedback": "Fel. Skolgången är obligatorisk i nio år, och gymnasiet är ett val även om de flesta fortsätter."
         },
         {
           "id": "d",
           "text": "Ingen",
-          "feedback": "Fel."
+          "feedback": "Fel. Skolgången är obligatorisk i nio år."
         }
       ]
     },
@@ -186,22 +186,22 @@
           "id": "a",
           "text": "Ett nationellt prov för universitetsansökan",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Common Test for University Admission är det gemensamma nationella provet för universitet."
         },
         {
           "id": "b",
           "text": "En lärarexamen",
-          "feedback": "Fel."
+          "feedback": "Fel. Common Test är ett prov för universitetsansökan, inte en lärarexamen."
         },
         {
           "id": "c",
           "text": "Ett hälsotest",
-          "feedback": "Fel."
+          "feedback": "Fel. Common Test är ett prov för universitetsansökan, inte ett hälsotest."
         },
         {
           "id": "d",
           "text": "Ett körkort",
-          "feedback": "Fel."
+          "feedback": "Fel. Common Test är ett prov för universitetsansökan, inte ett körkort."
         }
       ]
     },
@@ -218,17 +218,17 @@
         {
           "id": "b",
           "text": "1 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Enligt branschuppskattningen går ungefär 50–70 procent på juku, så långt fler än 1 procent."
         },
         {
           "id": "c",
           "text": "100 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Det är långt ifrån alla som går på juku, uppskattningsvis 50–70 procent."
         },
         {
           "id": "d",
           "text": "5 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Enligt branschuppskattningen går ungefär 50–70 procent på juku, så långt fler än 5 procent."
         }
       ]
     },
@@ -240,22 +240,22 @@
           "id": "a",
           "text": "Systemet ger både motivation och stress, och erfarenheterna varierar.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Prov som väger tungt kan ge både motivation och stress, och elevernas erfarenheter varierar."
         },
         {
           "id": "b",
           "text": "Alla mår dåligt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Många elever trivs, och bilden av ett ”examenshelvete” är förenklad."
         },
         {
           "id": "c",
           "text": "Alla trivs.",
-          "feedback": "Fel."
+          "feedback": "Fel. Många elever beskriver långa kvällar och stress, så erfarenheterna varierar."
         },
         {
           "id": "d",
           "text": "Ingen läser.",
-          "feedback": "Fel."
+          "feedback": "Fel. Provresultat väger tungt och många elever pluggar mycket, bland annat på juku."
         }
       ]
     },
@@ -267,22 +267,22 @@
           "id": "a",
           "text": "Fråga och lyssna utan att döma.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet råder dig att fråga jämnåriga hur de tänker, utan att döma."
         },
         {
           "id": "b",
           "text": "Säga att det är hemskt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet råder dig att inte säga att systemet är hårt, eftersom många trivs."
         },
         {
           "id": "c",
           "text": "Säga att ditt eget är bättre.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet råder dig att inte jämföra och säga att ”vårt är bättre”."
         },
         {
           "id": "d",
           "text": "Aldrig prata om skolan.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår i stället att du frågar jämnåriga hur de tänker om framtiden."
         }
       ]
     }

@@ -17,7 +17,7 @@ interface Props {
   overviewHref?: string;
 }
 
-/** Ordning: seed 0 = författarens ordning, annars blandad (omförsök). */
+/** Ordning: seed 0 = författarens ordning (äldre sparade utkast), annars blandad. */
 function arrange(questions: QuizQuestion[], seed: number): QuizQuestion[] {
   if (seed === 0) return questions;
   return seededShuffle(questions, seed).map((q) => ({ ...q, options: seededShuffle(q.options, seed + hashString(q.id)) }));
@@ -31,7 +31,7 @@ export function Quiz({ chapterId, contentVersion, questions, nextHref, overviewH
   const progress = state.chapters[chapterId];
 
   function start() {
-    const seed = progress?.last ? 1 + Math.floor(Math.random() * 2_000_000_000) : 0;
+    const seed = 1 + Math.floor(Math.random() * 2_000_000_000);
     progressStore.markStarted(chapterId, contentVersion);
     progressStore.setDraft(chapterId, { seed, signature, answers: {}, finished: false });
   }
@@ -43,7 +43,7 @@ export function Quiz({ chapterId, contentVersion, questions, nextHref, overviewH
         <p aria-busy="true">Laddar test…</p>
       ) : !draft ? (
         <div className="card space-y-3">
-          <p>Fem frågor. Fyra rätt ger markeringen <strong>Klar</strong>. Du får förklaring till alla svar, ingen tidspress, och du kan försöka igen så många gånger du vill. Dina svar sparas om sidan laddas om.</p>
+          <p>Fem frågor. Fyra rätt ger markeringen <strong>Klar</strong>. Efter varje fråga ser du rätt svar, alternativen står i blandad ordning, du har ingen tidspress och du kan försöka igen så många gånger du vill. Dina svar sparas om sidan laddas om.</p>
           {progress?.best && <ResultSummary best={progress.best.score} last={progress.last?.score} />}
           <button className="btn btn-primary" onClick={start} data-testid="start-quiz">
             {progress?.last ? "Gör testet igen" : "Starta testet"}

@@ -24,22 +24,22 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japan har få egna fossila energikällor och importerar mycket av sin olja, gas och kol. Enligt en tankesmedjas sammanställning stod **fossila bränslen för cirka 69 procent** av elen 2023, och Japan har den högsta andelen kolkraft av G7-länderna. **Kärnkraft** stod för omkring 7,6–8,5 procent (källorna skiljer sig) och **förnybart** utöver vindkraft (vattenkraft och bioenergi) för cirka 12 procent. **Vindkraft** var bara cirka 0,9 procent, lägst i G7."
+          "text": "Japan har få egna fossila energikällor och importerar mycket av sin olja, gas och kol. Enligt handelsdepartementet METI stod **fossila bränslen för cirka 69 procent** av elen budgetåret 2023, och enligt en tankesmedja har Japan den högsta andelen kolkraft av G7-länderna. **Kärnkraft** stod för cirka 8,5 procent. **Förnybart** stod för cirka 23 procent: **solkraft** var störst med cirka 10 procent, följd av vattenkraft (cirka 8 procent), bioenergi (cirka 4 procent) och vindkraft (cirka 1 procent)."
         },
         {
           "type": "facts",
           "items": [
             {
               "label": "Fossila bränslen",
-              "value": "Cirka 69 procent av elen (2023)"
+              "value": "Cirka 69 procent av elen (budgetåret 2023)"
             },
             {
               "label": "Kärnkraft",
-              "value": "Cirka 7,6–8,5 procent (2023)"
+              "value": "Cirka 8,5 procent (budgetåret 2023)"
             },
             {
-              "label": "Vind",
-              "value": "Cirka 0,9 procent (2023)"
+              "label": "Förnybart totalt",
+              "value": "Cirka 23 procent, varav sol cirka 10 (budgetåret 2023)"
             }
           ]
         }
@@ -58,7 +58,7 @@
             },
             {
               "when": "11 mars 2011",
-              "text": "En mycket stor jordbävning och tsunami (se temat om geografi) orsakar en olycka vid kärnkraftverket Fukushima Daiichi."
+              "text": "En mycket stor jordbävning och tsunami (se temat [Geografi, regioner, klimat och natur](/utbildning/geografi/)) orsakar en olycka vid kärnkraftverket Fukushima Daiichi."
             },
             {
               "when": "Därefter",
@@ -76,7 +76,7 @@
         },
         {
           "type": "p",
-          "text": "Arbetet med att avveckla anläggningen har pågått i decennier. Internationella atomenergiorganet IAEA bedömde att planen för vattnet stämde med internationella säkerhetsstandarder: reningssystemet ALPS tar bort 62 radioaktiva ämnen men inte tritium, som späds ut. Grannländer och lokala fiskare har uttryckt oro."
+          "text": "Avvecklingen av anläggningen började efter olyckan 2011 och beräknas ta 30–40 år, med mål 2041–2051. Internationella atomenergiorganet IAEA bedömde att planen för vattnet stämde med internationella säkerhetsstandarder: reningssystemet ALPS tar bort 62 radioaktiva ämnen men inte tritium, som späds ut. Grannländer och lokala fiskare har uttryckt oro."
         }
       ]
     },
@@ -106,19 +106,19 @@
           "id": "a",
           "text": "Fossila bränslen",
           "correct": true,
-          "feedback": "Rätt, cirka 69 procent enligt en sammanställning."
+          "feedback": "Rätt, cirka 69 procent enligt METI (budgetåret 2023)."
         },
         {
           "id": "b",
           "text": "Kärnkraft",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kärnkraften stod för cirka 8,5 procent, långt under de fossila bränslena."
         },
         {
           "id": "c",
           "text": "Vindkraft",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Vindkraft stod för cirka 1 procent av elen."
         }
       ]
     },
@@ -132,19 +132,19 @@
           "id": "a",
           "text": "Den föll kraftigt men har ökat långsamt igen.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kärnkraften stängdes ned efter olyckan, och andelen har ökat långsamt när reaktorer startat om."
         },
         {
           "id": "b",
           "text": "Den ökade direkt.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Andelen föll nästan till noll efter olyckan."
         },
         {
           "id": "c",
           "text": "Den påverkades inte.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Efter olyckan stängdes kärnkraften ned och andelen föll kraftigt."
         }
       ]
     },
@@ -159,19 +159,19 @@
           "id": "a",
           "text": "Det stämmer inte: en del reaktorer har startat om, och frågan är omdiskuterad.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En del reaktorer har startat om efter nya säkerhetskontroller, och frågan är omdiskuterad."
         },
         {
           "id": "b",
           "text": "Det stämmer.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. En del reaktorer har startat om, så all kärnkraft är inte nedlagd."
         },
         {
           "id": "c",
           "text": "Japan har aldrig haft kärnkraft.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Före 2011 stod kärnkraften för ungefär en tredjedel av elen."
         }
       ]
     }
@@ -191,22 +191,22 @@
           "id": "a",
           "text": "2011",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Olyckan vid Fukushima Daiichi inträffade den 11 mars 2011."
         },
         {
           "id": "b",
           "text": "1995",
-          "feedback": "Fel."
+          "feedback": "Fel. Olyckan inträffade 2011, efter jordbävningen och tsunamin."
         },
         {
           "id": "c",
           "text": "2023",
-          "feedback": "Fel."
+          "feedback": "Fel. År 2023 började behandlat vatten släppas ut, men olyckan inträffade 2011."
         },
         {
           "id": "d",
           "text": "1964",
-          "feedback": "Fel."
+          "feedback": "Fel. Olyckan inträffade 2011, inte 1964."
         }
       ]
     },
@@ -218,22 +218,22 @@
           "id": "a",
           "text": "Cirka 69 procent",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Fossila bränslen stod för cirka 69 procent av elen budgetåret 2023."
         },
         {
           "id": "b",
           "text": "Cirka 5 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Fossila bränslen stod för cirka 69 procent, långt mer än 5."
         },
         {
           "id": "c",
           "text": "Cirka 100 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Fossila bränslen stod för cirka 69 procent, och resten kom från kärnkraft och förnybart."
         },
         {
           "id": "d",
           "text": "Cirka 20 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Fossila bränslen stod för cirka 69 procent, inte 20."
         }
       ]
     },
@@ -245,49 +245,49 @@
           "id": "a",
           "text": "Att planen stämde med internationella säkerhetsstandarder",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. IAEA bedömde att planen stämde med internationella säkerhetsstandarder."
         },
         {
           "id": "b",
           "text": "Att det var förbjudet",
-          "feedback": "Fel."
+          "feedback": "Fel. IAEA bedömde att planen stämde med internationella säkerhetsstandarder."
         },
         {
           "id": "c",
           "text": "Att det var oviktigt",
-          "feedback": "Fel."
+          "feedback": "Fel. IAEA bedömde planen, som gäller en omdiskuterad fråga för grannländer och fiskare."
         },
         {
           "id": "d",
           "text": "Att det aldrig skedde",
-          "feedback": "Fel."
+          "feedback": "Fel. Utsläppet av behandlat vatten har pågått sedan 2023."
         }
       ]
     },
     {
       "id": "q4",
-      "prompt": "Vilken andel hade vindkraft 2023 (ungefär)?",
+      "prompt": "Vilken var Japans största förnybara elkälla budgetåret 2023?",
       "options": [
         {
           "id": "a",
-          "text": "Under 1 procent",
+          "text": "Solkraft",
           "correct": true,
-          "feedback": "Rätt, cirka 0,9 procent."
+          "feedback": "Rätt, solkraft stod för cirka 10 procent av elen."
         },
         {
           "id": "b",
-          "text": "Cirka 50 procent",
-          "feedback": "Fel."
+          "text": "Vindkraft",
+          "feedback": "Fel. Vindkraft var cirka 1 procent."
         },
         {
           "id": "c",
-          "text": "Cirka 30 procent",
-          "feedback": "Fel."
+          "text": "Geotermisk energi",
+          "feedback": "Fel. Geotermi var under 1 procent."
         },
         {
           "id": "d",
-          "text": "Cirka 90 procent",
-          "feedback": "Fel."
+          "text": "Vågkraft",
+          "feedback": "Fel. Vågkraft ger i praktiken inget bidrag till elmixen."
         }
       ]
     },
@@ -299,28 +299,30 @@
           "id": "a",
           "text": "Använda aktuella källor.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Energimixen ändras varje år, så kapitlet rekommenderar aktuella källor."
         },
         {
           "id": "b",
           "text": "Gissa.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att man ska använda aktuella källor i stället för att gissa."
         },
         {
           "id": "c",
           "text": "Lita på gamla siffror.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet varnar för äldre siffror, inklusive kapitlets egna."
         },
         {
           "id": "d",
           "text": "Ignorera dem.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet uppmanar till att använda aktuella källor, inte att ignorera siffror."
         }
       ]
     }
   ],
   "sourceIds": [
     "e3g-japan-power",
+    "meti-fy2023-energy",
+    "fukushima-reconstruction-faq",
     "thestar-renewables-2040",
     "wnn-iaea-fukushima-water"
   ],
@@ -330,7 +332,7 @@
     "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
     "status": "needs-human-review",
     "uncertainty": [
-      "Elmixsiffrorna kommer från en tankesmedjas sammanställning (E3G) och källorna skiljer sig om kärnkraftens andel 2023 (7,6 eller 8,5 procent).",
+      "Elmixsiffrorna avser budgetåret 2023 (METI). Kalenderårssiffror från andra källor, till exempel ISEP, skiljer sig något (sol 11,2 procent). Kolandelen i G7 är en tankesmedjas bedömning (E3G).",
       "Att kärnkraften föll från ungefär en tredjedel till nästan noll efter 2011 och att reaktorer startat om är sammanfattat ur sökresultat.",
       "Dödstalet efter jordbävningen 2011 anges inte. Vattenutsläppet 2023 bygger på IAEA-bedömningen via World Nuclear News, och perspektiven är förenklade.",
       "Kapitlet bör uppdateras med aktuella uppgifter."

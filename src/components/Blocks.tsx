@@ -2,7 +2,7 @@ import type { Block, Media } from "@/lib/schema";
 import { RichText } from "./RichText";
 import { PhotoSlot } from "./Photo";
 
-const toneLabel = { info: "Bra att veta", care: "Visa hänsyn", check: "Kontrollera" } as const;
+const toneLabel = { info: "Bra att veta", care: "Visa hänsyn", check: "Tänk på" } as const;
 
 export function Blocks({ blocks, media }: { blocks: Block[]; media: Media[] }) {
   return (

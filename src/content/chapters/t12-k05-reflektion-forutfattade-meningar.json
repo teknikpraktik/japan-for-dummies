@@ -59,7 +59,7 @@
         },
         {
           "type": "p",
-          "text": "Under resan: skriv korta anteckningar. Vad såg du, hörde du, kände du? Vad hade du förväntat dig, och vad blev annorlunda? Vad var likt det du känner igen hemifrån? Fråga människor du möter hur de ser på saker, och lyssna. Ta bilder med hänsyn (se kapitlet om hänsyn i vardagen)."
+          "text": "Under resan: skriv korta anteckningar. Vad såg du, hörde du, kände du? Vad hade du förväntat dig, och vad blev annorlunda? Vad var likt det du känner igen hemifrån? Fråga människor du möter hur de ser på saker, och lyssna. Ta bilder med hänsyn (se kapitlet [Hänsyn i vardagen: tåg, köer och fotografering](/kapitel/hansyn-i-vardagen/))."
         },
         {
           "type": "p",
@@ -85,7 +85,7 @@
             "Vilka likheter med hemma märkte du?",
             "Vilka frågor har du kvar?"
           ],
-          "textAlternative": "Utan bild: skriv fem meningar om hur din bild av Japan har ändrats, och en fråga du vill få svar på.",
+          "textAlternative": "Skriv fem meningar om hur din bild av Japan har ändrats, och en fråga du vill få svar på.",
           "imageSlotIds": [
             "t12-k05-hero"
           ]
@@ -134,19 +134,19 @@
           "id": "a",
           "text": "Skriva ner vad jag tror, är nyfiken på och är osäker på.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Att skriva ner vad du tror, är nyfiken på och är osäker på hjälper dig att märka vad som förvånar dig."
         },
         {
           "id": "b",
           "text": "Inte tänka alls.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår tvärtom att du skriver ner dina föreställningar före resan."
         },
         {
           "id": "c",
           "text": "Läsa bara en bok.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Förberedelsen i kapitlet är att skriva ner vad du tror, är nyfiken på och är osäker på."
         }
       ]
     },
@@ -161,7 +161,7 @@
           "id": "a",
           "text": "Jag såg ett litet urval. Här är vad som förvånade mig och vad jag undrar över.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Svaret skiljer på ett litet urval och det som förvånade, och visar att du inte vet allt om landet."
         },
         {
           "id": "b",
@@ -193,22 +193,22 @@
           "id": "a",
           "text": "Att göra något om en person till något om alla",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En generalisering gör något om en person till något om alla."
         },
         {
           "id": "b",
           "text": "Ett kontrollerbart faktum",
-          "feedback": "Fel."
+          "feedback": "Fel. Ett kontrollerbart faktum är något annat än en generalisering."
         },
         {
           "id": "c",
           "text": "En upplevelse",
-          "feedback": "Fel."
+          "feedback": "Fel. En upplevelse är ett intryck, inte en generalisering."
         },
         {
           "id": "d",
           "text": "En fråga",
-          "feedback": "Fel."
+          "feedback": "Fel. En fråga är inte ett påstående och därför ingen generalisering."
         }
       ]
     },
@@ -220,22 +220,22 @@
           "id": "a",
           "text": "Något du själv upplever",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ett intryck är något du själv upplever, till exempel att tåget var tyst."
         },
         {
           "id": "b",
           "text": "Alltid ett faktum",
-          "feedback": "Fel."
+          "feedback": "Fel. Ett faktum går att kontrollera, medan ett intryck är din egen upplevelse."
         },
         {
           "id": "c",
           "text": "Alltid fel",
-          "feedback": "Fel."
+          "feedback": "Fel. Ett intryck är din egen upplevelse och inte automatiskt fel."
         },
         {
           "id": "d",
           "text": "Alltid detsamma som statistik",
-          "feedback": "Fel."
+          "feedback": "Fel. Statistik går att kontrollera, medan ett intryck är din egen upplevelse."
         }
       ]
     },
@@ -247,22 +247,22 @@
           "id": "a",
           "text": "För att jämföra med vad du upplever.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Då kan du jämföra det du trodde med det du upplevde och se vad som förvånade dig."
         },
         {
           "id": "b",
           "text": "För att slippa tänka.",
-          "feedback": "Fel."
+          "feedback": "Fel. Poängen är att tänka igenom förväntningarna och jämföra dem med verkligheten."
         },
         {
           "id": "c",
           "text": "För att bevisa att du har rätt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Syftet är att lägga märke till vad som förvånar dig, inte att få rätt."
         },
         {
           "id": "d",
           "text": "För att det är obligatoriskt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Anteckningarna hjälper dig att reflektera, de är inte ett krav."
         }
       ]
     },
@@ -274,22 +274,22 @@
           "id": "a",
           "text": "Du har sett ett litet urval av landet.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Det du upplevt säger mindre om hela landet än om det du faktiskt sett."
         },
         {
           "id": "b",
           "text": "Du vet allt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Efter en kort resa har du sett ett litet urval, inte allt."
         },
         {
           "id": "c",
           "text": "Det finns inget att lära.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet uppmuntrar till att ta med sig nya frågor och lära sig mer."
         },
         {
           "id": "d",
           "text": "Resan är inte verklig.",
-          "feedback": "Fel."
+          "feedback": "Fel. Resan är en verklig upplevelse, men den visar bara en del av landet."
         }
       ]
     },
@@ -301,22 +301,22 @@
           "id": "a",
           "text": "Skriva en kort sammanfattning och en fråga du har kvar.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En kort sammanfattning och en fråga du har kvar hjälper dig att ta med dig lärdomar och fortsätta lära."
         },
         {
           "id": "b",
           "text": "Aldrig mer tänka på det.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår att du går tillbaka till dina anteckningar och sammanfattar."
         },
         {
           "id": "c",
           "text": "Skriva en generalisering.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet varnar för generaliseringar och vill att du skiljer upplevelse från vad du kan veta."
         },
         {
           "id": "d",
           "text": "Ljuga.",
-          "feedback": "Fel."
+          "feedback": "Fel. Reflektionen bygger på ärliga anteckningar om vad du sett och undrar över."
         }
       ]
     }

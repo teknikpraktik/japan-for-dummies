@@ -31,7 +31,7 @@
           "ordered": false,
           "items": [
             "**Varuautomater** på gator.",
-            "**Biljettautomater** till tåg och restauranger (se kapitlet om skyltar och menyer).",
+            "**Biljettautomater** till tåg och restauranger (se kapitlet [Läsa skyltar och menyer](/kapitel/skyltar-och-menyer/)).",
             "**Kortläsare** och **kontaktlös betalning** på tåg och i butiker.",
             "**Toaletter** med knappar och standardiserade symboler, sedan 2017 i stort sett likadana på kontrollpanelen."
           ]
@@ -52,7 +52,7 @@
         },
         {
           "type": "p",
-          "text": "En viktig drivkraft för automation är **brist på arbetskraft** i ett åldrande samhälle (se kapitlet om det åldrande samhället): färre i arbetsför ålder gör att företag söker sätt att göra mer med färre händer, till exempel genom automation, självbetjäning och robotar i vård och handel. Frågorna är många: vem ersätts, vilka jobb skapas, vilka uppgifter bör behållas av människor, och hur hanteras integritet och säkerhet? Teknik löser vissa problem och skapar andra, så fråga dig vem som tjänar på den, vem som betalar och vilka som kan välja bort den."
+          "text": "En viktig drivkraft för automation är **brist på arbetskraft** i ett åldrande samhälle (se kapitlet [Ett åldrande samhälle och regionala skillnader](/kapitel/aldrande-samhalle-och-regioner/)): färre i arbetsför ålder gör att företag söker sätt att göra mer med färre händer, till exempel genom automation, självbetjäning och robotar i vård och handel. Frågorna är många: vem ersätts, vilka jobb skapas, vilka uppgifter bör behållas av människor, och hur hanteras integritet och säkerhet? Teknik löser vissa problem och skapar andra, så fråga dig vem som tjänar på den, vem som betalar och vilka som kan välja bort den."
         }
       ]
     }
@@ -62,25 +62,25 @@
       "type": "multiple-choice",
       "id": "auto",
       "title": "Automater",
-      "prompt": "Vad är vanligt vid japanska gator och stationer?",
+      "prompt": "Vad är vanligt längs japanska gator och vid stationer?",
       "options": [
         {
           "id": "a",
           "text": "Varuautomater och biljettautomater.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Varuautomater och biljettautomater hör till vardagstekniken."
         },
         {
           "id": "b",
           "text": "Flygande bilar.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Flygande bilar nämns inte, utan kapitlet beskriver enkel vardagsteknik."
         },
         {
           "id": "c",
           "text": "Inga automater.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver varuautomater och biljettautomater som vanliga."
         }
       ]
     },
@@ -94,19 +94,19 @@
           "id": "a",
           "text": "Att vara en av världens ledande tillverkare av industrirobotar.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Japan är världens ledande tillverkare av industrirobotar."
         },
         {
           "id": "b",
           "text": "Att inte tillverka några.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Japan är tvärtom världens ledande tillverkare av industrirobotar."
         },
         {
           "id": "c",
           "text": "Att bara ha leksaksrobotar.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet handlar om industrirobotar, inte om leksaksrobotar."
         }
       ]
     },
@@ -143,7 +143,7 @@
     "Vilken är sällsynt jämfört med vad media visar?",
     "Hur används teknik för att hjälpa äldre?"
   ],
-  "reflection": "Vilken teknik i ditt vardagsliv skulle en besökare tycka var märklig? Vad skulle du själv tycka var märklig i Japan?",
+  "reflection": "Vilken teknik i ditt vardagsliv skulle en besökare tycka var märklig? Vad skulle du själv tycka var märkligt i Japan?",
   "quiz": [
     {
       "id": "q1",
@@ -153,22 +153,22 @@
           "id": "a",
           "text": "Brist på arbetskraft",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Brist på arbetskraft i ett åldrande samhälle driver företag mot automation."
         },
         {
           "id": "b",
           "text": "För många arbetare",
-          "feedback": "Fel."
+          "feedback": "Fel. Det är brist på arbetskraft, inte överskott, som driver på automation."
         },
         {
           "id": "c",
           "text": "Förbud",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner brist på arbetskraft som drivkraft, inte förbud."
         },
         {
           "id": "d",
           "text": "Slumpen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet förklarar drivkraften med brist på arbetskraft, inte med slumpen."
         }
       ]
     },
@@ -185,17 +185,17 @@
         {
           "id": "b",
           "text": "Cirka 1 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Enligt IFR står Japan för ungefär 38 till 45 procent, vilket är långt mer än 1 procent."
         },
         {
           "id": "c",
           "text": "Cirka 90 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Enligt IFR är andelen ungefär 38 till 45 procent, inte 90."
         },
         {
           "id": "d",
           "text": "Inget",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan är världens ledande tillverkare av industrirobotar, med ungefär 38 till 45 procent."
         }
       ]
     },
@@ -207,22 +207,22 @@
           "id": "a",
           "text": "Enkel teknik som automater och kortläsare",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Det vanliga är enkel teknik som varuautomater, biljettautomater och kortläsare."
         },
         {
           "id": "b",
           "text": "Humanoida robotar överallt",
-          "feedback": "Fel."
+          "feedback": "Fel. Människoliknande robotar är oftast demonstrationer eller försök, inte vardag."
         },
         {
           "id": "c",
           "text": "Inga maskiner",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver vardagen som full av enkel teknik som automater och kortläsare."
         },
         {
           "id": "d",
           "text": "Flygande bilar",
-          "feedback": "Fel."
+          "feedback": "Fel. Flygande bilar nämns inte, utan kapitlet beskriver enkel och vardaglig teknik."
         }
       ]
     },
@@ -234,22 +234,22 @@
           "id": "a",
           "text": "Skilja demonstration från vardag.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet menar att robotbilden delvis är marknadsföring och att demonstrationer skiljer sig från vardagen."
         },
         {
           "id": "b",
           "text": "Tro på allt",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet varnar för att bilden av robotland delvis är marknadsföring och populärkultur."
         },
         {
           "id": "c",
           "text": "Ignorera allt",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet uppmanar till försiktighet, inte till att avfärda all teknik."
         },
         {
           "id": "d",
           "text": "Bara titta på bilder",
-          "feedback": "Fel."
+          "feedback": "Fel. Bilder kan vara demonstrationer eller marknadsföring och visar inte hur vardagen ser ut."
         }
       ]
     },
@@ -261,22 +261,22 @@
           "id": "a",
           "text": "Vem tjänar på den och vem betalar?",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet uppmanar oss att fråga vem som tjänar på tekniken, vem som betalar och vilka som kan välja bort den."
         },
         {
           "id": "b",
           "text": "Vad kostar internet?",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlets frågor gäller vem som tjänar på tekniken och vem som betalar för den."
         },
         {
           "id": "c",
           "text": "Vilken färg har den?",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlets frågor gäller vem som tjänar på tekniken och vem som betalar för den."
         },
         {
           "id": "d",
           "text": "Är den gammal?",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlets frågor gäller vem som tjänar på tekniken och vem som betalar för den."
         }
       ]
     }

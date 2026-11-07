@@ -44,7 +44,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Toaletter markeras ofta med **男** (man) och **女** (kvinna), förutom piktogram. Tecknen är användbara även för att inte stiga på fel vagn (se kapitlet om jämställdhet). Toaletter som tillverkats sedan 2017 använder samma standardiserade symboler på kontrollpanelen, så de ser likadana ut även om texten är på japanska: stanna upp, titta på bilden och jämför med dina tecken innan du trycker på något."
+          "text": "Toaletter markeras ofta med **男** (man) och **女** (kvinna), förutom piktogram. Tecknen är användbara även för att inte stiga på fel vagn (se kapitlet [Jämställdhet i hem, skola och arbetsliv](/kapitel/jamstalldhet/)). Toaletter som tillverkats sedan 2017 använder samma standardiserade symboler på kontrollpanelen, så de ser likadana ut även om texten är på japanska: stanna upp, titta på bilden och jämför med dina tecken innan du trycker på något."
         }
       ]
     },
@@ -116,13 +116,13 @@
           "id": "a",
           "text": "För att visa vad rätterna ser ut som, så man kan peka.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Plastmodellerna visar hur rätterna ser ut, så att man kan peka."
         },
         {
           "id": "b",
           "text": "För att man ska äta dem.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Plastmodellerna är till för att visa rätterna, inte för att ätas."
         },
         {
           "id": "c",
@@ -202,7 +202,7 @@
           "id": "a",
           "text": "Yen",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Tecknet 円 betyder yen och är bra att känna igen vid priser och biljettautomater."
         },
         {
           "id": "b",
@@ -229,12 +229,12 @@
           "id": "a",
           "text": "Ladda ned japanska i förväg och testa dem.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet råder dig att ladda ned japanskan för offline-läge och testa appen hemma."
         },
         {
           "id": "b",
           "text": "Vänta tills du är på plats.",
-          "feedback": "Fel."
+          "feedback": "Fel. Appen bör laddas ned och testas i förväg, eftersom offlineläget kan fungera sämre på menyer."
         },
         {
           "id": "c",
@@ -244,7 +244,7 @@
         {
           "id": "d",
           "text": "Bara använda dem för tecken.",
-          "feedback": "Fel."
+          "feedback": "Fel. Många appar kan även översätta text via kameran, men de bör testas i förväg."
         }
       ]
     },
@@ -256,17 +256,17 @@
           "id": "a",
           "text": "Skriva ner dem på japanska på ett kort.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ett kort på japanska med dina allergier är ett säkert sätt att visa vad du inte tål."
         },
         {
           "id": "b",
           "text": "Gissa.",
-          "feedback": "Fel."
+          "feedback": "Fel. Allergier ska skrivas ner på ett kort, inte gissas."
         },
         {
           "id": "c",
           "text": "Äta ändå.",
-          "feedback": "Fel."
+          "feedback": "Fel. Vid allergi ska du inte ta risken, utan visa ett kort på japanska."
         },
         {
           "id": "d",
@@ -288,17 +288,17 @@
         {
           "id": "b",
           "text": "En typ av tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. 定食 (teishoku) är en måltid som serveras som set med ris och soppa."
         },
         {
           "id": "c",
           "text": "En toalett",
-          "feedback": "Fel."
+          "feedback": "Fel. 定食 (teishoku) är en måltid som serveras som set med ris och soppa."
         },
         {
           "id": "d",
           "text": "Ett tecken",
-          "feedback": "Fel."
+          "feedback": "Fel. 定食 (teishoku) är en måltid och inte ett tecken för något annat."
         }
       ]
     }

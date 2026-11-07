@@ -34,7 +34,7 @@
               "text": "Träsnittstekniken används för buddhistiska skrifter."
             },
             {
-              "when": "Edotiden, omkring 1600–1867",
+              "when": "Edotiden, 1603–1867",
               "text": "Ukiyo-e blomstrar."
             },
             {
@@ -49,7 +49,7 @@
         },
         {
           "type": "p",
-          "text": "På 1800-talet blev landskap ett stort tema genom **Hokusai** och **Hiroshige**, delvis kopplat till att fler reste. Hokusais *Trettiosex vyer av berget Fuji* (där Den stora vågen ingår) och Hiroshiges vyer är bland de mest kända. Bilderna framställdes av ett team: en konstnär, en snidare och en tryckare, och trycktes i många exemplar, vilket gjorde dem prisvärda för många."
+          "text": "Från de två konstnärerna är det främst landskapen som blivit världsberömda. Hokusais *Trettiosex vyer av berget Fuji* (där Den stora vågen ingår) och Hiroshiges vyer är bland de mest kända. Bilderna framställdes av ett team: en konstnär, en snidare och en tryckare, och trycktes i många exemplar, vilket gjorde dem prisvärda för många."
         },
         {
           "type": "photo",
@@ -110,19 +110,19 @@
           "id": "a",
           "text": "Bilder av den flytande världen (nöjeskvarteren)",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet förklarar att ukiyo syftar på nöjeskvarteren i städerna och att ukiyo-e är bilder därifrån."
         },
         {
           "id": "b",
           "text": "Bilder av tempel",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. De tidiga bilderna visar teaterskådespelare, skönheter och stadsscener, inte tempel."
         },
         {
           "id": "c",
           "text": "Bilder av mat",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver inte ukiyo-e som bilder av mat."
         }
       ]
     },
@@ -136,19 +136,19 @@
           "id": "a",
           "text": "Att laga keramik med lack och guld",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kintsugi är idén att reparera keramik med lack och guld."
         },
         {
           "id": "b",
           "text": "Ett slags tyg",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kintsugi gäller reparation av keramik, inte tyg."
         },
         {
           "id": "c",
           "text": "En måltid",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kintsugi är ett sätt att laga keramik, inte en måltid."
         }
       ]
     },
@@ -163,7 +163,7 @@
           "id": "a",
           "text": "Frågar om det är okej.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet rekommenderar att du frågar innan du tar bilder i en verkstad."
         },
         {
           "id": "b",
@@ -175,7 +175,7 @@
           "id": "c",
           "text": "Tar föremål utan att fråga.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att man ska fråga, och att ta föremål utan att fråga är inte okej."
         }
       ]
     }
@@ -195,22 +195,22 @@
           "id": "a",
           "text": "Under Edotiden",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ukiyo-e blomstrade under Edotiden, 1603–1867."
         },
         {
           "id": "b",
           "text": "Under stenåldern",
-          "feedback": "Fel."
+          "feedback": "Fel. Ukiyo-e hör till Edotiden, inte till stenåldern."
         },
         {
           "id": "c",
           "text": "På 2000-talet",
-          "feedback": "Fel."
+          "feedback": "Fel. Ukiyo-e blomstrade under Edotiden, långt före 2000-talet."
         },
         {
           "id": "d",
           "text": "Under Heiantiden",
-          "feedback": "Fel."
+          "feedback": "Fel. Ukiyo-e blomstrade under Edotiden, inte under Heiantiden."
         }
       ]
     },
@@ -222,22 +222,22 @@
           "id": "a",
           "text": "Hokusai och Hiroshige",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet nämner Hokusai och Hiroshige som de kända landskapskonstnärerna."
         },
         {
           "id": "b",
           "text": "Tange och Tezuka",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner Hokusai och Hiroshige som kända ukiyo-e-konstnärer."
         },
         {
           "id": "c",
           "text": "Dōgen och Eisai",
-          "feedback": "Fel."
+          "feedback": "Fel. Dessa namn hör inte till ukiyo-e; kapitlet nämner Hokusai och Hiroshige."
         },
         {
           "id": "d",
           "text": "Perry och Harris",
-          "feedback": "Fel."
+          "feedback": "Fel. Dessa namn nämns inte i kapitlet; de kända konstnärerna är Hokusai och Hiroshige."
         }
       ]
     },
@@ -249,22 +249,22 @@
           "id": "a",
           "text": "Handgjort japanskt papper",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Washi är handgjort papper, ett av Japans hantverk."
         },
         {
           "id": "b",
           "text": "Ett svärd",
-          "feedback": "Fel."
+          "feedback": "Fel. Washi är handgjort papper, inte ett svärd."
         },
         {
           "id": "c",
           "text": "Ett tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Washi är handgjort papper, inte ett tåg."
         },
         {
           "id": "d",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. Washi är handgjort papper, inte en maträtt."
         }
       ]
     },
@@ -276,17 +276,17 @@
           "id": "a",
           "text": "Ett team: konstnär, snidare och tryckare",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Bilderna framställdes av ett team: en konstnär, en snidare och en tryckare."
         },
         {
           "id": "b",
           "text": "Alltid en ensam person",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver träsnitten som teamarbete."
         },
         {
           "id": "c",
           "text": "En maskin",
-          "feedback": "Fel."
+          "feedback": "Fel. Träsnitten gjordes av människor i ett team, inte av en maskin."
         },
         {
           "id": "d",
@@ -303,22 +303,22 @@
           "id": "a",
           "text": "Få nya utövare",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Flera hantverk har svårt att hitta nya utövare, och verkstäder får färre lärlingar."
         },
         {
           "id": "b",
           "text": "För många lärlingar",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver motsatsen: verkstäder får färre lärlingar."
         },
         {
           "id": "c",
           "text": "Ingen efterfrågan någonsin",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner att produkter säljs internationellt och att turister provar på workshops, så efterfrågan finns."
         },
         {
           "id": "d",
           "text": "Inga verkstäder",
-          "feedback": "Fel."
+          "feedback": "Fel. Verkstäderna finns kvar, men de har svårt att få nya lärlingar."
         }
       ]
     }

@@ -68,7 +68,7 @@
         },
         {
           "type": "p",
-          "text": "Japanskan har också olika **nivåer av artighet**. Det vänliga, vanliga artiga språket (teineigo) slutar ofta på **-masu** eller **desu**. Vardagsspråk mellan vänner är mer rakt (”plain form”). Dessutom finns mycket artiga former, **sonkeigo** (att visa respekt för den man talar med) och **kenjōgo** (att vara ödmjuk om sig själv). Det är medvetet mycket att lära sig, och japaner förväntar sig inte att du kan det. Använd den artiga nivån när du kan, byt inte till slang, och fråga hellre hur någon vill bli kallad än att gissa. Ett leende, ett litet nick och ett ”tack” gör mer än en perfekt grammatik."
+          "text": "Japanskan har också olika **nivåer av artighet**. Det vänliga, vanliga artiga språket (teineigo) slutar ofta på **-masu** eller **desu**. Vardagsspråk mellan vänner är mer rakt (”plain form”). Dessutom finns mycket artiga former, **sonkeigo** (att visa respekt för den man talar med) och **kenjōgo** (att vara ödmjuk om sig själv). Det finns mycket att lära, men du behöver inte kunna allt, och japaner förväntar sig inte att du kan det. Använd den artiga nivån när du kan, byt inte till slang, och fråga hellre hur någon vill bli kallad än att gissa. Ett leende, ett litet nick och ett ”tack” gör mer än perfekt grammatik."
         }
       ]
     }
@@ -90,13 +90,13 @@
           "id": "b",
           "text": "En typ av mat.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. -san är ett artigt suffix efter namnet, inte mat."
         },
         {
           "id": "c",
           "text": "Ett tåg.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. -san är ett artigt suffix efter namnet, inte ett tåg."
         }
       ]
     },
@@ -110,7 +110,7 @@
           "id": "a",
           "text": "Efternamn först.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Japanska namn skrivs och uttalas oftast med efternamnet först."
         },
         {
           "id": "b",
@@ -122,7 +122,7 @@
           "id": "c",
           "text": "Bara förnamn.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Namnet har både efternamn och förnamn, med efternamnet först."
         }
       ]
     },
@@ -169,22 +169,22 @@
           "id": "a",
           "text": "Efternamn först",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Tanaka Hiroshi är till exempel Hiroshi av familjen Tanaka."
         },
         {
           "id": "b",
           "text": "Förnamn först",
-          "feedback": "Fel."
+          "feedback": "Fel. Japanska namn har oftast efternamnet först."
         },
         {
           "id": "c",
           "text": "Slumpvis",
-          "feedback": "Fel."
+          "feedback": "Fel. Ordningen är inte slumpvis; efternamnet kommer oftast först."
         },
         {
           "id": "d",
           "text": "Bara initialer",
-          "feedback": "Fel."
+          "feedback": "Fel. Namn består av efternamn och förnamn, med efternamnet först."
         }
       ]
     },
@@ -196,7 +196,7 @@
           "id": "a",
           "text": "-san",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. -san är neutralt och artigt och fungerar för män och kvinnor, unga och gamla."
         },
         {
           "id": "b",
@@ -223,22 +223,22 @@
           "id": "a",
           "text": "Trevligt att träffas",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Hajimemashite används vid ett första möte och betyder trevligt att träffas."
         },
         {
           "id": "b",
           "text": "Hej då",
-          "feedback": "Fel."
+          "feedback": "Fel. Hajimemashite används vid ett första möte, inte som avsked."
         },
         {
           "id": "c",
           "text": "Tack",
-          "feedback": "Fel."
+          "feedback": "Fel. Tack heter arigatō gozaimasu; hajimemashite betyder trevligt att träffas."
         },
         {
           "id": "d",
           "text": "Ursäkta",
-          "feedback": "Fel."
+          "feedback": "Fel. Ursäkta heter sumimasen; hajimemashite betyder trevligt att träffas."
         }
       ]
     },
@@ -250,22 +250,22 @@
           "id": "a",
           "text": "Det vanliga artiga språket med -masu och desu",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Teineigo är det vänliga, vanliga artiga språket som ofta slutar på -masu eller desu."
         },
         {
           "id": "b",
           "text": "Slang",
-          "feedback": "Fel."
+          "feedback": "Fel. Teineigo är det artiga språket, inte slang."
         },
         {
           "id": "c",
           "text": "Ett tecken",
-          "feedback": "Fel."
+          "feedback": "Fel. Teineigo är en artighetsnivå i språket, inte ett tecken."
         },
         {
           "id": "d",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. Teineigo är det artiga språket, inte en maträtt."
         }
       ]
     },
@@ -277,22 +277,22 @@
           "id": "a",
           "text": "Nej",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Du använder aldrig -san om dig själv."
         },
         {
           "id": "b",
           "text": "Ja alltid",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att man aldrig använder -san om sig själv."
         },
         {
           "id": "c",
           "text": "Bara på måndagar",
-          "feedback": "Fel."
+          "feedback": "Fel. Man använder aldrig -san om sig själv, oavsett dag."
         },
         {
           "id": "d",
           "text": "Bara på tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Man använder aldrig -san om sig själv, oavsett plats."
         }
       ]
     }
@@ -314,7 +314,7 @@
   },
   "hero": {
     "slotId": "t05-k03-hero",
-    "imageId": null,
+    "imageId": "bugning-meijiskrinet",
     "brief": "Hälsning eller presentation, till exempel ett namnkort eller en skylt."
   }
 }

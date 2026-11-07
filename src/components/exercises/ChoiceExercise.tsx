@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
+import { hashString, seededShuffle } from "@/lib/shuffle";
 import type { MultipleChoiceExercise, ScenarioExercise } from "@/lib/schema";
 import { OptionList } from "./OptionList";
 
@@ -11,6 +12,8 @@ export function ChoiceExercise({ exercise }: { exercise: MultipleChoiceExercise 
   const isScenario = exercise.type === "scenario";
   const chosen = exercise.options.find((o) => o.id === answered);
   const correct = exercise.options.find((o) => o.correct)!;
+  // Alternativen blandas deterministiskt per övning, så att rätt svar inte alltid står först (samma ordning på server och klient).
+  const shown = useMemo(() => seededShuffle(exercise.options, hashString(exercise.id)), [exercise.options, exercise.id]);
 
   return (
     <div className="space-y-3">
@@ -22,7 +25,7 @@ export function ChoiceExercise({ exercise }: { exercise: MultipleChoiceExercise 
       )}
       <OptionList
         legend={isScenario ? exercise.question : exercise.prompt}
-        options={exercise.options.map((o) => ({ id: o.id, text: o.text }))}
+        options={shown.map((o) => ({ id: o.id, text: o.text }))}
         value={answered ? answered : selected}
         onChange={(id) => (answered ? undefined : setSelected(id))}
         disabled={false}

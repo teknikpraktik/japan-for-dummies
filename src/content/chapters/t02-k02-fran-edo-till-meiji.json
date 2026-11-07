@@ -15,7 +15,7 @@
   "minutes": 8,
   "hook": {
     "kind": "question",
-    "text": "När du går genom Tokyo ser du järnvägar, skolor och myndigheter. Alltså något som inte fanns för 160 år sedan. Hur kunde så mycket förändras på så kort tid, och vem betalade priset?"
+    "text": "När du går genom Tokyo ser du järnvägar, skolor och myndigheter. Det fanns alltså inte för 160 år sedan. Hur kunde så mycket förändras på så kort tid, och vem betalade priset?"
   },
   "sections": [
     {
@@ -68,7 +68,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Shogunatet föll. 1867–1868 överfördes makten till kejsaren, och 1868 började **Meijiperioden** (”upplyst styre”). Daterna för själva händelsen varierar något mellan historiker. Huvudstaden flyttades till Edo, som döptes om till Tokyo, ”östra huvudstaden”."
+          "text": "Shogunatet föll. 1867–1868 överfördes makten till kejsaren, och 1868 började **Meijiperioden** (”upplyst styre”). Dateringarna för själva händelsen varierar något mellan historiker. Huvudstaden flyttades till Edo, som döptes om till Tokyo, ”östra huvudstaden”."
         },
         {
           "type": "timeline",
@@ -143,7 +143,7 @@
             "Vad ser likadant ut, och vad är helt nytt?",
             "Vem gjorde bilden och varför? Vad kan den inte visa?"
           ],
-          "textAlternative": "Utan bild: tänk på en plats nära dig. Lista tre saker som har förändrats sedan 1870-talet och två saker som kan ha funnits kvar, och fundera över vem som kunde ha dokumenterat platsen då och vad som aldrig hamnade på bild.",
+          "textAlternative": "Tänk på en plats nära dig. Lista tre saker som har förändrats sedan 1870-talet och två saker som kan ha funnits kvar, och fundera över vem som kunde ha dokumenterat platsen då och vad som aldrig hamnade på bild.",
           "imageSlotIds": [
             "t02-k02-meiji-miljo",
             "t02-k02-nutida"
@@ -165,7 +165,7 @@
         },
         {
           "id": "fordrag",
-          "text": "Fördrag med USA 1854 öppnar hamnar"
+          "text": "Fördrag med USA öppnar hamnar"
         },
         {
           "id": "meiji",
@@ -226,7 +226,7 @@
         },
         {
           "id": "c",
-          "text": "Skriva ned det som en fakta, utan fråga.",
+          "text": "Skriva ned det som ett faktum, utan fråga.",
           "feedback": "Då missar du nyansen. Hela bilden är mer sammansatt än så."
         }
       ]

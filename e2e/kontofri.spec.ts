@@ -69,7 +69,7 @@ test.describe("kontofri tjänst", () => {
     if (!(await page.getByTestId("education-nav").isVisible())) await page.getByTestId("nav-open").click();
     await expect(page.getByTestId(`nav-done-${chapter.id}`)).toContainText("Slutfört");
     await page.goto("/");
-    await expect(page.getByTestId("theme-card-geografi")).toContainText(/kapitel tillgängliga · 1 slutfört/);
+    await expect(page.getByTestId("theme-card-geografi")).toContainText(/\d+ kapitel · 1 slutfört/);
     await page.goto("/offline/");
     await expect(page.getByTestId("progress-summary")).toHaveText(/^1 av /);
     await expect(page.getByTestId("local-notice")).toContainText("Dina framsteg sparas i den här webbläsaren");
@@ -150,61 +150,15 @@ test.describe("kontofri tjänst", () => {
     for (const t of [/TOTP/i, /tvåfaktor/i, /lärare/i, /Ej fastställt av skolan/, /@gmail/, /Min utbildning/, /Offline och framsteg/]) expect(text, String(t)).not.toMatch(t);
   });
 
-  test("huvudknappen: första besöket, återbesök med påbörjat kapitel, reserv och ogiltiga värden", async ({ page }) => {
-    const cta = page.getByTestId("start-cta");
-    // Första besöket
-    await page.goto("/");
-    await expect(cta).toHaveText("Börja utbildningen");
-    await expect(cta).toHaveAttribute("href", /\/utbildning\/geografi\/$/);
-    await expect(page.getByTestId("start-cta-chapter")).toHaveCount(0);
-    // Påbörjat kapitel ger ”Fortsätt” med kapitlet och dess titel
-    await page.goto(`/kapitel/${chapter.slug}/`);
-    await page.waitForFunction((id) => localStorage.getItem("japanresan:v1:last-chapter") === id, chapter.id);
-    await page.goto("/");
-    await expect(cta).toHaveText("Fortsätt utbildningen");
-    await expect(cta).toHaveAttribute("href", new RegExp(`/kapitel/${chapter.slug}/$`));
-    await expect(page.getByTestId("start-cta-chapter")).toHaveText(`Fortsätt med: ${chapter.title}`);
-    // Slutfört kapitel är inte längre ”påbörjat”: reserv är senast valda tema
-    await page.goto(`/kapitel/${chapter.slug}/`);
-    await takeQuiz(page, chapter, 0);
-    await page.goto("/");
-    await expect(cta).toHaveText("Fortsätt utbildningen");
-    await expect(cta).toHaveAttribute("href", /\/utbildning\/geografi\/$/);
-    await expect(page.getByTestId("start-cta-chapter")).toHaveCount(0);
-    // Ogiltigt sparat kapitel och tema ignoreras utan fel
-    await page.evaluate(() => {
-      localStorage.setItem("japanresan:v1:last-chapter", "finns-inte");
-      localStorage.setItem("japanresan:v1:last-theme", "finns-inte");
-    });
-    await page.reload();
-    await expect(cta).toBeVisible();
-    await expect(cta).toHaveAttribute("href", /\/utbildning\/geografi\/$/);
-  });
-
-  test("huvudknappen byter inte text under laddning (osynlig tills lokal lagring lästs)", async ({ page }) => {
-    await page.addInitScript(() => localStorage.setItem("japanresan:v1:last-theme", "historia"));
-    const texts: string[] = [];
-    await page.exposeFunction("__cta", (t: string) => texts.push(t));
-    await page.addInitScript(() => {
-      new MutationObserver(() => {
-        const el = document.querySelector("[data-testid=start-cta]");
-        if (el) (window as unknown as { __cta: (t: string) => void }).__cta(el.textContent ?? "");
-      }).observe(document, { childList: true, subtree: true, characterData: true });
-    });
-    await page.goto("/");
-    await expect(page.getByTestId("start-cta")).toHaveText("Fortsätt utbildningen");
-    expect(new Set(texts)).toEqual(new Set(["Fortsätt utbildningen"]));
-  });
-
   test("temakort: tillgängligt innehåll och slutförda hålls isär; kommande teman är märkta och går att öppna", async ({ page }) => {
     await page.goto("/");
     const geo = page.getByTestId("theme-card-count-geografi");
-    await expect(geo).toHaveText(/^\d+ kapitel tillgängliga · 0 slutförda$/);
+    await expect(geo).toHaveText(/^\d+ kapitel · 0 slutförda$/);
     // singular/plural: ett tema med exakt ett tillgängligt kapitel säger "kapitel tillgängligt". Det kan saknas när alla teman
     // har flera publicerade kapitel, så testet kräver bara att varje räknartext har en av de två formerna.
     const counts = await page.locator("[data-testid^='theme-card-count-']").allTextContents();
     expect(counts.length).toBeGreaterThan(0);
-    for (const t of counts) expect(t).toMatch(/^(1 kapitel tillgängligt|\d+ kapitel tillgängliga) · \d+ slutförda$/);
+    for (const t of counts) expect(t).toMatch(/^\d+ kapitel · \d+ slutförda$/);
     // kommande tema: etikett, ingen framstegsindikator, men öppningsbart med kapitelöversikt
     if (UPCOMING_THEME) {
       const upcoming = page.getByTestId(`theme-card-${UPCOMING_THEME}`);
@@ -251,7 +205,6 @@ test.describe("kontofri tjänst", () => {
     await page.waitForLoadState("networkidle");
     const fig = (await page.locator("figure").first().boundingBox())!;
     const text = (await page.locator("h1").boundingBox())!;
-    const cta = (await page.getByTestId("start-cta").boundingBox())!;
     const vw = page.viewportSize()!.width;
     if (isMobile) {
       expect(fig.width).toBeLessThanOrEqual(vw);
@@ -260,7 +213,6 @@ test.describe("kontofri tjänst", () => {
       expect(fig.width).toBeGreaterThanOrEqual(370);
       expect(fig.width).toBeLessThanOrEqual(400);
       expect(text.width).toBeGreaterThan(480);
-      expect(cta.x + cta.width).toBeLessThanOrEqual(fig.x);
     }
     expect(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)).toBeLessThanOrEqual(0);
     await expect(page.getByTestId("offline-intro")).toHaveCount(0);
@@ -315,17 +267,16 @@ test.describe("kontofri tjänst", () => {
     expect(b).toEqual(a);
   });
 
-  test("Mina framsteg, första besöket: sammanfattning, ”Börja utbildningen”, bara teman med innehåll, inga tomma resultat", async ({ page }) => {
+  test("Mina framsteg, första besöket: sammanfattning, bara teman med innehåll, inga tomma resultat", async ({ page }) => {
     await page.goto("/offline/");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Mina framsteg");
     await expect(page.getByText("Här ser du dina framsteg och fortsätter där du slutade.")).toBeVisible();
     await expect(page.getByTestId("progress-summary")).toHaveText(`0 av ${pilots.length} tillgängliga kapitel klara`);
     await expect(page.getByRole("progressbar", { name: "Klara kapitel", exact: true })).toBeVisible();
-    // Nästa steg direkt under sammanfattningen
+    // Ingen ruta för nästa kapitel eller fortsättning
     const summary = (await page.getByTestId("progress-summary").boundingBox())!;
-    const next = (await page.getByTestId("next-step").boundingBox())!;
-    expect(next.y).toBeGreaterThan(summary.y);
-    await expect(page.getByTestId("continue")).toHaveText("Börja utbildningen");
+    await expect(page.getByTestId("next-step")).toHaveCount(0);
+    await expect(page.getByTestId("continue")).toHaveCount(0);
     // Bara teman med publicerade kapitel, utan ”Kommer senare”; även orörda teman visas
     const themesWithContent = new Set(pilots.map((c) => (c as unknown as { themeId: string }).themeId));
     await expect(page.locator("[data-testid^='progress-theme-']")).toHaveCount(themesWithContent.size);
@@ -336,7 +287,7 @@ test.describe("kontofri tjänst", () => {
     await expect(page.getByText("påbörjade, inte klara")).toHaveCount(0);
     // Offlinesektion och verktyg ligger längre ned, hopfällda
     const offline = (await page.locator("#offline").boundingBox())!;
-    expect(offline.y).toBeGreaterThan(next.y);
+    expect(offline.y).toBeGreaterThan(summary.y);
     for (const name of ["Installera som app", "Säkerhetskopiera eller flytta framsteg", "Hantera lagring"]) {
       const d = page.locator("details.tool", { hasText: name }).first();
       if ((await d.count()) === 0) continue; // t.ex. installationsavsnittet döljs i installerad app
@@ -347,13 +298,12 @@ test.describe("kontofri tjänst", () => {
     await expect(page.getByText(/filer|bildfiler/)).toHaveCount(0);
   });
 
-  test("Mina framsteg, delvis genomförd: fortsätt, per tema och hopfällbara testresultat utan kolumnen Senaste", async ({ page }) => {
+  test("Mina framsteg, delvis genomförd: per tema och hopfällbara testresultat utan kolumnen Senaste", async ({ page }) => {
     await page.goto(`/kapitel/${chapter.slug}/`);
     await takeQuiz(page, chapter, 0);
     await page.goto("/offline/");
     await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${pilots.length} tillgängliga kapitel klara`);
-    await expect(page.getByTestId("continue")).toHaveText("Fortsätt");
-    await expect(page.getByTestId("next-step")).not.toContainText(chapter.title); // föreslår ett annat kapitel än det klara
+    await expect(page.getByTestId("next-step")).toHaveCount(0);
     await expect(page.getByTestId("progress-theme-geografi")).toContainText(/1 av \d+ klara/);
     const results = page.getByTestId("results");
     await expect(results).not.toHaveAttribute("open", "");
@@ -372,7 +322,7 @@ test.describe("kontofri tjänst", () => {
     expect(last).toBe(5);
   });
 
-  test("Mina framsteg, allt klart: relevant åtgärd i stället för en missvisande fortsättningsknapp", async ({ page }) => {
+  test("Mina framsteg, allt klart: alla kapitel räknas som klara", async ({ page }) => {
     const done = Object.fromEntries(
       pilots.map((c) => [c.id, { startedAt: "2026-01-01T00:00:00.000Z", contentVersion: (c as unknown as { contentVersion: number }).contentVersion, best: { score: 5, at: "2026-01-01T00:00:00.000Z" }, last: { score: 5, at: "2026-01-01T00:00:00.000Z" }, completedAt: "2026-01-01T00:00:00.000Z" }]),
     );
@@ -383,9 +333,7 @@ test.describe("kontofri tjänst", () => {
     }, done);
     await page.goto("/offline/");
     await expect(page.getByTestId("progress-summary")).toHaveText(`${pilots.length} av ${pilots.length} tillgängliga kapitel klara`);
-    await expect(page.getByTestId("continue")).toHaveCount(0);
-    await expect(page.getByTestId("next-step")).toContainText("Du har klarat alla tillgängliga kapitel");
-    await expect(page.getByTestId("see-all")).toHaveAttribute("href", "/utbildning/");
+    await expect(page.getByTestId("next-step")).toHaveCount(0);
     await page.getByTestId("results").getByText("Visa testresultat").click();
     await expect(page.getByTestId("results").getByRole("row")).toHaveCount(pilots.length + 1);
   });

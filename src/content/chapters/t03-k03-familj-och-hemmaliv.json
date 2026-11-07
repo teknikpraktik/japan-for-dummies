@@ -24,18 +24,18 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bilden av tre generationer under ett tak är seglivad, men den passar bara en minoritet. Den typiska hushållsformen har förändrats över tid. Kärnfamiljer (par, med eller utan barn, eller en förälder med barn) är den största gruppen, drygt hälften av hushållen enligt Statistikbyrån. **Enpersonshushåll** är den snabbast växande: de var 34,6 procent av hushållen 2015, jämfört med cirka 23 procent 1990."
+          "text": "Bilden av tre generationer under ett tak är seglivad, men den passar bara en minoritet. Den typiska hushållsformen har förändrats över tid. Kärnfamiljer (par, med eller utan barn, eller en förälder med barn) är den största gruppen, drygt hälften av hushållen enligt Japans statistikbyrå (Statistics Bureau). **Enpersonshushåll** är den snabbast växande: de var 38,0 procent av hushållen 2020, jämfört med cirka 23 procent 1990."
         },
         {
           "type": "facts",
           "items": [
             {
-              "label": "Enpersonshushåll 2015",
-              "value": "34,6 procent"
+              "label": "Enpersonshushåll 2020",
+              "value": "38,0 procent"
             },
             {
               "label": "Genomsnittlig hushållsstorlek",
-              "value": "2,33 personer (2015), 2,98 (1990)"
+              "value": "2,21 personer (2020), 2,98 (1990)"
             },
             {
               "label": "Kärnfamiljer",
@@ -79,7 +79,7 @@
           "id": "a",
           "text": "Enpersonshushåll",
           "correct": true,
-          "feedback": "Rätt. De var 34,6 procent 2015."
+          "feedback": "Rätt. De var 38,0 procent 2020."
         },
         {
           "id": "b",
@@ -91,7 +91,7 @@
           "id": "c",
           "text": "Hushåll med tio personer",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver hushållen som mindre, och tio personer nämns inte."
         }
       ]
     },
@@ -111,13 +111,13 @@
           "id": "b",
           "text": "Paret måste ha olika efternamn.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Lagen kräver att gifta par har samma efternamn."
         },
         {
           "id": "c",
           "text": "Det finns inga regler.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Lagen kräver att gifta par har samma efternamn."
         }
       ]
     },
@@ -158,55 +158,55 @@
   "quiz": [
     {
       "id": "q1",
-      "prompt": "Vilken andel av hushållen var enpersonshushåll 2015?",
+      "prompt": "Vilken andel av hushållen var enpersonshushåll 2020?",
       "options": [
         {
           "id": "a",
-          "text": "Cirka 35 procent",
+          "text": "Cirka 38 procent",
           "correct": true,
-          "feedback": "Rätt: 34,6 procent."
+          "feedback": "Rätt: 38,0 procent."
         },
         {
           "id": "b",
           "text": "Cirka 5 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Enpersonshushållen var 38,0 procent 2020, långt över 5 procent."
         },
         {
           "id": "c",
           "text": "Cirka 80 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Enpersonshushållen var 38,0 procent 2020, inte cirka 80 procent."
         },
         {
           "id": "d",
           "text": "Cirka 50 procent",
-          "feedback": "Fel."
+          "feedback": "Fel. Enpersonshushållen var 38,0 procent 2020, inte cirka 50 procent."
         }
       ]
     },
     {
       "id": "q2",
-      "prompt": "Hur stor var den genomsnittliga hushållsstorleken 2015?",
+      "prompt": "Hur har hushållens genomsnittliga storlek utvecklats sedan 1990?",
       "options": [
         {
           "id": "a",
-          "text": "2,33 personer",
+          "text": "De har blivit mindre",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Från 2,98 personer 1990 till 2,21 år 2020."
         },
         {
           "id": "b",
-          "text": "6 personer",
-          "feedback": "Fel."
+          "text": "De har blivit större",
+          "feedback": "Fel. De har blivit mindre."
         },
         {
           "id": "c",
-          "text": "1 person",
-          "feedback": "Fel."
+          "text": "De är oförändrade",
+          "feedback": "Fel. De har minskat från 2,98 till 2,21 personer."
         },
         {
           "id": "d",
-          "text": "10 personer",
-          "feedback": "Fel."
+          "text": "De har blivit dubbelt så stora",
+          "feedback": "Fel. De har blivit mindre."
         }
       ]
     },
@@ -218,22 +218,22 @@
           "id": "a",
           "text": "Ett gemensamt efternamn",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Lagen kräver att gifta par har samma efternamn."
         },
         {
           "id": "b",
           "text": "Olika efternamn",
-          "feedback": "Fel."
+          "feedback": "Fel. Lagen kräver samma efternamn, inte olika."
         },
         {
           "id": "c",
           "text": "Dubbla efternamn",
-          "feedback": "Fel."
+          "feedback": "Fel. Lagen kräver att paret har samma efternamn."
         },
         {
           "id": "d",
           "text": "Inga namn",
-          "feedback": "Fel."
+          "feedback": "Fel. Lagen kräver att gifta par har samma efternamn."
         }
       ]
     },
@@ -245,22 +245,22 @@
           "id": "a",
           "text": "Familjerna varierar och förändras.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet visar variation i familjeformer och att de förändras över tid."
         },
         {
           "id": "b",
           "text": "Alla familjer ser likadana ut.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet betonar att ord som den japanska familjen döljer variationen."
         },
         {
           "id": "c",
           "text": "Familjer finns inte längre.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver förändrade familjeformer, inte att familjer försvinner."
         },
         {
           "id": "d",
           "text": "Bara tre generationer bor tillsammans.",
-          "feedback": "Fel."
+          "feedback": "Fel. Hushåll med flera generationer är en minoritet."
         }
       ]
     },
@@ -272,28 +272,28 @@
           "id": "a",
           "text": "Par utan barn och enpersonshushåll",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Fler par saknar barn och enpersonshushållen är den snabbast växande gruppen."
         },
         {
           "id": "b",
           "text": "Hushåll med tio personer",
-          "feedback": "Fel."
+          "feedback": "Fel. Hushållen har blivit mindre, och tio personer nämns inte."
         },
         {
           "id": "c",
           "text": "Ingen grupp",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver att enpersonshushåll och par utan barn har blivit vanligare."
         },
         {
           "id": "d",
           "text": "Bara barnfamiljer",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver att hushållen blivit mindre och att fler par saknar barn."
         }
       ]
     }
   ],
   "sourceIds": [
-    "stat-households-2015",
+    "stat-census-2020",
     "japantimes-surname-2021"
   ],
   "mediaIds": [],
@@ -302,7 +302,7 @@
     "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
     "status": "needs-human-review",
     "uncertainty": [
-      "Siffrorna om hushåll avser folkräkningen 2015. Nyare siffror finns och bör kontrolleras mot Statistikbyrån.",
+      "Siffrorna om hushåll avser folkräkningen 2020 (Statistikbyrån). Kontrollera mot nyare uppgifter när de publiceras.",
       "Påståendet att kärnfamiljer är drygt hälften bygger på en sammanfattning av Statistikbyråns data (2020).",
       "Att kvinnan i de flesta fall byter namn bygger på rapporter (över 90 procent) som inte kontrollerades mot en officiell källa.",
       "Beskrivningar av boende, pendling, arbetstider och äldres liv är allmän bakgrund som inte kontrollerades mot en källa.",

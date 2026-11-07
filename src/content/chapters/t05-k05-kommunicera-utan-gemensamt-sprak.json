@@ -32,7 +32,7 @@
           "items": [
             "**Visa** i stället för att berätta: en bild, ett foto eller en adress på mobilen.",
             "**Peka** på kartan och **skriv** siffror.",
-            "**Tala långsamt** med enkla ord och **gesta** tydligt.",
+            "**Tala långsamt** med enkla ord och **gestikulera** tydligt.",
             "Ha viktiga uppgifter, till exempel hotellets adress, sparade i telefonen."
           ]
         },
@@ -113,13 +113,13 @@
           "id": "b",
           "text": "”Nej”.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att hai kan betyda jag lyssnar eller jag förstår, inte nej."
         },
         {
           "id": "c",
           "text": "”Hej då”.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Hai betyder inte hej då; det kan betyda jag lyssnar eller jag förstår."
         }
       ]
     },
@@ -153,7 +153,7 @@
   ],
   "noticeOnTrip": [
     "Hur gör människor sig förstådda när språk inte räcker: gester, bilder, appar?",
-    "Vilka tillfällen märker du att ja och nej uttrycks försiktigt?",
+    "Vid vilka tillfällen märker du att ja och nej uttrycks försiktigt?",
     "Vilka fraser eller kort har du förberett?"
   ],
   "reflection": "Tänk på en gång när du inte förstod någon, eller inte blev förstådd. Vad hjälpte, och vad skulle du göra annorlunda?",
@@ -166,7 +166,7 @@
           "id": "a",
           "text": "Sumimasen",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Sumimasen betyder ursäkta och används för att fånga uppmärksamhet."
         },
         {
           "id": "b",
@@ -193,22 +193,22 @@
           "id": "a",
           "text": "Visa, peka, skriv och tala långsamt.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet föreslår att visa, peka, skriva och tala långsamt med enkla ord."
         },
         {
           "id": "b",
           "text": "Prata högt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår att tala långsamt med enkla ord, inte högre."
         },
         {
           "id": "c",
           "text": "Ge upp.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet visar flera strategier som ofta fungerar, och att göra sig förstådd går ofta bra."
         },
         {
           "id": "d",
           "text": "Anta att alla förstår engelska.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att den du pratar med kanske är osäker på engelska."
         }
       ]
     },
@@ -220,22 +220,22 @@
           "id": "a",
           "text": "Ja, jag lyssnar eller jag förstår",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Hai kan betyda jag lyssnar eller jag förstår, utan att personen håller med."
         },
         {
           "id": "b",
           "text": "Alltid ja",
-          "feedback": "Fel."
+          "feedback": "Fel. Hai betyder inte alltid ja i betydelsen att personen håller med."
         },
         {
           "id": "c",
           "text": "Alltid nej",
-          "feedback": "Fel."
+          "feedback": "Fel. Hai är ett ord för ja, men kan också betyda jag lyssnar eller jag förstår."
         },
         {
           "id": "d",
           "text": "Hej då",
-          "feedback": "Fel."
+          "feedback": "Fel. Hai betyder inte hej då."
         }
       ]
     },
@@ -247,7 +247,7 @@
           "id": "a",
           "text": "Förlita dig bara på dem för viktiga saker som allergier.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Appen är inte perfekt och bör inte ensam användas för allergier eller säkerhet."
         },
         {
           "id": "b",
@@ -274,12 +274,12 @@
           "id": "a",
           "text": "Konkreta frågor som ”Vilket tåg ska jag ta?”",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Konkreta frågor är bättre än ja/nej-frågor, eftersom ett svar som hai inte alltid betyder att personen håller med."
         },
         {
           "id": "b",
           "text": "Långa frågor med slang",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att korta, enkla meningar utan slang är bättre."
         },
         {
           "id": "c",
@@ -289,7 +289,7 @@
         {
           "id": "d",
           "text": "Inga frågor",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår konkreta frågor, och att be någon visa med en gest eller på kartan."
         }
       ]
     }

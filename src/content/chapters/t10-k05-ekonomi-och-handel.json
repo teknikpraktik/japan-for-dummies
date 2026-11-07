@@ -34,7 +34,7 @@
         },
         {
           "type": "p",
-          "text": "Priser i Japan kan upplevas som låga eller höga beroende på växelkurs, produkt och ort. Ett måltidspris, en tågbiljett och en inträdesbiljett kan skilja sig åt. Lokala priser i yen är mer stabila än din kostnad i kronor. Gör en budget i yen och räkna om med en marginal, ha en reserv, och kontrollera hur du betalar (se kapitlet om skyltar och menyer samt temat om praktiska resekunskaper)."
+          "text": "Priser i Japan kan upplevas som låga eller höga beroende på växelkurs, produkt och ort. Ett måltidspris, en tågbiljett och en inträdesbiljett kan skilja sig åt. Lokala priser i yen är mer stabila än din kostnad i kronor. Gör en budget i yen och räkna om med en marginal, ha en reserv, och kontrollera hur du betalar (se kapitlet [Pengar, betalning och kommunikation](/kapitel/pengar-betalning-och-kommunikation/) och temat [Praktiska resekunskaper och reflektion](/utbildning/resa/))."
         },
         {
           "type": "p",
@@ -48,11 +48,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japan är en av världens större ekonomier och en stor exportör av bilar, maskiner, elektronik och material, och importerar bland annat energi och livsmedel (se temat om miljö och energi). De största handelspartnerna är bland andra Kina och USA, men uppgifter om rangordning varierar mellan år och källor. Exporten påverkas av yenens värde: en svag yen gör japanska varor billigare utomlands men gör importerade varor dyrare hemma."
+          "text": "Japan är en av världens större ekonomier och en stor exportör av bilar, maskiner, elektronik och material, och importerar bland annat energi och livsmedel (se temat [Miljö, energi och framtidsfrågor](/utbildning/miljo/)). De största handelspartnerna är bland andra Kina och USA, men uppgifter om rangordning varierar mellan år och källor. Exporten påverkas av yenens värde: en svag yen gör japanska varor billigare utomlands men gör importerade varor dyrare hemma."
         },
         {
           "type": "p",
-          "text": "Ekonomin påverkas också av **åldrande och minskande befolkning** (se kapitlet om det åldrande samhället) och av **globaliseringen**. Enligt en prognos väntades den reala BNP-tillväxten bli runt 0,9 procent för räkenskapsåret 2026, vilket är lågt jämfört med högkonjunkturens år (se kapitlet om efterkrigstiden)."
+          "text": "Ekonomin påverkas också av **åldrande och minskande befolkning** (se kapitlet [Ett åldrande samhälle och regionala skillnader](/kapitel/aldrande-samhalle-och-regioner/)) och av **globaliseringen**. Enligt en prognos väntades den reala BNP-tillväxten bli runt 0,9 procent för räkenskapsåret 2026, vilket är lågt jämfört med högkonjunkturens år (se kapitlet [Efterkrigstiden: ockupation, uppbyggnad och nutid](/kapitel/efterkrigstiden/))."
         }
       ]
     }
@@ -68,7 +68,7 @@
           "id": "a",
           "text": "Det blir billigare att resa dit.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Med en svag yen får du fler yen för dina pengar, så det blir billigare att resa dit."
         },
         {
           "id": "b",
@@ -80,7 +80,7 @@
           "id": "c",
           "text": "Ingen skillnad.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Växelkursen påverkar vad resan kostar."
         }
       ]
     },
@@ -94,19 +94,19 @@
           "id": "a",
           "text": "Gör japanska varor billigare utomlands.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En svag yen gör japanska varor billigare utomlands."
         },
         {
           "id": "b",
           "text": "Gör dem dyrare.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. En svag yen gör japanska varor billigare utomlands, inte dyrare."
         },
         {
           "id": "c",
           "text": "Stoppar all handel.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Exporten påverkas av yenens värde, men handeln stoppas inte."
         }
       ]
     },
@@ -121,7 +121,7 @@
           "id": "a",
           "text": "Kontrollera dagens kurs och lägga in en marginal.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kursen ändras, så du bör kontrollera dagens kurs och räkna med en marginal."
         },
         {
           "id": "b",
@@ -133,7 +133,7 @@
           "id": "c",
           "text": "Strunta i budgeten.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet rekommenderar att du gör en budget i yen med marginal och reserv."
         }
       ]
     }
@@ -153,22 +153,22 @@
           "id": "a",
           "text": "Yen",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Japans valuta är yen."
         },
         {
           "id": "b",
           "text": "Euro",
-          "feedback": "Fel."
+          "feedback": "Fel. Japans valuta är yen, inte euro."
         },
         {
           "id": "c",
           "text": "Dollar",
-          "feedback": "Fel."
+          "feedback": "Fel. Japans valuta är yen, inte dollar."
         },
         {
           "id": "d",
           "text": "Krona",
-          "feedback": "Fel."
+          "feedback": "Fel. Japans valuta är yen, inte krona."
         }
       ]
     },
@@ -180,22 +180,22 @@
           "id": "a",
           "text": "Det blir billigare.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Utländsk valuta räcker då längre."
         },
         {
           "id": "b",
-          "text": "Dyrare.",
-          "feedback": "Fel."
+          "text": "Det blir dyrare.",
+          "feedback": "Fel. Med svag yen blir priserna lägre för besökare."
         },
         {
           "id": "c",
-          "text": "Samma.",
-          "feedback": "Fel."
+          "text": "Priserna ändras inte alls.",
+          "feedback": "Fel. Växelkursen påverkar vad besökaren betalar."
         },
         {
           "id": "d",
-          "text": "Ingen vet.",
-          "feedback": "Fel."
+          "text": "Bara varor under 1 000 yen påverkas.",
+          "feedback": "Fel. Växelkursen påverkar alla priser."
         }
       ]
     },
@@ -207,22 +207,22 @@
           "id": "a",
           "text": "Bilar, maskiner och elektronik",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Japan är en stor exportör av bilar, maskiner, elektronik och material."
         },
         {
           "id": "b",
           "text": "Bara ris",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan exporterar bland annat bilar, maskiner och elektronik, inte bara ris."
         },
         {
           "id": "c",
           "text": "Bara te",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan exporterar bland annat bilar, maskiner och elektronik, inte bara te."
         },
         {
           "id": "d",
           "text": "Ingenting",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan är en stor exportör av bland annat bilar, maskiner och elektronik."
         }
       ]
     },
@@ -234,22 +234,22 @@
           "id": "a",
           "text": "Den ändras och påverkar din kostnad.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kursen ändras hela tiden och påverkar vad resan kostar dig."
         },
         {
           "id": "b",
           "text": "Den är alltid densamma.",
-          "feedback": "Fel."
+          "feedback": "Fel. Växelkursen ändras hela tiden."
         },
         {
           "id": "c",
           "text": "Den är hemlig.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kursen går att kontrollera inför resan, och det rekommenderar kapitlet."
         },
         {
           "id": "d",
           "text": "Den spelar ingen roll.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kursen påverkar din kostnad i kronor."
         }
       ]
     },
@@ -261,22 +261,22 @@
           "id": "a",
           "text": "Åldrande och globalisering",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet nämner åldrande och minskande befolkning samt globalisering."
         },
         {
           "id": "b",
           "text": "Bara vädret",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet pekar på åldrande och globalisering, inte bara vädret."
         },
         {
           "id": "c",
           "text": "Bara turister",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet pekar på åldrande och globalisering, inte bara turister."
         },
         {
           "id": "d",
           "text": "Inget",
-          "feedback": "Fel."
+          "feedback": "Fel. Ekonomin påverkas av bland annat åldrande och globalisering."
         }
       ]
     }

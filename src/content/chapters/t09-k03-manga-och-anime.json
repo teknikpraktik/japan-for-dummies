@@ -37,7 +37,7 @@
         },
         {
           "type": "p",
-          "text": "Båda finns i många genrer för alla åldrar: äventyr, komedi, skräck, romantik, vardagsskildringar, sport, vetenskap och historia. Därför finns det inte *en* manga- eller animestil. Seriekulturen har flera rötter, bland annat träsnitt och bildberättande från Edotiden (se kapitlet om konst) och efterkrigstidens tecknade serier."
+          "text": "Båda finns i många genrer för alla åldrar: äventyr, komedi, skräck, romantik, vardagsskildringar, sport, vetenskap och historia. Därför finns det inte *en* manga- eller animestil. Seriekulturen har flera rötter, bland annat träsnitt och bildberättande från Edotiden (se kapitlet [Konst och hantverk](/kapitel/konst-och-hantverk/)) och efterkrigstidens tecknade serier."
         }
       ]
     },
@@ -71,7 +71,7 @@
           "id": "a",
           "text": "Från höger till vänster",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Manga läses från höger till vänster."
         },
         {
           "id": "b",
@@ -83,7 +83,7 @@
           "id": "c",
           "text": "Uppifrån och ned i en rad",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Manga läses från höger till vänster."
         }
       ]
     },
@@ -97,19 +97,19 @@
           "id": "a",
           "text": "Flera bolag som delar på kostnader och intäkter för en animeproduktion.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Anime finansieras ofta av en produktionskommitté av flera bolag som delar på kostnad och intäkter."
         },
         {
           "id": "b",
           "text": "En skola.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. En produktionskommitté är flera bolag som finansierar en produktion tillsammans, inte en skola."
         },
         {
           "id": "c",
           "text": "Ett tåg.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. En produktionskommitté är flera bolag som finansierar en produktion tillsammans."
         }
       ]
     },
@@ -156,7 +156,7 @@
           "id": "a",
           "text": "Animerad film och tv",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Anime är animerad film och tv, ofta baserad på manga."
         },
         {
           "id": "b",
@@ -166,12 +166,12 @@
         {
           "id": "c",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. Anime är animerad film och tv."
         },
         {
           "id": "d",
           "text": "En port",
-          "feedback": "Fel."
+          "feedback": "Fel. Anime är animerad film och tv, inte en port."
         }
       ]
     },
@@ -183,22 +183,22 @@
           "id": "a",
           "text": "Cirka 3,8 biljoner yen",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Enligt Association of Japanese Animations nådde marknaden omkring 3,8 biljoner yen 2024, preliminärt."
         },
         {
           "id": "b",
           "text": "Cirka 38 miljoner yen",
-          "feedback": "Fel."
+          "feedback": "Fel. Marknaden var betydligt större, omkring 3,8 biljoner yen."
         },
         {
           "id": "c",
           "text": "Cirka 3 yen",
-          "feedback": "Fel."
+          "feedback": "Fel. Marknaden var omkring 3,8 biljoner yen, så siffran är långt för liten."
         },
         {
           "id": "d",
           "text": "Inga siffror finns",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet redovisar en preliminär siffra på omkring 3,8 biljoner yen."
         }
       ]
     },
@@ -210,22 +210,22 @@
           "id": "a",
           "text": "Utlandsförsäljningen",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Utlandsförsäljningen växte mer än den inhemska."
         },
         {
           "id": "b",
-          "text": "Den inhemska försäljningen mest",
-          "feedback": "Fel."
+          "text": "Försäljningen i Japan",
+          "feedback": "Fel. Det var utlandsförsäljningen som växte mer än den inhemska."
         },
         {
           "id": "c",
           "text": "Inget växte",
-          "feedback": "Fel."
+          "feedback": "Fel. Marknaden växte, och mest växte utlandsförsäljningen."
         },
         {
           "id": "d",
           "text": "Ingen vet",
-          "feedback": "Fel."
+          "feedback": "Fel. Siffrorna visar att utlandsförsäljningen växte mest."
         }
       ]
     },
@@ -237,22 +237,22 @@
           "id": "a",
           "text": "För att smak och intressen varierar mycket.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Många gillar anime, andra inte alls, och smaken varierar med ålder och bakgrund."
         },
         {
           "id": "b",
           "text": "För att ingen tittar på anime",
-          "feedback": "Fel."
+          "feedback": "Fel. Många tittar på anime, men det gäller inte alla."
         },
         {
           "id": "c",
           "text": "För att anime är förbjudet",
-          "feedback": "Fel."
+          "feedback": "Fel. Anime är inte förbjudet, och stereotypen handlar om att alla skulle ha samma smak."
         },
         {
           "id": "d",
           "text": "För att anime inte finns",
-          "feedback": "Fel."
+          "feedback": "Fel. Anime finns och är en stor industri, men smaken varierar."
         }
       ]
     },
@@ -264,22 +264,22 @@
           "id": "a",
           "text": "Bakom serierna finns människor med ofta hårda arbetsvillkor.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Bakom varje serie finns människor, och arbetet är ofta hårt med långa dagar och låga löner."
         },
         {
           "id": "b",
           "text": "Ingen arbetar med det.",
-          "feedback": "Fel."
+          "feedback": "Fel. Många människor arbetar med anime som animatörer och tecknare."
         },
         {
           "id": "c",
           "text": "Det görs av maskiner.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet betonar att det är människor som ritar, skriver, färglägger och sköter produktionen."
         },
         {
           "id": "d",
           "text": "Det är gratis.",
-          "feedback": "Fel."
+          "feedback": "Fel. Anime är en stor industri som finansieras av bland annat produktionskommittéer."
         }
       ]
     }

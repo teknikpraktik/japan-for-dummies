@@ -59,7 +59,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Debatten i Japan gäller bland annat hur få kvinnor som sitter i parlament och på ledande poster, vem som tar ansvar för hem och barn, och hur arbetslivet kan bli mer flexibelt. Kvinnor fick rösträtt 1946, och sedan dess har lagar och attityder förändrats, men olika grupper har olika uppfattningar om takten. Flera frågor hör ihop med jämställdhet, till exempel lagen om gemensamt efternamn (se kapitlet om familj). Diskussionerna förs av politiker, företag, forskare och människor i vardagen, och de är inte enhetliga."
+          "text": "Debatten i Japan gäller bland annat hur få kvinnor som sitter i parlament och på ledande poster, vem som tar ansvar för hem och barn, och hur arbetslivet kan bli mer flexibelt. Kvinnor fick rösträtt i december 1945 och röstade första gången 1946, och sedan dess har lagar och attityder förändrats, men olika grupper har olika uppfattningar om takten. Flera frågor hör ihop med jämställdhet, till exempel lagen om gemensamt efternamn (se kapitlet [Familj och hemmaliv](/kapitel/familj-och-hemmaliv/)). Diskussionerna förs av politiker, företag, forskare och människor i vardagen, och de är inte enhetliga."
         },
         {
           "type": "p",
@@ -88,13 +88,13 @@
           "id": "a",
           "text": "Skillnader mellan kvinnor och män inom ekonomi, utbildning, hälsa och politik.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Indexet jämför kvinnors och mäns ställning inom ekonomi, utbildning, hälsa och politik."
         },
         {
           "id": "b",
           "text": "Hur lyckliga människor är.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Indexet mäter skillnader, inte hur bra livet är."
         },
         {
           "id": "c",
@@ -126,7 +126,7 @@
           "id": "c",
           "text": "Hälsa",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Inom utbildning och hälsa är skillnaderna små, och politiken drar ner mest."
         }
       ]
     },
@@ -173,7 +173,7 @@
           "id": "a",
           "text": "118 av 148",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. I 2025 års rapport hamnade Japan på plats 118 av 148 länder."
         },
         {
           "id": "b",
@@ -183,12 +183,12 @@
         {
           "id": "c",
           "text": "50 av 148",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan hamnade på plats 118 av 148, alltså betydligt längre ner."
         },
         {
           "id": "d",
           "text": "148 av 148",
-          "feedback": "Fel."
+          "feedback": "Fel. Japan hamnade på plats 118 av 148, inte sist."
         }
       ]
     },
@@ -200,22 +200,22 @@
           "id": "a",
           "text": "Politik",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Politik är den svagaste delen, med plats 125."
         },
         {
           "id": "b",
           "text": "Utbildning",
-          "feedback": "Fel."
+          "feedback": "Fel. Inom utbildning och hälsa är skillnaderna små."
         },
         {
           "id": "c",
           "text": "Hälsa",
-          "feedback": "Fel."
+          "feedback": "Fel. Inom utbildning och hälsa är skillnaderna små."
         },
         {
           "id": "d",
           "text": "Ingen",
-          "feedback": "Fel."
+          "feedback": "Fel. Skillnaderna är olika stora i de fyra delarna, och politik är svagast."
         }
       ]
     },
@@ -227,39 +227,39 @@
           "id": "a",
           "text": "Skillnader mellan kvinnor och män",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Indexet mäter skillnader mellan kvinnor och män inom fyra områden."
         },
         {
           "id": "b",
           "text": "Människors lycka",
-          "feedback": "Fel."
+          "feedback": "Fel. Indexet mäter skillnader, inte hur bra livet är."
         },
         {
           "id": "c",
           "text": "Lönernas storlek",
-          "feedback": "Fel."
+          "feedback": "Fel. Indexet jämför kvinnors och mäns ställning och mäter inte löner i sig."
         },
         {
           "id": "d",
           "text": "Antalet skolor",
-          "feedback": "Fel."
+          "feedback": "Fel. Indexet jämför kvinnors och mäns ställning inom ekonomi, utbildning, hälsa och politik."
         }
       ]
     },
     {
       "id": "q4",
-      "prompt": "När fick kvinnor rösträtt i Japan?",
+      "prompt": "När röstade kvinnor för första gången i Japan?",
       "options": [
         {
           "id": "a",
           "text": "1946",
           "correct": true,
-          "feedback": "Rätt, i samband med efterkrigstidens reformer."
+          "feedback": "Rätt, i valet i april 1946. Rösträtten infördes genom vallagen i december 1945, i samband med efterkrigstidens reformer."
         },
         {
           "id": "b",
           "text": "1868",
-          "feedback": "Fel."
+          "feedback": "Fel. Kvinnor fick rösträtt i december 1945 och röstade första gången 1946."
         },
         {
           "id": "c",
@@ -269,7 +269,7 @@
         {
           "id": "d",
           "text": "1603",
-          "feedback": "Fel."
+          "feedback": "Fel. Kvinnor fick rösträtt i december 1945 och röstade första gången 1946."
         }
       ]
     },
@@ -281,28 +281,29 @@
           "id": "a",
           "text": "Fråga vad siffrorna mäter och inte mäter.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet föreslår att du frågar vad siffran mäter och inte mäter."
         },
         {
           "id": "b",
           "text": "Lita blint på en siffra.",
-          "feedback": "Fel."
+          "feedback": "Fel. Siffror kan vara användbara men visar inte allt."
         },
         {
           "id": "c",
           "text": "Ignorera all statistik.",
-          "feedback": "Fel."
+          "feedback": "Fel. Statistik kan vara användbar, men den behöver läsas med eftertanke."
         },
         {
           "id": "d",
-          "text": "Dömma snabbt.",
-          "feedback": "Fel."
+          "text": "Döma snabbt.",
+          "feedback": "Fel. Kapitlet uppmanar dig att ställa frågor om siffrorna innan du drar slutsatser."
         }
       ]
     }
   ],
   "sourceIds": [
     "nippon-gender-gap-2025",
+    "gender-equality-suffrage",
     "japantimes-surname-2021"
   ],
   "mediaIds": [],
@@ -313,7 +314,7 @@
     "uncertainty": [
       "Att indexet har fyra delområden och beskrivningen av vad det mäter är allmän bakgrund.",
       "Siffrorna avser 2025 års rapport. Nyare utgåvor kan finnas.",
-      "Beskrivningen av diskussionerna (kvinnor i parlament och ledande poster, ansvar för hem och barn, arbetsliv) och att kvinnor fick rösträtt 1946 är allmän bakgrund som inte kontrollerades separat.",
+      "Beskrivningen av diskussionerna (kvinnor i parlament och ledande poster, ansvar för hem och barn, arbetsliv) är allmän bakgrund som inte kontrollerades separat. Att kvinnor fick rösträtt i december 1945 och röstade första gången i april 1946 bygger på Jämställdhetsbyråns (Cabinet Office) sammanfattning.",
       "Ämnet är laddat. En sakkunnig bör granska ordval och balans.",
       "Bildtexten om kvinnovagnar bygger på texten på skylten och allmän kännedom. Reglerna varierar mellan bolag och tider."
     ],

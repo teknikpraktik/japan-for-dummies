@@ -10,7 +10,7 @@
   "objectives": [
     "Hälsa på olika sätt i olika situationer",
     "Förstå betydelsen av gåvor och tack",
-    "Hantera situationer som en värdfamilj eller skolbesök"
+    "Hantera situationer som ett besök i en värdfamilj eller på en skola"
   ],
   "minutes": 8,
   "hook": {
@@ -102,19 +102,19 @@
           "id": "a",
           "text": "Med båda händerna.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Man räcker fram gåvan med båda händerna."
         },
         {
           "id": "b",
           "text": "Med en hand bakom ryggen.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Gåvan räcks fram med båda händerna."
         },
         {
           "id": "c",
           "text": "Genom att kasta den.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Gåvan räcks fram försiktigt med båda händerna."
         }
       ]
     },
@@ -161,22 +161,22 @@
           "id": "a",
           "text": "Bugning",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ojigi är bugning, en välkänd del av japansk etikett."
         },
         {
           "id": "b",
           "text": "Tofflor",
-          "feedback": "Fel."
+          "feedback": "Fel. Ojigi betyder bugning, inte tofflor."
         },
         {
           "id": "c",
           "text": "Tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Ojigi betyder bugning, inte tåg."
         },
         {
           "id": "d",
           "text": "Mat",
-          "feedback": "Fel."
+          "feedback": "Fel. Ojigi betyder bugning, inte mat."
         }
       ]
     },
@@ -188,22 +188,22 @@
           "id": "a",
           "text": "Följa den andres exempel.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Bugar de, nicka eller buga lätt tillbaka, och räcker de fram handen, skaka."
         },
         {
           "id": "b",
           "text": "Alltid buga djupt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Du behöver inte buga perfekt eller djupt; följ den andres exempel."
         },
         {
           "id": "c",
           "text": "Aldrig röra någon.",
-          "feedback": "Fel."
+          "feedback": "Fel. Många japaner räcker fram handen till utlänningar, så du kan skaka hand."
         },
         {
           "id": "d",
           "text": "Skrika hej.",
-          "feedback": "Fel."
+          "feedback": "Fel. Ett leende, ett tydligt tack och ett lätt nick visar respekt."
         }
       ]
     },
@@ -215,7 +215,7 @@
           "id": "a",
           "text": "Med båda händerna.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Gåvan räcks fram med båda händerna."
         },
         {
           "id": "b",
@@ -225,12 +225,12 @@
         {
           "id": "c",
           "text": "Utan att säga något.",
-          "feedback": "Fel."
+          "feedback": "Fel. Man säger gärna något blygsamt när man räcker fram gåvan."
         },
         {
           "id": "d",
           "text": "Via en annan.",
-          "feedback": "Fel."
+          "feedback": "Fel. Gåvan räcks fram direkt med båda händerna."
         }
       ]
     },
@@ -247,17 +247,17 @@
         {
           "id": "b",
           "text": "”Jag hatar den”",
-          "feedback": "Fel."
+          "feedback": "Fel. Frasen är en artig fras och ingen bedömning av gåvan."
         },
         {
           "id": "c",
           "text": "”Hej då”",
-          "feedback": "Fel."
+          "feedback": "Fel. Frasen används när man ger en gåva, inte som avsked."
         },
         {
           "id": "d",
           "text": "”Tack för maten”",
-          "feedback": "Fel."
+          "feedback": "Fel. ”Tack för maten” är gochisōsama deshita, inte denna fras."
         }
       ]
     },
@@ -269,7 +269,7 @@
           "id": "a",
           "text": "Man säger det efter maten för att tacka.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Gochisōsama deshita betyder ”tack för maten” och säger man efter måltiden."
         },
         {
           "id": "b",
@@ -279,12 +279,12 @@
         {
           "id": "c",
           "text": "Det betyder hej.",
-          "feedback": "Fel."
+          "feedback": "Fel. Det är en tacksägelse efter maten, inte en hälsning."
         },
         {
           "id": "d",
           "text": "Det betyder utgång.",
-          "feedback": "Fel."
+          "feedback": "Fel. Det är en tacksägelse efter maten, inte ett ord för utgång."
         }
       ]
     }

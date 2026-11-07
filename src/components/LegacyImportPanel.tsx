@@ -5,7 +5,7 @@ import { parseStoredState } from "@/lib/progress";
 import { LEGACY_STORAGE_KEY, acctPrefix } from "@/lib/storage";
 import { progressStore, useProgress } from "@/lib/store";
 import { pull } from "@/lib/sync";
-import type { ChapterLite } from "./StartCta";
+import type { ChapterLite } from "@/lib/chapter-lite";
 
 function readLegacy() {
   try {

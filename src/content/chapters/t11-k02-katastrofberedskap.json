@@ -5,7 +5,7 @@
   "order": 2,
   "status": "published",
   "contentVersion": 1,
-  "title": "Katastrofberedskap: jordbävning, tsunami och taifun",
+  "title": "Katastrofberedskap: jordbävning, tsunami och tyfon",
   "summary": "Hur samhället förbereder sig, hur varningar fungerar och vad du gör som besökare.",
   "objectives": [
     "Förklara hur varningssystem fungerar",
@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japan utsätts för jordbävningar, tsunamier, taifuner, kraftigt regn och vulkanutbrott (se temat om geografi), och har byggt upp ett omfattande beredskapssystem. **J-Alert** är det nationella varningssystemet (från 2007) för bland annat jordbävning och tsunami. Varningar sprids via högtalare, tv, radio och mobilen. En **jordbävningsvarning** kan komma sekunder till tiotals sekunder före de stora skakningarna, och räknar ut dem från de första små skakningarna."
+          "text": "Japan utsätts för jordbävningar, tsunamier, tyfoner, kraftigt regn och vulkanutbrott (se temat [Geografi, regioner, klimat och natur](/utbildning/geografi/)), och har byggt upp ett omfattande beredskapssystem. **J-Alert** är det nationella varningssystemet (från 2007) för bland annat jordbävning och tsunami. Varningar sprids via högtalare, tv, radio och mobilen. En **jordbävningsvarning** kan komma sekunder till tiotals sekunder före de stora skakningarna. Systemet beräknar skakningarna utifrån de första små vågorna och skickar en varning."
         },
         {
           "type": "p",
@@ -42,7 +42,7 @@
           "items": [
             "**Jordbävning:** skydda dig, till exempel under ett stadigt bord, och håll dig borta från fönster och föremål som kan falla. Intensiteten mäts med skalan shindo (0 till 7). Efter skakningarna: kontrollera dig själv och andra, och följ lokala instruktioner. Efterskalv kan komma.",
             "**Tsunami:** om du är nära kusten och känner en stark, lång skakning, eller får en varning, gå genast till högre mark eller en tsunamievakueringsbyggnad utan att vänta. En tsunami kan komma i flera vågor, och du ska inte gå ned till stranden förrän varningen hävts.",
-            "**Taifun och kraftigt regn:** följ prognoser, undvik floder, branta kustavsnitt och berg, och räkna med inställda tåg. Skydda dig inomhus och planera extra marginal (se kapitlet om klimat)."
+            "**Tyfon och kraftigt regn:** följ prognoser, undvik floder, branta kustavsnitt och berg, och räkna med inställda tåg. Skydda dig inomhus och planera extra marginal (se kapitlet [Årstider och klimat från Hokkaido till Okinawa](/kapitel/arstider-och-klimat/))."
           ]
         }
       ]
@@ -53,7 +53,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Titta efter evakueringsskyltar, och lär dig var närmaste utgång och samlingsplats finns på hotellet. Fråga personalen hur man gör vid larm. Japan har flera beredskapsövningar, och människor är ofta vana vid att följa instruktioner. Efter jordbävningen på Notohalvön har beredskapen kritiserats för brist på förråd och sena evakueringscenter, och regeringen planerade nya åtgärder."
+          "text": "Titta efter evakueringsskyltar, och lär dig var närmaste utgång och samlingsplats finns på hotellet. Fråga personalen hur man gör vid larm. Japan har flera beredskapsövningar, och regelbundna övningar gör att många vet vad de ska göra. Efter jordbävningen på Notohalvön har beredskapen kritiserats för brist på förråd och sena evakueringscenter, och regeringen planerade nya åtgärder."
         },
         {
           "type": "p",
@@ -73,7 +73,7 @@
           "id": "a",
           "text": "Går genast till högre mark.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Vid stark, lång skakning nära kusten ska du genast gå till högre mark."
         },
         {
           "id": "b",
@@ -99,19 +99,19 @@
           "id": "a",
           "text": "En app med varningar på flera språk, till exempel Safety tips.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Appen Safety tips ger varningar om jordbävning, tsunami och väder på flera språk."
         },
         {
           "id": "b",
           "text": "En spelapp.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. En spelapp ger ingen säkerhetsinformation, till skillnad från en varningsapp som Safety tips."
         },
         {
           "id": "c",
           "text": "Ingen.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår att du laddar ned en app med flerspråkiga varningar."
         }
       ]
     },
@@ -126,19 +126,19 @@
           "id": "a",
           "text": "Tar reda på utgångar och samlingsplats och frågar personalen.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet råder dig att ta reda på närmaste utgång och samlingsplats och fråga personalen."
         },
         {
           "id": "b",
           "text": "Strunta i det.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet råder dig att lära dig utgångar och samlingsplats på hotellet."
         },
         {
           "id": "c",
-          "text": "Gå upp på taket.",
+          "text": "Går upp på hotellets tak för att titta ut.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Gå till utgångarna och samlingsplatsen i stället."
         }
       ]
     }
@@ -158,22 +158,22 @@
           "id": "a",
           "text": "Japans nationella varningssystem",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. J-Alert är det nationella varningssystemet för bland annat jordbävning och tsunami."
         },
         {
           "id": "b",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. J-Alert är ett varningssystem, inte en maträtt."
         },
         {
           "id": "c",
           "text": "Ett tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. J-Alert är ett varningssystem, inte ett tåg."
         },
         {
           "id": "d",
           "text": "En skola",
-          "feedback": "Fel."
+          "feedback": "Fel. J-Alert är ett varningssystem, inte en skola."
         }
       ]
     },
@@ -185,22 +185,22 @@
           "id": "a",
           "text": "Går genast till högre mark.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Vid tsunamivarning ska du genast gå till högre mark eller en tsunamievakueringsbyggnad."
         },
         {
           "id": "b",
           "text": "Väntar på stranden.",
-          "feedback": "Fel."
+          "feedback": "Fel. Du ska inte vänta utan genast gå till högre mark."
         },
         {
           "id": "c",
           "text": "Går till havet.",
-          "feedback": "Fel."
+          "feedback": "Fel. Du ska gå bort från havet och upp till högre mark."
         },
         {
           "id": "d",
           "text": "Ringer ingen.",
-          "feedback": "Fel."
+          "feedback": "Fel. Du ska gå till högre mark och följa lokala instruktioner, och vid akut fara ringa 110 eller 119."
         }
       ]
     },
@@ -212,7 +212,7 @@
           "id": "a",
           "text": "119",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. 119 är numret till ambulans och brand."
         },
         {
           "id": "b",
@@ -227,7 +227,7 @@
         {
           "id": "d",
           "text": "911",
-          "feedback": "Fel."
+          "feedback": "Fel. Numret till ambulans och brand i Japan är 119."
         }
       ]
     },
@@ -239,22 +239,22 @@
           "id": "a",
           "text": "Jordbävningens intensitet på en plats (0–7)",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Shindo är skalan 0 till 7 för jordbävningens intensitet."
         },
         {
           "id": "b",
           "text": "Vattennivå",
-          "feedback": "Fel."
+          "feedback": "Fel. Shindo mäter jordbävningens intensitet, inte vattennivå."
         },
         {
           "id": "c",
           "text": "Temperatur",
-          "feedback": "Fel."
+          "feedback": "Fel. Shindo mäter jordbävningens intensitet, inte temperatur."
         },
         {
           "id": "d",
           "text": "Vindhastighet",
-          "feedback": "Fel."
+          "feedback": "Fel. Shindo mäter jordbävningens intensitet, inte vindhastighet."
         }
       ]
     },
@@ -266,22 +266,22 @@
           "id": "a",
           "text": "Flera vågor kan komma.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En tsunami kan komma i flera vågor, så du ska vänta tills varningen hävts."
         },
         {
           "id": "b",
           "text": "Det är kallt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Skälet är att en tsunami kan komma i flera vågor."
         },
         {
           "id": "c",
           "text": "Det är olagligt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Skälet är att en tsunami kan komma i flera vågor, inte ett förbud."
         },
         {
           "id": "d",
           "text": "Det är alltid säkert.",
-          "feedback": "Fel."
+          "feedback": "Fel. Det är inte säkert, eftersom en tsunami kan komma i flera vågor."
         }
       ]
     }
@@ -299,7 +299,7 @@
     "status": "needs-human-review",
     "uncertainty": [
       "Råden är allmänna och bygger på en reseguide och en turistmyndighets appbeskrivning. De är inget ersättande av officiella instruktioner. Detaljer om hur man agerar vid jordbävning och efterskalv är allmän kunskap och bör granskas av en beredskapskunnig.",
-      "Uppgiften om 110/119 är allmän kunskap som inte kontrollerades mot en källa.",
+      "Numren 110 och 119 är kontrollerade mot JNTO:s informationsblad (se kapitlet om säkerhet).",
       "Beskrivningen av Notohalvön-jordbävningen och regeringens planer bygger på en nyhetssammanfattning från 2024 och kan vara inaktuell.",
       "Sökningen gav ingenting om Katastrofdagen den 1 september eller om övningar.",
       "Bildtexten om tsunamiskylten (Kamakura, 2016) bygger på Commons-beskrivningen. Texten på skylten är inte översatt i detalj."
