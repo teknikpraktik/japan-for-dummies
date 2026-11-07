@@ -87,7 +87,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japans kolonialtid beskrivs olika beroende på vem som berättar. I Korea minns många den som en tid av förtryck: koreaner mötte krav på assimilering, bland annat på att använda japanska och ta japanska namn, och tvångsarbete förekom under kriget. Att Korea förlorade sitt självständighet är en central del av koreansk historieskrivning."
+          "text": "Japans kolonialtid beskrivs olika beroende på vem som berättar. I Korea minns många den som en tid av förtryck: koreaner mötte krav på assimilering, bland annat på att använda japanska och ta japanska namn, och tvångsarbete förekom under kriget. Att Korea förlorade sin självständighet är en central del av koreansk historieskrivning."
         },
         {
           "type": "p",
@@ -121,7 +121,7 @@
             "Vilka människors röster hörs, och vilka saknas?",
             "Vad skulle en person från ett annat land kunna lägga till?"
           ],
-          "textAlternative": "Utan bild: välj en händelse ur historien i ditt eget land och skriv två meningar om den ur två olika perspektiv. Vilka ord skiljer sig åt?",
+          "textAlternative": "Välj en händelse ur historien i ditt eget land och skriv två meningar om den ur två olika perspektiv. Vilka ord skiljer sig åt?",
           "imageSlotIds": [
             "t02-k03-taiwan"
           ]
@@ -234,12 +234,12 @@
         {
           "id": "c",
           "text": "Singapore",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner Taiwan som området Japan fick, inte Singapore."
         },
         {
           "id": "d",
           "text": "Hawaii",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner Taiwan som området Japan fick, inte Hawaii."
         }
       ]
     },
@@ -266,7 +266,7 @@
         {
           "id": "d",
           "text": "1600",
-          "feedback": "Fel."
+          "feedback": "Fel. Korea annekterades 1910."
         }
       ]
     },
@@ -283,17 +283,17 @@
         {
           "id": "b",
           "text": "Som en demokrati",
-          "feedback": "Fel."
+          "feedback": "Fel. Manchukuo beskrivs oftast som en japanskstyrd lydstat, inte en demokrati."
         },
         {
           "id": "c",
           "text": "Som en del av Sverige",
-          "feedback": "Fel."
+          "feedback": "Fel. Manchukuo låg i nordöstra Kina, inte i Sverige."
         },
         {
           "id": "d",
           "text": "Som en kinesisk provins utan japansk kontroll",
-          "feedback": "Fel."
+          "feedback": "Fel. Manchukuo inrättades av Japan efter ockupationen av Manchuriet och var japanskstyrd."
         }
       ]
     },
@@ -320,7 +320,7 @@
         {
           "id": "d",
           "text": "För att det inte hände något.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver händelser som länderna minns och tolkar olika."
         }
       ]
     },
@@ -337,17 +337,17 @@
         {
           "id": "b",
           "text": "Att bara lita på den första källan.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att historiker försöker skilja på fakta, tolkning och värdering, inte lita på en enda källa."
         },
         {
           "id": "c",
           "text": "Att aldrig tolka något.",
-          "feedback": "Fel."
+          "feedback": "Fel. Historiker tolkar, men försöker skilja tolkning från fakta och värdering."
         },
         {
           "id": "d",
           "text": "Att ta bort alla datum.",
-          "feedback": "Fel."
+          "feedback": "Fel. Datum hör till fakta, som man skiljer från tolkning och värdering."
         }
       ]
     }

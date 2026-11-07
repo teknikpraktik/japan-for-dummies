@@ -32,7 +32,7 @@
         },
         {
           "type": "p",
-          "text": "Shinto märks i livets stora tillfällen: nyårsbesök, bröllop, välsignelse av nyfödda och barn (**Shichi-go-san**) och många lokala fester. För många är det **tradition och plats** snarare än en tro man bekänner sig till. Vissa beskriver det som en livsstil, andra som religion, andra som kultur. Som besökare behöver du inte lösa frågan, bara visa respekt för platsen. Shinto och buddhism har dessutom levt sida vid sida i över tusen år och blandas i många människors liv (se kapitlet om religion i vardagen)."
+          "text": "Shinto märks i livets stora tillfällen: nyårsbesök, bröllop, välsignelse av nyfödda och barn (**Shichi-go-san**) och många lokala fester. För många är det **tradition och plats** snarare än en tro man bekänner sig till. Vissa beskriver det som en livsstil, andra som religion, andra som kultur. Som besökare behöver du inte lösa frågan, bara visa respekt för platsen. Shinto och buddhism har dessutom levt sida vid sida i över tusen år och blandas i många människors liv (se kapitlet [Religion i vardagen: blandade traditioner](/kapitel/religion-i-vardagen/))."
         }
       ]
     },
@@ -91,7 +91,7 @@
           "id": "c",
           "text": "Ett slags ris.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kami är gudar, andar och heliga väsen, inte ett slags ris."
         }
       ]
     },
@@ -105,7 +105,7 @@
           "id": "a",
           "text": "Ingången till helig mark vid en helgedom.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En torii markerar gränsen mot helig mark vid en shintohelgedom."
         },
         {
           "id": "b",
@@ -117,7 +117,7 @@
           "id": "c",
           "text": "En marknad.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. En torii är porten in till helig mark vid en helgedom, inte en marknad."
         }
       ]
     },
@@ -125,7 +125,7 @@
       "type": "scenario",
       "id": "tro",
       "title": "I samtal",
-      "situation": "En kamrat säger: ”Japanerna tror på tusentals gudar, så det är en religion som vår.”",
+      "situation": "En kamrat säger: ”Japanerna tror på tusentals gudar, så det är en religion du känner till.”",
       "question": "Vad är en mer nyanserad bild?",
       "options": [
         {
@@ -164,22 +164,22 @@
           "id": "a",
           "text": "”Gudarnas väg”",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Shinto betyder ”gudarnas väg”."
         },
         {
           "id": "b",
           "text": "”Buddhas lära”",
-          "feedback": "Fel."
+          "feedback": "Fel. Shinto betyder ”gudarnas väg”, inte ”Buddhas lära”."
         },
         {
           "id": "c",
           "text": "”Kejsarens hus”",
-          "feedback": "Fel."
+          "feedback": "Fel. Shinto betyder ”gudarnas väg”, inte ”Kejsarens hus”."
         },
         {
           "id": "d",
           "text": "”Ris”",
-          "feedback": "Fel."
+          "feedback": "Fel. Shinto betyder ”gudarnas väg”, inte ”ris”."
         }
       ]
     },
@@ -191,22 +191,22 @@
           "id": "a",
           "text": "En port som markerar helig mark",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En torii är en port som markerar gränsen mot helig mark."
         },
         {
           "id": "b",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. En torii är en port vid en helgedom, inte en maträtt."
         },
         {
           "id": "c",
           "text": "En skola",
-          "feedback": "Fel."
+          "feedback": "Fel. En torii är en port vid en helgedom, inte en skola."
         },
         {
           "id": "d",
           "text": "Ett tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. En torii är en port vid en helgedom, inte ett tåg."
         }
       ]
     },
@@ -218,22 +218,22 @@
           "id": "a",
           "text": "En vattenpaviljong för rening",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Temizuya är vattenpaviljongen där man renar händer och mun."
         },
         {
           "id": "b",
           "text": "En mat",
-          "feedback": "Fel."
+          "feedback": "Fel. Temizuya är en vattenpaviljong vid helgedomen, inte en mat."
         },
         {
           "id": "c",
           "text": "En bugning",
-          "feedback": "Fel."
+          "feedback": "Fel. Temizuya är en vattenpaviljong där man renar händer och mun, inte en bugning."
         },
         {
           "id": "d",
           "text": "Ett rep",
-          "feedback": "Fel."
+          "feedback": "Fel. Repet som markerar något heligt kallas shimenawa, medan temizuya är vattenpaviljongen."
         }
       ]
     },
@@ -245,22 +245,22 @@
           "id": "a",
           "text": "En lyckospådom på papper",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Omikuji är lyckospådomar som man kan köpa vid helgedomen."
         },
         {
           "id": "b",
           "text": "En port",
-          "feedback": "Fel."
+          "feedback": "Fel. Porten kallas torii, medan omikuji är en lyckospådom."
         },
         {
           "id": "c",
           "text": "En present",
-          "feedback": "Fel."
+          "feedback": "Fel. Omikuji är en lyckospådom, inte en present."
         },
         {
           "id": "d",
           "text": "En klocka",
-          "feedback": "Fel."
+          "feedback": "Fel. Omikuji är en lyckospådom, inte en klocka."
         }
       ]
     },
@@ -272,22 +272,22 @@
           "id": "a",
           "text": "Det handlar mycket om ritualer, platser och tradition.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Shinto handlar mycket om ritualer, platser och tradition snarare än om en bestämd lära."
         },
         {
           "id": "b",
           "text": "Det finns ingen tradition.",
-          "feedback": "Fel."
+          "feedback": "Fel. Shinto har traditioner, och för många är det just tradition och plats."
         },
         {
           "id": "c",
           "text": "Det är förbjudet att tro.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger inget om förbud, utan att shinto handlar mindre om att tro på något bestämt."
         },
         {
           "id": "d",
           "text": "Det finns bara en bok.",
-          "feedback": "Fel."
+          "feedback": "Fel. Shinto har inte en enda helig bok eller lära."
         }
       ]
     }

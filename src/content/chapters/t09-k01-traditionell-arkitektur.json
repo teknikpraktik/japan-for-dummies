@@ -9,7 +9,7 @@
   "summary": "Hur traditionella byggnader är konstruerade, varför trä dominerar och hur trädgårdar planeras. Kapitlet visar också hur byggnader återuppbyggs.",
   "objectives": [
     "Beskriva typiska delar av traditionell arkitektur",
-    "Förklara varför trä och återuppbyggnad är vanligt",
+    "Förklara varför det är vanligt att bygga i trä och att bygga upp igen",
     "Betrakta en byggnad aktivt på resan"
   ],
   "minutes": 8,
@@ -44,7 +44,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Vid **Ise-helgedomarna** byggs alla huvudbyggnader om från grunden **vart tjugonde år** (shikinen sengū). Den nya byggnaden får samma mått som den förra och byggs på en intilliggande plats. Enligt Japan Atlas var den första ombyggnaden år 690, och den senaste hittills på 1990-talet (61:a) följdes av en ny cykel som började 2025 och pågår till 2033. Årtalen anges olika i olika källor."
+          "text": "Vid **Ise-helgedomarna** byggs alla huvudbyggnader om från grunden **vart tjugonde år** (shikinen sengū). Den nya byggnaden får samma mått som den förra och byggs på en intilliggande plats. Enligt Japan Atlas var den första ombyggnaden år 690. Den 62:a ombyggnaden genomfördes 2013, och förberedelserna för den 63:e började 2025 inför flytten 2033."
         },
         {
           "type": "p",
@@ -58,7 +58,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Japanska trädgårdar planeras ofta som **komponerade landskap** med sten, vatten, mossa, träd och stigar som leder blicken. Vissa är torra trädgårdar med krattad grus, andra promenadträdgårdar kring en damm. Platser som Kenroku-en i Kanazawa är kända exempel. Utsikten och vandringsvägen är planerade, och trädgården ser olika ut med årstiden."
+          "text": "Japanska trädgårdar planeras ofta som **komponerade landskap** med sten, vatten, mossa, träd och stigar som leder blicken. Vissa är torra trädgårdar med krattat grus, andra promenadträdgårdar kring en damm. Platser som Kenroku-en i Kanazawa är kända exempel. Utsikten och vandringsvägen är planerade, och trädgården ser olika ut med årstiden."
         },
         {
           "type": "p",
@@ -88,7 +88,7 @@
           "id": "a",
           "text": "Trä",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Traditionell japansk arkitektur bygger i stor utsträckning på trä."
         },
         {
           "id": "b",
@@ -100,7 +100,7 @@
           "id": "c",
           "text": "Is",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver trä, inte is, som det dominerande materialet."
         }
       ]
     },
@@ -114,19 +114,19 @@
           "id": "a",
           "text": "De byggs om vart tjugonde år.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Ise-helgedomarnas huvudbyggnader byggs om från grunden vart tjugonde år."
         },
         {
           "id": "b",
           "text": "De är aldrig underhållna.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Byggnaderna byggs om vart tjugonde år, så förnyelse är en del av traditionen."
         },
         {
           "id": "c",
           "text": "De är nya varje dag.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. De byggs om vart tjugonde år, inte varje dag."
         }
       ]
     },
@@ -173,22 +173,22 @@
           "id": "a",
           "text": "Halmmattor på golvet",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Tatami är halmmattor."
         },
         {
           "id": "b",
           "text": "Ett slags tak",
-          "feedback": "Fel."
+          "feedback": "Fel. Tatami är halmmattor, inte ett tak."
         },
         {
           "id": "c",
           "text": "Ett tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Tatami är halmmattor, inte ett tåg."
         },
         {
           "id": "d",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. Tatami är halmmattor, inte en maträtt."
         }
       ]
     },
@@ -200,22 +200,22 @@
           "id": "a",
           "text": "Vart tjugonde år",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Huvudbyggnaderna byggs om vart tjugonde år."
         },
         {
           "id": "b",
           "text": "Varje år",
-          "feedback": "Fel."
+          "feedback": "Fel. Ombyggnaden sker vart tjugonde år, inte varje år."
         },
         {
           "id": "c",
           "text": "Vart hundrade år",
-          "feedback": "Fel."
+          "feedback": "Fel. Ombyggnaden sker vart tjugonde år, inte vart hundrade."
         },
         {
           "id": "d",
           "text": "Aldrig",
-          "feedback": "Fel."
+          "feedback": "Fel. Byggnaderna byggs om regelbundet, vart tjugonde år."
         }
       ]
     },
@@ -227,22 +227,22 @@
           "id": "a",
           "text": "Tillgång, klimat och byggtraditioner",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet säger att material, klimat och jordbävningar har format byggnaderna."
         },
         {
           "id": "b",
           "text": "Det är förbjudet att använda sten",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner inget förbud mot sten."
         },
         {
           "id": "c",
           "text": "Trä är billigast i hela världen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger inget om pris, utan om material, klimat och jordbävningar."
         },
         {
           "id": "d",
           "text": "Ingen vet",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet ger flera förklaringar, bland annat klimat och jordbävningar."
         }
       ]
     },
@@ -254,22 +254,22 @@
           "id": "a",
           "text": "En veranda som binder samman inne och ute",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Engawa är verandor som binder samman inne och ute."
         },
         {
           "id": "b",
           "text": "En port",
-          "feedback": "Fel."
+          "feedback": "Fel. Engawa är en veranda, inte en port."
         },
         {
           "id": "c",
           "text": "Ett tak",
-          "feedback": "Fel."
+          "feedback": "Fel. Engawa är en veranda, inte ett tak."
         },
         {
           "id": "d",
           "text": "En lykta",
-          "feedback": "Fel."
+          "feedback": "Fel. Engawa är en veranda, inte en lykta."
         }
       ]
     },
@@ -281,28 +281,29 @@
           "id": "a",
           "text": "Som form, plats och hantverk, inte bara gammalt material",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En byggnad kan vara gammal genom sin form, plats och sitt hantverk, även om virket är nytt."
         },
         {
           "id": "b",
           "text": "Bara som gammalt virke",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att äkthet inte bara handlar om gammalt virke."
         },
         {
           "id": "c",
           "text": "Som något nytt",
-          "feedback": "Fel."
+          "feedback": "Fel. Nytt virke kan ingå, men äktheten ligger i form, plats och hantverk."
         },
         {
           "id": "d",
           "text": "Som något plastigt",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner inget om plast, utan om form, plats, hantverk och kunskap."
         }
       ]
     }
   ],
   "sourceIds": [
     "webjapan-architecture",
+    "isejingu-sengu-63",
     "nippon-ise-moves-house",
     "wikipedia-sengu"
   ],
@@ -312,7 +313,7 @@
     "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
     "status": "needs-human-review",
     "uncertainty": [
-      "Årtalen för Ise-ombyggnaderna (690, 61:a vid 1993, ny cykel 2025–2033) varierar mellan källor. En källa anger ett uppenbart felaktigt årtal.",
+      "Ombyggnaden 2013 (62:a) och den pågående cykeln mot 2033 (63:a) kommer från Ise Jingus egen sida. Årtalet 690 för den första ombyggnaden kommer från Japan Atlas, som är äldre än 2013, och bygger på tradition.",
       "Beskrivningen av tatami, shōji, engawa, trädgårdstyper och Kenroku-en är allmän bakgrund som inte kontrollerades mot en källa.",
       "Förklaringen om varför trä dominerar och hur slott återuppbyggts är förenklad.",
       "Bildtexterna om Kenroku-en och Himeji slott bygger på Commons-beskrivningarna och allmän kännedom."

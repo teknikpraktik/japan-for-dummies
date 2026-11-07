@@ -8,7 +8,7 @@ import { useProgress } from "@/lib/store";
 import { flush, pull, useSyncStatus } from "@/lib/sync";
 import { useAccount } from "./AccountProvider";
 import { StatusBadge } from "./ChapterClient";
-import type { ChapterLite } from "./StartCta";
+import type { ChapterLite } from "@/lib/chapter-lite";
 import { LegacyImportPanel } from "./LegacyImportPanel";
 import { ResepassView, type ThemeLite } from "./ResepassView";
 import { PersistToggle } from "./PersistToggle";

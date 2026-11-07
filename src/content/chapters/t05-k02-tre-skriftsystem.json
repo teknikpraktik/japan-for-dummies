@@ -113,7 +113,7 @@
             "Finns romaji eller engelska som du kan jämföra med?",
             "Vilka tecken återkommer?"
           ],
-          "textAlternative": "Utan bild: leta efter tecken i hemmiljön, till exempel på en matförpackning med japansk text. Vilka tecken kan du känna igen, och vilken är den mest återkommande?",
+          "textAlternative": "Leta efter tecken i hemmiljön, till exempel på en matförpackning med japansk text. Vilka tecken kan du känna igen, och vilken är den mest återkommande?",
           "imageSlotIds": [
             "t05-k02-hero"
           ]
@@ -217,7 +217,7 @@
           "id": "a",
           "text": "Hiragana",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Hiragana används för grammatiska ändelser och småord."
         },
         {
           "id": "b",
@@ -232,7 +232,7 @@
         {
           "id": "d",
           "text": "Morse",
-          "feedback": "Fel."
+          "feedback": "Fel. Morse nämns inte i kapitlet, och hiragana används för ändelser och småord."
         }
       ]
     },
@@ -271,22 +271,22 @@
           "id": "a",
           "text": "För att det ofta har både en on-läsning (kinesisk-inspirerad) och en kun-läsning (japansk).",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Många kanji har både en on-läsning, inspirerad av kinesiskan, och en kun-läsning, som är japansk."
         },
         {
           "id": "b",
           "text": "För att tecknen ändras varje dag.",
-          "feedback": "Fel."
+          "feedback": "Fel. Flera läsningar beror på on- och kun-läsningar och på vilket ord tecknet ingår i."
         },
         {
           "id": "c",
           "text": "För att det är slumpmässigt.",
-          "feedback": "Fel."
+          "feedback": "Fel. Läsningen beror på vilket ord tecknet ingår i."
         },
         {
           "id": "d",
           "text": "För att man får välja själv.",
-          "feedback": "Fel."
+          "feedback": "Fel. Läsningen bestäms av vilket ord tecknet ingår i."
         }
       ]
     },
@@ -308,12 +308,12 @@
         {
           "id": "c",
           "text": "20 000",
-          "feedback": "Fel."
+          "feedback": "Fel. Jōyō-listan har 2 136 tecken."
         },
         {
           "id": "d",
           "text": "10",
-          "feedback": "Fel."
+          "feedback": "Fel. Jōyō-listan har 2 136 tecken."
         }
       ]
     },
@@ -325,7 +325,7 @@
           "id": "a",
           "text": "Med katakana (スウェーデン)",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Utländska namn skrivs ofta med katakana, som スウェーデン för Sverige."
         },
         {
           "id": "b",
@@ -340,7 +340,7 @@
         {
           "id": "d",
           "text": "Med romaji alltid",
-          "feedback": "Fel."
+          "feedback": "Fel. Utländska namn skrivs ofta med katakana, som スウェーデン."
         }
       ]
     }

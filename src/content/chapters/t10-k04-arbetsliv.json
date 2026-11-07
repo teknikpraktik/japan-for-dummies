@@ -24,11 +24,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Arbetsmarknaden har flera former. Traditionellt förknippas Japan med **fast heltidsanställning** i ett och samma företag, ofta från examen till pension, med lön som ökar efter anställningstid. Sedan 1990-talet har andelen med tillfälliga och deltidsanställningar ökat, och arbetsvillkoren skiljer sig tydligt mellan fast och icke-fast anställda. Sökningen gav inga exakta siffror, så använd bilden som en grov beskrivning."
+          "text": "Arbetsmarknaden har flera former. Traditionellt förknippas Japan med **fast heltidsanställning** i ett och samma företag, ofta från examen till pension, med lön som ökar efter anställningstid. Sedan 1990-talet har andelen med tillfälliga och deltidsanställningar ökat, och arbetsvillkoren skiljer sig tydligt mellan fast och icke-fast anställda. Exakta siffror varierar mellan branscher, så se det här som en ungefärlig bild."
         },
         {
           "type": "p",
-          "text": "Arbetet formas också av kön, ålder och bransch: kvinnor arbetar oftare deltid (se kapitlet om jämställdhet), och yngre och äldre kan ha osäkrare villkor."
+          "text": "Arbetet formas också av kön, ålder och bransch: kvinnor arbetar oftare deltid (se kapitlet [Jämställdhet i hem, skola och arbetsliv](/kapitel/jamstalldhet/)), och yngre och äldre kan ha osäkrare villkor."
         }
       ]
     },
@@ -38,7 +38,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Långa arbetsdagar och övertid har länge varit en del av arbetskulturen i delar av arbetslivet. Ordet **karoshi** (död av överarbete) används om dödsfall som kopplas till långa arbetspass. Enligt en sammanfattning dog omkring 200 personer per år av överarbete under en femårsperiod, enligt hälsoministeriet. Siffrorna är osäkra, och begreppet är omdiskuterat."
+          "text": "Långa arbetsdagar och övertid har länge varit en del av arbetskulturen i delar av arbetslivet. Ordet **karoshi** (död av överarbete) används om dödsfall som kopplas till långa arbetspass. Hälsoministeriet (MHLW) redovisade för budgetåret 2024 67 erkända dödsfall i hjärt- och kärlsjukdom och 88 erkända självmord (inklusive försök) som kopplats till arbetet, alltså drygt 150 erkända fall. Det gäller bara fall som erkänts, och begreppet är omdiskuterat."
         },
         {
           "type": "p",
@@ -52,8 +52,8 @@
               "value": "45 timmar per månad och 360 timmar per år"
             },
             {
-              "label": "Undantag för särskilda perioder",
-              "value": "Upp till 100 timmar en månad och 720 timmar per år"
+              "label": "Undantag vid särskilda skäl",
+              "value": "Under 100 timmar en månad (helgarbete räknas in), i snitt högst 80 timmar över 2–6 månader, och mer än 45 timmar högst sex månader per år. 720 timmar per år gäller utan helgarbete."
             },
             {
               "label": "Princip",
@@ -93,19 +93,19 @@
           "id": "a",
           "text": "Död av överarbete",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Karoshi används om dödsfall som kopplas till långa arbetspass."
         },
         {
           "id": "b",
           "text": "Semester",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Karoshi betyder död av överarbete, inte semester."
         },
         {
           "id": "c",
           "text": "Ett tåg",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Karoshi betyder död av överarbete, inte ett tåg."
         }
       ]
     },
@@ -119,19 +119,19 @@
           "id": "a",
           "text": "Gränser för övertid och lika lön för lika arbete.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Reformen satte gränser för övertid och byggde på principen lika lön för lika arbete."
         },
         {
           "id": "b",
           "text": "Inga regler alls.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Reformen införde gränser för övertid."
         },
         {
           "id": "c",
           "text": "Att allt arbete förbjöds.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Reformen syftade till att minska överarbetet, inte att förbjuda arbete."
         }
       ]
     },
@@ -178,22 +178,22 @@
           "id": "a",
           "text": "Fast heltid i ett företag",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Japan förknippas traditionellt med fast heltidsanställning i ett och samma företag."
         },
         {
           "id": "b",
           "text": "Alltid deltid",
-          "feedback": "Fel."
+          "feedback": "Fel. Deltid har blivit vanligare, men den traditionella formen är fast heltid."
         },
         {
           "id": "c",
           "text": "Bara frilans",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner inte frilans som traditionell anställningsform."
         },
         {
           "id": "d",
           "text": "Ingen",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver flera anställningsformer, med fast heltid som den traditionella."
         }
       ]
     },
@@ -205,22 +205,22 @@
           "id": "a",
           "text": "45 timmar per månad och 360 per år",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Grundgränsen är 45 timmar per månad och 360 timmar per år."
         },
         {
           "id": "b",
           "text": "Obegränsad",
-          "feedback": "Fel."
+          "feedback": "Fel. Reformen införde en grundgräns för övertid."
         },
         {
           "id": "c",
           "text": "1 timme per år",
-          "feedback": "Fel."
+          "feedback": "Fel. Grundgränsen är 45 timmar per månad och 360 per år, inte 1 timme."
         },
         {
           "id": "d",
           "text": "1000 timmar",
-          "feedback": "Fel."
+          "feedback": "Fel. Grundgränsen är 45 timmar per månad och 360 per år, inte 1000 timmar."
         }
       ]
     },
@@ -232,22 +232,22 @@
           "id": "a",
           "text": "Samma lön för samma arbete oavsett anställningsform",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Principen betyder samma lön för samma arbete."
         },
         {
           "id": "b",
           "text": "Alla får samma lön oavsett arbete",
-          "feedback": "Fel."
+          "feedback": "Fel. Principen gäller lika arbete, inte lika lön oavsett arbete."
         },
         {
           "id": "c",
           "text": "Ingen lön",
-          "feedback": "Fel."
+          "feedback": "Fel. Principen handlar om lika lön för lika arbete, inte om att ingen lön ges."
         },
         {
           "id": "d",
           "text": "Dubbel lön",
-          "feedback": "Fel."
+          "feedback": "Fel. Principen handlar om lika lön för lika arbete, inte om dubbel lön."
         }
       ]
     },
@@ -264,7 +264,7 @@
         {
           "id": "b",
           "text": "Att all övertid förbjudits",
-          "feedback": "Fel."
+          "feedback": "Fel. Det som rapporterats är att tillsynen lättats, inte att övertid förbjudits."
         },
         {
           "id": "c",
@@ -274,7 +274,7 @@
         {
           "id": "d",
           "text": "Ingenting",
-          "feedback": "Fel."
+          "feedback": "Fel. Det har rapporterats att tillsynen över övertid lättats."
         }
       ]
     },
@@ -286,28 +286,30 @@
           "id": "a",
           "text": "Lyssna på människors egna beskrivningar och undvik att moralisera.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet rekommenderar att du lyssnar på människors egna beskrivningar och undviker att moralisera."
         },
         {
           "id": "b",
           "text": "Döma snabbt",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet råder dig att undvika förhastade slutsatser."
         },
         {
           "id": "c",
           "text": "Anta att alla är lika",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet betonar att arbetsliv skiljer sig mellan branscher, företag och generationer."
         },
         {
           "id": "d",
           "text": "Aldrig jämföra",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår att du jämför med arbetslivet hemma."
         }
       ]
     }
   ],
   "sourceIds": [
     "proskauer-overtime",
+    "mhlw-karoshi-whitepaper-2025",
+    "mhlw-overtime-cap",
     "scmp-overtime-relax",
     "nippon-gender-gap-2025"
   ],
@@ -317,7 +319,7 @@
     "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
     "status": "needs-human-review",
     "uncertainty": [
-      "Gränserna för övertid och uppgiften om karoshi kommer från juridiska sammanfattningar och nyhetsartiklar. Detaljer (undantag, tidpunkter för mindre företag) bör kontrolleras mot hälsoministeriet.",
+      "Karoshisiffrorna (budgetåret 2024) kommer från hälsoministeriets sammanfattning av vitboken 2025, och övertidsgränserna från ministeriets sida om övertidsregler. Tidpunkter för mindre företag och andra detaljer bör kontrolleras mot ministeriet.",
       "Rapporten om lättad tillsyn 2026 är en enskild nyhetsrapport och läget kan ha ändrats.",
       "Sökningen gav inga siffror om andelen icke-fast anställda eller deltid. Beskrivningen av anställningsformer är allmän bakgrund.",
       "Ämnet är känsligt och bör granskas av någon med kunskap om arbetsrätt."

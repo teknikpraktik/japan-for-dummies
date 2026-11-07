@@ -74,19 +74,19 @@
           "id": "a",
           "text": "En närbutik som är öppen långa tider.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Närbutiken (konbini) är en plats för snacks och dryck på vägen hem."
         },
         {
           "id": "b",
           "text": "En typ av skola.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver konbini som en närbutik, inte en skola."
         },
         {
           "id": "c",
           "text": "Ett tempel.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver konbini som en närbutik, inte ett tempel."
         }
       ]
     },
@@ -100,7 +100,7 @@
           "id": "a",
           "text": "Man hyr ett rum med vänner.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Vid karaoke hyr man ett eget rum med vänner."
         },
         {
           "id": "b",
@@ -112,7 +112,7 @@
           "id": "c",
           "text": "Det är förbjudet för unga.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner karaoke som en vanlig fritidsaktivitet bland ungdomar."
         }
       ]
     },
@@ -139,7 +139,7 @@
           "id": "c",
           "text": "De har ingen fritid alls.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att fritiden varierar mycket och att det finns lika många vardagar som personer."
         }
       ]
     }
@@ -159,22 +159,22 @@
           "id": "a",
           "text": "Konbini",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Närbutiken (konbini) nämns som en plats för snacks på vägen hem."
         },
         {
           "id": "b",
           "text": "Tempel",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner närbutiken som plats för snacks, inte templet."
         },
         {
           "id": "c",
           "text": "Bibliotek",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner närbutiken som plats för snacks, inte biblioteket."
         },
         {
           "id": "d",
           "text": "Hamn",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner närbutiken som plats för snacks, inte hamnen."
         }
       ]
     },
@@ -186,22 +186,22 @@
           "id": "a",
           "text": "Karaoke",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Karaoke nämns som en vanlig aktivitet, ofta med vänner i ett eget rum."
         },
         {
           "id": "b",
           "text": "Segling",
-          "feedback": "Fel."
+          "feedback": "Fel. Segling nämns inte i kapitlet."
         },
         {
           "id": "c",
           "text": "Skidåkning",
-          "feedback": "Fel."
+          "feedback": "Fel. Skidåkning nämns inte i kapitlet."
         },
         {
           "id": "d",
           "text": "Ridning",
-          "feedback": "Fel."
+          "feedback": "Fel. Ridning nämns inte i kapitlet."
         }
       ]
     },
@@ -213,22 +213,22 @@
           "id": "a",
           "text": "Tid, pengar och avstånd",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Fritiden formas av vad man hinner, har råd med och hur långt det är."
         },
         {
           "id": "b",
           "text": "Bara vädret",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet pekar på tid, pengar och avstånd, inte på vädret."
         },
         {
           "id": "c",
           "text": "Bara ålder",
-          "feedback": "Fel."
+          "feedback": "Fel. Ålder spelar roll, men kapitlet nämner också tid, pengar och avstånd."
         },
         {
           "id": "d",
           "text": "Ingenting",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet beskriver flera faktorer som styr fritiden, bland annat tid, pengar och avstånd."
         }
       ]
     },
@@ -240,22 +240,22 @@
           "id": "a",
           "text": "De gäller små urval och kan inte beskriva alla.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet påpekar att siffrorna gäller små urval och inte kan beskriva alla."
         },
         {
           "id": "b",
           "text": "De är alltid fel.",
-          "feedback": "Fel."
+          "feedback": "Fel. Siffrorna kan vara användbara, men de gäller små urval och kan inte beskriva alla."
         },
         {
           "id": "c",
           "text": "De är alltid sanna för alla.",
-          "feedback": "Fel."
+          "feedback": "Fel. Siffrorna gäller små urval och kan inte beskriva alla."
         },
         {
           "id": "d",
           "text": "De finns inte.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet redovisar siffror från undersökningar, men påpekar att de gäller små urval."
         }
       ]
     },
@@ -267,22 +267,22 @@
           "id": "a",
           "text": "Fråga, lyssna och berätta om dig själv.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet rekommenderar att fråga om deras vanliga vecka och berätta om sin egen, eftersom ett utbyte går åt båda håll."
         },
         {
           "id": "b",
           "text": "Anta att alla är lika.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet varnar för förenklade bilder och säger att det finns lika många vardagar som personer."
         },
         {
           "id": "c",
           "text": "Gissa deras åsikter.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet föreslår att man frågar i stället för att gissa."
         },
         {
           "id": "d",
           "text": "Aldrig fråga.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet menar att fritid är ett bra samtalsämne och uppmuntrar att fråga."
         }
       ]
     }

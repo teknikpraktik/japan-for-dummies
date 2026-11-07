@@ -6,7 +6,7 @@
   "status": "published",
   "contentVersion": 1,
   "title": "Pengar, betalning och kommunikation",
-  "summary": "Kontanter, kort och betalkort, mobildata och mobiltelefon. Kapitlet visar hur betalning kan se ut och vad som kan variera.",
+  "summary": "Kontanter och kort, mobildata och mobiltelefon. Kapitlet visar hur betalning kan se ut och vad som kan variera.",
   "objectives": [
     "Planera betalning med flera alternativ",
     "Förstå hur mobildata och Wi-Fi ordnas",
@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kombinera flera sätt att betala. Stora hotell, varuhus och kedjor tar oftast kort, men många små restauranger, tempel och butiker på landsbygden tar bara **kontanter**. Ta därför med både ett kort utan eller med låga utlandsavgifter och en del yen. Kortbolag tar ofta en avgift på 1–3 procent för utlandstransaktioner, så kontrollera dina villkor."
+          "text": "Kombinera flera sätt att betala. Stora hotell, varuhus och kedjor tar oftast kort, men många små restauranger, tempel och butiker på landsbygden tar bara **kontanter**. Ta därför med både ett kort utan utlandsavgifter (eller med låga) och en del yen. Kortbolag tar ofta en avgift på 1–3 procent för utlandstransaktioner, så kontrollera dina villkor."
         },
         {
           "type": "p",
@@ -42,7 +42,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "För mobildata finns bland annat **eSIM**, turist-SIM och mobila Wi-Fi-routrar. Sökningarna gav ingen tillförlitlig information om dessa, så jämför på oberoende sidor och kontrollera din telefons kompatibilitet i förväg. En mobil router ger bara data, så för samtal behöver du en mobil med röstfunktion (till exempel för att ringa 110 eller 119)."
+          "text": "För mobildata finns bland annat **eSIM**, turist-SIM och mobila Wi-Fi-routrar. Utbud och villkor ändras ofta, så jämför på oberoende sidor och kontrollera din telefons kompatibilitet i förväg. En mobil router ger bara data, så för samtal behöver du en mobil med röstfunktion (till exempel för att ringa 110 eller 119)."
         },
         {
           "type": "p",
@@ -75,19 +75,19 @@
           "id": "a",
           "text": "Många små ställen tar bara kontanter.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Många små restauranger, tempel och butiker tar bara kontanter, medan stora ställen oftast tar kort."
         },
         {
           "id": "b",
           "text": "Kort är förbjudna.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kort tas på stora hotell, varuhus och kedjor; kapitlet rekommenderar att kombinera sätten att betala."
         },
         {
           "id": "c",
           "text": "Kontanter är förbjudna.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kontanter är inte förbjudna; många ställen tar bara kontanter."
         }
       ]
     },
@@ -107,13 +107,13 @@
           "id": "b",
           "text": "Alla bankomater",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att många vanliga bankers bankomater avvisar utländska kort."
         },
         {
           "id": "c",
           "text": "Inga",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Bankomater från 7-Eleven och Japan Post Bank fungerar oftast med utländska kort."
         }
       ]
     },
@@ -128,7 +128,7 @@
           "id": "a",
           "text": "Sparat adress och karta offline och skrivit ner kontakter på papper.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Adress och karta offline och kontakter på papper fungerar även när mobilen tappar täckning."
         },
         {
           "id": "b",
@@ -154,28 +154,28 @@
   "quiz": [
     {
       "id": "q1",
-      "prompt": "Vilket sätt att betala är säkrast att ha en reserv för?",
+      "prompt": "Vilket betalsätt är klokast att ha som reserv?",
       "options": [
         {
           "id": "a",
           "text": "Kontanter",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Många små ställen tar bara kontanter, och kapitlet vill ha minst två sätt att betala."
         },
         {
           "id": "b",
           "text": "Bara kort",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet rekommenderar minst två betalsätt, och kort fungerar inte överallt."
         },
         {
           "id": "c",
           "text": "Bara mobil",
-          "feedback": "Fel."
+          "feedback": "Fel. Mobilen kan tappas bort eller ta slut, och kontaktlös betalning går inte att räkna med överallt."
         },
         {
           "id": "d",
           "text": "Ingenting",
-          "feedback": "Fel."
+          "feedback": "Fel. Plan B ska innehålla minst två sätt att betala."
         }
       ]
     },
@@ -187,22 +187,22 @@
           "id": "a",
           "text": "Ett IC-kort för tåg och betalning",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Suica är ett IC-kort som fungerar på tåg och buss och i många närbutiker och automater."
         },
         {
           "id": "b",
           "text": "En maträtt",
-          "feedback": "Fel."
+          "feedback": "Fel. Suica är ett IC-kort, inte en maträtt."
         },
         {
           "id": "c",
           "text": "En port",
-          "feedback": "Fel."
+          "feedback": "Fel. Suica är ett IC-kort för resor och betalning, inte en port."
         },
         {
           "id": "d",
           "text": "Ett tåg",
-          "feedback": "Fel."
+          "feedback": "Fel. Suica är ett kort som man åker tåg med, inte ett tåg."
         }
       ]
     },
@@ -241,22 +241,22 @@
           "id": "a",
           "text": "Data men inte samtal",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. En mobil router ger bara data, så för samtal behöver du en mobil med röstfunktion."
         },
         {
           "id": "b",
           "text": "Samtal och data",
-          "feedback": "Fel."
+          "feedback": "Fel. En mobil router ger bara data, inte samtal."
         },
         {
           "id": "c",
           "text": "Inget",
-          "feedback": "Fel."
+          "feedback": "Fel. En mobil router ger data, men inte samtal."
         },
         {
           "id": "d",
           "text": "Bara kartor",
-          "feedback": "Fel."
+          "feedback": "Fel. Routern ger data som kan användas till mer än kartor, men inte samtal."
         }
       ]
     },
@@ -268,22 +268,22 @@
           "id": "a",
           "text": "Spärrar det snabbt",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Kapitlet säger att du ska spärra kort snabbt om något försvinner."
         },
         {
           "id": "b",
           "text": "Väntar en vecka",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet säger att du ska spärra kortet snabbt."
         },
         {
           "id": "c",
           "text": "Ignorerar",
-          "feedback": "Fel."
+          "feedback": "Fel. Ett borttappat kort ska spärras snabbt."
         },
         {
           "id": "d",
           "text": "Skickar PIN-koden till någon",
-          "feedback": "Fel."
+          "feedback": "Fel. Dela aldrig PIN-koden; kapitlet säger att du ska spärra kortet snabbt."
         }
       ]
     }

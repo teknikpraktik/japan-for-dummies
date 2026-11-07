@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Eftersom en stor del av landet är berg (se kapitel 1) är mycket av Japans natur **skogklädda berg**. Landet har också en lång kust med klippor, vikar och öar, och vulkaniska landskap med varma källor och kratersjöar. Naturen förändras med årstiderna, från snö i norr till subtropiska skogar i söder."
+          "text": "Eftersom en stor del av landet är berg (se kapitlet [Berg, vulkaner och jordbävningar](/kapitel/berg-vulkaner-och-jordbavningar/)) är mycket av Japans natur **skogklädda berg**. Landet har också en lång kust med klippor, vikar och öar, och vulkaniska landskap med varma källor och kratersjöar. Naturen förändras med årstiderna, från snö i norr till subtropiska skogar i söder."
         },
         {
           "type": "p",
@@ -42,7 +42,7 @@
         },
         {
           "type": "p",
-          "text": "Som besökare betyder det att du ofta rör dig i ett landskap där människor bor och arbetar. Håll dig till stigar och vägar, släpp inte ut skräp, och följ skyltar och lokala regler. Reglerna finns både för att skydda naturen och för att människorna på platsen ska kunna fortsätta sin vardag."
+          "text": "Som besökare betyder det att du ofta rör dig i ett landskap där människor bor och arbetar. Håll dig till stigar och vägar, lämna inget skräp efter dig, och följ skyltar och lokala regler. Reglerna finns både för att skydda naturen och för att människorna på platsen ska kunna fortsätta sin vardag."
         },
         {
           "type": "facts",
@@ -73,7 +73,7 @@
         },
         {
           "type": "p",
-          "text": "Matar du eller närmar dig djur riskerar du dem och dig själv. Håll avstånd, mata inte, och ta inte med mat ut i skogen som lockar djur."
+          "text": "Matar du eller närmar dig djur riskerar du dem och dig själv. Håll avstånd, mata inte, och ta inte med mat ut i skogen som lockar djur. Ett undantag är hjortarna i Nara, där man får ge dem särskilda kex (shika-senbei) som säljs på platsen. Följ skyltarna."
         },
         {
           "type": "callout",
@@ -252,7 +252,7 @@
         {
           "id": "d",
           "text": "Bara havet.",
-          "feedback": "Fel. Det är land."
+          "feedback": "Fel. Parkerna omfattar oftast land och ibland även hav."
         }
       ]
     },

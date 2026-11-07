@@ -84,7 +84,7 @@
             "Leta efter piktogram: toalett, utgång, hiss, biljettautomat.",
             "Leta efter golvmarkeringar där människor kan ställa sig i kö."
           ],
-          "textAlternative": "Utan bild: tänk på en station du känner. Nämn fyra saker som hjälper dig att hitta rätt utan att kunna språket (nummer, pilar, symboler, färger). På resan: gör samma övning på en riktig perrong och jämför.",
+          "textAlternative": "Tänk på en station du känner. Nämn fyra saker som hjälper dig att hitta rätt utan att kunna språket (nummer, pilar, symboler, färger). På resan: gör samma övning på en riktig perrong och jämför.",
           "imageSlotIds": [
             "t06-k01-hero",
             "t06-k01-tagvagn"
@@ -188,7 +188,7 @@
         },
         {
           "id": "d",
-          "text": "Sätt telefonen på ljudlöst och håll ryggsäcken framför dig"
+          "text": "När du har stigit på: sätt telefonen på ljudlöst och håll ryggsäcken framför dig"
         }
       ],
       "explanation": "Kö vid markeringen, släpp av passagerare, stig på och flytta in i vagnen, och sätt sedan telefonen på ljudlöst och ryggsäcken framför dig så att du inte tar plats."
@@ -300,7 +300,7 @@
         {
           "id": "c",
           "text": "För att kameror är olagliga.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kameror är inte olagliga, men lokala foto- och tillträdesförbud har införts på grund av trängsel."
         },
         {
           "id": "d",

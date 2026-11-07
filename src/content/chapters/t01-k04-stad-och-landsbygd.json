@@ -28,7 +28,7 @@
         },
         {
           "type": "p",
-          "text": "Hur kan så många bo så tätt? Mycket av landet är berg (se kapitel 1), så människor samlas på de smala slätterna vid kusten. I storstäderna går vardagen på **tåg och tunnelbana**, och många behöver ingen bil. Bostäderna är ofta små, och butiker, kaféer och automater finns överallt."
+          "text": "Hur kan så många bo så tätt? Mycket av landet är berg (se kapitlet [Berg, vulkaner och jordbävningar](/kapitel/berg-vulkaner-och-jordbavningar/)), så människor samlas på de smala slätterna vid kusten. I storstäderna går vardagen på **tåg och tunnelbana**, och många behöver ingen bil. Bostäderna är ofta små, och butiker, kaféer och automater finns överallt."
         }
       ]
     },
@@ -95,7 +95,7 @@
       "type": "multiple-choice",
       "id": "akiya",
       "title": "Vad är akiya?",
-      "prompt": "Vad betyder ordet akiya i den här sammanhanget?",
+      "prompt": "Vad betyder ordet akiya i det här sammanhanget?",
       "options": [
         {
           "id": "a",

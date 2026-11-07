@@ -99,7 +99,7 @@
         },
         {
           "type": "p",
-          "text": "1989 slutade Showaeran när kejsar Hirohito avled, och Heisei började. 2019 följde Reiwa. Japan har ett åldrande samhälle med låg födelsetal, vilket påverkar allt från skolor till landsbygd. Under senare år har turismen ökat kraftigt."
+          "text": "1989 slutade Showaeran när kejsar Hirohito avled, och Heisei började. 2019 följde Reiwa. Japan har ett åldrande samhälle med lågt födelsetal, vilket påverkar allt från skolor till landsbygd. Under senare år har turismen ökat kraftigt."
         }
       ]
     },
@@ -121,7 +121,7 @@
             "Vad berättar skyltar, minnesmärken och museer?",
             "Vilka frågor väcks om framtiden?"
           ],
-          "textAlternative": "Utan bild: tänk på en stad du känner. Lista tre saker som byggdes under olika årtionden och vad de berättar om tiden.",
+          "textAlternative": "Tänk på en stad du känner. Lista tre saker som byggdes under olika årtionden och vad de berättar om tiden.",
           "imageSlotIds": [
             "t02-k05-shinkansen"
           ]
@@ -181,13 +181,13 @@
           "id": "c",
           "text": "Att alla måste vara med i armén.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Artikel 9 handlar om att Japan avstår från krig som medel att lösa konflikter."
         },
         {
           "id": "d",
           "text": "Att Japan ska ockupera grannländer.",
           "correct": false,
-          "feedback": "Fel."
+          "feedback": "Fel. Artikel 9 säger tvärtom att Japan avstår från krig som medel att lösa konflikter."
         }
       ]
     },
@@ -249,7 +249,7 @@
         {
           "id": "d",
           "text": "Oda Nobunaga",
-          "feedback": "Fel."
+          "feedback": "Fel. Ockupationen leddes av general Douglas MacArthur."
         }
       ]
     },
@@ -261,7 +261,7 @@
           "id": "a",
           "text": "1947",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Den nya konstitutionen trädde i kraft 1947."
         },
         {
           "id": "b",
@@ -271,12 +271,12 @@
         {
           "id": "c",
           "text": "1964",
-          "feedback": "Fel."
+          "feedback": "Fel. År 1964 hölls olympiska spelen i Tokyo, medan konstitutionen trädde i kraft 1947."
         },
         {
           "id": "d",
           "text": "1990",
-          "feedback": "Fel."
+          "feedback": "Fel. Omkring 1990 brast börs- och fastighetsbubblan, medan konstitutionen trädde i kraft 1947."
         }
       ]
     },
@@ -288,22 +288,22 @@
           "id": "a",
           "text": "Olympiska spelen i Tokyo och första shinkansen",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Olympiska spelen i Tokyo och den första shinkansenlinjen blev symboler för det nya Japan."
         },
         {
           "id": "b",
           "text": "Perrys ankomst",
-          "feedback": "Fel."
+          "feedback": "Fel. Perrys ankomst tillhör en tidigare period och kapitlet kopplar inte den till 1964."
         },
         {
           "id": "c",
           "text": "Meijirestaurationen",
-          "feedback": "Fel."
+          "feedback": "Fel. Meijirestaurationen tillhör en tidigare period och kapitlet kopplar inte den till 1964."
         },
         {
           "id": "d",
           "text": "Slaget vid Midway",
-          "feedback": "Fel."
+          "feedback": "Fel. Kapitlet nämner olympiska spelen och shinkansen som symboler för 1964."
         }
       ]
     },
@@ -315,17 +315,17 @@
           "id": "a",
           "text": "Han blev en symbol för staten utan politisk makt.",
           "correct": true,
-          "feedback": "Rätt."
+          "feedback": "Rätt. Efter 1947 blev kejsaren en symbol för staten utan politisk makt."
         },
         {
           "id": "b",
           "text": "Han blev shogun.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kejsaren blev en symbol för staten, inte shogun."
         },
         {
           "id": "c",
           "text": "Han styrde armén.",
-          "feedback": "Fel."
+          "feedback": "Fel. Kejsaren blev en symbol för staten utan politisk makt."
         },
         {
           "id": "d",
@@ -347,17 +347,17 @@
         {
           "id": "b",
           "text": "En period av krig",
-          "feedback": "Fel."
+          "feedback": "Fel. De förlorade decennierna syftar på låg tillväxt efter bubblan, inte på krig."
         },
         {
           "id": "c",
           "text": "En period av snabb tillväxt",
-          "feedback": "Fel."
+          "feedback": "Fel. De förlorade decennierna syftar på låg tillväxt, inte snabb tillväxt."
         },
         {
           "id": "d",
           "text": "Ockupationstiden",
-          "feedback": "Fel."
+          "feedback": "Fel. De förlorade decennierna syftar på tiden efter bubblan omkring 1990, inte ockupationen."
         }
       ]
     }

@@ -66,7 +66,7 @@ export default function ImageSources() {
                 </dd>
                 <dt className="font-semibold">Rättighetskontroll</dt>
                 <dd>
-                  {p.rightsCheckedOn} ({p.rightsCheckedBy})
+                  {p.rightsCheckedOn}. Licensen är avläst på originalsidan, ingen juridisk granskning.
                 </dd>
                 {p.location && (
                   <>
