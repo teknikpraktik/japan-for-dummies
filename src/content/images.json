@@ -222,6 +222,81 @@
     ]
   },
   {
+    "id": "cederplantage",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/cederplantage/cederplantage-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 46962,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/cederplantage/cederplantage-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 210238,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/cederplantage/cederplantage-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 55048,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/cederplantage/cederplantage-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 167126,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Raita Futo",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountain_forest_(30065495755).jpg",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta Creative Commons Attribution 2.0. CC BY medger kopiering, bearbetning och spridning (även publik lagring i repo och i offlinepaket) under villkor att upphovsperson anges, licenslänk ges och ändringar anges. Det uppfylls vid bilden (kreditrad med länkar) och på sidan Bildkällor (bearbetning beskrivs). Ingen ytterligare delning på samma villkor krävs (ingen SA-klausul).",
+    "requiredCredit": "Foto: Raita Futo from Tokyo, Japan, CC BY 2.0, via Wikimedia Commons.",
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Tokyo prefektur (skogsområde)",
+      "verifiedBy": "Commons-filsidans kategorier (Cryptomeria japonica plantations in Japan; Forestry of Tokyo)"
+    },
+    "year": {
+      "value": "2016",
+      "verifiedBy": "Commons-filsidans datumfält (7 augusti 2016)"
+    },
+    "caption": "Planterad skog med japansk ceder (sugi) i Tokyo prefektur, augusti 2016. Träden står i regelbundna rader, vilket är typiskt för plantager.",
+    "alt": "Rader av smala, höga cederstammar i en skog med en jordstig mellan dem och grönt ljus ovanför.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t11-k04"
+    ]
+  },
+  {
     "id": "fuji-solnedgang-2025",
     "kind": "contemporary-photo",
     "variants": [
@@ -289,7 +364,8 @@
     "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
     "peopleNote": "Inga personer syns.",
     "usedIn": [
-      "t01-k02"
+      "t01-k02",
+      "t11-k05"
     ]
   },
   {
@@ -2980,7 +3056,8 @@
     "usedIn": [
       "t03-k02",
       "t09-k05",
-      "t10-k05"
+      "t10-k05",
+      "t11-k01"
     ]
   },
   {
@@ -3844,6 +3921,81 @@
     "usedIn": [
       "t04-k01",
       "t04-k02"
+    ]
+  },
+  {
+    "id": "tsunamiskylt-kamakura",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/tsunamiskylt-kamakura/tsunamiskylt-kamakura-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 25816,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tsunamiskylt-kamakura/tsunamiskylt-kamakura-960.webp",
+        "width": 960,
+        "height": 638,
+        "bytes": 150202,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tsunamiskylt-kamakura/tsunamiskylt-kamakura-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 24842,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/tsunamiskylt-kamakura/tsunamiskylt-kamakura-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 102060,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "DimiTalen",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tsunami_evacuation_route_sign_on_the_road,_Kamakura,_2016.jpg",
+    "license": {
+      "name": "CC0 1.0 (Public Domain Dedication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-06",
+    "rightsCheckedBy": "Claude Code-session (läste Commons-filsidan och licensrutan); ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-06) visar licensruta CC0 1.0 Universal Public Domain Dedication, utan raderings- eller tvistmallar. CC0 avstår från upphovsrättsliga villkor: webbpublicering, lokal lagring i offlinepaket, bearbetning (nedskalning, beskärning) och lagring i ett publikt repo omfattas utan krav på kreditering. Fotografen anges ändå.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Kamakura, Kanagawa prefektur",
+      "verifiedBy": "Commons-filsidans beskrivning och kategorier (Tsunami evacuation route signs in Japan; March 2016 in Kamakura)"
+    },
+    "year": {
+      "value": "2016",
+      "verifiedBy": "Commons-filsidans datumfält (23 mars 2016)"
+    },
+    "caption": "Skylt som visar tsunamiflyktväg (”tsunami evacuation route”) längs en väg i Kamakura, mars 2016. Ikonen visar en person som springer bort från en våg, och texten anger riktning och avstånd.",
+    "alt": "Grön och vit skylt på marken med en ikon av en person som springer uppåt från en våg, en pil åt höger och japansk och engelsk text.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns.",
+    "usedIn": [
+      "t11-k02"
     ]
   },
   {

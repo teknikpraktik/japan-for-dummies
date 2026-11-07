@@ -1,0 +1,322 @@
+{
+  "id": "t11-k05",
+  "slug": "klimat-och-framtid",
+  "themeId": "miljo",
+  "order": 5,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Klimatfrågan och framtidens Japan",
+  "summary": "Klimatmål, hetta, extremväder och ny teknik. Kapitlet avslutas med att jämföra olika framtidsscenarier.",
+  "objectives": [
+    "Beskriva klimatutmaningar för Japan",
+    "Förklara några pågående lösningar",
+    "Formulera egna frågor om framtiden"
+  ],
+  "minutes": 9,
+  "hook": {
+    "kind": "question",
+    "text": "Sommaren 2025 beskrevs som den varmaste som uppmätts i Japan. Vad betyder det för landet, och vad görs?"
+  },
+  "sections": [
+    {
+      "id": "utmaning",
+      "heading": "Hetta och extremväder",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan påverkas av klimatförändringarna. Enligt rapporter var sommaren 2025 den varmaste som uppmätts, och juni 2025 den varmaste sedan mätningarna började 1898. Japan har också haft rekordvarma somrar 2023 och 2024. Meteorologer varnar för att koppla ett enskilt väderfall direkt till klimatförändringen, men rapporter från Japans meteorologiska myndighet beskriver att kraftiga regn blir vanligare, och att varmare hav kan ge kraftigare regn och mer intensiva taifuner. I ett scenario med stor uppvärmning kan antalet kraftiga regn mer än tredubblas fram till sekelskiftet."
+        },
+        {
+          "type": "p",
+          "text": "Hettan märks på vardagen: värmeslag är en risk (se kapitlet om årstider), särskilt för äldre. Du som besöker landet bör följa värmevarningar, dricka vatten och vila."
+        }
+      ]
+    },
+    {
+      "id": "losning",
+      "heading": "Mål och lösningar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japans regering satte 2020 målet **nettonoll växthusgasutsläpp till 2050**, och har enligt rapporter lovat minskningar på 60 procent till 2035 och 73 procent till 2040 jämfört med 2013. Kritiker säger att det saknas en trovärdig plan, bland annat eftersom kol fortfarande står för en stor del av elen (se kapitlet om energi)."
+        },
+        {
+          "type": "p",
+          "text": "Pågående lösningar är bland annat mer förnybar energi, kärnkraft, energieffektivitet, ny teknik som flytande vindkraft och väte, och anpassning av städer och beredskap (se kapitlet om katastrofberedskap). Hur man balanserar dem är omdiskuterat."
+        }
+      ]
+    },
+    {
+      "id": "framtid",
+      "heading": "Olika framtidsbilder",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hur Japan ser ut om 30 år beror på många val. Ett scenario kan vara ett land med mer förnybart, mindre befolkning och teknik som hjälper ett åldrande samhälle. Ett annat är ett land som fastnar i gamla energisystem och drabbas av tilltagande extremväder. Verkligheten blir sannolikt en blandning."
+        },
+        {
+          "type": "observe",
+          "title": "Jämför framtidsbilder",
+          "prompt": "Jämför två bilder av framtiden eller använd textalternativet nedan.",
+          "steps": [
+            "Vilka antaganden gör varje bild om teknik, energi och människor?",
+            "Vilka grupper vinner och förlorar i varje bild?",
+            "Vad skulle behöva hända för att bilden blir verklighet?",
+            "Vilka frågor skulle du vilja ställa till någon som lever där?"
+          ],
+          "textAlternative": "Utan bild: skriv två korta beskrivningar av ditt eget samhälle om 30 år, en optimistisk och en pessimistisk. Vad skiljer dem åt, och vilka val skulle ge den ena eller den andra?",
+          "imageSlotIds": [
+            "t11-k05-hero"
+          ]
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "mal",
+      "title": "Klimatmål",
+      "prompt": "Vilket år siktar Japan på nettonoll växthusgasutsläpp?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2050",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "2025",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "2200",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "hetta",
+      "title": "Hetta",
+      "prompt": "Vad bör du göra vid värmevarning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dricka vatten, vila och följa varningar.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Springa en mil.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ignorera.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "frag",
+      "title": "Samtal",
+      "situation": "En kamrat säger: ”Allt är redan förlorat, ingen kan göra något.”",
+      "question": "Hur svarar du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Framtiden beror på val, och det finns flera scenarier. Jag frågar vad som görs.",
+          "correct": true,
+          "feedback": "Bra."
+        },
+        {
+          "id": "b",
+          "text": "Det stämmer.",
+          "correct": false,
+          "feedback": "Fatalistiskt."
+        },
+        {
+          "id": "c",
+          "text": "Det finns inga problem.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Hur märks värme och extremväder i vardagen?",
+    "Vilka lösningar ser du: solceller, kyla, skydd?",
+    "Vilka frågor vill du ställa om framtiden?"
+  ],
+  "reflection": "Hur föreställer du dig ditt samhälle om 30 år? Vilka val skulle göra skillnad?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilket nettonollmål har Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2050",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "2010",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "2100",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inget",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad rapporterades om sommaren 2025?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den var den varmaste som uppmätts.",
+          "correct": true,
+          "feedback": "Rätt, enligt rapporter."
+        },
+        {
+          "id": "b",
+          "text": "Den var den kallaste.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Den var normal.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Den ställdes in.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad kritiseras ofta i klimatplanen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att en trovärdig plan saknas och att kol fortfarande är stort.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Att den är för snabb.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Att den inte finns.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Att ingen läser den.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad bör man vara försiktig med?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Att koppla ett enskilt väderfall direkt till klimatförändringen.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Att läsa rapporter.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Att dricka vatten.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Att planera.",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en bra princip när du tänker på framtiden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jämföra flera scenarier och ställa frågor.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Tro på ett enda.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Aldrig tänka på det.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Alltid vara säker.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "wikipedia-climate-japan",
+    "earth-org-japan-2050",
+    "japantimes-climate-report-2025"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Rekorden för 2025 och klimatmålen (60 procent till 2035, 73 procent till 2040) kommer från nyhetssammanfattningar och bör kontrolleras mot officiella källor. En av källorna är en Substack-sida och användes inte för siffror.",
+      "Scenariot med tredubbling av kraftiga regn kommer från en sammanfattad rapport och är en projektion, inte en prognos.",
+      "Beskrivningen av lösningar (flytande vindkraft, väte) och framtidsscenarierna är allmän bakgrund.",
+      "Kapitlet bör uppdateras med aktuella uppgifter."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t11-k05-hero",
+    "imageId": "fuji-solnedgang-2025",
+    "brief": "Väder och klimat i Japan, till exempel en sommardag i en stad eller kraftigt regn."
+  }
+}
