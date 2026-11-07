@@ -161,7 +161,7 @@ export function ChapterThumb({ imageId, label }: { imageId: string | null; label
   );
 }
 
-const platformName: Record<Photo["sourcePlatform"], string> = {
+export const platformName: Record<Photo["sourcePlatform"], string> = {
   unsplash: "Unsplash",
   pexels: "Pexels",
   "wikimedia-commons": "Wikimedia Commons",

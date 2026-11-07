@@ -3,5 +3,27 @@
     "slotId": "home-hero",
     "imageId": "yakushima-anbo",
     "brief": "Bred, lugn öppningsbild som visar vardag i Japan, till exempel gata, järnväg eller landskap. Inte neon, tempel eller körsbärsblom."
-  }
+  },
+  "startImages": [
+    "yakushima-anbo",
+    "seto-onomichi",
+    "shirakawa-berg",
+    "hirado-risterrasser",
+    "fuji-solnedgang-2025",
+    "sakurajima-utsikt",
+    "kenroku-en-lykta",
+    "shinjuku-parktower",
+    "sakai-stadsbild",
+    "akihabara-natt",
+    "shinkansen-fuji",
+    "yoshinoya-teishoku",
+    "takoyaki-osaka",
+    "matmodeller-ramen",
+    "fushimi-inari-stig",
+    "todaiji-buddhahallen",
+    "nanzenji-hostlov",
+    "bon-odori-lyktor",
+    "varuautomater-tokyo",
+    "makaker-onsen"
+  ]
 }

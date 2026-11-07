@@ -1,5 +1,9 @@
 import { expect, test, type Page } from "@playwright/test";
+import fs from "node:fs";
+import path from "node:path";
 import { pilots, takeQuiz, UPCOMING_THEME } from "./helpers";
+
+const readJson = (rel: string) => JSON.parse(fs.readFileSync(path.join(process.cwd(), "src", "content", rel), "utf8"));
 
 /** Kontofritt läge (standard): ingen inloggning, inga serveranrop om framsteg, allt sparas lokalt. */
 const chapter = pilots.find((c) => c.slug === "arstider-och-klimat")!;
@@ -231,11 +235,14 @@ test.describe("kontofri tjänst", () => {
     const steps = page.locator("section[aria-labelledby=sa-funkar] li");
     await expect(steps).toHaveCount(3);
     await expect(steps).toHaveText([/Välj tema/, /Läs och öva/, /Testa dig/]);
-    await expect(page.locator("figure figcaption").first()).toHaveText("Anbo på ön Yakushima i södra Japan. Bebyggelsen ligger längs vattnet, med öns skogsklädda berg i bakgrunden.");
+    // Introduktionsbilden slumpas: bildtexten ska vara den visade bildens korta text, och krediteringen ska vara kompakt.
+    const shownId = (await page.locator("#start-hero").getAttribute("data-start-image"))!;
+    const shown = readJson("images.json").find((p: { id: string }) => p.id === shownId);
+    await expect(page.locator("figure figcaption").first()).toHaveText(shown.caption);
     const rights = page.getByTestId("photo-rights");
-    await expect(rights).not.toContainText("Anbo på ön Yakushima");
+    await expect(rights).not.toContainText(shown.caption);
     await expect(rights.getByRole("link", { name: "Wikimedia Commons" })).toBeVisible();
-    await expect(rights.getByRole("link", { name: /CC0/ })).toBeVisible();
+    await expect(rights.getByRole("link", { name: shown.license.name })).toBeVisible();
     expect(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)).toBeLessThanOrEqual(0);
   });
 

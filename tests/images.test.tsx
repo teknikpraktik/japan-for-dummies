@@ -29,7 +29,8 @@ function loadRaw(): RawContent {
 /** Innehåll utan några kopplade bilder, som bas för fixtur-tester. */
 function loadRawWithoutImages(): RawContent {
   const raw = structuredClone(loadRaw());
-  (raw.home as { hero: { imageId: string | null } }).hero.imageId = null;
+  (raw.home as { hero: { imageId: string | null }; startImages: string[] }).hero.imageId = null;
+  (raw.home as { startImages: string[] }).startImages = [];
   for (const c of raw.chapters) {
     const d = c.data as { status: string; hero?: { imageId: string | null }; sections?: { blocks: { type: string; imageId?: string | null }[] }[] };
     if (d.status !== "published") continue;
@@ -70,6 +71,7 @@ function withPhoto(photo: unknown) {
   const raw = loadRawWithoutImages();
   raw.images = [photo];
   (raw.home as { hero: { imageId: string | null } }).hero.imageId = "testbild";
+  (raw.home as { startImages: string[] }).startImages = ["testbild"];
   return raw;
 }
 
@@ -89,6 +91,18 @@ describe("bildkontroll", () => {
       expect(p.licenseEvidence.length).toBeGreaterThan(40);
       expect(p.variants.every((v) => v.path.startsWith("/images/"))).toBe(true);
     }
+  });
+  it("startbildspoolen: okänd bild, dubblett, dekorativ bild och reservbild utanför poolen avvisas", () => {
+    const base = () => withPhoto(validPhoto());
+    const set = (r: ReturnType<typeof base>, ids: string[]) => ((r.home as { startImages: string[] }).startImages = ids);
+    const r1 = base(); set(r1, ["testbild", "finns-inte"]);
+    expect(validateContent(r1, files(okSizes)).errors.some((e) => e.includes("okänd bild finns-inte"))).toBe(true);
+    const r2 = base(); set(r2, ["testbild", "testbild"]);
+    expect(validateContent(r2, files(okSizes)).errors.some((e) => e.includes("flera gånger"))).toBe(true);
+    const r3 = withPhoto(validPhoto({ decorative: true, alt: "" }));
+    expect(validateContent(r3, files(okSizes)).errors.some((e) => e.includes("dekorativ"))).toBe(true);
+    const r5 = withPhoto(validPhoto({ usedIn: ["t01-k01"] }));
+    expect(validateContent(r5, files(okSizes)).errors.some((e) => e.includes("saknar home i usedIn"))).toBe(true);
   });
   it("en komplett bild med filer godkänns", () => {
     const r = validateContent(withPhoto(validPhoto()), files(okSizes));
@@ -123,7 +137,9 @@ describe("bildkontroll", () => {
   it("kräver alternativtext, men tom alternativtext för dekorativa bilder", () => {
     expect(validateContent(withPhoto(validPhoto({ alt: "" })), files(okSizes)).errors.some((e) => e.includes("Alternativtext"))).toBe(true);
     expect(validateContent(withPhoto(validPhoto({ decorative: true, alt: "något" })), files(okSizes)).errors.some((e) => e.includes("Dekorativ"))).toBe(true);
-    expect(validateContent(withPhoto(validPhoto({ decorative: true, alt: "" })), files(okSizes)).errors).toEqual([]);
+    const dec = withPhoto(validPhoto({ decorative: true, alt: "" }));
+    (dec.home as { startImages: string[] }).startImages = []; // dekorativa bilder får inte slumpas som startbild (se egen kontroll)
+    expect(validateContent(dec, files(okSizes)).errors).toEqual([]);
   });
   it("avvisar externa bildlänkar och ogiltiga sökvägar", () => {
     const p = validPhoto({ variants: [{ path: "https://images.example.com/x.webp", width: 10, height: 10, bytes: 10, format: "webp", crop: "default" }] });

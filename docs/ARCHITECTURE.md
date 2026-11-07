@@ -43,3 +43,11 @@
 - `scripts/build-sw.mts` avbryter bygget om en bildfil som bildregistret hänvisar till saknas i offlinelistan. Offlineberedskap bekräftas som tidigare först när alla filer i listan är sparade och verifierade.
 - `Photo.tsx`: `<picture>` med fasta `width`/`height` (ingen layoutförskjutning), `object-position` från fokuspunkt, `loading="lazy"` utom för öppningsbilder (`priority`: eager + `fetchpriority=high`), AVIF/WebP-källor och mobilbeskärning via `media`. Reservyta när `imageId` är null.
 - Redaktionsvyn `review/contact-sheet.html` skapas lokalt och ligger utanför `public/`, så den ingår aldrig i bygget eller offlinepaketet.
+
+## Slumpad introduktionsbild (startsidan)
+
+- Kandidaterna är bild-ID:n i `src/content/home.json` (`startImages`, cirka 20 fotografier); `hero.imageId` är reservbild och ska ingå. Allt annat (bildtext, alt-text, fotograf, källa, licens, fokuspunkt, filer) hämtas ur `images.json`. Valideringen kräver att kandidaterna finns, inte är dekorativa och har `home` i `usedIn`.
+- Valet görs i webbläsaren av ett litet skript (`START_IMAGE_RUNTIME` i `src/lib/start-image.ts`) som körs före första målning. Servern renderar bara ett skal utan bildfil, reservbilden i `<noscript>` och en kompakt JSON-lista över kandidaterna, så att bara den valda bildens storleksvariant hämtas. Bildytan och krediteringen under ”Bilder och rättigheter” sätts av samma skript och hör alltså alltid ihop.
+- Föregående bild sparas i `localStorage` (`japanresan:startbild:v1`) och utesluts vid nästa val. Blockerad lagring ger bara ett fritt val. Skriptet är idempotent (`data-ready`), så omrenderingar slumpar inte om. Vid mjuk navigering, där inbäddade skript inte körs, startar `StartHeroBoot` samma skript. Om bildfilen inte kan laddas byter skriptet till reservbilden.
+- Bildfilerna ligger i `public/images/` och ingår därmed i offlinelistan; skriptet och datalistan ligger i sidans HTML, så slumpningen fungerar offline.
+- Tester: urvalslogiken och skriptet testas deterministiskt i `tests/start-image.test.ts` (slumpfunktionen injiceras), samt i `e2e/startbild.spec.ts` och `e2e/offline.spec.ts`.

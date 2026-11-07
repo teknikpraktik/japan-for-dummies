@@ -91,6 +91,33 @@ test.describe("offline", () => {
     await expect(page.getByRole("heading", { name: "Den här sidan är inte sparad offline" })).toBeVisible();
   });
 
+  test("slumpad startbild fungerar offline: ny bild vid omladdning, laddad från cachen, med matchande text och kreditering", async ({ page }) => {
+    const photos: { id: string; caption: string; alt: string }[] = JSON.parse(fs.readFileSync(path.join(process.cwd(), "src/content/images.json"), "utf8"));
+    const startImages: string[] = JSON.parse(fs.readFileSync(path.join(process.cwd(), "src/content/home.json"), "utf8")).startImages;
+    await page.goto("/offline/");
+    await waitForController(page);
+    await page.getByTestId("offline-download").click();
+    await expect(page.getByTestId("offline-ready")).toBeVisible({ timeout: 90_000 });
+    await stopServer();
+    const seen: string[] = [];
+    for (let i = 0; i < 6; i++) {
+      await page.goto("/");
+      await page.waitForFunction(() => {
+        const im = document.getElementById("start-hero-img") as HTMLImageElement | null;
+        return Boolean(im && im.complete && im.naturalWidth > 0);
+      });
+      const id = (await page.locator("#start-hero").getAttribute("data-start-image"))!;
+      expect(startImages).toContain(id);
+      const p = photos.find((x) => x.id === id)!;
+      await expect(page.locator("#start-hero-caption")).toHaveText(p.caption);
+      await expect(page.locator("#start-hero-img")).toHaveAttribute("alt", p.alt);
+      await expect(page.getByTestId(`rights-${id}`)).toBeVisible();
+      seen.push(id);
+    }
+    for (let i = 1; i < seen.length; i++) expect(seen[i]).not.toBe(seen[i - 1]);
+    expect(new Set(seen).size).toBeGreaterThanOrEqual(3);
+  });
+
   test("kontofritt: inga konto- eller privata sökvägar i offlinelistan eller cachen, och inga serveranrop efter nedladdning", async ({ page }) => {
     const calls: string[] = [];
     page.on("request", (r) => {
