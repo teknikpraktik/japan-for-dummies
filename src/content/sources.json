@@ -898,5 +898,125 @@
     "checkedOn": "2026-11-06",
     "access": "search-result-summary",
     "supports": "Att svar om religiositet i Japan varierar kraftigt med hur frågan ställs, och att många som kallar sig icke-religiösa ändå deltar i buddhistiska och shintoistiska ritualer."
+  },
+  {
+    "id": "webjapan-architecture",
+    "title": "Japan Atlas: Architecture",
+    "publisher": "Web Japan (MOFA)",
+    "url": "https://web-japan.org/atlas/architecture/arc14.html",
+    "kind": "official",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Ise-helgedomarna byggs om vart tjugonde år (shikinen sengū), med första ombyggnaden år 690 och den 61:a 1993, som ett sätt att föra vidare byggtekniker."
+  },
+  {
+    "id": "nippon-ise-moves-house",
+    "title": "The Sun Goddess Moves House",
+    "publisher": "nippon.com",
+    "url": "https://www.nippon.com/en/nipponblog/m00001/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att alla huvudbyggnader vid Ise byggs om från grunden vart tjugonde år med samma mått på en intilliggande plats."
+  },
+  {
+    "id": "wikipedia-sengu",
+    "title": "Sengū",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Seng%C5%AB",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att sengū-ritualen innebär att helgedomar byggs om och att cykeln som började 2025 slutar 2033."
+  },
+  {
+    "id": "clark-ukiyoe",
+    "title": "Ukiyo-e",
+    "publisher": "Clark Art Institute",
+    "url": "https://www.clarkart.edu/microsites/competing-currents-20th-century-japanese-prints/print-making-movements/ukiyo-e",
+    "kind": "institution",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att ukiyo-e daterar sig till Edotiden (omkring 1615–1867), att ordet syftar på nöjeskvarteren och att träsnitt i Japan går tillbaka till 700-talet (buddhistiska skrifter)."
+  },
+  {
+    "id": "brooklyn-ukiyoe",
+    "title": "Japanese woodblock prints exhibition",
+    "publisher": "Brooklyn Museum",
+    "url": "https://brooklynmuseum.org/opencollection/exhibitions/2132",
+    "kind": "institution",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att fullfärgstryck (nishiki-e) uppstod omkring 1764 och att Hokusai och Hiroshige stod för Edotidens sista stora blomstring med landskapsmotiv."
+  },
+  {
+    "id": "christies-woodblocks",
+    "title": "Collecting guide: Japanese woodblock prints",
+    "publisher": "Christie's",
+    "url": "https://www.christies.com.cn/en/stories/collecting-guide-japanese-woodblocks-5a07c97d4c78486eb5aafdc3084e4970",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att landskap blev ett stort tema på 1800-talet genom Hokusai och Hiroshige, delvis kopplat till ökat resande."
+  },
+  {
+    "id": "animenews-aja-2024",
+    "title": "Global Anime Market Grew 15% to Record 3.84 Trillion Yen in 2024",
+    "publisher": "Anime News Network",
+    "url": "https://www.animenewsnetwork.com/news/2025-10-30/global-anime-market-grew-15-percent-to-record-3.84-trillion-yen-in-2024/.230464",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Association of Japanese Animations beräknar den globala animemarknaden 2024 till 3,84 biljoner yen (preliminärt) och att utlandsförsäljningen växte mer än den inhemska."
+  },
+  {
+    "id": "screendaily-anime-2024",
+    "title": "Japan's anime industry grows to record $25bn",
+    "publisher": "Screen Daily",
+    "url": "https://www.screendaily.com/news/japans-anime-industry-grows-to-record-25bn-boosted-by-overseas-market/5210433.article",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att animebranschen nått rekordnivå (cirka 25 miljarder dollar) med utlandsmarknaden som drivkraft."
+  },
+  {
+    "id": "lepetitjournal-akb48",
+    "title": "AKB48",
+    "publisher": "Le Petit Journal Tokyo",
+    "url": "https://lepetitjournal.com/tokyo/artiste-groupe-jpop-japon-akb48",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "AKB48, ett idolgrupp grundat 2005 av Yasushi Akimoto i Akihabara, känt för ett nära band till fansen och för att ha infört en valordning för medlemmar."
+  },
+  {
+    "id": "vice-virtual-pop-stars",
+    "title": "The future of virtual pop stars is here",
+    "publisher": "Vice (Creators)",
+    "url": "https://creators.vice.com/en/article/aeeybj/the-future-of-virtual-pop-stars-is-here",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Hatsune Miku började som röstsyntesprogram och blev en känd virtuell artist."
+  },
+  {
+    "id": "japanpropertycentral-codes",
+    "title": "Earthquake building codes in Japan",
+    "publisher": "Japan Property Central",
+    "url": "https://japanpropertycentral.com/real-estate-faq/earthquake-building-codes-in-japan/",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att Japans stora jordbävningsrelaterade byggnorm ändrades 1981 (kyu-taishin före och shin-taishin efter). Sidan är en fastighetssajt."
+  },
+  {
+    "id": "onthegroundfloor-narrow-streets",
+    "title": "Land of the narrow streets",
+    "publisher": "On the Ground Floor (Substack)",
+    "url": "https://onthegroundfloor.substack.com/p/land-of-the-narrow-streets",
+    "kind": "news-or-reference",
+    "checkedOn": "2026-11-07",
+    "access": "search-result-summary",
+    "supports": "Att små tomter och smala gator är vanliga, delvis på grund av regler och hur mark delats upp. Personlig blogg."
   }
 ]

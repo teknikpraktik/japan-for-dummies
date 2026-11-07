@@ -1,0 +1,323 @@
+{
+  "id": "t09-k01",
+  "slug": "traditionell-arkitektur",
+  "themeId": "kultur",
+  "order": 1,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Slott, trähus och trädgårdar",
+  "summary": "Hur traditionella byggnader är konstruerade, varför trä dominerar och hur trädgårdar planeras. Kapitlet visar också hur byggnader återuppbyggs.",
+  "objectives": [
+    "Beskriva typiska delar av traditionell arkitektur",
+    "Förklara varför trä och återuppbyggnad är vanligt",
+    "Betrakta en byggnad aktivt på resan"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "En av Japans heligaste byggnader rivs och byggs upp igen vart tjugonde år, och har gjort det i över tusen år. Är den då gammal eller ny?"
+  },
+  "sections": [
+    {
+      "id": "tra",
+      "heading": "Trä, tak och rum",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Traditionell japansk arkitektur bygger i stor utsträckning på **trä**. Material, klimat och jordbävningar har format byggnaderna: trästommar med stora **tak** som skyddar mot regn och sol, och lätta väggar och skjutdörrar som kan öppnas för luftväxling. Typiska inslag är **tatami** (halmmattor), **shōji** (skjutdörrar med papper) och verandor (**engawa**) som binder samman inne och ute. Rummen kan ändra användning: samma rum kan vara matrum, vardagsrum och sovrum."
+        },
+        {
+          "type": "p",
+          "text": "Träets nackdelar är brand och röta. Många gamla byggnader har därför brunnit ned och byggts upp igen, och underhåll och reparation är en del av byggnadstraditionen."
+        },
+        {
+          "type": "photo",
+          "slotId": "t09-k01-slott",
+          "imageId": "himeji-slott-detalj",
+          "brief": "Slott eller traditionellt trähus, till exempel Himeji slott eller ett gammalt hus."
+        }
+      ]
+    },
+    {
+      "id": "ise",
+      "heading": "Gammal och ny på samma gång",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vid **Ise-helgedomarna** byggs alla huvudbyggnader om från grunden **vart tjugonde år** (shikinen sengū). Den nya byggnaden får samma mått som den förra och byggs på en intilliggande plats. Enligt Japan Atlas var den första ombyggnaden år 690, och den senaste hittills på 1990-talet (61:a) följdes av en ny cykel som började 2025 och pågår till 2033. Årtalen anges olika i olika källor."
+        },
+        {
+          "type": "p",
+          "text": "Tanken är att tekniken och ritualen förs vidare genom att byggas om, och inte att själva trämaterialet ska bevaras. Det visar en annan syn på ”äkta”: i Japan kan en byggnad vara gammal genom sin form, sin plats och sitt hantverk, även om virket är nytt. Samma gäller många slott och tempel som har återuppbyggts efter bränder och krig."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Vad är äkta?",
+          "text": "Fråga dig vid en byggnad: vad är gammalt här: materialet, formen, platsen eller kunskapen att bygga den?"
+        }
+      ]
+    },
+    {
+      "id": "tradgard",
+      "heading": "Trädgårdar och blickar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japanska trädgårdar planeras ofta som **komponerade landskap** med sten, vatten, mossa, träd och stigar som leder blicken. Vissa är torra trädgårdar med krattad grus, andra promenadträdgårdar kring en damm. Platser som Kenroku-en i Kanazawa är kända exempel. Utsikten och vandringsvägen är planerade, och trädgården ser olika ut med årstiden."
+        },
+        {
+          "type": "p",
+          "text": "På resan: stanna upp vid en byggnad och titta. Hur möter taket vädret? Hur öppnas rummen mot trädgården? Vilket material ser du? Vilka spår av reparationer eller ombyggnad finns?"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "tra",
+      "title": "Material",
+      "prompt": "Vilket material dominerar traditionell japansk arkitektur?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trä",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Betong",
+          "correct": false,
+          "feedback": "Det är modernare."
+        },
+        {
+          "id": "c",
+          "text": "Is",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "ise",
+      "title": "Ise",
+      "prompt": "Vad är särskilt med Ise-helgedomarna?",
+      "options": [
+        {
+          "id": "a",
+          "text": "De byggs om vart tjugonde år.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "De är aldrig underhållna.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "De är nya varje dag.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "aktta",
+      "title": "Gammalt eller nytt?",
+      "situation": "Du hör att ett slott är ”återuppbyggt efter en brand”, och någon säger att det därför inte är äkta.",
+      "question": "Hur kan du resonera?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fråga vad som är gammalt: formen, platsen, hantverket, och förstå att äkthet kan betyda olika saker.",
+          "correct": true,
+          "feedback": "Bra."
+        },
+        {
+          "id": "b",
+          "text": "Hålla med, det är falskt.",
+          "correct": false,
+          "feedback": "Förenklat."
+        },
+        {
+          "id": "c",
+          "text": "Strunta i det.",
+          "correct": false,
+          "feedback": "Du missar möjligheten till en bättre fråga."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka delar av byggnaderna ser du: tak, skjutdörrar, verandor?",
+    "Vad är gammalt och vad är nytt vid platsen du besöker?",
+    "Hur är trädgården planerad: vilka blickar skapas?"
+  ],
+  "reflection": "Vad gör en byggnad ”äkta” för dig: materialet, platsen eller kunskapen? Hur skulle du förklara det för en vän?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad är tatami?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Halmmattor på golvet",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ett slags tak",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tåg",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En maträtt",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Hur ofta byggs Ise-helgedomarna om?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vart tjugonde år",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Varje år",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Vart hundrade år",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Aldrig",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Varför dominerar trä i traditionell arkitektur?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tillgång, klimat och byggtraditioner",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det är förbjudet att använda sten",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Trä är billigast i hela världen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen vet",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är engawa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En veranda som binder samman inne och ute",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En port",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tak",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En lykta",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Hur kan ”äkta” förstås i japansk byggtradition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Som form, plats och hantverk, inte bara gammalt material",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Bara som gammalt virke",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Som något nytt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Som något plastigt",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "webjapan-architecture",
+    "nippon-ise-moves-house",
+    "wikipedia-sengu"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Årtalen för Ise-ombyggnaderna (690, 61:a vid 1993, ny cykel 2025–2033) varierar mellan källor. En källa anger ett uppenbart felaktigt årtal.",
+      "Beskrivningen av tatami, shōji, engawa, trädgårdstyper och Kenroku-en är allmän bakgrund som inte kontrollerades mot en källa.",
+      "Förklaringen om varför trä dominerar och hur slott återuppbyggts är förenklad.",
+      "Bildtexterna om Kenroku-en och Himeji slott bygger på Commons-beskrivningarna och allmän kännedom."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t09-k01-hero",
+    "imageId": "kenroku-en-lykta",
+    "brief": "Traditionell byggnad, slott eller trädgård i Japan."
+  }
+}

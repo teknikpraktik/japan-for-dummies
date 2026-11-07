@@ -1,0 +1,312 @@
+{
+  "id": "t09-k04",
+  "slug": "spel-musik-och-modern-popularkultur",
+  "themeId": "kultur",
+  "order": 4,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Spel, musik och modern populärkultur",
+  "summary": "Datorspel, idolkultur, indie, karaoke och nätkultur. Kapitlet handlar om vad ungdomar lyssnar på, spelar och delar.",
+  "objectives": [
+    "Ge exempel på modern japansk populärkultur",
+    "Förklara hur idolkultur fungerar",
+    "Skilja mellan stereotyp och verklighet"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "En artist som inte är människa fyller konsertarenor. En grupp med sextio medlemmar väljs ut genom omröstning av fansen. Vad är det för kultur?"
+  },
+  "sections": [
+    {
+      "id": "idol",
+      "heading": "Idoler och virtuella artister",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Idolkultur** handlar om artister som sjunger, dansar och uppträder, där närhet till fansen är en viktig del av konceptet. Ett känt exempel är **AKB48**, en idolgrupp grundad 2005 av Yasushi Akimoto med egen teater i Akihabara i Tokyo. Gruppen är känd för sin nära kontakt med fansen och för ett ”valsystem” där fansen kunde rösta om medlemmar."
+        },
+        {
+          "type": "p",
+          "text": "Samtidigt finns en stor bredd av musik: J-pop, rock, hiphop, elektronisk musik, traditionell musik och mycket annat. **Hatsune Miku** började som ett röstsyntesprogram och blev en känd virtuell artist, med låtar som skrivs av användare. Vem som helst kan göra musik med programmet, och fansen deltar i skapandet."
+        }
+      ]
+    },
+    {
+      "id": "spel",
+      "heading": "Spel och nätkultur",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan har en lång spelhistoria. Spelhallar, konsolspel, mobilspel och stora spelbolag har präglat spelkulturen, och spelhallar (se kapitlet om fritid) är fortfarande en mötesplats. Många mindre utvecklare gör också indiespel. Nätkultur, delning av klipp och fanskapande har blivit en stor del av populärkulturen, ofta tillsammans med manga och anime."
+        },
+        {
+          "type": "p",
+          "text": "På fritiden lyssnar, spelar och delar ungdomar olika saker: det finns lika många smaker som personer. Karaoke (se kapitlet om fritid) är ett vanligt sätt att umgås, men inte det enda."
+        }
+      ]
+    },
+    {
+      "id": "stereotyp",
+      "heading": "Stereotyp och verklighet",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bilden av ”galna Japan” med robotar, idoler och neonljus är en förenkling. Vardagen för de flesta är mer varierad och lugn. Populärkulturen är både en stor industri och ett sätt för människor att uttrycka sig, men den är en del av en större bild."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Kommersiell kultur",
+          "text": "Idolbranschen och spelindustrin har också kritiserats för arbetsvillkor, press på artisterna och hur fans behandlas. Det är bra att vara nyfiken på både det som är roligt och det som är problematiskt."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "idol",
+      "title": "Idolkultur",
+      "prompt": "Vad kännetecknar idolkultur?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Närhet och kontakt mellan artister och fans.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Att ingen får sjunga.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Att allt är hemligt.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "miku",
+      "title": "Hatsune Miku",
+      "prompt": "Vad började Hatsune Miku som?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ett röstsyntesprogram",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En mänsklig sångerska",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "En tecknad bok",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "stereotyp",
+      "title": "I samtal",
+      "situation": "En kamrat säger: ”Alla ungdomar i Japan är idolfans och spelar hela dagarna.”",
+      "question": "Hur svarar du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Många gillar sådant, men intressena varierar mycket.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det stämmer helt.",
+          "correct": false,
+          "feedback": "Förenkling."
+        },
+        {
+          "id": "c",
+          "text": "Ingen gillar det.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka musik- och spelmotiv ser du i butiker, reklam och på gatan?",
+    "Vad lyssnar och spelar jämnåriga du möter?",
+    "Vad uppfattar du som överdrivet i bilden av Japan?"
+  ],
+  "reflection": "Vilken populärkultur från ditt land skulle du vilja visa upp? Vad skulle ”förenklas” om den visades utomlands?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vilken grupp grundades 2005 i Akihabara av Yasushi Akimoto?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AKB48",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Vocaloid",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Tezuka",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ghibli",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Vad är Vocaloid?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Röstsyntesprogram som används för att göra sång",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En skola",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tåg",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ett kök",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Varför är ”alla ungdomar är idolfans” en stereotyp?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intressena varierar mycket.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Det finns inga idolfans",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Idoler finns inte",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Alla är lika",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Vad är en kritik mot populärkulturens industri?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arbetsvillkor och press på artister",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Att den är för liten",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Att ingen tjänar pengar",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Att den inte finns",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en bra princip i samtal om populärkultur?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fråga vad människor själva gillar.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Anta att alla gillar samma sak.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Aldrig prata om det.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Gissa.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "lepetitjournal-akb48",
+    "vice-virtual-pop-stars",
+    "statista-karaoke-2021"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Uppgifter om AKB48 och Hatsune Miku kommer från fan- och bloggsidor och bör kontrolleras mot bättre källor. Sökningen gav ingen information om datorspel, Nintendo, Sony, indie, city pop eller nätkultur.",
+      "Beskrivningen av spelhistoria, indiespel, nätkultur, kritik av industrins arbetsvillkor och ungdomars smak är allmän bakgrund som inte kontrollerades mot en källa.",
+      "Kapitlet är allmänt hållet och bör kompletteras med bättre källor."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t09-k04-hero",
+    "imageId": "spelhall-mikado",
+    "brief": "Populärkultur, till exempel en butik, en reklam eller en spelhall i Akihabara."
+  }
+}

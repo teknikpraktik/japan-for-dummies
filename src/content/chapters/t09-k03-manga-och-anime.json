@@ -1,0 +1,313 @@
+{
+  "id": "t09-k03",
+  "slug": "manga-och-anime",
+  "themeId": "kultur",
+  "order": 3,
+  "status": "published",
+  "contentVersion": 1,
+  "title": "Manga och anime",
+  "summary": "Hur manga och anime uppstod, hur de görs och hur de används som kultur och industri. Kapitlet visar att det finns många genrer.",
+  "objectives": [
+    "Beskriva manga och anime som kulturformer",
+    "Förstå hur industrin är organiserad",
+    "Reflektera över bilden av Japan i populärkultur"
+  ],
+  "minutes": 8,
+  "hook": {
+    "kind": "question",
+    "text": "Manga och anime beskrivs ofta som ”japanska”, men vad är de egentligen, och hur stor är industrin bakom?"
+  },
+  "sections": [
+    {
+      "id": "vad",
+      "heading": "Vad är manga och anime?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Manga** är japanska serier och **anime** är animerad film och tv, ofta baserad på manga. Manga läses från höger till vänster och kan vara i svartvitt. De finns i många genrer för alla åldrar: äventyr, komedi, skräck, romantik, vardagsskildringar, sport, vetenskap och historia. Därför finns det inte *en* manga- eller animestil."
+        },
+        {
+          "type": "p",
+          "text": "Seriekulturen har flera rötter, bland annat träsnitt och bildberättande från Edotiden (se kapitlet om konst) och efterkrigstidens tecknade serier. Den moderna formen förknippas ofta med efterkrigstidens serieskapare. Manga publiceras i tidskrifter i kapitel, och populära serier samlas i böcker och görs till anime."
+        }
+      ]
+    },
+    {
+      "id": "industri",
+      "heading": "Industrin",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Animeindustrin är stor. Enligt Association of Japanese Animations nådde den globala animemarknaden 2024 omkring **3,8 biljoner yen** (ungefär 25 miljarder dollar), preliminärt, och utlandsförsäljningen växte mer än den inhemska. Ofta finansieras anime av en **produktionskommitté** av flera bolag, som delar på kostnad och intäkter, och många studior är små."
+        },
+        {
+          "type": "p",
+          "text": "Arbetet är hårt: animatörer och tecknare har ofta låga löner och långa arbetsdagar, vilket diskuteras i branschen. Det är viktigt att komma ihåg att bakom varje serie finns människor som ritar, skriver, färglägger och sköter produktionen."
+        }
+      ]
+    },
+    {
+      "id": "bild",
+      "heading": "Bilden av Japan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Populärkultur påverkar hur människor utanför Japan ser på landet. Många besökare förväntar sig robotar, neonljus och söta figurer. Men dessa bilder är utvalda och förenklade. Manga och anime är bara en del av japansk kultur, och de flesta japaner läser och tittar på olika saker. Fråga människor vad de själva gillar i stället för att anta."
+        },
+        {
+          "type": "callout",
+          "tone": "care",
+          "title": "Stereotyper",
+          "text": "”Alla japaner älskar anime” är en stereotyp. Många gillar det, andra inte alls, och smaken varierar mycket med ålder och bakgrund."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "id": "manga",
+      "title": "Manga",
+      "prompt": "Hur läses traditionell manga?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Från höger till vänster",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Från vänster till höger",
+          "correct": false,
+          "feedback": "Det är omvänt."
+        },
+        {
+          "id": "c",
+          "text": "Uppifrån och ned i en rad",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "id": "industri",
+      "title": "Industrin",
+      "prompt": "Vad är en produktionskommitté?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Flera bolag som delar på kostnader och intäkter för en animeproduktion.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "En skola.",
+          "correct": false,
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Ett tåg.",
+          "correct": false,
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "id": "stereotyp",
+      "title": "I samtal",
+      "situation": "En kamrat säger: ”Alla i Japan älskar anime.”",
+      "question": "Hur svarar du?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Många gillar det, men smaken varierar. Det finns också många andra intressen.",
+          "correct": true,
+          "feedback": "Bra."
+        },
+        {
+          "id": "b",
+          "text": "Ja, alla.",
+          "correct": false,
+          "feedback": "En stereotyp."
+        },
+        {
+          "id": "c",
+          "text": "Nej, ingen.",
+          "correct": false,
+          "feedback": "Det är också fel."
+        }
+      ]
+    }
+  ],
+  "noticeOnTrip": [
+    "Vilka manga- och animemotiv ser du i butiker och på reklam?",
+    "Vilka genrer ser du i en bokhandel?",
+    "Hur skiljer sig bilden av Japan i media från det du ser?"
+  ],
+  "reflection": "Vilka delar av ditt eget lands kultur skulle du vilja att andra inte förenklade? Hur kan du undvika samma förenkling om Japan?",
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Vad är anime?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Animerad film och tv",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Serier på papper",
+          "feedback": "Det är manga."
+        },
+        {
+          "id": "c",
+          "text": "En maträtt",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "En port",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "Hur stor var den globala animemarknaden 2024 (preliminärt)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cirka 3,8 biljoner yen",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Cirka 38 miljoner yen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Cirka 3 yen",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Inga siffror finns",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Vad växte mest enligt siffrorna?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Utlandsförsäljningen",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Den inhemska försäljningen mest",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Inget växte",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Ingen vet",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Varför är ”alla japaner älskar anime” en stereotyp?",
+      "options": [
+        {
+          "id": "a",
+          "text": "För att smak och intressen varierar mycket.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "För att ingen tittar på anime",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "För att anime är förbjudet",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "För att anime inte finns",
+          "feedback": "Fel."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Vad är en viktig sak att komma ihåg om branschen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bakom serierna finns människor med ofta hårda arbetsvillkor.",
+          "correct": true,
+          "feedback": "Rätt."
+        },
+        {
+          "id": "b",
+          "text": "Ingen arbetar med det.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "c",
+          "text": "Det görs av maskiner.",
+          "feedback": "Fel."
+        },
+        {
+          "id": "d",
+          "text": "Det är gratis.",
+          "feedback": "Fel."
+        }
+      ]
+    }
+  ],
+  "sourceIds": [
+    "animenews-aja-2024",
+    "screendaily-anime-2024",
+    "clark-ukiyoe"
+  ],
+  "mediaIds": [],
+  "review": {
+    "reviewedOn": "2026-11-06",
+    "method": "Uppgifterna kontrollerades mot sammanfattade sökresultat från de angivna källorna. Källsidorna kunde inte öppnas direkt i arbetsmiljön.",
+    "status": "needs-human-review",
+    "uncertainty": [
+      "Siffrorna (3,8 biljoner yen) är preliminära och kommer från nyhetssammanfattningar av en branschorganisations rapport. Fullständig rapport väntades senare.",
+      "Beskrivningen av manga (läsriktning, genrer), historia, produktionskommittéer och arbetsvillkor är allmän bakgrund. Sökningen gav ingen information om Tezuka eller produktionskommittéer.",
+      "Påståendet om hårda arbetsvillkor är allmänt och bör kontrolleras.",
+      "Bildtexten om Akihabara bygger på Commons-beskrivningen och allmän kännedom."
+    ],
+    "checkBeforeTravel": []
+  },
+  "hero": {
+    "slotId": "t09-k03-hero",
+    "imageId": "akihabara-natt",
+    "brief": "Manga- eller animemotiv, till exempel en bokhandel eller reklam i en stad."
+  }
+}
