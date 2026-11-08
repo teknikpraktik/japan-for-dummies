@@ -43,7 +43,7 @@
         {
           "type": "photo",
           "slotId": "t07-k04-stand",
-          "imageId": "takoyaki-osaka",
+          "imageId": "ueno-fiskstand",
           "brief": "Ståndmat på en gata i Japan, för att visa hur man köper och äter på plats."
         },
         {
@@ -302,7 +302,7 @@
   },
   "hero": {
     "slotId": "t07-k04-hero",
-    "imageId": "lawson-store100-yokohama",
+    "imageId": "familymart-hamarin",
     "brief": "Närbutik, matmarknad eller gatumat i Japan."
   }
 }

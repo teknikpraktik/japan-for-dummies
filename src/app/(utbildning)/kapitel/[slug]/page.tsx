@@ -79,7 +79,6 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
       <PhotoSlot role="hero" priority slotId={ch.hero.slotId} imageId={ch.hero.imageId} brief={ch.hero.brief} />
       <div className="flex flex-wrap items-center gap-3">
         <StatusBadge chapterId={ch.id} />
-        <span className="text-sm text-ink-soft">Cirka {ch.minutes} minuter inklusive test</span>
       </div>
 
       <section aria-labelledby="inledning" className="card !bg-indigo-soft prose-col space-y-2">

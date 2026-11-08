@@ -14,7 +14,6 @@ export function ChapterCard({ chapter: c }: { chapter: Chapter }) {
       <div className="min-w-0 flex-1 space-y-1">
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-ink-soft">
           <span>Kapitel {c.order}</span>
-          {published && <span>· ca {c.minutes} min</span>}
           {published ? <StatusBadge chapterId={c.id} /> : <span className="badge badge-planned">Kommer senare</span>}
         </div>
         <h3 className="text-base leading-snug sm:text-lg">
