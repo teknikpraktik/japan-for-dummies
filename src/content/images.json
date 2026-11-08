@@ -2250,6 +2250,81 @@
     ]
   },
   {
+    "id": "kamakura-daibutsu",
+    "kind": "contemporary-photo",
+    "variants": [
+      {
+        "path": "/images/kamakura-daibutsu/kamakura-daibutsu-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 32546,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/kamakura-daibutsu/kamakura-daibutsu-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 144674,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/kamakura-daibutsu/kamakura-daibutsu-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 35758,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/kamakura-daibutsu/kamakura-daibutsu-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 101800,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.3,
+      "y": 0.4
+    },
+    "creator": "lumoplank",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kamakura_-_Kamakura916.jpg",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) visar licensmallen CC0 1.0. CC0 är ett frisägande, så webbpublicering, bearbetning, offline och lagring i publikt repo omfattas utan krav på kreditering. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Kōtoku-in, Kamakura",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2024",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "Kamakuras stora Buddha (Daibutsu), en stor bronsstaty av Amida-Buddha som reses under shogunatens Kamakuratid.",
+    "alt": "Stor grön bronsstaty av en sittande Buddha med sänkt blick och en kutte, framför en tät grön skog och blå himmel.",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns tydligt.",
+    "usedIn": [
+      "t02-k01"
+    ]
+  },
+  {
     "id": "karaoke-manekineko",
     "kind": "contemporary-photo",
     "variants": [
@@ -5939,7 +6014,6 @@
     "peopleNote": "Inga personer syns tydligt.",
     "usedIn": [
       "home",
-      "t02-k01",
       "t08-k03"
     ]
   },
@@ -6458,6 +6532,81 @@
     "peopleNote": "Inga personer syns.",
     "usedIn": [
       "t11-k02"
+    ]
+  },
+  {
+    "id": "tusenyenssedlar",
+    "kind": "object-photo",
+    "variants": [
+      {
+        "path": "/images/tusenyenssedlar/tusenyenssedlar-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 45400,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tusenyenssedlar/tusenyenssedlar-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 227730,
+        "format": "webp",
+        "crop": "default"
+      },
+      {
+        "path": "/images/tusenyenssedlar/tusenyenssedlar-m480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 45400,
+        "format": "webp",
+        "crop": "mobile"
+      },
+      {
+        "path": "/images/tusenyenssedlar/tusenyenssedlar-m800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 149834,
+        "format": "webp",
+        "crop": "mobile"
+      }
+    ],
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "creator": "Okänd (public domain)",
+    "sourcePlatform": "wikimedia-commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1000_Yen_banknotes_of_Japan_(Series_D)_-_A.JPG",
+    "license": {
+      "name": "Public domain",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    "rightsCheckedOn": "2026-11-07",
+    "rightsCheckedBy": "Licensen avläst på Commons-filsidan via Commons API, ingen juridisk granskning",
+    "licenseEvidence": "Commons-filsidan (öppnad 2026-11-07) anger att verket är i public domain. Webbpublicering, bearbetning, offline och lagring i publikt repo omfattas. Upphovspersonen anges ändå som god sed.",
+    "requiredCredit": null,
+    "usageCleared": {
+      "webPublishing": true,
+      "offlinePackage": true,
+      "modification": true,
+      "publicRepoStorage": true
+    },
+    "location": {
+      "value": "Japan",
+      "verifiedBy": "Commons-filsidans beskrivning, titel och kategorier"
+    },
+    "year": {
+      "value": "2024",
+      "verifiedBy": "Commons-filsidans datumfält"
+    },
+    "caption": "En japansk sedel på 1000 yen (serie D) med författaren Natsume Sōseki på framsidan.",
+    "alt": "En blågrå japansk sedel på 1000 yen med porträtt av en man med mustasch, siffran 1000 och tecknet 千円, liggande på en grå yta",
+    "decorative": false,
+    "modification": "Nedskalad (hämtad som 1280 px bred förhandsversion från Commons), visas beskuren efter fokuspunkt till 16:9 respektive 4:3 (mobil), omkodad till WebP och metadata (inkl. eventuell GPS) borttagen. Ingen färgjustering.",
+    "peopleNote": "Inga personer syns utöver porträttet på sedeln.",
+    "usedIn": [
+      "t10-k05"
     ]
   },
   {
