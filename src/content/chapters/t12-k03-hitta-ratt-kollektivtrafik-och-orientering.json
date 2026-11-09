@@ -60,14 +60,13 @@
         {
           "type": "observe",
           "title": "Läs en stationsskylt",
-          "prompt": "Använd en bild eller textalternativet nedan.",
+          "prompt": "Titta på bilden eller på en stationsskylt.",
           "steps": [
             "Vilken linje, vilken riktning och vilken perrong gäller?",
             "Vilka färger och nummer syns?",
             "Vilka utgångar finns?",
             "Vad skulle du göra om du hamnade på fel perrong?"
           ],
-          "textAlternative": "Planera en tänkt resa mellan två stationer. Skriv ner linje, perrong, riktning och en plan B om du missar tåget.",
           "imageSlotIds": [
             "t12-k03-hero"
           ]

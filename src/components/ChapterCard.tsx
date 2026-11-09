@@ -10,7 +10,7 @@ export function ChapterCard({ chapter: c }: { chapter: Chapter }) {
   const imageId = published ? c.hero.imageId : null;
   const inner = (
     <>
-      <ChapterThumb imageId={imageId} label={String(c.order)} />
+      <ChapterThumb imageId={imageId} />
       <div className="min-w-0 flex-1 space-y-1">
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-ink-soft">
           <span>Kapitel {c.order}</span>

@@ -30,8 +30,6 @@ export const blockSchema = z.discriminatedUnion("type", [
     title: text,
     prompt: text,
     steps: z.array(text).min(2).max(5),
-    /** Likvärdig uppgift för den som inte ser bilden, eller när bild saknas. */
-    textAlternative: text,
     imageSlotIds: z.array(id).default([]),
   }),
   z.object({

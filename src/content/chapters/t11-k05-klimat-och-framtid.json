@@ -84,14 +84,13 @@
         {
           "type": "observe",
           "title": "Jämför framtidsbilder",
-          "prompt": "Jämför två bilder av framtiden eller använd textalternativet nedan.",
+          "prompt": "Jämför två sätt att tänka sig framtiden.",
           "steps": [
             "Vilka antaganden gör varje bild om teknik, energi och människor?",
             "Vilka grupper vinner och förlorar i varje bild?",
             "Vad skulle behöva hända för att bilden blir verklighet?",
             "Vilka frågor skulle du vilja ställa till någon som lever där?"
           ],
-          "textAlternative": "Skriv två korta beskrivningar av ditt eget samhälle om 30 år, en optimistisk och en pessimistisk. Vad skiljer dem åt, och vilka val skulle ge den ena eller den andra?",
           "imageSlotIds": [
             "t11-k05-hero"
           ]

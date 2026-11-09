@@ -106,14 +106,13 @@
         {
           "type": "observe",
           "title": "Leta efter tecken",
-          "prompt": "Använd en bild från en station eller gata, eller textalternativet nedan.",
+          "prompt": "Titta på skyltarna i bilden, eller på skyltar på en station eller gata.",
           "steps": [
             "Vilka tecken ser du, och vilka liknar varandra?",
             "Vilka är kanji, vilka är hiragana och vilka katakana?",
             "Finns romaji eller engelska som du kan jämföra med?",
             "Vilka tecken återkommer?"
           ],
-          "textAlternative": "Leta efter tecken i hemmiljön, till exempel på en matförpackning med japansk text. Vilka tecken kan du känna igen, och vilken är den mest återkommande?",
           "imageSlotIds": [
             "t05-k02-hero"
           ]

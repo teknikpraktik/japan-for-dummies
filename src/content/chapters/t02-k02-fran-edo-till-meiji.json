@@ -136,14 +136,13 @@
         {
           "type": "observe",
           "title": "Jämför då och nu",
-          "prompt": "Jämför en historisk bild från Meijitiden med ett nutida fotografi av en liknande plats, eller använd textuppgiften nedan.",
+          "prompt": "Jämför en historisk bild från Meijitiden med ett nutida fotografi av en liknande plats.",
           "steps": [
             "Vilka byggnader, material och höjder syns i varje bild?",
             "Vilka transportsätt syns?",
             "Vad ser likadant ut, och vad är helt nytt?",
             "Vem gjorde bilden och varför? Vad kan den inte visa?"
           ],
-          "textAlternative": "Tänk på en plats nära dig. Lista tre saker som har förändrats sedan 1870-talet och två saker som kan ha funnits kvar, och fundera över vem som kunde ha dokumenterat platsen då och vad som aldrig hamnade på bild.",
           "imageSlotIds": [
             "t02-k02-meiji-miljo",
             "t02-k02-nutida"

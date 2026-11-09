@@ -114,14 +114,13 @@
         {
           "type": "observe",
           "title": "Hitta historien i nutiden",
-          "prompt": "Gå igenom bilderna eller textalternativet.",
+          "prompt": "Gå igenom bilderna i kapitlet.",
           "steps": [
             "Vilka spår av olika årtionden ser du i en stad?",
             "Vad verkar vara byggt under tillväxtåren?",
             "Vad berättar skyltar, minnesmärken och museer?",
             "Vilka frågor väcks om framtiden?"
           ],
-          "textAlternative": "Tänk på en stad du känner. Lista tre saker som byggdes under olika årtionden och vad de berättar om tiden.",
           "imageSlotIds": [
             "t02-k05-shinkansen"
           ]

@@ -28,7 +28,7 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
         <h2 id="oversikt" className="sr-only">Sammanfattning</h2>
         <div className="card">
           <p className="text-3xl font-bold text-indigo-dark" data-testid="stat-completed">{completed.length} / {published.length}</p>
-          <p>klara kapitel (av de färdiga)</p>
+          <p>klara kapitel</p>
         </div>
         <div className="card">
           <p className="text-3xl font-bold text-indigo-dark" data-testid="stat-started">{started.length}</p>
@@ -43,7 +43,7 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
             <Link href={`/kapitel/${next.slug}/`} className="font-semibold">{next.title}</Link>
           </p>
         ) : (
-          <p>Du har klarat alla färdiga kapitel. Fler kommer senare.</p>
+          <p>Du har klarat alla kapitel.</p>
         )}
       </section>
 
@@ -58,7 +58,7 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
                   <p className="font-semibold">{t.order}. {t.title}</p>
                   <p className="text-sm text-ink-soft">
-                    {p.published > 0 ? `${p.completed} av ${p.published} färdiga klara` : "Inga färdiga kapitel än"} · {p.planned} kommer senare
+                    {p.published > 0 ? `${p.completed} av ${p.published} klara` : "Inga kapitel än"}
                   </p>
                 </div>
                 <div className="progress-track mt-2" role="progressbar" aria-label={`Framsteg ${t.title}`} aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}>
@@ -74,7 +74,7 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
         <h2 id="resultat">Testresultat</h2>
         <div className="overflow-x-auto">
           <table className="w-full min-w-[28rem] border-collapse text-left">
-            <caption className="sr-only">Bästa och senaste testresultat per färdigt kapitel</caption>
+            <caption className="sr-only">Bästa och senaste testresultat per kapitel</caption>
             <thead>
               <tr className="border-b-2 border-line">
                 <th scope="col" className="py-2 pr-3">Kapitel</th>

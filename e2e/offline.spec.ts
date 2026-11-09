@@ -82,7 +82,7 @@ test.describe("offline", () => {
       await expect(page.getByText("planerat men inte skrivet än")).toBeVisible();
     }
     await page.goto("/offline/");
-    await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${PUBLISHED} tillgängliga kapitel klara`);
+    await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${PUBLISHED} kapitel klara`);
     await page.goto("/kallor/");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Källor och rättigheter");
 

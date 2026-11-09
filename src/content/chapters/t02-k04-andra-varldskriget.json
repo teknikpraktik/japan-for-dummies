@@ -132,14 +132,13 @@
         {
           "type": "observe",
           "title": "Läs ett museum eller minnesmärke",
-          "prompt": "Använd ett besök eller textalternativet nedan.",
+          "prompt": "Tänk på ett besök vid ett museum eller ett minnesmärke.",
           "steps": [
             "Vem har gjort utställningen och vem riktar den sig till?",
             "Vilka offer lyfts fram, och vilka nämns knappt?",
             "Vilka ord används om gärningsmän och om händelser?",
             "Vilka källor visas, till exempel dokument, vittnen eller föremål?"
           ],
-          "textAlternative": "Tänk på en historisk händelse i ditt eget land som minns olika av olika grupper. Skriv två meningar ur två perspektiv.",
           "imageSlotIds": [
             "t02-k04-minne"
           ]

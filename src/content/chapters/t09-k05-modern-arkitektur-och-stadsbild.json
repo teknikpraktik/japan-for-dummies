@@ -86,14 +86,13 @@
         {
           "type": "observe",
           "title": "Läs av en stadsbild",
-          "prompt": "Använd en bild från Tokyo eller textalternativet nedan.",
+          "prompt": "Titta på bilden från Tokyo.",
           "steps": [
             "Vilka byggnadstyper ser du, och från vilken tid?",
             "Hur är tomterna uppdelade, och hur är gatorna?",
             "Var finns grönska, och var finns små luckor?",
             "Vad skulle kunna förändras härnäst?"
           ],
-          "textAlternative": "Tänk på din egen stad. Lista tre byggnader från olika årtionden och vad de berättar om tiden.",
           "imageSlotIds": [
             "t09-k05-hero"
           ]

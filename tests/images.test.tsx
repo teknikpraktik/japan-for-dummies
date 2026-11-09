@@ -264,14 +264,11 @@ describe("bildkomponenter", () => {
     expect(img).toHaveAttribute("fetchpriority", "high");
     expect(img).toHaveAttribute("alt", "");
   });
-  it("reservyta utan synlig produktionstext", async () => {
+  it("bildplats utan valt foto visar ingenting (ingen platshållare)", async () => {
     const { PhotoSlot } = await import("@/components/Photo");
     state.photos = [];
-    render(<PhotoSlot role="hero" slotId="min-plats" imageId={null} brief="Ett lugnt landskap." />);
-    expect(screen.getByTestId("photo-placeholder")).toHaveAttribute("data-slot", "min-plats");
-    expect(screen.queryByText(/Fotografi väljs/)).toBeNull();
-    expect(screen.getByText("Ett lugnt landskap.")).toHaveClass("sr-only"); // motivet finns bara som dold text
-    expect(screen.queryByRole("img")).toBeNull();
+    const { container } = render(<PhotoSlot role="hero" slotId="min-plats" imageId={null} brief="Ett lugnt landskap." />);
+    expect(container).toBeEmptyDOMElement();
   });
   it("mobilbeskärning ger egen <source> för smala skärmar", async () => {
     const { PhotoSlot } = await import("@/components/Photo");

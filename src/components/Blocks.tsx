@@ -103,10 +103,6 @@ export function Blocks({ blocks, media }: { blocks: Block[]; media: Media[] }) {
                     </li>
                   ))}
                 </ol>
-                <p className="callout">
-                  <strong>Utan bild: </strong>
-                  {b.textAlternative}
-                </p>
               </aside>
             );
           case "figure": {

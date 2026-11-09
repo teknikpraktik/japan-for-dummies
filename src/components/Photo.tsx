@@ -82,31 +82,11 @@ export function PhotoCredit({ photo }: { photo: Photo }) {
   );
 }
 
-/** Reservyta när fotografiet ännu inte är valt och rättighetskontrollerat. Ärlig om att bild saknas. */
-export function PhotoPlaceholder({ role, slotId, brief }: { role: PhotoRole; slotId: string; brief: string }) {
-  return (
-    <div
-      aria-hidden="true"
-      data-testid="photo-placeholder"
-      data-slot={slotId}
-      className={`${frame[role]} flex w-full items-center justify-center rounded-xl border border-dashed border-line bg-indigo-soft`}
-    >
-      <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="currentColor" strokeWidth="2" className="text-indigo/60">
-        <rect x="5" y="12" width="38" height="26" rx="4" />
-        <circle cx="24" cy="25" r="7" />
-        <path d="M17 12l2-4h10l2 4" />
-      </svg>
-      <span className="sr-only">{brief}</span>
-    </div>
-  );
-}
-
-/** En bildplats: visar fotografiet om det är valt, annars reservytan med planerat motiv. */
+/** En bildplats: visar fotografiet om det är valt. Utan valt foto visas ingenting. */
 export function PhotoSlot({
   role,
   slotId,
   imageId,
-  brief,
   priority,
 }: {
   role: PhotoRole;
@@ -116,13 +96,7 @@ export function PhotoSlot({
   priority?: boolean;
 }) {
   const photo = findPhoto(imageId);
-  if (!photo) {
-    return (
-      <figure className="space-y-2" data-slot-state="pending">
-        <PhotoPlaceholder role={role} slotId={slotId} brief={brief} />
-      </figure>
-    );
-  }
+  if (!photo) return null;
   return (
     <figure className="space-y-2" data-slot-state="filled" id={`bild-${slotId}`}>
       <div className={`${frame[role]} overflow-hidden rounded-xl bg-paper-2`}>
@@ -145,15 +119,10 @@ export function CardThumb({ imageId }: { imageId: string | null }) {
 }
 
 /** Liten bild för kompakta kapitelkort: fast bildformat, beskärning med fokuspunkt, aldrig förvrängd. */
-export function ChapterThumb({ imageId, label }: { imageId: string | null; label: string }) {
+export function ChapterThumb({ imageId }: { imageId: string | null }) {
   const photo = findPhoto(imageId);
   const box = `${frame.thumb} w-28 shrink-0 overflow-hidden rounded-lg bg-paper-2 sm:w-44`;
-  if (!photo)
-    return (
-      <div className={`${box} flex items-center justify-center border border-dashed border-line text-ink-soft`} data-testid="thumb-placeholder" aria-hidden="true">
-        <span className="text-lg font-bold">{label}</span>
-      </div>
-    );
+  if (!photo) return null;
   return (
     <div className={box} data-testid="card-thumb">
       <PhotoPicture photo={{ ...photo, decorative: true }} role="thumb" />

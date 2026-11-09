@@ -271,7 +271,7 @@ test.describe("kontofri tjänst", () => {
     await page.goto("/offline/");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Mina framsteg");
     await expect(page.getByText("Här ser du dina framsteg och fortsätter där du slutade.")).toBeVisible();
-    await expect(page.getByTestId("progress-summary")).toHaveText(`0 av ${pilots.length} tillgängliga kapitel klara`);
+    await expect(page.getByTestId("progress-summary")).toHaveText(`0 av ${pilots.length} kapitel klara`);
     await expect(page.getByRole("progressbar", { name: "Klara kapitel", exact: true })).toBeVisible();
     // Ingen ruta för nästa kapitel eller fortsättning
     const summary = (await page.getByTestId("progress-summary").boundingBox())!;
@@ -281,7 +281,7 @@ test.describe("kontofri tjänst", () => {
     const themesWithContent = new Set(pilots.map((c) => (c as unknown as { themeId: string }).themeId));
     await expect(page.locator("[data-testid^='progress-theme-']")).toHaveCount(themesWithContent.size);
     await expect(page.getByText("Kommer senare")).toHaveCount(0);
-    await expect(page.getByText(/färdiga klara/)).toHaveCount(0);
+    await expect(page.getByText(/klara klara/)).toHaveCount(0);
     // Inga testresultat: avsnittet utelämnas. Ingen stor ruta för antal påbörjade.
     await expect(page.getByTestId("results")).toHaveCount(0);
     await expect(page.getByText("påbörjade, inte klara")).toHaveCount(0);
@@ -302,7 +302,7 @@ test.describe("kontofri tjänst", () => {
     await page.goto(`/kapitel/${chapter.slug}/`);
     await takeQuiz(page, chapter, 0);
     await page.goto("/offline/");
-    await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${pilots.length} tillgängliga kapitel klara`);
+    await expect(page.getByTestId("progress-summary")).toHaveText(`1 av ${pilots.length} kapitel klara`);
     await expect(page.getByTestId("next-step")).toHaveCount(0);
     await expect(page.getByTestId("progress-theme-geografi")).toContainText(/1 av \d+ klara/);
     const results = page.getByTestId("results");
@@ -332,7 +332,7 @@ test.describe("kontofri tjänst", () => {
       localStorage.setItem("japanresan:v1:state", JSON.stringify({ version: 1, chapters, favorites: [], drafts: {} }));
     }, done);
     await page.goto("/offline/");
-    await expect(page.getByTestId("progress-summary")).toHaveText(`${pilots.length} av ${pilots.length} tillgängliga kapitel klara`);
+    await expect(page.getByTestId("progress-summary")).toHaveText(`${pilots.length} av ${pilots.length} kapitel klara`);
     await expect(page.getByTestId("next-step")).toHaveCount(0);
     await page.getByTestId("results").getByText("Visa testresultat").click();
     await expect(page.getByTestId("results").getByRole("row")).toHaveCount(pilots.length + 1);

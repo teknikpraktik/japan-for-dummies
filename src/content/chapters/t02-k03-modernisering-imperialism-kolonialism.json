@@ -114,14 +114,13 @@
         {
           "type": "observe",
           "title": "Läs en historietext kritiskt",
-          "prompt": "Använd en informationstavla eller ett museum, eller textalternativet nedan.",
+          "prompt": "Titta på en informationstavla eller en museitext.",
           "steps": [
             "Vem har skrivit texten och vilket land eller vilken institution står bakom?",
             "Vilka ord används om samma händelse, till exempel ”införlivande”, ”annektering” eller ”ockupation”?",
             "Vilka människors röster hörs, och vilka saknas?",
             "Vad skulle en person från ett annat land kunna lägga till?"
           ],
-          "textAlternative": "Välj en händelse ur historien i ditt eget land och skriv två meningar om den ur två olika perspektiv. Vilka ord skiljer sig åt?",
           "imageSlotIds": [
             "t02-k03-taiwan"
           ]
