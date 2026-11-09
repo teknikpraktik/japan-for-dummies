@@ -78,14 +78,13 @@
         {
           "type": "observe",
           "title": "Din egen sammanfattning",
-          "prompt": "Svara skriftligt eller muntligt, eller använd textalternativet nedan.",
+          "prompt": "Svara skriftligt eller muntligt.",
           "steps": [
             "Vilka tre saker trodde du, och vad blev av dem?",
             "Vad förvånade dig mest, och varför?",
             "Vilka likheter med hemma märkte du?",
             "Vilka frågor har du kvar?"
           ],
-          "textAlternative": "Skriv fem meningar om hur din bild av Japan har ändrats, och en fråga du vill få svar på.",
           "imageSlotIds": [
             "t12-k05-hero"
           ]

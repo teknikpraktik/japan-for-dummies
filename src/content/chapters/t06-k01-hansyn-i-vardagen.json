@@ -77,14 +77,13 @@
         {
           "type": "observe",
           "title": "Upptäck vägvisningen",
-          "prompt": "Titta på en bild från en japansk station, eller använd textuppgiften nedan. Hur hittar man rätt utan att kunna läsa japanska?",
+          "prompt": "Titta på en bild från en japansk station. Hur hittar man rätt utan att kunna läsa japanska?",
           "steps": [
             "Leta efter siffror, bokstäver och färger: perrongnummer och linjebeteckningar.",
             "Leta efter pilar och riktningsangivelser, till exempel en ändstation.",
             "Leta efter piktogram: toalett, utgång, hiss, biljettautomat.",
             "Leta efter golvmarkeringar där människor kan ställa sig i kö."
           ],
-          "textAlternative": "Tänk på en station du känner. Nämn fyra saker som hjälper dig att hitta rätt utan att kunna språket (nummer, pilar, symboler, färger). På resan: gör samma övning på en riktig perrong och jämför.",
           "imageSlotIds": [
             "t06-k01-hero",
             "t06-k01-tagvagn"

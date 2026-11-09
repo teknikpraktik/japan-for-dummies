@@ -63,14 +63,13 @@
         {
           "type": "observe",
           "title": "Läs ett tågschema",
-          "prompt": "Använd ett schema från en station eller textalternativet nedan.",
+          "prompt": "Titta på ett schema från en station.",
           "steps": [
             "Vilka tåg stannar var, och vad skiljer dem åt?",
             "Hur mycket tid finns mellan två byten?",
             "Vilken plan B har du om ett tåg är försenat?",
             "Vad säger skyltarna om platser och vagnar?"
           ],
-          "textAlternative": "Planera en tänkt resa mellan två städer. Skriv ner avgångstid, byte och en plan B om bytet missas.",
           "imageSlotIds": [
             "t10-k01-hero"
           ]

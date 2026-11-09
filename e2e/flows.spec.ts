@@ -4,11 +4,6 @@ import path from "node:path";
 import { pilots, takeQuiz, PUBLISHED, PLANNED, PLANNED_SAMPLE } from "./helpers";
 
 const readJson = (rel: string) => JSON.parse(fs.readFileSync(path.join(process.cwd(), "src", "content", rel), "utf8"));
-/** Antal bildplatser på en sida som ännu saknar valt fotografi (ska motsvara antalet reservytor). */
-function pendingSlots(c: { hero: { imageId: string | null }; sections: { blocks: { type: string; imageId?: string | null }[] }[] }) {
-  return (c.hero.imageId ? 0 : 1) + c.sections.flatMap((x) => x.blocks).filter((b) => b.type === "photo" && !b.imageId).length;
-}
-
 test.describe("pilotkapitel och direktlänkar", () => {
   for (const c of pilots) {
     test(`direktlänk och genomförande: ${c.slug}`, async ({ page }) => {
@@ -192,53 +187,42 @@ test("tangentbord: ordningsövning och navigation utan mus", async ({ page, isMo
 });
 
 test.describe("bilder", () => {
-  test("startsidan: reservyta för öppningsbild tills foto är valt", async ({ page }) => {
-    const home = readJson("home.json");
-    await page.goto("/");
-    await expect(page.getByTestId("photo-placeholder")).toHaveCount(home.hero.imageId ? 0 : 1);
-  });
-
   for (const c of pilots) {
     test(`bildplatser och bildtexter: ${c.slug}`, async ({ page }) => {
       const full = readJson(`chapters/${fs.readdirSync(path.join(process.cwd(), "src/content/chapters")).find((f) => f.includes(c.slug))!}`);
       await page.goto(`/kapitel/${c.slug}/`);
-      await expect(page.getByTestId("photo-placeholder")).toHaveCount(pendingSlots(full));
+      await expect(page.getByTestId("photo-placeholder")).toHaveCount(0);
       // Ifylld bildplats: kort bildtext utan attribution; kreditering samlas under Bilder och rättigheter
       const used = new Set<string>([full.hero.imageId, ...full.sections.flatMap((x: { blocks: { type: string; imageId?: string }[] }) => x.blocks).filter((b: { type: string }) => b.type === "photo").map((b: { imageId?: string }) => b.imageId)].filter(Boolean));
       await expect(page.locator("[data-testid^='rights-']")).toHaveCount(used.size);
       const figs = page.locator("figure[data-slot-state]");
       for (let i = 0; i < (await figs.count()); i++) {
-        const state = await figs.nth(i).getAttribute("data-slot-state");
-        if (state === "pending") await expect(figs.nth(i).locator("figcaption")).toHaveCount(0);
-        else {
-          await expect(figs.nth(i).locator("figcaption")).toBeVisible();
-          await expect(figs.nth(i).locator("figcaption a")).toHaveCount(0);
-          await expect(figs.nth(i).getByTestId("photo-credit")).toHaveCount(0);
-          await expect(figs.nth(i).locator("img")).toHaveAttribute("alt", /.*/);
-        }
+        await expect(figs.nth(i).locator("figcaption")).toBeVisible();
+        await expect(figs.nth(i).locator("figcaption a")).toHaveCount(0);
+        await expect(figs.nth(i).getByTestId("photo-credit")).toHaveCount(0);
+        await expect(figs.nth(i).locator("img")).toHaveAttribute("alt", /.*/);
       }
     });
   }
 
-  test("observationsuppgifter finns, har textalternativ och påverkar inte poäng eller status", async ({ page }) => {
+  test("observationsuppgifter finns och påverkar inte poäng eller status", async ({ page }) => {
     await page.goto("/kapitel/fran-edo-till-meiji/");
     const obs = page.getByTestId("observe");
     await expect(obs).toHaveCount(1);
-    await expect(obs).toContainText("Utan bild:");
+    await expect(obs).not.toContainText("Utan bild");
     await page.goto("/kapitel/hansyn-i-vardagen/");
     await expect(page.getByTestId("observe")).toHaveCount(1);
-    await expect(page.getByTestId("observe")).toContainText("Utan bild:");
+    await expect(page.getByTestId("observe")).not.toContainText("Utan bild");
     // Chapter is still "not started → started" only by opening, not by the observation task.
     await page.goto("/offline/");
     await expect(page.getByTestId("progress-summary")).toHaveText(`0 av ${PUBLISHED} kapitel klara`);
   });
 
-  test("sidan Bildkällor visar bilder med licens eller ärligt tomt läge", async ({ page }) => {
+  test("sidan Bildkällor visar bilder med licens", async ({ page }) => {
     const photos = readJson("images.json");
     await page.goto("/bildkallor/");
     await expect(page.getByRole("heading", { level: 1, name: "Bildkällor" })).toBeVisible();
-    if (photos.length === 0) await expect(page.getByTestId("no-photos")).toContainText("Inga fotografier är valda än");
-    else for (const p of photos) await expect(page.locator(`#${p.id}`)).toContainText(p.license.name);
+    for (const p of photos) await expect(page.locator(`#${p.id}`)).toContainText(p.license.name);
     await expect(page.getByText("Kodens licens omfattar inte fotografierna")).toBeVisible();
   });
 });

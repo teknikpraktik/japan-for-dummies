@@ -7,12 +7,7 @@ import { PhotoCredit, PhotoPicture } from "@/components/Photo";
 export const metadata: Metadata = { title: "Bildkällor" };
 
 export default function ImageSources() {
-  const { photos, chapters, home } = getContent();
-  const slotCount =
-    1 + chapters.reduce((n, c) => n + (c.status === "published" ? 1 + c.sections.flatMap((s) => s.blocks).filter((b) => b.type === "photo").length : 0), 0);
-  const pending =
-    (home.hero.imageId ? 0 : 1) +
-    chapters.reduce((n, c) => n + (c.status === "published" ? (c.hero.imageId ? 0 : 1) + c.sections.flatMap((s) => s.blocks).filter((b) => b.type === "photo" && !b.imageId).length : 0), 0);
+  const { photos, chapters } = getContent();
   const where = (id: string) => {
     if (id === "home") return <Link href="/" className="inline-block py-1">Startsidan</Link>;
     const c = chapters.find((x) => x.id === id);
@@ -27,20 +22,6 @@ export default function ImageSources() {
         </p>
       </header>
 
-      {pending > 0 && photos.length > 0 && (
-        <p className="callout callout-check prose-col" data-testid="pending-slots">
-          {pending} av {slotCount} bildplatser saknar ännu fotografi och visar en reservyta med planerat motiv.
-        </p>
-      )}
-      {photos.length === 0 ? (
-        <section className="card prose-col space-y-2" data-testid="no-photos">
-          <h2 className="!text-xl">Inga fotografier är valda än</h2>
-          <p>
-            Utbildningen har {slotCount} bildplatser (startsidan och kapitlen), men inget fotografi har ännu valts och rättighetskontrollerats. Tills vidare visas reservytor med planerat motiv. Inga bilder används utan fullständigt licensunderlag.
-          </p>
-          <p className="text-sm text-ink-soft">Startsidans bildplats: {home.hero.brief}</p>
-        </section>
-      ) : (
         <ul className="grid gap-6 md:grid-cols-2">
           {photos.map((p) => (
             <li key={p.id} id={p.id} className="card space-y-2 scroll-mt-4">
@@ -94,7 +75,6 @@ export default function ImageSources() {
             </li>
           ))}
         </ul>
-      )}
 
       <p className="text-sm text-ink-soft">
         Egen grafik, till exempel kartan, redovisas under <Link href="/kallor/#bilder">Källor och rättigheter</Link>.

@@ -58,7 +58,7 @@ export function ResepassView({ chapters, themes, showTransfer = true }: { chapte
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
                   <p className="font-semibold">{t.order}. {t.title}</p>
                   <p className="text-sm text-ink-soft">
-                    {p.published > 0 ? `${p.completed} av ${p.published} klara` : "Inga kapitel än"} · {p.planned} kommer senare
+                    {p.published > 0 ? `${p.completed} av ${p.published} klara` : "Inga kapitel än"}
                   </p>
                 </div>
                 <div className="progress-track mt-2" role="progressbar" aria-label={`Framsteg ${t.title}`} aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}>
