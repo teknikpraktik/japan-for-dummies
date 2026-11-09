@@ -52,7 +52,7 @@ export function StudentHome({ chapters, themes }: { chapters: ChapterLite[]; the
             </Link>
           </>
         ) : (
-          <p>Du har klarat alla färdiga kapitel. Fler kommer senare.</p>
+          <p>Du har klarat alla kapitel.</p>
         )}
       </section>
 
@@ -66,7 +66,6 @@ export function StudentHome({ chapters, themes }: { chapters: ChapterLite[]; the
             </li>
           ))}
         </ul>
-        <p className="text-sm text-ink-soft">{published.length} kapitel är färdiga. De övriga kommer senare och räknas inte.</p>
       </section>
 
       <section aria-labelledby="synk" className="card space-y-3">

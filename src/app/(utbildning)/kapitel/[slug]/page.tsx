@@ -70,7 +70,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
   const usedSources = ch.sourceIds.map((id) => sources.find((s) => s.id === id)!);
   const usedMedia = ch.mediaIds.map((id) => media.find((m) => m.id === id)!);
   const chapterPhotos = photosFor([ch.hero.imageId, ...ch.sections.flatMap((x) => x.blocks).map((b) => (b.type === "photo" ? b.imageId : null))]);
-  const nextHref = nextPublished ? { href: chapterPath(nextPublished), label: `Nästa färdiga kapitel: ${nextPublished.title}` } : undefined;
+  const nextHref = nextPublished ? { href: chapterPath(nextPublished), label: `Nästa kapitel: ${nextPublished.title}` } : undefined;
 
   return (
     <article className="min-w-0 space-y-10">

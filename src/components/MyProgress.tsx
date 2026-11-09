@@ -29,7 +29,7 @@ export function MyProgress({ chapters, themes }: { chapters: ChapterLite[]; them
     <div className="space-y-6">
       <section aria-labelledby="sammanfattning" className="space-y-2">
         <h2 id="sammanfattning" className="!text-xl" data-testid="progress-summary">
-          {done} av {published.length} tillgängliga kapitel klara
+          {done} av {published.length} kapitel klara
         </h2>
         <div className="progress-track" role="progressbar" aria-label="Klara kapitel" aria-valuemin={0} aria-valuemax={published.length} aria-valuenow={done} aria-valuetext={`${done} av ${published.length} klara`}>
           <div className="progress-fill" style={{ width: `${pct}%` }} />

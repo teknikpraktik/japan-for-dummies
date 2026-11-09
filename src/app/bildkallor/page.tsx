@@ -36,7 +36,7 @@ export default function ImageSources() {
         <section className="card prose-col space-y-2" data-testid="no-photos">
           <h2 className="!text-xl">Inga fotografier är valda än</h2>
           <p>
-            Utbildningen har {slotCount} bildplatser (startsidan och de färdiga kapitlen), men inget fotografi har ännu valts och rättighetskontrollerats. Tills vidare visas reservytor med planerat motiv. Inga bilder används utan fullständigt licensunderlag.
+            Utbildningen har {slotCount} bildplatser (startsidan och kapitlen), men inget fotografi har ännu valts och rättighetskontrollerats. Tills vidare visas reservytor med planerat motiv. Inga bilder används utan fullständigt licensunderlag.
           </p>
           <p className="text-sm text-ink-soft">Startsidans bildplats: {home.hero.brief}</p>
         </section>
