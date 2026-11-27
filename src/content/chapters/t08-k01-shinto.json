@@ -109,15 +109,15 @@
         },
         {
           "id": "b",
-          "text": "Ett tempels ingång.",
+          "text": "Ingången till ett buddhistiskt tempel.",
           "correct": false,
           "feedback": "Tempel har oftast en annan sorts port."
         },
         {
           "id": "c",
-          "text": "En marknad.",
+          "text": "Gränsen mellan två städer eller kommuner i regionen.",
           "correct": false,
-          "feedback": "Fel. En torii är porten in till helig mark vid en helgedom, inte en marknad."
+          "feedback": "Fel. En torii är porten in till helig mark vid en helgedom, inte en stadsgräns."
         }
       ]
     },
@@ -130,19 +130,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Shinto är mer ritualer, platser och tradition än en enhetlig lära, och många ser det som kultur.",
+          "text": "Shinto är mer ritualer, platser och tradition än en enhetlig lära.",
           "correct": true,
           "feedback": "Bra."
         },
         {
           "id": "b",
-          "text": "Alla japaner är troende shintoister.",
+          "text": "Alla japaner är aktivt troende och praktiserande shintoister.",
           "correct": false,
           "feedback": "En förenkling."
         },
         {
           "id": "c",
-          "text": "Shinto är inte en religion alls.",
+          "text": "Shinto är inte en religion alls utan bara en gammal folksed utan betydelse.",
           "correct": false,
           "feedback": "Det är omdiskuterat, och många kallar det en religion."
         }
@@ -195,17 +195,17 @@
         },
         {
           "id": "b",
-          "text": "En maträtt",
+          "text": "En maträtt med fisk och ris",
           "feedback": "Fel. En torii är en port vid en helgedom, inte en maträtt."
         },
         {
           "id": "c",
-          "text": "En skola",
+          "text": "En skola för äldre elever",
           "feedback": "Fel. En torii är en port vid en helgedom, inte en skola."
         },
         {
           "id": "d",
-          "text": "Ett tåg",
+          "text": "Ett expresståg mellan Tokyo och Kyoto",
           "feedback": "Fel. En torii är en port vid en helgedom, inte ett tåg."
         }
       ]
@@ -243,23 +243,23 @@
       "options": [
         {
           "id": "a",
-          "text": "En lyckospådom på papper",
+          "text": "En lyckospådom på ett litet papper",
           "correct": true,
           "feedback": "Rätt. Omikuji är lyckospådomar som man kan köpa vid helgedomen."
         },
         {
           "id": "b",
-          "text": "En port",
+          "text": "En port som leder till helgedomens område",
           "feedback": "Fel. Porten kallas torii, medan omikuji är en lyckospådom."
         },
         {
           "id": "c",
-          "text": "En present",
+          "text": "En present som ges till gäster",
           "feedback": "Fel. Omikuji är en lyckospådom, inte en present."
         },
         {
           "id": "d",
-          "text": "En klocka",
+          "text": "En klocka som ringer vid bönen",
           "feedback": "Fel. Omikuji är en lyckospådom, inte en klocka."
         }
       ]
@@ -270,23 +270,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Det handlar mycket om ritualer, platser och tradition.",
+          "text": "Det handlar om ritualer, platser och tradition.",
           "correct": true,
           "feedback": "Rätt. Shinto handlar mycket om ritualer, platser och tradition snarare än om en bestämd lära."
         },
         {
           "id": "b",
-          "text": "Det finns ingen tradition.",
+          "text": "Det finns ingen tradition, bara en enda lära att följa.",
           "feedback": "Fel. Shinto har traditioner, och för många är det just tradition och plats."
         },
         {
           "id": "c",
-          "text": "Det är förbjudet att tro.",
+          "text": "Det är förbjudet att utöva andra religioner",
           "feedback": "Fel. Kapitlet säger inget om förbud, utan att shinto handlar mindre om att tro på något bestämt."
         },
         {
           "id": "d",
-          "text": "Det finns bara en bok.",
+          "text": "Det finns bara en helig bok som alla följer",
           "feedback": "Fel. Shinto har inte en enda helig bok eller lära."
         }
       ]

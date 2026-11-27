@@ -194,13 +194,13 @@
         },
         {
           "id": "b",
-          "text": "I januari och februari.",
+          "text": "Ungefär från slutet av december till slutet av februari.",
           "correct": false,
           "feedback": "Fel. Vintern är torrare på Stillahavssidan och snöig på den västra sidan."
         },
         {
           "id": "c",
-          "text": "Ungefär från oktober till december.",
+          "text": "Ungefär från början av oktober till december.",
           "correct": false,
           "feedback": "Fel. Tsuyu infaller i försommaren, inte i slutet av året."
         }
@@ -328,7 +328,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Följer prognosen och byter plan om det är farligt.",
+          "text": "Följer prognosen och byter plan vid fara.",
           "correct": true,
           "feedback": "Rätt. Säkerheten går före planen."
         },
@@ -339,7 +339,7 @@
         },
         {
           "id": "c",
-          "text": "Springer ut för att filma stormen.",
+          "text": "Springer ut för att filma stormen från stranden.",
           "feedback": "Fel. Stanna i säkerhet."
         },
         {

@@ -60,19 +60,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Ungefär två tredjedelar",
+          "text": "Ungefär två tredjedelar av ytan är skog",
           "correct": true,
           "feedback": "Rätt. Kapitlet anger att ungefär två tredjedelar av Japans yta är skog."
         },
         {
           "id": "b",
-          "text": "En tiondel",
+          "text": "Ungefär en tiondel av hela landets yta är skog",
           "correct": false,
           "feedback": "Fel. Skogen täcker mycket mer än en tiondel, ungefär två tredjedelar av ytan."
         },
         {
           "id": "c",
-          "text": "Nästan allt",
+          "text": "Nästan hela landets yta är täckt av skog",
           "correct": false,
           "feedback": "Fel. Skogen är stor men täcker inte nästan allt, utan ungefär två tredjedelar."
         }
@@ -113,19 +113,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Var är den fångad, och hur?",
+          "text": "Var är den här fisken fångad, och hur?",
           "correct": true,
           "feedback": "Rätt. Att fråga var fisken är fångad och hur är just det kapitlet föreslår."
         },
         {
           "id": "b",
-          "text": "Är det farligt?",
+          "text": "Är den här fisken farlig att äta rå?",
           "correct": false,
           "feedback": "Förutsätter något."
         },
         {
           "id": "c",
-          "text": "Inget.",
+          "text": "Inget, jag litar på menyn och äter direkt.",
           "correct": false,
           "feedback": "Du kan fråga."
         }
@@ -172,23 +172,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Ceder och cypress",
+          "text": "Ceder (sugi) och cypress (hinoki)",
           "correct": true,
           "feedback": "Rätt. Ceder (sugi) och cypress (hinoki) är de vanligaste planterade trädslagen."
         },
         {
           "id": "b",
-          "text": "Palmer",
+          "text": "Palmer och andra tropiska fruktträd",
           "feedback": "Fel. Kapitlet nämner ceder och cypress som de vanliga plantagträden, inte palmer."
         },
         {
           "id": "c",
-          "text": "Kaktusar",
+          "text": "Kaktusar och andra ökenväxter i bestånd",
           "feedback": "Fel. Kapitlet nämner ceder och cypress som de vanliga plantagträden, inte kaktusar."
         },
         {
           "id": "d",
-          "text": "Banan",
+          "text": "Bananer och kokospalmer i bestånd",
           "feedback": "Fel. Kapitlet nämner ceder och cypress som de vanliga plantagträden, inte banan."
         }
       ]
@@ -205,17 +205,17 @@
         },
         {
           "id": "b",
-          "text": "För många skogsarbetare",
+          "text": "För många skogsarbetare på landsbygden",
           "feedback": "Fel. Problemet är snarare att landsbygden åldras och krymper, inte att det finns för många skogsarbetare."
         },
         {
           "id": "c",
-          "text": "Ingen",
+          "text": "Ingen, skogsbruket har inga utmaningar alls",
           "feedback": "Fel. Kapitlet beskriver flera utmaningar, bland annat illa skötta och övergivna skogar."
         },
         {
           "id": "d",
-          "text": "Att träd är för korta",
+          "text": "Att träden blir för korta för virke",
           "feedback": "Fel. Kapitlet tar inte upp trädens höjd som en utmaning, utan åldrande landsbygd och övergivna skogar."
         }
       ]
@@ -232,17 +232,17 @@
         },
         {
           "id": "b",
-          "text": "För mycket is",
+          "text": "För mycket is i hamnarna på vintern",
           "feedback": "Fel. Is nämns inte som en utmaning, utan överfiske och klimatförändringar."
         },
         {
           "id": "c",
-          "text": "För många båtar alltid",
-          "feedback": "Fel. Kapitlet nämner färre fiskare och överfiske, inte att det alltid finns för många båtar."
+          "text": "För många fiskare i alla fiskehamnar",
+          "feedback": "Fel. Kapitlet nämner färre fiskare och överfiske, inte att det finns för många fiskare."
         },
         {
           "id": "d",
-          "text": "Inga",
+          "text": "Inga, fisket möter inga stora problem idag",
           "feedback": "Fel. Kapitlet beskriver flera utmaningar för fisket, bland annat överfiske och klimatförändringar."
         }
       ]
@@ -253,23 +253,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Fråga var maten kommer ifrån.",
+          "text": "Fråga var maten kommer ifrån och hur den odlats.",
           "correct": true,
           "feedback": "Rätt. Kapitlet föreslår att du frågar var maten kommer ifrån och hur den fångats eller odlats."
         },
         {
           "id": "b",
-          "text": "Ingenting",
+          "text": "Ingenting, enskilda val påverkar ingenting.",
           "feedback": "Fel. Kapitlet menar att du kan påverka genom att fråga var maten kommer ifrån."
         },
         {
           "id": "c",
-          "text": "Gissa",
+          "text": "Gissa var maten kommer ifrån utan att fråga någon alls.",
           "feedback": "Fel. Kapitlet föreslår att du frågar i stället för att gissa."
         },
         {
           "id": "d",
-          "text": "Aldrig äta",
+          "text": "Sluta äta all japansk mat under hela resan.",
           "feedback": "Fel. Kapitlet föreslår att du frågar och är medveten om dina val, inte att du slutar äta."
         }
       ]

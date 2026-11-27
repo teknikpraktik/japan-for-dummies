@@ -79,25 +79,25 @@
       "options": [
         {
           "id": "a",
-          "text": "Omkring år 552",
+          "text": "Omkring år 552 e.Kr.",
           "correct": true,
           "feedback": "Rätt, via Baekje."
         },
         {
           "id": "b",
-          "text": "1868",
+          "text": "Omkring år 1868 e.Kr.",
           "correct": false,
           "feedback": "Det är Meiji."
         },
         {
           "id": "c",
-          "text": "1945",
+          "text": "Omkring år 1945 e.Kr.",
           "correct": false,
           "feedback": "Fel. 1945 nämns inte i kapitlet; enligt traditionen kom buddhismen omkring år 552."
         },
         {
           "id": "d",
-          "text": "1603",
+          "text": "Omkring år 1603 e.Kr. (Edo)",
           "correct": false,
           "feedback": "Fel. Enligt traditionen kom buddhismen omkring år 552, långt före 1603."
         }
@@ -111,21 +111,21 @@
       "options": [
         {
           "id": "a",
-          "text": "En port med tak (sanmon), ofta pagod och Buddhastatyer.",
+          "text": "En sanmon-port, ofta pagod och Buddhastatyer.",
           "correct": true,
           "feedback": "Rätt. Ett tempel har en port med tak, en sanmon, och ofta en pagod och Buddhastatyer."
         },
         {
           "id": "b",
-          "text": "En torii av trä.",
+          "text": "En torii av trä vid ingången, ofta med heligt rep",
           "correct": false,
           "feedback": "Det är helgedomar."
         },
         {
           "id": "c",
-          "text": "Ett skolhus.",
+          "text": "En skolbyggnad med klassrum, skolgård och gymnastiksal",
           "correct": false,
-          "feedback": "Fel. Ett tempel är ett buddhistiskt tillbedjansställe, inte ett skolhus, även om tempel kan fungera som skolor."
+          "feedback": "Fel. Ett tempel är ett buddhistiskt tillbedjansställe, inte en skolbyggnad, även om tempel kan fungera som skolor."
         }
       ]
     },
@@ -138,19 +138,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Letar efter torii (helgedom) eller en tak-port och skyltar, och tittar på vad andra gör.",
+          "text": "Letar efter torii eller tak-port och ser vad andra gör.",
           "correct": true,
           "feedback": "Bra."
         },
         {
           "id": "b",
-          "text": "Gissar.",
+          "text": "Gissar vilken sorts plats det är och går in.",
           "correct": false,
           "feedback": "Observera hellre."
         },
         {
           "id": "c",
-          "text": "Går in utan att se dig omkring.",
+          "text": "Går rakt in och gör som du vill utan att se dig omkring först.",
           "correct": false,
           "feedback": "Respektera platsen."
         }
@@ -257,18 +257,18 @@
         },
         {
           "id": "b",
-          "text": "Bröllop alltid",
-          "feedback": "Fel. Kapitlet förknippar buddhismen med begravningar och minnesriter, inte alltid med bröllop."
+          "text": "Bröllop och förlovningsfester",
+          "feedback": "Fel. Kapitlet förknippar buddhismen med begravningar och minnesriter, inte med bröllop och förlovningsfester."
         },
         {
           "id": "c",
-          "text": "Skolstart",
+          "text": "Skolstart och skolavslutningar",
           "feedback": "Fel. Kapitlet förknippar buddhismen med begravningar och minnesriter, inte med skolstart."
         },
         {
           "id": "d",
-          "text": "Skatter",
-          "feedback": "Fel. Kapitlet förknippar buddhismen med begravningar och minnesriter, inte med skatter."
+          "text": "Skatteinbetalningar och deklarationer",
+          "feedback": "Fel. Kapitlet förknippar buddhismen med begravningar och minnesriter, inte med skatter och deklarationer."
         }
       ]
     },
@@ -278,23 +278,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Många platser och människor har inslag av både shinto och buddhism.",
+          "text": "Många platser har inslag av både shinto och buddhism.",
           "correct": true,
           "feedback": "Rätt. Traditionerna har blandats, så en plats kan ha både helgedom och tempel."
         },
         {
           "id": "b",
-          "text": "De är alltid separerade.",
+          "text": "De hålls alltid strikt åtskilda och möts aldrig på samma plats.",
           "feedback": "Fel. Kapitlet beskriver att traditionerna har blandats."
         },
         {
           "id": "c",
-          "text": "Bara en finns kvar.",
+          "text": "Bara buddhismen finns kvar och shinto har försvunnit.",
           "feedback": "Fel. Båda traditionerna finns kvar och blandas."
         },
         {
           "id": "d",
-          "text": "De förbjuds.",
+          "text": "Blandningen har förbjudits i lag i hela Japan.",
           "feedback": "Fel. Traditionerna förbjuds inte; de blandas."
         }
       ]

@@ -83,21 +83,21 @@
       "options": [
         {
           "id": "a",
-          "text": "Många deltar i både shintoistiska och buddhistiska ritualer.",
+          "text": "Många deltar i både shinto- och buddhistiska ritualer.",
           "correct": true,
           "feedback": "Rätt. Många deltar i både shintoistiska och buddhistiska ritualer utan att se det som en motsättning."
         },
         {
           "id": "b",
-          "text": "Alla väljer en enda religion.",
+          "text": "Alla väljer en enda religion och deltar bara i dess ritualer.",
           "correct": false,
           "feedback": "Fel. Kapitlet beskriver att många väljer ritual efter tillfälle i stället för en enda religion."
         },
         {
           "id": "c",
-          "text": "Ritualer förbjuds.",
+          "text": "Ritualer är förbjudna i offentliga miljöer och skolor.",
           "correct": false,
-          "feedback": "Fel. Ritualer förbjuds inte; religionsfrihet garanteras av konstitutionen."
+          "feedback": "Fel. Ritualer är inte förbjudna; religionsfrihet garanteras av konstitutionen."
         }
       ]
     },
@@ -195,23 +195,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Svaren beror mycket på hur frågan ställs.",
+          "text": "Svaren beror på frågans formulering.",
           "correct": true,
           "feedback": "Rätt. Studien visade att svaren ändras kraftigt med hur frågan ställs."
         },
         {
           "id": "b",
-          "text": "Alla svarar likadant.",
+          "text": "Alla svarar likadant oavsett frågan.",
           "feedback": "Fel. Studien visade att svaren varierar mycket med hur frågan ställs."
         },
         {
           "id": "c",
-          "text": "Frågor har ingen betydelse.",
+          "text": "Frågorna påverkar inte svaren alls.",
           "feedback": "Fel. Frågans formulering har stor betydelse för svaren."
         },
         {
           "id": "d",
-          "text": "Ingen vet något.",
+          "text": "Ingen vet något om sin egen religiösa tro.",
           "feedback": "Fel. Studien visade att svaren beror på hur frågan ställs, inte att ingen vet något."
         }
       ]
@@ -249,23 +249,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Det är en förenkling.",
+          "text": "Det är en förenkling av verkligheten.",
           "correct": true,
           "feedback": "Rätt. Verkligheten rymmer både och, och mycket däremellan."
         },
         {
           "id": "b",
-          "text": "Det är alltid sant.",
+          "text": "Det är alltid sant för alla japaner.",
           "feedback": "Fel. Kapitlet kallar påståendet en förenkling, inte något som alltid är sant."
         },
         {
           "id": "c",
-          "text": "Det är olagligt.",
+          "text": "Det är olagligt att säga i Japan.",
           "feedback": "Fel. Faran är att det är en förenkling, inte att det är olagligt."
         },
         {
           "id": "d",
-          "text": "Det är obegripligt.",
+          "text": "Det är obegripligt för de flesta människor.",
           "feedback": "Fel. Påståendet är begripligt men förenklat, vilket är kapitlets poäng."
         }
       ]

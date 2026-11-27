@@ -184,25 +184,25 @@
       "options": [
         {
           "id": "a",
-          "text": "De som överlevde atombomberna",
+          "text": "De som överlevde atombomberna 1945",
           "correct": true,
           "feedback": "Rätt. Ordet betyder ungefär ”de som drabbades av bomben”."
         },
         {
           "id": "b",
-          "text": "Soldater som deltog i kriget",
+          "text": "Soldater som stred i kriget 1945",
           "correct": false,
           "feedback": "Fel. Det är inte vad ordet betyder."
         },
         {
           "id": "c",
-          "text": "Ett japanskt tempel",
+          "text": "Ett gammalt japanskt tempel i Kyoto",
           "correct": false,
           "feedback": "Fel. Hibakusha betyder ungefär ”de som drabbades av bomben”, inte ett tempel."
         },
         {
           "id": "d",
-          "text": "En typ av mat",
+          "text": "En typ av mat som äts vid nyårsfirandet",
           "correct": false,
           "feedback": "Fel. Hibakusha betyder ungefär ”de som drabbades av bomben”, inte en typ av mat."
         }
@@ -357,23 +357,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Det första kan stödjas av källor, det andra präglas av nationella berättelser och betoning.",
+          "text": "Det första kan beläggas, det andra präglas av berättelser.",
           "correct": true,
           "feedback": "Rätt. Båda går att undersöka."
         },
         {
           "id": "b",
-          "text": "Det finns ingen skillnad.",
+          "text": "Det finns ingen skillnad mellan händelsen och minnet av den.",
           "feedback": "Fel. Kapitlet skiljer mellan vad som hände, hur det förklaras och hur det minns."
         },
         {
           "id": "c",
-          "text": "Minnen är alltid sanna.",
+          "text": "Minnen är alltid sanna och behöver aldrig granskas av någon.",
           "feedback": "Fel. Minnen kan vara selektiva."
         },
         {
           "id": "d",
-          "text": "Fakta kan aldrig kontrolleras.",
+          "text": "Fakta kan aldrig kontrolleras eftersom källorna alltid är osäkra.",
           "feedback": "Fel. Vad som hände är belagt av dokument, vittnen och forskning, och går att kontrollera."
         }
       ]

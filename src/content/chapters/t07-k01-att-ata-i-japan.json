@@ -151,18 +151,18 @@
       "options": [
         {
           "id": "a",
-          "text": "Ta fram översättningsappen eller fråga personalen med ”sumimasen”, och släpp förbi dem som väntar om du behöver tid.",
+          "text": "Ta fram översättningsappen eller fråga personalen med ”sumimasen”.",
           "correct": true,
-          "feedback": "Bra. Många ställen har bilder, och personalen hjälper ofta till. Att släppa förbi kunder är ett hänsynsfullt sätt att få mer tid."
+          "feedback": "Bra. Många ställen har bilder, och personalen hjälper ofta till. Det går också bra att släppa förbi dem som väntar för att få mer tid."
         },
         {
           "id": "b",
-          "text": "Trycka på slumpmässiga knappar för att gå fortare.",
+          "text": "Trycka på slumpmässiga knappar för att gå fortare och hoppas på det bästa.",
           "feedback": "Du riskerar att få något du inte vill ha, och det är svårt att ändra."
         },
         {
           "id": "c",
-          "text": "Gå därifrån direkt.",
+          "text": "Ge upp direkt och gå till en annan restaurang i stället.",
           "feedback": "Det behövs inte. Det går oftast bra att få hjälp."
         }
       ]
@@ -205,23 +205,23 @@
       "options": [
         {
           "id": "a",
-          "text": "En maskin där du väljer och betalar innan du beställer.",
+          "text": "En maskin där du väljer och betalar först.",
           "correct": true,
           "feedback": "Rätt. Du lämnar biljetten till personalen."
         },
         {
           "id": "b",
-          "text": "En automat som lagar maten.",
+          "text": "En automat som lagar maten och serverar den själv.",
           "feedback": "Fel. Den tar bara emot din beställning och betalning."
         },
         {
           "id": "c",
-          "text": "En maskin som visar menyn på svenska.",
+          "text": "En maskin som översätter menyn till svenska.",
           "feedback": "Fel. Texten är ofta på japanska, ibland med bilder."
         },
         {
           "id": "d",
-          "text": "En kassa för drycker.",
+          "text": "En kassa där du betalar drycker efter maten.",
           "feedback": "Fel. En biljettautomat är där du väljer och betalar din måltid och får en biljett att lämna till personalen."
         }
       ]
@@ -259,7 +259,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Förväntas normalt inte, och kan skapa förvirring.",
+          "text": "Förväntas inte och kan skapa förvirring.",
           "correct": true,
           "feedback": "Rätt. Lämna ingen dricks om du inte får veta något annat."
         },
@@ -270,12 +270,12 @@
         },
         {
           "id": "c",
-          "text": "Det är olagligt.",
+          "text": "Det är olagligt och man riskerar böter.",
           "feedback": "Det är inte olagligt, men ovanligt och kan skapa förvirring."
         },
         {
           "id": "d",
-          "text": "Man ska lämna pengar på bordet.",
+          "text": "Man ska lämna pengar på bordet innan man går.",
           "feedback": "Det är just det som kan skapa förvirring."
         }
       ]

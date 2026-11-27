@@ -144,19 +144,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Arbetslivet varierar mycket. Jag frågar vad människor själva tycker om sitt arbete.",
+          "text": "Arbetslivet varierar. Jag frågar vad människor själva tycker.",
           "correct": true,
           "feedback": "Bra."
         },
         {
           "id": "b",
-          "text": "Ja, så är det.",
+          "text": "Ja, det stämmer, japanerna borde sluta jobba så mycket och leva bättre.",
           "correct": false,
           "feedback": "Det moraliserar."
         },
         {
           "id": "c",
-          "text": "Nej, alla älskar att jobba.",
+          "text": "Nej, alla japaner älskar att jobba och vill aldrig ha ledigt.",
           "correct": false,
           "feedback": "Förenkling."
         }
@@ -176,23 +176,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Fast heltid i ett företag",
+          "text": "Fast heltid i ett och samma företag",
           "correct": true,
           "feedback": "Rätt. Japan förknippas traditionellt med fast heltidsanställning i ett och samma företag."
         },
         {
           "id": "b",
-          "text": "Alltid deltid",
+          "text": "Deltid hos flera olika arbetsgivare",
           "feedback": "Fel. Deltid har blivit vanligare, men den traditionella formen är fast heltid."
         },
         {
           "id": "c",
-          "text": "Bara frilans",
+          "text": "Frilansuppdrag åt flera olika uppdragsgivare",
           "feedback": "Fel. Kapitlet nämner inte frilans som traditionell anställningsform."
         },
         {
           "id": "d",
-          "text": "Ingen",
+          "text": "Korta vikariat utan fast anställning",
           "feedback": "Fel. Kapitlet beskriver flera anställningsformer, med fast heltid som den traditionella."
         }
       ]
@@ -209,18 +209,18 @@
         },
         {
           "id": "b",
-          "text": "Obegränsad",
+          "text": "Ingen övre gräns alls för övertid",
           "feedback": "Fel. Reformen införde en grundgräns för övertid."
         },
         {
           "id": "c",
-          "text": "1 timme per år",
-          "feedback": "Fel. Grundgränsen är 45 timmar per månad och 360 per år, inte 1 timme."
+          "text": "10 timmar per månad och 60 timmar per år",
+          "feedback": "Fel. Grundgränsen är 45 timmar per månad och 360 per år, inte 10 timmar per månad."
         },
         {
           "id": "d",
-          "text": "1000 timmar",
-          "feedback": "Fel. Grundgränsen är 45 timmar per månad och 360 per år, inte 1000 timmar."
+          "text": "120 timmar per månad och 960 per år",
+          "feedback": "Fel. Grundgränsen är 45 timmar per månad och 360 per år, inte 120 timmar per månad."
         }
       ]
     },
@@ -236,18 +236,18 @@
         },
         {
           "id": "b",
-          "text": "Alla får samma lön oavsett arbete",
+          "text": "Alla anställda får samma lön oavsett vilket arbete de gör",
           "feedback": "Fel. Principen gäller lika arbete, inte lika lön oavsett arbete."
         },
         {
           "id": "c",
-          "text": "Ingen lön",
-          "feedback": "Fel. Principen handlar om lika lön för lika arbete, inte om att ingen lön ges."
+          "text": "Lönen betalas ut bara en gång per år till alla",
+          "feedback": "Fel. Principen handlar om lika lön för lika arbete, inte om hur ofta lönen betalas ut."
         },
         {
           "id": "d",
-          "text": "Dubbel lön",
-          "feedback": "Fel. Principen handlar om lika lön för lika arbete, inte om dubbel lön."
+          "text": "Lönen fördubblas efter tio år hos samma företag",
+          "feedback": "Fel. Principen handlar om lika lön för lika arbete, inte om att lönen fördubblas med åren."
         }
       ]
     },
@@ -257,23 +257,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Att tillsynen över övertid lättats",
+          "text": "Att tillsynen över övertid har lättats",
           "correct": true,
           "feedback": "Rätt, enligt en rapport."
         },
         {
           "id": "b",
-          "text": "Att all övertid förbjudits",
+          "text": "Att övertid förbjudits i alla branscher",
           "feedback": "Fel. Det som rapporterats är att tillsynen lättats, inte att övertid förbjudits."
         },
         {
           "id": "c",
-          "text": "Att reformen avskaffats helt",
+          "text": "Att reformen avskaffats helt och hållet i lag",
           "feedback": "Det är en ändring i tillsyn, inte i lag."
         },
         {
           "id": "d",
-          "text": "Ingenting",
+          "text": "Att reformen skärpts med lägre gränser",
           "feedback": "Fel. Det har rapporterats att tillsynen över övertid lättats."
         }
       ]
@@ -284,23 +284,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Lyssna på människors egna beskrivningar och undvik att moralisera.",
+          "text": "Lyssna på människors egna beskrivningar och inte moralisera.",
           "correct": true,
           "feedback": "Rätt. Kapitlet rekommenderar att du lyssnar på människors egna beskrivningar och undviker att moralisera."
         },
         {
           "id": "b",
-          "text": "Döma snabbt",
+          "text": "Dra snabba slutsatser utifrån det första intrycket man får",
           "feedback": "Fel. Kapitlet råder dig att undvika förhastade slutsatser."
         },
         {
           "id": "c",
-          "text": "Anta att alla är lika",
+          "text": "Anta att alla japaner har samma slags arbetsliv och samma åsikter",
           "feedback": "Fel. Kapitlet betonar att arbetsliv skiljer sig mellan branscher, företag och generationer."
         },
         {
           "id": "d",
-          "text": "Aldrig jämföra",
+          "text": "Undvika alla jämförelser med arbetslivet i det egna landet",
           "feedback": "Fel. Kapitlet föreslår att du jämför med arbetslivet hemma."
         }
       ]

@@ -162,19 +162,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Som en japanskstyrd lydstat grundad efter ockupationen av Manchuriet.",
+          "text": "Som en japanskstyrd lydstat efter ockupationen av Manchuriet.",
           "correct": true,
           "feedback": "Rätt. Den var nominellt självständig men kontrollerades av Japan."
         },
         {
           "id": "b",
-          "text": "Som en självständig demokrati.",
+          "text": "Som en helt självständig demokrati utan någon japansk kontroll alls.",
           "correct": false,
           "feedback": "Fel. Den styrdes i praktiken av Japan."
         },
         {
           "id": "c",
-          "text": "Som ett kinesiskt landskap utan japansk närvaro.",
+          "text": "Som ett kinesiskt landskap där Japan inte hade någon närvaro.",
           "correct": false,
           "feedback": "Fel. Japan ockuperade området."
         }
@@ -189,13 +189,13 @@
       "options": [
         {
           "id": "a",
-          "text": "Erkänna att infrastruktur byggdes, men fråga vem den byggdes för, och vad koreaner själva upplevde.",
+          "text": "Erkänna att infrastruktur byggdes, men fråga för vem.",
           "correct": true,
           "feedback": "Bra. Att något byggdes säger inte hela sanningen om hur det var att leva under styret."
         },
         {
           "id": "b",
-          "text": "Hålla med, det är bara fakta.",
+          "text": "Hålla med om att kolonialtiden var bra, det är bara fakta.",
           "correct": false,
           "feedback": "Det är bara en del av bilden. Perspektivet saknar de människor som berördes."
         },
@@ -302,23 +302,23 @@
       "options": [
         {
           "id": "a",
-          "text": "För att länderna minns och tolkar händelserna olika, och frågor om ursäkter och skadestånd återkommer.",
+          "text": "För att länderna minns olika och ursäkter återkommer.",
           "correct": true,
           "feedback": "Rätt. Minnet och politiken är sammanflätade."
         },
         {
           "id": "b",
-          "text": "För att alla är överens om allt.",
+          "text": "För att alla länder är överens om vad som hände.",
           "feedback": "Fel. Det finns stora skillnader."
         },
         {
           "id": "c",
-          "text": "För att ingen skriver om historien.",
+          "text": "För att ingen i regionen längre skriver om sin egen historia.",
           "feedback": "Fel. Det skrivs mycket."
         },
         {
           "id": "d",
-          "text": "För att det inte hände något.",
+          "text": "För att det inte hände något allvarligt i regionen.",
           "feedback": "Fel. Kapitlet beskriver händelser som länderna minns och tolkar olika."
         }
       ]
@@ -329,23 +329,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Att se vad som är belagt, vad som är en förklaring och vad som är en åsikt.",
+          "text": "Att skilja belagt från förklaring och åsikt.",
           "correct": true,
           "feedback": "Rätt. Det hjälper dig läsa historiska texter kritiskt."
         },
         {
           "id": "b",
-          "text": "Att bara lita på den första källan.",
+          "text": "Att bara lita på den första källan man hittar.",
           "feedback": "Fel. Kapitlet säger att historiker försöker skilja på fakta, tolkning och värdering, inte lita på en enda källa."
         },
         {
           "id": "c",
-          "text": "Att aldrig tolka något.",
+          "text": "Att aldrig tolka något och bara räkna upp årtal och namn.",
           "feedback": "Fel. Historiker tolkar, men försöker skilja tolkning från fakta och värdering."
         },
         {
           "id": "d",
-          "text": "Att ta bort alla datum.",
+          "text": "Att ta bort alla datum och årtal ur texten.",
           "feedback": "Fel. Datum hör till fakta, som man skiljer från tolkning och värdering."
         }
       ]

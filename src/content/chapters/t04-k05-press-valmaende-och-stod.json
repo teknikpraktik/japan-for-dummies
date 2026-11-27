@@ -99,13 +99,13 @@
         },
         {
           "id": "b",
-          "text": "Hålla det för dig själv.",
+          "text": "Hålla det för dig själv och hoppas att det går över av sig självt.",
           "correct": false,
           "feedback": "Det är ofta svårare. Stöd finns."
         },
         {
           "id": "c",
-          "text": "Lämna gruppen utan att säga något.",
+          "text": "Lämna gruppen mitt på dagen utan att säga något till någon.",
           "correct": false,
           "feedback": "Det är riskabelt."
         }
@@ -119,19 +119,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Siffrorna beskriver grupper och kan påverkas av hur man registrerar.",
+          "text": "Siffrorna beskriver grupper och påverkas av hur man registrerar.",
           "correct": true,
           "feedback": "Rätt. Siffrorna beskriver en grupp, och ministeriet menar att en del av ökningen beror på hur skolorna registrerar."
         },
         {
           "id": "b",
-          "text": "De visar exakt hur varje elev mår.",
+          "text": "De visar exakt och säkert hur varje enskild elev i landet mår.",
           "correct": false,
           "feedback": "Fel. Kapitlet säger att siffrorna beskriver en grupp, inte enskilda personer."
         },
         {
           "id": "c",
-          "text": "De är oviktiga.",
+          "text": "De är oviktiga och säger ingenting om hur det är i skolorna i Japan.",
           "correct": false,
           "feedback": "Fel. Siffrorna är viktiga, men ska läsas som en beskrivning av en grupp."
         }
@@ -152,13 +152,13 @@
         },
         {
           "id": "b",
-          "text": "Säga att det är konstigt.",
+          "text": "Säga att det är konstigt och fråga varför hen gjorde så.",
           "correct": false,
           "feedback": "Det dömer."
         },
         {
           "id": "c",
-          "text": "Dra slutsatsen att alla i Japan har det så.",
+          "text": "Dra slutsatsen att alla ungdomar i Japan har det på samma sätt.",
           "correct": false,
           "feedback": "En generalisering."
         }
@@ -232,23 +232,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Skolorna blivit mer aktiva i att registrera.",
+          "text": "Skolorna har blivit mer aktiva i att registrera.",
           "correct": true,
           "feedback": "Rätt, delvis."
         },
         {
           "id": "b",
-          "text": "För att inga bryr sig.",
+          "text": "För att ingen på skolorna bryr sig längre.",
           "feedback": "Fel. Ministeriet menar att skolorna blivit mer aktiva i att upptäcka och registrera, inte att ingen bryr sig."
         },
         {
           "id": "c",
-          "text": "För att skolorna stängt.",
+          "text": "För att många skolor har stängt för gott.",
           "feedback": "Fel. Ministeriets förklaring är att skolorna registrerar mer aktivt, inte att de stängt."
         },
         {
           "id": "d",
-          "text": "Ingen vet något.",
+          "text": "Ingen vet något alls om vad som har orsakat ökningen.",
           "feedback": "Fel. Ministeriet ger en förklaring: skolorna har blivit mer aktiva i att registrera."
         }
       ]

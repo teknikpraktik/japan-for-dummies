@@ -85,19 +85,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Skolklubbar som träffas efter lektionerna.",
+          "text": "Klubbar vid skolan efter lektionerna.",
           "correct": true,
           "feedback": "Rätt. Bukatsu är klubbar vid skolan som träffas efter lektionerna."
         },
         {
           "id": "b",
-          "text": "En typ av tåg.",
+          "text": "En typ av tåg mellan stora städer.",
           "correct": false,
           "feedback": "Fel. Bukatsu är skolklubbar, inte ett tåg."
         },
         {
           "id": "c",
-          "text": "Ett prov.",
+          "text": "Ett prov som alla elever skriver i skolan.",
           "correct": false,
           "feedback": "Fel. Bukatsu är klubbar efter lektionerna, inte ett prov."
         }
@@ -117,13 +117,13 @@
         },
         {
           "id": "b",
-          "text": "En skidtävling.",
+          "text": "En vinterskidtävling för gymnasieelever i Hokkaido.",
           "correct": false,
           "feedback": "Fel. Koshien är en baseboll-turnering, inte en skidtävling."
         },
         {
           "id": "c",
-          "text": "Ett tempel.",
+          "text": "Ett buddhistiskt tempel i bergen nära Kyoto.",
           "correct": false,
           "feedback": "Fel. Koshien är baseboll-turneringar som hålls på ett stadion i Nishinomiya, inte ett tempel."
         }
@@ -138,19 +138,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Skolan är en viktig plattform, men det finns också föreningar. Mönstren skiljer sig mer i grad än i princip.",
+          "text": "Skolan är viktig, men det finns också föreningar. Skillnaden är en fråga om grad.",
           "correct": true,
           "feedback": "Rätt. Kapitlet säger att skillnaden är en fråga om tyngdpunkt: skolan är viktig i Japan, men det finns också föreningar."
         },
         {
           "id": "b",
-          "text": "Det stämmer helt.",
+          "text": "Det stämmer, i Japan sker all organiserad idrott i skolan och föreningar finns inte alls.",
           "correct": false,
           "feedback": "Förenkling."
         },
         {
           "id": "c",
-          "text": "Det finns ingen idrott alls.",
+          "text": "Det finns ingen organiserad idrott alls, varken i skolan eller på fritiden.",
           "correct": false,
           "feedback": "Fel. Kapitlet beskriver idrott som baseboll, fotboll och kampsporter i Japan."
         }
@@ -176,17 +176,17 @@
         },
         {
           "id": "b",
-          "text": "Läxor",
+          "text": "Läxor som ges efter lektionerna",
           "feedback": "Fel. Bukatsu är klubbar efter lektionerna, inte läxor."
         },
         {
           "id": "c",
-          "text": "Ett prov",
+          "text": "Ett prov i slutet av terminen",
           "feedback": "Fel. Bukatsu är klubbar, inte ett prov."
         },
         {
           "id": "d",
-          "text": "Skolmat",
+          "text": "Skolmat som serveras i skolans matsal",
           "feedback": "Fel. Bukatsu är klubbar, inte skolmat."
         }
       ]
@@ -197,23 +197,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Hanshin Koshien-stadion i Nishinomiya",
+          "text": "Koshien-stadion i Nishinomiya",
           "correct": true,
           "feedback": "Rätt. Koshien hålls på Hanshin Koshien-stadion i Nishinomiya."
         },
         {
           "id": "b",
-          "text": "Tokyo Dome",
+          "text": "Tokyo Dome i centrala Tokyo",
           "feedback": "Fel. Kapitlet anger Hanshin Koshien-stadion i Nishinomiya, inte Tokyo Dome."
         },
         {
           "id": "c",
-          "text": "Hiroshima",
+          "text": "Stadion i centrala Hiroshima",
           "feedback": "Fel. Kapitlet anger Nishinomiya som plats för Koshien, inte Hiroshima."
         },
         {
           "id": "d",
-          "text": "Sapporo",
+          "text": "Sapporo Dome i Sapporo på Hokkaido",
           "feedback": "Fel. Kapitlet anger Nishinomiya som plats för Koshien, inte Sapporo."
         }
       ]
@@ -224,23 +224,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Idrott och kultur",
+          "text": "Idrottsklubbar och kulturklubbar",
           "correct": true,
           "feedback": "Rätt. Kapitlet nämner både idrottsklubbar och kulturklubbar, som musik, teater och konst."
         },
         {
           "id": "b",
-          "text": "Bara idrott",
+          "text": "Bara klubbar för idrott och tävling",
           "feedback": "Fel. Det finns också kulturklubbar, till exempel musik, teater och konst."
         },
         {
           "id": "c",
-          "text": "Bara musik",
+          "text": "Bara musikklubbar, till exempel orkester",
           "feedback": "Fel. Musik är bara en av flera klubbtyper, vid sidan av idrott och andra kulturklubbar."
         },
         {
           "id": "d",
-          "text": "Inga",
+          "text": "Inga klubbar alls i japanska skolor",
           "feedback": "Fel. Klubbar finns, och i en undersökning deltog drygt 60 procent av gymnasieeleverna i någon."
         }
       ]
@@ -251,23 +251,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Judo eller kendo",
+          "text": "Judo eller kendo i skolan",
           "correct": true,
           "feedback": "Rätt. Judo och kendo är kampsporter som ingår i skolidrotten."
         },
         {
           "id": "b",
-          "text": "Golf",
+          "text": "Golf, som spelas på en gräsbana",
           "feedback": "Fel. Golf nämns inte som kampsport i kapitlet, men judo och kendo gör det."
         },
         {
           "id": "c",
-          "text": "Segling",
+          "text": "Segling med jollar i hamnen",
           "feedback": "Fel. Segling nämns inte som kampsport i kapitlet, men judo och kendo gör det."
         },
         {
           "id": "d",
-          "text": "Segelflyg",
+          "text": "Segelflyg över bergsområden",
           "feedback": "Fel. Segelflyg är ingen traditionell japansk kampsport."
         }
       ]
@@ -278,23 +278,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Skolan är en viktigare plattform i Japan, men det är inte svartvitt.",
+          "text": "Skolan är viktigare i Japan, men inte svartvitt.",
           "correct": true,
           "feedback": "Rätt. Skolan är en viktig plattform genom bukatsu, men Japan har också föreningar och Sverige har skolidrott."
         },
         {
           "id": "b",
-          "text": "Sverige har ingen idrott.",
+          "text": "Sverige har ingen idrott i skolor eller föreningar.",
           "feedback": "Fel. Idrott finns i Sverige, där den mest drivs i föreningar utanför skolan."
         },
         {
           "id": "c",
-          "text": "Japan har inga föreningar.",
+          "text": "Japan har inga föreningar alls, all idrott sker i skolan.",
           "feedback": "Fel. Kapitlet säger att Japan också har föreningar."
         },
         {
           "id": "d",
-          "text": "Ingen skillnad.",
+          "text": "Det är ingen skillnad alls mellan länderna.",
           "feedback": "Fel. Kapitlet beskriver en skillnad i tyngdpunkt, även om den inte är svartvit."
         }
       ]

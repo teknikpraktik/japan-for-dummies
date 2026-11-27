@@ -109,19 +109,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Byggnad enligt den äldre jordbävningsstandarden (före 1981).",
+          "text": "Byggnad byggd före 1981 enligt äldre jordbävningsregler.",
           "correct": true,
           "feedback": "Rätt. Kyu-taishin är den äldre standarden, och den nya standarden shin-taishin infördes med byggreglerna 1981."
         },
         {
           "id": "b",
-          "text": "Byggnad från 2020-talet.",
+          "text": "Nybyggd byggnad från 2020-talet med moderna material och glas.",
           "correct": false,
           "feedback": "Fel. Kyu-taishin betyder gammal standard och gäller äldre byggnader, inte nybyggen."
         },
         {
           "id": "c",
-          "text": "Ett slags trädgård.",
+          "text": "Ett slags japansk trädgård med stenar, sand och mossa.",
           "correct": false,
           "feedback": "Fel. Kyu-taishin gäller hur byggnader klarar jordbävningar och har inget med trädgårdar att göra."
         }
@@ -162,19 +162,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Staden är byggd i lager över tid, med olika regler och ägandeförhållanden.",
+          "text": "Staden är byggd i lager över tid, med olika regler och ägare.",
           "correct": true,
           "feedback": "Rätt. Stadsbilden är lager på lager från olika tider, vilket förklarar att en skyskrapa kan stå bredvid ett litet trähus."
         },
         {
           "id": "b",
-          "text": "Det är ett misstag.",
+          "text": "Det är ett misstag av stadsplanerarna som aldrig har rättats till.",
           "correct": false,
           "feedback": "Fel. Blandningen är ingen slump eller ett misstag utan ett resultat av att staden vuxit över tid."
         },
         {
           "id": "c",
-          "text": "Alla hus är lika gamla.",
+          "text": "Alla hus i området är lika gamla och byggdes samtidigt.",
           "correct": false,
           "feedback": "Fel. Kapitlet beskriver byggnader från många olika tider, från efterkrigstidens betongblock till nutidens glas och stål."
         }
@@ -221,23 +221,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Shin-taishin",
+          "text": "Shin-taishin (ny standard)",
           "correct": true,
           "feedback": "Rätt. Nyare byggnader kallas shin-taishin, ny standard."
         },
         {
           "id": "b",
-          "text": "Kyu-taishin",
+          "text": "Kyu-taishin (gammal standard)",
           "feedback": "Fel. Kyu-taishin är äldre byggnader enligt gammal standard."
         },
         {
           "id": "c",
-          "text": "Genkan",
+          "text": "Genkan (entrén vid dörren)",
           "feedback": "Fel. Genkan är inget byggnadsbegrepp av det här slaget i kapitlet, och nya byggnader kallas shin-taishin."
         },
         {
           "id": "d",
-          "text": "Torii",
+          "text": "Torii (en röd port vid en helgedom)",
           "feedback": "Fel. Nya byggnader kallas shin-taishin."
         }
       ]
@@ -254,17 +254,17 @@
         },
         {
           "id": "b",
-          "text": "De är för breda.",
+          "text": "De är så breda att för mycket trafik samlas där.",
           "feedback": "Fel. Problemet är att gatorna är smala, inte breda."
         },
         {
           "id": "c",
-          "text": "De finns inte.",
+          "text": "De finns inte i japanska städer alls.",
           "feedback": "Fel. Smala gator finns och är vanliga i städerna."
         },
         {
           "id": "d",
-          "text": "De är förbjudna.",
+          "text": "De är förbjudna enligt trafiklagen.",
           "feedback": "Fel. Smala gator är inte förbjudna, men de gör det svårt för stora fordon att ta sig fram."
         }
       ]

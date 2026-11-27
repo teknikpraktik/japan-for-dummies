@@ -72,19 +72,19 @@
       "options": [
         {
           "id": "a",
-          "text": "En närbutik som är öppen långa tider.",
+          "text": "En närbutik med långa öppettider.",
           "correct": true,
           "feedback": "Rätt. Närbutiken (konbini) är en plats för snacks och dryck på vägen hem."
         },
         {
           "id": "b",
-          "text": "En typ av skola.",
+          "text": "En typ av skola för vuxna elever.",
           "correct": false,
           "feedback": "Fel. Kapitlet beskriver konbini som en närbutik, inte en skola."
         },
         {
           "id": "c",
-          "text": "Ett tempel.",
+          "text": "Ett litet tempel för resenärer vid vägen.",
           "correct": false,
           "feedback": "Fel. Kapitlet beskriver konbini som en närbutik, inte ett tempel."
         }
@@ -125,19 +125,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Fritiden varierar mycket. Jag frågar jämnåriga vad de själva gör.",
+          "text": "Fritiden varierar. Jag frågar jämnåriga vad de gör.",
           "correct": true,
           "feedback": "Bra."
         },
         {
           "id": "b",
-          "text": "Det stämmer säkert.",
+          "text": "Det stämmer säkert, så är det i hela Japan.",
           "correct": false,
           "feedback": "En stereotyp."
         },
         {
           "id": "c",
-          "text": "De har ingen fritid alls.",
+          "text": "De har ingen fritid alls eftersom skolan tar all deras tid.",
           "correct": false,
           "feedback": "Fel. Kapitlet säger att fritiden varierar mycket och att det finns lika många vardagar som personer."
         }
@@ -271,17 +271,17 @@
         },
         {
           "id": "b",
-          "text": "Anta att alla är lika.",
+          "text": "Anta att alla jämnåriga i Japan lever likadant",
           "feedback": "Fel. Kapitlet varnar för förenklade bilder och säger att det finns lika många vardagar som personer."
         },
         {
           "id": "c",
-          "text": "Gissa deras åsikter.",
+          "text": "Gissa deras åsikter utan att fråga dem",
           "feedback": "Fel. Kapitlet föreslår att man frågar i stället för att gissa."
         },
         {
           "id": "d",
-          "text": "Aldrig fråga.",
+          "text": "Aldrig fråga, utan vänta på att de pratar",
           "feedback": "Fel. Kapitlet menar att fritid är ett bra samtalsämne och uppmuntrar att fråga."
         }
       ]

@@ -102,13 +102,13 @@
         },
         {
           "id": "b",
-          "text": "Att allt görs för hand.",
+          "text": "Att allt görs för hand av erfarna hantverkare.",
           "correct": false,
           "feedback": "Fel. Jidoka är automation där maskinen stoppar vid fel, inte arbete som görs helt för hand."
         },
         {
           "id": "c",
-          "text": "Att fabriken stänger.",
+          "text": "Att hela fabriken stänger på kvällen.",
           "correct": false,
           "feedback": "Fel. Jidoka handlar om att en maskin stoppar vid fel, inte om att fabriken stänger."
         }
@@ -187,17 +187,17 @@
         },
         {
           "id": "b",
-          "text": "Skeppsbyggnad",
+          "text": "Skeppsbyggnad och varvsverksamhet",
           "feedback": "Fel. Kapitlet beskriver Toyotas bakgrund i vävstolar, inte i skeppsbyggnad."
         },
         {
           "id": "c",
-          "text": "Gruvdrift",
+          "text": "Gruvdrift och malmbrytning",
           "feedback": "Fel. Kapitlet beskriver Toyotas bakgrund i vävstolar, inte i gruvdrift."
         },
         {
           "id": "d",
-          "text": "Fiske",
+          "text": "Fiske och fiskkonservering",
           "feedback": "Fel. Kapitlet beskriver Toyotas bakgrund i vävstolar, inte i fiske."
         }
       ]
@@ -235,23 +235,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Rätt del i rätt tid",
+          "text": "Rätt del i rätt tid, med små lager",
           "correct": true,
           "feedback": "Rätt. Just-in-time betyder rätt del i rätt tid, så att lager hålls små."
         },
         {
           "id": "b",
-          "text": "Alltid för tidigt",
+          "text": "Alltid för tidigt, med stora lager",
           "feedback": "Fel. Poängen är att delar kommer exakt när de behövs, inte för tidigt."
         },
         {
           "id": "c",
-          "text": "Ingen tid",
+          "text": "Ingen tid alls, med tomma lager hela tiden",
           "feedback": "Fel. Just-in-time betyder rätt del i rätt tid, inte att ingen tid används."
         },
         {
           "id": "d",
-          "text": "Bara på natten",
+          "text": "Bara på natten, med stora lager",
           "feedback": "Fel. Just-in-time har inget med natt att göra, utan handlar om rätt del i rätt tid."
         }
       ]

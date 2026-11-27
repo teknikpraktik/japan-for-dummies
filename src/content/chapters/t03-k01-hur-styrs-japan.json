@@ -136,19 +136,19 @@
       "options": [
         {
           "id": "a",
-          "text": "En symbol för staten med ceremoniella uppgifter men utan politisk makt.",
+          "text": "En symbol för staten med ceremoniella uppgifter, utan makt.",
           "correct": true,
           "feedback": "Rätt, enligt konstitutionen från 1947."
         },
         {
           "id": "b",
-          "text": "Han leder regeringen.",
+          "text": "Han leder regeringen och styr landets politik dagligen.",
           "correct": false,
           "feedback": "Fel. Det gör premiärministern."
         },
         {
           "id": "c",
-          "text": "Han är överbefälhavare med full makt.",
+          "text": "Han är överbefälhavare och har full politisk makt över hela landet",
           "correct": false,
           "feedback": "Fel. Han har ingen politisk makt."
         }
@@ -163,19 +163,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Kejsaren är en symbol. Japan har ett parlament, val och en premiärminister, ungefär som en konstitutionell monarki som Sverige.",
+          "text": "Kejsaren är en symbol. Japan har parlament, val och en premiärminister.",
           "correct": true,
           "feedback": "Rätt. Det är ett vanligt missförstånd som är lätt att reda ut."
         },
         {
           "id": "b",
-          "text": "Ja, det stämmer.",
+          "text": "Ja, det stämmer, ett land med kejsare kan inte vara demokratiskt.",
           "correct": false,
           "feedback": "Fel. Japan är en demokrati med val."
         },
         {
           "id": "c",
-          "text": "Man kan inte jämföra länderna alls.",
+          "text": "Man kan inte jämföra Japan med Sverige alls, eftersom länderna är för olika",
           "correct": false,
           "feedback": "Det går att jämföra, men man bör vara försiktig med detaljer."
         }
@@ -303,23 +303,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Båda är konstitutionella monarkier.",
+          "text": "Båda är konstitutionella monarkier i dag",
           "correct": true,
           "feedback": "Rätt. Statschefen har ceremoniella uppgifter."
         },
         {
           "id": "b",
-          "text": "Båda har en shogun.",
+          "text": "Båda leds av en shogun med militär makt",
           "feedback": "Fel. Japan har ingen shogun; kejsaren är en symbol för staten."
         },
         {
           "id": "c",
-          "text": "Båda har två parlamentskamrar.",
+          "text": "Båda har två kammare i sitt parlament",
           "feedback": "Fel. Sverige har en."
         },
         {
           "id": "d",
-          "text": "Båda har förbjudit val.",
+          "text": "Båda har förbjudit val och styrs av en diktator",
           "feedback": "Fel. Japan är en demokrati där man håller parlamentsval."
         }
       ]

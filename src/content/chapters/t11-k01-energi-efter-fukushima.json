@@ -157,19 +157,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Det stämmer inte: en del reaktorer har startat om, och frågan är omdiskuterad.",
+          "text": "Det stämmer inte, en del reaktorer har startat om.",
           "correct": true,
           "feedback": "Rätt. En del reaktorer har startat om efter nya säkerhetskontroller, och frågan är omdiskuterad."
         },
         {
           "id": "b",
-          "text": "Det stämmer.",
+          "text": "Det stämmer, all kärnkraft har lagts ned för gott.",
           "correct": false,
           "feedback": "Fel. En del reaktorer har startat om, så all kärnkraft är inte nedlagd."
         },
         {
           "id": "c",
-          "text": "Japan har aldrig haft kärnkraft.",
+          "text": "Japan har aldrig haft någon kärnkraft, varken förr eller nu.",
           "correct": false,
           "feedback": "Fel. Före 2011 stod kärnkraften för ungefär en tredjedel av elen."
         }
@@ -297,23 +297,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Använda aktuella källor.",
+          "text": "Använda aktuella källor för siffrorna.",
           "correct": true,
           "feedback": "Rätt. Energimixen ändras varje år, så kapitlet rekommenderar aktuella källor."
         },
         {
           "id": "b",
-          "text": "Gissa.",
+          "text": "Gissa utifrån hur det brukade vara.",
           "feedback": "Fel. Kapitlet säger att man ska använda aktuella källor i stället för att gissa."
         },
         {
           "id": "c",
-          "text": "Lita på gamla siffror.",
+          "text": "Lita på gamla siffror från äldre rapporter.",
           "feedback": "Fel. Kapitlet varnar för äldre siffror, inklusive kapitlets egna."
         },
         {
           "id": "d",
-          "text": "Ignorera dem.",
+          "text": "Ignorera siffrorna helt och hållet.",
           "feedback": "Fel. Kapitlet uppmanar till att använda aktuella källor, inte att ignorera siffror."
         }
       ]

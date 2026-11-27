@@ -102,19 +102,19 @@
       "options": [
         {
           "id": "a",
-          "text": "En växande andel äldre och en minskande andel unga och personer i arbetsför ålder.",
+          "text": "Fler äldre och färre unga och personer i arbetsför ålder.",
           "correct": true,
           "feedback": "Rätt. Ett åldrande samhälle innebär att andelen äldre ökar medan andelen unga och personer i arbetsför ålder minskar."
         },
         {
           "id": "b",
-          "text": "Att alla människor blir äldre samtidigt.",
+          "text": "Att alla människor i landet blir äldre i exakt samma takt",
           "correct": false,
           "feedback": "Fel. Det handlar om andelar i befolkningen."
         },
         {
           "id": "c",
-          "text": "Att barn inte längre går i skolan.",
+          "text": "Att barn inte längre går i skolan eftersom alla skolor har stängt",
           "correct": false,
           "feedback": "Fel. Ett åldrande samhälle handlar om befolkningens åldersfördelning, inte om skolgång."
         }

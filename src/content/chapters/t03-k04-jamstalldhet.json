@@ -139,19 +139,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Indexet visar skillnader i grupper. Det säger inget om varje människas liv, och det finns stor variation.",
+          "text": "Indexet visar gruppskillnader, inte varje människas liv.",
           "correct": true,
           "feedback": "Rätt. Statistik beskriver mönster, inte individer."
         },
         {
           "id": "b",
-          "text": "Ja, det stämmer.",
+          "text": "Ja, det stämmer, rankningen visar hur alla kvinnor i Japan har det.",
           "correct": false,
           "feedback": "En förenkling."
         },
         {
           "id": "c",
-          "text": "Nej, siffrorna betyder ingenting.",
+          "text": "Nej, siffrorna betyder ingenting och går inte att använda.",
           "correct": false,
           "feedback": "Siffrorna betyder något, men har begränsningar."
         }
@@ -231,17 +231,17 @@
         },
         {
           "id": "b",
-          "text": "Människors lycka",
+          "text": "Hur lyckliga människor är i landet",
           "feedback": "Fel. Indexet mäter skillnader, inte hur bra livet är."
         },
         {
           "id": "c",
-          "text": "Lönernas storlek",
+          "text": "Hur höga lönerna är i olika yrken",
           "feedback": "Fel. Indexet jämför kvinnors och mäns ställning och mäter inte löner i sig."
         },
         {
           "id": "d",
-          "text": "Antalet skolor",
+          "text": "Antalet skolor och universitet i landet",
           "feedback": "Fel. Indexet jämför kvinnors och mäns ställning inom ekonomi, utbildning, hälsa och politik."
         }
       ]
@@ -285,17 +285,17 @@
         },
         {
           "id": "b",
-          "text": "Lita blint på en siffra.",
+          "text": "Lita blint på en siffra i rankningen.",
           "feedback": "Fel. Siffror kan vara användbara men visar inte allt."
         },
         {
           "id": "c",
-          "text": "Ignorera all statistik.",
+          "text": "Ignorera all statistik och gå på magkänsla.",
           "feedback": "Fel. Statistik kan vara användbar, men den behöver läsas med eftertanke."
         },
         {
           "id": "d",
-          "text": "Döma snabbt.",
+          "text": "Döma länder snabbt utifrån deras plats på listan.",
           "feedback": "Fel. Kapitlet uppmanar dig att ställa frågor om siffrorna innan du drar slutsatser."
         }
       ]

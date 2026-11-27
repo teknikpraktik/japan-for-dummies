@@ -214,18 +214,18 @@
       "options": [
         {
           "id": "a",
-          "text": "Fråga hur kontakterna såg ut via Nagasaki och andra platser, och hur historiker ser på ordet ”stängt”.",
+          "text": "Fråga om kontakterna via Nagasaki och hur historiker ser på ordet ”stängt”.",
           "correct": true,
           "feedback": "Bra. Det finns forskning som visar att Japan hade begränsade men viktiga kontakter, och bilden av totalt stängt har nyanserats."
         },
         {
           "id": "b",
-          "text": "Avbryta och säga att guiden har fel.",
+          "text": "Avbryta guiden mitt i förklaringen och säga att guiden har fel i sak.",
           "feedback": "Det vore onödigt konfronterande. Guiden förenklar kanske av tidsskäl, och det finns en poäng i att Perry betydde mycket. Ställ hellre en fråga."
         },
         {
           "id": "c",
-          "text": "Skriva ned det som ett faktum, utan fråga.",
+          "text": "Skriva ned det som guiden säger som ett faktum, utan att ställa några följdfrågor.",
           "feedback": "Då missar du nyansen. Hela bilden är mer sammansatt än så."
         }
       ]
@@ -298,23 +298,23 @@
       "options": [
         {
           "id": "a",
-          "text": "En amerikansk flotta under Perry kom till Uraga.",
+          "text": "Perrys amerikanska flotta kom till Uraga.",
           "correct": true,
           "feedback": "Rätt. Det ledde till fördraget 1854."
         },
         {
           "id": "b",
-          "text": "Meijiperioden började.",
+          "text": "Meijiperioden inleddes med en ny kejsare.",
           "feedback": "Fel. Den började 1868."
         },
         {
           "id": "c",
-          "text": "Konstitutionen proklamerades.",
+          "text": "Den första konstitutionen proklamerades i landet.",
           "feedback": "Fel. Den kom 1889."
         },
         {
           "id": "d",
-          "text": "Tokyo blev huvudstad.",
+          "text": "Tokyo blev landets nya huvudstad.",
           "feedback": "Fel. Det skedde i samband med Meiji, 1868."
         }
       ]

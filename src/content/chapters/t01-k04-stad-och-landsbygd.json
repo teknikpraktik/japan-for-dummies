@@ -105,13 +105,13 @@
         },
         {
           "id": "b",
-          "text": "Ett gammalt tempel.",
+          "text": "Ett gammalt tempel högt uppe i bergen.",
           "correct": false,
           "feedback": "Fel. Det handlar om tomma bostäder, inte om tempel."
         },
         {
           "id": "c",
-          "text": "En typ av tåg.",
+          "text": "En typ av snabbtåg på landsbygden.",
           "correct": false,
           "feedback": "Fel. Akiya är bostäder som står tomma."
         }
@@ -126,19 +126,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Fråga dig själv om huset och trädgården är privata, fotografera bara från vägen om det är okej, och undvik att göra byn till ett exempel på förfall.",
+          "text": "Fotografera bara från vägen om det är okej och undvik att visa byn som ett exempel på förfall.",
           "correct": true,
           "feedback": "Rätt. Huset tillhör någon, och en by är mer än sina tomma hus. Visa hänsyn och fråga om du är osäker."
         },
         {
           "id": "b",
-          "text": "Gå in i trädgården för en bättre bild.",
+          "text": "Gå in i trädgården för att få en bättre bild av huset, och lägg gärna upp bilden med texten att byn är övergiven.",
           "correct": false,
           "feedback": "Fel. Det är privat mark, och det är inte tillåtet att gå in."
         },
         {
           "id": "c",
-          "text": "Skriva att hela landsbygden i Japan är tom.",
+          "text": "Skriva i ditt inlägg att hela landsbygden i Japan är tom och att människorna för länge sedan har lämnat den.",
           "correct": false,
           "feedback": "Fel. Det är en förenkling. Många platser fungerar väl."
         }
@@ -233,23 +233,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Tomma bostäder.",
+          "text": "Bostäder som står tomma.",
           "correct": true,
           "feedback": "Rätt. Cirka 9 miljoner bostäder stod tomma 2023."
         },
         {
           "id": "b",
-          "text": "En sorts mat.",
+          "text": "En sorts lokal risrätt",
           "feedback": "Fel. Det handlar om bostäder."
         },
         {
           "id": "c",
-          "text": "Ett tempel.",
+          "text": "Ett litet tempel i bergen",
           "feedback": "Fel. Det är tomma hus."
         },
         {
           "id": "d",
-          "text": "En tågstation.",
+          "text": "En nedlagd tågstation på landet",
           "feedback": "Fel. Det är tomma bostäder."
         }
       ]
@@ -260,23 +260,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Att det finns variation, och att man hellre frågar än generaliserar.",
+          "text": "Att det finns variation, så fråga hellre än generalisera.",
           "correct": true,
           "feedback": "Rätt. Verkligheten har många sidor."
         },
         {
           "id": "b",
-          "text": "Att alla byar är tomma.",
+          "text": "Att alla byar är tomma och att ingen bor kvar där.",
           "feedback": "Fel. Det är en förenkling."
         },
         {
           "id": "c",
-          "text": "Att alla byar är rika.",
+          "text": "Att alla byar är rika och har gott om unga familjer och jobb i närheten.",
           "feedback": "Fel. Det är också en förenkling."
         },
         {
           "id": "d",
-          "text": "Att det inte finns några byar.",
+          "text": "Att det inte finns några byar kvar, bara storstäder.",
           "feedback": "Fel. Det finns många."
         }
       ]
@@ -287,23 +287,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Visar hänsyn: går inte in och fotograferar bara om det är okej.",
+          "text": "Går inte in och fotograferar bara om det är okej.",
           "correct": true,
           "feedback": "Rätt. Huset är privat egendom."
         },
         {
           "id": "b",
-          "text": "Går in och tittar.",
+          "text": "Går in i trädgården för att titta närmare på huset inuti.",
           "feedback": "Fel. Det är privat mark."
         },
         {
           "id": "c",
-          "text": "Tar med dig något som minne.",
+          "text": "Tar med dig en sten från trädgården som minne.",
           "feedback": "Fel. Det är stöld."
         },
         {
           "id": "d",
-          "text": "Lämnar skräp i trädgården.",
+          "text": "Lämnar kvar ditt skräp i trädgården när du går.",
           "feedback": "Fel. Ta alltid med dig dina sopor."
         }
       ]

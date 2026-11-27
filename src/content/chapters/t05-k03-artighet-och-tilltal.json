@@ -135,19 +135,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Hajimemashite. Watashi wa [ditt namn] desu. Yoroshiku onegaishimasu.",
+          "text": "Hajimemashite. [Namn] desu. Yoroshiku onegaishimasu.",
           "correct": true,
           "feedback": "Bra. Det är en vänlig och artig inledning."
         },
         {
           "id": "b",
-          "text": "Hej Tanaka!",
+          "text": "Hej Tanaka, jag heter Emil och jag är din nya gäst.",
           "correct": false,
           "feedback": "Det är direkt. Lägg gärna till -san."
         },
         {
           "id": "c",
-          "text": "Jag är Emil-san.",
+          "text": "Hajimemashite. Watashi wa Emil-san desu. Yoroshiku onegaishimasu.",
           "correct": false,
           "feedback": "Man använder inte -san om sig själv."
         }
@@ -167,23 +167,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Efternamn först",
+          "text": "Efternamn först, sedan förnamn",
           "correct": true,
           "feedback": "Rätt. Tanaka Hiroshi är till exempel Hiroshi av familjen Tanaka."
         },
         {
           "id": "b",
-          "text": "Förnamn först",
+          "text": "Förnamn först och efternamnet efter",
           "feedback": "Fel. Japanska namn har oftast efternamnet först."
         },
         {
           "id": "c",
-          "text": "Slumpvis",
+          "text": "Slumpvis, beroende på person",
           "feedback": "Fel. Ordningen är inte slumpvis; efternamnet kommer oftast först."
         },
         {
           "id": "d",
-          "text": "Bara initialer",
+          "text": "Enbart initialer som i väst",
           "feedback": "Fel. Namn består av efternamn och förnamn, med efternamnet först."
         }
       ]
@@ -221,23 +221,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Trevligt att träffas",
+          "text": "Trevligt att träffas första gången",
           "correct": true,
           "feedback": "Rätt. Hajimemashite används vid ett första möte och betyder trevligt att träffas."
         },
         {
           "id": "b",
-          "text": "Hej då",
+          "text": "Hej då och tack för besöket här",
           "feedback": "Fel. Hajimemashite används vid ett första möte, inte som avsked."
         },
         {
           "id": "c",
-          "text": "Tack",
+          "text": "Tack så mycket för all er hjälp",
           "feedback": "Fel. Tack heter arigatō gozaimasu; hajimemashite betyder trevligt att träffas."
         },
         {
           "id": "d",
-          "text": "Ursäkta",
+          "text": "Ursäkta mig, får jag komma förbi er här",
           "feedback": "Fel. Ursäkta heter sumimasen; hajimemashite betyder trevligt att träffas."
         }
       ]
@@ -248,23 +248,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Det vanliga artiga språket med -masu och desu",
+          "text": "Artigt standardspråk med -masu och desu",
           "correct": true,
           "feedback": "Rätt. Teineigo är det vänliga, vanliga artiga språket som ofta slutar på -masu eller desu."
         },
         {
           "id": "b",
-          "text": "Slang",
+          "text": "Slang som unga använder med vänner",
           "feedback": "Fel. Teineigo är det artiga språket, inte slang."
         },
         {
           "id": "c",
-          "text": "Ett tecken",
+          "text": "Ett skrivtecken i japansk text och bok",
           "feedback": "Fel. Teineigo är en artighetsnivå i språket, inte ett tecken."
         },
         {
           "id": "d",
-          "text": "En maträtt",
+          "text": "En traditionell maträtt med ris och sojasås",
           "feedback": "Fel. Teineigo är det artiga språket, inte en maträtt."
         }
       ]

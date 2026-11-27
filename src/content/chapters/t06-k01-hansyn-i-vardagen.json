@@ -314,18 +314,18 @@
       "options": [
         {
           "id": "a",
-          "text": "Observera andra, följ skyltar och fråga artigt.",
+          "text": "Observera andra, följ skyltar och fråga.",
           "correct": true,
           "feedback": "Rätt. Det fungerar nästan alltid."
         },
         {
           "id": "b",
-          "text": "Göra som hemma.",
+          "text": "Göra precis som hemma och hoppas att det går bra.",
           "feedback": "Det kan fungera, men reglerna skiljer sig åt."
         },
         {
           "id": "c",
-          "text": "Anta att det aldrig finns regler.",
+          "text": "Anta att det aldrig finns några regler alls",
           "feedback": "Fel. Det finns ofta oskrivna regler."
         },
         {

@@ -166,25 +166,25 @@
       "options": [
         {
           "id": "a",
-          "text": "Att Japan avstår från krig som medel att lösa konflikter.",
+          "text": "Att Japan avstår från krig för att lösa konflikter.",
           "correct": true,
           "feedback": "Rätt. Hur artikeln ska tolkas debatteras fortfarande."
         },
         {
           "id": "b",
-          "text": "Att kejsaren styr landet.",
+          "text": "Att kejsaren styr landet tillsammans med shogunen.",
           "correct": false,
           "feedback": "Fel. Kejsaren är en symbol."
         },
         {
           "id": "c",
-          "text": "Att alla måste vara med i armén.",
+          "text": "Att alla vuxna måste göra värnplikt i armén.",
           "correct": false,
           "feedback": "Fel. Artikel 9 handlar om att Japan avstår från krig som medel att lösa konflikter."
         },
         {
           "id": "d",
-          "text": "Att Japan ska ockupera grannländer.",
+          "text": "Att Japan ska upprusta för att ockupera grannländer igen.",
           "correct": false,
           "feedback": "Fel. Artikel 9 säger tvärtom att Japan avstår från krig som medel att lösa konflikter."
         }
@@ -199,19 +199,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Det passar med högkonjunkturens år och stagnationen efter 1990-talets krasch, men upplevelserna varierar mellan människor.",
+          "text": "Det passar högkonjunkturen och stagnationen efter 1990, men livet varierar.",
           "correct": true,
           "feedback": "Bra. Du kopplar personen till historien utan att generalisera."
         },
         {
           "id": "b",
-          "text": "Då har alla japaner samma erfarenhet.",
+          "text": "Då har alla japaner levt med exakt samma ekonomiska villkor.",
           "correct": false,
           "feedback": "Fel. Upplevelserna varierade stort."
         },
         {
           "id": "c",
-          "text": "Det kan inte stämma, ekonomin växte alltid.",
+          "text": "Det kan inte stämma, eftersom ekonomin växte stadigt hela tiden fram till i dag.",
           "correct": false,
           "feedback": "Fel. Efter omkring 1990 var tillväxten låg."
         }
@@ -231,23 +231,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Douglas MacArthur",
+          "text": "General Douglas MacArthur",
           "correct": true,
           "feedback": "Rätt. Han var högste befälhavare för de allierade styrkorna."
         },
         {
           "id": "b",
-          "text": "Tokugawa Ieyasu",
+          "text": "Shogun Tokugawa Ieyasu",
           "feedback": "Fel. Han levde på 1600-talet."
         },
         {
           "id": "c",
-          "text": "Perry",
+          "text": "Kommodor Matthew Perry",
           "feedback": "Fel. Han kom 1853."
         },
         {
           "id": "d",
-          "text": "Oda Nobunaga",
+          "text": "Japans krigsherre Oda Nobunaga",
           "feedback": "Fel. Ockupationen leddes av general Douglas MacArthur."
         }
       ]
@@ -285,23 +285,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Olympiska spelen i Tokyo och första shinkansen",
+          "text": "Olympiska spelen och första shinkansen",
           "correct": true,
           "feedback": "Rätt. Olympiska spelen i Tokyo och den första shinkansenlinjen blev symboler för det nya Japan."
         },
         {
           "id": "b",
-          "text": "Perrys ankomst",
+          "text": "Perrys ankomst och Meijis reformer",
           "feedback": "Fel. Perrys ankomst tillhör en tidigare period och kapitlet kopplar inte den till 1964."
         },
         {
           "id": "c",
-          "text": "Meijirestaurationen",
+          "text": "Meijirestaurationen och första tåget",
           "feedback": "Fel. Meijirestaurationen tillhör en tidigare period och kapitlet kopplar inte den till 1964."
         },
         {
           "id": "d",
-          "text": "Slaget vid Midway",
+          "text": "Slaget vid Midway och Japans kapitulation 1945",
           "feedback": "Fel. Kapitlet nämner olympiska spelen och shinkansen som symboler för 1964."
         }
       ]
@@ -312,23 +312,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Han blev en symbol för staten utan politisk makt.",
+          "text": "Han blev en symbol utan politisk makt.",
           "correct": true,
           "feedback": "Rätt. Efter 1947 blev kejsaren en symbol för staten utan politisk makt."
         },
         {
           "id": "b",
-          "text": "Han blev shogun.",
+          "text": "Han blev shogun och ledde regeringen.",
           "feedback": "Fel. Kejsaren blev en symbol för staten, inte shogun."
         },
         {
           "id": "c",
-          "text": "Han styrde armén.",
+          "text": "Han blev överbefälhavare över armén.",
           "feedback": "Fel. Kejsaren blev en symbol för staten utan politisk makt."
         },
         {
           "id": "d",
-          "text": "Han avskaffades.",
+          "text": "Han avsattes och kejsarämbetet avskaffades helt.",
           "feedback": "Fel. Kejsarämbetet finns kvar."
         }
       ]
@@ -339,23 +339,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Låg tillväxt efter bubblans brist omkring 1990.",
+          "text": "Låg tillväxt efter bubblan omkring 1990.",
           "correct": true,
           "feedback": "Rätt. Uttrycket är dock omdiskuterat."
         },
         {
           "id": "b",
-          "text": "En period av krig",
+          "text": "En period av krig och politisk oro",
           "feedback": "Fel. De förlorade decennierna syftar på låg tillväxt efter bubblan, inte på krig."
         },
         {
           "id": "c",
-          "text": "En period av snabb tillväxt",
+          "text": "En period av snabb tillväxt och rekordstark export",
           "feedback": "Fel. De förlorade decennierna syftar på låg tillväxt, inte snabb tillväxt."
         },
         {
           "id": "d",
-          "text": "Ockupationstiden",
+          "text": "Ockupationstiden efter andra världskriget",
           "feedback": "Fel. De förlorade decennierna syftar på tiden efter bubblan omkring 1990, inte ockupationen."
         }
       ]

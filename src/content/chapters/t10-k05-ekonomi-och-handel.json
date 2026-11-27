@@ -205,23 +205,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Bilar, maskiner och elektronik",
+          "text": "Bilar, maskiner, elektronik och stål",
           "correct": true,
           "feedback": "Rätt. Japan är en stor exportör av bilar, maskiner, elektronik och material."
         },
         {
           "id": "b",
-          "text": "Bara ris",
+          "text": "Bara ris, sake och andra livsmedel",
           "feedback": "Fel. Japan exporterar bland annat bilar, maskiner och elektronik, inte bara ris."
         },
         {
           "id": "c",
-          "text": "Bara te",
+          "text": "Bara grönt te, matcha och andra teprodukter",
           "feedback": "Fel. Japan exporterar bland annat bilar, maskiner och elektronik, inte bara te."
         },
         {
           "id": "d",
-          "text": "Ingenting",
+          "text": "Ingenting, allt stannar i hemlandet",
           "feedback": "Fel. Japan är en stor exportör av bland annat bilar, maskiner och elektronik."
         }
       ]
@@ -232,23 +232,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Den ändras och påverkar din kostnad.",
+          "text": "Den ändras och påverkar vad resan kostar.",
           "correct": true,
           "feedback": "Rätt. Kursen ändras hela tiden och påverkar vad resan kostar dig."
         },
         {
           "id": "b",
-          "text": "Den är alltid densamma.",
+          "text": "Den är alltid densamma från år till år.",
           "feedback": "Fel. Växelkursen ändras hela tiden."
         },
         {
           "id": "c",
-          "text": "Den är hemlig.",
+          "text": "Den är hemlig och går inte att få veta.",
           "feedback": "Fel. Kursen går att kontrollera inför resan, och det rekommenderar kapitlet."
         },
         {
           "id": "d",
-          "text": "Den spelar ingen roll.",
+          "text": "Den spelar ingen roll för vad resan kostar dig.",
           "feedback": "Fel. Kursen påverkar din kostnad i kronor."
         }
       ]

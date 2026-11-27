@@ -150,19 +150,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Respekterar regeln: frågar om det finns ett alternativ, till exempel ett privat bad, eller väljer en annan plats.",
+          "text": "Respekterar regeln och frågar efter ett privat bad eller en annan plats.",
           "correct": true,
           "feedback": "Rätt. Regeln gäller på platsen. Det går att fråga efter alternativ."
         },
         {
           "id": "b",
-          "text": "Döljer tatueringen och går in ändå.",
+          "text": "Döljer tatueringen med ett plåster och går in ändå utan att fråga.",
           "correct": false,
           "feedback": "Fel. Det är att kringgå en regel, och kan skapa problem för dig och platsen."
         },
         {
           "id": "c",
-          "text": "Argumenterar med personalen tills de ger efter.",
+          "text": "Argumenterar med personalen vid entrén tills de till slut ger efter för mig.",
           "correct": false,
           "feedback": "Fel. Regeln är platsens, och det är oartigt att argumentera."
         }
@@ -176,19 +176,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Ett skyddat område där det också kan finnas byar, jordbruk och värdshus, med regler om vad som får göras.",
+          "text": "Ett skyddat område med byar, jordbruk, värdshus och regler för användning.",
           "correct": true,
           "feedback": "Rätt. Skyddet bygger på regler och zoner, inte på att området är folktomt."
         },
         {
           "id": "b",
-          "text": "Ett stängt område där inga människor får vara.",
+          "text": "Ett helt stängt område där varken besökare eller boende över huvud taget får vara.",
           "correct": false,
           "feedback": "Fel. Många nationalparker har både besökare och bofasta."
         },
         {
           "id": "c",
-          "text": "Ett område utan några regler.",
+          "text": "Ett öppet område utan några regler för vad man får bygga eller göra.",
           "correct": false,
           "feedback": "Fel. Det finns regler för vad som får byggas och göras."
         }
@@ -235,23 +235,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Både natur och byar, jordbruk och värdshus.",
+          "text": "Natur, byar, jordbruk och värdshus.",
           "correct": true,
           "feedback": "Rätt. Skyddet bygger på regler, inte på att området är tomt."
         },
         {
           "id": "b",
-          "text": "Bara ödemark.",
+          "text": "Bara orörd ödemark utan några byar.",
           "feedback": "Fel. Det finns ofta bebyggelse."
         },
         {
           "id": "c",
-          "text": "Bara stora städer.",
+          "text": "Bara stora städer med skyskrapor och tåg.",
           "feedback": "Fel. Det är skyddade områden."
         },
         {
           "id": "d",
-          "text": "Bara havet.",
+          "text": "Bara havet och öar utanför kusten.",
           "feedback": "Fel. Parkerna omfattar oftast land och ibland även hav."
         }
       ]
@@ -262,18 +262,18 @@
       "options": [
         {
           "id": "a",
-          "text": "Tvättar mig noga innan jag går i badet.",
+          "text": "Tvättar mig noga innan jag badar.",
           "correct": true,
           "feedback": "Rätt. Badet delas med andra."
         },
         {
           "id": "b",
-          "text": "Hoppar rakt ut i badet.",
+          "text": "Hoppar rakt ut i det varma badet.",
           "feedback": "Fel. Tvätta dig först."
         },
         {
           "id": "c",
-          "text": "Simmar en sväng.",
+          "text": "Simmar några längder i det stora badet.",
           "feedback": "Fel. Man simmar inte i onsen."
         },
         {
@@ -289,23 +289,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Backa lugnt, gå inte närmare och följ lokala anvisningar.",
+          "text": "Backa lugnt och följ lokala anvisningar.",
           "correct": true,
           "feedback": "Rätt. Håll avstånd och gå inte mot djuret."
         },
         {
           "id": "b",
-          "text": "Gå närmare för en bättre bild.",
+          "text": "Gå närmare för att ta en bättre bild.",
           "feedback": "Fel. Det är farligt."
         },
         {
           "id": "c",
-          "text": "Mata den.",
+          "text": "Mata den med frukt och mat ur ryggsäcken.",
           "feedback": "Fel. Det är farligt och förbjudet."
         },
         {
           "id": "d",
-          "text": "Springa rakt mot den.",
+          "text": "Springa rakt mot den för att skrämma bort den.",
           "feedback": "Fel. Det är farligt."
         }
       ]

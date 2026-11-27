@@ -90,13 +90,13 @@
         },
         {
           "id": "b",
-          "text": "En typ av tatuering.",
+          "text": "En typ av tatuering på armen eller ryggen.",
           "correct": false,
           "feedback": "Fel. Genkan är en entré, inte en tatuering."
         },
         {
           "id": "c",
-          "text": "Ett bad.",
+          "text": "Ett bad där man tvättar sig före.",
           "correct": false,
           "feedback": "Fel. Genkan är en entré, inte ett bad."
         }
@@ -116,13 +116,13 @@
         },
         {
           "id": "b",
-          "text": "Man ska ha skor på.",
+          "text": "Man ska behålla skorna på.",
           "correct": false,
           "feedback": "Fel. Skorna tas av vid genkan, och tofflorna tas av före tatamin."
         },
         {
           "id": "c",
-          "text": "Man ska ha två par tofflor.",
+          "text": "Man ska ha på sig två par tofflor.",
           "correct": false,
           "feedback": "Fel. Tofflorna tas av före tatamin, och man går i strumpor eller barfota."
         }
@@ -137,19 +137,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Respektera regeln, fråga personalen om det finns alternativ eller välj ett annat ställe.",
+          "text": "Respektera regeln och fråga personalen om alternativ.",
           "correct": true,
           "feedback": "Bra. Regeln bestäms av anläggningen."
         },
         {
           "id": "b",
-          "text": "Täcka den och gå in ändå utan att fråga.",
+          "text": "Täcka över tatueringen och gå in utan att fråga.",
           "correct": false,
           "feedback": "Fråga hellre först."
         },
         {
           "id": "c",
-          "text": "Argumentera med personalen.",
+          "text": "Argumentera med personalen tills de ändrar sin regel för dig",
           "correct": false,
           "feedback": "Respektera deras regel."
         }
@@ -196,23 +196,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Tvättar sig noga vid duschplatsen.",
+          "text": "Tvättar sig noga vid duschen.",
           "correct": true,
           "feedback": "Rätt. Man tvättar sig noga vid duschplatserna före badet."
         },
         {
           "id": "b",
-          "text": "Simmar",
+          "text": "Simmar några längder i badet",
           "feedback": "Fel. Man simmar inte i badet, utan sitter i bassängen."
         },
         {
           "id": "c",
-          "text": "Fotograferar",
+          "text": "Fotograferar badet och andra gäster",
           "feedback": "Fel. Fotografering är något man ska undvika i badet."
         },
         {
           "id": "d",
-          "text": "Tar med skorna",
+          "text": "Tar med skorna in i badrummet",
           "feedback": "Fel. Skorna tas av vid entrén, och före badet tvättar man sig."
         }
       ]
@@ -223,23 +223,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Varje anläggning bestämmer, och många tillåter dem inte.",
+          "text": "Anläggningen bestämmer, och många säger nej.",
           "correct": true,
           "feedback": "Rätt. Det finns ingen nationell regel, och varje anläggning bestämmer själv."
         },
         {
           "id": "b",
-          "text": "De är alltid tillåtna.",
+          "text": "De är alltid tillåtna, om man duschar först.",
           "feedback": "Fel. Drygt hälften av hotellen och värdshusen i en undersökning släppte inte in tatuerade i allmänna badutrymmen."
         },
         {
           "id": "c",
-          "text": "De är förbjudna i hela Japan.",
+          "text": "De är förbjudna i alla bad i hela Japan enligt lag.",
           "feedback": "Fel. Det finns ingen nationell regel."
         },
         {
           "id": "d",
-          "text": "Man måste skriva sitt namn.",
+          "text": "Man måste anmäla tatueringen i förväg.",
           "feedback": "Fel. Kapitlet nämner inget sådant krav, utan att varje anläggning bestämmer."
         }
       ]
@@ -250,23 +250,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Tofflor som man byter till vid toaletten.",
+          "text": "Tofflor som byts till vid toaletten.",
           "correct": true,
           "feedback": "Rätt. Toalettofflor är särskilda tofflor man byter till vid toalettdörren."
         },
         {
           "id": "b",
-          "text": "Tofflor för bad.",
+          "text": "Tofflor som man använder i badet och duschen.",
           "feedback": "Fel. Toalettofflor används vid toaletten, inte vid bad."
         },
         {
           "id": "c",
-          "text": "Skor för tempel.",
+          "text": "Skor som man bär när man besöker tempel.",
           "feedback": "Fel. Toalettofflor används vid toaletten, inte som skor för tempel."
         },
         {
           "id": "d",
-          "text": "En maträtt.",
+          "text": "En maträtt som serveras på restauranger.",
           "feedback": "Fel. Toalettofflor är tofflor, inte en maträtt."
         }
       ]

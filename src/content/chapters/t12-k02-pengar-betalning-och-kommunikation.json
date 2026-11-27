@@ -73,19 +73,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Många små ställen tar bara kontanter.",
+          "text": "Många små ställen tar bara kontanter, inte kort.",
           "correct": true,
           "feedback": "Rätt. Många små restauranger, tempel och butiker tar bara kontanter, medan stora ställen oftast tar kort."
         },
         {
           "id": "b",
-          "text": "Kort är förbjudna.",
+          "text": "Kort är förbjudna i alla japanska butiker och hotell.",
           "correct": false,
           "feedback": "Fel. Kort tas på stora hotell, varuhus och kedjor; kapitlet rekommenderar att kombinera sätten att betala."
         },
         {
           "id": "c",
-          "text": "Kontanter är förbjudna.",
+          "text": "Kontanter är förbjudna på stora hotell, varuhus och kedjor.",
           "correct": false,
           "feedback": "Fel. Kontanter är inte förbjudna; många ställen tar bara kontanter."
         }
@@ -239,23 +239,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Data men inte samtal",
+          "text": "Data för surf men inte samtal",
           "correct": true,
           "feedback": "Rätt. En mobil router ger bara data, så för samtal behöver du en mobil med röstfunktion."
         },
         {
           "id": "b",
-          "text": "Samtal och data",
+          "text": "Både samtal och data med eget nummer",
           "feedback": "Fel. En mobil router ger bara data, inte samtal."
         },
         {
           "id": "c",
-          "text": "Inget",
+          "text": "Inget, den är bara en laddare",
           "feedback": "Fel. En mobil router ger data, men inte samtal."
         },
         {
           "id": "d",
-          "text": "Bara kartor",
+          "text": "Enbart kartor och vägbeskrivning",
           "feedback": "Fel. Routern ger data som kan användas till mer än kartor, men inte samtal."
         }
       ]

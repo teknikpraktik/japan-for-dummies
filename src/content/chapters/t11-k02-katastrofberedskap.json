@@ -97,19 +97,19 @@
       "options": [
         {
           "id": "a",
-          "text": "En app med varningar på flera språk, till exempel Safety tips.",
+          "text": "En varningsapp på flera språk, som Safety tips.",
           "correct": true,
           "feedback": "Rätt. Appen Safety tips ger varningar om jordbävning, tsunami och väder på flera språk."
         },
         {
           "id": "b",
-          "text": "En spelapp.",
+          "text": "En spelapp med pussel och nivåer att fördriva tiden.",
           "correct": false,
           "feedback": "Fel. En spelapp ger ingen säkerhetsinformation, till skillnad från en varningsapp som Safety tips."
         },
         {
           "id": "c",
-          "text": "Ingen.",
+          "text": "Ingen app finns som hjälper besökare på resan.",
           "correct": false,
           "feedback": "Fel. Kapitlet föreslår att du laddar ned en app med flerspråkiga varningar."
         }
@@ -124,19 +124,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Tar reda på utgångar och samlingsplats och frågar personalen.",
+          "text": "Kollar utgångar och samlingsplats och frågar personalen.",
           "correct": true,
           "feedback": "Rätt. Kapitlet råder dig att ta reda på närmaste utgång och samlingsplats och fråga personalen."
         },
         {
           "id": "b",
-          "text": "Strunta i det.",
+          "text": "Struntar i det och går direkt upp till rummet för att vila sig.",
           "correct": false,
           "feedback": "Fel. Kapitlet råder dig att lära dig utgångar och samlingsplats på hotellet."
         },
         {
           "id": "c",
-          "text": "Går upp på hotellets tak för att titta ut.",
+          "text": "Går upp på hotellets tak för att titta ut över staden.",
           "correct": false,
           "feedback": "Fel. Gå till utgångarna och samlingsplatsen i stället."
         }
@@ -162,17 +162,17 @@
         },
         {
           "id": "b",
-          "text": "En maträtt",
+          "text": "En traditionell maträtt med ris",
           "feedback": "Fel. J-Alert är ett varningssystem, inte en maträtt."
         },
         {
           "id": "c",
-          "text": "Ett tåg",
+          "text": "Ett höghastighetståg mellan storstäder",
           "feedback": "Fel. J-Alert är ett varningssystem, inte ett tåg."
         },
         {
           "id": "d",
-          "text": "En skola",
+          "text": "En privat skola för yngre barn",
           "feedback": "Fel. J-Alert är ett varningssystem, inte en skola."
         }
       ]
@@ -183,23 +183,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Går genast till högre mark.",
+          "text": "Går genast upp till högre mark.",
           "correct": true,
           "feedback": "Rätt. Vid tsunamivarning ska du genast gå till högre mark eller en tsunamievakueringsbyggnad."
         },
         {
           "id": "b",
-          "text": "Väntar på stranden.",
+          "text": "Väntar kvar på stranden en stund.",
           "feedback": "Fel. Du ska inte vänta utan genast gå till högre mark."
         },
         {
           "id": "c",
-          "text": "Går till havet.",
+          "text": "Går ner till havet för att se vågorna.",
           "feedback": "Fel. Du ska gå bort från havet och upp till högre mark."
         },
         {
           "id": "d",
-          "text": "Ringer ingen.",
+          "text": "Stannar kvar och ringer ingen.",
           "feedback": "Fel. Du ska gå till högre mark och följa lokala instruktioner, och vid akut fara ringa 110 eller 119."
         }
       ]
@@ -237,24 +237,24 @@
       "options": [
         {
           "id": "a",
-          "text": "Jordbävningens intensitet på en plats (0–7)",
+          "text": "Jordbävningens intensitet (0–7)",
           "correct": true,
           "feedback": "Rätt. Shindo är skalan 0 till 7 för jordbävningens intensitet."
         },
         {
           "id": "b",
-          "text": "Vattennivå",
-          "feedback": "Fel. Shindo mäter jordbävningens intensitet, inte vattennivå."
+          "text": "Vattennivån i havet vid kusten",
+          "feedback": "Fel. Shindo mäter jordbävningens intensitet, inte vattennivån."
         },
         {
           "id": "c",
-          "text": "Temperatur",
-          "feedback": "Fel. Shindo mäter jordbävningens intensitet, inte temperatur."
+          "text": "Temperaturen i luft och mark",
+          "feedback": "Fel. Shindo mäter jordbävningens intensitet, inte temperaturen."
         },
         {
           "id": "d",
-          "text": "Vindhastighet",
-          "feedback": "Fel. Shindo mäter jordbävningens intensitet, inte vindhastighet."
+          "text": "Vindhastigheten och vindens riktning",
+          "feedback": "Fel. Shindo mäter jordbävningens intensitet, inte vindhastigheten."
         }
       ]
     },
