@@ -126,13 +126,13 @@
         },
         {
           "id": "b",
-          "text": "Ignorera försäkringen.",
+          "text": "Vänta med försäkringsbolaget tills hela resan är över.",
           "correct": false,
           "feedback": "Fel. Försäkringsbolaget ska kontaktas så snart det är möjligt."
         },
         {
           "id": "c",
-          "text": "Kasta kvitton.",
+          "text": "Kasta kvittona när man lämnat sjukhuset igen.",
           "correct": false,
           "feedback": "Fel. Kvitton ska sparas, eftersom patienter ofta betalar på plats och söker ersättning efteråt."
         }
@@ -206,23 +206,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Pass, försäkringsuppgifter och en lista över läkemedel och allergier",
+          "text": "Pass, försäkringsuppgifter samt läkemedels- och allergilista",
           "correct": true,
           "feedback": "Rätt. Kapitlet säger att du ska ta med pass, försäkringsuppgifter och en lista över läkemedel och allergier."
         },
         {
           "id": "b",
-          "text": "Ingenting",
+          "text": "Ingenting särskilt, eftersom sjukhuset alltid ordnar allt som behövs",
           "feedback": "Fel. Du behöver ha pass, försäkringsuppgifter och en lista över läkemedel och allergier med dig."
         },
         {
           "id": "c",
-          "text": "Bara en karta",
+          "text": "Bara en karta över närmaste sjukhus, apotek och tågstationer",
           "feedback": "Fel. En karta räcker inte, utan du behöver pass, försäkringsuppgifter och en lista över läkemedel och allergier."
         },
         {
           "id": "d",
-          "text": "Bara en bok",
+          "text": "Bara en bok att läsa medan man väntar på sin tur hos läkaren",
           "feedback": "Fel. En bok hjälper inte vid sjukdom, utan du behöver pass, försäkringsuppgifter och en lista över läkemedel och allergier."
         }
       ]
@@ -239,17 +239,17 @@
         },
         {
           "id": "b",
-          "text": "Strunta i dem",
+          "text": "Strunta i dem och fråga någon om något händer",
           "feedback": "Fel. Nödnumren ska sparas innan resan, i telefonen och på papper."
         },
         {
           "id": "c",
-          "text": "Lita på ett rykte",
+          "text": "Lita på ett rykte som man hört av andra resenärer",
           "feedback": "Fel. Nödnumren ska sparas efter kontroll, inte hämtas från rykten."
         },
         {
           "id": "d",
-          "text": "Sudda dem",
+          "text": "Skriva dem på en lapp som lämnas hemma",
           "feedback": "Fel. Nödnumren ska sparas i telefonen och på papper."
         }
       ]
@@ -260,23 +260,23 @@
       "options": [
         {
           "id": "a",
-          "text": "En mobil med röstsamtal",
+          "text": "En mobil med röstsamtal i Japan",
           "correct": true,
           "feedback": "Rätt. Du behöver en mobil med röstsamtal för att kunna ringa."
         },
         {
           "id": "b",
-          "text": "Bara Wi-Fi-router",
+          "text": "Bara en Wi-Fi-router utan telefon",
           "feedback": "Fel. För att ringa behöver du en mobil med röstsamtal."
         },
         {
           "id": "c",
-          "text": "Ingenting",
+          "text": "Ett mobilabonnemang med enbart data",
           "feedback": "Fel. Du behöver en mobil med röstsamtal för att kunna ringa."
         },
         {
           "id": "d",
-          "text": "En bok",
+          "text": "En bok med japanska fraser och nödnummer",
           "feedback": "Fel. Du behöver en mobil med röstsamtal för att kunna ringa."
         }
       ]
@@ -287,23 +287,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Pratar med en ansvarig vuxen",
+          "text": "Pratar med en ansvarig vuxen i gruppen",
           "correct": true,
           "feedback": "Rätt. Berätta tidigt om du mår dåligt och prata med en ansvarig vuxen i gruppen."
         },
         {
           "id": "b",
-          "text": "Håller det för dig själv",
+          "text": "Håller det för sig själv tills resan är slut",
           "feedback": "Fel. Kapitlet säger att du ska berätta tidigt om du mår dåligt."
         },
         {
           "id": "c",
-          "text": "Reser själv",
+          "text": "Lämnar gruppen och reser vidare på egen hand",
           "feedback": "Fel. Du ska följa gruppens rutiner och kontakta en vuxen eller reseledare."
         },
         {
           "id": "d",
-          "text": "Låtsas att allt är bra",
+          "text": "Låtsas att allt är bra för att inte störa gruppen",
           "feedback": "Fel. Berätta i stället tidigt för en vuxen i gruppen om du mår dåligt."
         }
       ]

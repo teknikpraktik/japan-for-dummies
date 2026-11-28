@@ -182,19 +182,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Jag minns att 駅 är station och jämför med namnet och kartan.",
+          "text": "Jag minns att 駅 är station och kollar kartan.",
           "correct": true,
           "feedback": "Bra. Ett fåtal tecken ger mycket."
         },
         {
           "id": "b",
-          "text": "Jag ger upp.",
+          "text": "Jag ger upp och går därifrån utan att fråga någon alls",
           "correct": false,
           "feedback": "Du klarar mer än du tror."
         },
         {
           "id": "c",
-          "text": "Jag gissar slumpmässigt.",
+          "text": "Jag gissar slumpmässigt vilken utgång som är rätt",
           "correct": false,
           "feedback": "Använd kartan och skyltarna för att kontrollera."
         }
@@ -268,23 +268,23 @@
       "options": [
         {
           "id": "a",
-          "text": "För att det ofta har både en on-läsning (kinesisk-inspirerad) och en kun-läsning (japansk).",
+          "text": "För att det ofta har både en on-läsning och en kun-läsning.",
           "correct": true,
           "feedback": "Rätt. Många kanji har både en on-läsning, inspirerad av kinesiskan, och en kun-läsning, som är japansk."
         },
         {
           "id": "b",
-          "text": "För att tecknen ändras varje dag.",
+          "text": "För att tecknet ändrar form beroende på vilken dag det är",
           "feedback": "Fel. Flera läsningar beror på on- och kun-läsningar och på vilket ord tecknet ingår i."
         },
         {
           "id": "c",
-          "text": "För att det är slumpmässigt.",
+          "text": "För att läsningen väljs slumpmässigt varje gång man skriver",
           "feedback": "Fel. Läsningen beror på vilket ord tecknet ingår i."
         },
         {
           "id": "d",
-          "text": "För att man får välja själv.",
+          "text": "För att skribenten själv får välja vilken läsning tecknet ska ha",
           "feedback": "Fel. Läsningen bestäms av vilket ord tecknet ingår i."
         }
       ]
@@ -322,23 +322,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Med katakana (スウェーデン)",
+          "text": "Oftast med katakana, till exempel スウェーデン",
           "correct": true,
           "feedback": "Rätt. Utländska namn skrivs ofta med katakana, som スウェーデン för Sverige."
         },
         {
           "id": "b",
-          "text": "Med hiragana",
+          "text": "Oftast med hiragana, precis som japanska ord",
           "feedback": "Oftast inte."
         },
         {
           "id": "c",
-          "text": "Med kanji alltid",
+          "text": "Alltid med kanji, även när namnet kommer från utlandet",
           "feedback": "Oftast inte."
         },
         {
           "id": "d",
-          "text": "Med romaji alltid",
+          "text": "Alltid med romaji, utan japanska tecken alls",
           "feedback": "Fel. Utländska namn skrivs ofta med katakana, som スウェーデン."
         }
       ]

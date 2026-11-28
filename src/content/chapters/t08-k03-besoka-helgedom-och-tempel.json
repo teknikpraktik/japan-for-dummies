@@ -107,13 +107,13 @@
         },
         {
           "id": "b",
-          "text": "Man klappar två gånger.",
+          "text": "Man klappar två gånger och bugar en gång.",
           "correct": false,
           "feedback": "Det gäller helgedomar."
         },
         {
           "id": "c",
-          "text": "Man dansar.",
+          "text": "Man dansar en rituell dans framför huvudbyggnaden.",
           "correct": false,
           "feedback": "Fel. Kapitlet nämner inget om dans, utan att man sätter ihop händerna och bugar."
         }
@@ -241,23 +241,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Området utomhus, men oftast inte inne i hallarna.",
+          "text": "Utomhus, men oftast inte inne i hallarna.",
           "correct": true,
           "feedback": "Rätt. Du får oftast fotografera utomhus, men inte inne i byggnaderna eller hallarna."
         },
         {
           "id": "b",
-          "text": "Överallt.",
+          "text": "Överallt, även inne i byggnaderna och hallarna.",
           "feedback": "Fel. Fotografering inne i byggnaderna och hallarna är oftast inte tillåten."
         },
         {
           "id": "c",
-          "text": "Ingenstans.",
+          "text": "Ingenstans, inte ens utomhus på området.",
           "feedback": "Fel. Du får oftast fotografera området utomhus."
         },
         {
           "id": "d",
-          "text": "Bara människor.",
+          "text": "Bara människor när de ber vid altaret.",
           "feedback": "Fel. Kapitlet säger att man ska undvika att fotografera människor som ber utan att fråga."
         }
       ]
@@ -268,23 +268,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Nej, men du bör visa respekt.",
+          "text": "Nej, men du bör visa respekt under besöket.",
           "correct": true,
           "feedback": "Rätt. Respekt handlar om beteende, inte om tro."
         },
         {
           "id": "b",
-          "text": "Ja.",
+          "text": "Ja, du måste tillhöra religionen för att få komma in.",
           "feedback": "Fel. Kapitlet säger att respekt handlar om beteende, inte om tro."
         },
         {
           "id": "c",
-          "text": "Det är förbjudet att besöka.",
+          "text": "Det är förbjudet att besöka, även utan att be.",
           "feedback": "Fel. Kapitlet uppmuntrar besök och säger att man kan delta i den utsträckning man är bekväm med."
         },
         {
           "id": "d",
-          "text": "Bara japaner får besöka.",
+          "text": "Bara japaner får besöka en helgedom.",
           "feedback": "Fel. Kapitlet säger att man kan delta eller bara titta, och beskriver inget förbud för besökare."
         }
       ]

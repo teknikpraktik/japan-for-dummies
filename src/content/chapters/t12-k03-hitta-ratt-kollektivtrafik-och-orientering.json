@@ -109,19 +109,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Stanna lugnt, kontakta gruppen och gå till en överenskommen mötesplats.",
+          "text": "Stanna lugnt, kontakta gruppen och gå till mötesplatsen.",
           "correct": true,
           "feedback": "Rätt. Kapitlet föreslår att du stannar lugnt, kontaktar gruppen och går till en tydlig mötesplats."
         },
         {
           "id": "b",
-          "text": "Gå vidare utan att säga något.",
+          "text": "Gå vidare på egen hand utan att berätta det för någon i gruppen.",
           "correct": false,
           "feedback": "Fel. Kapitlet säger att du ska kontakta gruppen om du kommer bort."
         },
         {
           "id": "c",
-          "text": "Ge upp.",
+          "text": "Sätt dig på ett kafé och vänta tills någon hittar dig.",
           "correct": false,
           "feedback": "Fel. Kapitlet ger flera steg, bland annat att kontakta gruppen och fråga personal eller ett koban."
         }
@@ -136,19 +136,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Kontrollerar skyltarna och planeraren, byter vid nästa station och lägger in marginal.",
+          "text": "Kontrollerar skyltarna och planeraren och lägger in marginal.",
           "correct": true,
           "feedback": "Rätt. Kapitlet rekommenderar att du läser skyltar, använder reseplaneraren och har en reservplan."
         },
         {
           "id": "b",
-          "text": "Hoppar av mitt i färden.",
+          "text": "Hoppar av mitt i färden och går hem utan att kolla planeraren.",
           "correct": false,
           "feedback": "Fel. Kapitlet föreslår att du kontrollerar skyltarna och planerar om i stället för att ta onödiga risker."
         },
         {
           "id": "c",
-          "text": "Går med strömmen.",
+          "text": "Går med strömmen av människor utan att stanna och kontrollera något.",
           "correct": false,
           "feedback": "Fel. Kapitlet säger att du ska gå åt sidan och kontrollera, inte bara följa flödet."
         }
@@ -222,23 +222,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Norra utgången",
+          "text": "Den norra utgången",
           "correct": true,
           "feedback": "Rätt. 北口 betyder norra utgången."
         },
         {
           "id": "b",
-          "text": "Perrong",
-          "feedback": "Fel. 北口 betyder norra utgången, inte perrong."
+          "text": "Perrongen för snabbtåg",
+          "feedback": "Fel. 北口 betyder norra utgången, inte en perrong."
         },
         {
           "id": "c",
-          "text": "Tåg",
-          "feedback": "Fel. 北口 betyder norra utgången, inte tåg."
+          "text": "Ett tåg på spåret",
+          "feedback": "Fel. 北口 betyder norra utgången, inte ett tåg."
         },
         {
           "id": "d",
-          "text": "Kvinna",
+          "text": "Vagn för kvinnor",
           "feedback": "Fel. 北口 betyder norra utgången."
         }
       ]
@@ -249,23 +249,23 @@
       "options": [
         {
           "id": "a",
-          "text": "En polislåda",
+          "text": "En liten polislåda i kvarteret",
           "correct": true,
           "feedback": "Rätt. Ett koban är en polislåda som kan hjälpa dig med vägbeskrivning."
         },
         {
           "id": "b",
-          "text": "En butik",
+          "text": "En butik med souvenirer och mat",
           "feedback": "Fel. Ett koban är en polislåda, inte en butik."
         },
         {
           "id": "c",
-          "text": "Ett tempel",
+          "text": "Ett buddhistiskt tempel vid stationen",
           "feedback": "Fel. Ett koban är en polislåda, inte ett tempel."
         },
         {
           "id": "d",
-          "text": "En skola",
+          "text": "En skola för stationspersonal",
           "feedback": "Fel. Ett koban är en polislåda, inte en skola."
         }
       ]
@@ -276,23 +276,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Minst tio minuter",
+          "text": "Minst tio extra minuter",
           "correct": true,
           "feedback": "Rätt som tumregel."
         },
         {
           "id": "b",
-          "text": "Ingen",
+          "text": "Ingen extra tid behövs alls",
           "feedback": "Fel. Kapitlet säger att du bör räkna med minst tio extra minuter i en stor station."
         },
         {
           "id": "c",
-          "text": "En timme alltid",
+          "text": "Alltid minst en hel timme extra",
           "feedback": "Fel. Kapitlet föreslår minst tio extra minuter, mer med bagage, inte alltid en timme."
         },
         {
           "id": "d",
-          "text": "Tre sekunder",
+          "text": "Tre sekunder extra räcker",
           "feedback": "Fel. Tre sekunder räcker inte; kapitlet säger minst tio extra minuter."
         }
       ]

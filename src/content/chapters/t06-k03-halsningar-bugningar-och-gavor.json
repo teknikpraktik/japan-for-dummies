@@ -74,19 +74,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Jag skakar hand, och kan nicka lätt.",
+          "text": "Jag skakar hand och nickar lätt.",
           "correct": true,
           "feedback": "Rätt. Följ den andres exempel."
         },
         {
           "id": "b",
-          "text": "Jag vägrar skaka hand.",
+          "text": "Jag vägrar skaka hand och vänder mig bort.",
           "correct": false,
           "feedback": "Onödigt."
         },
         {
           "id": "c",
-          "text": "Jag bugar mycket djupt.",
+          "text": "Jag bugar mycket djupt och länge.",
           "correct": false,
           "feedback": "Det är mer än vad som behövs."
         }
@@ -127,19 +127,19 @@
       "options": [
         {
           "id": "a",
-          "text": "En liten, enkel present från mitt land, till exempel godis.",
+          "text": "En liten, enkel present från mitt land.",
           "correct": true,
           "feedback": "Bra. Det är artigt utan att vara dyrt."
         },
         {
           "id": "b",
-          "text": "Ingenting alls.",
+          "text": "Ingenting alls, en gåva behövs aldrig.",
           "correct": false,
           "feedback": "En liten gåva uppskattas."
         },
         {
           "id": "c",
-          "text": "En mycket dyr present.",
+          "text": "En mycket dyr present, till exempel ett smycke.",
           "correct": false,
           "feedback": "Det kan skapa obehag."
         }
@@ -192,17 +192,17 @@
         },
         {
           "id": "b",
-          "text": "Alltid buga djupt.",
+          "text": "Alltid buga så djupt du kan",
           "feedback": "Fel. Du behöver inte buga perfekt eller djupt; följ den andres exempel."
         },
         {
           "id": "c",
-          "text": "Aldrig röra någon.",
+          "text": "Aldrig röra vid någon alls",
           "feedback": "Fel. Många japaner räcker fram handen till utlänningar, så du kan skaka hand."
         },
         {
           "id": "d",
-          "text": "Skrika hej.",
+          "text": "Hälsa högljutt på alla du möter",
           "feedback": "Fel. Ett leende, ett tydligt tack och ett lätt nick visar respekt."
         }
       ]
@@ -246,17 +246,17 @@
         },
         {
           "id": "b",
-          "text": "”Jag hatar den”",
+          "text": "”Jag är riktigt missnöjd med den”",
           "feedback": "Fel. Frasen är en artig fras och ingen bedömning av gåvan."
         },
         {
           "id": "c",
-          "text": "”Hej då”",
+          "text": "”Vi ses igen nästa vecka”",
           "feedback": "Fel. Frasen används när man ger en gåva, inte som avsked."
         },
         {
           "id": "d",
-          "text": "”Tack för maten”",
+          "text": "”Tack så mycket för maten”",
           "feedback": "Fel. ”Tack för maten” är gochisōsama deshita, inte denna fras."
         }
       ]
@@ -267,23 +267,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Man säger det efter maten för att tacka.",
+          "text": "Man säger det efter maten som tack.",
           "correct": true,
           "feedback": "Rätt. Gochisōsama deshita betyder ”tack för maten” och säger man efter måltiden."
         },
         {
           "id": "b",
-          "text": "Man säger det före maten.",
+          "text": "Man säger det före maten, innan man börjar äta.",
           "feedback": "Det är itadakimasu."
         },
         {
           "id": "c",
-          "text": "Det betyder hej.",
+          "text": "Det är en hälsning man säger vid möten.",
           "feedback": "Fel. Det är en tacksägelse efter maten, inte en hälsning."
         },
         {
           "id": "d",
-          "text": "Det betyder utgång.",
+          "text": "Det är ett ord för utgång på skyltar.",
           "feedback": "Fel. Det är en tacksägelse efter maten, inte ett ord för utgång."
         }
       ]

@@ -154,23 +154,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Animerad film och tv",
+          "text": "Animerad film och tv-serier",
           "correct": true,
           "feedback": "Rätt. Anime är animerad film och tv, ofta baserad på manga."
         },
         {
           "id": "b",
-          "text": "Serier på papper",
+          "text": "Tecknade serier på papper",
           "feedback": "Det är manga."
         },
         {
           "id": "c",
-          "text": "En maträtt",
+          "text": "En maträtt av ris och fisk",
           "feedback": "Fel. Anime är animerad film och tv."
         },
         {
           "id": "d",
-          "text": "En port",
+          "text": "En port in till ett helgedomsområde",
           "feedback": "Fel. Anime är animerad film och tv, inte en port."
         }
       ]
@@ -187,17 +187,17 @@
         },
         {
           "id": "b",
-          "text": "Cirka 38 miljoner yen",
+          "text": "Cirka 38 miljarder yen",
           "feedback": "Fel. Marknaden var betydligt större, omkring 3,8 biljoner yen."
         },
         {
           "id": "c",
-          "text": "Cirka 3 yen",
+          "text": "Cirka 3 miljarder yen",
           "feedback": "Fel. Marknaden var omkring 3,8 biljoner yen, så siffran är långt för liten."
         },
         {
           "id": "d",
-          "text": "Inga siffror finns",
+          "text": "Det saknas siffror för marknaden",
           "feedback": "Fel. Kapitlet redovisar en preliminär siffra på omkring 3,8 biljoner yen."
         }
       ]
@@ -262,23 +262,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Bakom serierna finns människor med ofta hårda arbetsvillkor.",
+          "text": "Bakom serierna finns människor med hårda villkor.",
           "correct": true,
           "feedback": "Rätt. Bakom varje serie finns människor, och arbetet är ofta hårt med långa dagar och låga löner."
         },
         {
           "id": "b",
-          "text": "Ingen arbetar med det.",
+          "text": "Nästan ingen arbetar med det på heltid",
           "feedback": "Fel. Många människor arbetar med anime som animatörer och tecknare."
         },
         {
           "id": "c",
-          "text": "Det görs av maskiner.",
+          "text": "Det görs helt av maskiner och datorer utan mänsklig insats",
           "feedback": "Fel. Kapitlet betonar att det är människor som ritar, skriver, färglägger och sköter produktionen."
         },
         {
           "id": "d",
-          "text": "Det är gratis.",
+          "text": "Det är gratis att producera, så ingen tjänar pengar",
           "feedback": "Fel. Anime är en stor industri som finansieras av bland annat produktionskommittéer."
         }
       ]

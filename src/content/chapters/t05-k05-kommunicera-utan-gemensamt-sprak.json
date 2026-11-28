@@ -132,19 +132,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Visa ett förberett kort på japanska och be om bekräftelse.",
+          "text": "Visa ett förberett kort på japanska.",
           "correct": true,
           "feedback": "Bra. Viktiga saker bör inte bero på en enskild app."
         },
         {
           "id": "b",
-          "text": "Förlita dig bara på en app.",
+          "text": "Förlita dig bara på en översättningsapp utan kort.",
           "correct": false,
           "feedback": "Appar kan göra fel."
         },
         {
           "id": "c",
-          "text": "Säga ”allergi” snabbt och hoppas.",
+          "text": "Säga ”allergi” högt och hoppas att det räcker.",
           "correct": false,
           "feedback": "Det räcker inte."
         }
@@ -197,17 +197,17 @@
         },
         {
           "id": "b",
-          "text": "Prata högt.",
+          "text": "Prata högre och högre tills de förstår",
           "feedback": "Fel. Kapitlet föreslår att tala långsamt med enkla ord, inte högre."
         },
         {
           "id": "c",
-          "text": "Ge upp.",
+          "text": "Ge upp och gå därifrån utan att fråga",
           "feedback": "Fel. Kapitlet visar flera strategier som ofta fungerar, och att göra sig förstådd går ofta bra."
         },
         {
           "id": "d",
-          "text": "Anta att alla förstår engelska.",
+          "text": "Anta att alla runt dig förstår engelska bra.",
           "feedback": "Fel. Kapitlet säger att den du pratar med kanske är osäker på engelska."
         }
       ]
@@ -218,23 +218,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Ja, jag lyssnar eller jag förstår",
+          "text": "Ja, jag lyssnar eller förstår",
           "correct": true,
           "feedback": "Rätt. Hai kan betyda jag lyssnar eller jag förstår, utan att personen håller med."
         },
         {
           "id": "b",
-          "text": "Alltid ja",
+          "text": "Alltid ja, alltså att personen håller med",
           "feedback": "Fel. Hai betyder inte alltid ja i betydelsen att personen håller med."
         },
         {
           "id": "c",
-          "text": "Alltid nej",
+          "text": "Alltid nej, alltså att man avböjer",
           "feedback": "Fel. Hai är ett ord för ja, men kan också betyda jag lyssnar eller jag förstår."
         },
         {
           "id": "d",
-          "text": "Hej då",
+          "text": "Hej då, ett avsked mellan vänner",
           "feedback": "Fel. Hai betyder inte hej då."
         }
       ]
@@ -245,23 +245,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Förlita dig bara på dem för viktiga saker som allergier.",
+          "text": "Förlita dig bara på dem vid allergier.",
           "correct": true,
           "feedback": "Rätt. Appen är inte perfekt och bör inte ensam användas för allergier eller säkerhet."
         },
         {
           "id": "b",
-          "text": "Använda dem alls.",
+          "text": "Använda dem någonsin under hela resan",
           "feedback": "De kan vara till stor nytta."
         },
         {
           "id": "c",
-          "text": "Ladda ned språk i förväg.",
+          "text": "Ladda ned språkpaket före avresan.",
           "feedback": "Det är bra."
         },
         {
           "id": "d",
-          "text": "Testa dem hemma.",
+          "text": "Testa dem hemma i lugn och ro innan resan.",
           "feedback": "Det är bra."
         }
       ]

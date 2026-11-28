@@ -266,24 +266,24 @@
       "options": [
         {
           "id": "a",
-          "text": "Därför att plattor pressas in under landet och berg smälter och stiger upp.",
+          "text": "Därför att plattor trycks ned under landet och berg smälter.",
           "correct": true,
           "feedback": "Rätt. Där plattor sjunker ner kan berg smälta och bilda vulkaner."
         },
         {
           "id": "b",
-          "text": "Därför att landet är stort och platt.",
+          "text": "Därför att landet är stort, platt och ligger långt från haven",
           "feedback": "Fel. Landet är i stället mycket bergigt, och orsaken är platttektoniken."
         },
         {
           "id": "c",
-          "text": "Därför att det regnar mycket.",
-          "feedback": "Nej. Regn gör inga vulkaner."
+          "text": "Därför att regnvatten gräver ut kratrar i marken",
+          "feedback": "Nej. Regn bildar inga vulkaner."
         },
         {
           "id": "d",
-          "text": "Därför att människor har byggt dem.",
-          "feedback": "Nej. Vulkaner bildas naturligt."
+          "text": "Därför att skogsbränder värmer berggrunden tills den bildar vulkaner",
+          "feedback": "Nej. Vulkaner bildas genom processer i jordskorpan, inte av bränder."
         }
       ]
     },
@@ -298,18 +298,18 @@
         },
         {
           "id": "b",
-          "text": "Hur starkt skakningen känns på en viss plats.",
+          "text": "Hur starkt skakningen känns på en plats.",
           "correct": true,
           "feedback": "Rätt. Shindo anger hur starkt skakningen känns på en viss plats, inte hur stor jordbävningen var vid källan."
         },
         {
           "id": "c",
-          "text": "Hur lång tid skakningen tar.",
+          "text": "Hur lång tid skakningen varade totalt",
           "feedback": "Fel. Det är styrkan på en plats, inte tiden."
         },
         {
           "id": "d",
-          "text": "Hur mycket skada som skett i hela landet.",
+          "text": "Hur mycket skada som uppstod i hela landet totalt",
           "feedback": "Fel. Shindo gäller en plats åt gången."
         }
       ]
@@ -320,23 +320,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Går direkt till högre mark eller en evakueringsbyggnad.",
+          "text": "Går direkt till högre mark eller evakueringsbyggnad.",
           "correct": true,
           "feedback": "Rätt. Vänta inte på en varning, och gå inte ner till havet igen förrän den hävts."
         },
         {
           "id": "b",
-          "text": "Väntar på varning på stranden.",
+          "text": "Väntar på stranden tills en varning har utfärdats",
           "feedback": "Fel. En tsunami kan komma före varningen."
         },
         {
           "id": "c",
-          "text": "Går ner till hamnen för att se.",
+          "text": "Går ner till hamnen för att se hur havet beter sig",
           "feedback": "Fel och farligt. Håll dig borta från vattnet."
         },
         {
           "id": "d",
-          "text": "Springer in i en liten källare.",
+          "text": "Springer ner till en lågt belägen källare för att söka skydd",
           "feedback": "Fel. Gå uppåt, inte ner i lågt belägna utrymmen."
         }
       ]

@@ -71,19 +71,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Skölj, ta av kork och etikett och sortera dem separat.",
+          "text": "Skölj flaskan, ta av kork och etikett.",
           "correct": true,
           "feedback": "Rätt, men detaljerna varierar."
         },
         {
           "id": "b",
-          "text": "Kastas rakt i brännbart.",
+          "text": "Kastas rakt i påsen för brännbart.",
           "correct": false,
           "feedback": "Fel. Många kommuner ber dig skölja flaskan och ta av kork och etikett, så flaskan ska inte kastas rakt i brännbart."
         },
         {
           "id": "c",
-          "text": "Grävs ned.",
+          "text": "Grävs ned i trädgården efter användningen.",
           "correct": false,
           "feedback": "Fel. PET-flaskor sorteras enligt kommunens regler."
         }
@@ -183,23 +183,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Brännbart, plast, PET och burkar",
+          "text": "Brännbart, plast, PET, burkar",
           "correct": true,
           "feedback": "Rätt. Det är vanliga kategorier, men de varierar mellan kommuner."
         },
         {
           "id": "b",
-          "text": "Samma kategorier i hela landet",
+          "text": "Exakt samma kategorier i hela landet",
           "feedback": "Fel. Sorteringen varierar mellan kommuner."
         },
         {
           "id": "c",
-          "text": "Ingen sortering alls",
+          "text": "Ingen sortering, allt kastas",
           "feedback": "Fel. Hushåll sorterar sitt avfall."
         },
         {
           "id": "d",
-          "text": "Bara en kategori för allt",
+          "text": "Bara en kategori för allt avfall",
           "feedback": "Fel. Avfallet delas upp i flera kategorier."
         }
       ]
@@ -237,23 +237,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Gör förbränning renare och återvinning möjlig.",
+          "text": "Renare förbränning och möjlig återvinning.",
           "correct": true,
           "feedback": "Rätt. Sortering gör förbränningen renare och återvinning möjlig."
         },
         {
           "id": "b",
-          "text": "Det är bara en vana.",
+          "text": "Det är bara en gammal vana i japanska hem.",
           "feedback": "Fel. Kapitlet beskriver sorteringen som viktig för förbränning, återvinning och lokalsamhället."
         },
         {
           "id": "c",
-          "text": "Det är tråkigt.",
+          "text": "Det är en tråkig plikt för grannarna i huset.",
           "feedback": "Fel. Kapitlet beskriver sorteringen som viktig, även om den kan kännas krånglig."
         },
         {
           "id": "d",
-          "text": "Det spelar ingen roll.",
+          "text": "Det spelar ingen roll för miljön eller grannarna.",
           "feedback": "Fel. Sorteringen gör förbränningen renare och återvinning möjlig."
         }
       ]
@@ -270,18 +270,18 @@
         },
         {
           "id": "b",
-          "text": "Arigatō.",
+          "text": "Doumo arigatō gozaimashita.",
           "feedback": "Det är tack."
         },
         {
           "id": "c",
-          "text": "Sayonara.",
+          "text": "Sayonara, mata ashita ne.",
           "feedback": "Det är hej då."
         },
         {
           "id": "d",
-          "text": "Itadakimasu.",
-          "feedback": "Det är före maten."
+          "text": "Itadakimasu, gochisōsama deshita.",
+          "feedback": "Det är fraser före och efter maten."
         }
       ]
     }

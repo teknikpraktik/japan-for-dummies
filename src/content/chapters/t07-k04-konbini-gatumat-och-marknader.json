@@ -72,13 +72,13 @@
         },
         {
           "id": "b",
-          "text": "En typ av tåg.",
+          "text": "En typ av tåg på landsbygden.",
           "correct": false,
           "feedback": "Fel. Onigiri är mat, nämligen risbollar."
         },
         {
           "id": "c",
-          "text": "En soppa.",
+          "text": "En varm soppa med nudlar och ägg.",
           "correct": false,
           "feedback": "Fel. Onigiri är risbollar och ingen soppa."
         }
@@ -92,19 +92,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Titta på hur andra gör, till exempel om de står vid ståndet.",
+          "text": "Se hur andra gör, till exempel om de äter vid ståndet.",
           "correct": true,
           "feedback": "Rätt. Titta på hur andra gör, eftersom man ofta förväntas äta vid ståndet."
         },
         {
           "id": "b",
-          "text": "Gå omkring överallt.",
+          "text": "Gå omkring med maten överallt i staden hela kvällen.",
           "correct": false,
           "feedback": "Det kan vara oartigt på vissa platser."
         },
         {
           "id": "c",
-          "text": "Ta med maten in i tempel.",
+          "text": "Ta med maten in i ett tempel eller en helgedom för att äta där.",
           "correct": false,
           "feedback": "Det är ofta olämpligt."
         }
@@ -151,23 +151,23 @@
       "options": [
         {
           "id": "a",
-          "text": "En närbutik",
+          "text": "En närbutik med lång öppettid",
           "correct": true,
           "feedback": "Rätt. Konbini är närbutiker som är öppna långa tider och finns i hela landet."
         },
         {
           "id": "b",
-          "text": "En skola",
+          "text": "En skola för barn i mellanåldern",
           "feedback": "Fel. Konbini är närbutiker där man köper färdig mat, kaffe och snacks."
         },
         {
           "id": "c",
-          "text": "Ett tempel",
+          "text": "Ett gammalt tempel i en bergsby",
           "feedback": "Fel. Konbini är närbutiker och inte en plats för religiösa ceremonier."
         },
         {
           "id": "d",
-          "text": "En park",
+          "text": "En stor park med lekplats och bänkar",
           "feedback": "Fel. Konbini är närbutiker, inte en park."
         }
       ]
@@ -232,23 +232,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Ta med det eller lämna det i ett sopkärl i butiken.",
+          "text": "Ta med det eller lämna det i ett sopkärl.",
           "correct": true,
           "feedback": "Rätt. Papperskorgar är sällsynta, så ta med skräpet eller lämna det i ett sopkärl i butiken eller vid ståndet."
         },
         {
           "id": "b",
-          "text": "Lägga det på marken",
+          "text": "Lägga det på marken bredvid ståndet där du köpte",
           "feedback": "Fel. Kapitlet råder dig att ta med skräpet eller lämna det i ett kärl."
         },
         {
           "id": "c",
-          "text": "Gömma det",
+          "text": "Gömma det bakom en butik eller ett staket",
           "feedback": "Fel. Skräp ska tas med eller lämnas i ett sopkärl, inte gömmas."
         },
         {
           "id": "d",
-          "text": "Kasta det i havet",
+          "text": "Kasta det i havet eller i närmaste flod",
           "feedback": "Fel. Skräp ska tas med eller lämnas i ett sopkärl."
         }
       ]
@@ -259,23 +259,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Bläckfiskbollar",
+          "text": "Friterade bläckfiskbollar",
           "correct": true,
           "feedback": "Rätt. Takoyaki är en av de typiska gatumaträtterna, och den görs på bläckfisk."
         },
         {
           "id": "b",
-          "text": "En sorts te",
+          "text": "En sorts grön te som serveras iskall",
           "feedback": "Fel. Takoyaki är en gatumat, inte en dryck."
         },
         {
           "id": "c",
-          "text": "Ett tecken",
+          "text": "Ett tecken i japanska skriften",
           "feedback": "Fel. Takoyaki är en gatumat, inte ett skrivtecken."
         },
         {
           "id": "d",
-          "text": "Ris",
+          "text": "Kokt ris i en liten skål",
           "feedback": "Fel. Takoyaki är en gatumat i form av bollar, inte vanligt ris."
         }
       ]

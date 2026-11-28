@@ -162,19 +162,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Kejsaren var kvar som symbol med hög status, medan shogunen styrde i praktiken.",
+          "text": "Kejsaren var kvar som symbol, medan shogunen styrde i praktiken.",
           "correct": true,
           "feedback": "Rätt. Makten var delad: ceremoniell och religiös roll hos kejsaren, militär och politisk makt hos shogunen."
         },
         {
           "id": "b",
-          "text": "Shogunen var kejsarens tjänare och saknade makt.",
+          "text": "Shogunen var kejsarens underordnade tjänare och saknade all verklig makt.",
           "correct": false,
           "feedback": "Tvärtom. Shogunen hade den verkliga makten."
         },
         {
           "id": "c",
-          "text": "Det fanns ingen kejsare under samurajtiden.",
+          "text": "Det fanns ingen kejsare, och shogunen styrde hela landet ensam.",
           "correct": false,
           "feedback": "Fel. Kejsaren fanns kvar i Kyoto hela tiden."
         }
@@ -302,23 +302,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Kejsaren hade ceremoniell och religiös roll, shogunen styrde i praktiken.",
+          "text": "Kejsaren hade en ceremoniell roll, shogunen styrde i praktiken.",
           "correct": true,
           "feedback": "Rätt. Makten var delad."
         },
         {
           "id": "b",
-          "text": "Kejsaren styrde armén, shogunen var präst.",
+          "text": "Kejsaren ledde armén, medan shogunen var landets överstepräst.",
           "feedback": "Fel, det är tvärtom."
         },
         {
           "id": "c",
-          "text": "De hade exakt samma roll.",
+          "text": "De hade exakt samma roll och delade lika på all makt över hela landet.",
           "feedback": "Fel. Rollerna skilde sig."
         },
         {
           "id": "d",
-          "text": "Shogunen fanns bara i Kyoto.",
+          "text": "Shogunen styrde alltid enbart från Kyoto under hela perioden.",
           "feedback": "Fel. Det varierade: Kamakura, Kyoto och Edo."
         }
       ]
@@ -329,23 +329,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Buddhism och det kinesiska skriftspråket",
+          "text": "Buddhism och kinesiska skrivtecken",
           "correct": true,
           "feedback": "Rätt. Båda kom från fastlandet, ofta via Korea."
         },
         {
           "id": "b",
-          "text": "Tåg och telegraf",
+          "text": "Ångtåg och telegraf från Europa",
           "feedback": "Fel. De kom på 1800-talet från väst."
         },
         {
           "id": "c",
-          "text": "Konstitutionen från 1947",
+          "text": "Den moderna konstitutionen som antogs 1947",
           "feedback": "Fel. Den kom efter andra världskriget."
         },
         {
           "id": "d",
-          "text": "Smartphones",
+          "text": "Smartphones och sociala medier",
           "feedback": "Fel. Det som kom från Kina och Korea var till exempel skriftspråket och buddhismen, långt före smartphones."
         }
       ]

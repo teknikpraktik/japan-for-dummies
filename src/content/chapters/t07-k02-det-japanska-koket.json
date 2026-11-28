@@ -107,19 +107,19 @@
       "options": [
         {
           "id": "a",
-          "text": "En buljong, ofta på kombu och katsuobushi.",
+          "text": "En buljong, ofta på kombu och bonito.",
           "correct": true,
           "feedback": "Rätt. Dashi är en buljong som ofta görs på kombu (tång) och katsuobushi (torkad bonito)."
         },
         {
           "id": "b",
-          "text": "Ett slags ris.",
+          "text": "Ett slags ris som äts till sushi",
           "correct": false,
           "feedback": "Fel. Dashi är en buljong, inte ris."
         },
         {
           "id": "c",
-          "text": "En typ av tofu.",
+          "text": "En typ av tofu som serveras kall med soja",
           "correct": false,
           "feedback": "Fel. Dashi är en buljong, inte tofu."
         }
@@ -134,19 +134,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Den är troligen gjord på dashi med fisk, så jag frågar.",
+          "text": "Den görs troligen på dashi med fisk, så jag frågar.",
           "correct": true,
           "feedback": "Rätt. Dashi innehåller ofta fisk."
         },
         {
           "id": "b",
-          "text": "Den är säkert vegetarisk eftersom miso är sojabönor.",
+          "text": "Den är säkert vegetarisk eftersom miso är gjord av sojabönor.",
           "correct": false,
           "feedback": "Miso är sojabönor, men soppan görs oftast på dashi."
         },
         {
           "id": "c",
-          "text": "Jag kan inte äta något alls.",
+          "text": "Jag kan inte äta något alls i Japan, så jag avstår.",
           "correct": false,
           "feedback": "Det finns alternativ. Fråga eller välj rätt ställe."
         }
@@ -226,17 +226,17 @@
         },
         {
           "id": "b",
-          "text": "En sorts ris",
+          "text": "En sorts ris som odlas i Japan",
           "feedback": "Fel. Umami är en smak, inte en sorts ris."
         },
         {
           "id": "c",
-          "text": "En maträtt",
+          "text": "En maträtt med nudlar i het buljong",
           "feedback": "Fel. Umami är en grundsmak, inte en maträtt."
         },
         {
           "id": "d",
-          "text": "Ett kök",
+          "text": "Ett regionalt kök i södra Japan",
           "feedback": "Fel. Umami är en grundsmak, inte ett kök."
         }
       ]
@@ -247,24 +247,24 @@
       "options": [
         {
           "id": "a",
-          "text": "Kombu och katsuobushi",
+          "text": "Kombu (tång) och katsuobushi (bonito)",
           "correct": true,
           "feedback": "Rätt. Dashi görs ofta på kombu (tång) och katsuobushi (torkad bonito)."
         },
         {
           "id": "b",
-          "text": "Mjölk och smör",
+          "text": "Mjölk, smör och grädde från mjölkgårdar",
           "feedback": "Fel. Dashi görs ofta på kombu och katsuobushi, inte mejeriprodukter."
         },
         {
           "id": "c",
-          "text": "Kaffe",
-          "feedback": "Fel. Dashi görs ofta på kombu och katsuobushi, inte kaffe."
+          "text": "Kaffebönor och kakaopulver från södra Sydamerika",
+          "feedback": "Fel. Dashi görs ofta på kombu och katsuobushi, inte kaffebönor och kakao."
         },
         {
           "id": "d",
-          "text": "Äpplen",
-          "feedback": "Fel. Dashi görs ofta på kombu och katsuobushi, inte äpplen."
+          "text": "Äpplen, päron och druvor från Nagano",
+          "feedback": "Fel. Dashi görs ofta på kombu och katsuobushi, inte frukt."
         }
       ]
     },

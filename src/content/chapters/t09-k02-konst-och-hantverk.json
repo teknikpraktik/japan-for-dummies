@@ -108,19 +108,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Bilder av den flytande världen (nöjeskvarteren)",
+          "text": "Bilder av den flytande världen i städerna",
           "correct": true,
           "feedback": "Rätt. Kapitlet förklarar att ukiyo syftar på nöjeskvarteren i städerna och att ukiyo-e är bilder därifrån."
         },
         {
           "id": "b",
-          "text": "Bilder av tempel",
+          "text": "Bilder av tempel och andra heliga platser i Japan",
           "correct": false,
           "feedback": "Fel. De tidiga bilderna visar teaterskådespelare, skönheter och stadsscener, inte tempel."
         },
         {
           "id": "c",
-          "text": "Bilder av mat",
+          "text": "Bilder av mat och dryck från köken i Japan",
           "correct": false,
           "feedback": "Fel. Kapitlet beskriver inte ukiyo-e som bilder av mat."
         }
@@ -140,13 +140,13 @@
         },
         {
           "id": "b",
-          "text": "Ett slags tyg",
+          "text": "Ett slags tyg som vävs med guldtråd",
           "correct": false,
           "feedback": "Fel. Kintsugi gäller reparation av keramik, inte tyg."
         },
         {
           "id": "c",
-          "text": "En måltid",
+          "text": "En måltid med flera rätter i små skålar",
           "correct": false,
           "feedback": "Fel. Kintsugi är ett sätt att laga keramik, inte en måltid."
         }
@@ -220,23 +220,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Hokusai och Hiroshige",
+          "text": "Katsushika Hokusai och Utagawa Hiroshige",
           "correct": true,
           "feedback": "Rätt. Kapitlet nämner Hokusai och Hiroshige som de kända landskapskonstnärerna."
         },
         {
           "id": "b",
-          "text": "Tange och Tezuka",
+          "text": "Arkitekten Tange och mangaskaparen Tezuka",
           "feedback": "Fel. Kapitlet nämner Hokusai och Hiroshige som kända ukiyo-e-konstnärer."
         },
         {
           "id": "c",
-          "text": "Dōgen och Eisai",
+          "text": "Härskarna Oda Nobunaga och Toyotomi Hideyoshi",
           "feedback": "Fel. Dessa namn hör inte till ukiyo-e; kapitlet nämner Hokusai och Hiroshige."
         },
         {
           "id": "d",
-          "text": "Perry och Harris",
+          "text": "Kommodor Perry och konsul Townsend Harris",
           "feedback": "Fel. Dessa namn nämns inte i kapitlet; de kända konstnärerna är Hokusai och Hiroshige."
         }
       ]
@@ -247,23 +247,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Handgjort japanskt papper",
+          "text": "Handgjort papper som tillverkas i Japan",
           "correct": true,
           "feedback": "Rätt. Washi är handgjort papper, ett av Japans hantverk."
         },
         {
           "id": "b",
-          "text": "Ett svärd",
+          "text": "Ett slags svärd som bars av samurajer",
           "feedback": "Fel. Washi är handgjort papper, inte ett svärd."
         },
         {
           "id": "c",
-          "text": "Ett tåg",
+          "text": "Ett snabbtåg mellan Tokyo och Osaka",
           "feedback": "Fel. Washi är handgjort papper, inte ett tåg."
         },
         {
           "id": "d",
-          "text": "En maträtt",
+          "text": "En maträtt av ris, fisk och sjögräs i en skål",
           "feedback": "Fel. Washi är handgjort papper, inte en maträtt."
         }
       ]
@@ -274,23 +274,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Ett team: konstnär, snidare och tryckare",
+          "text": "Ett team: konstnär, snidare, tryckare",
           "correct": true,
           "feedback": "Rätt. Bilderna framställdes av ett team: en konstnär, en snidare och en tryckare."
         },
         {
           "id": "b",
-          "text": "Alltid en ensam person",
+          "text": "Alltid en ensam konstnär som gör hela bilden",
           "feedback": "Fel. Kapitlet beskriver träsnitten som teamarbete."
         },
         {
           "id": "c",
-          "text": "En maskin",
+          "text": "En maskin som trycker bilderna själv",
           "feedback": "Fel. Träsnitten gjordes av människor i ett team, inte av en maskin."
         },
         {
           "id": "d",
-          "text": "En robot",
+          "text": "Munkar i ett tempel som gör bilderna",
           "feedback": "Fel."
         }
       ]

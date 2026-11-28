@@ -118,15 +118,15 @@
         },
         {
           "id": "b",
-          "text": "De är aldrig underhållna.",
+          "text": "De har aldrig renoverats eller byggts om.",
           "correct": false,
           "feedback": "Fel. Byggnaderna byggs om vart tjugonde år, så förnyelse är en del av traditionen."
         },
         {
           "id": "c",
-          "text": "De är nya varje dag.",
+          "text": "De byggs om varje år från grunden.",
           "correct": false,
-          "feedback": "Fel. De byggs om vart tjugonde år, inte varje dag."
+          "feedback": "Fel. De byggs om vart tjugonde år, inte varje år."
         }
       ]
     },
@@ -139,19 +139,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Fråga vad som är gammalt: formen, platsen, hantverket, och förstå att äkthet kan betyda olika saker.",
+          "text": "Fråga vad som är gammalt och förstå att äkthet har flera sidor.",
           "correct": true,
           "feedback": "Bra."
         },
         {
           "id": "b",
-          "text": "Hålla med, det är falskt.",
+          "text": "Hålla med direkt och dra slutsatsen att en omgjord byggnad är falsk.",
           "correct": false,
           "feedback": "Förenklat."
         },
         {
           "id": "c",
-          "text": "Strunta i det.",
+          "text": "Avfärda frågan som ointressant och byta samtalsämne direkt",
           "correct": false,
           "feedback": "Du missar möjligheten till en bättre fråga."
         }
@@ -177,17 +177,17 @@
         },
         {
           "id": "b",
-          "text": "Ett slags tak",
+          "text": "Ett slags tak av tegel",
           "feedback": "Fel. Tatami är halmmattor, inte ett tak."
         },
         {
           "id": "c",
-          "text": "Ett tåg",
+          "text": "Ett lokaltåg mellan städer",
           "feedback": "Fel. Tatami är halmmattor, inte ett tåg."
         },
         {
           "id": "d",
-          "text": "En maträtt",
+          "text": "En maträtt med ris",
           "feedback": "Fel. Tatami är halmmattor, inte en maträtt."
         }
       ]
@@ -231,17 +231,17 @@
         },
         {
           "id": "b",
-          "text": "Det är förbjudet att använda sten",
+          "text": "Det finns ett lagstadgat förbud mot byggnader i sten",
           "feedback": "Fel. Kapitlet nämner inget förbud mot sten."
         },
         {
           "id": "c",
-          "text": "Trä är billigast i hela världen",
+          "text": "Trä är billigast av alla byggmaterial",
           "feedback": "Fel. Kapitlet säger inget om pris, utan om material, klimat och jordbävningar."
         },
         {
           "id": "d",
-          "text": "Ingen vet",
+          "text": "Det finns ingen känd förklaring till trä",
           "feedback": "Fel. Kapitlet ger flera förklaringar, bland annat klimat och jordbävningar."
         }
       ]
@@ -252,23 +252,23 @@
       "options": [
         {
           "id": "a",
-          "text": "En veranda som binder samman inne och ute",
+          "text": "En veranda mellan inne och ute",
           "correct": true,
           "feedback": "Rätt. Engawa är verandor som binder samman inne och ute."
         },
         {
           "id": "b",
-          "text": "En port",
+          "text": "En port vid husets entré",
           "feedback": "Fel. Engawa är en veranda, inte en port."
         },
         {
           "id": "c",
-          "text": "Ett tak",
-          "feedback": "Fel. Engawa är en veranda, inte ett tak."
+          "text": "En skjutvägg av papper mellan rummen",
+          "feedback": "Fel. Engawa är en veranda, inte en skjutvägg."
         },
         {
           "id": "d",
-          "text": "En lykta",
+          "text": "En lykta av papper i trädgården",
           "feedback": "Fel. Engawa är en veranda, inte en lykta."
         }
       ]
@@ -279,23 +279,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Som form, plats och hantverk, inte bara gammalt material",
+          "text": "Som form, plats och hantverk, inte bara material",
           "correct": true,
           "feedback": "Rätt. En byggnad kan vara gammal genom sin form, plats och sitt hantverk, även om virket är nytt."
         },
         {
           "id": "b",
-          "text": "Bara som gammalt virke",
+          "text": "Bara som virke som är minst tusen år gammalt",
           "feedback": "Fel. Kapitlet säger att äkthet inte bara handlar om gammalt virke."
         },
         {
           "id": "c",
-          "text": "Som något nytt",
-          "feedback": "Fel. Nytt virke kan ingå, men äktheten ligger i form, plats och hantverk."
+          "text": "Som något som bara uppförts i modern betong",
+          "feedback": "Fel. Äktheten ligger i form, plats och hantverk, inte i modern betong."
         },
         {
           "id": "d",
-          "text": "Som något plastigt",
+          "text": "Som något som tillverkats av plast och syntetmaterial",
           "feedback": "Fel. Kapitlet nämner inget om plast, utan om form, plats, hantverk och kunskap."
         }
       ]

@@ -66,13 +66,13 @@
         },
         {
           "id": "b",
-          "text": "Att ingen får sjunga.",
+          "text": "Att artister aldrig sjunger, bara dansar",
           "correct": false,
           "feedback": "Fel. Idolkultur handlar om artister som sjunger, dansar och uppträder."
         },
         {
           "id": "c",
-          "text": "Att allt är hemligt.",
+          "text": "Att allt om artisterna hålls hemligt för alla fans",
           "correct": false,
           "feedback": "Fel. Idolkultur bygger tvärtom på närhet och kontakt med fansen."
         }
@@ -113,19 +113,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Många gillar sådant, men intressena varierar mycket.",
+          "text": "Många gillar det, men intressena varierar.",
           "correct": true,
           "feedback": "Rätt. Intressena varierar mycket, och populärkultur är bara en del av en större bild."
         },
         {
           "id": "b",
-          "text": "Det stämmer helt.",
+          "text": "Det stämmer helt, alla japaner älskar sådant här.",
           "correct": false,
           "feedback": "Förenkling."
         },
         {
           "id": "c",
-          "text": "Ingen gillar det.",
+          "text": "Nej, nästan ingen gillar sådant i Japan.",
           "correct": false,
           "feedback": "Fel. Många gillar populärkultur, men intressena varierar."
         }
@@ -172,23 +172,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Röstsyntesprogram som används för att göra sång",
+          "text": "Ett röstsyntesprogram för att skapa sång",
           "correct": true,
           "feedback": "Rätt. Hatsune Miku började som ett sådant program."
         },
         {
           "id": "b",
-          "text": "Ett karaokesystem",
+          "text": "Ett karaokesystem som visar texten på skärmen",
           "feedback": "Fel. Vocaloid är ett röstsyntesprogram."
         },
         {
           "id": "c",
-          "text": "En animestudio",
+          "text": "En animestudio som producerar tv-serier",
           "feedback": "Fel. Vocaloid är ett röstsyntesprogram."
         },
         {
           "id": "d",
-          "text": "En speltillverkare",
+          "text": "En speltillverkare som gör konsolspel",
           "feedback": "Fel. Vocaloid är ett röstsyntesprogram."
         }
       ]
@@ -259,17 +259,17 @@
         },
         {
           "id": "b",
-          "text": "Anta att alla gillar samma sak.",
+          "text": "Anta att alla gillar samma sak som du.",
           "feedback": "Fel. Intressena varierar mycket, så alla gillar inte samma sak."
         },
         {
           "id": "c",
-          "text": "Aldrig prata om det.",
+          "text": "Aldrig prata om det med nya bekanta.",
           "feedback": "Fel. Kapitlet uppmuntrar nyfikenhet snarare än att undvika ämnet."
         },
         {
           "id": "d",
-          "text": "Gissa.",
+          "text": "Gissa vad folk gillar utifrån stereotyper.",
           "feedback": "Fel. Att gissa leder lätt till förenklingar; fråga i stället."
         }
       ]

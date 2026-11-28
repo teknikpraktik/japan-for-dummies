@@ -104,13 +104,13 @@
         },
         {
           "id": "b",
-          "text": "Ainu förbjöds.",
+          "text": "Ainu-kulturen och språket förbjöds helt i lag.",
           "correct": false,
           "feedback": "Fel. Lagen erkände ainu som urfolk och stöder deras kultur, den förbjöd dem inte."
         },
         {
           "id": "c",
-          "text": "Hokkaido blev ett eget land.",
+          "text": "Hokkaido blev ett självständigt land med egen regering.",
           "correct": false,
           "feedback": "Fel. Lagen handlar om att erkänna ainu som urfolk, inte om att Hokkaido blir ett eget land."
         }
@@ -124,19 +124,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Koreaner och deras ättlingar som bor i Japan, många sedan kolonialtiden.",
+          "text": "Koreaner och ättlingar i Japan, många sedan kolonialtiden.",
           "correct": true,
           "feedback": "Rätt. Zainichi-koreaner är koreaner och deras ättlingar som bor i Japan, många sedan kolonialtiden."
         },
         {
           "id": "b",
-          "text": "Japaner som bor i Korea.",
+          "text": "Japaner och deras ättlingar som har bosatt sig i Korea sedan kriget.",
           "correct": false,
           "feedback": "Fel. Zainichi är koreaner som bor i Japan, inte japaner som bor i Korea."
         },
         {
           "id": "c",
-          "text": "Turister i Seoul.",
+          "text": "Turister från Japan som reser till Seoul varje år.",
           "correct": false,
           "feedback": "Fel. Zainichi-koreaner bor i Japan, många sedan kolonialtiden."
         }
@@ -151,19 +151,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Det finns minoriteter som ainu, människor från Okinawa, zainichi-koreaner och många utländska invånare. Det är mer varierat än bilden.",
+          "text": "Det finns minoriteter som ainu, okinawaner och zainichi-koreaner, samt många utländska invånare.",
           "correct": true,
           "feedback": "Rätt. Kapitlet nämner ainu, människor från Okinawa, zainichi-koreaner och utländska invånare, så Japan är mer varierat än bilden."
         },
         {
           "id": "b",
-          "text": "Det stämmer helt.",
+          "text": "Det stämmer helt, eftersom alla som bor i landet har samma bakgrund, språk och kultur.",
           "correct": false,
           "feedback": "Fel. Det är en förenkling."
         },
         {
           "id": "c",
-          "text": "Det finns bara en grupp.",
+          "text": "Det finns bara en grupp, eftersom alla i landet har samma ursprung, språk och kultur och inga andra bor där.",
           "correct": false,
           "feedback": "Fel. Kapitlet beskriver flera olika grupper."
         }
@@ -210,23 +210,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Framför allt på Hokkaido och i norr",
+          "text": "Främst på Hokkaido och i de norra områdena",
           "correct": true,
           "feedback": "Rätt. Ainu har historiskt bott på Hokkaido och i norr."
         },
         {
           "id": "b",
-          "text": "På Okinawa",
+          "text": "På Okinawa och övriga Ryukyuöarna längre söderut",
           "feedback": "Fel. Okinawa hör till Ryukyuöarna, medan ainu historiskt bott på Hokkaido och i norr."
         },
         {
           "id": "c",
-          "text": "I Kyoto",
+          "text": "I Kyoto och trakten runt gamla kejsarstaden",
           "feedback": "Fel. Kapitlet anger Hokkaido och norr som ainus område, inte Kyoto."
         },
         {
           "id": "d",
-          "text": "I Osaka",
+          "text": "I Osaka och i handelsstäderna kring bukten",
           "feedback": "Fel. Kapitlet anger Hokkaido och norr som ainus område, inte Osaka."
         }
       ]
@@ -297,17 +297,17 @@
         },
         {
           "id": "b",
-          "text": "Anta att alla är likadana.",
+          "text": "Anta att alla människor i landet är likadana.",
           "feedback": "Fel. Kapitlet betonar att människor har olika bakgrund."
         },
         {
           "id": "c",
-          "text": "Fråga alla var de ”egentligen” kommer ifrån.",
+          "text": "Fråga alla du möter var de ”egentligen” kommer ifrån.",
           "feedback": "Fel. Kapitlet råder dig att undvika frågor som antyder att någon inte hör hemma."
         },
         {
           "id": "d",
-          "text": "Aldrig prata om människor.",
+          "text": "Undvik alltid att prata om människor och deras olika bakgrund.",
           "feedback": "Fel. Kapitlet föreslår att du frågar hellre än antar och lyssnar på hur människor beskriver sig själva."
         }
       ]

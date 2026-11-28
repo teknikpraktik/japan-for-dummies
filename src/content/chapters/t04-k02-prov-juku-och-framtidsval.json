@@ -104,15 +104,15 @@
         },
         {
           "id": "b",
-          "text": "Ett skolmåltidsprogram.",
+          "text": "Ett skolmåltidsprogram för lunch och mellanmål.",
           "correct": false,
           "feedback": "Fel. Juku är privata extraskolor, inte ett måltidsprogram."
         },
         {
           "id": "c",
-          "text": "En typ av lärare.",
+          "text": "En lärartitel vid vanliga skolor i Japan.",
           "correct": false,
-          "feedback": "Fel. Juku är privata extraskolor, inte en typ av lärare."
+          "feedback": "Fel. Juku är privata extraskolor, inte en lärartitel."
         }
       ]
     },
@@ -125,19 +125,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Hur känns det för dig, och vad vill du göra efter gymnasiet?",
+          "text": "Hur känns det för dig, och vad vill du göra sen?",
           "correct": true,
           "feedback": "Bra. Öppen och nyfiken, utan att döma."
         },
         {
           "id": "b",
-          "text": "Det låter hemskt, varför gör ni så?",
+          "text": "Det låter hemskt, varför gör ni så här mot era egna barn?",
           "correct": false,
           "feedback": "Det dömer. Personen kanske trivs."
         },
         {
           "id": "c",
-          "text": "Då är du säkert smartare än oss.",
+          "text": "Då måste ni vara smartare än elever i andra länder.",
           "correct": false,
           "feedback": "En förenkling."
         }
@@ -184,24 +184,24 @@
       "options": [
         {
           "id": "a",
-          "text": "Ett nationellt prov för universitetsansökan",
+          "text": "Ett gemensamt prov för universitet",
           "correct": true,
           "feedback": "Rätt. Common Test for University Admission är det gemensamma nationella provet för universitet."
         },
         {
           "id": "b",
-          "text": "En lärarexamen",
-          "feedback": "Fel. Common Test är ett prov för universitetsansökan, inte en lärarexamen."
+          "text": "Ett examensprov för blivande lärare",
+          "feedback": "Fel. Common Test är ett prov för universitetsansökan, inte ett examensprov för lärare."
         },
         {
           "id": "c",
-          "text": "Ett hälsotest",
+          "text": "Ett hälsotest för alla skolelever",
           "feedback": "Fel. Common Test är ett prov för universitetsansökan, inte ett hälsotest."
         },
         {
           "id": "d",
-          "text": "Ett körkort",
-          "feedback": "Fel. Common Test är ett prov för universitetsansökan, inte ett körkort."
+          "text": "Ett teoriprov för körkort i trafikskola",
+          "feedback": "Fel. Common Test är ett prov för universitetsansökan, inte ett körkortsprov."
         }
       ]
     },
@@ -211,23 +211,23 @@
       "options": [
         {
           "id": "a",
-          "text": "50–70 procent",
+          "text": "Ungefär 50–70 procent",
           "correct": true,
           "feedback": "Rätt, men siffran är grov."
         },
         {
           "id": "b",
-          "text": "1 procent",
+          "text": "Omkring 1 procent av dem",
           "feedback": "Fel. Enligt branschuppskattningen går ungefär 50–70 procent på juku, så långt fler än 1 procent."
         },
         {
           "id": "c",
-          "text": "100 procent",
+          "text": "Alla, alltså 100 procent",
           "feedback": "Fel. Det är långt ifrån alla som går på juku, uppskattningsvis 50–70 procent."
         },
         {
           "id": "d",
-          "text": "5 procent",
+          "text": "Endast cirka 5 procent av dem",
           "feedback": "Fel. Enligt branschuppskattningen går ungefär 50–70 procent på juku, så långt fler än 5 procent."
         }
       ]
@@ -238,23 +238,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Systemet ger både motivation och stress, och erfarenheterna varierar.",
+          "text": "Systemet ger både motivation och stress, men det varierar.",
           "correct": true,
           "feedback": "Rätt. Prov som väger tungt kan ge både motivation och stress, och elevernas erfarenheter varierar."
         },
         {
           "id": "b",
-          "text": "Alla mår dåligt.",
+          "text": "Alla elever mår dåligt och systemet bara skadar dem.",
           "feedback": "Fel. Många elever trivs, och bilden av ett ”examenshelvete” är förenklad."
         },
         {
           "id": "c",
-          "text": "Alla trivs.",
+          "text": "Alla elever trivs och ingen känner någon stress alls.",
           "feedback": "Fel. Många elever beskriver långa kvällar och stress, så erfarenheterna varierar."
         },
         {
           "id": "d",
-          "text": "Ingen läser.",
+          "text": "Ingen elev pluggar utanför skolan, varken hemma eller på juku.",
           "feedback": "Fel. Provresultat väger tungt och många elever pluggar mycket, bland annat på juku."
         }
       ]
@@ -271,17 +271,17 @@
         },
         {
           "id": "b",
-          "text": "Säga att det är hemskt.",
+          "text": "Säga att systemet är hemskt och hårt.",
           "feedback": "Fel. Kapitlet råder dig att inte säga att systemet är hårt, eftersom många trivs."
         },
         {
           "id": "c",
-          "text": "Säga att ditt eget är bättre.",
+          "text": "Påpeka att ditt eget är bättre.",
           "feedback": "Fel. Kapitlet råder dig att inte jämföra och säga att ”vårt är bättre”."
         },
         {
           "id": "d",
-          "text": "Aldrig prata om skolan.",
+          "text": "Aldrig prata om skolan med någon.",
           "feedback": "Fel. Kapitlet föreslår i stället att du frågar jämnåriga hur de tänker om framtiden."
         }
       ]

@@ -249,13 +249,13 @@
         },
         {
           "id": "b",
-          "text": "Konbanwa (こんばんは)",
+          "text": "Konbanwa, minna-san, yoroshiku (こんばんは、皆さん、よろしく)",
           "feedback": "Det är en kvällshälsning och passar inte här."
         },
         {
           "id": "c",
-          "text": "Dō itashimashite (どういたしまして)",
-          "feedback": "Det betyder ”varsågod” och sägs när någon tackar dig."
+          "text": "Dō itashimashite, sumimasen (どういたしまして、すみません)",
+          "feedback": "Dō itashimashite betyder ”varsågod” och sägs när någon tackar dig. Det passar inte här."
         }
       ]
     }
@@ -306,13 +306,13 @@
         },
         {
           "id": "b",
-          "text": "Konnichiwa (こんにちは)",
+          "text": "Konnichiwa, minna-san (こんにちは、皆さん)",
           "feedback": "Det är en dagshälsning."
         },
         {
           "id": "c",
-          "text": "Wakarimasen (わかりません)",
-          "feedback": "Det betyder ”jag förstår inte”."
+          "text": "Wakarimasen, sumimasen (わかりません、すみません)",
+          "feedback": "Det betyder ”jag förstår inte, förlåt”."
         },
         {
           "id": "d",
@@ -360,17 +360,17 @@
         },
         {
           "id": "b",
-          "text": "Man ska uttala o som å",
+          "text": "Man ska uttala o som ett svenskt å-ljud",
           "feedback": "Fel. Längden skiljer, inte ljudet."
         },
         {
           "id": "c",
-          "text": "Ordet är en fråga",
+          "text": "Ordet är en fråga och betonas med stigande ton",
           "feedback": "Fel. Frågor markeras med ka."
         },
         {
           "id": "d",
-          "text": "Det ska inte uttalas alls",
+          "text": "Vokalen är tyst och uttalas inte alls",
           "feedback": "Fel. Vokalen uttalas, och den är lång."
         }
       ]

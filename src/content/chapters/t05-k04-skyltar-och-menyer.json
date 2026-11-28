@@ -141,19 +141,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Visa ett förberett kort på japanska, och fråga personalen.",
+          "text": "Visa ett kort på japanska och fråga personalen.",
           "correct": true,
           "feedback": "Bra. Förberedelse är säkrast."
         },
         {
           "id": "b",
-          "text": "Gissa vilken rätt som är säker.",
+          "text": "Gissa vilken rätt som är säker utifrån bilder",
           "correct": false,
           "feedback": "Det är riskabelt."
         },
         {
           "id": "c",
-          "text": "Förlita dig bara på kameraöversättning.",
+          "text": "Förlita dig helt på kameraöversättning av hela menyn",
           "correct": false,
           "feedback": "Appar kan göra fel, och du bör inte bara lita på dem vid allergier."
         }
@@ -233,17 +233,17 @@
         },
         {
           "id": "b",
-          "text": "Vänta tills du är på plats.",
+          "text": "Vänta och ladda ned dem först när du är på plats",
           "feedback": "Fel. Appen bör laddas ned och testas i förväg, eftersom offlineläget kan fungera sämre på menyer."
         },
         {
           "id": "c",
-          "text": "Aldrig använda dem.",
+          "text": "Aldrig använda dem, eftersom de översätter för dåligt",
           "feedback": "De är användbara."
         },
         {
           "id": "d",
-          "text": "Bara använda dem för tecken.",
+          "text": "Bara använda dem för skyltar, inte menyer",
           "feedback": "Fel. Många appar kan även översätta text via kameran, men de bör testas i förväg."
         }
       ]
@@ -254,23 +254,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Skriva ner dem på japanska på ett kort.",
+          "text": "Skriva dem på japanska på ett kort.",
           "correct": true,
           "feedback": "Rätt. Ett kort på japanska med dina allergier är ett säkert sätt att visa vad du inte tål."
         },
         {
           "id": "b",
-          "text": "Gissa.",
+          "text": "Gissa utifrån bilderna på menyn",
           "feedback": "Fel. Allergier ska skrivas ner på ett kort, inte gissas."
         },
         {
           "id": "c",
-          "text": "Äta ändå.",
+          "text": "Äta ändå och hoppas att det går bra",
           "feedback": "Fel. Vid allergi ska du inte ta risken, utan visa ett kort på japanska."
         },
         {
           "id": "d",
-          "text": "Aldrig äta ute.",
+          "text": "Undvika alla restauranger under hela resan",
           "feedback": "Onödigt."
         }
       ]
@@ -287,17 +287,17 @@
         },
         {
           "id": "b",
-          "text": "En typ av tåg",
+          "text": "En typ av tåg på landsbygden",
           "feedback": "Fel. 定食 (teishoku) är en måltid som serveras som set med ris och soppa."
         },
         {
           "id": "c",
-          "text": "En toalett",
+          "text": "En offentlig toalett med uppvärmd sits",
           "feedback": "Fel. 定食 (teishoku) är en måltid som serveras som set med ris och soppa."
         },
         {
           "id": "d",
-          "text": "Ett tecken",
+          "text": "Ett tecken som betyder stängt",
           "feedback": "Fel. 定食 (teishoku) är en måltid och inte ett tecken för något annat."
         }
       ]

@@ -72,13 +72,13 @@
         },
         {
           "id": "b",
-          "text": "Flygande bilar.",
+          "text": "Flygande bilar för pendlare i städerna.",
           "correct": false,
           "feedback": "Fel. Flygande bilar nämns inte, utan kapitlet beskriver enkel vardagsteknik."
         },
         {
           "id": "c",
-          "text": "Inga automater.",
+          "text": "Inga automater, bara små kiosker.",
           "correct": false,
           "feedback": "Fel. Kapitlet beskriver varuautomater och biljettautomater som vanliga."
         }
@@ -92,19 +92,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Att vara en av världens ledande tillverkare av industrirobotar.",
+          "text": "Att vara en ledande tillverkare av industrirobotar",
           "correct": true,
           "feedback": "Rätt. Japan är världens ledande tillverkare av industrirobotar."
         },
         {
           "id": "b",
-          "text": "Att inte tillverka några.",
+          "text": "Att importera alla sina robotar från andra länder",
           "correct": false,
           "feedback": "Fel. Japan är tvärtom världens ledande tillverkare av industrirobotar."
         },
         {
           "id": "c",
-          "text": "Att bara ha leksaksrobotar.",
+          "text": "Att bara tillverka små leksaksrobotar för barn och samlare",
           "correct": false,
           "feedback": "Fel. Kapitlet handlar om industrirobotar, inte om leksaksrobotar."
         }
@@ -178,23 +178,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Omkring 38–45 procent",
+          "text": "Omkring 38–45 procent av produktionen",
           "correct": true,
           "feedback": "Rätt, beroende på år och mått."
         },
         {
           "id": "b",
-          "text": "Cirka 1 procent",
+          "text": "Cirka 1 procent av världsproduktionen",
           "feedback": "Fel. Enligt IFR står Japan för ungefär 38 till 45 procent, vilket är långt mer än 1 procent."
         },
         {
           "id": "c",
-          "text": "Cirka 90 procent",
+          "text": "Cirka 90 procent, nästan hela världsproduktionen",
           "feedback": "Fel. Enligt IFR är andelen ungefär 38 till 45 procent, inte 90."
         },
         {
           "id": "d",
-          "text": "Inget",
+          "text": "Inget, Japan tillverkar inga robotar alls",
           "feedback": "Fel. Japan är världens ledande tillverkare av industrirobotar, med ungefär 38 till 45 procent."
         }
       ]
@@ -211,17 +211,17 @@
         },
         {
           "id": "b",
-          "text": "Humanoida robotar överallt",
+          "text": "Humanoida robotar som arbetar överallt i staden",
           "feedback": "Fel. Människoliknande robotar är oftast demonstrationer eller försök, inte vardag."
         },
         {
           "id": "c",
-          "text": "Inga maskiner",
+          "text": "Inga maskiner alls, allt görs för hand",
           "feedback": "Fel. Kapitlet beskriver vardagen som full av enkel teknik som automater och kortläsare."
         },
         {
           "id": "d",
-          "text": "Flygande bilar",
+          "text": "Flygande bilar som används av pendlare",
           "feedback": "Fel. Flygande bilar nämns inte, utan kapitlet beskriver enkel och vardaglig teknik."
         }
       ]
@@ -265,17 +265,17 @@
         },
         {
           "id": "b",
-          "text": "Vad kostar internet?",
+          "text": "Vad kostar internet i månaden?",
           "feedback": "Fel. Kapitlets frågor gäller vem som tjänar på tekniken och vem som betalar för den."
         },
         {
           "id": "c",
-          "text": "Vilken färg har den?",
+          "text": "Vilken färg och vilken storlek har den?",
           "feedback": "Fel. Kapitlets frågor gäller vem som tjänar på tekniken och vem som betalar för den."
         },
         {
           "id": "d",
-          "text": "Är den gammal?",
+          "text": "Är den gammal eller ny i butik?",
           "feedback": "Fel. Kapitlets frågor gäller vem som tjänar på tekniken och vem som betalar för den."
         }
       ]

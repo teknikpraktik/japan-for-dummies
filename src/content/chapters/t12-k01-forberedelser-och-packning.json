@@ -70,19 +70,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Ha god marginal i giltighetstid och kontrollera reglerna.",
+          "text": "Ha god marginal i giltighet och kolla reglerna.",
           "correct": true,
           "feedback": "Rätt. Källorna skiljer sig åt om giltighetstiden, så god marginal och kontroll av reglerna är säkrast."
         },
         {
           "id": "b",
-          "text": "Strunta i datumet.",
+          "text": "Strunta i datumet och kolla det först vid avresan.",
           "correct": false,
           "feedback": "Fel. Giltighetstiden ska kontrolleras i god tid, eftersom reglerna kan skilja sig åt."
         },
         {
           "id": "c",
-          "text": "Anta att det alltid är ok.",
+          "text": "Anta att passet duger så länge det inte har gått ut än.",
           "correct": false,
           "feedback": "Fel. Reglerna ändras och källorna skiljer sig åt, så de bör kontrolleras."
         }
@@ -96,19 +96,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Kontrollerar reglerna, tar med original och recept eller intyg.",
+          "text": "Kollar reglerna, tar med original och recept/intyg.",
           "correct": true,
           "feedback": "Rätt. Vissa läkemedel är begränsade i Japan, så reglerna ska kontrolleras och läkemedel tas med i originalförpackning med recept eller intyg."
         },
         {
           "id": "b",
-          "text": "Tar med allt utan att kolla.",
+          "text": "Tar med allt i en vanlig påse utan att kontrollera något",
           "correct": false,
           "feedback": "Fel. Vissa läkemedel är förbjudna eller begränsade i Japan, så reglerna måste kontrolleras först."
         },
         {
           "id": "c",
-          "text": "Lämnar dem hemma utan att fråga.",
+          "text": "Lämnar dem hemma och köper nytt på plats utan recept",
           "correct": false,
           "feedback": "Prata med din vårdgivare."
         }
@@ -182,23 +182,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Regler hos japanska myndigheter och din läkare",
+          "text": "Regler hos japanska myndigheter och läkaren",
           "correct": true,
           "feedback": "Rätt. Läkemedelsreglerna ändras, så de ska kontrolleras hos japanska myndigheter och din läkare."
         },
         {
           "id": "b",
-          "text": "Ingenting",
+          "text": "Ingenting, alla läkemedel är tillåtna",
           "feedback": "Fel. Vissa läkemedel är förbjudna eller begränsade, så reglerna måste kontrolleras."
         },
         {
           "id": "c",
-          "text": "Bara färgen på förpackningen",
-          "feedback": "Fel. Förpackningens färg är inte avgörande, men du bör ta med originalförpackning och kontrollera reglerna."
+          "text": "Bara hur många tabletter som ryms i handbagaget",
+          "feedback": "Fel. Antalet tabletter är inte det viktiga, utan reglerna hos myndigheterna och din läkare; ta med originalförpackning."
         },
         {
           "id": "d",
-          "text": "Bara priset",
+          "text": "Bara vad läkemedlet kostar i Sverige",
           "feedback": "Fel. Priset spelar ingen roll, utan det är reglerna hos myndigheterna och din läkare som ska kontrolleras."
         }
       ]
@@ -215,18 +215,18 @@
         },
         {
           "id": "b",
-          "text": "Fyra par tunga stövlar",
+          "text": "Fyra par tunga stövlar och en jacka",
           "feedback": "Fel. Kapitlet råder dig att inte packa för mycket, och tunga stövlar tar plats."
         },
         {
           "id": "c",
-          "text": "Ingenting",
+          "text": "Ingenting, eftersom allt kan köpas där",
           "feedback": "Fel. Kapitlet listar flera saker som är bra att ha med, till exempel regnskydd."
         },
         {
           "id": "d",
-          "text": "En tält",
-          "feedback": "Fel. Ett tält nämns inte, och kapitlet råder dig att inte packa för mycket."
+          "text": "Ett tält med tillhörande sovsäck och kokare",
+          "feedback": "Fel. Tält och sovsäck nämns inte, och kapitlet råder dig att inte packa för mycket."
         }
       ]
     },
@@ -242,17 +242,17 @@
         },
         {
           "id": "b",
-          "text": "Tre runda stift",
+          "text": "Tre runda stift i triangelformation",
           "feedback": "Fel. Kapitlet anger att Japan vanligen använder två platta stift."
         },
         {
           "id": "c",
-          "text": "Ingen",
+          "text": "Fyra små stift i rad (adapter krävs alltid)",
           "feedback": "Fel. Japan har eluttag, vanligen med två platta stift."
         },
         {
           "id": "d",
-          "text": "Samma som Sverige",
+          "text": "Samma typ som i Sverige, utan adapter",
           "feedback": "Fel. Kapitlet anger att du kan behöva en adapter, så uttagen är inte samma som i Sverige."
         }
       ]

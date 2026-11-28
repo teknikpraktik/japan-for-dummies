@@ -103,19 +103,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Paret måste välja ett gemensamt efternamn.",
+          "text": "Paret måste ha ett gemensamt efternamn efter giftet",
           "correct": true,
           "feedback": "Rätt. I praktiken byter oftast kvinnan namn."
         },
         {
           "id": "b",
-          "text": "Paret måste ha olika efternamn.",
+          "text": "Paret måste ha olika efternamn efter giftermålet",
           "correct": false,
           "feedback": "Fel. Lagen kräver att gifta par har samma efternamn."
         },
         {
           "id": "c",
-          "text": "Det finns inga regler.",
+          "text": "Det finns inga regler om efternamn för gifta par i Japan",
           "correct": false,
           "feedback": "Fel. Lagen kräver att gifta par har samma efternamn."
         }
@@ -130,19 +130,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Det finns sådana familjer, men det vanligaste är kärnfamiljer och enpersonshushåll.",
+          "text": "Sådana finns, men kärnfamiljer och ensamhushåll är vanligast.",
           "correct": true,
           "feedback": "Bra. Du nyanserar med statistik."
         },
         {
           "id": "b",
-          "text": "Det är helt sant.",
+          "text": "Det är helt sant, för så bor nästan alla japanska familjer.",
           "correct": false,
           "feedback": "Fel. De är en minoritet."
         },
         {
           "id": "c",
-          "text": "Det är helt falskt.",
+          "text": "Det är helt falskt, ingen japansk familj bor så längre i hela landet.",
           "correct": false,
           "feedback": "Det finns sådana familjer, men de är inte typiska."
         }

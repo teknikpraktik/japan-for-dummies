@@ -99,19 +99,19 @@
       "options": [
         {
           "id": "a",
-          "text": "”Hos oss är det annorlunda. Hur fungerar det här?”",
+          "text": "”Hos oss är det annorlunda. Hur går det till?”",
           "correct": true,
           "feedback": "Rätt. Meningen beskriver en skillnad utan att värdera och bjuder in till en förklaring."
         },
         {
           "id": "b",
-          "text": "”Hos oss är det bättre.”",
+          "text": "”Hos oss är det bättre. Varför gör ni inte så?”",
           "correct": false,
           "feedback": "Det är värderande."
         },
         {
           "id": "c",
-          "text": "”Det här är konstigt.”",
+          "text": "”Det här är konstigt. Varför gör ni så och inte som vi?”",
           "correct": false,
           "feedback": "Det är värderande."
         }
@@ -191,17 +191,17 @@
         },
         {
           "id": "b",
-          "text": "Vänliga slutsatser om en person.",
+          "text": "Vänliga slutsatser om en enskild person.",
           "feedback": "Fel. Vänliga slutsatser om en person är inte problemet; kapitlet varnar för att peka ut grupper."
         },
         {
           "id": "c",
-          "text": "Ingen slutsats alls.",
+          "text": "Ingen slutsats alls, inte ens om enskilda fall.",
           "feedback": "Fel. Kapitlet handlar om att undvika snabba slutsatser om grupper, inte om att dra inga alls."
         },
         {
           "id": "d",
-          "text": "Matematiska slutsatser.",
+          "text": "Matematiska slutsatser om siffror och mått.",
           "feedback": "Fel. Kapitlet handlar om stereotypa slutsatser om grupper, inte om matematik."
         }
       ]
@@ -218,17 +218,17 @@
         },
         {
           "id": "b",
-          "text": "Mat",
+          "text": "Mat, till exempel era favoriträtter hemifrån",
           "feedback": "Fel. Mat nämns som ett bra samtalsämne, inte ett som behöver vänta."
         },
         {
           "id": "c",
-          "text": "Skola",
+          "text": "Skola, till exempel vad ni läser eller gör",
           "feedback": "Fel. Skola nämns som ett bra samtalsämne, inte ett som behöver vänta."
         },
         {
           "id": "d",
-          "text": "Musik",
+          "text": "Musik, till exempel favoritband, spel och tv-serier",
           "feedback": "Fel. Musik nämns som ett bra samtalsämne, inte ett som behöver vänta."
         }
       ]
@@ -239,23 +239,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Tackar, gärna skriftligt.",
+          "text": "Tackar efteråt, gärna skriftligt.",
           "correct": true,
           "feedback": "Rätt. Kapitlet säger att du ska skriva ett tack och berätta vad du uppskattade, vilket betyder mycket."
         },
         {
           "id": "b",
-          "text": "Glömmer det.",
+          "text": "Glömmer bort att tacka efteråt.",
           "feedback": "Fel. Kapitlet rekommenderar att du skriver ett tack efteråt."
         },
         {
           "id": "c",
-          "text": "Kräver pengar.",
+          "text": "Ber om ersättning för kostnaderna.",
           "feedback": "Fel. Som gäst ska du tacka, inte kräva något."
         },
         {
           "id": "d",
-          "text": "Lämnar utan ett ord.",
+          "text": "Lämnar huset utan att säga något alls.",
           "feedback": "Fel. Kapitlet säger att du ska tacka efteråt, gärna med några rader."
         }
       ]
@@ -272,17 +272,17 @@
         },
         {
           "id": "b",
-          "text": "Säga att ditt land är bäst.",
+          "text": "Säga att ditt land är bäst på allt möjligt.",
           "feedback": "Fel. Det är värderande; kapitlet säger att man ska beskriva skillnader utan att värdera."
         },
         {
           "id": "c",
-          "text": "Säga att andras är konstigt.",
+          "text": "Säga att andras seder är konstiga.",
           "feedback": "Fel. Det är värderande; kapitlet säger att man ska beskriva skillnader utan att värdera."
         },
         {
           "id": "d",
-          "text": "Aldrig jämföra.",
+          "text": "Aldrig jämföra något med sitt hemland.",
           "feedback": "Inte nödvändigt."
         }
       ]

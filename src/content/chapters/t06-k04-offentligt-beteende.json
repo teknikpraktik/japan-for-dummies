@@ -115,13 +115,13 @@
         },
         {
           "id": "b",
-          "text": "Kastar pengarna.",
+          "text": "Stoppar ned pengarna i sin egen ficka",
           "correct": false,
-          "feedback": "Fel. Brickan är till för att lägga pengar eller kort på, inte för att kasta dem."
+          "feedback": "Fel. Brickan är till för att lägga pengar eller kort på, inte för att stoppa ned pengarna i fickan."
         },
         {
           "id": "c",
-          "text": "Går utan att betala.",
+          "text": "Går ut ur butiken utan att betala för varorna",
           "correct": false,
           "feedback": "Fel. Du betalar vid kassan, och brickan är till för att lägga pengarna eller kortet på."
         }
@@ -141,23 +141,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Flera faktorer, bland annat att många togs bort efter 1995 och en känsla av eget ansvar.",
+          "text": "Flera orsaker, bland annat borttagning efter 1995 och eget ansvar.",
           "correct": true,
           "feedback": "Rätt. Kapitlet nämner flera orsaker, bland annat att många korgar togs bort efter attacken 1995 och att många tar med skräpet hem."
         },
         {
           "id": "b",
-          "text": "De har aldrig funnits.",
+          "text": "De har aldrig funnits i japanska städer, eftersom ingen velat ha dem alls.",
           "feedback": "Fel. Papperskorgar har funnits, men många togs bort efter attacken 1995."
         },
         {
           "id": "c",
-          "text": "De är förbjudna.",
+          "text": "De är förbjudna enligt en nationell lag om offentliga platser.",
           "feedback": "Fel. Kapitlet säger inte att korgarna är förbjudna, och några finns vid parker, automater och i butiker."
         },
         {
           "id": "d",
-          "text": "De är för dyra att tömma.",
+          "text": "De är för dyra för kommunerna att tömma varje dag året runt",
           "feedback": "Det nämns, men är inte hela bilden."
         }
       ]
@@ -168,23 +168,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Tar med det till hotellet eller ett sopkärl.",
+          "text": "Tar med det till hotellet eller till ett sopkärl.",
           "correct": true,
           "feedback": "Rätt. Resenärer rekommenderas ta med skräpet tills de når hotellet eller ett sopkärl."
         },
         {
           "id": "b",
-          "text": "Lämnar det på marken.",
+          "text": "Lämnar det på marken bredvid närmaste automat.",
           "feedback": "Fel. Skräp ska inte lämnas på marken, utan tas med tills du hittar ett sopkärl."
         },
         {
           "id": "c",
-          "text": "Gömmer det.",
+          "text": "Gömmer det under en bänk eller bakom en buske i parken.",
           "feedback": "Fel. Att gömma skräp är inte lösningen, utan att ta med det till hotellet eller ett sopkärl."
         },
         {
           "id": "d",
-          "text": "Kastar det i ett vattendrag.",
+          "text": "Kastar det i ett vattendrag eller i skogen.",
           "feedback": "Fel. Skräp ska inte kastas i naturen, utan tas med till hotellet eller ett sopkärl."
         }
       ]
@@ -222,24 +222,24 @@
       "options": [
         {
           "id": "a",
-          "text": "Pengar och kort läggs där.",
+          "text": "Pengar och kort läggs där i stället för i handen",
           "correct": true,
           "feedback": "Rätt. Brickan är till för att du ska lägga pengar eller kort där i stället för att räcka dem direkt."
         },
         {
           "id": "b",
-          "text": "Mat.",
-          "feedback": "Fel. Brickan vid kassan används för pengar och kort, inte för mat."
+          "text": "Matvaror läggs där medan kvittot skrivs ut.",
+          "feedback": "Fel. Brickan vid kassan används för pengar och kort, inte för matvaror."
         },
         {
           "id": "c",
-          "text": "Skor.",
+          "text": "Skor läggs där när man kliver in i butiken.",
           "feedback": "Fel. Brickan vid kassan används för pengar och kort, inte för skor."
         },
         {
           "id": "d",
-          "text": "Kartor.",
-          "feedback": "Fel. Brickan vid kassan används för pengar och kort, inte för kartor."
+          "text": "Kartor och broschyrer läggs där för turister som frågar",
+          "feedback": "Fel. Brickan vid kassan används för pengar och kort, inte för kartor och broschyrer."
         }
       ]
     },
@@ -249,23 +249,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Efter platsen: tyst på tåg och i tempel.",
+          "text": "Efter platsen, tyst på tåg och i tempel.",
           "correct": true,
           "feedback": "Rätt. Ljudnivån anpassas efter platsen, med tystnad på tåg och i tempel."
         },
         {
           "id": "b",
-          "text": "Alltid högt.",
+          "text": "Alltid högt, så att alla i närheten kan höra en.",
           "feedback": "Fel. På tåg och i tempel och på museer förväntas det vara tyst och lugnt."
         },
         {
           "id": "c",
-          "text": "Alltid tyst.",
+          "text": "Alltid tyst, även på marknader och på gatan.",
           "feedback": "Inte alltid nödvändigt."
         },
         {
           "id": "d",
-          "text": "Ingen skillnad.",
+          "text": "Ingen skillnad mellan olika slags platser.",
           "feedback": "Fel. Kapitlet betonar att ljudnivån ska anpassas efter platsen."
         }
       ]

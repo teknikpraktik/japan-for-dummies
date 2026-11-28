@@ -131,19 +131,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Skriva ner vad jag tror, är nyfiken på och är osäker på.",
+          "text": "Skriva ner vad jag tror, undrar och är osäker på",
           "correct": true,
           "feedback": "Rätt. Att skriva ner vad du tror, är nyfiken på och är osäker på hjälper dig att märka vad som förvånar dig."
         },
         {
           "id": "b",
-          "text": "Inte tänka alls.",
+          "text": "Inte tänka på förväntningarna före avresan",
           "correct": false,
           "feedback": "Fel. Kapitlet föreslår tvärtom att du skriver ner dina föreställningar före resan."
         },
         {
           "id": "c",
-          "text": "Läsa bara en bok.",
+          "text": "Läsa bara en bok om landet och sedan anse mig färdig",
           "correct": false,
           "feedback": "Fel. Förberedelsen i kapitlet är att skriva ner vad du tror, är nyfiken på och är osäker på."
         }
@@ -190,23 +190,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Att göra något om en person till något om alla",
+          "text": "Att göra något om en till något om alla",
           "correct": true,
           "feedback": "Rätt. En generalisering gör något om en person till något om alla."
         },
         {
           "id": "b",
-          "text": "Ett kontrollerbart faktum",
+          "text": "Ett faktum som kan kontrolleras i källor",
           "feedback": "Fel. Ett kontrollerbart faktum är något annat än en generalisering."
         },
         {
           "id": "c",
-          "text": "En upplevelse",
+          "text": "En personlig upplevelse från en resa",
           "feedback": "Fel. En upplevelse är ett intryck, inte en generalisering."
         },
         {
           "id": "d",
-          "text": "En fråga",
+          "text": "En fråga som ställs i en enkät eller en intervju",
           "feedback": "Fel. En fråga är inte ett påstående och därför ingen generalisering."
         }
       ]
@@ -250,17 +250,17 @@
         },
         {
           "id": "b",
-          "text": "För att slippa tänka.",
+          "text": "För att slippa tänka efter när du är på plats.",
           "feedback": "Fel. Poängen är att tänka igenom förväntningarna och jämföra dem med verkligheten."
         },
         {
           "id": "c",
-          "text": "För att bevisa att du har rätt.",
+          "text": "För att kunna bevisa att du hade rätt.",
           "feedback": "Fel. Syftet är att lägga märke till vad som förvånar dig, inte att få rätt."
         },
         {
           "id": "d",
-          "text": "För att det är obligatoriskt.",
+          "text": "För att det är ett krav från arrangören.",
           "feedback": "Fel. Anteckningarna hjälper dig att reflektera, de är inte ett krav."
         }
       ]
@@ -277,17 +277,17 @@
         },
         {
           "id": "b",
-          "text": "Du vet allt.",
+          "text": "Du vet redan allt som finns att veta om landet.",
           "feedback": "Fel. Efter en kort resa har du sett ett litet urval, inte allt."
         },
         {
           "id": "c",
-          "text": "Det finns inget att lära.",
+          "text": "Det finns inget mer att lära om landet.",
           "feedback": "Fel. Kapitlet uppmuntrar till att ta med sig nya frågor och lära sig mer."
         },
         {
           "id": "d",
-          "text": "Resan är inte verklig.",
+          "text": "Resan är inte en verklig upplevelse.",
           "feedback": "Fel. Resan är en verklig upplevelse, men den visar bara en del av landet."
         }
       ]
@@ -298,23 +298,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Skriva en kort sammanfattning och en fråga du har kvar.",
+          "text": "Sammanfatta och skriva en fråga du har kvar",
           "correct": true,
           "feedback": "Rätt. En kort sammanfattning och en fråga du har kvar hjälper dig att ta med dig lärdomar och fortsätta lära."
         },
         {
           "id": "b",
-          "text": "Aldrig mer tänka på det.",
+          "text": "Aldrig mer tänka på resan eller på anteckningarna",
           "feedback": "Fel. Kapitlet föreslår att du går tillbaka till dina anteckningar och sammanfattar."
         },
         {
           "id": "c",
-          "text": "Skriva en generalisering.",
+          "text": "Skriva en generalisering om hela landet",
           "feedback": "Fel. Kapitlet varnar för generaliseringar och vill att du skiljer upplevelse från vad du kan veta."
         },
         {
           "id": "d",
-          "text": "Ljuga.",
+          "text": "Överdriva upplevelser så att de låter bättre",
           "feedback": "Fel. Reflektionen bygger på ärliga anteckningar om vad du sett och undrar över."
         }
       ]

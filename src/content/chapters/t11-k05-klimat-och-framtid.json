@@ -139,13 +139,13 @@
         },
         {
           "id": "b",
-          "text": "Springa en mil.",
+          "text": "Springa en lång sträcka i solen mitt på dagen.",
           "correct": false,
           "feedback": "Fel. Hård ansträngning i hettan ökar risken för värmeslag, och kapitlet råder till vila."
         },
         {
           "id": "c",
-          "text": "Ignorera.",
+          "text": "Ignorera varningen och gå vidare.",
           "correct": false,
           "feedback": "Fel. Värmeslag är en risk, så varningar ska följas."
         }
@@ -160,19 +160,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Framtiden beror på val, och det finns flera scenarier. Jag frågar vad som görs.",
+          "text": "Framtiden beror på val. Jag frågar vad som görs.",
           "correct": true,
           "feedback": "Bra."
         },
         {
           "id": "b",
-          "text": "Det stämmer.",
+          "text": "Det stämmer, det är redan för sent för allt.",
           "correct": false,
           "feedback": "Fatalistiskt."
         },
         {
           "id": "c",
-          "text": "Det finns inga problem.",
+          "text": "Det finns inga problem alls, så ingenting behöver göras.",
           "correct": false,
           "feedback": "Fel. Kapitlet beskriver tydliga klimatutmaningar som hetta och kraftigare regn."
         }
@@ -219,23 +219,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Den var den varmaste som uppmätts.",
+          "text": "Den var den varmaste som uppmätts i landet.",
           "correct": true,
           "feedback": "Rätt, enligt rapporter."
         },
         {
           "id": "b",
-          "text": "Den var den kallaste.",
+          "text": "Den var den kallaste som uppmätts i landet.",
           "feedback": "Fel. Enligt rapporter var sommaren 2025 den varmaste som uppmätts."
         },
         {
           "id": "c",
-          "text": "Den var normal.",
+          "text": "Den var en helt normal sommar för landet.",
           "feedback": "Fel. Enligt rapporter var sommaren 2025 den varmaste som uppmätts."
         },
         {
           "id": "d",
-          "text": "Den ställdes in.",
+          "text": "Den ställdes in av säkerhetsskäl i hela landet.",
           "feedback": "Fel. Sommaren 2025 beskrevs som den varmaste som uppmätts, inte som inställd."
         }
       ]
@@ -273,23 +273,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Att koppla ett enskilt väderfall direkt till klimatförändringen.",
+          "text": "Att direkt koppla ett väderfall till klimatförändringen.",
           "correct": true,
           "feedback": "Rätt. Meteorologer varnar för att koppla ett enskilt väderfall direkt till klimatförändringen."
         },
         {
           "id": "b",
-          "text": "Att läsa rapporter.",
+          "text": "Att läsa rapporter om väder och klimat i japanska medier.",
           "feedback": "Fel. Kapitlet bygger på rapporter, och försiktigheten gäller att koppla ett enskilt väderfall till klimatförändringen."
         },
         {
           "id": "c",
-          "text": "Att dricka vatten.",
+          "text": "Att dricka tillräckligt med vatten under de varma sommardagarna.",
           "feedback": "Fel. Kapitlet råder tvärtom besökare att dricka vatten i hettan."
         },
         {
           "id": "d",
-          "text": "Att planera.",
+          "text": "Att planera sin resa i förväg med hänsyn till vädret.",
           "feedback": "Fel. Att planera är inget kapitlet varnar för, utan försiktigheten gäller enskilda väderfall."
         }
       ]
@@ -306,17 +306,17 @@
         },
         {
           "id": "b",
-          "text": "Tro på ett enda.",
+          "text": "Tro på ett enda scenario som den enda sanningen.",
           "feedback": "Fel. Kapitlet säger att verkligheten sannolikt blir en blandning av scenarier."
         },
         {
           "id": "c",
-          "text": "Aldrig tänka på det.",
+          "text": "Aldrig tänka på framtiden, eftersom den ändå är oviss.",
           "feedback": "Fel. Kapitlet uppmuntrar till att fundera på framtiden och ställa frågor."
         },
         {
           "id": "d",
-          "text": "Alltid vara säker.",
+          "text": "Alltid vara helt säker på hur framtiden blir.",
           "feedback": "Fel. Framtiden är osäker, och därför jämförs flera scenarier."
         }
       ]

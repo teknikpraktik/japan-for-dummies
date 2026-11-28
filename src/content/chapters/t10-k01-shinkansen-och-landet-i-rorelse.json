@@ -112,19 +112,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Mer än en minut efter tidtabellen",
+          "text": "Över en minut efter tidtabellen",
           "correct": true,
           "feedback": "Rätt. Ett tåg räknas som försenat först om det är mer än en minut efter tidtabellen."
         },
         {
           "id": "b",
-          "text": "Mer än en timme",
+          "text": "Mer än en timme efter tidtabellen",
           "correct": false,
           "feedback": "Fel. Gränsen är betydligt strängare än så: mer än en minut efter tidtabellen."
         },
         {
           "id": "c",
-          "text": "Minst en dag",
+          "text": "Minst en hel dag efter ordinarie tidtabell",
           "correct": false,
           "feedback": "Fel. Ett tåg räknas som försenat redan när det är mer än en minut efter tidtabellen."
         }
@@ -145,13 +145,13 @@
         },
         {
           "id": "b",
-          "text": "Lita på att allt går i sekund.",
+          "text": "Lita på att allt alltid går exakt i sekund.",
           "correct": false,
           "feedback": "Det kan gå fel."
         },
         {
           "id": "c",
-          "text": "Hoppa över bytet.",
+          "text": "Hoppa över bytet och hoppas på tur.",
           "correct": false,
           "feedback": "Fel. Att hoppa över bytet löser inget; kapitlet rekommenderar extra tid och en plan B."
         }
@@ -171,23 +171,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Ny stamlinje",
+          "text": "Ny stamlinje för tåg",
           "correct": true,
           "feedback": "Rätt. Shinkansen betyder ”ny stamlinje” och är Japans höghastighetståg."
         },
         {
           "id": "b",
-          "text": "Snabb vind",
+          "text": "Snabb vind över slätterna",
           "feedback": "Fel. Shinkansen betyder ”ny stamlinje”."
         },
         {
           "id": "c",
-          "text": "Röd port",
+          "text": "Röd port till templet",
           "feedback": "Fel. Shinkansen betyder ”ny stamlinje”, inte något om portar."
         },
         {
           "id": "d",
-          "text": "Stor båt",
+          "text": "Stor båt över havet",
           "feedback": "Fel. Shinkansen betyder ”ny stamlinje”, inte något om båtar."
         }
       ]
@@ -231,17 +231,17 @@
         },
         {
           "id": "b",
-          "text": "Slump",
+          "text": "Ren slump och tur med trafiken",
           "feedback": "Fel. Punktligheten bygger på rutiner, personal och egna spår, inte på slump."
         },
         {
           "id": "c",
-          "text": "Inga passagerare",
+          "text": "Frånvaro av passagerare på plattformarna",
           "feedback": "Fel. Passagerare bidrar snarare genom att köa och stiga på och av snabbt."
         },
         {
           "id": "d",
-          "text": "Aldrig något väder",
+          "text": "Ett väder som aldrig blir dåligt",
           "feedback": "Fel. Väder kan försena tåg; punktligheten bygger på rutiner och egna spår."
         }
       ]
@@ -258,18 +258,18 @@
         },
         {
           "id": "b",
-          "text": "Inget",
+          "text": "Ingenting, tågen går alltid enligt plan",
           "feedback": "Fel. Kapitlet nämner flera störningar, till exempel jordbävningar, tyfoner och snö."
         },
         {
           "id": "c",
-          "text": "Bara sommaren",
+          "text": "Enbart värmen under sommarmånaderna",
           "feedback": "Fel. Störningar kan komma när som helst på året, till exempel av tyfoner och snö."
         },
         {
           "id": "d",
-          "text": "Bara fotboll",
-          "feedback": "Fel. Kapitlet nämner jordbävningar, tyfoner, snö och olyckor, inte fotboll."
+          "text": "Enbart fotbollsmatcher på helgerna",
+          "feedback": "Fel. Kapitlet nämner jordbävningar, tyfoner, snö och olyckor, inte fotbollsmatcher."
         }
       ]
     },
@@ -285,17 +285,17 @@
         },
         {
           "id": "b",
-          "text": "Planera varje minut",
+          "text": "Planera varje minut utan marginal",
           "feedback": "Fel. Att planera varje minut lämnar ingen marginal om något avviker."
         },
         {
           "id": "c",
-          "text": "Hoppa över bokning",
+          "text": "Hoppa över bokning av biljetter i förväg",
           "feedback": "Fel. Kapitlet beskriver hur biljetter fungerar och säger inte att man ska hoppa över bokning."
         },
         {
           "id": "d",
-          "text": "Gissa",
+          "text": "Gissa och improvisera hela resan",
           "feedback": "Fel. Kapitlet förespråkar planering med marginal och en plan B, inte gissningar."
         }
       ]

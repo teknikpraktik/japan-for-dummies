@@ -126,19 +126,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Ramen finns i många lokala varianter, och den här är lokal.",
+          "text": "Ramen har många varianter, och den här är lokal.",
           "correct": true,
           "feedback": "Bra."
         },
         {
           "id": "b",
-          "text": "Hålla med.",
+          "text": "Hålla med och säga att det inte är riktig ramen alls.",
           "correct": false,
           "feedback": "Det blir en snäv bild."
         },
         {
           "id": "c",
-          "text": "Avbryta måltiden.",
+          "text": "Avbryta måltiden och be om en annan rätt.",
           "correct": false,
           "feedback": "Onödigt."
         }
@@ -185,23 +185,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Tonkotsu",
+          "text": "Tonkotsu, med buljong på fläskben",
           "correct": true,
           "feedback": "Rätt. Hakataramen är tonkotsuramen med buljong på fläskben."
         },
         {
           "id": "b",
-          "text": "Miso",
+          "text": "Miso, med buljong på sojabönspasta",
           "feedback": "Det är Sapporo."
         },
         {
           "id": "c",
-          "text": "Curry",
+          "text": "Curry, med kryddig sås och tjocka nudlar",
           "feedback": "Fel. Hakataramen är tonkotsu, med buljong på fläskben, inte curry."
         },
         {
           "id": "d",
-          "text": "Soba",
+          "text": "Soba, med tunna nudlar av bovete",
           "feedback": "Fel. Hakataramen är tonkotsu, med buljong på fläskben, inte soba."
         }
       ]
@@ -212,23 +212,23 @@
       "options": [
         {
           "id": "a",
-          "text": "En skål ris med skaldjur",
+          "text": "En skål ris med råa skaldjur",
           "correct": true,
           "feedback": "Rätt. Kaisendon är en skål ris med råa skaldjur."
         },
         {
           "id": "b",
-          "text": "En sorts te",
+          "text": "En sorts te som dricks varm",
           "feedback": "Fel. Kaisendon är en maträtt, en skål ris med skaldjur, inte en te."
         },
         {
           "id": "c",
-          "text": "En typ av tåg",
+          "text": "En typ av tåg längs med västkusten",
           "feedback": "Fel. Kaisendon är en maträtt, en skål ris med skaldjur, inte ett tåg."
         },
         {
           "id": "d",
-          "text": "En soppa med frukt",
+          "text": "En söt soppa av frukt och bär",
           "feedback": "Fel. Kaisendon är en skål ris med skaldjur, inte en soppa med frukt."
         }
       ]
@@ -239,23 +239,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Klimat, råvaror och historia",
+          "text": "Klimat, råvaror och lokal historia",
           "correct": true,
           "feedback": "Rätt. Maten skiljer sig åt med klimat, råvaror och historia."
         },
         {
           "id": "b",
-          "text": "Slumpen",
+          "text": "Slumpen och olika tillfälligheter",
           "feedback": "Fel. Kapitlet förklarar skillnaderna med klimat, råvaror och historia."
         },
         {
           "id": "c",
-          "text": "Lagen",
-          "feedback": "Fel. Kapitlet förklarar skillnaderna med klimat, råvaror och historia, inte med lagen."
+          "text": "Lagar som bestämmer vad man får äta",
+          "feedback": "Fel. Kapitlet förklarar skillnaderna med klimat, råvaror och historia, inte med lagar."
         },
         {
           "id": "d",
-          "text": "Skolan",
+          "text": "Skolans läroplan och vad lärarna väljer",
           "feedback": "Fel. Kapitlet förklarar skillnaderna med klimat, råvaror och historia, inte med skolan."
         }
       ]
@@ -272,17 +272,17 @@
         },
         {
           "id": "b",
-          "text": "Att kritisera",
+          "text": "Att kritisera allt som skiljer sig från hemma",
           "feedback": "Fel. Kapitlet säger att lokala varianter inte är fel versioner av något annat."
         },
         {
           "id": "c",
-          "text": "Att äta samma sak överallt",
+          "text": "Att äta samma sak överallt och undvika lokala rätter",
           "feedback": "Fel. Kapitlet uppmuntrar att smaka lokala specialiteter, vilket skiljer sig mellan regioner."
         },
         {
           "id": "d",
-          "text": "Att hoppa över måltider",
+          "text": "Att hoppa över måltider och äta bara snabbmat",
           "feedback": "Fel. Kapitlet uppmuntrar att fråga om specialiteten och smaka, inte att hoppa över måltider."
         }
       ]

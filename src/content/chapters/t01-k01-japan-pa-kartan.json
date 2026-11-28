@@ -251,23 +251,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Nya öar har bildats av vulkanutbrott.",
+          "text": "Nya öar har bildats genom vulkanutbrott och landhöjning under de senaste åren",
           "feedback": "Fel. Enstaka öar kan bildas, men ökningen kommer inte därifrån."
         },
         {
           "id": "b",
-          "text": "Man mätte om med bättre digitala kartor, med samma storlekskriterium som förut.",
+          "text": "Man mätte om med bättre digitala kartor och samma storlekskriterium.",
           "correct": true,
           "feedback": "Rätt. Bättre kartor visade öar som tidigare räknats ihop med land eller varandra. Landets yta förändrades inte."
         },
         {
           "id": "c",
-          "text": "Japan har utökat sitt område.",
+          "text": "Japan har utökat sitt område genom nya avtal med grannländerna",
           "feedback": "Fel. Omräkningen ändrade inte landets yta."
         },
         {
           "id": "d",
-          "text": "Man började räkna även konstgjorda öar.",
+          "text": "Man började räkna med konstgjorda öar och utfyllnader i hamnar",
           "feedback": "Fel. Uppgiften gäller naturlig mark. Konstgjord mark ingår inte."
         }
       ]
@@ -305,23 +305,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Samma väder över hela landet.",
+          "text": "Samma milda och soliga väder över hela landet, från Hokkaido ända till Okinawa",
           "feedback": "Fel. Skillnaderna mellan norr och söder är stora."
         },
         {
           "id": "b",
-          "text": "Oftast milt, svalare i norr, och tyfoner kan fortfarande förekomma. Kolla prognosen före avresa.",
+          "text": "Oftast milt, svalare i norr, och tyfoner kan förekomma. Kolla prognosen.",
           "correct": true,
           "feedback": "Rätt. Det är bakgrundskunskap, inte en garanti. Prognoser avgör."
         },
         {
           "id": "c",
-          "text": "Regnperiod över hela landet hela månaden.",
+          "text": "Den stora regnperioden, som pågår över hela landet hela månaden",
           "feedback": "Fel. Den stora regnperioden infaller tidigare, på försommaren."
         },
         {
           "id": "d",
-          "text": "Snö i hela Honshu.",
+          "text": "Kraftigt snöfall och minusgrader i hela Honshu, även i låglandet",
           "feedback": "Fel. I oktober är snö ovanligt i låglandet."
         }
       ]
